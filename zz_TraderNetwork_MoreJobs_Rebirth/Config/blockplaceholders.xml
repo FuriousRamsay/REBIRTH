@@ -1,0 +1,59 @@
+<Config>
+
+	<append xpath="/blockplaceholders/placeholder[@name='cntWorkstationsBustedRandomLootHelper']">
+		<block name="FuriousRamsayForge" prob="1" />
+		<block name="WorkbenchCircularMachine001_FR" prob="1" />
+		<block name="WorkbenchShredder001_FR" prob="1" />
+		<block name="WorkbenchDistiller001_FR" prob=".5" />
+	</append>
+
+	<append xpath="/blockplaceholders/placeholder[@name='cntForgeBustedRandomLootHelper']">
+		<block name="FuriousRamsayForge" prob="1" />
+		<block name="WorkbenchDistiller001_FR" prob=".5" />
+	</append>
+
+	<append xpath="/blockplaceholders/placeholder[@name='cntWorkbenchBustedRandomLootHelper']">
+		<block name="WorkbenchCircularMachine001_FR" prob="1" />
+		<block name="WorkbenchShredder001_FR" prob="1" />
+	</append>
+
+	<append xpath="/blockplaceholders/placeholder[@name='cntMicrowaveRandomLootHelper']">
+		<block name="WorkbenchGasStove001_FR" prob=".15" />
+	</append>
+
+	<append xpath="/blockplaceholders/placeholder[@name='cntCementMixerBustedRandomLootHelper']">
+		<block name="FuriousRamsayForge" prob="1" />
+		<block name="WorkbenchDistiller001_FR" prob=".5" />
+	</append>
+
+	<append xpath="/blockplaceholders/placeholder[@name='cntChemistryStationBustedRandomLootHelper']">
+		<block name="WorkbenchCircularMachine001_FR" prob="1" />
+	</append>
+
+
+	<!-- CHANGE PROBABILITIES -->
+	<setattribute xpath="/blockplaceholders/placeholder[@name='cntToolBoxRandomLootHelper']/block[@name='cntToolBoxOpen']" name="prob">.33</setattribute>
+	<setattribute xpath="/blockplaceholders/placeholder[@name='cntToolBoxRandomLootHelper']/block[@name='cntToolBoxClosed']" name="prob">.66</setattribute>
+	<setattribute xpath="/blockplaceholders/placeholder[@name='cntRollingToolBoxRandomLootHelper']/block[@name='cntRollingToolBoxOpen']" name="prob">.33</setattribute>
+	<setattribute xpath="/blockplaceholders/placeholder[@name='cntRollingToolBoxRandomLootHelper']/block[@name='cntRollingToolBoxClosed']" name="prob">.66</setattribute>
+	<setattribute xpath="/blockplaceholders/placeholder[@name='cntGasGrillRandomLootHelper']/block[@name='cntGasGrillOpen']" name="prob">.33</setattribute>
+	<setattribute xpath="/blockplaceholders/placeholder[@name='cntGasGrillRandomLootHelper']/block[@name='cntGasGrillClosed']" name="prob">.66</setattribute>
+
+	<append xpath="/blockplaceholders">
+
+		<placeholder name="FuriousRamsayBirdNestLootHelper">
+			<block name="FuriousRamsayBirdNest" prob=".7"/>
+			<block name="FuriousRamsayBirdNestEggs" prob=".8"/>
+			<block name="FuriousRamsayBirdNestFeathers" prob="1"/>
+		</placeholder>
+
+		<placeholder name="FuriousRamsayStumpHelper">
+			<block name="treeStump" prob=".8"/>
+			<block name="FuriousRamsayStump001" prob="1"/>
+			<block name="FuriousRamsayStump002" prob=".35"/>
+			<block name="FuriousRamsayStump003" prob="1"/>
+		</placeholder>
+
+	</append>
+
+</Config>

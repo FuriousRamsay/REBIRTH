@@ -1,0 +1,228 @@
+<configs>
+
+	<append xpath="/entity_classes">
+
+		<entity_class name="FuriousRamsayNPCPanther001_FR" extends="npcAnimalMeleeTemplate">
+			<property name="Tags" value="entity,animal,npc,FuriousRamsayNPCPanther,DRMid,perkAT03"/>
+			<property name="Faction" value="companionanimals"/>
+			<property name="MapIcon" value="ui_game_symbol_tracking_wolf"/>
+			<property name="TrackerIcon" value="ui_game_symbol_tracking_wolf"/>
+			<property name="HasRagdoll" value="false"/>
+			<property name="HasDeathAnim" value="true"/>
+			<property name="RootMotion" value="false"/>
+			<!--<property name="PhysicsBody" value="FuriousRamsayAnimalPanther"/>-->
+			<property name="IsEntityAnimal" value="true"/> 
+			<property name="IsEnemyEntity" value="false"/> 			
+			<property name="Mesh" value="#@modfolder:Resources/FR_Animals.unity3d?Panther001_FR"/>
+			<property name="HandItem" value="FuriousRamsayMeleeHandPanther"/>
+			<property name="ExperienceGain" value="300"/>
+			<property name="DeadBodyHitPoints" value="200"/>
+			<property name="Weight" value="5"/>
+			<property name="Mass" value="200"/>
+			<property name="Buffs" value="FuriousRamsayAnimal2Attacks"/>
+
+			<property name="SoundRandom" value=""/>
+			<property name="SoundAlert" value=""/>
+			<property name="SoundHurt" value="wolfpain"/>
+			<property name="SoundDeath" value="wolfdeath"/>
+			<property name="SoundAttack" value="wolfattack"/>
+			<property name="SoundSense" value=""/>
+			<property name="SoundGiveUp" value=""/>
+
+			<property name="AIPackages" value="FuriousRamsayNPCAnimalBasic, FuriousRamsayNPCMeleeCompanion, FuriousRamsayNPCHiredCompanion "/>
+
+			<property name="MaxViewAngle" value="360"/>
+			<property name="NPCID" value="FuriousRamsayNPCAnimal"/> 
+
+			<property class="Boundary" >
+				<property name="BoundaryBox" value=".2,.3,1.1" />
+				<property name="Center" value="0,0,0"/>
+			</property>
+
+			<property name="Names" value="Phantom,Bagheera,Black Magic,Casper,Noir,Jinx,Nightmare,Menace,Licorice,Shade,Midnight,Mystique,Shadow" />		
+			<property name="HireCurrency" value="foodRawMeat" />
+			<property name="HireCost" value="1" />
+
+			<property name="MoveSpeed" value=".2"/>
+			<property name="MoveSpeedAggro" value="1.5, 1.5"/> 
+			<property name="MoveSpeedPanic" value="1.5"/>
+
+			<effect_group name="Base Effects">
+				<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
+				<passive_effect name="HealthMax" operation="base_set" value="500"/>
+				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
+				<passive_effect name="StaminaMax" operation="base_set" value="100"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_set" value="10" />
+				<passive_effect name="BuffResistance" operation="base_set" value="5" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffInfectionCatch,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"/>
+				<passive_effect name="BuffResistance" operation="base_add" value="2" tags="buffInjuryBleeding,buffInjuryBleedingZombie,buffInfectionCatch"/>
+				<passive_effect name="BuffResistance" operation="base_add" value="2" tags="buffLegSprained,buffLegBroken,buffArmSprained,buffPlayerFallingDamage"/>
+			</effect_group>	
+		</entity_class>	
+
+		<entity_class name="FuriousRamsayNPCHorrorPanther" extends="npcAnimalMeleeTemplate">
+			<property name="Tags" value="entity,animal,npc,FuriousRamsayNPCHorrorPanther,DRMid,perkAT03"/>
+			<property name="Faction" value="companionanimals"/>
+			<property name="MapIcon" value="ui_game_symbol_tracking_wolf"/>
+			<property name="TrackerIcon" value="ui_game_symbol_tracking_wolf"/>
+			<property name="HasRagdoll" value="false"/>
+			<property name="HasDeathAnim" value="true"/>
+			<property name="RootMotion" value="false"/>
+			<!--<property name="PhysicsBody" value="FuriousRamsayAnimalPanther"/>-->
+			<property name="IsEntityAnimal" value="true"/> 
+			<property name="IsEnemyEntity" value="false"/> 			
+			<property name="Mesh" value="#@modfolder:Resources/FR_Animals.unity3d?Panther002_FR"/>
+			<property name="HandItem" value="FuriousRamsayMeleeHandPanther"/>
+			<property name="ExperienceGain" value="300"/>
+			<property name="DeadBodyHitPoints" value="200"/>
+			<property name="Weight" value="5"/>
+			<property name="Mass" value="200"/>
+			<property name="Buffs" value="FuriousRamsayAnimal2Attacks"/>
+
+			<property name="SoundRandom" value=""/>
+			<property name="SoundAlert" value=""/>
+			<property name="SoundHurt" value="wolfpain"/>
+			<property name="SoundDeath" value="wolfdeath"/>
+			<property name="SoundAttack" value="wolfattack"/>
+			<property name="SoundSense" value=""/>
+			<property name="SoundGiveUp" value=""/>
+
+			<property name="AIPackages" value="FuriousRamsayNPCAnimalBasic, FuriousRamsayNPCMeleeCompanion, FuriousRamsayNPCHiredCompanion "/>
+
+			<property name="MaxViewAngle" value="360"/>
+			<property name="NPCID" value="FuriousRamsayNPCAnimal"/> 
+
+			<property class="Boundary" >
+				<property name="BoundaryBox" value=".2,.3,1.1" />
+				<property name="Center" value="0,0,0"/>
+			</property>
+
+			<property name="Names" value="Phantom" />		
+			<property name="HireCurrency" value="foodRawMeat" />
+			<property name="HireCost" value="1" />
+
+			<property name="MoveSpeed" value=".2"/>
+			<property name="MoveSpeedAggro" value="1.5, 1.5"/> 
+			<property name="MoveSpeedPanic" value="1.5"/>
+
+			<effect_group name="Base Effects">
+				<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
+				<passive_effect name="HealthMax" operation="base_set" value="800"/>
+				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
+				<passive_effect name="StaminaMax" operation="base_set" value="100"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_set" value="20" />
+				<passive_effect name="BuffResistance" operation="base_set" value="5" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffInfectionCatch,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"/>
+				<passive_effect name="BuffResistance" operation="base_add" value="2" tags="buffInjuryBleeding,buffInjuryBleedingZombie,buffInfectionCatch"/>
+				<passive_effect name="BuffResistance" operation="base_add" value="2" tags="buffLegSprained,buffLegBroken,buffArmSprained,buffPlayerFallingDamage"/>
+			</effect_group>	
+		</entity_class>	
+
+		<entity_class name="FuriousRamsayNPCDog" extends="npcMeleeTemplate">
+			<property name="HideInSpawnMenu" value="true"/>	
+			<property name="SizeScale" value="1"/> 
+			<property name="Tags" value="entity,animal,npc,FuriousRamsayNPCPanther,DRMid,perkAT03"/>
+			<property name="Faction" value="companionanimals"/>
+			<property name="MapIcon" value="ui_game_symbol_tracking_wolf"/>
+			<property name="TrackerIcon" value="ui_game_symbol_tracking_wolf"/>
+			<property name="HasRagdoll" value="false"/>
+			<property name="HasDeathAnim" value="true"/>
+			<property name="RootMotion" value="false"/>
+			<!--<property name="PhysicsBody" value="FuriousRamsayAnimalDog"/>-->
+			<property name="IsEntityAnimal" value="true"/> 
+			<property name="IsEnemyEntity" value="false"/> 			
+			<property name="AvatarController" value="AvatarAnimalController"/> 
+			<property name="Mesh" value="#@modfolder:Resources/FR_Animals.unity3d?Pitbull001_FR"/>
+			<property name="ExperienceGain" value="300"/>
+			<property name="DeadBodyHitPoints" value="200"/>
+			<property name="Weight" value="5"/>
+			<property name="Mass" value="200"/>
+
+			<property name="HandItem" value="FuriousRamsayMeleeHandDog"/>
+
+			<property name="SoundRandom" value=""/>
+			<property name="SoundAlert" value=""/>
+			<property name="SoundHurt" value="zombiedogpain"/>
+			<property name="SoundAttack" value="zombiedogattack"/>
+			<property name="SoundDeath" value="wolfdeath"/>
+			<property name="SoundSense" value=""/>
+			<property name="SoundGiveUp" value=""/>
+
+			<property name="AIPackages" value="FuriousRamsayNPCAnimalBasic, FuriousRamsayNPCMeleeCompanion, FuriousRamsayNPCHiredCompanion "/>
+
+			<property name="MaxViewAngle" value="360"/>
+			<property name="NPCID" value="FuriousRamsayNPCAnimal"/> 
+
+			<property class="Boundary" >
+				<property name="BoundaryBox" value=".2,.3,1.1" />
+				<property name="Center" value="0,0,0"/>
+			</property>
+
+			<property name="Names" value="Phantom" />		
+			<property name="HireCurrency" value="foodRawMeat" />
+			<property name="HireCost" value="1" />
+
+			<property name="MoveSpeed" value=".3"/>
+			<property name="MoveSpeedAggro" value="1.5, 1.5"/> 
+			<property name="MoveSpeedPanic" value="1.5"/>
+
+			<effect_group name="FuriousRamsayAnimalBuffs">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayAnimal3Attacks"/> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayAnimalPain3Hits"/> 
+			</effect_group>	
+
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="400"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_set" value="10" />
+			</effect_group>	
+		</entity_class>	
+
+		<entity_class name="FuriousRamsayNPCShepherd001_FR" extends="FuriousRamsayNPCDog">
+			<property name="Tags" value="entity,animal,npc,FuriousRamsayNPCShepherd001_FR,DRMid,perkAT03"/>
+			<property name="Mesh" value="#@modfolder:Resources/FR_Animals.unity3d?Shepherd001_FR"/>
+			<property name="Names" value="Aero,Autumn,Biscuit,Blondie,Brownie,Bingo,Buffy,Blaze,Brutus,Bubba,Buddy,Buster,Butch,Buzz,Cain,Chester,Chewy,Coco,Diesel,Gypsy,Flash,Gizmo,King,Lucky,Oreo,Mocha,Pepper,Rex,Rocco,Romeo,Rusty,Smoky,Spike,Spot,Storm,Tank,Taz,Willow,Zeus" />		
+			<property name="HireCost" value="1" />
+		</entity_class>	
+		<entity_class name="FuriousRamsayNPCPitbull001_FR" extends="FuriousRamsayNPCDog">
+			<property name="Tags" value="entity,animal,npc,FuriousRamsayNPCPitbull001_FR,DRMid,perkAT03"/>
+			<property name="Mesh" value="#@modfolder:Resources/FR_Animals.unity3d?Pitbull001_FR"/>
+			<property name="Names" value="Aero,Autumn,Biscuit,Blondie,Brownie,Bingo,Buffy,Blaze,Brutus,Bubba,Buddy,Buster,Butch,Buzz,Cain,Chester,Chewy,Coco,Diesel,Gypsy,Flash,Gizmo,King,Lucky,Oreo,Mocha,Pepper,Rex,Rocco,Romeo,Rusty,Smoky,Spike,Spot,Storm,Tank,Taz,Willow,Zeus" />		
+			<property name="HireCost" value="1" />
+		</entity_class>	
+		<entity_class name="FuriousRamsayNPCLabrador001_FR" extends="FuriousRamsayNPCDog">
+			<property name="Tags" value="entity,animal,npc,FuriousRamsayNPCLabrador001_FR,DRMid,perkAT03"/>
+			<property name="Mesh" value="#@modfolder:Resources/FR_Animals.unity3d?Labrador001_FR"/>
+			<property name="Names" value="Aero,Autumn,Biscuit,Blondie,Brownie,Bingo,Buffy,Blaze,Brutus,Bubba,Buddy,Buster,Butch,Buzz,Cain,Chester,Chewy,Coco,Diesel,Gypsy,Flash,Gizmo,King,Lucky,Oreo,Mocha,Pepper,Rex,Rocco,Romeo,Rusty,Smoky,Spike,Spot,Storm,Tank,Taz,Willow,Zeus" />		
+			<property name="HireCost" value="1" />
+		</entity_class>	
+		<entity_class name="FuriousRamsayNPCHusky001_FR" extends="FuriousRamsayNPCDog">
+			<property name="Tags" value="entity,animal,npc,FuriousRamsayNPCHusky001_FR,DRMid,perkAT03"/>
+			<property name="Mesh" value="#@modfolder:Resources/FR_Animals.unity3d?Husky001_FR"/>
+			<property name="Names" value="Aero,Autumn,Biscuit,Blondie,Brownie,Bingo,Buffy,Blaze,Brutus,Bubba,Buddy,Buster,Butch,Buzz,Cain,Chester,Chewy,Coco,Diesel,Gypsy,Flash,Gizmo,King,Lucky,Oreo,Mocha,Pepper,Rex,Rocco,Romeo,Rusty,Smoky,Spike,Spot,Storm,Tank,Taz,Willow,Zeus" />		
+			<property name="HireCost" value="1" />
+		</entity_class>	
+		<entity_class name="FuriousRamsayNPCGoldenRetriever001_FR" extends="FuriousRamsayNPCDog">
+			<property name="Tags" value="entity,animal,npc,FuriousRamsayNPCGoldenRetriever001_FR,DRMid,perkAT03"/>
+			<property name="Mesh" value="#@modfolder:Resources/FR_Animals.unity3d?GoldenRetriever001_FR"/>
+			<property name="Names" value="Aero,Autumn,Biscuit,Blondie,Brownie,Bingo,Buffy,Blaze,Brutus,Bubba,Buddy,Buster,Butch,Buzz,Cain,Chester,Chewy,Coco,Diesel,Gypsy,Flash,Gizmo,King,Lucky,Oreo,Mocha,Pepper,Rex,Rocco,Romeo,Rusty,Smoky,Spike,Spot,Storm,Tank,Taz,Willow,Zeus" />		
+			<property name="HireCost" value="1" />
+		</entity_class>	
+		<entity_class name="FuriousRamsayNPCDoberman001_FR" extends="FuriousRamsayNPCDog">
+			<property name="Tags" value="entity,animal,npc,FuriousRamsayNPCDoberman001_FR,DRMid,perkAT03"/>
+			<property name="Mesh" value="#@modfolder:Resources/FR_Animals.unity3d?Doberman001_FR"/>
+			<property name="Names" value="Aero,Autumn,Biscuit,Blondie,Brownie,Bingo,Buffy,Blaze,Brutus,Bubba,Buddy,Buster,Butch,Buzz,Cain,Chester,Chewy,Coco,Diesel,Gypsy,Flash,Gizmo,King,Lucky,Oreo,Mocha,Pepper,Rex,Rocco,Romeo,Rusty,Smoky,Spike,Spot,Storm,Tank,Taz,Willow,Zeus" />		
+			<property name="HireCost" value="1" />
+		</entity_class>	
+		<entity_class name="FuriousRamsayNPCDalmatian001_FR" extends="FuriousRamsayNPCDog">
+			<property name="Tags" value="entity,animal,npc,FuriousRamsayNPCDalmatian001_FR,DRMid,perkAT03"/>
+			<property name="Mesh" value="#@modfolder:Resources/FR_Animals.unity3d?Dalmatian001_FR"/>
+			<property name="Names" value="Aero,Autumn,Biscuit,Blondie,Brownie,Bingo,Buffy,Blaze,Brutus,Bubba,Buddy,Buster,Butch,Buzz,Cain,Chester,Chewy,Coco,Diesel,Gypsy,Flash,Gizmo,King,Lucky,Oreo,Mocha,Pepper,Rex,Rocco,Romeo,Rusty,Smoky,Spike,Spot,Storm,Tank,Taz,Willow,Zeus" />		
+			<property name="HireCost" value="1" />
+		</entity_class>	
+		<entity_class name="FuriousRamsayNPCBullTerrier001_FR" extends="FuriousRamsayNPCDog">
+			<property name="Tags" value="entity,animal,npc,FuriousRamsayNPCBullTerrier001_FR,DRMid,perkAT03"/>
+			<property name="Mesh" value="#@modfolder:Resources/FR_Animals.unity3d?BullTerrier001_FR"/>
+			<property name="Names" value="Aero,Autumn,Biscuit,Blondie,Brownie,Bingo,Buffy,Blaze,Brutus,Bubba,Buddy,Buster,Butch,Buzz,Cain,Chester,Chewy,Coco,Diesel,Gypsy,Flash,Gizmo,King,Lucky,Oreo,Mocha,Pepper,Rex,Rocco,Romeo,Rusty,Smoky,Spike,Spot,Storm,Tank,Taz,Willow,Zeus" />		
+			<property name="HireCost" value="1" />
+		</entity_class>	
+			
+	</append>
+</configs>

@@ -1,0 +1,6 @@
+<Config>
+	
+	<!-- SET GLOBAL LOOT DELAY -->
+	<setattribute xpath="/lootcontainers/lootcontainer" name="open_time">0</setattribute>
+    	
+</Config>

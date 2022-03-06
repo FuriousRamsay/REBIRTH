@@ -1,0 +1,32 @@
+<Config>
+
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage/spawn/@maxAlive">11</set>
+
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='08']/spawn/@num">8</set>
+	<setattribute xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='08']/spawn" name="group">FuriousRamsayWanderingHordeStage08</setattribute>
+
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='12']/spawn/@num">8</set>
+	<setattribute xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='12']/spawn" name="group">FuriousRamsayWanderingHordeStage12</setattribute>
+
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='20']/spawn/@num">8</set>
+	<setattribute xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='20']/spawn" name="group">FuriousRamsayWanderingHordeStage20</setattribute>
+
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='34']/spawn/@num">8</set>
+	<setattribute xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='34']/spawn" name="group">FuriousRamsayWanderingHordeStage34</setattribute>
+
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='38']/spawn/@num">8</set>
+	<setattribute xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='38']/spawn" name="group">FuriousRamsayWanderingHordeStage38</setattribute>
+
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='41']/spawn/@num">8</set>
+	<setattribute xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='41']/spawn" name="group">FuriousRamsayWanderingHordeStage41</setattribute>
+
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='44']/spawn/@num">8</set>
+	<setattribute xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='44']/spawn" name="group">FuriousRamsayWanderingHordeStage44</setattribute>
+
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='47']/spawn/@num">8</set>
+	<setattribute xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='47']/spawn" name="group">FuriousRamsayWanderingHordeStage47</setattribute>
+
+	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='49']/spawn/@num">8</set>
+	<setattribute xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='49']/spawn" name="group">FuriousRamsayWanderingHordeStage50</setattribute>
+
+</Config>

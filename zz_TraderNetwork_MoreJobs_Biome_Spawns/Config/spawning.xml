@@ -1,0 +1,74 @@
+<Config>
+
+	<!--<setattribute xpath="/spawning/biome[@name='pine_forest']/spawn[@time='Day' and @entitygroup='ZombiesAll']" name="maxcount">4</setattribute>
+	<setattribute xpath="/spawning/biome[@name='pine_forest']/spawn[@time='Night' and @entitygroup='ZombiesNight']" name="maxcount">8</setattribute>
+	<setattribute xpath="/spawning/biome[@name='pine_forest']/spawn[@time='Night' and @entitygroup='EnemyAnimalsForest']" name="maxcount">2</setattribute>
+	
+	<setattribute xpath="/spawning/biome[@name='burnt_forest']/spawn[@time='Day' and @entitygroup='ZombiesBurntForest']" name="maxcount">4</setattribute>
+	<setattribute xpath="/spawning/biome[@name='burnt_forest']/spawn[@time='Night' and @entitygroup='ZombiesNight']" name="maxcount">8</setattribute>
+	<setattribute xpath="/spawning/biome[@name='burnt_forest']/spawn[@time='Night' and @entitygroup='EnemyAnimalsBurntForest']" name="maxcount">2</setattribute>
+
+	<setattribute xpath="/spawning/biome[@name='desert']/spawn[@time='Any' and @entitygroup='ZombiesAll']" name="maxcount">4</setattribute>
+	<setattribute xpath="/spawning/biome[@name='desert']/spawn[@time='Night' and @entitygroup='ZombiesNight']" name="maxcount">8</setattribute>
+	<setattribute xpath="/spawning/biome[@name='desert']/spawn[@time='Any' and @entitygroup='EnemyAnimalsDesert']" name="maxcount">2</setattribute>
+	
+	<setattribute xpath="/spawning/biome[@name='wasteland']/spawn[@time='Day' and @entitygroup='ZombiesWasteland']" name="maxcount">8</setattribute>
+	<setattribute xpath="/spawning/biome[@name='wasteland']/spawn[@time='Night' and @entitygroup='ZombiesWastelandNight']" name="maxcount">12</setattribute>
+	<setattribute xpath="/spawning/biome[@name='wasteland']/spawn[@time='Any' and @entitygroup='EnemyAnimalsWasteland']" name="maxcount">3</setattribute>
+	
+	<setattribute xpath="/spawning/biome[@name='snow']/spawn[@time='Any' and @entitygroup='SnowZombies']" name="maxcount">4</setattribute>
+	<setattribute xpath="/spawning/biome[@name='snow']/spawn[@time='Night' and @entitygroup='ZombiesNight']" name="maxcount">8</setattribute>
+	<setattribute xpath="/spawning/biome[@name='snow']/spawn[@time='Any' and @entitygroup='EnemyAnimalsSnow']" name="maxcount">2</setattribute>-->
+
+	<!--<append xpath="/spawning/biome[@name='pine_forest']">
+
+		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="FuriousRamsayBiomeSpawnsGroup1"/>
+		<spawn maxcount="2" respawndelay="3" time="Night" entitygroup="FuriousRamsayBiomeSpawnsGroup4"/>
+		<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="FuriousRamsayBiomeSpawnsForestMutants"/>
+		
+	</append>
+		
+	<append xpath="/spawning/biome[@name='burnt_forest']">
+
+		<spawn maxcount="1" respawndelay="2" time="Day" entitygroup="FuriousRamsayBiomeSpawnsGroup1"/>
+		<spawn maxcount="2" respawndelay="1" time="Any" entitygroup="FuriousRamsayBiomeSpawnsGroup2"/>
+		<spawn maxcount="2" respawndelay="2" time="Night" entitygroup="FuriousRamsayBiomeSpawnsGroup3"/>
+		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="FuriousRamsayBiomeSpawnsGroup13"/>
+		<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="FuriousRamsayBiomeSpawnsBurntForestMutants"/>
+
+	</append>
+
+	<append xpath="/spawning/biome[@name='desert']">
+
+		<spawn maxcount="1" respawndelay="2" time="Day" entitygroup="FuriousRamsayBiomeSpawnsGroup1"/>
+		<spawn maxcount="2" respawndelay="1" time="Any" entitygroup="FuriousRamsayBiomeSpawnsGroup2"/>
+		<spawn maxcount="2" respawndelay="2" time="Night" entitygroup="FuriousRamsayBiomeSpawnsGroup7"/>
+		<spawn maxcount="2" respawndelay="1" time="Day" entitygroup="FuriousRamsayBiomeSpawnsGroup12"/>
+		<spawn maxcount="2" respawndelay="1" time="Any" entitygroup="FuriousRamsayBiomeSpawnsGroup5"/>
+		<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="FuriousRamsayBiomeSpawnsDesertMutants"/>
+
+	</append>
+
+	<append xpath="/spawning/biome[@name='wasteland']">
+
+		<spawn maxcount="4" respawndelay="0.05" time="Day" entitygroup="FuriousRamsayBiomeSpawnsGroup8"/>
+		<spawn maxcount="4" respawndelay="0.05" time="Night" entitygroup="FuriousRamsayBiomeSpawnsGroup10"/>
+		<spawn maxcount="4" respawndelay="0.05" time="Any" entitygroup="FuriousRamsayBiomeSpawnsGroup11"/>
+		<spawn maxcount="4" respawndelay="0.05" time="Day" entitygroup="FuriousRamsayBiomeSpawnsGroup12"/>
+		<spawn maxcount="4" respawndelay="0.05" time="Day" entitygroup="FuriousRamsayBiomeSpawnsGroup13"/>
+		<spawn maxcount="4" respawndelay="0.05" time="Night" entitygroup="FuriousRamsayBiomeSpawnsGroup5"/>
+		<spawn maxcount="1" respawndelay="0.5" time="Any" entitygroup="FuriousRamsayBiomeSpawnsWastelandMutants"/>
+
+	</append>
+
+	<append xpath="/spawning/biome[@name='snow']">
+
+		<spawn maxcount="1" respawndelay="2" time="Day" entitygroup="FuriousRamsayBiomeSpawnsGroup1"/>
+		<spawn maxcount="2" respawndelay="1" time="Day" entitygroup="FuriousRamsayBiomeSpawnsGroup6"/>
+		<spawn maxcount="2" respawndelay="2" time="Night" entitygroup="FuriousRamsayBiomeSpawnsGroup9"/>
+		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="FuriousRamsayBiomeSpawnsGroup13"/>
+		<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="FuriousRamsayBiomeSpawnsSnowMutants"/>
+
+	</append>-->
+
+</Config>

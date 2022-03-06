@@ -1,0 +1,55 @@
+Key,Source,Context,English
+
+FuriousRamsayFarmerTraderNote,items,Quest,Summon Trader (Farmer)
+FuriousRamsayFarmerTraderNoteDesc,items,Quest,"Instructions on how to summon the Farmer Trader.\n\nFind an area of your choice, make sure it is clear.\n\nOnce summoned, stay put until they show up or they may simply not.\n\n[d95959]Whichever spot you pick will become their permanent location[-]"
+FuriousRamsayHandymanTraderNote,items,Quest,Summon Trader (Handyman)
+FuriousRamsayHandymanTraderNoteDesc,items,Quest,"Instructions on how to summon the Handyman Trader.\n\nFind an area of your choice, make sure it is clear.\n\nOnce summoned, stay put until they show up or they may simply not.\n\n[d95959]Whichever spot you pick will become their permanent location[-]"
+FuriousRamsayBlackShieldTraderNote,items,Quest,Summon Trader (Black Shield)
+FuriousRamsayBlackShieldTraderNoteDesc,items,Quest,"Instructions on how to summon the Black Shield Trader.\n\nFind an area of your choice, make sure it is clear.\n\nOnce summoned, stay put until they show up or they may simply not.\n\n[d95959]Whichever spot you pick will become their permanent location[-]"
+
+FuriousRamsayFarmerTrader,blocks,Block,Farmer Katie
+FuriousRamsayFarmerTraderDesc,blocks,Block,"Summon the Farmer Trader.\n\nFind an area of your choice, make sure it is clear.\n\nOnce summoned, stay put until they show up or they may simply not.\n\n[d95959]Whichever spot you pick will become their permanent location[-]"
+FuriousRamsayHandymanTrader,blocks,Block,Handyman Luke
+FuriousRamsayHandymanTraderDesc,blocks,Block,"Summon the Handyman Trader.\n\nFind an area of your choice, make sure it is clear.\n\nOnce summoned, stay put until they show up or they may simply not.\n\n[d95959]Whichever spot you pick will become their permanent location[-]"
+FuriousRamsayBlackShieldTrader,blocks,Block,Black Shield Trader
+FuriousRamsayBlackShieldDesc,blocks,Block,"Summon the Black Shield Trader.\n\nFind an area of your choice, make sure it is clear.\n\nOnce summoned, stay put until they show up or they may simply not.\n\n[d95959]Whichever spot you pick will become their permanent location[-]"
+
+FuriousRamsayNPCBlackShieldTraderReward,entityclasses,Entity,Black Shield Trader
+FuriousRamsayNPCFarmerKatieTraderReward,entityclasses,Entity,Farmer Katie
+FuriousRamsayNPCHandymanLukeTraderReward,entityclasses,Entity,Handyman Luke
+
+qc_FuriousRamsayFarmerTrader,items,Quest,Locate a Farmer Trader
+qc_FuriousRamsayFarmerTraderDesc,items,Quest,Instructions leading you to the Farmer Trader
+
+qc_FuriousRamsayHandymanTrader,items,Quest,Locate a Handyman Trader
+qc_FuriousRamsayHandymanTraderDesc,items,Quest,Instructions leading you to the Handyman Trader
+
+qc_FuriousRamsayBlackShieldTrader,items,Quest,Locate a Black Shield Trader
+qc_FuriousRamsayBlackShieldTraderDesc,items,Quest,Instructions leading you to a Black Shield Trader
+
+quest_FuriousRamsayPlaceFarmerTrader_subtitle,Quests,Quests,The Farmer Trader
+quest_FuriousRamsayPlaceFarmerTrader_description,Quests,Quests,The Farmer Trader has agreed to work with you given you have completed 10 Tier 1 quests
+quest_FuriousRamsayPlaceFarmerTrader_title,Quests,Quests,The Farmer Trader
+
+quest_FuriousRamsayPlaceHandymanTrader_subtitle,Quests,Quests,The Handyman Trader
+quest_FuriousRamsayPlaceHandymanTrader_description,Quests,Quests,The Handyman Trader has agreed to work with you given you have completed 10 Tier 2 quests
+quest_FuriousRamsayPlaceHandymanTrader_title,Quests,Quests,The Handyman Trader
+
+quest_FuriousRamsayPlaceBlackShieldTrader_subtitle,Quests,Quests,The Black Shield Trader
+quest_FuriousRamsayPlaceBlackShieldTrader_description,Quests,Quests,The Black Shield Trader has agreed to work with you given you have completed 10 Tier 3 quests
+quest_FuriousRamsayPlaceBlackShieldTrader_title,Quests,Quests,The Black Shield Trader
+
+quest_FuriousRamsayPlaceFarmerTrader_title,Quest,Quest Info,"Tier 1 Quest Chain Completed"
+quest_FuriousRamsayPlaceFarmerTrader,Quest,Quest Info,"Congratulations. You have successfully completed 10 Tier 1 quests from the Trader Network\n\nThe Duke wants to show his appreciation for all of your hard work by introducing you to his Farmer Trader.\n\nKatie is a lovely lady and has quite the supply of food and drinks.\n\nEnjoy!"
+quest_FuriousRamsayPlacedFarmerTrader_title,Quest,Quest Info,"The Farmer Trader"
+quest_FuriousRamsayPlacedFarmerTrader,Quest,Quest Info,"Katie will soon arrive.\n\nBe sure to check out her job postings, she definitely has some interesting challenges for you.\n\nShe'll also open up her secret stash to you once you get to Better Barter 3."
+
+quest_FuriousRamsayPlaceHandymanTrader_title,Quest,Quest Info,"Tier 2 Quest Chain Completed"
+quest_FuriousRamsayPlaceHandymanTrader,Quest,Quest Info,"Congratulations. You have successfully completed 10 Tier 2 quests from the Trader Network\n\nThe Duke wants to show his appreciation for all of your hard work by introducing you to his Handyman Trader.\n\nLuke is his goto guy when it comes to anything tool-related."
+quest_FuriousRamsayPlacedHandymanTrader_title,Quest,Quest Info,"The Handyman Trader"
+quest_FuriousRamsayPlacedHandymanTrader,Quest,Quest Info,"Luke will soon arrive.\n\nBe sure to check out his job postings, his challenges aren't for the unskilled.\n\nJust like Katie, he'll also open up his secret stash to you once you get to Better Barter 3."
+
+quest_FuriousRamsayPlaceBlackShieldTrader_title,Quest,Quest Info,"Tier 3 Quest Chain Completed"
+quest_FuriousRamsayPlaceBlackShieldTrader,Quest,Quest Info,"Congratulations. You have successfully completed 10 Tier 3 quests from the Trader Network\n\nThe Duke wants to infiltrate the Black Shield by telling you about their main trader.\n\nNo matter what you do, do not trust them."
+quest_FuriousRamsayPlacedBlackShieldTrader_title,Quest,Quest Info,"The Black Shield Trader"
+quest_FuriousRamsayPlacedBlackShieldTrader,Quest,Quest Info,"The Black Shield Trader will soon arrive.\n\nYou have no idea what to expect, but if the Duke says he cannot be trusted, must be true.\n\nSuppose you'll fins out soon enough."

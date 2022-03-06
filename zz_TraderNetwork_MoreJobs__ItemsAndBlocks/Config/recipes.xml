@@ -1,0 +1,51 @@
+<Config>
+    
+	<append xpath="/recipes">
+
+		<recipe name="resourceCoal" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+
+		<recipe name="FuriousRamsayBurningTrap" craft_time="60" craft_area="campfire" always_unlocked="true">
+			<ingredient name="resourceRockSmall" count="35"/>
+			<ingredient name="resourceWood" count="100"/>
+			<ingredient name="resourceCoal" count="150"/>
+			<ingredient name="ammoGasCan" count="100"/>
+		</recipe>
+	
+		<recipe name="FuriousRamsayScreamerSignalTier1" craft_time="300" tags="learnable">
+			<ingredient name="resourceForgedSteel" count="30"/>
+			<ingredient name="foodRottingFlesh" count="200"/>
+			<ingredient name="resourceDuctTape" count="10"/>
+			<ingredient name="resourceAcid" count="12"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayScreamerSignalTier2" craft_time="300" tags="learnable">
+			<ingredient name="resourceForgedSteel" count="35"/>
+			<ingredient name="foodRottingFlesh" count="300"/>
+			<ingredient name="resourceDuctTape" count="15"/>
+			<ingredient name="resourceAcid" count="14"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayScreamerSignalTier3" craft_time="300" tags="learnable">
+			<ingredient name="resourceForgedSteel" count="40"/>
+			<ingredient name="foodRottingFlesh" count="400"/>
+			<ingredient name="resourceDuctTape" count="20"/>
+			<ingredient name="resourceAcid" count="16"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayScreamerSignalTier4" craft_time="300" tags="learnable">
+			<ingredient name="resourceForgedSteel" count="45"/>
+			<ingredient name="foodRottingFlesh" count="500"/>
+			<ingredient name="resourceDuctTape" count="25"/>
+			<ingredient name="resourceAcid" count="18"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayScreamerSignalTier5" craft_time="300" tags="learnable">
+			<ingredient name="resourceForgedSteel" count="50"/>
+			<ingredient name="foodRottingFlesh" count="600"/>
+			<ingredient name="resourceDuctTape" count="30"/>
+			<ingredient name="resourceAcid" count="20"/>
+		</recipe>
+
+	</append>
+    
+</Config>

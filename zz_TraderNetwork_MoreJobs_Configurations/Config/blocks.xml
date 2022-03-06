@@ -1,0 +1,28 @@
+<Config>
+
+<!-- SET PLANT GROWTH RATE IN MINUTES -->
+	<setattribute xpath="/blocks/block[@name='cropsGrowingMaster']/property[@name='PlantGrowing.GrowthRate']" name="value">60</setattribute>
+
+<!-- SET PLANT PROBABILITY TO GIVE BACK A SEED -->
+	<!--<setattribute xpath="/blocks/block[contains(@name,'HarvestPlayer')]/drop[@event='Destroy']" name="prob">1</setattribute>-->
+
+<!-- DISABLE TRADER PROTECTION -->
+	<setattribute xpath="/blocks/block[@name='ConfigFeatureBlock']/property[@class='AdvancedPrefabFeatures']/property[@name='DisableTraderProtection']" name="value">false</setattribute>
+
+<!-- CONFIGURE LOCK PICKING DEFAULTS -->
+	<setattribute xpath="/blocks/block[@name='ConfigFeatureBlock']/property[@class='AdvancedLockpicking']/property[@name='MaxGiveAmount']" name="value">10,8,6,4</setattribute>
+	<setattribute xpath="/blocks/block[@name='ConfigFeatureBlock']/property[@class='AdvancedLockpicking']/property[@name='BreakTime']" name="value">1.2,1.0,.8,.6</setattribute>
+
+<!-- ONE-BLOCK CROUCHING FOR PLAYERS -->
+	<setattribute xpath="/blocks/block[@name='ConfigFeatureBlock']/property[@class='AdvancedPlayerFeatures']/property[@name='OneBlockCrouch']" name="value">false</setattribute>
+
+<!-- ZOMBIE FEATURES -->
+	<!-- RANDOM WALKS -->
+	<setattribute xpath="/blocks/block[@name='ConfigFeatureBlock']/property[@class='AdvancedZombieFeatures']/property[@name='RandomWalk']" name="value">false</setattribute>
+	<!-- AVOID TRAPS -->
+	<setattribute xpath="/blocks/block[@name='ConfigFeatureBlock']/property[@class='AdvancedZombieFeatures']/property[@name='SmarterEntities']" name="value">false</setattribute>
+
+<!-- ADVANCED WORKSTATIONS -->
+	<setattribute xpath="/blocks/block[@name='ConfigFeatureBlock']/property[@class='AdvancedWorkstationFeatures']/property[@name='EnablePoweredWorkstations']" name="value">false</setattribute>
+
+</Config>

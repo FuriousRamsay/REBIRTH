@@ -1,0 +1,203 @@
+<Config>
+
+	<append xpath="//item_display">
+
+		<item_display_info display_type="FuriousRamsayAura" display_group="FuriousRamsayAuras">
+			<display_entry name="dAuraRange" title_key="FuriousRamsayStatAuraRange"/>
+		</item_display_info>
+
+		<item_display_info display_type="FuriousRamsayThrowingKnife" display_group="groupMelee">
+			<display_entry name="EntityDamage" title_key="FuriousRamsayStatEntityDamageThrown" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin"/>
+			<display_entry name="dEntityDamageSneak" title_key="statEntityDamageSneak" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="BlockDamage" title_key="statBlockDamage" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin"/>
+			<display_entry name="StaminaLoss" title_key="statStaminaLoss" negative_preferred="true"/>
+		</item_display_info>
+
+		<item_display_info display_type="FuriousRamsayFoodWaterDysentery" display_group="groupConsumables">
+			<display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+			<display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount" />
+			<display_entry name=".foodStaminaBonusAdd" title_key="statFoodStaminaBonus" />
+			<display_entry name="dDysenteryRisk" title_key="statDysenteryRisk" display_type="Percent" negative_preferred="true" />
+		</item_display_info>
+
+		<item_display_info display_type="FuriousRamsayFoodDysentery" display_group="groupConsumables">
+			<display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+			<display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+			<display_entry name=".foodStaminaBonusAdd" title_key="statFoodStaminaBonus" />
+			<display_entry name="dDysenteryRisk" title_key="statDysenteryRisk" display_type="Percent" negative_preferred="true" />
+		</item_display_info>
+
+	</append>
+
+<!--
+			<crafting_category name="Missions" icon="ui_game_symbol_quest" display_name="lblCategoryMissions" />
+			<crafting_category name="Books" icon="ui_game_symbol_book" display_name="lblCategoryBooks" />
+			<crafting_category name="Mods" icon="ui_game_symbol_assemble" display_name="lblCategoryMods" />
+			<crafting_category name="Basics" icon="ui_game_symbol_hammer" display_name="lblCategoryBasics" />
+			<crafting_category name="Building" icon="ui_game_symbol_map_house" display_name="lblCategoryBuilding" />
+			<crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources" />
+			<crafting_category name="Ammo/Weapons" icon="ui_game_symbol_knife" display_name="lblCategoryAmmoWeapons" />
+			<crafting_category name="Tools/Traps" icon="ui_game_symbol_tool" display_name="lblCategoryToolsTraps" />
+			<crafting_category name="CFDrink/Cooking" icon="ui_game_symbol_thirst" display_name="lblCategoryDrink" />
+			<crafting_category name="Food/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFoodCooking" />
+			<crafting_category name="Science" icon="ui_game_symbol_science" display_name="lblCategoryScience" />
+			<crafting_category name="Clothing" icon="ui_game_symbol_shirt" display_name="lblCategoryClothing" />
+			<crafting_category name="Decor/Miscellaneous" icon="ui_game_symbol_chair" display_name="lblCategoryDecorMisc" />
+			<crafting_category name="Chemicals" icon="ui_game_symbol_chemistry" display_name="lblCategoryChemicals" />
+			<crafting_category name="CFChemicals" icon="ui_game_symbol_chemistry" display_name="lblCategoryChemicals" />
+			<crafting_category name="Medical" icon="ui_game_symbol_medical" display_name="lblCategoryMedicine" />
+			<crafting_category name="AdvBuilding" icon="ui_game_symbol_map_fortress" display_name="lblCategoryAdvBuilding" />
+-->
+
+	<remove xpath="//crafting_category_display/crafting_category_list[@display_type='']"/>
+	<remove xpath="//crafting_category_display/crafting_category_list[@display_type='workbench']"/>
+	<remove xpath="//crafting_category_display/crafting_category_list[@display_type='cementMixer']"/>
+	<remove xpath="//crafting_category_display/crafting_category_list[@display_type='chemistryStation']"/>
+	<remove xpath="//crafting_category_display/crafting_category_list[@display_type='forge']"/>
+	<remove xpath="//crafting_category_display/crafting_category_list[@display_type='campfire']"/>
+
+	<append xpath="//crafting_category_display">
+
+		<crafting_category_list display_type="">
+			<crafting_category name="Basics" icon="ui_game_symbol_hammer" display_name="lblCategoryBasics" />
+			<crafting_category name="Building" icon="ui_game_symbol_map_house" display_name="lblCategoryBuilding" />
+			<crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources" />
+			<crafting_category name="Ammo/Weapons" icon="ui_game_symbol_knife" display_name="lblCategoryAmmoWeapons" />
+			<crafting_category name="Tools/Traps" icon="ui_game_symbol_tool" display_name="lblCategoryToolsTraps" />
+			<crafting_category name="Medical" icon="ui_game_symbol_medical" display_name="lblCategoryMedicine" />
+		</crafting_category_list>
+
+		<crafting_category_list display_type="workbench">
+			<crafting_category name="" icon="ui_game_symbol_all_blocks" display_name="lblAll"/>
+			<crafting_category name="Building" icon="ui_game_symbol_map_house" display_name="lblCategoryBuilding" />
+			<crafting_category name="Ammo/Weapons" icon="ui_game_symbol_knife" display_name="lblCategoryAmmoWeapons" />
+			<crafting_category name="Tools/Traps" icon="ui_game_symbol_tool" display_name="lblCategoryToolsTraps" />
+			<crafting_category name="Repair" icon="ui_game_symbol_tool_smithing" display_name="FuriousRamsayRepairLabel" />
+			<crafting_category name="Science" icon="ui_game_symbol_science" display_name="lblCategoryScience" />
+		</crafting_category_list>
+
+		<crafting_category_list display_type="cementMixer">
+			<crafting_category name="" icon="ui_game_symbol_all_blocks" display_name="lblAll"/>
+		</crafting_category_list>
+
+		<crafting_category_list display_type="chemistryStation">
+			<crafting_category name="" icon="ui_game_symbol_all_blocks" display_name="lblAll"/>
+		</crafting_category_list>
+
+		<crafting_category_list display_type="forge">
+			<crafting_category name="" icon="ui_game_symbol_all_blocks" display_name="lblAll"/>
+			<crafting_category name="Building" icon="ui_game_symbol_map_house" display_name="lblCategoryBuilding" />
+			<crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources" />
+			<crafting_category name="Ammo/Weapons" icon="ui_game_symbol_knife" display_name="lblCategoryAmmoWeapons" />
+			<crafting_category name="Tools/Traps" icon="ui_game_symbol_tool" display_name="lblCategoryToolsTraps" />
+			<crafting_category name="Aura" icon="ui_game_symbol_Aura" display_name="FuriousRamsayAuraLabel" />
+		</crafting_category_list>
+
+		<!-- COLLAPSED VERSIONS -->
+		<crafting_category_list display_type="cntCollapsedWorkbench">
+			<crafting_category name="" icon="ui_game_symbol_all_blocks" display_name="lblAll"/>
+			<crafting_category name="Building" icon="ui_game_symbol_map_house" display_name="lblCategoryBuilding" />
+			<crafting_category name="Ammo/Weapons" icon="ui_game_symbol_knife" display_name="lblCategoryAmmoWeapons" />
+			<crafting_category name="Tools/Traps" icon="ui_game_symbol_tool" display_name="lblCategoryToolsTraps" />
+			<crafting_category name="Science" icon="ui_game_symbol_science" display_name="lblCategoryScience" />
+		</crafting_category_list>
+
+		<crafting_category_list display_type="cntCollapsedCementMixer">
+			<crafting_category name="" icon="ui_game_symbol_all_blocks" display_name="lblAll"/>
+		</crafting_category_list>
+
+		<crafting_category_list display_type="cntCollapsedChemistryStation">
+			<crafting_category name="" icon="ui_game_symbol_all_blocks" display_name="lblAll"/>
+		</crafting_category_list>
+
+		<crafting_category_list display_type="cntCollapsedForge">
+			<crafting_category name="" icon="ui_game_symbol_all_blocks" display_name="lblAll"/>
+			<crafting_category name="Building" icon="ui_game_symbol_map_house" display_name="lblCategoryBuilding" />
+			<crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources" />
+			<crafting_category name="Ammo/Weapons" icon="ui_game_symbol_knife" display_name="lblCategoryAmmoWeapons" />
+			<crafting_category name="Tools/Traps" icon="ui_game_symbol_tool" display_name="lblCategoryToolsTraps" />
+			<crafting_category name="Aura" icon="ui_game_symbol_Aura" display_name="FuriousRamsayAuraLabel" />
+		</crafting_category_list>
+
+		<!-- CRAFTABLE VERSIONS -->
+		<crafting_category_list display_type="FuriousRamsayWorkbench">
+			<crafting_category name="" icon="ui_game_symbol_all_blocks" display_name="lblAll"/>
+			<crafting_category name="Building" icon="ui_game_symbol_map_house" display_name="lblCategoryBuilding" />
+			<crafting_category name="Ammo/Weapons" icon="ui_game_symbol_knife" display_name="lblCategoryAmmoWeapons" />
+			<crafting_category name="Tools/Traps" icon="ui_game_symbol_tool" display_name="lblCategoryToolsTraps" />
+			<crafting_category name="Repair" icon="ui_game_symbol_tool_smithing" display_name="FuriousRamsayRepairLabel" />
+			<crafting_category name="Science" icon="ui_game_symbol_science" display_name="lblCategoryScience" />
+		</crafting_category_list>
+
+		<crafting_category_list display_type="FuriousRamsayCementMixer">
+			<crafting_category name="" icon="ui_game_symbol_all_blocks" display_name="lblAll"/>
+		</crafting_category_list>
+
+		<crafting_category_list display_type="FuriousRamsayChemistryStation">
+			<crafting_category name="" icon="ui_game_symbol_all_blocks" display_name="lblAll"/>
+		</crafting_category_list>
+
+		<crafting_category_list display_type="FuriousRamsayFurnace">
+			<crafting_category name="" icon="ui_game_symbol_all_blocks" display_name="lblAll"/>
+		</crafting_category_list>
+
+		<crafting_category_list display_type="campfire">
+			<crafting_category name="" icon="ui_game_symbol_all_blocks" display_name="lblAll"/>
+			<crafting_category name="Food/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFoodCooking" />
+			<crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources" />
+		</crafting_category_list>
+
+		<crafting_category_list display_type="WorkbenchMortarPestle001_FR">
+			<crafting_category name="" icon="ui_game_symbol_all_blocks" display_name="lblAll"/>
+			<crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources" />
+			<crafting_category name="Food/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFoodCooking" />
+			<crafting_category name="Medical" icon="ui_game_symbol_medical" display_name="lblCategoryMedicine" />
+		</crafting_category_list>
+
+		<crafting_category_list display_type="WorkbenchToolbox001_FR">
+			<crafting_category name="Building" icon="ui_game_symbol_map_house" display_name="lblCategoryBuilding" />
+			<crafting_category name="Tools/Traps" icon="ui_game_symbol_tool" display_name="lblCategoryToolsTraps" />
+			<crafting_category name="Ammo/Weapons" icon="ui_game_symbol_knife" display_name="lblCategoryAmmoWeapons" />
+			<crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources" />
+			<crafting_category name="Robotics" icon="ui_game_symbol_assemble" display_name="FuriousRamsayRoboticsLabel" />
+			<crafting_category name="Explosives" icon="ui_game_symbol_explosion" display_name="FuriousRamsayExplosivesLabel" />
+			<crafting_category name="Medical" icon="ui_game_symbol_medical" display_name="lblCategoryMedicine" />
+		</crafting_category_list>
+
+		<crafting_category_list display_type="WorkbenchCircularMachine001_FR">
+			<crafting_category name="" icon="ui_game_symbol_all_blocks" display_name="lblAll"/>
+		</crafting_category_list>
+
+		<crafting_category_list display_type="FuriousRamsayForge">
+			<crafting_category name="" icon="ui_game_symbol_all_blocks" display_name="lblAll"/>
+			<crafting_category name="Building" icon="ui_game_symbol_map_house" display_name="lblCategoryBuilding" />
+			<crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources" />
+			<crafting_category name="Ammo/Weapons" icon="ui_game_symbol_knife" display_name="lblCategoryAmmoWeapons" />
+			<crafting_category name="Tools/Traps" icon="ui_game_symbol_tool" display_name="lblCategoryToolsTraps" />
+			<crafting_category name="Aura" icon="ui_game_symbol_Aura" display_name="FuriousRamsayAuraLabel" />
+		</crafting_category_list>
+
+		<crafting_category_list display_type="WorkbenchIronOven001_FR">
+			<crafting_category name="" icon="ui_game_symbol_all_blocks" display_name="lblAll"/>
+		</crafting_category_list>
+
+		<crafting_category_list display_type="WorkbenchGasStove001_FR">
+			<crafting_category name="" icon="ui_game_symbol_all_blocks" display_name="lblAll"/>
+		</crafting_category_list>
+
+		<crafting_category_list display_type="WorkbenchDistiller001_FR">
+			<crafting_category name="" icon="ui_game_symbol_all_blocks" display_name="lblAll"/>
+		</crafting_category_list>
+
+		<crafting_category_list display_type="WorkbenchShredder001_FR">
+			<crafting_category name="" icon="ui_game_symbol_all_blocks" display_name="lblAll"/>
+		</crafting_category_list>
+
+		<crafting_category_list display_type="WorkbenchResearchTable001_FR">
+			<crafting_category name="" icon="ui_game_symbol_all_blocks" display_name="lblAll"/>
+		</crafting_category_list>
+
+	</append>
+
+</Config>

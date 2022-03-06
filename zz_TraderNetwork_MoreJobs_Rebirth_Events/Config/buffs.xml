@@ -1,0 +1,404 @@
+<Config>
+		
+		<append xpath="/buffs">
+
+			<buff name="FuriousRamsayPlayerEvents" hidden="true" remove_on_death="false">
+				<stack_type value="replace"/>
+				<update_rate value="15"/>
+				<!-- LOGGING -->
+				<effect_group name="EventLogging">
+					<requirement name="CVarCompare" cvar="varFuriousRamsayEnableEvents" operation="Equals" value="1"/>
+					<!--<triggered_effect trigger="onSelfBuffUpdate" action="CVarLogValue" cvar="varFuriousRamsayEvent1"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="CVarLogValue" cvar="varFuriousRamsayEvent2"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="CVarLogValue" cvar="varFuriousRamsayEvent3"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="CVarLogValue" cvar="varFuriousRamsayEvent4"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="CVarLogValue" cvar="varFuriousRamsayRandom"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="CVarLogValue" cvar="varFuriousRamsayNumEvents"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="CVarLogValue" cvar="varFuriousRamsayEventTriggered"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="CVarLogValue" cvar="varFuriousRamsayTotalEventsTriggered"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="CVarLogValue" cvar="varFuriousRamsayEventLapsedTime"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="CVarLogValue" cvar="varFuriousRamsayEventLapsedTimeMax"/>-->
+				</effect_group>
+				<!-- SET RANDOM VARIABLES -->
+				<effect_group name="Event_Variables">
+					<!-- ELAPSED TIME VARIABLE -->
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEnableEvents" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventLapsedTimeMax" operation="set" value="50">
+						<requirement name="PlayerLevel" operation="GTE" value="8"/>
+						<requirement name="PlayerLevel" operation="LT" value="15"/>
+						<requirement name="CVarCompare" cvar="varFuriousRamsayEnableEvents" operation="Equals" value="1"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventLapsedTimeMax" operation="set" value="48">
+						<requirement name="PlayerLevel" operation="GTE" value="15"/>
+						<requirement name="PlayerLevel" operation="LT" value="25"/>
+						<requirement name="CVarCompare" cvar="varFuriousRamsayEnableEvents" operation="Equals" value="1"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventLapsedTimeMax" operation="set" value="46">
+						<requirement name="PlayerLevel" operation="GTE" value="25"/>
+						<requirement name="PlayerLevel" operation="LT" value="35"/>
+						<requirement name="CVarCompare" cvar="varFuriousRamsayEnableEvents" operation="Equals" value="1"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventLapsedTimeMax" operation="set" value="44">
+						<requirement name="PlayerLevel" operation="GTE" value="35"/>
+						<requirement name="CVarCompare" cvar="varFuriousRamsayEnableEvents" operation="Equals" value="1"/>
+					</triggered_effect>
+					<!-- NUM EVENT VARIABLE -->
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayNumEvents" operation="set" value="1">
+						<requirement name="PlayerLevel" operation="GTE" value="8"/>
+						<requirement name="PlayerLevel" operation="LT" value="15"/>
+						<requirement name="CVarCompare" cvar="varFuriousRamsayEnableEvents" operation="Equals" value="1"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayNumEvents" operation="set" value="1">
+						<requirement name="PlayerLevel" operation="GTE" value="15"/>
+						<requirement name="PlayerLevel" operation="LT" value="25"/>
+						<requirement name="CVarCompare" cvar="varFuriousRamsayEnableEvents" operation="Equals" value="1"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayNumEvents" operation="set" value="1">
+						<requirement name="PlayerLevel" operation="GTE" value="25"/>
+						<requirement name="PlayerLevel" operation="LT" value="35"/>
+						<requirement name="CVarCompare" cvar="varFuriousRamsayEnableEvents" operation="Equals" value="1"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayNumEvents" operation="set" value="1">
+						<requirement name="PlayerLevel" operation="GTE" value="35"/>
+						<requirement name="CVarCompare" cvar="varFuriousRamsayEnableEvents" operation="Equals" value="1"/>
+					</triggered_effect>
+					<!-- RANDOM VARIABLE - EVENT MAX * 50 -->
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayRandom" operation="set" value="randomint(0,1000)">
+						<requirement name="PlayerLevel" operation="GTE" value="8"/>
+						<requirement name="PlayerLevel" operation="LT" value="15"/>
+						<requirement name="CVarCompare" cvar="varFuriousRamsayEnableEvents" operation="Equals" value="1"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayRandom" operation="set" value="randomint(0,1100)">
+						<requirement name="PlayerLevel" operation="GTE" value="15"/>
+						<requirement name="PlayerLevel" operation="LT" value="25"/>
+						<requirement name="CVarCompare" cvar="varFuriousRamsayEnableEvents" operation="Equals" value="1"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayRandom" operation="set" value="randomint(0,1200)">
+						<requirement name="PlayerLevel" operation="GTE" value="25"/>
+						<requirement name="PlayerLevel" operation="LT" value="35"/>
+						<requirement name="CVarCompare" cvar="varFuriousRamsayEnableEvents" operation="Equals" value="1"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayRandom" operation="set" value="randomint(0,1300)">
+						<requirement name="PlayerLevel" operation="GTE" value="35"/>
+						<requirement name="CVarCompare" cvar="varFuriousRamsayEnableEvents" operation="Equals" value="1"/>
+					</triggered_effect>
+					<!-- OTHER EVENT VARIABLES -->
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventLapsedTime" operation="add" value="1">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayEventTriggered" operation="Equals" value="1"/>
+						<requirement name="CVarCompare" cvar="varFuriousRamsayEnableEvents" operation="Equals" value="1"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventTriggered" operation="set" value="0">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayEventLapsedTime" operation="GTE" value="@varFuriousRamsayEventLapsedTimeMax"/>
+						<requirement name="CVarCompare" cvar="varFuriousRamsayEnableEvents" operation="Equals" value="1"/>
+					</triggered_effect>
+				</effect_group>
+				<!-- EVENTS RESET -->
+				<effect_group name="Reset_Events">
+					<requirement name="TimeOfDay" operation="GTE" value="0001"/>
+					<requirement name="TimeOfDay" operation="LTE" value="0759"/>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventLapsedTime" operation="set" value="0"/>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventTriggered" operation="set" value="0"/>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEvent1" operation="set" value="1"/>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEvent2" operation="set" value="1"/>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEvent3" operation="set" value="1"/>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEvent4" operation="set" value="1"/>
+				</effect_group>
+				<!-- LEVEL 8 EVENTS-->
+				<effect_group name="Event_Level008">
+					<requirement name="CVarCompare" cvar="varFuriousRamsayEventTriggered" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="varFuriousRamsayEvent1" operation="LTE" value="@varFuriousRamsayNumEvents"/>
+					<requirement name="CVarCompare" cvar="varFuriousRamsayEvent2" operation="LTE" value="@varFuriousRamsayNumEvents"/>
+					<requirement name="CVarCompare" cvar="varFuriousRamsayEvent3" operation="LTE" value="@varFuriousRamsayNumEvents"/>
+					<requirement name="CVarCompare" cvar="varFuriousRamsayEvent4" operation="LTE" value="@varFuriousRamsayNumEvents"/>
+					<requirement name="CVarCompare" cvar="varFuriousRamsayEnableEvents" operation="Equals" value="1"/>
+					<requirement name="PlayerLevel" operation="GTE" value="8"/>
+					<requirement name="!IsIndoors"/>
+					<requirement name="!IsAttachedToEntity"/>
+					<requirement name="TimeOfDay" operation="GTE" value="0800"/>
+					<requirement name="TimeOfDay" operation="LTE" value="2000"/>
+						<!-- EVENT -->
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEvent1" operation="add" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="0"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="4"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="CallGameEvent" event="spawn_FuriousRamsay_Event_Horde_Zombie_Tier1A" >
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="0"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="4"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventTriggered" operation="set" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="0"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="4"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayTotalEventsTriggered" operation="add" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="0"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="4"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventLapsedTime" operation="set" value="0">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="0"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="4"/>
+						</triggered_effect>
+						<!-- EVENT -->
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEvent1" operation="add" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="5"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="9"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="CallGameEvent" event="spawn_FuriousRamsay_FactionWarWave1Survivors_Tier1" >
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="5"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="9"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="CallGameEvent" event="spawn_FuriousRamsay_Event_Horde_Zombie_Tier1A2" >
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="5"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="9"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventTriggered" operation="set" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="5"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="9"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayTotalEventsTriggered" operation="add" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="5"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="9"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventLapsedTime" operation="set" value="0">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="5"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="9"/>
+						</triggered_effect>
+						<!-- EVENT -->
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEvent1" operation="add" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="10"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="14"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="CallGameEvent" event="spawn_FuriousRamsay_Event_Horde_Zombie_Tier1B" >
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="10"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="14"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventTriggered" operation="set" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="10"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="14"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayTotalEventsTriggered" operation="add" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="10"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="14"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventLapsedTime" operation="set" value="0">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="10"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="14"/>
+						</triggered_effect>
+						<!-- EVENT -->
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEvent1" operation="add" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="15"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="19"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="CallGameEvent" event="spawn_FuriousRamsay_Event_Horde_Zombie_Tier1C" >
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="15"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="19"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventTriggered" operation="set" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="15"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="19"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayTotalEventsTriggered" operation="add" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="15"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="19"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventLapsedTime" operation="set" value="0">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="15"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="19"/>
+						</triggered_effect>
+				</effect_group>
+				<!-- LEVEL 15 EVENTS -->
+				<effect_group name="Event_Level015">
+					<requirement name="CVarCompare" cvar="varFuriousRamsayEventTriggered" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="varFuriousRamsayEvent1" operation="LTE" value="@varFuriousRamsayNumEvents"/>
+					<requirement name="CVarCompare" cvar="varFuriousRamsayEvent2" operation="LTE" value="@varFuriousRamsayNumEvents"/>
+					<requirement name="CVarCompare" cvar="varFuriousRamsayEvent3" operation="LTE" value="@varFuriousRamsayNumEvents"/>
+					<requirement name="CVarCompare" cvar="varFuriousRamsayEvent4" operation="LTE" value="@varFuriousRamsayNumEvents"/>
+					<requirement name="CVarCompare" cvar="varFuriousRamsayEnableEvents" operation="Equals" value="1"/>
+					<requirement name="PlayerLevel" operation="GTE" value="15"/>
+					<requirement name="!IsIndoors"/>
+					<requirement name="!IsAttachedToEntity"/>
+					<requirement name="TimeOfDay" operation="GTE" value="0800"/>
+					<requirement name="TimeOfDay" operation="LTE" value="2000"/>
+						<!-- EVENT -->
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEvent2" operation="add" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="20"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="29"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="CallGameEvent" event="spawn_FuriousRamsay_Event_Horde_Zombie_Tier1Fire" >
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="20"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="29"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventTriggered" operation="set" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="20"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="29"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayTotalEventsTriggered" operation="add" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="20"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="29"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventLapsedTime" operation="set" value="0">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="20"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="29"/>
+						</triggered_effect>
+						<!-- EVENT -->
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEvent2" operation="add" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="30"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="39"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="CallGameEvent" event="spawn_FuriousRamsay_Event_Horde_Zombie_Tier1Shock" >
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="30"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="39"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventTriggered" operation="set" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="30"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="39"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayTotalEventsTriggered" operation="add" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="30"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="39"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventLapsedTime" operation="set" value="0">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="30"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="39"/>
+						</triggered_effect>
+				</effect_group>
+				<!-- LEVEL 25 EVENTS -->
+				<effect_group name="Event_Level025">
+					<requirement name="CVarCompare" cvar="varFuriousRamsayEventTriggered" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="varFuriousRamsayEvent1" operation="LTE" value="@varFuriousRamsayNumEvents"/>
+					<requirement name="CVarCompare" cvar="varFuriousRamsayEvent2" operation="LTE" value="@varFuriousRamsayNumEvents"/>
+					<requirement name="CVarCompare" cvar="varFuriousRamsayEvent3" operation="LTE" value="@varFuriousRamsayNumEvents"/>
+					<requirement name="CVarCompare" cvar="varFuriousRamsayEvent4" operation="LTE" value="@varFuriousRamsayNumEvents"/>
+					<requirement name="CVarCompare" cvar="varFuriousRamsayEnableEvents" operation="Equals" value="1"/>
+					<requirement name="PlayerLevel" operation="GTE" value="25"/>
+					<requirement name="!IsIndoors"/>
+					<requirement name="!IsAttachedToEntity"/>
+					<requirement name="TimeOfDay" operation="GTE" value="0800"/>
+					<requirement name="TimeOfDay" operation="LTE" value="2000"/>
+						<!-- EVENT -->
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEvent3" operation="add" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="40"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="44"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="CallGameEvent" event="spawn_FuriousRamsay_Event_Tier1Bosses" >
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="40"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="44"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventTriggered" operation="set" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="40"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="44"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayTotalEventsTriggered" operation="add" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="40"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="44"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventLapsedTime" operation="set" value="0">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="40"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="44"/>
+						</triggered_effect>
+						<!-- EVENT -->
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEvent3" operation="add" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="45"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="49"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="CallGameEvent" event="spawn_FuriousRamsay_Event_Tier2Vultures" >
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="45"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="49"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventTriggered" operation="set" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="45"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="49"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayTotalEventsTriggered" operation="add" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="45"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="49"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventLapsedTime" operation="set" value="0">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="45"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="49"/>
+						</triggered_effect>
+						<!-- EVENT -->
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEvent3" operation="add" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="50"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="59"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="CallGameEvent" event="spawn_FuriousRamsay_Event_Horde_Zombie_Tier2Toxic" >
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="50"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="59"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventTriggered" operation="set" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="50"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="59"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayTotalEventsTriggered" operation="add" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="50"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="59"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventLapsedTime" operation="set" value="0">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="50"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="59"/>
+						</triggered_effect>
+				</effect_group>
+				<!-- LEVEL 35 EVENTS -->
+				<effect_group name="Event_Level035">
+					<requirement name="CVarCompare" cvar="varFuriousRamsayEventTriggered" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="varFuriousRamsayEvent1" operation="LTE" value="@varFuriousRamsayNumEvents"/>
+					<requirement name="CVarCompare" cvar="varFuriousRamsayEvent2" operation="LTE" value="@varFuriousRamsayNumEvents"/>
+					<requirement name="CVarCompare" cvar="varFuriousRamsayEvent3" operation="LTE" value="@varFuriousRamsayNumEvents"/>
+					<requirement name="CVarCompare" cvar="varFuriousRamsayEvent4" operation="LTE" value="@varFuriousRamsayNumEvents"/>
+					<requirement name="CVarCompare" cvar="varFuriousRamsayEnableEvents" operation="Equals" value="1"/>
+					<requirement name="PlayerLevel" operation="GTE" value="35"/>
+					<requirement name="!IsIndoors"/>
+					<requirement name="!IsAttachedToEntity"/>
+					<requirement name="TimeOfDay" operation="GTE" value="0800"/>
+					<requirement name="TimeOfDay" operation="LTE" value="2000"/>
+						<!-- EVENT -->
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEvent4" operation="add" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="60"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="69"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="CallGameEvent" event="spawn_FuriousRamsay_Event_Tier1Bosses" >
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="60"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="69"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventTriggered" operation="set" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="60"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="69"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayTotalEventsTriggered" operation="add" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="60"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="69"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventLapsedTime" operation="set" value="0">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="60"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="69"/>
+						</triggered_effect>
+						<!-- EVENT -->
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEvent4" operation="add" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="70"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="79"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="CallGameEvent" event="spawn_FuriousRamsay_Event_Tier1Bosses" >
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="70"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="79"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventTriggered" operation="set" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="70"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="79"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayTotalEventsTriggered" operation="add" value="1">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="70"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="79"/>
+						</triggered_effect>
+						<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayEventLapsedTime" operation="set" value="0">
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="GTE" value="70"/>
+							<requirement name="CVarCompare" cvar="varFuriousRamsayRandom" operation="LTE" value="79"/>
+						</triggered_effect>
+				</effect_group>
+			</buff>
+
+		</append>
+
+		<!-- ENABLE EVENTS -->
+		<setattribute xpath="/buffs/buff[@name='FuriousRamsayPlayerEvents']/effect_group[@name='Event_Variables']/triggered_effect[@trigger='onSelfBuffUpdate' and @cvar='varFuriousRamsayEnableEvents' and @value='0']" name="value">1</setattribute>
+
+</Config>

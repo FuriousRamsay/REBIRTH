@@ -1,0 +1,89 @@
+<Config>
+
+	<append xpath="/item_modifiers">
+
+		<item_modifier name="FuriousRamsayModHazmatHead" installable_tags="armorHead" modifier_tags="resistance" blocked_tags="noMods" type="attachment">
+			<property name="CustomIcon" value="apparelHazmatMask"/>
+			<property name="DisplayType" value="modArmor"/>
+			<property name="Material" value="Mleather"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicValue" value="1000"/>
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+
+			<effect_group name="FuriousRamsay Armor Buffs">
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$FuriousRamsayResistRadiationHeadMod" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$FuriousRamsayResistRadiationHeadMod" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayVerifyArmorModRadiation"/>
+				<triggered_effect trigger="onSelfEquipStop" action="AddBuff" buff="FuriousRamsayVerifyArmorModRadiation"/>
+			</effect_group>
+		</item_modifier>
+
+		<item_modifier name="FuriousRamsayModHazmatChest" installable_tags="armorChest" modifier_tags="resistance" blocked_tags="noMods" type="attachment">
+			<property name="CustomIcon" value="apparelHazmatJacket"/>
+			<property name="DisplayType" value="modArmor"/>
+			<property name="Material" value="Mleather"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+
+			<effect_group name="FuriousRamsay Armor Buffs">
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$FuriousRamsayResistRadiationChestMod" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$FuriousRamsayResistRadiationChestMod" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayVerifyArmorModRadiation"/>			
+				<triggered_effect trigger="onSelfEquipStop" action="AddBuff" buff="FuriousRamsayVerifyArmorModRadiation"/>
+			</effect_group>
+		</item_modifier>
+
+		<item_modifier name="FuriousRamsayModHazmatGloves" installable_tags="armorHands" modifier_tags="resistance" blocked_tags="noMods" type="attachment">
+			<property name="CustomIcon" value="apparelHazmatGloves"/>
+			<property name="DisplayType" value="modArmor"/>
+			<property name="Material" value="Mleather"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+
+			<effect_group name="FuriousRamsay Armor Buffs">
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$FuriousRamsayResistRadiationGlovesMod" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$FuriousRamsayResistRadiationGlovesMod" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayVerifyArmorModRadiation"/>			
+				<triggered_effect trigger="onSelfEquipStop" action="AddBuff" buff="FuriousRamsayVerifyArmorModRadiation"/>
+			</effect_group>
+		</item_modifier>
+
+		<item_modifier name="FuriousRamsayModHazmatLegs" installable_tags="armorLegs" modifier_tags="resistance" blocked_tags="noMods" type="attachment">
+			<property name="CustomIcon" value="apparelHazmatPants"/>
+			<property name="DisplayType" value="modArmor"/>
+			<property name="Material" value="Mleather"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+
+			<effect_group name="FuriousRamsay Armor Buffs">
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$FuriousRamsayResistRadiationLegsMod" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$FuriousRamsayResistRadiationLegsMod" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayVerifyArmorModRadiation"/>			
+				<triggered_effect trigger="onSelfEquipStop" action="AddBuff" buff="FuriousRamsayVerifyArmorModRadiation"/>
+			</effect_group>
+		</item_modifier>
+
+		<item_modifier name="FuriousRamsayModHazmatBoots" installable_tags="armorFeet" modifier_tags="resistance" blocked_tags="noMods" type="attachment">
+			<property name="CustomIcon" value="apparelHazmatBoots"/>
+			<property name="DisplayType" value="modArmor"/>
+			<property name="Material" value="Mleather"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Group" value="Mods"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+
+			<effect_group name="FuriousRamsay Armor Buffs">
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$FuriousRamsayResistRadiationBootsMod" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$FuriousRamsayResistRadiationBootsMod" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayVerifyArmorModRadiation"/>			
+				<triggered_effect trigger="onSelfEquipStop" action="AddBuff" buff="FuriousRamsayVerifyArmorModRadiation"/>
+			</effect_group>
+		</item_modifier>
+
+	</append>
+
+</Config>

@@ -1,0 +1,9 @@
+<Config>
+
+	<append xpath="/xui/ruleset/window_group[@name='toolbelt']">
+	
+		<window name="FuriousRamsayWindowClassInfo" anchor="LeftBottom" />
+
+	</append>
+	
+</Config>

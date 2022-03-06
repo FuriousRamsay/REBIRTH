@@ -1,0 +1,10 @@
+<Config>
+
+	<!-- KNIFE -->
+	<setattribute xpath="/iteminfo/animation/hold_type[@id='36']" name="third_person_position">0,-0.02,0</setattribute>
+	<!-- BAT -->
+	<setattribute xpath="/iteminfo/animation/hold_type[@id='65']" name="third_person_rotation">0,180,0</setattribute>
+	<!-- SPEAR -->
+	<setattribute xpath="/iteminfo/animation/hold_type[@id='59']" name="third_person_position">0,-0.28,0</setattribute>
+
+</Config>

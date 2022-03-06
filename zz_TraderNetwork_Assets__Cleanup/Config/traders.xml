@@ -1,0 +1,303 @@
+<Config>
+
+	<!-- REMOVE HELMET LIGHT MOD AND SCHEMATIC -->
+	<removeattribute xpath="//trader_item_group[@name='groupArmorLightT2']/item[@name='armorMilitaryHelmet']/@mods" />
+	<removeattribute xpath="//trader_item_group[@name='groupArmorLightT2']/item[@name='armorMilitaryHelmet']/@mod_chance" />
+	<removeattribute xpath="//trader_item_group[@name='groupArmorHeavyT2']/item[@name='armorSwatHelmet']/@mods" />
+	<removeattribute xpath="//trader_item_group[@name='groupArmorHeavyT2']/item[@name='armorSwatHelmet']/@mod_chance" />
+
+	<removeattribute xpath="//trader_info/@override_buy_markup" />
+
+	<!-- REMOVE MINING HELMET -->
+	<!--<remove xpath="/trader_info/tier_items/item[@name='armorMiningHelmet']"/>-->
+
+	<!-- REMOVE OTHER ITEMS -->
+
+	<remove xpath="//trader_item_group[@name='modArmorT2']/item[@name='modArmorWaterPurifier']"/>
+	<remove xpath="//trader_info/trader_items/item[@group='clothes']"/>
+	<remove xpath="//trader_info/trader_items/item[@group='weaponsMeleeMixed']"/>
+	<remove xpath="//trader_info/tier_items/item[@group='weaponsMeleeMixed']"/>
+	<remove xpath="//trader_info/trader_items/item[@group='weaponsGunParts']"/>
+	<remove xpath="//trader_info/tier_items/item[@group='weaponsGunParts']"/>
+	<remove xpath="//trader_info/tier_items/item[@group='stashOnlyItemsLow']"/>
+	<remove xpath="//trader_info/tier_items/item[@group='stashOnlyItemsHigh']"/>
+	<remove xpath="//trader_info/tier_items/item[@name='cntVendingMachine']"/>
+	<remove xpath="//trader_info/tier_items/item[@name='solarbank']"/>
+	<remove xpath="//trader_item_group[@name='schematicsElectrical']/item[@name='batterybankSchematic']"/>
+	<remove xpath="//trader_item_group[@name='traderElectrical']/item[@name='generatorbank']"/>
+	<remove xpath="//trader_item_group[@name='traderElectrical']/item[@name='batterybank']"/>
+	<remove xpath="//trader_item_group[@name='schematicsModsCommon']/item[@name='medicalFirstAidBandageSchematic']"/>
+	<remove xpath="//trader_item_group[@name='modArmorT1']/item[@name='modArmorHelmetLight']"/>
+	<remove xpath="//trader_item_group[@name='farmingCookingRecipes']/item[@name='foodBaconAndEggsSchematic']"/>
+	<remove xpath="//trader_item_group[@name='farmingCookingRecipes']/item[@name='drinkJarGrandpasAwesomeSauceSchematic']"/>
+	<remove xpath="//trader_item_group[@name='farmingCookingRecipes']/item[@name='drinkJarGrandpasLearningElixirSchematic']"/>
+	<remove xpath="//trader_item_group[@name='farmingCookingRecipes']/item[@name='drinkJarGrandpasMoonshineSchematic']"/>
+	<remove xpath="//trader_item_group[@name='farmingCookingRecipes']/item[@name='plantedGraceCorn1Schematic']"/>
+	<remove xpath="//trader_item_group[@name='schematicsModsCommon']/item[@name='modArmorHelmetLightSchematic']"/>
+	<remove xpath="//trader_item_group[@name='schematicsElectrical']/item[@name='generatorbankSchematic']"/>
+	<remove xpath="//trader_item_group[@name='weaponsGunParts']/item"/>
+	<remove xpath="//trader_item_group[@name='ammoSupplies']/item[@name='resourceFeather']"/>
+	<remove xpath="//trader_item_group[@name='tools']/item[@name='resourceRepairKit']"/>
+	<remove xpath="//trader_item_group[@name='workstations']/item"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@name='apparelShades']"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@name='apparelToughGuySunglasses']"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@name='apparelNerdGlasses']"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@name='apparelSkiGoggles']"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@name='apparelAviatorGoggles']"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@name='armorFootballHelmet']"/>
+	<remove xpath="//trader_item_group[@name='farmingCookingRecipes']/item[@name='drinkYuccaJuiceSmoothieSchematic']"/>
+	<remove xpath="//trader_item_group[@name='rareBooks']/item[@name='drinkYuccaJuiceSmoothieSchematic']"/>
+	<remove xpath="//trader_item_group[@name='preparedDrink']/item[@name='drinkYuccaJuiceSmoothie']"/>
+
+	<remove xpath="//trader_item_group[@name='traderGeneral']/item[@group='books']"/>
+	<remove xpath="//trader_info/tier_items/item[@group='commonBooks']"/>
+	<remove xpath="//trader_info/tier_items/item[@group='rareBooks']"/>
+	<remove xpath="//trader_info/tier_items/item[@group='perkBooks']"/>
+
+	<remove xpath="//trader_info/trader_items/item[@group='modAllT1SecretStash']"/>
+	<remove xpath="//trader_info/tier_items/item[@group='modMeleeT1']"/>
+	<remove xpath="//trader_info/tier_items/item[@group='modAllT2SecretStash']"/>
+	<remove xpath="//trader_info/tier_items/item[@group='modAllT3SecretStash']"/>
+	<remove xpath="//trader_info/tier_items/item[@group='modAllT4SecretStash']"/>
+	<remove xpath="//trader_info/tier_items/item[@group='modAllT5SecretStash']"/>
+
+	<remove xpath="//trader_item_group[@name='rareMedicine']/item[@name='drinkJarGrandpasLearningElixir']"/>
+	<remove xpath="//trader_info/tier_items/item[@name='drinkJarGrandpasForgettingElixir']"/>
+
+	<remove xpath="//trader_item_group[@name='foodCandy']"/>
+	<remove xpath="//trader_info[@id='4']/trader_items/item[@group='foodCandy']"/>
+
+	<remove xpath="//trader_item_group[@name='groupArmorLightT1']/item[@name='armorMiningHelmet']"/>
+	<remove xpath="//trader_item_group[@name='groupArmorHeavyT2']/item[@name='armorMiningHelmet']"/>
+	<remove xpath="//trader_item_group[@name='groupArmorLightT2']/item[@name='apparelNightvisionGoggles']"/>
+
+	<remove xpath="//trader_info[@id='1']/tier_items/item[@name='armorMiningHelmet']"/>
+	<remove xpath="//trader_info[@id='2']/tier_items/item[@name='armorMiningHelmet']"/>
+	<remove xpath="//trader_info[@id='6']/tier_items/item[@name='armorMiningHelmet']"/>
+	<remove xpath="//trader_info[@id='7']/tier_items/item[@name='armorMiningHelmet']"/>
+	<remove xpath="//trader_info[@id='8']/tier_items/item[@name='armorMiningHelmet']"/>
+
+	<remove xpath="//trader_info[@id='1']/tier_items/item[@name='apparelNightvisionGoggles']"/>
+	<remove xpath="//trader_info[@id='2']/tier_items/item[@name='apparelNightvisionGoggles']"/>
+	<remove xpath="//trader_info[@id='6']/tier_items/item[@name='apparelNightvisionGoggles']"/>
+	<remove xpath="//trader_info[@id='7']/tier_items/item[@name='apparelNightvisionGoggles']"/>
+	<remove xpath="//trader_info[@id='8']/tier_items/item[@name='apparelNightvisionGoggles']"/>
+
+	<remove xpath="//trader_item_group[@name='bandanaAll']/item[@name='apparelBandana']"/>
+	<remove xpath="//trader_item_group[@name='suitAll']/item[@name='apparelSuitPants']"/>
+	<remove xpath="//trader_item_group[@name='suitAll']/item[@name='apparelSuitJacket']"/>
+	<remove xpath="//trader_item_group[@name='suitAll']/item[@name='apparelSuitDressShoes']"/>
+	<remove xpath="//trader_item_group[@name='pantsAll']/item[@name='apparelDenimPants']"/>
+	<remove xpath="//trader_item_group[@name='pantsAll']/item[@name='apparelArmyPants']"/>
+	<remove xpath="//trader_item_group[@name='skirtsAll']/item[@name='apparelSkirt']"/>
+	<remove xpath="//trader_item_group[@name='apparelDenimShortsPantsAll']/item[@name='apparelDenimShortsPants']"/>
+	<remove xpath="//trader_item_group[@name='pufferCoatAll']/item[@name='apparelCoatPufferCoat']"/>
+	<remove xpath="//trader_item_group[@name='shirtLongAll']/item[@name='apparelLongShirt']"/>
+	<remove xpath="//trader_item_group[@name='shirtLongAll']/item[@name='apparelArmyShirt']"/>
+
+	<remove xpath="//trader_item_group[@name='sweatshirtAll']"/>
+	<remove xpath="//trader_item_group[@name='apparelHoodySweatshirtAll']"/>
+	<remove xpath="//trader_item_group[@name='tankTopAll']"/>
+
+	<remove xpath="//trader_item_group[@name='cowboyHatAll']/item[@name='apparelCowboyHat']"/>
+
+	<remove xpath="//trader_item_group[@name='overallsAll']"/>
+	<remove xpath="//trader_item_group[@name='hazmatGear']"/>
+	<remove xpath="//trader_item_group[@name='warmClothes']"/>
+	<remove xpath="//trader_item_group[@name='hats']"/>
+
+	<remove xpath="//trader_item_group[@name='clothes']/item[@group='pufferCoatAll']"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@group='skullCapAll']"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@group='shirtLongAll']"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@group='pantsAll']"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@group='skirtsAll']"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@group='tankTopAll']"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@group='bandanaAll']"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@group='sweatshirtAll']"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@group='cowboyHatAll']"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@group='apparelHoodySweatshirtAll']"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@group='ballCapAll']"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@group='pressboyCapAll']"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@group='suitAll']"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@name='apparelCowboyBoots']"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@name='apparelTShirtPlain']"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@name='apparelWornBoots']"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@name='apparelCoatLeatherDuster']"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@group='hazmatGear']"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@name='apparelFacialPiercings']"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@name='apparelGothBoots']"/>
+	<remove xpath="//trader_item_group[@name='clothes']/item[@name='apparelGothPants']"/>
+
+	<remove xpath="//trader_item_group[@name='groupArmorLightMixed']/item[@group='groupArmorLightT0']"/>
+	<remove xpath="//trader_item_group[@name='groupArmorLightMixed']/item[@group='groupArmorLightT1']"/>
+
+	<remove xpath="//trader_item_group[@name='groupArmorLightT0']"/>
+	<remove xpath="//trader_item_group[@name='groupArmorLightT1']"/>
+
+	<remove xpath="//trader_item_group[@name='groupArmorHeavyMixed']/item[@group='groupArmorHeavyT0']"/>
+	<remove xpath="//trader_item_group[@name='groupArmorHeavyMixed']/item[@group='groupArmorHeavyT1']"/>
+
+	<remove xpath="//trader_item_group[@name='groupArmorHeavyT0']"/>
+	<remove xpath="//trader_item_group[@name='groupArmorHeavyT1']"/>
+
+	<remove xpath="//trader_item_group[@name='weaponsMeleeMixed']/item[@group='weaponsMeleeT0-1']"/>
+	<remove xpath="//trader_item_group[@name='weaponsMeleeMixed']/item[@group='weaponsMeleeT2']"/>
+
+	<remove xpath="//trader_info[@id='2']/trader_items/item[@group='weaponsMeleeT0-1']"/>
+	<remove xpath="//trader_info[@id='6']/trader_items/item[@group='weaponsMeleeT0-1']"/>
+	<remove xpath="//trader_info[@id='7']/trader_items/item[@group='weaponsMeleeT0-1']"/>
+	<remove xpath="//trader_info[@id='8']/trader_items/item[@group='weaponsMeleeT0-1']"/>
+	
+	<remove xpath="//trader_item_group[@name='weaponsMeleeT0-1']"/>
+	<remove xpath="//trader_item_group[@name='weaponsMeleeT2']"/>
+
+	<remove xpath="//trader_item_group[@name='rareMedicine']/item[@name='drugFortBites']"/>
+	<remove xpath="//trader_item_group[@name='rareMedicine']/item[@name='drugRecog']"/>
+	<remove xpath="//trader_item_group[@name='rareMedicine']/item[@name='drugSteroids']"/>
+	<remove xpath="//trader_item_group[@name='rareMedicine']/item[@name='drinkJarGrandpasMoonshine']"/>
+	<remove xpath="//trader_item_group[@name='rareMedicine']/item[@name='drinkJarGrandpasAwesomeSauce']"/>
+
+	<remove xpath="//trader_item_group[@name='medicine']/item[@name='drugPainkillers']"/>
+	<remove xpath="//trader_item_group[@name='medicine']/item[@name='medicalFirstAidBandage']"/>
+	<remove xpath="//trader_item_group[@name='medicine']/item[@name='medicalBandage']"/>
+	<remove xpath="//trader_item_group[@name='medicine']/item[@name='medicalBloodBag']"/>
+	<remove xpath="//trader_item_group[@name='medicine']/item[@name='medicalSplint']"/>
+
+	<remove xpath="//trader_item_group[@name='farmingCookingRecipes']/item[@name='drinkJarCoffeeSchematic']"/>
+	<remove xpath="//trader_item_group[@name='farmingCookingRecipes']/item[@name='drinkJarGoldenRodTeaSchematic']"/>
+	<remove xpath="//trader_item_group[@name='farmingCookingRecipes']/item[@name='drinkJarRedTeaSchematic']"/>
+	<remove xpath="//trader_item_group[@name='farmingCookingRecipes']/item[@name='foodBakedPotatoSchematic']"/>
+	<remove xpath="//trader_item_group[@name='farmingCookingRecipes']/item[@name='foodBoiledMeatSchematic']"/>
+	<remove xpath="//trader_item_group[@name='farmingCookingRecipes']/item[@name='foodCornBreadSchematic']"/>
+	<remove xpath="//trader_item_group[@name='farmingCookingRecipes']/item[@name='foodCornOnTheCobSchematic']"/>
+	<remove xpath="//trader_item_group[@name='farmingCookingRecipes']/item[@name='plantedAloe1Schematic']"/>
+	<remove xpath="//trader_item_group[@name='farmingCookingRecipes']/item[@name='plantedChrysanthemum1Schematic']"/>
+	<remove xpath="//trader_item_group[@name='farmingCookingRecipes']/item[@name='plantedCoffee1Schematic']"/>
+	<remove xpath="//trader_item_group[@name='farmingCookingRecipes']/item[@name='plantedCotton1Schematic']"/>
+	<remove xpath="//trader_item_group[@name='farmingCookingRecipes']/item[@name='plantedGoldenrod1Schematic']"/>
+	<remove xpath="//trader_item_group[@name='farmingCookingRecipes']/item[@name='plantedYucca1Schematic']"/>
+	<remove xpath="//trader_item_group[@name='farmingCookingRecipes']/item[@name='plantedBlueberry1Schematic']"/>
+	<remove xpath="//trader_item_group[@name='farmingCookingRecipes']/item[@name='plantedCorn1Schematic']"/>
+	<remove xpath="//trader_item_group[@name='farmingCookingRecipes']/item[@name='plantedHop1Schematic']"/>
+	<remove xpath="//trader_item_group[@name='farmingCookingRecipes']/item[@name='plantedMushroom1Schematic']"/>
+	<remove xpath="//trader_item_group[@name='farmingCookingRecipes']/item[@name='plantedPotato1Schematic']"/>
+	<remove xpath="//trader_item_group[@name='farmingCookingRecipes']/item[@name='plantedPumpkin1Schematic']"/>
+
+	<remove xpath="//trader_item_group[@name='commonBooks']/item[@group='schematicsWeaponsCommon']"/>
+
+	<remove xpath="//trader_item_group[@name='schematicsWeaponsCommon']"/>
+
+	<remove xpath="//trader_item_group[@name='schematicsElectrical']/item[@name='poweredDoorsSchematic']"/>
+	<remove xpath="//trader_item_group[@name='schematicsElectrical']/item[@name='speakerSchematic']"/>
+	<remove xpath="//trader_item_group[@name='schematicsElectrical']/item[@name='spotlightPlayerSchematic']"/>
+	<remove xpath="//trader_item_group[@name='schematicsElectrical']/item[@name='electrictimerrelaySchematic']"/>
+
+	<remove xpath="//trader_item_group[@name='rareBooks']/item[@name='meleeWpnBladeT3MacheteSchematic']"/>
+	<remove xpath="//trader_item_group[@name='rareBooks']/item[@name='gunBowT3CompoundBowSchematic']"/>
+	<remove xpath="//trader_item_group[@name='rareBooks']/item[@name='meleeWpnKnucklesT3SteelKnucklesSchematic']"/>
+	<remove xpath="//trader_item_group[@name='rareBooks']/item[@name='drinkJarBeerSchematic']"/>
+
+	<remove xpath="//trader_item_group[@name='ammo']/item[@name='ammo9mmBulletAP']"/>
+	<remove xpath="//trader_item_group[@name='ammo']/item[@name='ammo762mmBulletAP']"/>
+	<remove xpath="//trader_item_group[@name='ammo']/item[@name='ammo44MagnumBulletAP']"/>
+	<remove xpath="//trader_item_group[@name='ammo']/item[@name='ammoShotgunSlug']"/>
+	<remove xpath="//trader_item_group[@name='ammo']/item[@name='ammoRocketFrag']"/>
+	<remove xpath="//trader_item_group[@name='ammo']/item[@name='ammoRocketHE']"/>
+	<remove xpath="//trader_item_group[@name='ammo']/item[@name='ammoArrowIron']"/>
+	<remove xpath="//trader_item_group[@name='ammo']/item[@name='ammoArrowSteelAP']"/>
+	<remove xpath="//trader_item_group[@name='ammo']/item[@name='ammoCrossbowBoltIron']"/>
+	<remove xpath="//trader_item_group[@name='ammo']/item[@name='ammoCrossbowBoltSteelAP']"/>
+
+	<remove xpath="//trader_item_group[@name='traderAlways']/item[@group='ammoSupplies']"/>
+	<remove xpath="//trader_item_group[@name='traderGeneral']/item[@group='ammoSupplies']"/>
+
+	<remove xpath="//trader_info[@id='7']/trader_items/item[@group='ammoSupplies']"/>
+
+	<remove xpath="//trader_item_group[@name='traderGeneral']/item[@group='seeds']"/>
+
+	<remove xpath="//trader_info[@id='8']/trader_items/item[@group='seeds']"/>
+
+	<remove xpath="//trader_item_group[@name='cannedfood']/item[@name='foodCanMiso']"/>
+	<remove xpath="//trader_item_group[@name='cannedfood']/item[@name='foodCanSoup']"/>
+	<remove xpath="//trader_item_group[@name='cannedfood']/item[@name='foodCanPears']"/>
+
+	<remove xpath="//trader_item_group[@name='foodAll']/item[@group='foodSupplies']"/>
+	<remove xpath="//trader_item_group[@name='traderGeneral']/item[@group='foodSupplies']"/>
+
+	<remove xpath="//trader_item_group[@name='preparedFood']/item[@name='foodCornBread']"/>
+	<remove xpath="//trader_item_group[@name='preparedFood']/item[@name='foodCharredMeat']"/>
+	<remove xpath="//trader_item_group[@name='preparedFood']/item[@name='foodBakedPotato']"/>
+	<remove xpath="//trader_item_group[@name='preparedFood']/item[@name='foodEggBoiled']"/>
+	<remove xpath="//trader_item_group[@name='preparedFood']/item[@name='foodBoiledMeat']"/>
+
+	<remove xpath="//trader_item_group[@name='preparedDrink']/item[@name='drinkJarYuccaJuice']"/>
+	<remove xpath="//trader_item_group[@name='preparedDrink']/item[@name='drinkJarBoiledWater']"/>
+	<remove xpath="//trader_item_group[@name='preparedDrink']/item[@name='drinkJarGoldenRodTea']"/>
+	<remove xpath="//trader_item_group[@name='preparedDrink']/item[@name='drinkJarRedTea']"/>
+	<remove xpath="//trader_item_group[@name='preparedDrink']/item[@name='drinkJarCoffee']"/>
+	<remove xpath="//trader_item_group[@name='preparedDrink']/item[@name='drinkJarBeer']"/>
+
+	<remove xpath="//trader_item_group[@name='constructionSupplies']/item[@group='landMines']"/>
+
+	<remove xpath="//trader_info[@id='1']/trader_items/item[@group='constructionSupplies']"/>
+	<remove xpath="//trader_info[@id='2']/trader_items/item[@group='constructionSupplies']"/>
+	<remove xpath="//trader_info[@id='6']/trader_items/item[@group='constructionSupplies']"/>
+	<remove xpath="//trader_info[@id='7']/trader_items/item[@group='constructionSupplies']"/>
+	<remove xpath="//trader_info[@id='8']/trader_items/item[@group='constructionSupplies']"/>
+
+	<remove xpath="//trader_item_group[@name='traderGeneral']/item[@group='constructionSupplies']"/>
+
+	<remove xpath="//trader_item_group[@name='generalResources']/item[@name='resourceWood']"/>
+	<remove xpath="//trader_item_group[@name='generalResources']/item[@name='resourceYuccaFibers']"/>
+	<remove xpath="//trader_item_group[@name='generalResources']/item[@name='resourceCrushedSand']"/>
+	<remove xpath="//trader_item_group[@name='generalResources']/item[@name='resourceScrapIron']"/>
+	<remove xpath="//trader_item_group[@name='generalResources']/item[@name='resourceScrapPolymers']"/>
+	<remove xpath="//trader_item_group[@name='generalResources']/item[@name='resourceMetalPipe']"/>
+	<remove xpath="//trader_item_group[@name='generalResources']/item[@name='resourceOilShale']"/>
+	<remove xpath="//trader_item_group[@name='generalResources']/item[@name='resourceLeather']"/>
+	<remove xpath="//trader_item_group[@name='generalResources']/item[@name='resourceScrapBrass']"/>
+	<remove xpath="//trader_item_group[@name='generalResources']/item[@name='resourceClayLump']"/>
+	<remove xpath="//trader_item_group[@name='generalResources']/item[@name='resourceScrapLead']"/>
+	<remove xpath="//trader_item_group[@name='generalResources']/item[@name='resourceCloth']"/>
+	<remove xpath="//trader_item_group[@name='generalResources']/item[@name='resourceCoal']"/>
+	<remove xpath="//trader_item_group[@name='generalResources']/item[@name='resourcePotassiumNitratePowder']"/>
+	<remove xpath="//trader_item_group[@name='generalResources']/item[@name='resourceGunPowder']"/>
+	<remove xpath="//trader_item_group[@name='generalResources']/item[@name='resourceAnimalFat']"/>
+	<remove xpath="//trader_item_group[@name='generalResources']/item[@name='bucketEmpty']"/>
+	<remove xpath="//trader_item_group[@name='generalResources']/item[@name='candle']"/>
+	<remove xpath="//trader_item_group[@name='generalResources']/item[@name='resourceHeadlight']"/>
+	<remove xpath="//trader_item_group[@name='generalResources']/item[@name='resourceGlue']"/>
+	<remove xpath="//trader_item_group[@name='generalResources']/item[@name='resourceSpring']"/>
+	<remove xpath="//trader_item_group[@name='generalResources']/item[@name='resourceMechanicalParts']"/>
+	<remove xpath="//trader_item_group[@name='generalResources']/item[@name='resourceElectricParts']"/>
+	<remove xpath="//trader_item_group[@name='generalResources']/item[@name='resourceLockPick']"/>
+
+	<remove xpath="//trader_item_group[@name='tools']/item[@name='meleeToolPickT1IronPickaxe']"/>
+	<remove xpath="//trader_item_group[@name='tools']/item[@name='meleeToolShovelT1IronShovel']"/>
+	<remove xpath="//trader_item_group[@name='tools']/item[@name='meleeToolAxeT1IronFireaxe']"/>
+	<remove xpath="//trader_item_group[@name='tools']/item[@name='meleeWpnSledgeT1IronSledgehammer']"/>
+	<remove xpath="//trader_item_group[@name='tools']/item[@name='meleeToolPaintTool']"/>
+
+	<remove xpath="//trader_item_group[@name='decorativeBlocks']/item[@group='decorativeCurtains']"/>
+	<remove xpath="//trader_item_group[@name='decorativeBlocks']/item[@group='decorativeBlinds']"/>
+	<remove xpath="//trader_item_group[@name='decorativeBlocks']/item[@name='airConditioner']"/>
+	<remove xpath="//trader_item_group[@name='decorativeBlocks']/item[@name='cntCashRegister']"/>
+	<remove xpath="//trader_item_group[@name='decorativeBlocks']/item[@name='faucetBrass02']"/>
+	<remove xpath="//trader_item_group[@name='decorativeBlocks']/item[@name='faucetBrass04']"/>
+	<remove xpath="//trader_item_group[@name='decorativeBlocks']/item[@name='pipeLargeBlockVariantHelper']"/>
+	<remove xpath="//trader_item_group[@name='decorativeBlocks']/item[@name='pipeSmallBlockVariantHelper']"/>
+	<remove xpath="//trader_item_group[@name='decorativeBlocks']/item[@name='cntShoppingCartEmpty']"/>
+	<remove xpath="//trader_item_group[@name='decorativeBlocks']/item[@name='treeAzalea']"/>
+	<remove xpath="//trader_item_group[@name='decorativeBlocks']/item[@name='window02']"/>
+
+	<remove xpath="//trader_item_group[@name='traderAlways']/item[@name='resourceGunPowder']"/>
+	<remove xpath="//trader_item_group[@name='traderAlways']/item[@name='resourcePotassiumNitratePowder']"/>
+
+	<remove xpath="//trader_item_group[@name='traderGeneral']/item[@name='meleeToolFlashlight02']"/>
+
+	<remove xpath="//trader_item_group[@name='traderElectrical']/item[@name='resourceElectricParts']"/>
+	<remove xpath="//trader_item_group[@name='traderElectrical']/item[@name='spotlightPlayer']"/>
+	<remove xpath="//trader_item_group[@name='traderElectrical']/item[@name='electrictimerrelay']"/>
+	<remove xpath="//trader_item_group[@name='traderElectrical']/item[@name='speaker']"/>
+
+</Config>

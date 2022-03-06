@@ -1,0 +1,11 @@
+<Config>
+
+	<setattribute xpath="/qualityinfo/quality[@key='0']" name="color">8850AB</setattribute>
+	<setattribute xpath="/qualityinfo/quality[@key='1']" name="color">8850AB</setattribute>
+	<setattribute xpath="/qualityinfo/quality[@key='2']" name="color">8850AB</setattribute>
+	<setattribute xpath="/qualityinfo/quality[@key='3']" name="color">8850AB</setattribute>
+	<setattribute xpath="/qualityinfo/quality[@key='4']" name="color">8850AB</setattribute>
+	<setattribute xpath="/qualityinfo/quality[@key='5']" name="color">8850AB</setattribute>
+	<setattribute xpath="/qualityinfo/quality[@key='6']" name="color">8850AB</setattribute>
+
+</Config>

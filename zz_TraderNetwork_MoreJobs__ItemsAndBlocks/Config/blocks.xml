@@ -1,0 +1,51 @@
+<Config>
+
+	<append xpath="/blocks">
+	
+		<block name="FuriousRamsayBurningTrap">
+			<property name="Class" value="Campfire"/>
+			<property name="CustomIcon" value="emberPileDeco2"/>
+			<property name="Material" value="FuriousRamsayCoalMaterial"/>
+			<property name="Weight" value="20"/>
+			<property name="MaxDamage" value="50"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="Shape" value="Ext3dModel"/> 
+			<property name="Texture" value="293"/>
+			<property name="Mesh" value="models"/>
+			<property name="Model" value="OutdoorDecor/ember_pile_2" param1="main_mesh"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="ParticleName" value="forge"/>
+			<property name="ParticleName" value="campfire"/>
+			<property name="ParticleOffset" value="0.5,0.35,0.4"/>
+			<property name="Stacknumber" value="25"/>
+			<property name="HeatMapStrength" value="1"/>
+			<property name="HeatMapTime" value="5000"/>
+			<property name="HeatMapFrequency" value="1000"/>
+			<property name="BuffsWhenWalkedOn" value="FuriousRamsayBurningTrapDamage"/>
+			<property name="ActiveRadiusEffects" value="FuriousRamsayBurningTrapDamage(1.3)"/>
+			<property class="Workstation">
+				<property name="Modules" value="fuel"/>
+			</property>
+			<property name="WorkstationIcon" value="ui_game_symbol_defense"/>
+			<property name="CraftActionName" value="lblContextActionCraft"/>
+			<property name="CraftIcon" value="ui_game_symbol_cement"/>
+			<property name="OpenSound" value="campfire_open"/>
+			<property name="CloseSound" value="campfire_close"/>
+			<property name="CraftSound" value="campfire_cook_click"/>
+			<property name="CraftCompleteSound" value="campfire_complete_item"/>
+			<property class="RepairItems"> 
+				<property name="resourceCoal" value="20"/> 
+			</property>
+			<drop event="Destroy" name="resourceCoal" count="3"/>
+			<property name="Group" value="Tools/Traps"/>
+			<property name="EconomicValue" value="5"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="Candrop" value="true"/>
+			<property name="SellableToTrader" value="false"/>
+		</block>
+
+	</append>
+	 
+</Config>

@@ -1,0 +1,7 @@
+<Config>
+	
+	<setattribute xpath="/lootcontainers/lootgroup[@name='FuriousRamsayTier1Complete']/item[@name='FuriousRamsayFarmerTrader']" name="name">FuriousRamsaySpawnFarmerTrader_FR</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='FuriousRamsayTier2Complete']/item[@name='FuriousRamsayHandymanTrader']" name="name">FuriousRamsaySpawnHandyManTrader_FR</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='FuriousRamsayTier3Complete']/item[@name='FuriousRamsayBlackShieldTrader']" name="name">FuriousRamsaySpawnBlackShieldTrader_FR</setattribute>
+   	
+</Config>

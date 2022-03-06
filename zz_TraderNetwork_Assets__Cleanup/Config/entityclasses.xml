@@ -1,0 +1,337 @@
+<configs>
+
+	<append xpath="/entity_classes/entity_class[@name='npcMeleeSavableTemplate']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcEmptyHandTemplate']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcClubTemplate']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcKnifeTemplate']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcBatTemplate']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcAxeTemplate']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcSpearTemplate']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcMacheteTemplate']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcPipePistolTemplate']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcPistolTemplate']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcDPistolTemplate']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcSMGTemplate']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcM60Template']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcAK47Template']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcPipeMGTemplate']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcTRifleTemplate']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcPipeRifleTemplate']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcHRifleTemplate']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcSRifleTemplate']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcPipeShotgunTemplate']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcPShotgunTemplate']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcAShotgunTemplate']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcLBowTemplate']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcXBowTemplate']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcRocketLTemplate']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcAnimalRangedTemplate']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcAnimalHumanoidRigMeleeTemplate']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcNurseEmptyHand']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcNurseClub']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcNurseKnife']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcNurseAxe']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcNurseSpear']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcNurseBat']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcNurseMachete']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcNurseSMG']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcNurseM60']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcNursePipePistol']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcNursePistol']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcNurseDPistol']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcNursePipeMG']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcNurseAK47']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcNurseTRifle']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcNursePipeRifle']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcNurseHRifle']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcNurseSRifle']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcNursePipeShotgun']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcNursePShotgun']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcNurseAShotgun']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcNurseXBow']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcNurseLBow']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcNurseRocketL']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcHarleyEmptyHand']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcHarleyClub']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcHarleyKnife']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcHarleyBat']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcHarleyMachete']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcHarleyAxe']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcHarleySpear']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcHarleyPipePistol']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcHarleyPipeRifle']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcHarleyPipeMG']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcHarleyPipeShotgun']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcHarleySMG']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcHarleyM60']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcHarleyPistol']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcHarleyDPistol']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcHarleyAK47']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcHarleyTRifle']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcHarleyHRifle']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcHarleyPShotgun']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcHarleyAShotgun']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcHarleyLBow']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcHarleyXBow']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcHarleyRocketL']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcBakerEmptyHand']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcBakerClub']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcBakerKnife']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcBakerBat']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcBakerMachete']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcBakerAxe']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcBakerSpear']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcBakerPipePistol']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcBakerPipeRifle']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcBakerPipeMG']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcBakerPipeShotgun']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcBakerSMG']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcBakerM60']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcBakerPistol']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcBakerDPistol']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcBakerAK47']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcBakerTRifle']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcBakerHRifle']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcBakerSRifle']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcBakerPShotgun']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcBakerAShotgun']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcBakerLBow']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcBakerXBow']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcBakerRocketL']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='zombieFatMamaHDQuest']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='npcAnimalFox']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='animalFox']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='zombieFemaleTutorial']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='zombieFemaleTutorialFeral']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='zombieFemaleTutorialT1']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='zombieFemaleTutorialT2']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='zombieFemaleTutorialT3']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='zombieFemaleTutorialT4']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='zombieFemaleTutorialT5']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='zombieFemaleTutorialT6']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='zombieFemaleTutorialT7']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	<append xpath="/entity_classes/entity_class[@name='zombieFemaleTutorialT8']">
+		<property name="HideInSpawnMenu" value="true"/>
+	</append>
+	
+</configs>

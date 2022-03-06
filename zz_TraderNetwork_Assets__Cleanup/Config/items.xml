@@ -1,0 +1,596 @@
+<Config>
+
+	<!-- REMOVE HELMET MOD FROM BUNDLES -->
+	<setattribute xpath="/items/item[@name='Loadout Tier 3']/property[@class='Action0']/property[@name='Create_item']" name="value">armorLeatherChest,armorLeatherBoots,apparelDenimPants,medicalBandage,medicalFirstAidBandage,meleeToolAxeT1IronFireaxe,LoadoutTier3Melee,LoadoutTier3Ranged</setattribute>
+	<setattribute xpath="/items/item[@name='Loadout Tier 4']/property[@class='Action0']/property[@name='Create_item']" name="value">armorIronChest,armorIronGloves,armorIronLegs,armorScrapBoots,medicalFirstAidBandage,medicalBandage,meleeToolAxeT2SteelAxe,LoadoutTier4Melee,LoadoutTier4Ranged</setattribute>
+	<setattribute xpath="/items/item[@name='Loadout Tier 5']/property[@class='Action0']/property[@name='Create_item']" name="value">armorSteelChest,armorSteelGloves,armorSteelLegs,armorSteelBoots,medicalFirstAidBandage,medicalBandage,meleeToolAxeT2SteelAxe,LoadoutTier5Melee,LoadoutTier5Ranged</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardMiningHelmetBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">armorMiningHelmet,meleeToolPickT2SteelPickaxe</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2LightArmorBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">armorMilitaryHelmet,armorMilitaryGloves,armorMilitaryVest,armorMilitaryLegs,armorMilitaryBoots</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2HeavyArmorBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">armorSteelHelmet,armorSteelGloves,armorSteelChest,armorSteelLegs,armorSteelBoots</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2LightArmorBonusBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">armorMilitaryHelmet,armorMilitaryGloves,armorMilitaryVest,armorMilitaryLegs,armorMilitaryBoots</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2HeavyArmorBonusBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">armorSteelHelmet,armorSteelGloves,armorSteelChest,armorSteelLegs,armorSteelBoots</setattribute>
+
+	<!--<remove xpath="/items/item/property[@name='RepairTools']"/>-->
+
+	<remove xpath="/items/item/property[@name='PickupJournalEntry']"/>
+
+	<remove xpath="/items/item[@name='oldCash']"/>
+
+	<append xpath="/items/item[@name='resourceDuctTape']">
+		<property name="RepairTime" value="3"/>
+		<property name="RepairAmount" value="32000"/>
+	</append>
+
+	<!-- REMOVE ACCESS TO SOME ITEMS -->
+	<append xpath="/items/item[@name='MechFactionSchematic']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='VaultDwellersFactionSchematic']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='RedteamFactionSchematic']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='BlueteamFactionSchematic']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='GreenteamFactionSchematic']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='MechPositiveFactionSchematic']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='MechNegativeFactionSchematic']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='VaultPositiveFactionSchematic']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='VaultNegativeFactionSchematic']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='RedteamPositiveFactionSchematic']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='RedteamNegativeFactionSchematic']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='BlueteamPositiveFactionSchematic']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='BlueteamNegativeFactionSchematic']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='GreenteamPositiveFactionSchematic']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='GreenteamNegativeFactionSchematic']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='medicalFirstAidBandageSchematic']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBundle9mmBulletBall']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBundle9mmBulletHP']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBundle9mmBulletAP']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBundle44MagnumBulletBall']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBundle44MagnumBulletHP']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBundle44MagnumBulletAP']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBundle762mmBulletBall']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBundle762mmBulletHP']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBundle762mmBulletAP']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBundleShotgunShell']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBundleShotgunSlug']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBundleShotgunBreachingSlug']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBundleJunkTurretRegular']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBundleJunkTurretShell']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBundleJunkTurretAP']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBundleArrowStone']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBundleArrowIron']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBundleArrowSteelAP']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBundleArrowFlaming']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBundleArrowExploding']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBundleCrossbowBoltStone']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBundleCrossbowBoltIron']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBundleCrossbowBoltSteelAP']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBundleCrossbowBoltFlaming']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBundleCrossbowBoltExploding']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='resourceRockSmallBundle']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='resourceWoodBundle']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='resourceIronFragmentBundle']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='resourceScrapIronBundle']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='resourcePotassiumNitratePowderBundle']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='resourceLeadBundle']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='resourceCoalBundle']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='resourceOilShaleBundle']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoGasCanBundle']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='resourceGunPowderBundle']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='resourceLockPickBundle']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='q_basicSurvival']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<!--<append xpath="/items/item[@name='resourceRepairKit']">
+		<property name="CreativeMode" value="None"/>
+	</append>-->
+	<append xpath="/items/item[@name='toolAndDieSet']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='ammoRocketHE']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<setattribute xpath="/items/item[@name='gunExplosivesT3RocketLauncher']/property[@class='Action0']/property[@name='Magazine_items']" name="value">ammoRocketFrag</setattribute>
+
+	<!-- REMOVE ACCESS TO OLD PERK BOOKS -->
+	<append xpath="/items/item[@name='bookFiremansAlmanacHeat']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookFiremansAlmanacAxes']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookFiremansAlmanacSpeed']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookFiremansAlmanacMolotov']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookFiremansAlmanacPrevention']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookFiremansAlmanacHarvest']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookFiremansAlmanacEquipment']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookNightStalkerStealthDamage']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookNightStalkerSilentNight']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookNightStalkerBlades']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookNightStalkerThiefAdrenaline']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookNightStalkerArchery']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookNightStalkerTwilightThief']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookNightStalkerSlumberParty']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookLuckyLooterDukes']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookLuckyLooterAmmunition']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookLuckyLooterBrass']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookLuckyLooterLead']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookLuckyLooterBooks']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookLuckyLooterFood']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookLuckyLooterMedical']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookEnforcerDamage']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookEnforcerApparel']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookEnforcerPunks']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookEnforcerIntimidation']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookEnforcerAPAmmo']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookEnforcerHPAmmo']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookEnforcerCriminalPursuit']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookBatterUpBigHits']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookBatterUpMetalChain']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookBatterUpGear']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookBatterUpSlowPitch']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookBatterUpKnockdown']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookBatterUpMaintenance']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookBatterUpBaseballBats']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookGreatHeistSafes']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookGreatHeistGems']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookGreatHeistTimedCharge']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookGreatHeistClaimed']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookGreatHeistAdrenalineFall']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookGreatHeistSprintSneak']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookGreatHeistMotionDetection']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookWasteTreasuresHoney']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookWasteTreasuresCoffins']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookWasteTreasuresAcid']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookWasteTreasuresWater']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookWasteTreasuresDoors']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookWasteTreasuresCloth']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookWasteTreasuresSinks']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookNeedleAndThreadWinterWear']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookNeedleAndThreadLegwear']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookNeedleAndThreadFootwear']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookNeedleAndThreadDesertWear']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookNeedleAndThreadDusters']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookNeedleAndThreadPufferCoats']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookNeedleAndThreadPockets']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookHuntingJournalBears']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookHuntingJournalWolves']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookHuntingJournalCoyotes']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookHuntingJournalMountainLions']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookHuntingJournalDeer']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookHuntingJournalVultures']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookHuntingJournalSelfDefense']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookArtOfMiningLuckyStrike']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookArtOfMiningDiamondTools']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookArtOfMiningPallets']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookArtOfMiningCoffee']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookArtOfMiningBlackStrap']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookArtOfMiningAvalanche']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookArtOfMiningLantern']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookRangersArrowRecovery']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookRangersExplodingBolts']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookRangersCripplingShot']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookRangersAPAmmo']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookRangersFlamingArrows']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookRangersForestGuide']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookRangersKnockdown']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookPistolPeteTakeAim']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookPistolPeteSwissKnees']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookPistolPeteSteadyHand']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookPistolPeteMaintenance']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookPistolPeteHPAmmo']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookPistolPeteAPAmmo']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookPistolPeteDamage']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookShotgunMessiahDamage']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookShotgunMessiahBreachingSlugs']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookShotgunMessiahLimbShot']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookShotgunMessiahSlugs']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookShotgunMessiahMaintenance']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookShotgunMessiahMagazine']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookShotgunMessiahPartyStarter']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookSniperDamage']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookSniperCripplingShot']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookSniperHeadShot']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookSniperReload']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookSniperControlledBreathing']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookSniperAPAmmo']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookSniperHPAmmo']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookAutoWeaponsDamage']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookAutoWeaponsUncontrolledBurst']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookAutoWeaponsMaintenance']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookAutoWeaponsDrumMag']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookAutoWeaponsRecoil']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookAutoWeaponsRagdoll']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookAutoWeaponsMachineGuns']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookUrbanCombatLanding']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookUrbanCombatCigar']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookUrbanCombatSneaking']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookUrbanCombatJumping']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookUrbanCombatLandMines']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookUrbanCombatAdrenalineRush']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookUrbanCombatRoomClearing']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookTechJunkie1Damage']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookTechJunkie2Maintenance']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookTechJunkie3APAmmo']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookTechJunkie4Shells']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookTechJunkie5Repulsor']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookTechJunkie6BatonCharge']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookTechJunkie7Hydraulics']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookBarBrawling1BasicMoves']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookBarBrawling2DropABomb']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookBarBrawling3KillerInstinct']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookBarBrawling4FinishingMoves']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookBarBrawling5AdrenalineHealing']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookBarBrawling6RageMode']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookBarBrawling7BoozedUp']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookSpearHunter1Damage']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookSpearHunter2Maintenance']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookSpearHunter3SteelSpears']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookSpearHunter4StrongArm']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookSpearHunter5RapidStrike']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookSpearHunter6PuncturedLung']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+	<append xpath="/items/item[@name='bookSpearHunter7QuickStrike']">
+		<property name="CreativeMode" value="None"/>
+	</append>
+
+</Config>

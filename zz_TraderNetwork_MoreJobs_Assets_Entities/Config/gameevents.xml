@@ -1,0 +1,29 @@
+<Config>
+
+	<append xpath="/gameevents/action_sequence[@name='spawn_FuriousRamsay_Start']">
+
+		<action class="SpawnEntity">
+			<property name="entity_names" value="FuriousRamsaySurvivorMan008aStart"/>
+			<property name="min_distance" value="12" />
+			<property name="max_distance" value="12" />
+			<property name="spawn_count" value="1" />
+			<property name="phase" value="2" />
+		</action>
+		<action class="SpawnEntity">
+			<property name="entity_names" value="FuriousRamsaySurvivorMan001aPipeRifle,FuriousRamsaySurvivorMan001bPipeRifle,FuriousRamsaySurvivorMan001cPipeRifle,FuriousRamsaySurvivorMan001dPipeRifle,FuriousRamsaySurvivorMan001ePipeRifle,FuriousRamsaySurvivorMan001fPipeRifle,FuriousRamsaySurvivorMan001gPipeRifle"/>
+			<property name="min_distance" value="5" />
+			<property name="max_distance" value="5" />
+			<property name="spawn_count" value="1" />
+			<property name="phase" value="2" />
+		</action>
+		<action class="SpawnEntity">
+			<property name="entity_names" value="FuriousRamsaySurvivorWoman001aPipePistol,FuriousRamsaySurvivorWoman001bPipePistol,FuriousRamsaySurvivorWoman001cPipePistol,FuriousRamsaySurvivorWoman001dPipePistol,FuriousRamsaySurvivorWoman001ePipePistol,FuriousRamsaySurvivorWoman001fPipePistol,FuriousRamsaySurvivorWoman001gPipePistol"/>
+			<property name="min_distance" value="5" />
+			<property name="max_distance" value="5" />
+			<property name="spawn_count" value="1" />
+			<property name="phase" value="2" />
+		</action>
+
+	</append>
+	
+</Config>

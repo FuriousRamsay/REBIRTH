@@ -1,0 +1,67 @@
+<Config>
+    
+	<append xpath="/recipes">
+
+		<!-- DECOYS -->
+		<recipe name="FuriousRamsayMadmanDecoyTier1" craft_time="15" craft_tool="FuriousRamsayScrewdriver" craft_area="WorkbenchToolbox001_FR" tags="learnable">
+			<ingredient name="resourceScrapIron" count="12" />
+			<ingredient name="resourceGunPowder" count="3"/>
+			<ingredient name="FuriousRamsayScrews" count="4" />
+			<ingredient name="resourceCloth" count="2" />
+		</recipe>
+		<recipe name="FuriousRamsayMadmanDecoyTier2" craft_time="15" craft_tool="FuriousRamsayScrewdriver" craft_area="WorkbenchToolbox001_FR" tags="learnable">
+			<ingredient name="resourceScrapIron" count="14" />
+			<ingredient name="resourceGunPowder" count="5"/>
+			<ingredient name="FuriousRamsayScrews" count="4" />
+			<ingredient name="resourceCloth" count="2" />
+		</recipe>
+		<recipe name="FuriousRamsayMadmanDecoyTier3" craft_time="15" craft_tool="FuriousRamsayScrewdriver" craft_area="WorkbenchToolbox001_FR" tags="learnable">
+			<ingredient name="resourceScrapIron" count="16" />
+			<ingredient name="resourceGunPowder" count="7"/>
+			<ingredient name="FuriousRamsayScrews" count="4" />
+			<ingredient name="resourceCloth" count="2" />
+		</recipe>
+		<recipe name="FuriousRamsayMadmanDecoyTier4" craft_time="15" craft_tool="FuriousRamsayScrewdriver" craft_area="WorkbenchToolbox001_FR" tags="learnable">
+			<ingredient name="resourceScrapIron" count="18" />
+			<ingredient name="resourceGunPowder" count="9"/>
+			<ingredient name="FuriousRamsayScrews" count="4" />
+			<ingredient name="resourceCloth" count="2" />
+		</recipe>
+		<recipe name="FuriousRamsayMadmanDecoyTier5" craft_time="15" craft_tool="FuriousRamsayScrewdriver" craft_area="WorkbenchToolbox001_FR" tags="learnable">
+			<ingredient name="resourceScrapIron" count="20" />
+			<ingredient name="resourceGunPowder" count="11"/>
+			<ingredient name="FuriousRamsayScrews" count="4" />
+			<ingredient name="resourceCloth" count="2" />
+		</recipe>
+
+		<recipe name="FuriousRamsaySpawnBriston_FR" count="1" craft_time="5" always_unlocked="true">
+			<ingredient name="casinoCoin" count="3500"/>
+		</recipe>
+		<recipe name="FuriousRamsaySpawnTrainerHunter_FR" count="1" craft_time="5" tags="learnable">
+			<ingredient name="casinoCoin" count="3500"/>
+		</recipe>
+		<recipe name="FuriousRamsaySpawnTrainerThug_FR" count="1" craft_time="5" tags="learnable">
+			<ingredient name="casinoCoin" count="3500"/>
+		</recipe>
+		<recipe name="FuriousRamsaySpawnTrainerButcher_FR" count="1" craft_time="5" tags="learnable">
+			<ingredient name="casinoCoin" count="3500"/>
+		</recipe>
+		<recipe name="FuriousRamsaySpawnTrainerSoldier_FR" count="1" craft_time="5" tags="learnable">
+			<ingredient name="casinoCoin" count="3500"/>
+		</recipe>
+		<recipe name="FuriousRamsaySpawnTrainerTechnogeek_FR" count="1" craft_time="5" tags="learnable">
+			<ingredient name="casinoCoin" count="3500"/>
+		</recipe>
+		<recipe name="FuriousRamsaySpawnTrainerMadman_FR" count="1" craft_time="5" tags="learnable">
+			<ingredient name="casinoCoin" count="3500"/>
+		</recipe>
+		<recipe name="FuriousRamsaySpawnTrainerBuilder_FR" count="1" craft_time="5" tags="learnable">
+			<ingredient name="casinoCoin" count="3500"/>
+		</recipe>
+		<recipe name="FuriousRamsaySpawnTrainerChef_FR" count="1" craft_time="5" tags="learnable">
+			<ingredient name="casinoCoin" count="3500"/>
+		</recipe>
+
+	</append>
+    
+</Config>

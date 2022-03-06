@@ -1,0 +1,1294 @@
+<Config>
+	
+	<!-- FIX MAILBOX LOOT -->
+	<setattribute xpath="/lootcontainers/lootcontainer[@name='mailbox']/item" name="group">groupMailbox02</setattribute>
+	
+	<!-- ADD CASH -->
+	<append xpath="/lootcontainers/lootcontainer[@name='atmLoot']">
+		<item name="casinoCoin" count="200,1000"/>
+	</append>
+
+	<!-- ADD TO WORKING STIFF LOOT -->
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupWorkingStiffsCrate']/item[@group='groupWorkingStiffs01']" name="count">2</setattribute>
+	<append xpath="/lootcontainers/lootgroup[@name='groupWorkingStiffs01']">
+		<item name="frameShapes:VariantHelper" count ="10,20" loot_prob_template="med"/>
+		<item group="groupBuildingUncommon" loot_prob_template="med" />
+	</append>
+
+	<!-- ADD TO ZOMBIE LOOT -->
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayGroupStarterClothes2']">
+		<item group="FuriousRamsayZombieLoot" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayGroupStarterClothes2b']">
+		<item group="FuriousRamsayZombieLoot" />
+		<item group="FuriousRamsayZombieLootFat" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayGroupStarterClothes3']">
+		<item group="FuriousRamsayZombieLoot" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayGroupStarterClothes7']">
+		<item group="FuriousRamsayZombieLoot" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayGroupStarterClothes6']">
+		<item group="FuriousRamsayZombieLoot" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayGroupStarterClothes5']">
+		<item group="FuriousRamsayZombieLoot" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayGroupStarterClothes1']">
+		<item group="FuriousRamsayZombieLoot" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayGroupStarterClothes4']">
+		<item group="FuriousRamsayZombieLoot" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayGroupStarterClothes8']">
+		<item group="FuriousRamsayZombieLoot" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayGroupStarterClothes11']">
+		<item group="FuriousRamsayZombieLoot" />
+		<item group="FuriousRamsayZombieLootFat" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayZombieRemainsFireLoot']">
+		<item group="FuriousRamsayZombieLoot" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayZombieRemainsShockLoot']">
+		<item group="FuriousRamsayZombieLoot" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayZombieRemainsFireShockLoot']">
+		<item group="FuriousRamsayZombieLoot" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayZombieRemainsSmokeLoot']">
+		<item group="FuriousRamsayZombieLoot" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayZombieRemainsFireShockSmokeLoot']">
+		<item group="FuriousRamsayZombieLoot" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayUMAClintZombieFeralQuestLoot']">
+		<item group="FuriousRamsayZombieLoot" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayUMAGabrielleZombieFeralQuestLoot']">
+		<item group="FuriousRamsayZombieLoot" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayUMAClintZombieRageQuestLoot']">
+		<item group="FuriousRamsayZombieLoot" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayUMAGabrielleZombieRageQuestLoot']">
+		<item group="FuriousRamsayZombieLoot" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayUMAClintZombieShockedRageLoot']">
+		<item group="FuriousRamsayZombieLoot" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayUMAGabrielleZombieShockedRageLoot']">
+		<item group="FuriousRamsayZombieLoot" />
+	</append>
+
+	<!-- REMOVE FROM LOOT -->
+	<remove xpath="//lootgroup[@name='groupQuestWeaponsMeleeT2']/item[@name='meleeWpnBatonT2StunBaton']"/>
+	<remove xpath="//lootgroup[@name='groupStunBaton']/item[@name='meleeWpnBatonT2StunBaton']"/>
+	<remove xpath="//lootgroup[@name='twitch_tier2melee']/item[@name='meleeWpnBatonT2StunBaton']"/>
+	<remove xpath="//lootgroup[@name='FuriousRamsayGroupBlackShieldBossDeathItemsTier2Special']/item[@name='meleeWpnBatonT2StunBaton']"/>
+	<remove xpath="//lootgroup[@name='groupMoPower03']/item[@group='groupStunBaton']"/>
+
+	<!-- ADD BRISTON TO TIER 1 COMPLETION -->
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayTier1Complete']">
+		<item name="FuriousRamsaySpawnSurvivalSpecialist" count="1"/>
+	</append>
+
+	<!-- ADD SHADES TO JUNK -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupJunk02']">
+		<item group="groupApparelFaceCover" loot_prob_template="low" />
+	</append>
+
+	<!-- ADD AMMO TO LOOT -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupBathtub']">
+		<item group="groupAmmoRegular"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupLaundry01']">
+		<item group="groupAmmoRegular"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupLuggage01']">
+		<item group="groupAmmoRegular"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupCoffins01']">
+		<item group="groupAmmoRegular"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupCoffins02']">
+		<item group="groupAmmoRegular"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupCaskets01']">
+		<item group="groupAmmoRegular"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupCaskets02']">
+		<item group="groupAmmoRegular"/>
+	</append>
+
+	<!-- ADD SCHEMATICS TO LOOT -->
+	<!--<setattribute xpath="/lootcontainers/lootgroup[@name='booksAllScaled']/item[@name='resourcePaper']" name="loot_prob_template">medHigh</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='booksAllScaled']/item[@name='resourcePaper']" name="force_prob">true</setattribute>-->
+	<append xpath="/lootcontainers/lootgroup[@name='booksAllScaled']">
+		<!--<item name="resourcePaper" count="1,5" loot_prob_template="medHigh" />-->
+		<item group="schematicsModsAndGeneralT0" loot_prob_template="medHigh" />
+		<item group="FuriousRamsayGroupRebirthBooksFoodLow" loot_prob_template="medHigh" />
+		<item group="FuriousRamsayGroupRebirthBooksDrinks" loot_prob_template="medHigh" />
+
+		<item group="schematicsModsAndGeneralT1" loot_prob_template="med" />
+		<item group="FuriousRamsayGroupRebirthBooksMeds" loot_prob_template="med" />
+		<item group="schematicsVehiclesT1" loot_prob_template="med" />
+
+		<item group="schematicsModsAndGeneralT2" loot_prob_template="low" />
+		<item group="FuriousRamsayGroupRebirthBooksFoodHigh" loot_prob_template="low" />
+		<item group="schematicsVehiclesT2" loot_prob_template="low" />
+		<item group="schematicsWeaponsArmorT2" loot_prob_template="low" />
+	</append>
+
+	<!-- ADD STEEL LEVEL WEAPONS -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Melee']">
+		<!-- KNIVES -->
+		<item name="ItemsWeaponsCleaver001_FR" prob="0.5"/>
+		<item name="FuriousRamsayKnife002_FR" prob="0.5"/>
+		<item name="FuriousRamsayKnife003_FR" prob="0.2"/>
+		<!-- SWORDS -->
+		<item name="ItemsWeaponsSciFiSword001_FR" prob="0.5"/>
+		<item name="ItemsWeaponsKatana002_FR" prob="0.5"/>
+		<item name="ItemsWeaponsSciFiSword003_FR" prob="0.2"/>
+		<item name="ItemsWeaponsKatana001_FR" prob="0.2"/>
+		<!-- AXES -->
+		<item name="meleeToolAxeT2SteelAxe" prob="0.5"/>
+		<item name="ItemsWeaponsAxe005_FR" prob="0.5"/>
+		<item name="ItemsWeaponsAxe001_FR" prob="0.2"/>
+		<item name="ItemsWeaponsAxe002_FR" prob="0.2"/>
+		<item name="ItemsWeaponsAxe003_FR" prob="0.2"/>
+		<!-- HAMMERS -->
+		<item name="meleeWpnSledgeT3SteelSledgehammer" prob="0.5"/>
+		<item name="ItemsWeaponsHammer003_FR" prob="0.5"/>
+		<item name="ItemsWeaponsSledgeHammer001_FR" prob="0.5"/>
+		<item name="ItemsWeaponsSledgeHammer002_FR" prob="0.2"/>
+		<item name="ItemsWeaponsHammer001_FR" prob="0.2"/>
+		<item name="ItemsWeaponsHammer002_FR" prob="0.2"/>
+		<!-- SPEARS -->
+		<item name="meleeWpnSpearT3SteelSpear" prob="0.5"/>
+		<item name="ItemsWeaponsSpear003_FR" prob="0.5"/>
+		<item name="ItemsWeaponsSpear001_FR" prob="0.2"/>
+		<item name="ItemsWeaponsSpear002_FR" prob="0.2"/>
+		<item name="ItemsWeaponsSpear004_FR" prob="0.1"/>
+		<item name="ItemsWeaponsSpear005_FR" prob="0.1"/>
+		<!-- CLUBS -->
+		<item name="meleeWpnClubT3SteelClub" prob="0.5"/>
+		<item name="ItemsWeaponsClub005_FR" prob="0.5"/>
+		<item name="ItemsWeaponsClub001_FR" prob="0.5"/>
+		<item name="ItemsWeaponsClub002_FR" prob="0.2"/>
+		<item name="ItemsWeaponsClub009_FR" prob="0.2"/>
+		<item name="ItemsWeaponsClub010_FR" prob="0.2"/>
+		<item name="ItemsWeaponsClub004_FR" prob="0.1"/>
+		<item name="ItemsWeaponsClub006_FR" prob="0.1"/>
+		<item name="ItemsWeaponsClub008_FR" prob="0.1"/>
+		<!-- BATONS -->
+		<item name="ItemsWeaponsJunkBaton001_FR" prob="0.5"/>
+		<item name="meleeWpnBatonT2StunBaton" prob="0.2"/>
+		<item name="ItemsWeaponsBaton001_FR" prob="0.1"/>
+		<!-- KNUCKLES -->
+		<item name="meleeWpnKnucklesT3SteelKnuckles" prob="0.5"/>
+		<item name="ItemsWeaponsKnuckles002_FR" prob="0.2"/>
+		<item name="ItemsWeaponsKnuckles001_FR" prob="0.1"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsMeleeT2']">
+		<!-- KNIVES -->
+		<item name="ItemsWeaponsCleaver001_FR" prob="0.5"/>
+		<item name="FuriousRamsayKnife002_FR" prob="0.5"/>
+		<item name="FuriousRamsayKnife003_FR" prob="0.2"/>
+		<!-- SWORDS -->
+		<item name="ItemsWeaponsSciFiSword001_FR" prob="0.5"/>
+		<item name="ItemsWeaponsKatana002_FR" prob="0.5"/>
+		<item name="ItemsWeaponsSciFiSword003_FR" prob="0.2"/>
+		<item name="ItemsWeaponsKatana001_FR" prob="0.2"/>
+		<!-- AXES -->
+		<item name="meleeToolAxeT2SteelAxe" prob="0.5"/>
+		<item name="ItemsWeaponsAxe005_FR" prob="0.5"/>
+		<item name="ItemsWeaponsAxe001_FR" prob="0.2"/>
+		<item name="ItemsWeaponsAxe002_FR" prob="0.2"/>
+		<item name="ItemsWeaponsAxe003_FR" prob="0.2"/>
+		<!-- HAMMERS -->
+		<item name="meleeWpnSledgeT3SteelSledgehammer" prob="0.5"/>
+		<item name="ItemsWeaponsHammer003_FR" prob="0.5"/>
+		<item name="ItemsWeaponsSledgeHammer001_FR" prob="0.5"/>
+		<item name="ItemsWeaponsSledgeHammer002_FR" prob="0.2"/>
+		<item name="ItemsWeaponsHammer001_FR" prob="0.2"/>
+		<item name="ItemsWeaponsHammer002_FR" prob="0.2"/>
+		<!-- SPEARS -->
+		<item name="meleeWpnSpearT3SteelSpear" prob="0.5"/>
+		<item name="ItemsWeaponsSpear003_FR" prob="0.5"/>
+		<item name="ItemsWeaponsSpear001_FR" prob="0.2"/>
+		<item name="ItemsWeaponsSpear002_FR" prob="0.2"/>
+		<item name="ItemsWeaponsSpear004_FR" prob="0.1"/>
+		<item name="ItemsWeaponsSpear005_FR" prob="0.1"/>
+		<!-- CLUBS -->
+		<item name="meleeWpnClubT3SteelClub" prob="0.5"/>
+		<item name="ItemsWeaponsClub005_FR" prob="0.5"/>
+		<item name="ItemsWeaponsClub001_FR" prob="0.5"/>
+		<item name="ItemsWeaponsClub002_FR" prob="0.2"/>
+		<item name="ItemsWeaponsClub009_FR" prob="0.2"/>
+		<item name="ItemsWeaponsClub010_FR" prob="0.2"/>
+		<item name="ItemsWeaponsClub004_FR" prob="0.1"/>
+		<item name="ItemsWeaponsClub006_FR" prob="0.1"/>
+		<item name="ItemsWeaponsClub008_FR" prob="0.1"/>
+		<!-- BATONS -->
+		<item name="ItemsWeaponsJunkBaton001_FR" prob="0.5"/>
+		<item name="meleeWpnBatonT2StunBaton" prob="0.2"/>
+		<item name="ItemsWeaponsBaton001_FR" prob="0.1"/>
+		<!-- KNUCKLES -->
+		<item name="meleeWpnKnucklesT3SteelKnuckles" prob="0.5"/>
+		<item name="ItemsWeaponsKnuckles002_FR" prob="0.2"/>
+		<item name="ItemsWeaponsKnuckles001_FR" prob="0.1"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='twitch_tier2melee']">
+		<!-- KNIVES -->
+		<item name="ItemsWeaponsCleaver001_FR" prob="0.5"/>
+		<item name="FuriousRamsayKnife002_FR" prob="0.5"/>
+		<item name="FuriousRamsayKnife003_FR" prob="0.2"/>
+		<!-- SWORDS -->
+		<item name="ItemsWeaponsSciFiSword001_FR" prob="0.5"/>
+		<item name="ItemsWeaponsKatana002_FR" prob="0.5"/>
+		<item name="ItemsWeaponsSciFiSword003_FR" prob="0.2"/>
+		<item name="ItemsWeaponsKatana001_FR" prob="0.2"/>
+		<!-- AXES -->
+		<item name="meleeToolAxeT2SteelAxe" prob="0.5"/>
+		<item name="ItemsWeaponsAxe005_FR" prob="0.5"/>
+		<item name="ItemsWeaponsAxe001_FR" prob="0.2"/>
+		<item name="ItemsWeaponsAxe002_FR" prob="0.2"/>
+		<item name="ItemsWeaponsAxe003_FR" prob="0.2"/>
+		<!-- HAMMERS -->
+		<item name="meleeWpnSledgeT3SteelSledgehammer" prob="0.5"/>
+		<item name="ItemsWeaponsHammer003_FR" prob="0.5"/>
+		<item name="ItemsWeaponsSledgeHammer001_FR" prob="0.5"/>
+		<item name="ItemsWeaponsSledgeHammer002_FR" prob="0.2"/>
+		<item name="ItemsWeaponsHammer001_FR" prob="0.2"/>
+		<item name="ItemsWeaponsHammer002_FR" prob="0.2"/>
+		<!-- SPEARS -->
+		<item name="meleeWpnSpearT3SteelSpear" prob="0.5"/>
+		<item name="ItemsWeaponsSpear003_FR" prob="0.5"/>
+		<item name="ItemsWeaponsSpear001_FR" prob="0.2"/>
+		<item name="ItemsWeaponsSpear002_FR" prob="0.2"/>
+		<item name="ItemsWeaponsSpear004_FR" prob="0.1"/>
+		<item name="ItemsWeaponsSpear005_FR" prob="0.1"/>
+		<!-- CLUBS -->
+		<item name="meleeWpnClubT3SteelClub" prob="0.5"/>
+		<item name="ItemsWeaponsClub005_FR" prob="0.5"/>
+		<item name="ItemsWeaponsClub001_FR" prob="0.5"/>
+		<item name="ItemsWeaponsClub002_FR" prob="0.2"/>
+		<item name="ItemsWeaponsClub009_FR" prob="0.2"/>
+		<item name="ItemsWeaponsClub010_FR" prob="0.2"/>
+		<item name="ItemsWeaponsClub004_FR" prob="0.1"/>
+		<item name="ItemsWeaponsClub006_FR" prob="0.1"/>
+		<item name="ItemsWeaponsClub008_FR" prob="0.1"/>
+		<!-- BATONS -->
+		<item name="ItemsWeaponsJunkBaton001_FR" prob="0.5"/>
+		<item name="meleeWpnBatonT2StunBaton" prob="0.2"/>
+		<item name="ItemsWeaponsBaton001_FR" prob="0.1"/>
+		<!-- KNUCKLES -->
+		<item name="meleeWpnKnucklesT3SteelKnuckles" prob="0.5"/>
+		<item name="ItemsWeaponsKnuckles002_FR" prob="0.2"/>
+		<item name="ItemsWeaponsKnuckles001_FR" prob="0.1"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayGroupBlackShieldBossDeathItemsTier4Special']">
+		<!-- KNIVES -->
+		<item name="ItemsWeaponsCleaver001_FR" prob="0.5"/>
+		<item name="FuriousRamsayKnife002_FR" prob="0.5"/>
+		<item name="FuriousRamsayKnife003_FR" prob="0.2"/>
+		<!-- SWORDS -->
+		<item name="ItemsWeaponsSciFiSword001_FR" prob="0.5"/>
+		<item name="ItemsWeaponsKatana002_FR" prob="0.5"/>
+		<item name="ItemsWeaponsSciFiSword003_FR" prob="0.2"/>
+		<item name="ItemsWeaponsKatana001_FR" prob="0.2"/>
+		<!-- AXES -->
+		<item name="meleeToolAxeT2SteelAxe" prob="0.5"/>
+		<item name="ItemsWeaponsAxe005_FR" prob="0.5"/>
+		<item name="ItemsWeaponsAxe001_FR" prob="0.2"/>
+		<item name="ItemsWeaponsAxe002_FR" prob="0.2"/>
+		<item name="ItemsWeaponsAxe003_FR" prob="0.2"/>
+		<!-- HAMMERS -->
+		<item name="meleeWpnSledgeT3SteelSledgehammer" prob="0.5"/>
+		<item name="ItemsWeaponsHammer003_FR" prob="0.5"/>
+		<item name="ItemsWeaponsSledgeHammer001_FR" prob="0.5"/>
+		<item name="ItemsWeaponsSledgeHammer002_FR" prob="0.2"/>
+		<item name="ItemsWeaponsHammer001_FR" prob="0.2"/>
+		<item name="ItemsWeaponsHammer002_FR" prob="0.2"/>
+		<!-- SPEARS -->
+		<item name="meleeWpnSpearT3SteelSpear" prob="0.5"/>
+		<item name="ItemsWeaponsSpear003_FR" prob="0.5"/>
+		<item name="ItemsWeaponsSpear001_FR" prob="0.2"/>
+		<item name="ItemsWeaponsSpear002_FR" prob="0.2"/>
+		<item name="ItemsWeaponsSpear004_FR" prob="0.1"/>
+		<item name="ItemsWeaponsSpear005_FR" prob="0.1"/>
+		<!-- CLUBS -->
+		<item name="meleeWpnClubT3SteelClub" prob="0.5"/>
+		<item name="ItemsWeaponsClub005_FR" prob="0.5"/>
+		<item name="ItemsWeaponsClub001_FR" prob="0.5"/>
+		<item name="ItemsWeaponsClub002_FR" prob="0.2"/>
+		<item name="ItemsWeaponsClub009_FR" prob="0.2"/>
+		<item name="ItemsWeaponsClub010_FR" prob="0.2"/>
+		<item name="ItemsWeaponsClub004_FR" prob="0.1"/>
+		<item name="ItemsWeaponsClub006_FR" prob="0.1"/>
+		<item name="ItemsWeaponsClub008_FR" prob="0.1"/>
+		<!-- BATONS -->
+		<item name="ItemsWeaponsJunkBaton001_FR" prob="0.5"/>
+		<item name="meleeWpnBatonT2StunBaton" prob="0.2"/>
+		<item name="ItemsWeaponsBaton001_FR" prob="0.1"/>
+		<!-- KNUCKLES -->
+		<item name="meleeWpnKnucklesT3SteelKnuckles" prob="0.5"/>
+		<item name="ItemsWeaponsKnuckles002_FR" prob="0.2"/>
+		<item name="ItemsWeaponsKnuckles001_FR" prob="0.1"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayGroupBlackShieldBossDeathItemsTier5Special']">
+		<!-- KNIVES -->
+		<item name="FuriousRamsayKnife003_FR" prob="0.5"/>
+		<!-- SWORDS -->
+		<item name="ItemsWeaponsSciFiSword003_FR" prob="0.5"/>
+		<item name="ItemsWeaponsKatana001_FR" prob="0.5"/>
+		<!-- AXES -->
+		<item name="ItemsWeaponsAxe001_FR" prob="0.5"/>
+		<item name="ItemsWeaponsAxe002_FR" prob="0.5"/>
+		<item name="ItemsWeaponsAxe003_FR" prob="0.5"/>
+		<!-- HAMMERS -->
+		<item name="ItemsWeaponsSledgeHammer002_FR" prob="0.5"/>
+		<item name="ItemsWeaponsHammer001_FR" prob="0.5"/>
+		<item name="ItemsWeaponsHammer002_FR" prob="0.5"/>
+		<!-- SPEARS -->
+		<item name="ItemsWeaponsSpear001_FR" prob="0.5"/>
+		<item name="ItemsWeaponsSpear002_FR" prob="0.5"/>
+		<item name="ItemsWeaponsSpear004_FR" prob="0.2"/>
+		<item name="ItemsWeaponsSpear005_FR" prob="0.2"/>
+		<!-- CLUBS -->
+		<item name="ItemsWeaponsClub002_FR" prob="0.5"/>
+		<item name="ItemsWeaponsClub009_FR" prob="0.5"/>
+		<item name="ItemsWeaponsClub010_FR" prob="0.5"/>
+		<item name="ItemsWeaponsClub004_FR" prob="0.2"/>
+		<item name="ItemsWeaponsClub006_FR" prob="0.2"/>
+		<item name="ItemsWeaponsClub008_FR" prob="0.2"/>
+		<!-- BATONS -->
+		<item name="meleeWpnBatonT2StunBaton" prob="0.5"/>
+		<item name="ItemsWeaponsBaton001_FR" prob="0.2"/>
+		<!-- KNUCKLES -->
+		<item name="ItemsWeaponsKnuckles002_FR" prob="0.5"/>
+		<item name="ItemsWeaponsKnuckles001_FR" prob="0.2"/>
+	</append>
+
+	<!-- ADD MEDICAL BANDAGES TO LOOT -->
+	<!--<append xpath="/lootcontainers/lootgroup[@name='junk']">
+		<item name="medicalFirstAidBandage"/>
+	</append>-->
+	<append xpath="/lootcontainers/lootgroup[@name='survivalMedical']">
+		<item name="medicalFirstAidBandage"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestMedical']">
+		<item name="medicalFirstAidBandage"/>
+	</append>
+
+	<remove xpath="/lootcontainers/lootgroup[@name='groupGrills']/item[@name='meleeWpnBladeT1HuntingKnife']"/>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupGrills']/item[@name='toolCookingGrill']" name="loot_prob_template">low</setattribute>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupGrills']">
+		<item name="FuriousRamsayCharcoal" count="5" loot_prob_template="low"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupApparelFaceCover']">
+		<item name="FuriousRamsayHeadShadesStrengthTRex"/>
+		<item name="FuriousRamsayHeadShadesStrengthMiner69er"/>
+		<item name="FuriousRamsayHeadShadesStrengthMotherLode"/>
+		<item name="FuriousRamsayHeadShadesDexterityRuleOneCardio"/>
+		<item name="FuriousRamsayHeadShadesDexterityParkour"/>
+		<item name="FuriousRamsayHeadShadesDexterityRunAndGun"/>
+		<item name="FuriousRamsayHeadShadesConstitutionPackMule"/>
+		<item name="FuriousRamsayHeadShadesConstitutionHealingFactor"/>
+		<item name="FuriousRamsayHeadShadesConstitutionSlowMetabolism"/>
+		<item name="FuriousRamsayHeadShadesIntelligenceDeepCuts"/>
+		<item name="FuriousRamsayHeadShadesIntelligenceLuckyLooter"/>
+		<item name="FuriousRamsayHeadShadesIntelligenceLockPicking"/>
+		<item name="FuriousRamsayHeadShadesIntelligenceTreasureHunter"/>
+		<item name="FuriousRamsayHeadShadesCharismaDaringAdventurer"/>
+		<item name="FuriousRamsayHeadShadesCharismaBetterBarter"/>
+		<item name="FuriousRamsayHeadShadesCharismaCharismaticNature"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupDesks02']">
+		<item name="FuriousRamsayFountainPen"/>
+	</append>
+
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='FuriousRamsayGroupHazmatModTier1']">
+		<lootgroup name="FuriousRamsayPandemicMan002aMacheteBossTier1Loot" count="all">
+			<item group="FuriousRamsayGroupHazmatModTier1"/>
+			<item name="FuriousRamsaySchematicWorkbenchDistiller001_FR"/>
+			<item name="vehicleMinibikeChassisSchematic"/>
+		</lootgroup>
+	</insertAfter>
+
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='FuriousRamsayGroupBlackShieldBossDeathItemsTier1Special']">
+		<lootgroup name="FuriousRamsayBanditCyborg001AxeBossTier1Loot" count="all">
+			<item group="FuriousRamsayGroupBlackShieldBossDeathArmorTier1"/>
+			<item group="FuriousRamsayGroupBlackShieldBossDeathItemsTier1"/>
+			<item group="FuriousRamsayGroupBlackShieldBossDeathItemsTier1Special"/>
+			<item name="FuriousRamsaySchematicWorkbenchGasStove001_FR"/>
+		</lootgroup>
+	</insertAfter>
+
+	<insertAfter xpath="/lootcontainers/lootcontainer[@name='FuriousRamsay887']">
+		<!-- ADD TO ZOMBIE LOOT -->
+		<lootcontainer name="FuriousRamsayZombieFatHawaiian" size="3,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayGroupStarterClothes11" />
+		</lootcontainer>
+	</insertAfter>
+
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='empty']">
+
+		<lootgroup name="FuriousRamsayZombieLoot" count="1">
+			<item name="foodRottingFlesh" count="1" prob="150"/>
+			<item name="casinoCoin" count="10,20" prob="30"/>
+			<item name="ammo9mmBulletBall" count="3,5" prob="20"/>
+			<item name="ammo762mmBulletBall" count="2,4" prob="20"/>
+			<item name="ammoShotgunShell" count="3,5" prob="20"/>
+			<item name="ammo44MagnumBulletBall" count="2,4" prob="20"/>
+			<item name="medicalFirstAidBandage" prob="8"/>
+			<item name="medicalAloeCream" count="1,2" prob="12"/>
+			<item name="medicalBandage" count="1,2" prob="14"/>
+			<item name="drugPainkillers" prob="5"/>
+			<item name="resourceSilverNugget" prob="0.2"/>
+			<item name="resourceGoldNugget" prob="0.08"/>
+			<item name="resourceRawDiamond" prob="0.03"/>
+			<item name="qt_taylor" prob="0.01" />
+			<item name="qt_nickole" prob="0.01" />
+			<item name="qt_stephan" prob="0.01" />
+			<item name="qt_jennifer" prob="0.01" />
+			<item name="qt_claude" prob="0.01" />
+			<item name="qt_sarah" prob="0.01" />
+			<item name="qt_raphael" prob="0.01" />
+			<item name="FuriousRamsayHeadShadesStrengthTRex" prob="0.1"/>
+			<item name="FuriousRamsayHeadShadesStrengthMiner69er" prob="0.1"/>
+			<item name="FuriousRamsayHeadShadesStrengthMotherLode" prob="0.1"/>
+			<item name="FuriousRamsayHeadShadesDexterityRuleOneCardio" prob="0.1"/>
+			<item name="FuriousRamsayHeadShadesDexterityParkour" prob="0.1"/>
+			<item name="FuriousRamsayHeadShadesDexterityRunAndGun" prob="0.1"/>
+			<item name="FuriousRamsayHeadShadesConstitutionPackMule" prob="0.1"/>
+			<item name="FuriousRamsayHeadShadesConstitutionHealingFactor" prob="0.1"/>
+			<item name="FuriousRamsayHeadShadesConstitutionSlowMetabolism" prob="0.1"/>
+			<item name="FuriousRamsayHeadShadesIntelligenceDeepCuts" prob="0.1"/>
+			<item name="FuriousRamsayHeadShadesIntelligenceLuckyLooter" prob="0.1"/>
+			<item name="FuriousRamsayHeadShadesIntelligenceLockPicking" prob="0.1"/>
+			<item name="FuriousRamsayHeadShadesIntelligenceTreasureHunter" prob="0.1"/>
+			<item name="FuriousRamsayHeadShadesCharismaDaringAdventurer" prob="0.1"/>
+			<item name="FuriousRamsayHeadShadesCharismaBetterBarter" prob="0.1"/>
+			<item name="FuriousRamsayHeadShadesCharismaCharismaticNature" prob="0.1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayZombieLootFat">
+			<item name="resourceAnimalFat" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayBoost" count="1">
+			<item name="FuriousRamsayPillCharisma"/>
+			<item name="FuriousRamsayPillConstitution"/>
+			<item name="FuriousRamsayPillDexterity"/>
+			<item name="FuriousRamsayPillIntelligence"/>
+			<item name="FuriousRamsayPillStrength"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayQuestLootGhostsTier1" count="1">
+			<item name="ammo9mmBulletBall" count="25,35"/>
+			<item name="ammo762mmBulletBall" count="15,25"/>
+			<item name="ammoShotgunShell" count="20,30"/>
+			<item name="ammo44MagnumBulletBall" count="15,25"/>
+		</lootgroup>
+		<lootgroup name="FuriousRamsayQuestLootGhostsTier1Loot" count="all">
+			<item group="FuriousRamsayQuestLootGhostsTier1" />
+			<item group="FuriousRamsayBoost" />
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayQuestLootHuntTier1" count="1">
+			<item name="ammo9mmBulletBall" count="25,35"/>
+			<item name="ammo762mmBulletBall" count="15,25"/>
+			<item name="ammoShotgunShell" count="20,30"/>
+			<item name="ammo44MagnumBulletBall" count="15,25"/>
+		</lootgroup>
+		<lootgroup name="FuriousRamsayQuestLootHuntTier1Loot" count="all">
+			<item group="FuriousRamsayQuestLootHuntTier1" />
+			<item group="FuriousRamsayBoost" />
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayQuestLootMiningTier1" count="1">
+			<item name="ammo9mmBulletBall" count="25,35"/>
+			<item name="ammo762mmBulletBall" count="15,25"/>
+			<item name="ammoShotgunShell" count="20,30"/>
+			<item name="ammo44MagnumBulletBall" count="15,25"/>
+		</lootgroup>
+		<lootgroup name="FuriousRamsayQuestLootMiningTier1Loot" count="all">
+			<item group="FuriousRamsayQuestLootMiningTier1" />
+			<item group="FuriousRamsayBoost" />
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayQuestLootHazardTier1" count="1">
+			<item name="ammo9mmBulletBall" count="25,35"/>
+			<item name="ammo762mmBulletBall" count="15,25"/>
+			<item name="ammoShotgunShell" count="20,30"/>
+			<item name="ammo44MagnumBulletBall" count="15,25"/>
+		</lootgroup>
+		<lootgroup name="FuriousRamsayQuestLootHazardTier1Loot" count="all">
+			<item group="FuriousRamsayQuestLootHazardTier1" />
+			<item group="FuriousRamsayBoost" />
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayQuestLootToxicTier1" count="1">
+			<item name="ammo9mmBulletBall" count="25,35"/>
+			<item name="ammo762mmBulletBall" count="15,25"/>
+			<item name="ammoShotgunShell" count="20,30"/>
+			<item name="ammo44MagnumBulletBall" count="15,25"/>
+		</lootgroup>
+		<lootgroup name="FuriousRamsayQuestLootToxicTier1Loot" count="all">
+			<item group="FuriousRamsayQuestLootToxicTier1" />
+			<item group="FuriousRamsayBoost" />
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayQuestLootBuredSuppliesTier1" count="1">
+			<item name="ammo9mmBulletBall" count="25,35"/>
+			<item name="ammo762mmBulletBall" count="15,25"/>
+			<item name="ammoShotgunShell" count="20,30"/>
+			<item name="ammo44MagnumBulletBall" count="15,25"/>
+		</lootgroup>
+		<lootgroup name="FuriousRamsayQuestLootBuredSuppliesTier1Loot" count="all">
+			<item group="FuriousRamsayQuestLootBuredSuppliesTier1" />
+			<item group="FuriousRamsayBoost" />
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayQuestLootBlackGoldTier1" count="1">
+			<item name="ammo9mmBulletBall" count="25,35"/>
+			<item name="ammo762mmBulletBall" count="15,25"/>
+			<item name="ammoShotgunShell" count="20,30"/>
+			<item name="ammo44MagnumBulletBall" count="15,25"/>
+		</lootgroup>
+		<lootgroup name="FuriousRamsayQuestLootBlackGoldTier1Loot" count="all">
+			<item group="FuriousRamsayQuestLootBlackGoldTier1" />
+			<item group="FuriousRamsayBoost" />
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayQuestLootFactionWarTier1" count="1">
+			<item name="ammo9mmBulletBall" count="25,35"/>
+			<item name="ammo762mmBulletBall" count="15,25"/>
+			<item name="ammoShotgunShell" count="20,30"/>
+			<item name="ammo44MagnumBulletBall" count="15,25"/>
+		</lootgroup>
+		<lootgroup name="FuriousRamsayQuestLootFactionWarTier1Loot" count="all">
+			<item group="FuriousRamsayQuestLootFactionWarTier1" />
+			<item group="FuriousRamsayBoost" />
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayQuestLootDecoyTier1" count="1">
+			<item name="ammo9mmBulletBall" count="25,35"/>
+			<item name="ammo762mmBulletBall" count="15,25"/>
+			<item name="ammoShotgunShell" count="20,30"/>
+			<item name="ammo44MagnumBulletBall" count="15,25"/>
+		</lootgroup>
+		<lootgroup name="FuriousRamsayQuestLootDecoyTier1Loot" count="all">
+			<item group="FuriousRamsayQuestLootDecoyTier1" />
+			<item group="FuriousRamsayBoost" />
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayQuestLootMiniHordeTier1" count="1">
+			<item name="ammo9mmBulletBall" count="25,35"/>
+			<item name="ammo762mmBulletBall" count="15,25"/>
+			<item name="ammoShotgunShell" count="20,30"/>
+			<item name="ammo44MagnumBulletBall" count="15,25"/>
+		</lootgroup>
+		<lootgroup name="FuriousRamsayQuestLootMiniHordeTier1Loot" count="all">
+			<item group="FuriousRamsayQuestLootMiniHordeTier1" />
+			<item group="FuriousRamsayBoost" />
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayQuestLootKamikazeTier1" count="1">
+			<item name="ammo9mmBulletBall" count="25,35"/>
+			<item name="ammo762mmBulletBall" count="15,25"/>
+			<item name="ammoShotgunShell" count="20,30"/>
+			<item name="ammo44MagnumBulletBall" count="15,25"/>
+		</lootgroup>
+		<lootgroup name="FuriousRamsayQuestLootKamikazeTier1Loot" count="all">
+			<item group="FuriousRamsayQuestLootKamikazeTier1" />
+			<item group="FuriousRamsayBoost" />
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayQuestLootSkullsTier1" count="1">
+			<item name="ammo9mmBulletBall" count="25,35"/>
+			<item name="ammo762mmBulletBall" count="15,25"/>
+			<item name="ammoShotgunShell" count="20,30"/>
+			<item name="ammo44MagnumBulletBall" count="15,25"/>
+		</lootgroup>
+		<lootgroup name="FuriousRamsayQuestLootSkullsTier1Loot" count="all">
+			<item group="FuriousRamsayQuestLootSkullsTier1" />
+			<item group="FuriousRamsayBoost" />
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayCloakedSnakeLoot" count="all">
+			<item name="FuriousRamsaySchematicWorkbenchMortarPestle001_FR"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayWerewolfBossTier1Loot" count="all">
+			<item name="FuriousRamsaySchematicWorkbenchCircularMachine001_FR"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayToxicBossLoot" count="all">
+			<item name="FuriousRamsaySchematicWorkbenchFurnace001_FR"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayMiniHordeBossTier1Loot" count="all">
+			<item name="FuriousRamsaySchematicWorkbenchConcreteMixer001_FR"/>
+			<item name="vehicleMotorcycleChassisSchematic"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayBanditLootGroupBat" count="all">
+			<item name="casinoCoin" count="10,50"/>
+			<item name="meleeWpnClubT1BaseballBat" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayBanditLootGroupAxe" count="all">
+			<item name="casinoCoin" count="10,50"/>
+			<item name="meleeToolAxeT1IronFireaxe" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayBanditLootGroupClub" count="all">
+			<item name="casinoCoin" count="10,50"/>
+			<item name="meleeWpnClubT0WoodenClub" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayBanditLootGroupKnife" count="all">
+			<item name="casinoCoin" count="10,50"/>
+			<item name="meleeWpnBladeT1HuntingKnife" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayBanditLootGroupSpear" count="all">
+			<item name="casinoCoin" count="10,50"/>
+			<item name="meleeWpnSpearT1IronSpear" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayBanditLootGroupMachete" count="all">
+			<item name="casinoCoin" count="10,50"/>
+			<item name="meleeWpnBladeT3Machete" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayBanditLootGroupPipePistol" count="all">
+			<item name="casinoCoin" count="10,50"/>
+			<item name="ammo9mmBulletBall" count="5,30"/>
+			<item name="gunHandgunT0PipePistol" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayBanditLootGroupPipeMachineGun" count="all">
+			<item name="casinoCoin" count="10,50"/>
+			<item name="ammo762mmBulletBall" count="5,30"/>
+			<item name="gunMGT0PipeMachineGun" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayBanditLootGroupPipeShotgun" count="all">
+			<item name="casinoCoin" count="10,50"/>
+			<item name="ammoShotgunShell" count="5,30"/>
+			<item name="gunShotgunT0PipeShotgun" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayBanditLootGroupPipeRifle" count="all">
+			<item name="casinoCoin" count="10,50"/>
+			<item name="ammo762mmBulletBall" count="5,30"/>
+			<item name="gunRifleT0PipeRifle" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayBanditLootGroupPistol" count="all">
+			<item name="casinoCoin" count="10,50"/>
+			<item name="ammo9mmBulletBall" count="5,30"/>
+			<item name="gunHandgunT1Pistol" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayBanditLootGroupDesertVulture" count="all">
+			<item name="casinoCoin" count="10,50"/>
+			<item name="ammo44MagnumBulletBall" count="5,30"/>
+			<item name="gunHandgunT3DesertVulture" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayBanditLootGroupSMG5" count="all">
+			<item name="casinoCoin" count="10,50"/>
+			<item name="ammo9mmBulletBall" count="5,30"/>
+			<item name="gunHandgunT3SMG5" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayBanditLootGroupM60" count="all">
+			<item name="casinoCoin" count="10,50"/>
+			<item name="ammo762mmBulletBall" count="5,30"/>
+			<item name="gunMGT3M60" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayBanditLootGroupAK47" count="all">
+			<item name="casinoCoin" count="10,50"/>
+			<item name="ammo762mmBulletBall" count="5,30"/>
+			<item name="gunMGT1AK47" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayBanditLootGroupAssaultRifle" count="all">
+			<item name="casinoCoin" count="10,50"/>
+			<item name="ammo762mmBulletBall" count="5,30"/>
+			<item name="gunMGT2TacticalAR" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayBanditLootGroupHuntingRifle" count="all">
+			<item name="casinoCoin" count="10,50"/>
+			<item name="ammo762mmBulletBall" count="5,30"/>
+			<item name="gunRifleT1HuntingRifle" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayBanditLootGroupSniperRifle" count="all">
+			<item name="casinoCoin" count="10,50"/>
+			<item name="ammo762mmBulletBall" count="5,30"/>
+			<item name="gunRifleT3SniperRifle" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayBanditLootGroupPumpShotgun" count="all">
+			<item name="casinoCoin" count="10,50"/>
+			<item name="ammoShotgunShell" count="5,30"/>
+			<item name="gunShotgunT2PumpShotgun" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayBanditLootGroupAutoShotgun" count="all">
+			<item name="casinoCoin" count="10,50"/>
+			<item name="ammoShotgunShell" count="5,30"/>
+			<item name="gunShotgunT3AutoShotgun" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayBanditLootGroupWoodenBow" count="all">
+			<item name="casinoCoin" count="10,50"/>
+			<item name="ammoArrowIron" count="5,30"/>
+			<item name="gunBowT1WoodenBow" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayBanditLootGroupCrossbow" count="all">
+			<item name="casinoCoin" count="10,50"/>
+			<item name="ammoCrossbowBoltIron" count="5,30"/>
+			<item name="gunBowT1IronCrossbow" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayBanditLootGroupRocketLauncher" count="all">
+			<item name="casinoCoin" count="10,50"/>
+			<item name="ammoRocketFrag" count="2,4"/>
+			<item name="gunExplosivesT3RocketLauncher" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupRebirthBooksVehicles">
+			<item name="vehicleBicycleChassisSchematic" prob="1"/>
+			<item name="vehicleBicycleHandlebarsSchematic" prob="1"/>
+			<item name="vehicleMinibikeChassisSchematic" prob="0.8"/>
+			<item name="vehicleMinibikeHandlebarsSchematic" prob="0.8"/>
+			<item name="vehicleMotorcycleChassisSchematic" prob="0.6"/>
+			<item name="vehicleMotorcycleHandlebarsSchematic" prob="0.6"/>
+			<item name="vehicle4x4TruckChassisSchematic" prob="0.4"/>
+			<item name="vehicle4x4TruckAccessoriesSchematic" prob="0.4"/>
+			<item name="vehicleGyroCopterChassisSchematic" prob="0.1"/>
+			<item name="vehicleGyroCopterAccessoriesSchematic" prob="0.1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupRebirthBooksElectricity">
+			<item name="speakerSchematic" prob="1"/>
+			<item name="spotlightPlayerSchematic" prob="1"/>
+			<item name="electrictimerrelaySchematic" prob="0.9"/>
+			<item name="pressureplateSchematic" prob="0.85"/>
+			<item name="switchSchematic" prob="0.85"/>
+			<item name="dartTrapSchematic" prob="0.8"/>
+			<!--<item name="generatorbankSchematic" prob="0.75"/>-->
+			<item name="electricfencepostSchematic" prob="0.7"/>
+			<item name="motionsensorSchematic" prob="0.6"/>
+			<item name="bladeTrapSchematic" prob="0.5"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupRebirthBooksMisc">
+			<!--<item name="resourceOilSchematic" prob="0.8"/>
+			<item name="ammoGasCanSchematic" prob="0.7"/>
+			<item name="toolAnvilSchematic" prob="0.5"/>
+			<item name="toolBellowsSchematic" prob="0.5"/>
+			<item name="plantedGraceCorn1Schematic" prob="0.3"/>
+			<item name="toolForgeCrucibleSchematic" prob="0.1"/>-->
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupRebirthBooksMeds">
+			<item name="drugHerbalAntibioticsSchematic" prob="1"/>
+			<item name="medicalPlasterCastSchematic" prob="0.8"/>
+			<item name="medicalFirstAidKitSchematic" prob="0.3"/>
+			<item name="drugAntibioticsSchematic" prob="0.1"/>
+			<item name="drugSteroidsSchematic" prob="0.3"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupRebirthBooksFoodLow">
+			<item name="foodCornBreadSchematic" prob="1"/>
+			<item name="foodPumpkinBreadSchematic" prob="0.9"/>
+			<item name="foodTunaFishGravyToastSchematic" prob="0.8"/>
+			<item name="foodPumpkinPieSchematic" prob="0.75"/>
+			<item name="foodChiliDogSchematic" prob="0.7"/>
+			<item name="foodFishTacosSchematic" prob="0.6"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupRebirthBooksFoodHigh">
+			<item name="foodVegetableStewSchematic" prob="1"/>
+			<item name="foodPumpkinCheesecakeSchematic" prob="0.95"/>
+			<item name="foodMeatStewSchematic" prob="0.9"/>
+			<item name="foodShepardsPieSchematic" prob="0.8"/>
+			<item name="foodBlueberryPieSchematic" prob="0.75"/>
+			<item name="foodGumboStewSchematic" prob="0.65"/>
+			<item name="foodHoboStewSchematic" prob="0.55"/>
+			<item name="foodShamChowderSchematic" prob="0.5"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupRebirthBooksDrinks">
+			<item name="drinkJarGoldenRodTeaSchematic" prob="1"/>
+			<item name="drinkJarRedTeaSchematic" prob="1"/>
+			<item name="drinkJarYuccaJuiceSchematic" prob="1"/>	
+			<item name="drinkJarBeerSchematic" prob="0.8"/>
+		</lootgroup>
+
+	</insertAfter>
+
+	<append xpath="/lootcontainers">
+
+		<lootgroup name="FuriousRamsaySurvivalSupplies" count="all">
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayTraderNetworkSupplies" count="all">
+			<item name="qc_FuriousRamsayFindNextTrader" count="1"/>
+			<item name="foodCanBeef" count="1"/>
+			<item name="foodCanChili" count="1"/>
+			<item name="foodCanMiso" count="1"/>
+			<item name="foodCanPasta" count="1"/>
+			<item name="drinkJarPureMineralWater" count="2"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupContainerTrainerHunter" count="all">
+			<!--<item name="FuriousRamsaySpawnHunterTrainer" count="1"/>-->
+			<item name="meleeWpnSpearT1IronSpear" count="1"/>
+			<item name="gunBowT1WoodenBow" count="1"/>
+			<item name="ammoArrowIron" count="50"/>
+			<item name="FuriousRamsayAttributeHunterClass" count="1"/>
+			<item name="FuriousRamsayStarterArmorHeadHunter"/>
+			<item name="FuriousRamsayStarterArmorChestHunter"/>
+			<item name="FuriousRamsayStarterArmorPonchoHunter"/>
+			<item name="FuriousRamsayStarterArmorGlovesHunter"/>
+			<item name="FuriousRamsayStarterArmorLegsHunter"/>
+			<item name="FuriousRamsayStarterArmorBootsHunter"/>
+			<item name="meleeToolShovelT1IronShovel"/>
+			<item name="meleeToolPickT1IronPickaxe"/>
+			<item name="qc_FuriousRamsayLocateShelterHunter"/>
+			<!--<item name="FuriousRamsayStarterMissionsBackPack"/>-->
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupContainerTrainerThug" count="all">
+			<!--<item name="FuriousRamsaySpawnThugTrainer" count="1"/>-->
+			<item name="meleeWpnClubT1BaseballBat" count="1"/>
+			<item name="FuriousRamsayAttributeThugClass" count="1"/>
+			<item name="FuriousRamsayStarterArmorHeadThug"/>
+			<item name="FuriousRamsayStarterArmorChestThug"/>
+			<item name="FuriousRamsayStarterArmorPonchoThug"/>
+			<item name="FuriousRamsayStarterArmorGlovesThug"/>
+			<item name="FuriousRamsayStarterArmorLegsThug"/>
+			<item name="FuriousRamsayStarterArmorBootsThug"/>
+			<item name="meleeToolShovelT1IronShovel"/>
+			<item name="meleeToolPickT1IronPickaxe"/>
+			<item name="qc_FuriousRamsayLocateShelterThug"/>
+			<!--<item name="FuriousRamsayStarterMissionsBackPack"/>-->
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupContainerTrainerButcher" count="all">
+			<!--<item name="FuriousRamsaySpawnButcherTrainer"  count="1"/>-->
+			<item name="meleeWpnBladeT3Machete" count="1"/>
+			<item name="FuriousRamsayAttributeButcherClass" count="1"/>
+			<item name="FuriousRamsayStarterArmorHeadButcher"/>
+			<item name="FuriousRamsayStarterArmorChestButcher"/>
+			<item name="FuriousRamsayStarterArmorPonchoButcher"/>
+			<item name="FuriousRamsayStarterArmorGlovesButcher"/>
+			<item name="FuriousRamsayStarterArmorLegsButcher"/>
+			<item name="FuriousRamsayStarterArmorBootsButcher"/>
+			<item name="meleeToolShovelT1IronShovel"/>
+			<item name="meleeToolPickT1IronPickaxe"/>
+			<item name="qc_FuriousRamsayLocateShelterButcher"/>
+			<!--<item name="FuriousRamsayStarterMissionsBackPack"/>-->
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupContainerTrainerSoldier" count="all">
+			<!--<item name="FuriousRamsaySpawnSoldierTrainer"  count="1"/>-->
+			<item name="meleeToolAxeT1IronFireaxe" count="1"/>
+			<item name="FuriousRamsayAttributeSoldierClass" count="1"/>
+			<item name="FuriousRamsayStarterArmorHeadSoldier"/>
+			<item name="FuriousRamsayStarterArmorChestSoldier"/>
+			<item name="FuriousRamsayStarterArmorPonchoSoldier"/>
+			<item name="FuriousRamsayStarterArmorGlovesSoldier"/>
+			<item name="FuriousRamsayStarterArmorLegsSoldier"/>
+			<item name="FuriousRamsayStarterArmorBootsSoldier"/>
+			<item name="meleeToolShovelT1IronShovel"/>
+			<item name="meleeToolPickT1IronPickaxe"/>
+			<item name="qc_FuriousRamsayLocateShelterSoldier"/>
+			<!--<item name="FuriousRamsayStarterMissionsBackPack"/>-->
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupContainerTrainerTechnogeek" count="all">
+			<!--<item name="FuriousRamsaySpawnTechnogeekTrainer"  count="1"/>-->
+			<item name="meleeWpnBatonT0PipeBaton" count="1"/>
+			<item name="FuriousRamsayAttributeTechnogeekClass" count="1"/>
+			<item name="FuriousRamsayStarterArmorHeadTechnogeek"/>
+			<item name="FuriousRamsayStarterArmorChestTechnogeek"/>
+			<item name="FuriousRamsayStarterArmorPonchoTechnogeek"/>
+			<item name="FuriousRamsayStarterArmorGlovesTechnogeek"/>
+			<item name="FuriousRamsayStarterArmorLegsTechnogeek"/>
+			<item name="FuriousRamsayStarterArmorBootsTechnogeek"/>
+			<item name="meleeToolShovelT1IronShovel"/>
+			<item name="meleeToolPickT1IronPickaxe"/>
+			<item name="qc_FuriousRamsayLocateShelterTechnogeek"/>
+			<!--<item name="FuriousRamsayStarterMissionsBackPack"/>-->
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupContainerTrainerMadman" count="all">
+			<!--<item name="FuriousRamsaySpawnMadmanTrainer"  count="1"/>-->
+			<item name="meleeWpnKnucklesT1IronKnuckles" quality="2" count="1"/>
+			<item name="FuriousRamsayAttributeMadmanClass" count="1"/>
+			<item name="FuriousRamsayStarterArmorHeadMadman"/>
+			<item name="FuriousRamsayStarterArmorChestMadman"/>
+			<item name="FuriousRamsayStarterArmorPonchoMadman"/>
+			<item name="FuriousRamsayStarterArmorGlovesMadman"/>
+			<item name="FuriousRamsayStarterArmorLegsMadman"/>
+			<item name="FuriousRamsayStarterArmorBootsMadman"/>
+			<item name="meleeToolShovelT1IronShovel"/>
+			<item name="meleeToolPickT1IronPickaxe"/>
+			<item name="qc_FuriousRamsayLocateShelterMadman"/>
+			<!--<item name="FuriousRamsayStarterMissionsBackPack"/>-->
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupContainerTrainerBuilder" count="all">
+			<!--<item name="FuriousRamsaySpawnBuilderTrainer"  count="1"/>-->
+			<item name="meleeWpnSledgeT1IronSledgehammer" count="1"/>
+			<item name="FuriousRamsayAttributeBuilderClass" count="1"/>
+			<item name="FuriousRamsayStarterArmorHeadBuilder"/>
+			<item name="FuriousRamsayStarterArmorChestBuilder"/>
+			<item name="FuriousRamsayStarterArmorPonchoBuilder"/>
+			<item name="FuriousRamsayStarterArmorGlovesBuilder"/>
+			<item name="FuriousRamsayStarterArmorLegsBuilder"/>
+			<item name="FuriousRamsayStarterArmorBootsBuilder"/>
+			<item name="meleeToolShovelT1IronShovel"/>
+			<item name="meleeToolPickT1IronPickaxe"/>
+			<item name="qc_FuriousRamsayLocateShelterBuilder"/>
+			<!--<item name="FuriousRamsayStarterMissionsBackPack"/>-->
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupContainerTrainerChef" count="all">
+			<!--<item name="FuriousRamsaySpawnChefTrainer"  count="1"/>-->
+			<item name="meleeWpnBladeT1HuntingKnife" quality="2" count="1"/>
+			<item name="FuriousRamsayAttributeChefClass" count="1"/>
+			<item name="FuriousRamsayStarterArmorHeadChef"/>
+			<item name="FuriousRamsayStarterArmorChestChef"/>
+			<item name="FuriousRamsayStarterArmorPonchoChef"/>
+			<item name="FuriousRamsayStarterArmorGlovesChef"/>
+			<item name="FuriousRamsayStarterArmorLegsChef"/>
+			<item name="FuriousRamsayStarterArmorBootsChef"/>
+			<item name="meleeToolShovelT1IronShovel"/>
+			<item name="meleeToolPickT1IronPickaxe"/>
+			<item name="qc_FuriousRamsayLocateShelterChef"/>
+			<!--<item name="FuriousRamsayStarterMissionsBackPack"/>-->
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayStarterBackpackStrengthLootGroup">
+			<item name="FuriousRamsayStarterBackpackStrength" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayStarterBackpackDexterityLootGroup">
+			<item name="FuriousRamsayStarterBackpackDexterity" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayStarterBackpackConstitutionLootGroup">
+			<item name="FuriousRamsayStarterBackpackConstitution" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayStarterBackpackIntelligenceLootGroup">
+			<item name="FuriousRamsayStarterBackpackIntelligence" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayStarterBackpackCharismaLootGroup">
+			<item name="FuriousRamsayStarterBackpackCharisma" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGasGrills" count="all">
+			<item name="FuriousRamsayCharcoal" count="5" prob="1"/>
+			<item name="FuriousRamsayPropaneTank" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayTableSaw" count="all">
+			<item name="FuriousRamsayMotor" count="1"/>
+			<item name="FuriousRamsayCircularSawBlade" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupHazmatStarter" count="all">
+			<item name="casinoCoin" count="10,15"/>
+			<item name="FuriousRamsayHazmatHazardStarter" quality="1" count="1"/>
+		</lootgroup>
+		
+		<lootgroup name="FuriousRamsayGroupBirdNest" count="all">
+			<item name="foodEgg" count="1,2"/>
+			<item name="resourceFeather" count="2,4"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBirdNestEggs" count="all">
+			<item name="foodEgg" count="2,3"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBirdNestFeathers" count="all">
+			<item name="resourceFeather" count="3,6"/>
+		</lootgroup>
+
+		<lootcontainer name="FuriousRamsay826" id="826" size="5,3" destroy_on_close="true" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" open_time="1">
+			<item group="FuriousRamsayGroupContainerTrainerHunter" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay827" id="827" size="5,3" destroy_on_close="true" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" open_time="1">
+			<item group="FuriousRamsayGroupContainerTrainerThug" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay828" id="828" size="5,3" destroy_on_close="true" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" open_time="1">
+			<item group="FuriousRamsayGroupContainerTrainerButcher" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay829" id="829" size="5,3" destroy_on_close="true" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" open_time="1">
+			<item group="FuriousRamsayGroupContainerTrainerSoldier" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay830" id="830" size="5,3" destroy_on_close="true" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" open_time="1">
+			<item group="FuriousRamsayGroupContainerTrainerTechnogeek" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay831" id="831" size="5,3" destroy_on_close="true" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" open_time="1">
+			<item group="FuriousRamsayGroupContainerTrainerMadman" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay832" id="832" size="5,3" destroy_on_close="true" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" open_time="1">
+			<item group="FuriousRamsayGroupContainerTrainerBuilder" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay833" id="833" size="5,3" destroy_on_close="true" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" open_time="1">
+			<item group="FuriousRamsayGroupContainerTrainerChef" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay863" id="863" size="8,9" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
+			<item group="FuriousRamsayTraderNetworkSupplies"/>
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay864" id="864" size="8,9" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
+			<item group="FuriousRamsaySurvivalSupplies"/>
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay865" id="865" count="1,3" size="6,2" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualBaseTemplate" open_time="1">
+			<item group="junk"/>
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay869" id="869" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayGroupHazmatStarter"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay870" id="870" size="2,2" sound_open="" sound_close="" open_time="5" destroy_on_close="false">
+			<item group="FuriousRamsayTableSaw"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay871" id="871" count="1" size="2,2" sound_open="UseActions/open_file_cabinet" sound_close="UseActions/close_file_cabinet" open_time="2">
+			<item group="FuriousRamsayGasGrills" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay872" id="872" count="1,2" size="6,2" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="qualBaseTemplate">
+			<item group="junk" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay873" id="873" count="1,2" size="6,3" sound_open="UseActions/open_file_cabinet" sound_close="UseActions/close_file_cabinet" open_time="1">
+			<item group="junk" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay874" id="874" count="1" size="2,2" destroy_on_close="true" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage">
+			<item group="FuriousRamsayGroupBirdNest"/>
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay875" id="875" count="1" size="2,2" destroy_on_close="true" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage">
+			<item group="FuriousRamsayGroupBirdNestEggs"/>
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay876" id="876" count="1" size="2,2" destroy_on_close="true" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage">
+			<item group="FuriousRamsayGroupBirdNestFeathers"/>
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay888" id="888" count="1,3" size="6,2" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="qualBaseTemplate" open_time="1"><!--Element appended by: "zz_Trader Network_MoreJobs_Rebirth"-->
+			<item group="junk" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayBanditLootBat" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayBanditLootGroupBat"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayBanditLootAxe" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayBanditLootGroupAxe"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayBanditLootClub" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayBanditLootGroupClub"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayBanditLootKnife" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayBanditLootGroupKnife"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayBanditLootSpear" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayBanditLootGroupSpear"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayBanditLootMachete" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayBanditLootGroupMachete"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayBanditLootPipePistol" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayBanditLootGroupPipePistol"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayBanditLootPipeMachineGun" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayBanditLootGroupPipeMachineGun"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayBanditLootPipeShotgun" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayBanditLootGroupPipeShotgun"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayBanditLootPipeRifle" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayBanditLootGroupPipeRifle"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayBanditLootPistol" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayBanditLootGroupPistol"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayBanditLootDesertVulture" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayBanditLootGroupDesertVulture"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayBanditLootSMG5" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayBanditLootGroupSMG5"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayBanditLootM60" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayBanditLootGroupM60"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayBanditLootAK47" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayBanditLootGroupAK47"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayBanditLootAssaultRifle" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayBanditLootGroupAssaultRifle"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayBanditLootHuntingRifle" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayBanditLootGroupHuntingRifle"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayBanditLootSniperRifle" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayBanditLootGroupSniperRifle"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayBanditLootPumpShotgun" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayBanditLootGroupPumpShotgun"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayBanditLootAutoShotgun" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayBanditLootGroupAutoShotgun"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayBanditLootWoodenBow" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayBanditLootGroupWoodenBow"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayBanditLootCrossbow" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayBanditLootGroupCrossbow"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayBanditLootRocketLauncher" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayBanditLootGroupRocketLauncher"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayBanditCyborg001AxeBossTier1Loot" size="4,3" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate"  open_time="0.25">
+			<item group="FuriousRamsayBanditCyborg001AxeBossTier1Loot" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayPandemicMan002aMacheteBossTier1Loot" size="4,3" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate"  open_time="0.25">
+			<item group="FuriousRamsayPandemicMan002aMacheteBossTier1Loot" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayCloakedSnakeLoot" size="4,3" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate"  open_time="0.25">
+			<item group="FuriousRamsayCloakedSnakeLoot" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayWerewolfBossTier1Loot" size="4,3" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate"  open_time="0.25">
+			<item group="FuriousRamsayWerewolfBossTier1Loot" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayToxicBossLoot" size="4,3" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate"  open_time="0.25">
+			<item group="FuriousRamsayToxicBossLoot" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayMiniHordeBossTier1Loot" size="4,3" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate"  open_time="0.25">
+			<item group="FuriousRamsayMiniHordeBossTier1Loot" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayQuestLootGhostsTier1" size="4,3" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate"  open_time="0.25">
+			<item group="FuriousRamsayQuestLootGhostsTier1Loot" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayQuestLootHuntTier1" size="4,3" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate"  open_time="0.25">
+			<item group="FuriousRamsayQuestLootHuntTier1Loot" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayQuestLootMiningTier1" size="4,3" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate"  open_time="0.25">
+			<item group="FuriousRamsayQuestLootMiningTier1Loot" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayQuestLootHazardTier1" size="4,3" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate"  open_time="0.25">
+			<item group="FuriousRamsayQuestLootHazardTier1Loot" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayQuestLootToxicTier1" size="4,3" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate"  open_time="0.25">
+			<item group="FuriousRamsayQuestLootToxicTier1Loot" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayQuestLootBuredSuppliesTier1" size="4,3" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate"  open_time="0.25">
+			<item group="FuriousRamsayQuestLootBuredSuppliesTier1Loot" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayQuestLootBlackGoldTier1" size="4,3" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate"  open_time="0.25">
+			<item group="FuriousRamsayQuestLootBlackGoldTier1Loot" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayQuestLootFactionWarTier1" size="4,3" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate"  open_time="0.25">
+			<item group="FuriousRamsayQuestLootFactionWarTier1Loot" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayQuestLootDecoyTier1" size="4,3" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate"  open_time="0.25">
+			<item group="FuriousRamsayQuestLootDecoyTier1Loot" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayQuestLootMiniHordeTier1" size="4,3" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate"  open_time="0.25">
+			<item group="FuriousRamsayQuestLootMiniHordeTier1Loot" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayQuestLootKamikazeTier1" size="4,3" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate"  open_time="0.25">
+			<item group="FuriousRamsayQuestLootKamikazeTier1Loot" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayQuestLootSkullsTier1" size="4,3" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate"  open_time="0.25">
+			<item group="FuriousRamsayQuestLootSkullsTier1Loot" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayZombieLoot" size="4,3" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayZombieLoot" />
+		</lootcontainer>
+
+	</append>
+
+	<!-- EXPAND LOOT CONTAINER SIZES -->
+	<setattribute xpath="/lootcontainers/lootcontainer[@size='6,4']" name="size">6,5</setattribute>
+	<setattribute xpath="/lootcontainers/lootcontainer[@size='6,3']" name="size">6,4</setattribute>
+	<setattribute xpath="/lootcontainers/lootcontainer[@size='6,2']" name="size">6,3</setattribute>
+    	
+</Config>

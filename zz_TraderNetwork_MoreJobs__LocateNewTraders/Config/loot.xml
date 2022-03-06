@@ -1,0 +1,31 @@
+<Config>
+    
+	<append xpath="/lootcontainers">
+
+		<lootgroup name="FuriousRamsayGroupQuestFarmerTrader">
+			<item name="FuriousRamsayFarmerTrader" count="1"/>
+		</lootgroup>
+			
+		<lootgroup name="FuriousRamsayGroupQuestHandymanTrader">
+			<item name="FuriousRamsayHandymanTrader" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupQuestBlackShieldTrader">
+			<item name="FuriousRamsayBlackShieldTrader" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayTier1Complete" count="all">
+			<item name="FuriousRamsayFarmerTrader" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayTier2Complete" count="all">
+			<item name="FuriousRamsayHandymanTrader" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayTier3Complete" count="all">
+			<item name="FuriousRamsayBlackShieldTrader" count="1"/>
+		</lootgroup>
+
+	</append>
+    
+</Config>

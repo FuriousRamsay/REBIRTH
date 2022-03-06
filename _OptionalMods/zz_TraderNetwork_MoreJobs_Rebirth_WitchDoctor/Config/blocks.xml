@@ -1,0 +1,5 @@
+﻿<configs>
+
+	<append xpath="/blocks/block[@name='ConfigFeatureBlock']/property[@class='AdvancedNPCFeatures']/property[@name='UseFactionsTags']/@value">,mindcontrol</append>
+
+</configs>

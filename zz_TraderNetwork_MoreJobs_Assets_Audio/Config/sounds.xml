@@ -1,0 +1,1388 @@
+<Config>
+	<append xpath="/Sounds">
+		<SoundDataNode name="FuriousRamsayAttributeLevelUp">
+			<AudioSource name="Sounds/AudioSource_Notifications"/>
+			<AudioClip ClipName="Sounds/Misc/read_skillbook_final"/>
+			<LowestPitch name="1.3"/>
+			<HighestPitch name="1.3"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<SoundDataNode name="FuriousRamsayPerkLevelUp">
+			<AudioSource name="Sounds/AudioSource_Notifications"/>
+			<AudioClip ClipName="Sounds/Misc/read_skillbook"/>
+			<LowestPitch name="1.2"/>
+			<HighestPitch name="1.2"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value=".01"/>
+		</SoundDataNode>
+		<!-- INITIAL BRISTON -->
+		<SoundDataNode name="trader_briston1_heystranger_overhere">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<!-- WORKS -->
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="1"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?briston_first_spawn_inhey_stranger"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_briston1likequestcomplete">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<!-- WORKS -->
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?briston_dialog_line_1_option_2"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_briston1likequestoffer">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<!-- WORKS -->
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?briston_dialog_line_2_option_2"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_briston1likequestaccepted">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<!-- WORKS -->
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?briston_dialog_line_4_taking_my_advice"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_briston1likequestdeclined">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<!-- WORKS -->
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?briston_dialog_line_3_take_my_advice"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<!-- NORMAL BRISTON -->
+		<SoundDataNode name="trader_briston_newplace">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<!-- WORKS -->
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="1"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?briston_newplace"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_bristonlikequestcomplete">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<!-- USED -->
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?briston_quest_complete"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_bristonidle">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<!-- USED -->
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?briston_idle_1"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?briston_idle_2"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?briston_idle_3"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?briston_idle_6"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_bristonlikesaleaccepted">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<!-- USED -->
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank0"/>
+			<!--<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?sale_accepted"/>-->
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_bristonlikesaledeclined">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<!-- USED -->
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<!--<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?sale_declined"/>-->
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank0"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<!-- MEDICAL DROID -->
+		<!-- JOB COMPLETED -->
+		<SoundDataNode name="trader_medicalandroidlikequestcomplete">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicalandroid_couldnothavedoneitbettermyself"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicalandroid_goodjob"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicalandroid_welldone"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_overachiever"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<!-- IDLE -->
+		<SoundDataNode name="trader_medicaldroid_idle">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank0"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank1"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_bored"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank2"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank3"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_checkoillevels"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank4"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_lowbatteries"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank6"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank7"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_painttouchup"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank8"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_thankgodcantsmell"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank9"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<!-- RANDOM -->
+		<SoundDataNode name="trader_medicaldroid_random">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank0"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank1"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_bored"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank2"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank3"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_checkoillevels"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank4"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_lowbatteries"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank6"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank7"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_painttouchup"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank8"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_thankgodcantsmell"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank9"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<!-- PURCHASES -->
+		<SoundDataNode name="trader_medicalandroidlikesaleaccepted">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicalandroid_tellyourfriends"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_becarefuloutthere"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_happytobeofservice"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_haveniceday"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_seeyoulatergator"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_seeyousoon"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_stockupmoretomorrow"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_thankyoupurchase"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_medicalandroidlikesaledeclined">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_becarefuloutthere"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_haveniceday"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_seeyoulatergator"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_seeyousoon"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<!-- SENSE -->
+		<SoundDataNode name="trader_medicaldroid_sense">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank0"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank1"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_sensingenemypresence"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank2"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank3"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<!-- ALERT -->
+		<SoundDataNode name="trader_medicaldroid_alert">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank0"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_danger"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank1"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank2"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank3"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_dangerwillrobinson"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank4"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank6"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_help"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank7"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank8"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank9"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<!-- ATTACK -->
+		<SoundDataNode name="trader_medicaldroid_attack">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank0"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_annoyingpest"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank1"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_cleansinginprogress"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank2"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank3"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_fightlikeachild"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank4"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_harvestyouforparts"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank6"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_leaveareaatonce"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank7"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_mistakecominghere"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank8"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_musterradicate"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank9"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<!-- HURT -->
+		<SoundDataNode name="trader_medicaldroid_hurt">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_barelyscratchedme"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank0"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank1"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank2"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_thathurt"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank3"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank4"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_whatanuisance"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank6"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank7"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank8"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank9"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<!-- HURT SMALL -->
+		<SoundDataNode name="trader_medicaldroid_hurtsmall">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank0"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank1"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank2"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank3"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank4"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?medicaldroid_barelyscratchedme"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank6"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank7"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank8"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?blank9"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<!-- TEMPLATE -->
+		<SoundDataNode name="trader_templatelikefirstgreet">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?briston_badshape"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_templatelikegreeting">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?greeting"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_templatelikegreetmorn">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?greet_morning"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_templatelikegreetaft">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?greet_afternoon"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_templatelikegreeteve">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?greet_evening"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_templatelikegreetnightfall">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?greet_nightfall"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_templatelikegreetbloodmoon">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?greet_bloodmoon"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_templatelikeidle">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?idle"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_templatelikequestaccepted">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<!-- WORKS -->
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?quest_accepted"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_templatelikequestcomplete">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<!-- WORKS -->
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?quest_complete"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_templatelikequestdeclined">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<!-- WORKS -->
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?quest_delined"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<!--<SoundDataNode name="trader_templatelikequestincomplete"> <AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?quest_incomplete"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>-->
+		<SoundDataNode name="trader_templatelikequestoffer">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<!-- WORKS -->
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?quest_offer"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_templatelikesaleaccepted">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?sale_accepted"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_templatelikesaledeclined">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?sale_declined"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_templatelikerumorberzerkerbills">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?rumour_bezerker_bills"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_templatelikerumorevil">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?rumor_evil"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_templatelikerumorfates">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?rumour_fates"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_templatelikerumorjohnnytown">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?rumour_johnnytown"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_templatelikerumormotivation">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?rumour_motivation"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_templatelikeannounceopen">
+			<AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?announce_open"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_templatelikeannounceclosing">
+			<AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?announce_closing"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_templatelikeannounceclosed">
+			<AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?announce_closed"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_templatelikeannouncespecial01">
+			<AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?announce_special01"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_templatelikeannouncespecial02">
+			<AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?announce_special02"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_templatelikeannouncespecial03">
+			<AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?announce_special03"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="trader_templatelikebuyrareitem_">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?buy_rareitem"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<!-- INJECTION -->
+		<SoundDataNode name="FuriousRamsayInjection">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayInjection"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<!-- INJECTION -->
+		<SoundDataNode name="FuriousRamsayHeartbeat">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayHeartbeat"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<!-- BREAKING -->
+		<!-- BONE -->
+		<SoundDataNode name="FuriousRamsayBoneBreak">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayBoneBreak"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<!-- WOOD -->
+		<SoundDataNode name="FuriousRamsayWoodBreak">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayWoodBreak"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<!-- STONE -->
+		<SoundDataNode name="FuriousRamsayStoneBreak">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayStoneBreak"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<!-- METAL -->
+		<SoundDataNode name="FuriousRamsayMetalBreak">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayMetalBreak"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<!-- CLOTHING -->
+		<!-- DIAPER -->
+		<SoundDataNode name="FuriousRamsayDiaper">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayDiaper"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<!-- WELLNESS -->
+		<!-- DYSENTERY -->
+		<SoundDataNode name="FuriousRamsayDysentery">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayDysentery"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<!-- DIARRHEA -->
+		<SoundDataNode name="FuriousRamsayDiarrhea">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayDiarrhea"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<!-- VOMIT -->
+		<SoundDataNode name="FuriousRamsayVomit">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayVomit"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<!-- EQUIPMENT -->
+		<!-- TOOLBOX -->
+		<SoundDataNode name="FuriousRamsayToolbox">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayToolbox"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<!-- CIRCULAR SAW -->
+		<SoundDataNode name="FuriousRamsayCircularSaw">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayCircularSaw"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<!-- SHREDDER -->
+		<SoundDataNode name="FuriousRamsayShredder">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayShredder"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<!-- DISTILLER -->
+		<SoundDataNode name="FuriousRamsayDistiller">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayDistiller"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<!-- GAS STOVE -->
+		<SoundDataNode name="FuriousRamsayGasStove">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayGasStove"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<!-- FORGE -->
+		<SoundDataNode name="FuriousRamsayForge">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayForge"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<!-- FURNACE -->
+		<SoundDataNode name="FuriousRamsayFurnace">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayFurnace"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<!-- MORTAR PESTLE -->
+		<SoundDataNode name="FuriousRamsayMortarPestle">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayMortarPestle"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<!-- IRON OVEN -->
+		<SoundDataNode name="FuriousRamsayIronOven">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayIronOven"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<!-- PERK AURA LEVEL -->
+		<SoundDataNode name="FuriousRamsayAuraTrainReady">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayAuraTrainReady"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<SoundDataNode name="FuriousRamsayAuraLevel">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayAuraLevel"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<!-- DROID SPAWN -->
+		<SoundDataNode name="FuriousRamsayDroidSpawn">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayDroidSpawn"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<SoundDataNode name="FuriousRamsayDroidDespawn">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayDroidDespawn"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<!-- KNIFE FIRE -->
+		<SoundDataNode name="FuriousRamsayKnifeFire">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayKnifeFire"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<!-- KATANA SWOOSH -->
+		<SoundDataNode name="FuriousRamsayKatanaSwoosh">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayKatanaSwoosh"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<!-- AXE LIGHTNING -->
+		<SoundDataNode name="FuriousRamsayAxeLightning">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayAxeLightning"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<!-- HAMMER EXPLOSION -->
+		<SoundDataNode name="FuriousRamsayHammerExplosion">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayHammerExplosion"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<!-- WAKE UP -->
+		<SoundDataNode name="FuriousRamsayWakeUp">
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayWakeUp"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<SoundDataNode name="FuriousRamsayWakeTheHellUp">
+			<AudioSource name="Sounds/AudioSource_Screamer"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?WakeTheHellUp"/>
+			<Channel name="Mouth"/>
+			<Priority name="0"/>
+			<maxVoicesPerEntity value="1"/>
+			<LowestPitch name=".95"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="0.9"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<!-- SCARECROW -->
+		<SoundDataNode name="FuriousRamsayScarecrowAlert">
+			<AudioSource name="Sounds/AudioSource_Screamer"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayScarecrowAlert"/>
+			<Channel name="Mouth"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<Priority name="5"/>
+			<maxVoicesPerEntity value="1"/>
+			<LowestPitch name="0.95"/>
+			<HighestPitch name="1.05"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="3"/>
+		</SoundDataNode>
+		<SoundDataNode name="FuriousRamsayScarecrowHurt">
+			<AudioSource name="Sounds/AudioSource_Screamer"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayScarecrowHit1"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayScarecrowHit2"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayScarecrowHit3"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayScarecrowHit4"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayScarecrowHit5"/>
+			<Channel name="Mouth"/>
+			<Priority name="0"/>
+			<maxVoicesPerEntity value="1"/>
+			<LowestPitch name="0.95"/>
+			<HighestPitch name="1.05"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="FuriousRamsayScarecrowAttack">
+			<AudioSource name="Sounds/AudioSource_Screamer"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayScarecrowAttack1"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayScarecrowAttack2"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayScarecrowAttack3"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayScarecrowAttack4"/>
+			<Channel name="Mouth"/>
+			<Priority name="2"/>
+			<maxVoicesPerEntity value="1"/>
+			<LowestPitch name="0.95"/>
+			<HighestPitch name="1.05"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="1.0"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.8"/>
+		</SoundDataNode>
+		<SoundDataNode name="FuriousRamsayScarecrowDeath">
+			<AudioSource name="Sounds/AudioSource_Screamer"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayScarecrowDeath"/>
+			<Channel name="Mouth"/>
+			<Priority name="0"/>
+			<maxVoicesPerEntity value="1"/>
+			<LowestPitch name="0.95"/>
+			<HighestPitch name="1.05"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+		<SoundDataNode name="FuriousRamsayEventWarning">
+			<AudioSource name="Sounds/AudioSource_Screamer"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayEventWarning"/>
+			<Channel name="Mouth"/>
+			<Priority name="0"/>
+			<maxVoicesPerEntity value="1"/>
+			<LowestPitch name="0.95"/>
+			<HighestPitch name="1.05"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="1.111"/>
+		</SoundDataNode>
+
+
+<SoundDataNode name="malehatealert01"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_alert_01"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatealert02"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_alert_02"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatealert03"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_alert_03"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatealert04"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_alert_04"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatealert05"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_alert_05"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatealert06"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_alert_06"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatealert07"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_alert_07"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatealert08"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_alert_08"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatealert09"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_alert_09"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatealert10"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_alert_10"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatealert11"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_alert_11"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatealert12"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_alert_12"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatealert13"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_alert_13"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="malehateattack01"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="2" noise="11" time="4" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_attack_01"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehateattack02"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="2" noise="11" time="4" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_attack_02"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehateattack03"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="2" noise="11" time="4" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_attack_03"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehateattack04"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="2" noise="11" time="4" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_attack_04"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehateattack05"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="2" noise="11" time="4" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_attack_05"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehateattack06"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="2" noise="11" time="4" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_attack_06"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehateattack07"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="2" noise="11" time="4" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_attack_07"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehateattack08"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="2" noise="11" time="4" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_attack_08"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehateattack09"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="2" noise="11" time="4" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_attack_09"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehateattack10"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="2" noise="11" time="4" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_attack_10"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehateattack11"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="2" noise="11" time="4" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_attack_11"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="malehatedeath01"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="4" noise="60" time="2" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_death_01"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatedeath02"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="4" noise="60" time="2" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_death_02"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatedeath03"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="4" noise="60" time="2" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_death_03"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatedeath04"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="4" noise="60" time="2" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_death_04"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatedeath05"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="4" noise="60" time="2" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_death_05"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatedeath06"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="4" noise="60" time="2" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_death_06"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatedeath07"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="4" noise="60" time="2" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_death_07"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatedeath08"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="4" noise="60" time="2" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_death_08"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatedeath09"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="4" noise="60" time="2" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_death_09"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatedeath10"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="4" noise="60" time="2" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_death_10"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatedeath11"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="4" noise="60" time="2" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_death_11"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatedeath12"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="4" noise="60" time="2" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_death_12"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="malehatepain01"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="2" noise="11" time="4" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_pain_01"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatepain02"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="2" noise="11" time="4" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_pain_02"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatepain03"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="2" noise="11" time="4" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_pain_03"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatepain04"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="2" noise="11" time="4" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_pain_04"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatepain05"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="2" noise="11" time="4" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_pain_05"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatepain06"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="2" noise="11" time="4" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_pain_06"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatepain07"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="2" noise="11" time="4" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_pain_07"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatepain08"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="2" noise="11" time="4" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_pain_08"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatepain09"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="2" noise="11" time="4" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_pain_09"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatepain10"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="2" noise="11" time="4" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_pain_10"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatepain11"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="2" noise="11" time="4" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_pain_11"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatepain12"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="2" noise="11" time="4" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_pain_12"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="malehateroam01"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_roam_01"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehateroam02"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_roam_02"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehateroam03"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_roam_03"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehateroam04"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_roam_04"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehateroam05"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_roam_05"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehateroam06"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_roam_06"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehateroam07"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_roam_07"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehateroam08"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_roam_08"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehateroam09"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_roam_09"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehateroam10"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_roam_10"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehateroam11"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_roam_11"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehateroam12"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_roam_12"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehateroam13"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_roam_13"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehateroam14"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_roam_14"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehateroam15"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_roam_15"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehateroam16"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_roam_16"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+
+<SoundDataNode name="malehatesense01"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_sense_01"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatesense02"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_sense_02"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatesense03"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_sense_03"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatesense04"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_sense_04"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatesense05"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_sense_05"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatesense06"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_sense_06"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatesense07"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_sense_07"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatesense08"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_sense_08"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatesense09"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_sense_09"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatesense10"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_sense_10"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+<SoundDataNode name="malehatesense11"> <AudioSource name="Sounds/AudioSource_VO"/>
+	<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+	<AudioClip ClipName="Sounds/VO/Male_Hate/male_hate_sense_11"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="1.111"/> </SoundDataNode>
+	</append>
+</Config>

@@ -1,0 +1,63 @@
+<Config>
+
+	<append xpath="/ui_display_info/trader_category_display" >		
+		<trader_category name="Robotics" icon="ui_game_symbol_assemble" display_name="FuriousRamsayRoboticsLabel" />
+		<trader_category name="Challenges" icon="ui_game_symbol_climb" display_name="FuriousRamsayChallengesLabel" />
+		<trader_category name="Repair" icon="ui_game_symbol_tool_smithing" display_name="FuriousRamsayRepairLabel" />
+	</append>
+
+	<append xpath="/ui_display_info/item_display" >		
+
+		<item_display_info display_type="FuriousRamsayMechanicalAlly" display_group="groupMelee">
+			<display_entry name="MaxDamage" title_key="statMaxDamage"/>
+			<display_entry name="LightOpacity" title_key="statEntityDamage"/>
+		</item_display_info>
+
+		<item_display_info display_type="FuriousRamsayExplosiveMechanicalAlly" display_group="groupMelee">
+			<display_entry name="MaxDamage" title_key="statMaxDamage"/>
+			<display_entry name="LightOpacity" title_key="statEntityDamageExplosion"/>
+		</item_display_info>
+
+		<item_display_info display_type="FuriousRamsayDecoy" display_group="groupMelee">
+			<display_entry name="dEntityLife" title_key="FuriousRamsayEntityLife"/>
+			<display_entry name="dExDamageEntity" title_key="statEntityDamageExplosion"/>
+			<display_entry name="dExDamageBlock" title_key="statBlockDamage"/>
+			<display_entry name="dExRadius" title_key="statExRadius"/>
+		</item_display_info>
+
+		<item_display_info display_type="FuriousRamsayDrinkCureRadiation" display_group="groupConsumables">
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+			<display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent"/>
+			<display_entry name="dCureRadiation" title_key="statCureRadiation" display_type="Percent"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+
+		<item_display_info display_type="FuriousRamsayTrader" display_group="groupTraders">
+		</item_display_info>
+		
+		<item_display_info display_type="FuriousRamsayTrainer" display_group="groupTrainers">
+		</item_display_info>
+
+		<item_display_info display_type="FuriousRamsayPet" display_group="groupPets">
+		</item_display_info>
+
+		<item_display_info display_type="FuriousRamsayAlly" display_group="groupAllies">
+		</item_display_info>
+
+		<item_display_info display_type="FuriousRamsayEmpty">
+		</item_display_info>
+
+		<item_display_info display_type="FuriousRamsayBanditClothingAviatorGoggles" display_group="groupAttire">
+			<display_entry name="AttributeLevel" tags="attIntellect" title_key="statShowIntellect" display_leading_plus="true"/>
+			<display_entry name="LootGamestage" title_key="statLootGamestage" display_leading_plus="true"/>
+			<display_entry name="dTreasureBlocksPerReduction" title_key="statTreasureRadius" display_leading_plus="true" negative_preferred="true"/>
+		</item_display_info>
+
+		<item_display_info display_type="FuriousRamsayBanditClothingSkiGoggles" display_group="groupAttire" >
+			<display_entry name="AttributeLevel" tags="attAgility" title_key="statShowAgility" display_leading_plus="true"/>
+			<display_entry name="AttributeLevel" tags="attIntellect" title_key="statShowIntellect" display_leading_plus="true"/>
+		</item_display_info>
+
+	</append>
+	
+</Config>

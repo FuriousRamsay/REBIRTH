@@ -1,0 +1,5 @@
+<Config>
+	
+	<remove xpath="/item_modifiers/item_modifier/property[@name='PickupJournalEntry']"/>
+
+</Config>

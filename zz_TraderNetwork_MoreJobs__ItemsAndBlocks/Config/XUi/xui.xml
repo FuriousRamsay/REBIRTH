@@ -1,0 +1,77 @@
+<Config>
+
+	<append xpath="//ruleset[@name='default']">
+
+		<window_group name="workstation_FuriousRamsayScreamerSignalMaster" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="FuriousRamsaywindowCraftingList"/>
+			<window name="FuriousRamsaycraftingInfoPanel"/>
+			<window name="FuriousRamsaywindowCraftingQueue"/>
+			<window name="FuriousRamsaywindowToolsCampfire" />
+			<window name="FuriousRamsaywindowFuel" />
+			<window name="FuriousRamsaywindowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+
+		<window_group name="workstation_FuriousRamsayScreamerSignalTier1" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="FuriousRamsaywindowCraftingList"/>
+			<window name="FuriousRamsaycraftingInfoPanel"/>
+			<window name="FuriousRamsaywindowCraftingQueue"/>
+			<window name="FuriousRamsaywindowToolsCampfire" />
+			<window name="FuriousRamsaywindowFuel" />
+			<window name="FuriousRamsaywindowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+
+		<window_group name="workstation_FuriousRamsayScreamerSignalTier2" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="FuriousRamsaywindowCraftingList"/>
+			<window name="FuriousRamsaycraftingInfoPanel"/>
+			<window name="FuriousRamsaywindowCraftingQueue"/>
+			<window name="FuriousRamsaywindowToolsCampfire" />
+			<window name="FuriousRamsaywindowFuel" />
+			<window name="FuriousRamsaywindowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+
+		<window_group name="workstation_FuriousRamsayScreamerSignalTier3" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="FuriousRamsaywindowCraftingList"/>
+			<window name="FuriousRamsaycraftingInfoPanel"/>
+			<window name="FuriousRamsaywindowCraftingQueue"/>
+			<window name="FuriousRamsaywindowToolsCampfire" />
+			<window name="FuriousRamsaywindowFuel" />
+			<window name="FuriousRamsaywindowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+
+		<window_group name="workstation_FuriousRamsayScreamerSignalTier4" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="FuriousRamsaywindowCraftingList"/>
+			<window name="FuriousRamsaycraftingInfoPanel"/>
+			<window name="FuriousRamsaywindowCraftingQueue"/>
+			<window name="FuriousRamsaywindowToolsCampfire" />
+			<window name="FuriousRamsaywindowFuel" />
+			<window name="FuriousRamsaywindowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+
+		<window_group name="workstation_FuriousRamsayScreamerSignalTier5" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="FuriousRamsaywindowCraftingList"/>
+			<window name="FuriousRamsaycraftingInfoPanel"/>
+			<window name="FuriousRamsaywindowCraftingQueue"/>
+			<window name="FuriousRamsaywindowToolsCampfire" />
+			<window name="FuriousRamsaywindowFuel" />
+			<window name="FuriousRamsaywindowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+
+		<window_group name="workstation_FuriousRamsayBurningTrap" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="FuriousRamsaywindowCraftingList"/>
+			<window name="FuriousRamsaycraftingInfoPanel"/>
+			<window name="FuriousRamsaywindowCraftingQueue"/>
+			<window name="FuriousRamsaywindowToolsCampfire" />
+			<window name="FuriousRamsaywindowFuel" />
+			<window name="FuriousRamsaywindowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+
+	</append>
+
+</Config>

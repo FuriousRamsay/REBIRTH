@@ -1,0 +1,754 @@
+<Config>
+    
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayFireArmorRepairKit' or
+											@name='FuriousRamsayShockArmorRepairKit' or
+											@name='FuriousRamsaySmokeArmorRepairKit' or
+											@name='FuriousRamsayFireShockArmorRepairKit' or
+											@name='FuriousRamsayFireShockSmokeArmorRepairKit'
+											]/ingredient[@name='resourceRepairKit']" name="name">resourceDuctTape</setattribute>
+
+	<append xpath="/recipes/recipe[@name='FuriousRamsayFireArmorRepairKit' or
+									@name='FuriousRamsayShockArmorRepairKit' or
+									@name='FuriousRamsaySmokeArmorRepairKit' or
+									@name='FuriousRamsayFireShockArmorRepairKit' or
+									@name='FuriousRamsayFireShockSmokeArmorRepairKit'
+									]">
+		<ingredient name="resourceForgedSteel" count="10" />
+	</append>
+	
+	<!-- CHANGE RECIPES -->
+	<setattribute xpath="/recipes/recipe[@name='autoTurret']/ingredient[@name='gunHandgunT1PistolParts']" name="count">1</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='autoTurret']/ingredient[@name='gunHandgunT1PistolParts']" name="name">gunHandgunT1Pistol</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='gunBotT3JunkDrone']/ingredient[@name='gunBotRoboticsParts']" name="name">FuriousRamsayMotor</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='shotgunTurret']/ingredient[@name='gunShotgunT1DoubleBarrelParts']" name="count">1</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='shotgunTurret']/ingredient[@name='gunShotgunT1DoubleBarrelParts']" name="name">gunShotgunT1DoubleBarrel</setattribute>
+
+	<setattribute xpath="/recipes/recipe[@name='thrownAmmoMolotovCocktail']" name="craft_time">3</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='thrownAmmoMolotovCocktail']/ingredient[@name='ammoGasCan']" name="count">15</setattribute>
+	<remove xpath="/recipes/recipe[@name='thrownAmmoMolotovCocktail']/ingredient[@name='resourceOil']"/>
+
+	<!-- CLASS ARMOR RECIPES -->
+	<append xpath="/recipes">
+
+		<recipe name="FuriousRamsayAuraModHunter" count="1" craft_area="FuriousRamsayForge" craft_time="20" always_unlocked="true">
+			<ingredient name="FuriousRamsayMoltenSteel" count="15"/>
+			<ingredient name="FuriousRamsayStarterArmorHeadHunter" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorChestHunter" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorGlovesHunter" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorBootsHunter" count="1" />
+		</recipe>
+
+		<recipe name="FuriousRamsayAuraModThug" count="1" craft_area="FuriousRamsayForge" craft_time="20" always_unlocked="true">
+			<ingredient name="FuriousRamsayMoltenSteel" count="15"/>
+			<ingredient name="FuriousRamsayStarterArmorHeadThug" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorChestThug" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorGlovesThug" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorBootsThug" count="1" />
+		</recipe>
+
+		<recipe name="FuriousRamsayAuraModButcher" count="1" craft_area="FuriousRamsayForge" craft_time="20" always_unlocked="true">
+			<ingredient name="FuriousRamsayMoltenSteel" count="15"/>
+			<ingredient name="FuriousRamsayStarterArmorHeadButcher" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorChestButcher" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorGlovesButcher" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorBootsButcher" count="1" />
+		</recipe>
+
+		<recipe name="FuriousRamsayAuraModSoldier" count="1" craft_area="FuriousRamsayForge" craft_time="20" always_unlocked="true">
+			<ingredient name="FuriousRamsayMoltenSteel" count="15"/>
+			<ingredient name="FuriousRamsayStarterArmorHeadSoldier" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorChestSoldier" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorGlovesSoldier" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorBootsSoldier" count="1" />
+		</recipe>
+
+		<recipe name="FuriousRamsayAuraModTechnogeek" count="1" craft_area="FuriousRamsayForge" craft_time="20" always_unlocked="true">
+			<ingredient name="FuriousRamsayMoltenSteel" count="15"/>
+			<ingredient name="FuriousRamsayStarterArmorHeadTechnogeek" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorChestTechnogeek" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorGlovesTechnogeek" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorBootsTechnogeek" count="1" />
+		</recipe>
+
+		<recipe name="FuriousRamsayAuraModMadman" count="1" craft_area="FuriousRamsayForge" craft_time="20" always_unlocked="true">
+			<ingredient name="FuriousRamsayMoltenSteel" count="15"/>
+			<ingredient name="FuriousRamsayStarterArmorHeadMadman" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorChestMadman" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorGlovesMadman" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorBootsMadman" count="1" />
+		</recipe>
+
+		<recipe name="FuriousRamsayAuraModBuilder" count="1" craft_area="FuriousRamsayForge" craft_time="20" always_unlocked="true">
+			<ingredient name="FuriousRamsayMoltenSteel" count="15"/>
+			<ingredient name="FuriousRamsayStarterArmorHeadBuilder" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorChestBuilder" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorGlovesBuilder" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorBootsBuilder" count="1" />
+		</recipe>
+
+		<recipe name="FuriousRamsayAuraModChef" count="1" craft_area="FuriousRamsayForge" craft_time="20" always_unlocked="true">
+			<ingredient name="FuriousRamsayMoltenSteel" count="15"/>
+			<ingredient name="FuriousRamsayStarterArmorHeadChef" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorChestChef" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorGlovesChef" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorBootsChef" count="1" />
+		</recipe>
+
+		<recipe name="resourceRepairKit" count="1" craft_area="workbench" craft_time="60" craft_tool="FuriousRamsayScrewdriver" always_unlocked="true">
+			<ingredient name="resourceForgedIron" count="10" />
+			<ingredient name="resourceForgedSteel" count="5" />
+			<ingredient name="resourceDuctTape" count="1" />
+		</recipe>
+		
+		<recipe name="FuriousRamsayArmorHelmetLight" count="1" craft_area="workbench" craft_time="30" craft_tool="FuriousRamsayScrewdriver" always_unlocked="true">
+			<ingredient name="meleeToolFlashlight02" count="1" />
+			<ingredient name="resourceScrapIron" count="25" />
+			<ingredient name="resourceDuctTape" count="1" />
+		</recipe>
+		
+		<recipe name="qc_FuriousRamsayTeleport" count="1">
+		</recipe>
+
+		<recipe name="FuriousRamsayPillCharisma" count="1">
+			<ingredient name="FuriousRamsayPillGeneric" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayPillConstitution" count="1">
+			<ingredient name="FuriousRamsayPillGeneric" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayPillDexterity" count="1">
+			<ingredient name="FuriousRamsayPillGeneric" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayPillIntelligence" count="1">
+			<ingredient name="FuriousRamsayPillGeneric" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayPillStrength" count="1">
+			<ingredient name="FuriousRamsayPillGeneric" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayStrengthperkSexualTrex" count="1">
+			<ingredient name="FuriousRamsayGeneticsPerBook" count="1"/>
+		</recipe>
+		
+		<recipe name="FuriousRamsayStrengthperkMiner69r" count="1">
+			<ingredient name="FuriousRamsayGeneticsPerBook" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayStrengthperkMotherLode" count="1">
+			<ingredient name="FuriousRamsayGeneticsPerBook" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayDexterityperkRuleOneCardio" count="1">
+			<ingredient name="FuriousRamsayGeneticsPerBook" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayDexterityperkParkour" count="1">
+			<ingredient name="FuriousRamsayGeneticsPerBook" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayDexterityperkRunAndGun" count="1">
+			<ingredient name="FuriousRamsayGeneticsPerBook" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayConstitutionperkPackMule" count="1">
+			<ingredient name="FuriousRamsayGeneticsPerBook" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayConstitutionperkHealingFactor" count="1">
+			<ingredient name="FuriousRamsayGeneticsPerBook" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayConstitutionperkSlowMetabolism" count="1">
+			<ingredient name="FuriousRamsayGeneticsPerBook" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayIntelligenceperkDeepCuts" count="1">
+			<ingredient name="FuriousRamsayGeneticsPerBook" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayIntelligenceperkLuckyLooter" count="1">
+			<ingredient name="FuriousRamsayGeneticsPerBook" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayIntelligenceperkLockPicking" count="1">
+			<ingredient name="FuriousRamsayGeneticsPerBook" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayIntelligenceperkTreasureHunter" count="1">
+			<ingredient name="FuriousRamsayGeneticsPerBook" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayCharismaperkDaringAdventurer" count="1">
+			<ingredient name="FuriousRamsayGeneticsPerBook" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayCharismaperkBetterBarter" count="1">
+			<ingredient name="FuriousRamsayGeneticsPerBook" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayCharismaperkCharismaticNature" count="1">
+			<ingredient name="FuriousRamsayGeneticsPerBook" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayStarterArmorLegsHunter" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayStarterArmorSkirtHunter" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayStarterArmorSkirtHunter" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayStarterArmorLegsHunter" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayStarterArmorLegsThug" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayStarterArmorSkirtThug" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayStarterArmorSkirtThug" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayStarterArmorLegsThug" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayStarterArmorLegsButcher" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayStarterArmorSkirtButcher" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayStarterArmorSkirtButcher" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayStarterArmorLegsButcher" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayStarterArmorLegsSoldier" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayStarterArmorSkirtSoldier" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayStarterArmorSkirtSoldier" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayStarterArmorLegsSoldier" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayStarterArmorLegsTechnogeek" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayStarterArmorSkirtTechnogeek" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayStarterArmorSkirtTechnogeek" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayStarterArmorLegsTechnogeek" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayStarterArmorLegsMadman" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayStarterArmorSkirtMadman" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayStarterArmorSkirtMadman" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayStarterArmorLegsMadman" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayStarterArmorLegsBuilder" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayStarterArmorSkirtBuilder" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayStarterArmorSkirtBuilder" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayStarterArmorLegsBuilder" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayStarterArmorLegsChef" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayStarterArmorSkirtChef" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayStarterArmorSkirtChef" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayStarterArmorLegsChef" count="1"/>
+		</recipe>
+	</append>
+
+	<!-- TOOLBOX RECIPES -->
+	<append xpath="/recipes">
+		<recipe name="ladderWood" count="1" craft_area="WorkbenchToolbox001_FR" craft_tool="FuriousRamsayHammerPliers">
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourceNail" count="7"/>
+		</recipe>
+
+		<recipe name="trapSpikesWoodDmg0" count="1" craft_area="WorkbenchToolbox001_FR" craft_tool="FuriousRamsayHammerPliers">
+			<ingredient name="FuriousRamsayTreeBranch" count="5"/>
+			<ingredient name="FuriousRamsayRope" count="4"/>
+		</recipe>
+
+		<recipe name="secureDoorWooden" count="1" craft_area="WorkbenchToolbox001_FR" craft_tool="FuriousRamsayHammerPliers">
+			<ingredient name="resourceWood" count="16"/>
+			<ingredient name="resourceNail" count="5"/>
+		</recipe>
+
+		<recipe name="woodHatch1_v1" count="1" craft_area="WorkbenchToolbox001_FR" craft_tool="FuriousRamsayHammerPliers">
+			<ingredient name="resourceWood" count="16"/>
+			<ingredient name="resourceNail" count="5"/>
+		</recipe>
+
+		<recipe name="woodFrameMaster" count="1" craft_area="WorkbenchToolbox001_FR" craft_tool="FuriousRamsayHammerPliers">
+			<ingredient name="resourceWood" count="16"/>
+			<ingredient name="resourceNail" count="5"/>
+		</recipe>
+
+		<recipe name="woodFenceRailingTrellisSheetBlockVariantHelper" count="1" craft_area="WorkbenchToolbox001_FR" craft_tool="FuriousRamsayHammerPliers">
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourceNail" count="5"/>
+		</recipe>
+
+	</append>
+
+	<!-- HAMMER RECIPES -->
+	<append xpath="/recipes">
+		<recipe name="frameShapes:VariantHelper" count="1" craft_time="4" tags="learnable">
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourceNail" count="4"/>
+		</recipe>
+
+		<recipe name="keystoneBlock" count="1" craft_time="30" tags="learnable">
+			<ingredient name="FuriousRamsayLargeRock" count="5"/>
+		</recipe>
+
+		<recipe name="ladderWood" count="1" tags="learnable">
+			<ingredient name="resourceWood" count="12"/>
+			<ingredient name="resourceNail" count="8"/>
+		</recipe>
+
+		<recipe name="trapSpikesWoodDmg0" count="1" tags="learnable">
+			<ingredient name="FuriousRamsayTreeBranch" count="6"/>
+			<ingredient name="FuriousRamsayRope" count="6"/>
+		</recipe>
+
+		<recipe name="secureDoorWooden" count="1" tags="learnable">
+			<ingredient name="resourceWood" count="20"/>
+			<ingredient name="resourceNail" count="6"/>
+		</recipe>
+
+		<recipe name="woodHatch1_v1" count="1" tags="learnable">
+			<ingredient name="resourceWood" count="20"/>
+			<ingredient name="resourceNail" count="6"/>
+		</recipe>
+
+		<recipe name="woodFrameMaster" count="1" tags="learnable">
+			<ingredient name="resourceWood" count="12"/>
+			<ingredient name="resourceNail" count="6"/>
+		</recipe>
+
+		<recipe name="woodFenceRailingTrellisSheetBlockVariantHelper" count="1" tags="learnable">
+			<ingredient name="resourceWood" count="12"/>
+			<ingredient name="resourceNail" count="6"/>
+		</recipe>
+
+	</append>
+
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayDrinkPerussianBlue']/ingredient[@name='drinkJarBoiledWater']" name="name">drinkJarPureMineralWater</setattribute>
+
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayDrugPrussianBluePowder']" name="craft_area">FuriousRamsayChemistryStation</setattribute>
+
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayFireArmorRepairKit']" name="craft_area">FuriousRamsayWorkbench</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayFireArmorRepairKit']" name="craft_tool">FuriousRamsayScrewdriver</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayFireArmorRepairKit']" name="craft_area">FuriousRamsayWorkbench</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayFireArmorRepairKit']" name="craft_tool">FuriousRamsayScrewdriver</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayFireArmorRepairKit']" name="craft_area">FuriousRamsayWorkbench</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayFireArmorRepairKit']" name="craft_tool">FuriousRamsayScrewdriver</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayShockArmorRepairKit']" name="craft_area">FuriousRamsayWorkbench</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayShockArmorRepairKit']" name="craft_tool">FuriousRamsayScrewdriver</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayShockArmorRepairKit']" name="craft_area">FuriousRamsayWorkbench</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayShockArmorRepairKit']" name="craft_tool">FuriousRamsayScrewdriver</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayShockArmorRepairKit']" name="craft_area">FuriousRamsayWorkbench</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayShockArmorRepairKit']" name="craft_tool">FuriousRamsayScrewdriver</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsaySmokeArmorRepairKit']" name="craft_area">FuriousRamsayWorkbench</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsaySmokeArmorRepairKit']" name="craft_tool">FuriousRamsayScrewdriver</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsaySmokeArmorRepairKit']" name="craft_area">FuriousRamsayWorkbench</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsaySmokeArmorRepairKit']" name="craft_tool">FuriousRamsayScrewdriver</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayFireShockArmorRepairKit']" name="craft_area">FuriousRamsayWorkbench</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayFireShockArmorRepairKit']" name="craft_tool">FuriousRamsayScrewdriver</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayFireShockArmorRepairKit']" name="craft_area">FuriousRamsayWorkbench</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayFireShockArmorRepairKit']" name="craft_tool">FuriousRamsayScrewdriver</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayFireShockSmokeArmorRepairKit']" name="craft_area">FuriousRamsayWorkbench</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayFireShockSmokeArmorRepairKit']" name="craft_tool">FuriousRamsayScrewdriver</setattribute>
+
+	<!--<remove xpath="/recipes/recipe[@name='FuriousRamsayFireArmorRepairKit']"/>
+	<remove xpath="/recipes/recipe[@name='FuriousRamsayShockArmorRepairKit']"/>
+	<remove xpath="/recipes/recipe[@name='FuriousRamsaySmokeArmorRepairKit']"/>
+	<remove xpath="/recipes/recipe[@name='FuriousRamsayFireShockArmorRepairKit']"/>
+	<remove xpath="/recipes/recipe[@name='FuriousRamsayFireShockSmokeArmorRepairKit']"/>-->
+
+	<!--<remove xpath="/recipes/recipe[@name='FuriousRamsayFireZombieBonePowder']"/>
+	<remove xpath="/recipes/recipe[@name='FuriousRamsayShockZombieBonePowder']"/>
+	<remove xpath="/recipes/recipe[@name='FuriousRamsayFireShockZombieBonePowder']"/>
+	<remove xpath="/recipes/recipe[@name='FuriousRamsaySmokeZombieBonePowder']"/>
+	<remove xpath="/recipes/recipe[@name='FuriousRamsayFireShockSmokeZombieBonePowder']"/>-->
+
+	<!-- ADD POWDER RECIPE -->
+	<append xpath="/recipes">
+		<recipe name="FuriousRamsayCornFlour" count="1" craft_area="WorkbenchMortarPestle001_FR">
+			<ingredient name="foodCropCorn" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayFireZombieBonePowder" craft_time="15" count="3" craft_area="WorkbenchMortarPestle001_FR">
+			<ingredient name="FuriousRamsayZombieBodyBagPileTier1" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayShockZombieBonePowder" craft_time="15" count="3" craft_area="WorkbenchMortarPestle001_FR">
+			<ingredient name="FuriousRamsayZombieBodyBagPileTier2" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayFireShockZombieBonePowder" craft_time="15" count="3" craft_area="WorkbenchMortarPestle001_FR">
+			<ingredient name="FuriousRamsayZombieBodyBagPileTier3" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsaySmokeZombieBonePowder" craft_time="15" count="3" craft_area="WorkbenchMortarPestle001_FR">
+			<ingredient name="FuriousRamsayZombieBodyBagPileTier4" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayFireShockSmokeZombieBonePowder" craft_time="15" count="3" craft_area="WorkbenchMortarPestle001_FR">
+			<ingredient name="FuriousRamsayZombieBodyBagPileTier5" count="1"/>
+		</recipe>
+	</append>
+
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayDrinkPerussianBlue']" name="craft_area">WorkbenchDistiller001_FR</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayDrinkPerussianBlue']" name="craft_tool">toolCookingPot</setattribute>
+	<removeattribute xpath="/recipes/recipe[@name='FuriousRamsayDrinkPerussianBlue']/@always_unlocked"/>
+
+	<!-- TURRET AMMO -->
+	<setattribute xpath="/recipes/recipe[@name='ammoJunkTurretRegular']" name="craft_tool">FuriousRamsayHammerPliers</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='ammoJunkTurretShell']" name="craft_tool">FuriousRamsayHammerPliers</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='ammoJunkTurretAP']" name="craft_tool">FuriousRamsayHammerPliers</setattribute>
+	<append xpath="/recipes">
+		<recipe name="ammoJunkTurretShock" count="20" craft_area="FuriousRamsayWorkbench" craft_tool="FuriousRamsayHammerPliers"  tags="learnable">
+			<ingredient name="resourceScrapIron" count="80" />
+			<ingredient name="resourceElectricParts" count="1" />
+		</recipe>
+	</append>
+
+	<!-- TRAPS -->
+	<remove xpath="/recipes/recipe[@name='FuriousRamsayBurningTrap']"/>
+	<append xpath="/recipes">
+		<recipe name="FuriousRamsayBurningTrap" craft_time="30" craft_area="FuriousRamsayWorkbench">
+			<ingredient name="FuriousRamsayLargeRock" count="3" />
+			<ingredient name="resourceWood" count="10" />
+			<ingredient name="resourceCoal" count="15" />
+			<ingredient name="ammoGasCan" count="20" />
+		</recipe>
+	</append>
+
+	<!-- SCRAP BOOKS -->
+	<append xpath="/recipes">
+		<recipe name="resourcePaper" count="1" craft_time="10">
+			<ingredient name="FuriousRamsayBook" count="1" />
+		</recipe>
+		<!--<recipe name="resourcePaper" count="5" craft_time="2" craft_area="WorkbenchShredder001_FR" craft_tool="FuriousRamsayPropaneTank">
+			<ingredient name="FuriousRamsayBook" count="1" />
+		</recipe>-->
+	</append>
+
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayScreamerSignalTier1']" name="craft_area">FuriousRamsayWorkbench</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayScreamerSignalTier2']" name="craft_area">FuriousRamsayWorkbench</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayScreamerSignalTier3']" name="craft_area">FuriousRamsayWorkbench</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayScreamerSignalTier4']" name="craft_area">FuriousRamsayWorkbench</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayScreamerSignalTier5']" name="craft_area">FuriousRamsayWorkbench</setattribute>
+
+	<!-- REMOVE DUCT TAPE FROM SOME RECIPES -->
+	<remove xpath="/recipes/recipe[@name='ammoArrowExploding']/ingredient[@name='resourceDuctTape']"/>
+	<remove xpath="/recipes/recipe[@name='ammoCrossbowBoltExploding']/ingredient[@name='resourceDuctTape']"/>
+
+	<remove xpath="/recipes/recipe[@name='gunBowT1WoodenBow']/ingredient[@name='resourceDuctTape']"/>
+
+	<remove xpath="/recipes/recipe[@name='medicalSplint']/ingredient[@name='resourceDuctTape']"/>
+	<remove xpath="/recipes/recipe[@name='medicalSplint']/ingredient[@name='resourceCloth']"/>
+
+	<append xpath="/recipes/recipe[@name='meleeWpnSpearT0StoneSpear']">
+		<ingredient name="FuriousRamsayRope" count="1"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='meleeToolShovelT0StoneShovel']">
+		<ingredient name="FuriousRamsayRope" count="1"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='meleeWpnSledgeT0StoneSledgehammer']">
+		<ingredient name="FuriousRamsayRope" count="3"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='meleeToolRepairT0StoneAxe']">
+		<ingredient name="FuriousRamsayRope" count="1"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='bedrollBlockVariantHelper']">
+		<ingredient name="FuriousRamsayRope" count="2"/>
+		<ingredient name="resourceCloth" count="4"/>
+		<ingredient name="resourceCropCottonPlant" count="6"/>
+	</append>
+	
+	<!-- REPLACE DUCT TAPE IN SOME RECIPES -->
+	<append xpath="/recipes/recipe[@name='ammoArrowExploding']">
+		<ingredient name="FuriousRamsayRope" count="1"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='ammoCrossbowBoltExploding']">
+		<ingredient name="FuriousRamsayRope" count="1"/>
+	</append>
+
+	<append xpath="/recipes/recipe[@name='gunBowT0PrimitiveBow']">
+		<ingredient name="FuriousRamsayRope" count="2"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='gunBowT1WoodenBow']">
+		<ingredient name="FuriousRamsayRope" count="4"/>
+	</append>
+
+	<append xpath="/recipes/recipe[@name='medicalSplint']">
+		<ingredient name="FuriousRamsayRope" count="2"/>
+	</append>
+	<append xpath="/recipes/recipe[@name='meleeWpnKnucklesT0LeatherKnuckles']">
+		<ingredient name="FuriousRamsayRope" count="2"/>
+	</append>
+
+	<append xpath="/recipes">
+
+		<!-- BASIC RECIPES -->
+		<recipe name="resourceCloth" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+		<recipe name="resourceLeather" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+		<recipe name="resourcePaper" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+		<recipe name="resourceCloth" count="1">
+			<ingredient name="resourceCropCottonPlant" count="1"/>
+		</recipe>
+
+		<!-- BACKPACK STARTER MISSIONS -->
+		<!--<recipe name="qc_FuriousRamsayStarterBackpackCharismaDigAgain" count="1">
+		</recipe>
+		<recipe name="qc_FuriousRamsayStarterBackpackConstitutionDigAgain" count="1">
+		</recipe>
+		<recipe name="qc_FuriousRamsayStarterBackpackDexterityDigAgain" count="1">
+		</recipe>
+		<recipe name="qc_FuriousRamsayStarterBackpackIntelligenceDigAgain" count="1">
+		</recipe>
+		<recipe name="qc_FuriousRamsayStarterBackpackStrengthDigAgain" count="1">
+		</recipe>-->
+		
+		<!-- BACKPACK ARROWS AND BOLTS -->
+		<recipe name="ammoArrowStone" count="1">
+			<ingredient name="resourceRockSmall" count="1" />
+			<ingredient name="FuriousRamsayWoodStick" count="1"/>
+			<ingredient name="resourceFeather" count="1" />
+		</recipe>
+		<recipe name="ammoCrossbowBoltStone" count="1">
+			<ingredient name="resourceRockSmall" count="1" />
+			<ingredient name="FuriousRamsayWoodStick" count="1"/>
+			<ingredient name="resourceFeather" count="1" />
+		</recipe>
+
+		<!--MECHANICAL ALLIES -->
+		<recipe name="FuriousRamsaySpawnMechanicalAllyDog" craft_time="30" craft_tool="FuriousRamsayScrewdriver" craft_area="WorkbenchToolbox001_FR" tags="learnable">
+			<ingredient name="resourceScrapIron" count="50" />
+			<ingredient name="resourceMechanicalParts" count="1" />
+			<ingredient name="resourceElectricParts" count="1" />
+			<ingredient name="FuriousRamsayScrews" count="5" />
+		</recipe>
+		<recipe name="FuriousRamsaySpawnMechanicalAllyWolf" craft_time="30" craft_tool="FuriousRamsayScrewdriver" craft_area="WorkbenchToolbox001_FR" tags="learnable">
+			<ingredient name="resourceScrapIron" count="100" />
+			<ingredient name="resourceMechanicalParts" count="2" />
+			<ingredient name="resourceElectricParts" count="2" />
+			<ingredient name="FuriousRamsayScrews" count="6" />
+		</recipe>
+		<recipe name="FuriousRamsaySpawnMechanicalAllyBoar" craft_time="30" craft_tool="FuriousRamsayScrewdriver" craft_area="WorkbenchToolbox001_FR" tags="learnable">
+			<ingredient name="resourceScrapIron" count="50" />
+			<ingredient name="resourceMechanicalParts" count="1" />
+			<ingredient name="resourceElectricParts" count="1" />
+			<ingredient name="resourceGunPowder" count="5" />
+			<ingredient name="FuriousRamsayScrews" count="5" />
+		</recipe>		
+		<recipe name="FuriousRamsaySpawnMechanicalAllyLion" craft_time="30" craft_tool="FuriousRamsayScrewdriver" craft_area="WorkbenchToolbox001_FR" tags="learnable">
+			<ingredient name="resourceScrapIron" count="150" />
+			<ingredient name="resourceMechanicalParts" count="4" />
+			<ingredient name="resourceElectricParts" count="4" />
+			<ingredient name="FuriousRamsayScrews" count="7" />
+		</recipe>
+		<recipe name="FuriousRamsaySpawnMechanicalAllyBear" craft_time="30" craft_tool="FuriousRamsayScrewdriver" craft_area="WorkbenchToolbox001_FR" tags="learnable">
+			<ingredient name="resourceScrapIron" count="200" />
+			<ingredient name="resourceMechanicalParts" count="5" />
+			<ingredient name="resourceElectricParts" count="5" />
+			<ingredient name="FuriousRamsayScrews" count="8" />
+		</recipe>
+		<recipe name="FuriousRamsaySpawnMechanicalAllyAndroid" craft_time="30" craft_tool="FuriousRamsayScrewdriver" craft_area="WorkbenchToolbox001_FR" tags="learnable">
+			<ingredient name="resourceScrapIron" count="300" />
+			<ingredient name="resourceMechanicalParts" count="6" />
+			<ingredient name="resourceElectricParts" count="6" />
+			<ingredient name="FuriousRamsayScrews" count="10" />
+		</recipe>
+
+		<!--MEDICAL DROID -->
+		<recipe name="FuriousRamsayMedicalDroidNoPower" craft_time="20" craft_tool="FuriousRamsayScrewdriver" craft_area="FuriousRamsayWorkbench" tags="learnable">
+			<ingredient name="FuriousRamsayMedicalDroidHead" count="1"/>
+			<ingredient name="FuriousRamsayMedicalDroidBody" count="1"/>
+			<ingredient name="FuriousRamsayMedicalDroidRightArm" count="1"/>
+			<ingredient name="FuriousRamsayMedicalDroidLeftArm" count="1"/>
+			<ingredient name="FuriousRamsayMedicalDroidLegs" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsaySpawnMedicalDroid" craft_time="10" craft_tool="FuriousRamsayScrewdriver" craft_area="FuriousRamsayWorkbench">
+			<ingredient name="FuriousRamsayMedicalDroidNoPower" count="1"/>
+			<ingredient name="carBattery" count="1"/>
+			<ingredient name="solarCell" count="1"/>
+			<ingredient name="FuriousRamsayScrews" count="20"/>
+		</recipe>
+
+		<!-- DNA INJECTORS -->
+		<recipe name="FuriousRamsayDNAInjectorCharisma" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayDNAInjector" count="1"/>
+			<ingredient name="FuriousRamsayPillCharisma" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayDNAInjectorConstitution" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayDNAInjector" count="1"/>
+			<ingredient name="FuriousRamsayPillConstitution" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayDNAInjectorDexterity" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayDNAInjector" count="1"/>
+			<ingredient name="FuriousRamsayPillDexterity" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayDNAInjectorIntelligence" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayDNAInjector" count="1"/>
+			<ingredient name="FuriousRamsayPillIntelligence" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayDNAInjectorStrength" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayDNAInjector" count="1"/>
+			<ingredient name="FuriousRamsayPillStrength" count="1"/>
+		</recipe>
+
+		<!--STRENGTH -->
+		<recipe name="FuriousRamsayHeadShadesStrengthTRex" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayHeadShadesStrength" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayHeadShadesStrengthMiner69er" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayHeadShadesStrength" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayHeadShadesStrengthMotherLode" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayHeadShadesStrength" count="1"/>
+		</recipe>
+		<!--DEXTERITY -->
+		<recipe name="FuriousRamsayHeadShadesDexterityRuleOneCardio" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayHeadShadesDexterity" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayHeadShadesDexterityParkour" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayHeadShadesDexterity" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayHeadShadesDexterityRunAndGun" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayHeadShadesDexterity" count="1"/>
+		</recipe>
+		<!--CONSTITUTION -->
+		<recipe name="FuriousRamsayHeadShadesConstitutionPackMule" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayHeadShadesConstitution" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayHeadShadesConstitutionHealingFactor" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayHeadShadesConstitution" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayHeadShadesConstitutionSlowMetabolism" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayHeadShadesConstitution" count="1"/>
+		</recipe>
+		<!--INTELLIGENCE -->
+		<recipe name="FuriousRamsayHeadShadesIntelligenceDeepCuts" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayHeadShadesIntelligence" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayHeadShadesIntelligenceLuckyLooter" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayHeadShadesIntelligence" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayHeadShadesIntelligenceLockPicking" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayHeadShadesIntelligence" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayHeadShadesIntelligenceTreasureHunter" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayHeadShadesIntelligence" count="1"/>
+		</recipe>
+		<!--CHARISMA -->
+		<recipe name="FuriousRamsayHeadShadesCharismaDaringAdventurer" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayHeadShadesCharisma" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayHeadShadesCharismaBetterBarter" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayHeadShadesCharisma" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayHeadShadesCharismaCharismaticNature" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayHeadShadesCharisma" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayRope" count="1">
+			<ingredient name="resourceYuccaFibers" count="3"/>
+		</recipe>
+
+		<recipe name="qc_FuriousRamsayHunterTraining" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayClassBookGeneric" count="1"/>
+		</recipe>
+
+		<recipe name="qc_FuriousRamsayThugTraining" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayClassBookGeneric" count="1"/>
+		</recipe>
+
+		<recipe name="qc_FuriousRamsayButcherTraining" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayClassBookGeneric" count="1"/>
+		</recipe>
+
+		<recipe name="qc_FuriousRamsaySoldierTraining" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayClassBookGeneric" count="1"/>
+		</recipe>
+
+		<recipe name="qc_FuriousRamsayTechnogeekTraining" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayClassBookGeneric" count="1"/>
+		</recipe>
+
+		<recipe name="qc_FuriousRamsayMadmanTraining" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayClassBookGeneric" count="1"/>
+		</recipe>
+
+		<recipe name="qc_FuriousRamsayBuilderTraining" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayClassBookGeneric" count="1"/>
+		</recipe>
+	
+		<recipe name="qc_FuriousRamsayChefTraining" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayClassBookGeneric" count="1"/>
+		</recipe>
+
+		<!-- AURA PERK BOOKS -->
+		<recipe name="FuriousRamsayHealingAuraBook" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayAuraBookGeneric" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayStaminaAuraBook" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayAuraBookGeneric" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayMobilityAuraBook" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayAuraBookGeneric" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayArmorPenetrationAuraBook" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayAuraBookGeneric" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayBlockDamageAuraBook" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayAuraBookGeneric" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayFireRateAuraBook" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayAuraBookGeneric" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayAttackSpeedAuraBook" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayAuraBookGeneric" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayShadowAuraBook" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayAuraBookGeneric" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayVitalityAuraBook" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayAuraBookGeneric" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayAgilityAuraBook" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayAuraBookGeneric" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayPierceAuraBook" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayAuraBookGeneric" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayTradeAuraBook" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayAuraBookGeneric" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayPreservationAuraBook" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayAuraBookGeneric" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayFortuityAuraBook" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayAuraBookGeneric" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayStabilityAuraBook" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayAuraBookGeneric" count="1"/>
+		</recipe>
+
+		<!-- PAINT -->
+		<recipe name="resourcePaint" count="200" always_unlocked="true">
+			<ingredient name="modDyeRed" count="1"/>
+			<ingredient name="modDyeBlue" count="1"/>
+			<ingredient name="modDyeGreen" count="1"/>
+			<ingredient name="FuriousRamsayCornFlour" count="10"/>
+			<ingredient name="drinkJarRiverWater" count="3"/>
+		</recipe>
+
+	</append>
+    
+</Config>

@@ -1,0 +1,224 @@
+<Config>
+
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesAll'
+												]">
+		<entity name="FuriousRamsayZombie001"/>
+		<entity name="FuriousRamsayZombie002"/>
+		<entity name="FuriousRamsayZombie003"/>
+		<entity name="FuriousRamsayZombie004"/>
+		<entity name="FuriousRamsayZombie005"/>
+		<entity name="FuriousRamsayZombie006"/>
+		<entity name="FuriousRamsayZombie007"/>
+		<entity name="FuriousRamsayZombie008"/>
+		<entity name="FuriousRamsayZombie009"/>
+		<entity name="FuriousRamsayZombie010"/>
+		<entity name="FuriousRamsayZombie011"/>
+		<entity name="FuriousRamsayZombie012"/>
+		<entity name="FuriousRamsayZombie013"/>
+	</append>
+
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesForestDowntown'
+												]">
+		<entity name="FuriousRamsayZombie001" prob="1"/>
+		<entity name="FuriousRamsayZombie002" prob="1"/>
+		<entity name="FuriousRamsayZombie003" prob="1"/>
+		<entity name="FuriousRamsayZombie004" prob="1"/>
+		<entity name="FuriousRamsayZombie005" prob="1"/>
+		<entity name="FuriousRamsayZombie006" prob="1"/>
+		<entity name="FuriousRamsayZombie007" prob="1"/>
+		<entity name="FuriousRamsayZombie008" prob="1"/>
+		<entity name="FuriousRamsayZombie009" prob="1"/>
+		<entity name="FuriousRamsayZombie010" prob="1"/>
+		<entity name="FuriousRamsayZombie011" prob="1"/>
+		<entity name="FuriousRamsayZombie012" prob="1"/>
+		<entity name="FuriousRamsayZombie013" prob="1"/>
+		<entity name="FuriousRamsayZombie008a" prob=".1"/>
+		<entity name="FuriousRamsayZombie009a" prob=".1"/>
+		<entity name="FuriousRamsayZombie010a" prob=".1"/>
+		<entity name="FuriousRamsayZombie011a" prob=".1"/>
+		<entity name="FuriousRamsayZombie012a" prob=".1"/>
+		<entity name="FuriousRamsayZombie013a" prob=".1"/>
+	</append>
+
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesForestDowntownNight'
+												]">
+		<entity name="FuriousRamsayZombie001" prob="1"/>
+		<entity name="FuriousRamsayZombie002" prob="1"/>
+		<entity name="FuriousRamsayZombie003" prob="1"/>
+		<entity name="FuriousRamsayZombie004" prob="1"/>
+		<entity name="FuriousRamsayZombie005" prob="1"/>
+		<entity name="FuriousRamsayZombie006" prob="1"/>
+		<entity name="FuriousRamsayZombie007" prob="1"/>
+		<entity name="FuriousRamsayZombie008" prob="1"/>
+		<entity name="FuriousRamsayZombie009" prob="1"/>
+		<entity name="FuriousRamsayZombie010" prob="1"/>
+		<entity name="FuriousRamsayZombie011" prob="1"/>
+		<entity name="FuriousRamsayZombie012" prob="1"/>
+		<entity name="FuriousRamsayZombie013" prob="1"/>
+		<entity name="FuriousRamsayZombie008a" prob=".25"/>
+		<entity name="FuriousRamsayZombie009a" prob=".25"/>
+		<entity name="FuriousRamsayZombie010a" prob=".25"/>
+		<entity name="FuriousRamsayZombie011a" prob=".25"/>
+		<entity name="FuriousRamsayZombie012a" prob=".25"/>
+		<entity name="FuriousRamsayZombie013a" prob=".25"/>
+	</append>
+
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesDowntown'
+												]">
+		<entity name="FuriousRamsayZombie001" prob="1"/>
+		<entity name="FuriousRamsayZombie002" prob="1"/>
+		<entity name="FuriousRamsayZombie003" prob="1"/>
+		<entity name="FuriousRamsayZombie004" prob="1"/>
+		<entity name="FuriousRamsayZombie005" prob="1"/>
+		<entity name="FuriousRamsayZombie006" prob="1"/>
+		<entity name="FuriousRamsayZombie007" prob="1"/>
+		<entity name="FuriousRamsayZombie008" prob="1"/>
+		<entity name="FuriousRamsayZombie009" prob="1"/>
+		<entity name="FuriousRamsayZombie010" prob="1"/>
+		<entity name="FuriousRamsayZombie011" prob="1"/>
+		<entity name="FuriousRamsayZombie012" prob="1"/>
+		<entity name="FuriousRamsayZombie013" prob="1"/>
+		<entity name="FuriousRamsayZombie008a" prob=".5"/>
+		<entity name="FuriousRamsayZombie009a" prob=".5"/>
+		<entity name="FuriousRamsayZombie010a" prob=".5"/>
+		<entity name="FuriousRamsayZombie011a" prob=".5"/>
+		<entity name="FuriousRamsayZombie012a" prob=".5"/>
+		<entity name="FuriousRamsayZombie013a" prob=".5"/>
+	</append>
+
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesNight' or
+												@name='ZombiesForestDowntownNight'
+												]">
+		<entity name="FuriousRamsayZombie001" prob="1"/>
+		<entity name="FuriousRamsayZombie002" prob="1"/>
+		<entity name="FuriousRamsayZombie003" prob="1"/>
+		<entity name="FuriousRamsayZombie004" prob="1"/>
+		<entity name="FuriousRamsayZombie005" prob="1"/>
+		<entity name="FuriousRamsayZombie006" prob="1"/>
+		<entity name="FuriousRamsayZombie007" prob="1"/>
+		<entity name="FuriousRamsayZombie008" prob="1"/>
+		<entity name="FuriousRamsayZombie009" prob="1"/>
+		<entity name="FuriousRamsayZombie010" prob="1"/>
+		<entity name="FuriousRamsayZombie011" prob="1"/>
+		<entity name="FuriousRamsayZombie012" prob="1"/>
+		<entity name="FuriousRamsayZombie013" prob="1"/>
+		<entity name="FuriousRamsayZombie008a" prob=".25"/>
+		<entity name="FuriousRamsayZombie009a" prob=".25"/>
+		<entity name="FuriousRamsayZombie010a" prob=".25"/>
+		<entity name="FuriousRamsayZombie011a" prob=".25"/>
+		<entity name="FuriousRamsayZombie012a" prob=".25"/>
+		<entity name="FuriousRamsayZombie013a" prob=".25"/>
+	</append>
+
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesFeral']">
+		<entity name="FuriousRamsayZombie008a"/>
+		<entity name="FuriousRamsayZombie009a"/>
+		<entity name="FuriousRamsayZombie010a"/>
+		<entity name="FuriousRamsayZombie011a"/>
+		<entity name="FuriousRamsayZombie012a"/>
+		<entity name="FuriousRamsayZombie013a"/>
+	</append>
+
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland'
+												]">
+		<entity name="FuriousRamsayZombie001" prob="1"/>
+		<entity name="FuriousRamsayZombie002" prob="1"/>
+		<entity name="FuriousRamsayZombie003" prob="1"/>
+		<entity name="FuriousRamsayZombie004" prob="1"/>
+		<entity name="FuriousRamsayZombie005" prob="1"/>
+		<entity name="FuriousRamsayZombie006" prob="1"/>
+		<entity name="FuriousRamsayZombie007" prob="1"/>
+		<entity name="FuriousRamsayZombie008" prob="1"/>
+		<entity name="FuriousRamsayZombie009" prob="1"/>
+		<entity name="FuriousRamsayZombie010" prob="1"/>
+		<entity name="FuriousRamsayZombie011" prob="1"/>
+		<entity name="FuriousRamsayZombie012" prob="1"/>
+		<entity name="FuriousRamsayZombie013" prob="1"/>
+		<entity name="FuriousRamsayZombie008a" prob=".25"/>
+		<entity name="FuriousRamsayZombie009a" prob=".25"/>
+		<entity name="FuriousRamsayZombie010a" prob=".25"/>
+		<entity name="FuriousRamsayZombie011a" prob=".25"/>
+		<entity name="FuriousRamsayZombie012a" prob=".25"/>
+		<entity name="FuriousRamsayZombie013a" prob=".25"/>
+	</append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight'
+												]">
+		<entity name="FuriousRamsayZombie001" prob="1"/>
+		<entity name="FuriousRamsayZombie002" prob="1"/>
+		<entity name="FuriousRamsayZombie003" prob="1"/>
+		<entity name="FuriousRamsayZombie004" prob="1"/>
+		<entity name="FuriousRamsayZombie005" prob="1"/>
+		<entity name="FuriousRamsayZombie006" prob="1"/>
+		<entity name="FuriousRamsayZombie007" prob="1"/>
+		<entity name="FuriousRamsayZombie008a" prob=".5"/>
+		<entity name="FuriousRamsayZombie009a" prob=".5"/>
+		<entity name="FuriousRamsayZombie010a" prob=".5"/>
+		<entity name="FuriousRamsayZombie011a" prob=".5"/>
+		<entity name="FuriousRamsayZombie012a" prob=".5"/>
+		<entity name="FuriousRamsayZombie013a" prob=".5"/>
+	</append>
+
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandDowntown'
+												]">
+		<entity name="FuriousRamsayZombie001" prob="1"/>
+		<entity name="FuriousRamsayZombie002" prob="1"/>
+		<entity name="FuriousRamsayZombie003" prob="1"/>
+		<entity name="FuriousRamsayZombie004" prob="1"/>
+		<entity name="FuriousRamsayZombie005" prob="1"/>
+		<entity name="FuriousRamsayZombie006" prob="1"/>
+		<entity name="FuriousRamsayZombie007" prob="1"/>
+		<entity name="FuriousRamsayZombie008" prob="1"/>
+		<entity name="FuriousRamsayZombie009" prob="1"/>
+		<entity name="FuriousRamsayZombie010" prob="1"/>
+		<entity name="FuriousRamsayZombie011" prob="1"/>
+		<entity name="FuriousRamsayZombie012" prob="1"/>
+		<entity name="FuriousRamsayZombie013" prob="1"/>
+		<entity name="FuriousRamsayZombie008a" prob=".35"/>
+		<entity name="FuriousRamsayZombie009a" prob=".35"/>
+		<entity name="FuriousRamsayZombie010a" prob=".35"/>
+		<entity name="FuriousRamsayZombie011a" prob=".35"/>
+		<entity name="FuriousRamsayZombie012a" prob=".35"/>
+		<entity name="FuriousRamsayZombie013a" prob=".35"/>
+	</append>
+
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNightNoBears'
+												]">
+		<entity name="FuriousRamsayZombie001" prob="1"/>
+		<entity name="FuriousRamsayZombie002" prob="1"/>
+		<entity name="FuriousRamsayZombie003" prob="1"/>
+		<entity name="FuriousRamsayZombie004" prob="1"/>
+		<entity name="FuriousRamsayZombie005" prob="1"/>
+		<entity name="FuriousRamsayZombie006" prob="1"/>
+		<entity name="FuriousRamsayZombie007" prob="1"/>
+		<entity name="FuriousRamsayZombie008a" prob=".5"/>
+		<entity name="FuriousRamsayZombie009a" prob=".5"/>
+		<entity name="FuriousRamsayZombie010a" prob=".5"/>
+		<entity name="FuriousRamsayZombie011a" prob=".5"/>
+		<entity name="FuriousRamsayZombie012a" prob=".5"/>
+		<entity name="FuriousRamsayZombie013a" prob=".5"/>
+	</append>
+
+	<append xpath="/entitygroups/entitygroup[@name='SnowZombies']">
+		<entity name="FuriousRamsayZombie001" prob="1"/>
+		<entity name="FuriousRamsayZombie002" prob="1"/>
+		<entity name="FuriousRamsayZombie003" prob="1"/>
+		<entity name="FuriousRamsayZombie004" prob="1"/>
+		<entity name="FuriousRamsayZombie005" prob="1"/>
+		<entity name="FuriousRamsayZombie006" prob="1"/>
+		<entity name="FuriousRamsayZombie007" prob="1"/>
+		<entity name="FuriousRamsayZombie008" prob="1"/>
+		<entity name="FuriousRamsayZombie009" prob="1"/>
+		<entity name="FuriousRamsayZombie010" prob="1"/>
+		<entity name="FuriousRamsayZombie011" prob="1"/>
+		<entity name="FuriousRamsayZombie012" prob="1"/>
+		<entity name="FuriousRamsayZombie013" prob="1"/>
+		<entity name="FuriousRamsayZombie008a" prob=".1"/>
+		<entity name="FuriousRamsayZombie009a" prob=".1"/>
+		<entity name="FuriousRamsayZombie010a" prob=".1"/>
+		<entity name="FuriousRamsayZombie011a" prob=".1"/>
+		<entity name="FuriousRamsayZombie012a" prob=".1"/>
+		<entity name="FuriousRamsayZombie013a" prob=".1"/>
+	</append>
+
+</Config>	

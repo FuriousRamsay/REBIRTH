@@ -1,0 +1,31 @@
+<Config>
+
+	<!-- ADJUST CRAFTING QUEUE WINDOW SIZE -->
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect/grid[@name='queue']/@cell_width">65</set>
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect/grid[@name='queue']/@cell_height">65</set>
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect/grid[@name='queue']/@cols">6</set>
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect/grid[@name='queue']/@pos">-95,3</set>
+
+	<!-- ADJUST BACKPACK WINDOW SIZE -->
+	<set xpath="/windows/window[@name='windowBackpack']/@width">603</set>
+	<set xpath="/windows/window[@name='windowBackpack']/@height">367</set>
+	<remove xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/sprite[@name='windowIcon']"/>
+	<remove xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/label[@name='windowName']"/>
+	<setattribute xpath="/windows/window[@name='windowBackpack']/panel[@name='header']" name="width">100%</setattribute>
+	<setattribute xpath="/windows/window[@name='windowBackpack']/panel[@name='header']" name="pos">0,8</setattribute>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/rect[@controller='ContainerStandardControls']/button[@name='btnSort']/@sprite">ui_game_symbol_backpack</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/rect[@controller='ContainerStandardControls']/@pos">24,0</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/label[@width='100']/@pos">465,-6</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/sprite[@name='costIcon']/@pos">570,-10</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/@height">370</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/@pos">0,-34</set>
+
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@cell_width">50</set>
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@cell_height">50</set>
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@rows">7</set>
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@cols">12</set>	
+
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@width">603</set>
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@height">354</set>
+	
+</Config>

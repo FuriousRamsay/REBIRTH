@@ -1,0 +1,13 @@
+<Config>
+
+	<remove xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect[@buff='buffNewbieCoat']"/>
+	<remove xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect[@buff='buffMiningTip']"/>
+	<remove xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect[@buff='buffJournalUnlocks']"/>	
+		
+	<remove xpath="/buffs/buff[@name='buffJournalUnlocks']/effect_group/triggered_effect[@action='AddJournalEntry']"/>
+	
+	<remove xpath="/buffs/buff[@name='buffNPCStatusCheck']/effect_group/triggered_effect[@action='RemoveParticleEffectFromEntity']"/>
+	<!--<remove xpath="/buffs/buff[@name='buffNPCStatusCheck']/effect_group/triggered_effect[@action='AttachParticleEffectToEntity']"/>-->
+	
+</Config>
+

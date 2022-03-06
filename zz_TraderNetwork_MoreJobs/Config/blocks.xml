@@ -1,0 +1,1515 @@
+<Config>
+
+	<append xpath="/blocks/block[@name='cntCar03SedanDamage0v04']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="FuriousRamsayBlackShieldWhiteCarSpawner"/>
+			<property name="Item" value="FuriousRamsaySedanRepairKit"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="16"/>
+		</property>
+		<property name="CustomUpgradeSound" value="place_block_metal"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='cntCar03SedanDamage0v01']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="FuriousRamsayBlackShieldBlueCarBlock"/>
+			<property name="Item" value="FuriousRamsaySedanRepairKit"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="16"/>
+		</property>
+		<property name="CustomUpgradeSound" value="place_block_metal"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='cntCar03SedanDamage0v02']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="FuriousRamsayBlackShieldYellowCarBlock"/>
+			<property name="Item" value="FuriousRamsaySedanRepairKit"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="16"/>
+		</property>
+		<property name="CustomUpgradeSound" value="place_block_metal"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='cntCar03SedanDamage0v03']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="FuriousRamsayBlackShieldMixedCarBlock"/>
+			<property name="Item" value="FuriousRamsaySedanRepairKit"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="16"/>
+		</property>
+		<property name="CustomUpgradeSound" value="place_block_metal"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='cntCar03SedanDamage0v05']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="FuriousRamsayBlackShieldRedCarBlock"/>
+			<property name="Item" value="FuriousRamsaySedanRepairKit"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="16"/>
+		</property>
+		<property name="CustomUpgradeSound" value="place_block_metal"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='cntCar03SedanDamage0v06']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="FuriousRamsayBlackShieldGreenCarBlock"/>
+			<property name="Item" value="FuriousRamsaySedanRepairKit"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="16"/>
+		</property>
+		<property name="CustomUpgradeSound" value="place_block_metal"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='cntCar03SedanDamage0v07']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="FuriousRamsayBlackShieldBlackCarBlock"/>
+			<property name="Item" value="FuriousRamsaySedanRepairKit"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="16"/>
+		</property>
+		<property name="CustomUpgradeSound" value="place_block_metal"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='cntCar03SedanDamage0v08']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="FuriousRamsayBlackShieldCopCarBlock"/>
+			<property name="Item" value="FuriousRamsaySedanRepairKit"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="16"/>
+		</property>
+		<property name="CustomUpgradeSound" value="place_block_metal"/>
+	</append>
+
+	<append xpath="/blocks">
+
+		<block name="FuriousRamsaySpawnBlockMaster">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntWastelandRandomLootHelper"/>
+			<property name="DescriptionKey" value="randomLootSpawnerDesc"/>
+			<property name="Material" value="Mstone"/>
+			<property name="Texture" value="277"/>
+			<property name="Mesh" value="opaque2"/>
+			<property name="ImposterExclude" value="true"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="FilterTags" value="fdesign"/>
+			<property name="AllowAllRotations" value="true"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockMaster"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0005"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="false"/>
+		</block>
+
+		<block name="FuriousRamsayInvisibleSpawn">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsaySpawnBlockMaster"/>
+			<property name="Shape" value="Invisible"/>
+			<property name="Texture" value="250"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="Material" value="FuriousRamsayFakeAir"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsayInvisibleSpawn"/>
+		</block>
+
+		<block name="FuriousRamsayEntitySpawnerMaster">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="Material" value="FuriousRamsayFakeAir"/>
+			<property name="Class" value="SpawnEntity"/>
+			<property name="SpawnClass" value="zMaster"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnBlock">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsayInvisibleSpawn"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnBlockNext">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsaySpawnBlock"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockEnd"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="false"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.GrowthRate" value="0.25"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnBlockEnd">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsaySpawnBlock"/>
+			<property name="MultiBlockDim" value="1,3,1"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsayInvisibleSpawn"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="false"/>
+		</block>
+
+		<block name="FuriousRamsayMineHubcap">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="mineCandyTin"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Traps/hubcap_landminePrefab"/>
+			<property name="Stacknumber" value="20"/>
+			<property name="MaxDamage" value="5"/>
+			<property name="Explosion.RadiusBlocks" value="3"/>
+			<property name="Explosion.RadiusEntities" value="4"/>
+			<property name="Explosion.BlockDamage" value="1000"/>
+			<property name="Explosion.EntityDamage" value="1000"/>
+			<property name="EconomicValue" value="146"/>
+		</block>
+
+		<block name="FuriousRamsayBlackShieldCarBlockBreak">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="woodWeakNoUpgradeMaster"/>
+			<property name="Class" value="TrapDoor"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="Plate"/>
+			<property name="ImposterExchange" value="imposterBlock" param1="86"/>
+			<property name="Mesh" value="transparent"/>
+			<property name="Texture" value="285"/>
+			<property name="TriggerDelay" value="0.01"/>
+			<property name="TriggerSound" value=""/>
+			<property name="Path" value="solid"/>
+			<drop event="Fall" count="0" prob="0"/>
+			<property name="ShowModelOnFall" value="false"/>
+		</block>
+
+		<block name="FuriousRamsayBlackShieldCarPlate">
+			<property name="Tags" value="FuriousRamsayBlackShieldWhiteCarBlock"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="looseBoardsTrapPlate1x1"/>			
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="Mesh" value="transparent"/>
+			<property name="Texture" value="285"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsayBlackShieldCarBlockBreak"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+		</block>
+
+		<block name="FuriousRamsayBlackShieldWhiteCarBlock">
+			<property name="Tags" value="FuriousRamsayBlackShieldWhiteCarBlock"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="CustomIcon" value="cntCar03SedanDamage0Master"/>
+			<property name="CustomIconTint" value="255, 255, 255"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="plate"/>
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="Mesh" value="transparent"/>
+			<property name="Texture" value="285"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsayBlackShieldCarPlate"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsayBlackShieldWhiteCarSpawner" />
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<drop event="Destroy" count="0"/>
+		</block>	
+		
+		<block name="FuriousRamsayBlackShieldWhiteCarSpawner">
+			<property name="Tags" value="FuriousRamsayBlackShieldWhiteCarBlock"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Class" value="SpawnEntity"/>
+			<property name="Shape" value="ModelEntity"/>			
+			<property name="Model" value="Entities/Decor/cobwebPrefab"/>	
+			<property name="Mesh" value="models"/>
+			<property name="Material" value="FuriousRamsaySpawnerMaterials"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="Collide" value="sight"/>
+			<drop event="Fall" count="0" prob="0"/>
+			<property name="SpawnClass" value="FuriousRamsayBlackShieldWhiteCar"/>			
+		</block>
+	
+		<block name="FuriousRamsayBlackShieldBlueCarBlock">
+			<property name="Tags" value="FuriousRamsayBlackShieldBlueCarBlock"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="CustomIcon" value="cntCar03SedanDamage0Master"/>
+			<property name="CustomIconTint" value="255, 255, 255"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="plate"/>
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="Mesh" value="transparent"/>
+			<property name="Texture" value="285"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsayBlackShieldCarPlate"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsayBlackShieldBlueCarSpawner" />
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<drop event="Destroy" count="0"/>
+		</block>	
+		
+		<block name="FuriousRamsayBlackShieldBlueCarSpawner">
+			<property name="Tags" value="FuriousRamsayBlackShieldBlueCarBlock"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Material" value="FuriousRamsaySpawnerMaterials"/>
+			<property name="Extends" value="spawnTrader"/>
+			<property name="Shape" value="ModelEntity"/>			
+			<property name="Model" value="Entities/Decor/cobwebPrefab"/>	
+			<drop event="Fall" count="0" prob="0"/>		
+			<property name="SpawnClass" value="FuriousRamsayBlackShieldBlueCar"/>			
+		</block>
+
+		<block name="FuriousRamsayBlackShieldYellowCarBlock">
+			<property name="Tags" value="FuriousRamsayBlackShieldYellowCarBlock"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="CustomIcon" value="cntCar03SedanDamage0Master"/>
+			<property name="CustomIconTint" value="255, 255, 255"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="plate"/>
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="Mesh" value="transparent"/>
+			<property name="Texture" value="285"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsayBlackShieldCarPlate"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsayBlackShieldYellowCarSpawner" />
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<drop event="Destroy" count="0"/>
+		</block>	
+		
+		<block name="FuriousRamsayBlackShieldYellowCarSpawner">
+			<property name="Tags" value="FuriousRamsayBlackShieldYellowCarBlock"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Material" value="FuriousRamsaySpawnerMaterials"/>
+			<property name="Extends" value="spawnTrader"/>
+			<property name="Shape" value="ModelEntity"/>			
+			<property name="Model" value="Entities/Decor/cobwebPrefab"/>	
+			<drop event="Fall" count="0" prob="0"/>		
+			<property name="SpawnClass" value="FuriousRamsayBlackShieldYellowCar"/>			
+		</block>
+
+		<block name="FuriousRamsayBlackShieldRedCarBlock">
+			<property name="Tags" value="FuriousRamsayBlackShieldRedCarBlock"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="CustomIcon" value="cntCar03SedanDamage0Master"/>
+			<property name="CustomIconTint" value="255, 255, 255"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="plate"/>
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="Mesh" value="transparent"/>
+			<property name="Texture" value="285"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsayBlackShieldCarPlate"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsayBlackShieldRedCarSpawner" />
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<drop event="Destroy" count="0"/>
+		</block>	
+		
+		<block name="FuriousRamsayBlackShieldRedCarSpawner">
+			<property name="Tags" value="FuriousRamsayBlackShieldRedCarBlock"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Material" value="FuriousRamsaySpawnerMaterials"/>
+			<property name="Extends" value="spawnTrader"/>
+			<property name="Shape" value="ModelEntity"/>			
+			<property name="Model" value="Entities/Decor/cobwebPrefab"/>	
+			<drop event="Fall" count="0" prob="0"/>		
+			<property name="SpawnClass" value="FuriousRamsayBlackShieldRedCar"/>			
+		</block>
+
+		<block name="FuriousRamsayBlackShieldMixedCarBlock">
+			<property name="Tags" value="FuriousRamsayBlackShieldMixedCarBlock"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="CustomIcon" value="cntCar03SedanDamage0Master"/>
+			<property name="CustomIconTint" value="255, 255, 255"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="plate"/>
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="Mesh" value="transparent"/>
+			<property name="Texture" value="285"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsayBlackShieldCarPlate"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsayBlackShieldMixedCarSpawner" />
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<drop event="Destroy" count="0"/>
+		</block>	
+		
+		<block name="FuriousRamsayBlackShieldMixedCarSpawner">
+			<property name="Tags" value="FuriousRamsayBlackShieldMixedCarBlock"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Material" value="FuriousRamsaySpawnerMaterials"/>
+			<property name="Extends" value="spawnTrader"/>
+			<property name="Shape" value="ModelEntity"/>			
+			<property name="Model" value="Entities/Decor/cobwebPrefab"/>	
+			<drop event="Fall" count="0" prob="0"/>		
+			<property name="SpawnClass" value="FuriousRamsayBlackShieldMixedCar"/>			
+		</block>
+
+		<block name="FuriousRamsayBlackShieldGreenCarBlock">
+			<property name="Tags" value="FuriousRamsayBlackShieldGreenCarBlock"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="CustomIcon" value="cntCar03SedanDamage0Master"/>
+			<property name="CustomIconTint" value="255, 255, 255"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="plate"/>
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="Mesh" value="transparent"/>
+			<property name="Texture" value="285"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsayBlackShieldCarPlate"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsayBlackShieldGreenCarSpawner" />
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<drop event="Destroy" count="0"/>
+		</block>	
+		
+		<block name="FuriousRamsayBlackShieldGreenCarSpawner">
+			<property name="Tags" value="FuriousRamsayBlackShieldGreenCarBlock"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Material" value="FuriousRamsaySpawnerMaterials"/>
+			<property name="Extends" value="spawnTrader"/>
+			<property name="Shape" value="ModelEntity"/>			
+			<property name="Model" value="Entities/Decor/cobwebPrefab"/>	
+			<drop event="Fall" count="0" prob="0"/>		
+			<property name="SpawnClass" value="FuriousRamsayBlackShieldGreenCar"/>			
+		</block>
+
+		<block name="FuriousRamsayBlackShieldBlackCarBlock">
+			<property name="Tags" value="FuriousRamsayBlackShieldBlackCarBlock"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="CustomIcon" value="cntCar03SedanDamage0Master"/>
+			<property name="CustomIconTint" value="255, 255, 255"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="plate"/>
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="Mesh" value="transparent"/>
+			<property name="Texture" value="285"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsayBlackShieldCarPlate"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsayBlackShieldBlackCarSpawner" />
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<drop event="Destroy" count="0"/>
+		</block>	
+		
+		<block name="FuriousRamsayBlackShieldBlackCarSpawner">
+			<property name="Tags" value="FuriousRamsayBlackShieldBlackCarBlock"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Material" value="FuriousRamsaySpawnerMaterials"/>
+			<property name="Extends" value="spawnTrader"/>
+			<property name="Shape" value="ModelEntity"/>			
+			<property name="Model" value="Entities/Decor/cobwebPrefab"/>	
+			<drop event="Fall" count="0" prob="0"/>		
+			<property name="SpawnClass" value="FuriousRamsayBlackShieldBlackCar"/>			
+		</block>
+
+		<block name="FuriousRamsayBlackShieldCopCarBlock">
+			<property name="Tags" value="FuriousRamsayBlackShieldCopCarBlock"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="CustomIcon" value="cntCar03SedanDamage0Master"/>
+			<property name="CustomIconTint" value="255, 255, 255"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="plate"/>
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="Mesh" value="transparent"/>
+			<property name="Texture" value="285"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsayBlackShieldCarPlate"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsayBlackShieldCopCarSpawner" />
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<drop event="Destroy" count="0"/>
+		</block>	
+		
+		<block name="FuriousRamsayBlackShieldCopCarSpawner">
+			<property name="Tags" value="FuriousRamsayBlackShieldCopCarBlock"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="Material" value="FuriousRamsaySpawnerMaterials"/>
+			<property name="Extends" value="spawnTrader"/>
+			<property name="Shape" value="ModelEntity"/>			
+			<property name="Model" value="Entities/Decor/cobwebPrefab"/>	
+			<drop event="Fall" count="0" prob="0"/>		
+			<property name="SpawnClass" value="FuriousRamsayBlackShieldCopCar"/>			
+		</block>
+
+		<block name="FuriousRamsaySpawnMechanicalAllyDog">
+			<property name="CustomIcon" value="cntHardenedChestSecure"/>	
+			<property name="CustomIconTint" value="217, 0, 255"/>
+			<property name="DescriptionKey" value="FuriousRamsaySpawnMechanicalAllyDogDesc"/>
+			<property name="Extends" value="air"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#Entities/LootContainers?tier4LootChestPrefab.prefab"/>
+			<property name="EconomicValue" value="150"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerMechanicalAllyDog"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+			<property name="DisplayType" value="FuriousRamsayMechanicalAlly"/>
+			<property name="MaxDamage" value="400"/>
+			<property name="LightOpacity" value="40"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Group" value="Robotics"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerMechanicalAllyDog">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayAllyDogTier1Spawn"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnMechanicalAllyWolf">
+			<property name="CustomIcon" value="cntHardenedChestSecure"/>	
+			<property name="CustomIconTint" value="255, 66, 76"/>
+			<property name="Extends" value="air"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#Entities/LootContainers?tier4LootChestPrefab.prefab"/>
+			<property name="EconomicValue" value="250"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerMechanicalAllyWolf"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+			<property name="DisplayType" value="FuriousRamsayMechanicalAlly"/>
+			<property name="MaxDamage" value="500"/>
+			<property name="LightOpacity" value="50"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Group" value="Robotics"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerMechanicalAllyWolf">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayAllyWolfTier2Spawn"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnMechanicalAllyLion">
+			<property name="CustomIcon" value="cntHardenedChestSecure"/>	
+			<property name="CustomIconTint" value="5, 247, 110"/>		
+			<property name="Extends" value="air"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#Entities/LootContainers?tier4LootChestPrefab.prefab"/>
+			<property name="EconomicValue" value="400"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerMechanicalAllyLion"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+			<property name="DisplayType" value="FuriousRamsayMechanicalAlly"/>
+			<property name="MaxDamage" value="750"/>
+			<property name="LightOpacity" value="75"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Group" value="Robotics"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerMechanicalAllyLion">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayAllyLionTier3Spawn"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnMechanicalAllyBear">
+			<property name="CustomIcon" value="cntHardenedChestSecure"/>	
+			<property name="CustomIconTint" value="0, 153, 255"/>		
+			<property name="Extends" value="air"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#Entities/LootContainers?tier4LootChestPrefab.prefab"/>
+			<property name="EconomicValue" value="800"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerMechanicalAllyBear"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+			<property name="DisplayType" value="FuriousRamsayMechanicalAlly"/>
+			<property name="MaxDamage" value="1000"/>
+			<property name="LightOpacity" value="100"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Group" value="Robotics"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerMechanicalAllyBear">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayAllyBearTier4Spawn"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnMechanicalAllyAndroid">
+			<property name="CustomIcon" value="cntHardenedChestSecure"/>	
+			<property name="CustomIconTint" value="255, 255, 0"/>
+			<property name="Extends" value="air"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#Entities/LootContainers?tier4LootChestPrefab.prefab"/>
+			<property name="EconomicValue" value="1000"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerMechanicalAllyAndroid"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+			<property name="DisplayType" value="FuriousRamsayMechanicalAlly"/>
+			<property name="MaxDamage" value="1250"/>
+			<property name="LightOpacity" value="125"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Group" value="Robotics"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerMechanicalAllyAndroid">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayAllyNPCTier5Spawn"/>
+		</block>
+
+		<block name="FuriousRamsayDogPet">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#Entities/LootContainers?tier4LootChestPrefab.prefab"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerDogPet"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerDogPet">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayAllyDogTier1Pet"/>
+		</block>
+
+		<block name="FuriousRamsayWolfPet">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#Entities/LootContainers?tier4LootChestPrefab.prefab"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerWolfPet"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerWolfPet">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayAllyWolfTier2Pet"/>
+		</block>
+
+		<block name="FuriousRamsayLionPet">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#Entities/LootContainers?tier4LootChestPrefab.prefab"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerLionPet"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerLionPet">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayAllyLionTier3Pet"/>
+		</block>
+
+		<block name="FuriousRamsayBearPet">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#Entities/LootContainers?tier4LootChestPrefab.prefab"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerBearPet"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerBearPet">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayAllyBearTier4Pet"/>
+		</block>
+
+		<block name="FuriousRamsayCoyotePet">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#Entities/LootContainers?tier4LootChestPrefab.prefab"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerCoyotePet"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerCoyotePet">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayAllyCoyotePet"/>
+		</block>
+
+		<block name="FuriousRamsayBoarPet">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#Entities/LootContainers?tier4LootChestPrefab.prefab"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerBoarPet"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerBoarPet">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayAllyBoarPet"/>
+		</block>
+		
+		<block name="FuriousRamsayRabbitPet">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#Entities/LootContainers?tier4LootChestPrefab.prefab"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerRabbitPet"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerRabbitPet">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayAllyRabbitPet"/>
+		</block>
+
+		<block name="FuriousRamsayChickenPet">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#Entities/LootContainers?tier4LootChestPrefab.prefab"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerChickenPet"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerChickenPet">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayAllyChickenPet"/>
+		</block>
+		
+		<block name="FuriousRamsayBlackShieldDecoyTier1">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="ItemTypeIcon" value="explosion"/>
+			<property name="CustomIcon" value="decoMannequinMale"/>
+			<property name="CustomIconTint" value="50,0,0"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerBlackShieldDecoyTier1"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+
+		<!-- MADMAN CRAFTABLE DECOYS -->
+		<block name="FuriousRamsayMadmanDecoyTier1Old">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerMadmanDecoyTier1"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerMadmanDecoyTier1">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayMadmanDecoyTier1"/>
+		</block>
+		
+		<block name="FuriousRamsayMadmanDecoyTier2Old">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="ItemTypeIcon" value="explosion"/>
+			<property name="CustomIcon" value="decoMannequinMale"/>
+			<property name="CustomIconTint" value="50,0,0"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerMadmanDecoyTier2"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerMadmanDecoyTier2">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayMadmanDecoyTier2"/>
+		</block>
+
+		<block name="FuriousRamsayMadmanDecoyTier3Old">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="ItemTypeIcon" value="explosion"/>
+			<property name="CustomIcon" value="decoMannequinMale"/>
+			<property name="CustomIconTint" value="50,0,0"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerMadmanDecoyTier3"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerMadmanDecoyTier3">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayMadmanDecoyTier3"/>
+		</block>
+
+		<block name="FuriousRamsayMadmanDecoyTier4Old">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="ItemTypeIcon" value="explosion"/>
+			<property name="CustomIcon" value="decoMannequinMale"/>
+			<property name="CustomIconTint" value="50,0,0"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerMadmanDecoyTier4"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerMadmanDecoyTier4">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayMadmanDecoyTier4"/>
+		</block>
+
+		<block name="FuriousRamsayMadmanDecoyTier5Old">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="ItemTypeIcon" value="explosion"/>
+			<property name="CustomIcon" value="decoMannequinMale"/>
+			<property name="CustomIconTint" value="50,0,0"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerMadmanDecoyTier5"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerMadmanDecoyTier5">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayMadmanDecoyTier5"/>
+		</block>
+
+		<!-- QUEST DECOYS -->
+		<block name="FuriousRamsaySpawnerBlackShieldDecoyTier1">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayBlackShieldDecoyTier1"/>
+		</block>
+		
+		<block name="FuriousRamsayBlackShieldDecoyTier2">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerBlackShieldDecoyTier2"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerBlackShieldDecoyTier2">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayBlackShieldDecoyTier2"/>
+		</block>
+
+		<block name="FuriousRamsayBlackShieldDecoyTier3">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerBlackShieldDecoyTier3"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerBlackShieldDecoyTier3">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayBlackShieldDecoyTier3"/>
+		</block>
+
+		<block name="FuriousRamsayBlackShieldDecoyTier4">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerBlackShieldDecoyTier4"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerBlackShieldDecoyTier4">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayBlackShieldDecoyTier4"/>
+		</block>
+
+		<block name="FuriousRamsayBlackShieldDecoyTier5">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerBlackShieldDecoyTier5"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerBlackShieldDecoyTier5">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayBlackShieldDecoyTier5"/>
+		</block>
+
+		<!--<block name="FuriousRamsayTimedChargeBox">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="cntTrashPile01"/>
+			<property name="Model" value="#Entities/LootContainers?trashPileFPrefab.prefab"/>
+			<drop event="Destroy" count="0"/>
+			<property name="MaxDamage" value="50"/>
+			<property name="DowngradeBlock" value="FuriousRamsayActiveTimedCharge"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="FuriousRamsayActiveTimedCharge"/>
+				<property name="Item" value="resourceElectricParts"/>
+				<property name="ItemCount" value="1"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+		</block>
+
+		<block name="FuriousRamsayActiveTimedCharge">
+			<property name="CreativeMode" value="None"/>
+			<property name="Class" value="Mine"/>
+			<property name="Tags" value="Mine"/>
+			<property name="ItemTypeIcon" value="explosion"/>
+			<property name="Material" value="MLandMine"/>
+			<property name="Texture" value="293"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#Other/Items?Weapons/Ranged/TimedCharge/timedCharge.prefab"/> 
+			<property name="Model" value="#Other/Items?Weapons/Ranged/TimedCharge/timedChargePrefab.prefab"/>
+			<property name="ModelOffset" value="0,-0.02,0"/>
+			<property name="Collide" value="movement, melee"/>
+			<property name="Stacknumber" value="25"/>
+			<property name="MaxDamage" value="100"/>
+			<property name="TriggerDelay" value="10"/>
+			<property name="TriggerSound" value="charge_beep"/>
+			<property name="Explosion.ParticleIndex" value="5"/>
+			<property name="Explosion.RadiusBlocks" value="20"/>
+			<property name="Explosion.RadiusEntities" value="10"/>
+			<property name="Explosion.BlockDamage" value="20000"/>
+			<property name="Explosion.EntityDamage" value="500"/>
+			<property name="Explosion.DamageBonus.stone" value="20000"/>
+			<property name="Explosion.DamageBonus.metal" value="20000"/>
+			<property name="Explosion.DamageBonus.earth" value="20000"/>
+			<property name="Explosion.DamageBonus.wood" value="20000"/>
+			<property name="Explosion.DamageBonus.water" value="20000"/>
+			<property name="CanPickup" value="false"/>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Tools/Traps"/>
+			<property name="EconomicValue" value="97"/>
+			<property name="FilterTags" value="fdecor,ftraps"/>
+			<property name="SortOrder1" value="70g0"/>
+			<property name="BuffsWhenWalkedOn" value="FuriousRamsayExplosiveDamageTimer"/>
+			<property name="Explosion.Buff" value="buffBurningMolotov"/>
+			<property class="RepairItems">
+				<property name="resourceElectricParts" value="1"/>
+			</property>
+		</block>-->
+
+		<block name="cntFuriousRamsayBuriedChest">
+			<property name="Extends" value="cntLootChestHeroInsecure" param1="DescriptionKey"/>
+			<property name="MaxDamage" value="999999"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#Entities/LootContainers?super_chestPrefab.prefab"/>
+			<property name="ModelOffset" value=".5,.5,0"/>
+			<property name="MultiBlockDim" value="2,1,1"/>
+			<property name="CustomIcon" value="cntLootChestHero"/>
+			<property name="CustomIconTint" value="80ff80"/>
+			<property name="Class" value="QuestLoot"/>
+			<property name="LootList" value="buriedSuppliesT1"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Tags" value="buriedTreasure"/>
+		</block>
+
+		<block name="FuriousRamsayScreamerSignalMaster">
+			<property name="Class" value="Campfire"/>
+			<property name="CustomIcon" value="electricalBox01"/>
+			<property name="Material" value="Msteel"/>
+			<property name="Weight" value="20"/>
+			<property name="MaxDamage" value="500"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Shape" value="Ext3dModel"/> 
+			<property name="Texture" value="293"/>
+			<property name="Mesh" value="models"/>
+			<property name="Model" value="Industrial/electrical_box01" param1="main_mesh"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="ImposterExchange" value="imposterDontBlockCTRQuarter" param1="12"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
+			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+			<property name="ParticleName" value="torch_wall"/>
+			<property name="ParticleOffset" value="0.5,0.85,0.52"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="BuffsWhenWalkedOn" value=""/>
+			<property name="ActiveRadiusEffects" value=""/>
+			<property class="Workstation">
+				<property name="Modules" value="fuel"/>
+			</property>
+			<property name="WorkstationIcon" value="ui_game_symbol_zombie"/>
+			<property name="CraftActionName" value="lblContextActionCraft"/>
+			<property name="CraftIcon" value="ui_game_symbol_cement"/>
+			<property name="OpenSound" value="campfire_open"/>
+			<property name="CloseSound" value="campfire_close"/>
+			<property name="CraftSound" value="campfire_cook_click"/>
+			<property name="CraftCompleteSound" value="campfire_complete_item"/>
+			<property class="RepairItems"> 
+				<property name="resourceForgedSteel" value="10"/> 
+			</property>
+			<property name="Group" value="Tools/Traps"/>
+			<property name="EconomicValue" value="5"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="Candrop" value="true"/>
+			<property name="SellableToTrader" value="false"/>
+		</block>
+
+		<block name="FuriousRamsayScreamerSignalTier1">
+			<property name="Extends" value="FuriousRamsayScreamerSignalMaster"/>
+			<property name="CustomIconTint" value="255,150,150"/>
+			<property name="UnlockedBy" value="FuriousRamsayScreamerSignalTier1Schematic"/>
+			<property name="HeatMapStrength" value="30"/>
+			<property name="HeatMapTime" value="5000"/>
+			<property name="HeatMapFrequency" value="5"/>		
+		</block>
+
+		<block name="FuriousRamsayScreamerSignalTier2">
+			<property name="Extends" value="FuriousRamsayScreamerSignalMaster"/>
+			<property name="CustomIconTint" value="255,125,125"/>
+			<property name="UnlockedBy" value="FuriousRamsayScreamerSignalTier2Schematic"/>
+			<property name="HeatMapStrength" value="45"/>
+			<property name="HeatMapTime" value="5000"/>
+			<property name="HeatMapFrequency" value="5"/>		
+		</block>
+
+		<block name="FuriousRamsayScreamerSignalTier3">
+			<property name="Extends" value="FuriousRamsayScreamerSignalMaster"/>
+			<property name="CustomIconTint" value="255,100,100"/>
+			<property name="UnlockedBy" value="FuriousRamsayScreamerSignalTier3Schematic"/>
+			<property name="HeatMapStrength" value="65"/>
+			<property name="HeatMapTime" value="5000"/>
+			<property name="HeatMapFrequency" value="5"/>		
+		</block>
+
+		<block name="FuriousRamsayScreamerSignalTier4">
+			<property name="Extends" value="FuriousRamsayScreamerSignalMaster"/>
+			<property name="CustomIconTint" value="255,75,75"/>
+			<property name="UnlockedBy" value="FuriousRamsayScreamerSignalTier4Schematic"/>
+			<property name="HeatMapStrength" value="110"/>
+			<property name="HeatMapTime" value="5000"/>
+			<property name="HeatMapFrequency" value="5"/>		
+		</block>
+
+		<block name="FuriousRamsayScreamerSignalTier5">
+			<property name="Extends" value="FuriousRamsayScreamerSignalMaster"/>
+			<property name="CustomIconTint" value="255,50,50"/>
+			<property name="UnlockedBy" value="FuriousRamsayScreamerSignalTier5Schematic"/>
+			<property name="HeatMapStrength" value="200"/>
+			<property name="HeatMapTime" value="5000"/>
+			<property name="HeatMapFrequency" value="5"/>		
+		</block>
+		
+		<block name="FuriousRamsaySpawnerBlockBreak">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="woodWeakNoUpgradeMaster"/>
+			<property name="Class" value="TrapDoor"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="Plate"/>
+			<property name="ImposterExchange" value="imposterBlock" param1="86"/>
+			<property name="Mesh" value="transparent"/>
+			<property name="Texture" value="285"/>
+			<property name="TriggerDelay" value="0.01"/>
+			<property name="TriggerSound" value=""/>
+			<property name="Path" value="solid"/>
+			<drop event="Fall" count="0" prob="0"/>
+			<property name="ShowModelOnFall" value="false"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerPlate">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="looseBoardsTrapPlate1x1"/>			
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="Mesh" value="transparent"/>
+			<property name="Texture" value="285"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnerBlockBreak"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnMechanicalAllyBoar">
+			<property name="CustomIcon" value="cntHardenedChestSecure"/>	
+			<property name="CustomIconTint" value="217, 0, 255"/>
+			<property name="Extends" value="air"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#Entities/LootContainers?tier4LootChestPrefab.prefab"/>
+			<property name="Class" value="PlantGrowing"/>
+			<property name="EconomicValue" value="175"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerMechanicalAllyBoar"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+			<property name="DisplayType" value="FuriousRamsayExplosiveMechanicalAlly"/>
+			<property name="MaxDamage" value="250"/>
+			<property name="LightOpacity" value="750"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Group" value="Robotics"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerMechanicalAllyBoar">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayAllyBoarBomb"/>
+		</block>
+
+		<block name="FuriousRamsayBanditGravestoneStarter">
+			<property name="DescriptionKey" value="FuriousRamsayBanditGravestoneStarterDesc"/>
+			<property name="Extends" value="graveStone01"/>
+			<property name="CustomIcon" value="graveStone01"/>
+			<property name="CustomIconTint" value="255,255,255"/>
+			<property name="CreativeMode" value="Dev"/>
+		</block>
+
+		<block name="FuriousRamsayBanditGravestoneTier1">
+			<property name="DescriptionKey" value="FuriousRamsayBanditGravestoneTier1Desc"/>
+			<property name="Extends" value="graveStone01"/>
+			<property name="CustomIcon" value="graveStone01"/>
+			<property name="CustomIconTint" value="255,255,255"/>
+			<property name="CreativeMode" value="Dev"/>
+		</block>
+
+		<block name="FuriousRamsayBanditGravestoneTier2">
+			<property name="DescriptionKey" value="FuriousRamsayBanditGravestoneTier2Desc"/>
+			<property name="Extends" value="graveStone01"/>
+			<property name="CustomIcon" value="graveStone01"/>
+			<property name="CustomIconTint" value="255,255,255"/>
+			<property name="CreativeMode" value="Dev"/>
+		</block>
+
+		<block name="FuriousRamsayBlackShieldCaptainCorpseTier3">
+			<property name="DescriptionKey" value="FuriousRamsayBlackShieldCaptainCorpseTier3Desc"/>
+			<property name="Extends" value="goreBlockHumanCorpse1"/>
+			<property name="CustomIcon" value="goreBlockHumanCorpse1"/>
+			<property name="CustomIconTint" value="255,255,255"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DisplayType" value="FuriousRamsayEmpty"/>
+			<property name="CanPickup" value="true"/>
+		</block>
+
+		<block name="FuriousRamsayBlackShieldCaptainCorpseTier4">
+			<property name="DescriptionKey" value="FuriousRamsayBlackShieldCaptainCorpseTier4Desc"/>
+			<property name="Extends" value="goreBlockHumanCorpse1"/>
+			<property name="CustomIcon" value="goreBlockHumanCorpse1"/>
+			<property name="CustomIconTint" value="255,255,255"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DisplayType" value="FuriousRamsayEmpty"/>
+			<property name="CanPickup" value="true"/>
+		</block>
+
+		<block name="FuriousRamsayBlackShieldCaptainCorpseTier5">
+			<property name="DescriptionKey" value="FuriousRamsayBlackShieldCaptainCorpseTier5Desc"/>
+			<property name="Extends" value="goreBlockHumanCorpse1"/>
+			<property name="CustomIcon" value="goreBlockHumanCorpse1"/>
+			<property name="CustomIconTint" value="255,255,255"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DisplayType" value="FuriousRamsayEmpty"/>
+			<property name="CanPickup" value="true"/>
+		</block>
+
+		<block name="FuriousRamsayHazmatMarkerTier1">
+			<property name="DescriptionKey" value="FuriousRamsayHazmatMarkerTier1Desc"/>
+			<property name="Extends" value="signYardSign01"/>
+			<property name="CustomIcon" value="signYardSign01"/>
+			<property name="CustomIconTint" value="255,255,255"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CanPickup" value="true"/>
+		</block>
+
+		<block name="FuriousRamsayHazmatMarkerTier2">
+			<property name="DescriptionKey" value="FuriousRamsayHazmatMarkerTier2Desc"/>
+			<property name="Extends" value="signYardSign01"/>
+			<property name="CustomIcon" value="signYardSign01"/>
+			<property name="CustomIconTint" value="255,255,255"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CanPickup" value="true"/>
+		</block>
+
+		<block name="FuriousRamsayHazmatMarkerTier3">
+			<property name="DescriptionKey" value="FuriousRamsayHazmatMarkerTier3Desc"/>
+			<property name="Extends" value="signYardSign01"/>
+			<property name="CustomIcon" value="signYardSign01"/>
+			<property name="CustomIconTint" value="255,255,255"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CanPickup" value="true"/>
+		</block>
+
+		<block name="FuriousRamsayHazmatMarkerTier4">
+			<property name="DescriptionKey" value="FuriousRamsayHazmatMarkerTier4Desc"/>
+			<property name="Extends" value="signYardSign01"/>
+			<property name="CustomIcon" value="signYardSign01"/>
+			<property name="CustomIconTint" value="255,255,255"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CanPickup" value="true"/>
+		</block>
+
+		<block name="FuriousRamsayHazmatMarkerTier5">
+			<property name="DescriptionKey" value="FuriousRamsayHazmatMarkerTier5Desc"/>
+			<property name="Extends" value="signYardSign01"/>
+			<property name="CustomIcon" value="signYardSign01"/>
+			<property name="CustomIconTint" value="255,255,255"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CanPickup" value="true"/>
+		</block>
+
+		<block name="FuriousRamsayZombieBodyBagPileTier1">
+			<property name="DescriptionKey" value="FuriousRamsayZombieBodyBagPileTier1Desc"/>
+			<property name="Extends" value="goreBlockHumanCorpse1"/>
+			<property name="Model" value="Entities/Misc/body_bagPrefab"/>
+			<property name="CustomIcon" value="bodyBagPile"/>
+			<property name="CustomIconTint" value="168, 81, 91"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DisplayType" value="FuriousRamsayEmpty"/>
+			<property name="CanPickup" value="true"/>
+			<property name="DropScale" value="1"/>
+			<property name="Weight" value="12"/>
+			<property name="Material" value="FuriousRamsayFireZombieBonePowderMaterial"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="EconomicValue" value="20"/>
+			<property name="Candrop" value="true"/>
+			<property name="SellableToTrader" value="false"/>
+		</block>
+
+		<block name="FuriousRamsayZombieBodyBagPileTier2">
+			<property name="DescriptionKey" value="FuriousRamsayZombieBodyBagPileTier2Desc"/>
+			<property name="Extends" value="goreBlockHumanCorpse1"/>
+			<property name="Model" value="Entities/Misc/body_bagPrefab"/>
+			<property name="CustomIcon" value="bodyBagPile"/>
+			<property name="CustomIconTint" value="70, 182, 219"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DisplayType" value="FuriousRamsayEmpty"/>
+			<property name="CanPickup" value="true"/>
+			<property name="DropScale" value="1"/>
+			<property name="Weight" value="12"/>
+			<property name="Material" value="FuriousRamsayShockZombieBonePowderMaterial"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="EconomicValue" value="20"/>
+			<property name="Candrop" value="true"/>
+			<property name="SellableToTrader" value="false"/>
+		</block>
+
+		<block name="FuriousRamsayZombieBodyBagPileTier3">
+			<property name="DescriptionKey" value="FuriousRamsayZombieBodyBagPileTier3Desc"/>
+			<property name="Extends" value="goreBlockHumanCorpse1"/>
+			<property name="Model" value="Entities/Misc/body_bagPrefab"/>
+			<property name="CustomIcon" value="bodyBagPile"/>
+			<property name="CustomIconTint" value="222, 141, 49"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DisplayType" value="FuriousRamsayEmpty"/>
+			<property name="CanPickup" value="true"/>
+			<property name="DropScale" value="1"/>
+			<property name="Weight" value="12"/>
+			<property name="Material" value="FuriousRamsayFireShockZombieBonePowderMaterial"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="EconomicValue" value="20"/>
+			<property name="Candrop" value="true"/>
+			<property name="SellableToTrader" value="false"/>
+		</block>
+
+		<block name="FuriousRamsayZombieBodyBagPileTier4">
+			<property name="DescriptionKey" value="FuriousRamsayZombieBodyBagPileTier4Desc"/>
+			<property name="Extends" value="goreBlockHumanCorpse1"/>
+			<property name="Model" value="Entities/Misc/body_bagPrefab"/>
+			<property name="CustomIcon" value="bodyBagPile"/>
+			<property name="CustomIconTint" value="160, 60, 176"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DisplayType" value="FuriousRamsayEmpty"/>
+			<property name="CanPickup" value="true"/>
+			<property name="DropScale" value="1"/>
+			<property name="Weight" value="12"/>
+			<property name="Material" value="FuriousRamsaySmokeZombieBonePowderMaterial"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="EconomicValue" value="20"/>
+			<property name="Candrop" value="true"/>
+			<property name="SellableToTrader" value="false"/>
+		</block>
+
+		<block name="FuriousRamsayZombieBodyBagPileTier5">
+			<property name="DescriptionKey" value="FuriousRamsayZombieBodyBagPileTier5Desc"/>
+			<property name="Extends" value="goreBlockHumanCorpse1"/>
+			<property name="Model" value="Entities/Misc/body_bagPrefab"/>
+			<property name="CustomIcon" value="bodyBagPile"/>
+			<property name="CustomIconTint" value="214, 209, 51"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DisplayType" value="FuriousRamsayEmpty"/>
+			<property name="CanPickup" value="true"/>
+			<property name="DropScale" value="1"/>
+			<property name="Weight" value="12"/>
+			<property name="Material" value="FuriousRamsayFireShockSmokeZombieBonePowderMaterial"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="EconomicValue" value="20"/>
+			<property name="Candrop" value="true"/>
+			<property name="SellableToTrader" value="false"/>
+		</block>
+
+		<block name="FuriousRamsayBlackShieldBossCorpseTier1">
+			<property name="DescriptionKey" value="FuriousRamsayBlackShieldBossCorpseTier1Desc"/>
+			<property name="Extends" value="goreBlockHumanCorpse1"/>
+			<property name="CustomIcon" value="goreBlockHumanCorpse1"/>
+			<property name="CustomIconTint" value="255,255,255"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DisplayType" value="FuriousRamsayEmpty"/>
+			<property name="CanPickup" value="true"/>
+		</block>
+
+		<block name="FuriousRamsayBlackShieldBossCorpseTier2">
+			<property name="DescriptionKey" value="FuriousRamsayBlackShieldBossCorpseTier2Desc"/>
+			<property name="Extends" value="goreBlockHumanCorpse1"/>
+			<property name="CustomIcon" value="goreBlockHumanCorpse1"/>
+			<property name="CustomIconTint" value="255,255,255"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DisplayType" value="FuriousRamsayEmpty"/>
+			<property name="CanPickup" value="true"/>
+		</block>
+
+		<block name="FuriousRamsayBlackShieldBossCorpseTier3">
+			<property name="DescriptionKey" value="FuriousRamsayBlackShieldBossCorpseTier3Desc"/>
+			<property name="Extends" value="goreBlockHumanCorpse1"/>
+			<property name="CustomIcon" value="goreBlockHumanCorpse1"/>
+			<property name="CustomIconTint" value="255,255,255"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DisplayType" value="FuriousRamsayEmpty"/>
+			<property name="CanPickup" value="true"/>
+		</block>
+
+		<block name="FuriousRamsayBlackShieldBossCorpseTier4">
+			<property name="DescriptionKey" value="FuriousRamsayBlackShieldBossCorpseTier4Desc"/>
+			<property name="Extends" value="goreBlockHumanCorpse1"/>
+			<property name="CustomIcon" value="goreBlockHumanCorpse1"/>
+			<property name="CustomIconTint" value="255,255,255"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DisplayType" value="FuriousRamsayEmpty"/>
+			<property name="CanPickup" value="true"/>
+		</block>
+
+		<block name="FuriousRamsayBlackShieldBossCorpseTier5">
+			<property name="DescriptionKey" value="FuriousRamsayBlackShieldBossCorpseTier5Desc"/>
+			<property name="Extends" value="goreBlockHumanCorpse1"/>
+			<property name="CustomIcon" value="goreBlockHumanCorpse1"/>
+			<property name="CustomIconTint" value="255,255,255"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DisplayType" value="FuriousRamsayEmpty"/>
+			<property name="CanPickup" value="true"/>
+		</block>
+
+	</append>
+
+</Config>

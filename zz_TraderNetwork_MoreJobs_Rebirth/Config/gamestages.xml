@@ -1,0 +1,63 @@
+﻿<Config>
+
+	<!--<insertAfter xpath="/gamestages/group[last()]">
+	<group name="FuriousRamsayZombie001" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="FuriousRamsayZombie001" count="1" />
+	</group>
+	<group name="FuriousRamsayZombie002" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="FuriousRamsayZombie002" count="1" />
+	</group>
+	<group name="FuriousRamsayZombie003" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="FuriousRamsayZombie003" count="1" />
+	</group>
+	<group name="FuriousRamsayZombie004" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="FuriousRamsayZombie004" count="1" />
+	</group>
+	<group name="FuriousRamsayZombie005" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="FuriousRamsayZombie005" count="1" />
+	</group>
+	<group name="FuriousRamsayZombie006" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="FuriousRamsayZombie006" count="1" />
+	</group>
+	<group name="FuriousRamsayZombie007" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="FuriousRamsayZombie007" count="1" />
+	</group>
+	<group name="FuriousRamsayZombie008" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="FuriousRamsayZombie008" count="1" />
+	</group>
+	<group name="FuriousRamsayZombie009" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="FuriousRamsayZombie009" count="1" />
+	</group>
+	<group name="FuriousRamsayZombie010" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="FuriousRamsayZombie010" count="1" />
+	</group>
+	<group name="FuriousRamsayZombie011" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="FuriousRamsayZombie011" count="1" />
+	</group>
+	<group name="FuriousRamsayZombie012" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="FuriousRamsayZombie012" count="1" />
+	</group>
+	<group name="FuriousRamsayZombie013" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="FuriousRamsayZombie013" count="1" />
+	</group>
+	<group name="FuriousRamsayZombie008a" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="FuriousRamsayZombie008a" count="1" />
+	</group>
+	<group name="FuriousRamsayZombie009a" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="FuriousRamsayZombie009a" count="1" />
+	</group>
+	<group name="FuriousRamsayZombie010a" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="FuriousRamsayZombie010a" count="1" />
+	</group>
+	<group name="FuriousRamsayZombie011a" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="FuriousRamsayZombie011a" count="1" />
+	</group>
+	<group name="FuriousRamsayZombie012a" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="FuriousRamsayZombie012a" count="1" />
+	</group>
+	<group name="FuriousRamsayZombie013a" emptyChance="0" decoyChance="0" decoy1hpChance="0">
+		<spawner name="FuriousRamsayZombie013a" count="1" />
+	</group>
+	</insertAfter>-->
+
+</Config>

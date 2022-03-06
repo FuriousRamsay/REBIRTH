@@ -1,0 +1,13 @@
+<Configs>
+
+	<append xpath="/materials">		
+
+		<material id="FuriousRamsaySpawnBlock">
+			<property name="collidable" value="false"/>
+			<property name="lightopacity" value="0"/>
+			<property name="ground_cover" value="true"/>
+		</material>
+
+	</append>
+
+</Configs>

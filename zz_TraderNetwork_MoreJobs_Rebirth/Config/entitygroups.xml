@@ -1,0 +1,581 @@
+<Config>
+
+	<!-- ADJUST SLEEPER VOLUMES WITH CUSTOM ZOMBIES -->
+	<!-- CUSTOM ZOMBIES -->
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieBoe']]" ><entity name="FuriousRamsayZombie001"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieMoe']]" ><entity name="FuriousRamsayZombie002"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieBusinessMan']]" ><entity name="FuriousRamsayZombie003"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieYo']]" ><entity name="FuriousRamsayZombie004"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSteve']]" ><entity name="FuriousRamsayZombie005"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieArlene']]" ><entity name="FuriousRamsayZombie006"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieJoe']]" ><entity name="FuriousRamsayZombie007"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieDarlene']]" ><entity name="FuriousRamsayZombie008"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieMarlene']]" ><entity name="FuriousRamsayZombie009"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieNurse']]" ><entity name="FuriousRamsayZombie010"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSkateboarder']]" ><entity name="FuriousRamsayZombie011"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieUtilityWorker']]" ><entity name="FuriousRamsayZombie012"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieBiker']]" ><entity name="FuriousRamsayZombie013"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieDarleneFeral']]" ><entity name="FuriousRamsayZombie008a"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieMarleneFeral']]" ><entity name="FuriousRamsayZombie009a"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieNurseFeral']]" ><entity name="FuriousRamsayZombie010a"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSkateboarderFeral']]" ><entity name="FuriousRamsayZombie011a"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieUtilityWorkerFeral']]" ><entity name="FuriousRamsayZombie012a"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieBikerFeral']]" ><entity name="FuriousRamsayZombie013a"/></append>
+	<!-- TOXIC -->
+	<!-- ALIGN WITH FERALS -->
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieArleneFeral']]" ><entity name="FuriousRamsayZombieArleneToxic"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieMarleneFeral']]" ><entity name="FuriousRamsayZombieMarleneToxic"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombiePartyGirlFeral']]" ><entity name="FuriousRamsayZombiePartyGirlToxic"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieNurseFeral']]" ><entity name="FuriousRamsayZombieNurseToxic"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieJoeFeral']]" ><entity name="FuriousRamsayZombieJoeToxic"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSteveFeral']]" ><entity name="FuriousRamsayZombieSteveToxic"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieTomClarkFeral']]" ><entity name="FuriousRamsayZombieAlexToxic"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieBusinessManFeral']]" ><entity name="FuriousRamsayZombieBusinessManToxic"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSpiderFeral']]" ><entity name="FuriousRamsayZombieSpiderToxic"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieBoeFeral']]" ><entity name="FuriousRamsayZombieBoeToxic"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieJanitorFeral']]" ><entity name="FuriousRamsayZombieJanitorToxic"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieMoeFeral']]" ><entity name="FuriousRamsayZombieMoeToxic"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieDarleneFeral']]" ><entity name="FuriousRamsayZombieDarleneToxic"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieYoFeral']]" ><entity name="FuriousRamsayZombieYoToxic"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieUtilityWorkerFeral']]" ><entity name="FuriousRamsayZombieUtilityWorkerToxic"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieBikerFeral']]" ><entity name="FuriousRamsayZombieBikerToxic"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieFemaleFatFeral']]" ><entity name="FuriousRamsayZombieFemaleFatToxic"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieFatHawaiianFeral']]" ><entity name="FuriousRamsayZombieFatHawaiianToxic"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieFatCopFeral']]" ><entity name="FuriousRamsayZombieFatCopToxic"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSkateboarderFeral']]" ><entity name="FuriousRamsayZombieSkateboarderToxic"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSoldierFeral']]" ><entity name="FuriousRamsayZombieSoldierToxic"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSteveCrawlerFeral']]" ><entity name="FuriousRamsayZombieSteveCrawlerToxic"/></append>
+	<!-- ALIGN WITH RADIATED -->
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieArleneRadiated']]" ><entity name="FuriousRamsayZombieArleneToxicFeral"/><entity name="FuriousRamsayZombieArleneToxicRadiated"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieMarleneRadiated']]" ><entity name="FuriousRamsayZombieMarleneToxicFeral"/><entity name="FuriousRamsayZombieMarleneToxicRadiated"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieNurseRadiated']]" ><entity name="FuriousRamsayZombieNurseToxicFeral"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieJoeRadiated']]" ><entity name="FuriousRamsayZombieJoeToxicFeral"/><entity name="FuriousRamsayZombieJoeToxicRadiated"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSteveRadiated']]" ><entity name="FuriousRamsayZombieSteveToxicFeral"/><entity name="FuriousRamsayZombieSteveToxicRadiated"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieTomClarkRadiated']]" ><entity name="FuriousRamsayZombieAlexToxicFeral"/><entity name="FuriousRamsayZombieAlexToxicRadiated"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSpiderRadiated']]" ><entity name="FuriousRamsayZombieSpiderToxicFeral"/><entity name="FuriousRamsayZombieSpiderToxicRadiated"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieBoeRadiated']]" ><entity name="FuriousRamsayZombieBoeToxicFeral"/><entity name="FuriousRamsayZombieBoeToxicRadiated"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieJanitorRadiated']]" ><entity name="FuriousRamsayZombieJanitorToxicFeral"/><entity name="FuriousRamsayZombieJanitorToxicRadiated"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieMoeRadiated']]" ><entity name="FuriousRamsayZombieMoeToxicFeral"/><entity name="FuriousRamsayZombieMoeToxicRadiated"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieDarleneRadiated']]" ><entity name="FuriousRamsayZombieDarleneToxicFeral"/><entity name="FuriousRamsayZombieDarleneToxicRadiated"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieYoRadiated']]" ><entity name="FuriousRamsayZombieYoToxicFeral"/><entity name="FuriousRamsayZombieYoToxicRadiated"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieBikerRadiated']]" ><entity name="FuriousRamsayZombieBikerToxicFeral"/><entity name="FuriousRamsayZombieBikerToxicRadiated"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieFemaleFatRadiated']]" ><entity name="FuriousRamsayZombieFemaleFatToxicFeral"/><entity name="FuriousRamsayZombieFemaleFatToxicRadiated"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieFatHawaiianRadiated']]" ><entity name="FuriousRamsayZombieFatHawaiianToxicFeral"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieMaleHazmatRadiated']]" ><entity name="FuriousRamsayZombieMaleHazmatToxicFeral"/><entity name="FuriousRamsayZombieDemolitionToxic"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieFatCopRadiated']]" ><entity name="FuriousRamsayZombieFatCopToxicFeral"/><entity name="FuriousRamsayZombieFatCopToxicRadiated"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSkateboarderRadiated']]" ><entity name="FuriousRamsayZombieSkateboarderToxicFeral"/><entity name="FuriousRamsayZombieSkateboarderToxicRadiated"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSoldierRadiated']]" ><entity name="FuriousRamsayZombieSoldierToxicFeral"/><entity name="FuriousRamsayZombieSoldierToxicRadiated"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieWightRadiated']]" ><entity name="FuriousRamsayZombieWightToxicFeral"/><entity name="FuriousRamsayZombieWightToxicRadiated"/></append>
+	<!-- EXPLOSION RESISTANT -->
+	<!-- ALIGN WITH NORMAL -->
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieArlene']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieArlene" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieMarlene']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieMarlene" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombiePartyGirl']]" ><entity name="FuriousRamsayBlackDecoySmokeZombiePartyGirl" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieNurse']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieNurse" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieJoe']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieJoe" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSteve']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSteve" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieBusinessMan']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieBusinessMan" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSpider']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSpider" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieBoe']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieBoe" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieJanitor']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieJanitor" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieMoe']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieMoe" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieDarlene']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieDarlene" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieYo']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieYo" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieUtilityWorker']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieUtilityWorker" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieBiker']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieBiker" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieFemaleFat']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieFemaleFat" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieFatHawaiian']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieFatHawaiian" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieMaleHazmat']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieMaleHazmat" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSkateboarder']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSkateboarder" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSoldier']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSoldier" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSteveCrawler']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSteveCrawler" prob="0.2"/></append>
+	<!-- ALIGN WITH FERALS -->
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieArleneFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieArleneFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieMarleneFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieMarleneFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombiePartyGirlFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombiePartyGirlFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieNurseFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieNurseFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieJoeFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieJoeFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSteveFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSteveFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieBusinessManFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieBusinessManFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSpiderFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSpiderFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieBoeFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieBoeFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieJanitorFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieJanitorFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieMoeFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieMoeFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieDarleneFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieDarleneFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieYoFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieYoFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieUtilityWorkerFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieUtilityWorkerFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieBikerFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieBikerFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieFemaleFatFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieFemaleFatFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieFatHawaiianFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieFatHawaiianFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSkateboarderFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSkateboarderFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSoldierFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSoldierFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSteveCrawlerFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSteveCrawlerFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieWightFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieWightFeral" prob="0.2"/></append>
+	<!-- ALIGN WITH RADIATED -->
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieArleneRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieArleneRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieMarleneRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieMarleneRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieJoeRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieJoeRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSteveRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSteveRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSpiderRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSpiderRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieBoeRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieBoeRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieJanitorRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieJanitorRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieMoeRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieMoeRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieDarleneRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieDarleneRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieYoRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieYoRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieBikerRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieBikerRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieFemaleFatRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieFemaleFatRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSkateboarderRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSkateboarderRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieSoldierRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSoldierRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'sleeperHordeStageGS') and descendant::entity[@name='zombieWightRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieWightRadiated" prob="0.2"/></append>
+
+	<!-- ADJUST BLOOD MOON GROUPS WITH CUSTOM ZOMBIES -->
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieBoe']]" ><entity name="FuriousRamsayZombie001"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieMoe']]" ><entity name="FuriousRamsayZombie002"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieBusinessMan']]" ><entity name="FuriousRamsayZombie003"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieYo']]" ><entity name="FuriousRamsayZombie004"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSteve']]" ><entity name="FuriousRamsayZombie005"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieArlene']]" ><entity name="FuriousRamsayZombie006"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieJoe']]" ><entity name="FuriousRamsayZombie007"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieDarlene']]" ><entity name="FuriousRamsayZombie008"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieMarlene']]" ><entity name="FuriousRamsayZombie009"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieNurse']]" ><entity name="FuriousRamsayZombie010"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSkateboarder']]" ><entity name="FuriousRamsayZombie011"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieUtilityWorker']]" ><entity name="FuriousRamsayZombie012"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieBiker']]" ><entity name="FuriousRamsayZombie013"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieDarleneFeral']]" ><entity name="FuriousRamsayZombie008a"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieMarleneFeral']]" ><entity name="FuriousRamsayZombie009a"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieNurseFeral']]" ><entity name="FuriousRamsayZombie010a"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSkateboarderFeral']]" ><entity name="FuriousRamsayZombie011a"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieUtilityWorkerFeral']]" ><entity name="FuriousRamsayZombie012a"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieBikerFeral']]" ><entity name="FuriousRamsayZombie013a"/></append>
+	<!-- TOXIC -->
+	<!-- ALIGN WITH NORMAL -->
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieArlene']]" ><entity name="FuriousRamsayZombieArleneToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieMarlene']]" ><entity name="FuriousRamsayZombieMarleneToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombiePartyGirl']]" ><entity name="FuriousRamsayZombiePartyGirlToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieNurse']]" ><entity name="FuriousRamsayZombieNurseToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieJoe']]" ><entity name="FuriousRamsayZombieJoeToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSteve']]" ><entity name="FuriousRamsayZombieSteveToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieTomClark']]" ><entity name="FuriousRamsayZombieAlexToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieBusinessMan']]" ><entity name="FuriousRamsayZombieBusinessManToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSpider']]" ><entity name="FuriousRamsayZombieSpiderToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieBoe']]" ><entity name="FuriousRamsayZombieBoeToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieJanitor']]" ><entity name="FuriousRamsayZombieJanitorToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieMoe']]" ><entity name="FuriousRamsayZombieMoeToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieDarlene']]" ><entity name="FuriousRamsayZombieDarleneToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieYo']]" ><entity name="FuriousRamsayZombieYoToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieUtilityWorker']]" ><entity name="FuriousRamsayZombieUtilityWorkerToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieBiker']]" ><entity name="FuriousRamsayZombieBikerToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieFemaleFat']]" ><entity name="FuriousRamsayZombieFemaleFatToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieFatHawaiian']]" ><entity name="FuriousRamsayZombieFatHawaiianToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieMaleHazmat']]" ><entity name="FuriousRamsayZombieMaleHazmatToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieFatCop']]" ><entity name="FuriousRamsayZombieFatCopToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSkateboarder']]" ><entity name="FuriousRamsayZombieSkateboarderToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSoldier']]" ><entity name="FuriousRamsayZombieSoldierToxic" prob="0.2"/></append>
+	<!-- ALIGN WITH FERAL -->
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieArleneFeral']]" ><entity name="FuriousRamsayZombieArleneToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieMarleneFeral']]" ><entity name="FuriousRamsayZombieMarleneToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombiePartyGirlFeral']]" ><entity name="FuriousRamsayZombiePartyGirlToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieNurseFeral']]" ><entity name="FuriousRamsayZombieNurseToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieJoeFeral']]" ><entity name="FuriousRamsayZombieJoeToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSteveFeral']]" ><entity name="FuriousRamsayZombieSteveToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieTomClarkFeral']]" ><entity name="FuriousRamsayZombieAlexToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieBusinessManFeral']]" ><entity name="FuriousRamsayZombieBusinessManToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSpiderFeral']]" ><entity name="FuriousRamsayZombieSpiderToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieBoeFeral']]" ><entity name="FuriousRamsayZombieBoeToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieJanitorFeral']]" ><entity name="FuriousRamsayZombieJanitorToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieMoeFeral']]" ><entity name="FuriousRamsayZombieMoeToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieDarleneFeral']]" ><entity name="FuriousRamsayZombieDarleneToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieYoFeral']]" ><entity name="FuriousRamsayZombieYoToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieUtilityWorkerFeral']]" ><entity name="FuriousRamsayZombieUtilityWorkerToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieBikerFeral']]" ><entity name="FuriousRamsayZombieBikerToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieFemaleFatFeral']]" ><entity name="FuriousRamsayZombieFemaleFatToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieFatHawaiianFeral']]" ><entity name="FuriousRamsayZombieFatHawaiianToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieMaleHazmatFeral']]" ><entity name="FuriousRamsayZombieMaleHazmatToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieFatCopFeral']]" ><entity name="FuriousRamsayZombieFatCopToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSkateboarderFeral']]" ><entity name="FuriousRamsayZombieSkateboarderToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSoldierFeral']]" ><entity name="FuriousRamsayZombieSoldierToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieWightFeral']]" ><entity name="FuriousRamsayZombieWightToxicFeral" prob="0.2"/></append>
+	<!-- ALIGN WITH RADIATED -->
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieArleneRadiated']]" ><entity name="FuriousRamsayZombieArleneToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieMarleneRadiated']]" ><entity name="FuriousRamsayZombieMarleneToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieJoeRadiated']]" ><entity name="FuriousRamsayZombieJoeToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSteveRadiated']]" ><entity name="FuriousRamsayZombieSteveToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieTomClarkRadiated']]" ><entity name="FuriousRamsayZombieAlexToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSpiderRadiated']]" ><entity name="FuriousRamsayZombieSpiderToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieBoeRadiated']]" ><entity name="FuriousRamsayZombieBoeToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieJanitorRadiated']]" ><entity name="FuriousRamsayZombieJanitorToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieMoeRadiated']]" ><entity name="FuriousRamsayZombieMoeToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieDarleneRadiated']]" ><entity name="FuriousRamsayZombieDarleneToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieYoRadiated']]" ><entity name="FuriousRamsayZombieYoToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieBikerRadiated']]" ><entity name="FuriousRamsayZombieBikerToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieFemaleFatRadiated']]" ><entity name="FuriousRamsayZombieFemaleFatToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieMaleHazmatRadiated']]" ><entity name="FuriousRamsayZombieDemolitionToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieFatCopRadiated']]" ><entity name="FuriousRamsayZombieFatCopToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSkateboarderRadiated']]" ><entity name="FuriousRamsayZombieSkateboarderToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSoldierRadiated']]" ><entity name="FuriousRamsayZombieSoldierToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieWightRadiated']]" ><entity name="FuriousRamsayZombieWightToxicRadiated" prob="0.2"/></append>
+	<!-- EXPLOSION RESISTANT -->
+	<!-- ALIGN WITH NORMAL -->
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieArlene']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieArlene" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieMarlene']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieMarlene" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombiePartyGirl']]" ><entity name="FuriousRamsayBlackDecoySmokeZombiePartyGirl" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieNurse']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieNurse" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieJoe']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieJoe" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSteve']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSteve" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieBusinessMan']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieBusinessMan" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSpider']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSpider" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieBoe']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieBoe" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieJanitor']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieJanitor" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieMoe']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieMoe" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieDarlene']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieDarlene" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieYo']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieYo" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieUtilityWorker']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieUtilityWorker" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieBiker']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieBiker" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieFemaleFat']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieFemaleFat" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieFatHawaiian']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieFatHawaiian" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieMaleHazmat']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieMaleHazmat" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSkateboarder']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSkateboarder" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSoldier']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSoldier" prob="0.2"/></append>
+	<!-- ALIGN WITH FERALS -->
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieArleneFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieArleneFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieMarleneFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieMarleneFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombiePartyGirlFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombiePartyGirlFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieNurseFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieNurseFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieJoeFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieJoeFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSteveFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSteveFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieBusinessManFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieBusinessManFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSpiderFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSpiderFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieBoeFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieBoeFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieJanitorFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieJanitorFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieMoeFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieMoeFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieDarleneFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieDarleneFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieYoFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieYoFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieUtilityWorkerFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieUtilityWorkerFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieBikerFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieBikerFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieFemaleFatFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieFemaleFatFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieFatHawaiianFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieFatHawaiianFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSkateboarderFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSkateboarderFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSoldierFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSoldierFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieWightFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieWightFeral" prob="0.2"/></append>
+	<!-- ALIGN WITH RADIATED -->
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieArleneRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieArleneRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieMarleneRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieMarleneRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieJoeRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieJoeRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSteveRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSteveRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSpiderRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSpiderRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieBoeRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieBoeRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieJanitorRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieJanitorRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieMoeRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieMoeRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieDarleneRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieDarleneRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieYoRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieYoRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieBikerRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieBikerRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieFemaleFatRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieFemaleFatRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSkateboarderRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSkateboarderRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieSoldierRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSoldierRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'feralHordeStageGS') and descendant::entity[@name='zombieWightRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieWightRadiated" prob="0.2"/></append>
+
+	<!-- ADJUST SCREAMER GROUPS WITH CUSTOM ZOMBIES -->
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieBoe']]" ><entity name="FuriousRamsayZombie001"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieMoe']]" ><entity name="FuriousRamsayZombie002"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieBusinessMan']]" ><entity name="FuriousRamsayZombie003"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieYo']]" ><entity name="FuriousRamsayZombie004"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSteve']]" ><entity name="FuriousRamsayZombie005"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieArlene']]" ><entity name="FuriousRamsayZombie006"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieJoe']]" ><entity name="FuriousRamsayZombie007"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieDarlene']]" ><entity name="FuriousRamsayZombie008"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieMarlene']]" ><entity name="FuriousRamsayZombie009"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieNurse']]" ><entity name="FuriousRamsayZombie010"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSkateboarder']]" ><entity name="FuriousRamsayZombie011"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieUtilityWorker']]" ><entity name="FuriousRamsayZombie012"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieBiker']]" ><entity name="FuriousRamsayZombie013"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieDarleneFeral']]" ><entity name="FuriousRamsayZombie008a"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieMarleneFeral']]" ><entity name="FuriousRamsayZombie009a"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieNurseFeral']]" ><entity name="FuriousRamsayZombie010a"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSkateboarderFeral']]" ><entity name="FuriousRamsayZombie011a"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieUtilityWorkerFeral']]" ><entity name="FuriousRamsayZombie012a"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieBikerFeral']]" ><entity name="FuriousRamsayZombie013a"/></append>
+	<!-- TOXIC -->
+	<!-- ALIGN WITH NORMAL -->
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieArlene']]" ><entity name="FuriousRamsayZombieArleneToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieMarlene']]" ><entity name="FuriousRamsayZombieMarleneToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombiePartyGirl']]" ><entity name="FuriousRamsayZombiePartyGirlToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieNurse']]" ><entity name="FuriousRamsayZombieNurseToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieJoe']]" ><entity name="FuriousRamsayZombieJoeToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSteve']]" ><entity name="FuriousRamsayZombieSteveToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieTomClark']]" ><entity name="FuriousRamsayZombieAlexToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieBusinessMan']]" ><entity name="FuriousRamsayZombieBusinessManToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSpider']]" ><entity name="FuriousRamsayZombieSpiderToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieBoe']]" ><entity name="FuriousRamsayZombieBoeToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieJanitor']]" ><entity name="FuriousRamsayZombieJanitorToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieMoe']]" ><entity name="FuriousRamsayZombieMoeToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieDarlene']]" ><entity name="FuriousRamsayZombieDarleneToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieYo']]" ><entity name="FuriousRamsayZombieYoToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieUtilityWorker']]" ><entity name="FuriousRamsayZombieUtilityWorkerToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieBiker']]" ><entity name="FuriousRamsayZombieBikerToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieFemaleFat']]" ><entity name="FuriousRamsayZombieFemaleFatToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieFatHawaiian']]" ><entity name="FuriousRamsayZombieFatHawaiianToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieMaleHazmat']]" ><entity name="FuriousRamsayZombieMaleHazmatToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieFatCop']]" ><entity name="FuriousRamsayZombieFatCopToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSkateboarder']]" ><entity name="FuriousRamsayZombieSkateboarderToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSoldier']]" ><entity name="FuriousRamsayZombieSoldierToxic" prob="0.2"/></append>
+	<!-- ALIGN WITH FERAL -->
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieArleneFeral']]" ><entity name="FuriousRamsayZombieArleneToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieMarleneFeral']]" ><entity name="FuriousRamsayZombieMarleneToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombiePartyGirlFeral']]" ><entity name="FuriousRamsayZombiePartyGirlToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieNurseFeral']]" ><entity name="FuriousRamsayZombieNurseToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieJoeFeral']]" ><entity name="FuriousRamsayZombieJoeToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSteveFeral']]" ><entity name="FuriousRamsayZombieSteveToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieTomClarkFeral']]" ><entity name="FuriousRamsayZombieAlexToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieBusinessManFeral']]" ><entity name="FuriousRamsayZombieBusinessManToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSpiderFeral']]" ><entity name="FuriousRamsayZombieSpiderToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieBoeFeral']]" ><entity name="FuriousRamsayZombieBoeToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieJanitorFeral']]" ><entity name="FuriousRamsayZombieJanitorToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieMoeFeral']]" ><entity name="FuriousRamsayZombieMoeToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieDarleneFeral']]" ><entity name="FuriousRamsayZombieDarleneToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieYoFeral']]" ><entity name="FuriousRamsayZombieYoToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieUtilityWorkerFeral']]" ><entity name="FuriousRamsayZombieUtilityWorkerToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieBikerFeral']]" ><entity name="FuriousRamsayZombieBikerToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieFemaleFatFeral']]" ><entity name="FuriousRamsayZombieFemaleFatToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieFatHawaiianFeral']]" ><entity name="FuriousRamsayZombieFatHawaiianToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieMaleHazmatFeral']]" ><entity name="FuriousRamsayZombieMaleHazmatToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieFatCopFeral']]" ><entity name="FuriousRamsayZombieFatCopToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSkateboarderFeral']]" ><entity name="FuriousRamsayZombieSkateboarderToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSoldierFeral']]" ><entity name="FuriousRamsayZombieSoldierToxicFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieWightFeral']]" ><entity name="FuriousRamsayZombieWightToxicFeral" prob="0.2"/></append>
+	<!-- ALIGN WITH RADIATED -->
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieArleneRadiated']]" ><entity name="FuriousRamsayZombieArleneToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieMarleneRadiated']]" ><entity name="FuriousRamsayZombieMarleneToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieJoeRadiated']]" ><entity name="FuriousRamsayZombieJoeToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSteveRadiated']]" ><entity name="FuriousRamsayZombieSteveToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieTomClarkRadiated']]" ><entity name="FuriousRamsayZombieAlexToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSpiderRadiated']]" ><entity name="FuriousRamsayZombieSpiderToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieBoeRadiated']]" ><entity name="FuriousRamsayZombieBoeToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieJanitorRadiated']]" ><entity name="FuriousRamsayZombieJanitorToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieMoeRadiated']]" ><entity name="FuriousRamsayZombieMoeToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieDarleneRadiated']]" ><entity name="FuriousRamsayZombieDarleneToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieYoRadiated']]" ><entity name="FuriousRamsayZombieYoToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieBikerRadiated']]" ><entity name="FuriousRamsayZombieBikerToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieFemaleFatRadiated']]" ><entity name="FuriousRamsayZombieFemaleFatToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieMaleHazmatRadiated']]" ><entity name="FuriousRamsayZombieDemolitionToxic" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieFatCopRadiated']]" ><entity name="FuriousRamsayZombieFatCopToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSkateboarderRadiated']]" ><entity name="FuriousRamsayZombieSkateboarderToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSoldierRadiated']]" ><entity name="FuriousRamsayZombieSoldierToxicRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieWightRadiated']]" ><entity name="FuriousRamsayZombieWightToxicRadiated" prob="0.2"/></append>
+	<!-- EXPLOSION RESISTANT -->
+	<!-- ALIGN WITH NORMAL -->
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieArlene']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieArlene" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieMarlene']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieMarlene" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombiePartyGirl']]" ><entity name="FuriousRamsayBlackDecoySmokeZombiePartyGirl" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieNurse']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieNurse" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieJoe']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieJoe" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSteve']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSteve" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieBusinessMan']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieBusinessMan" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSpider']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSpider" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieBoe']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieBoe" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieJanitor']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieJanitor" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieMoe']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieMoe" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieDarlene']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieDarlene" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieYo']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieYo" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieUtilityWorker']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieUtilityWorker" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieBiker']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieBiker" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieFemaleFat']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieFemaleFat" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieFatHawaiian']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieFatHawaiian" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieMaleHazmat']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieMaleHazmat" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSkateboarder']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSkateboarder" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSoldier']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSoldier" prob="0.2"/></append>
+	<!-- ALIGN WITH FERALS -->
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieArleneFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieArleneFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieMarleneFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieMarleneFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombiePartyGirlFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombiePartyGirlFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieNurseFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieNurseFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieJoeFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieJoeFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSteveFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSteveFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieBusinessManFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieBusinessManFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSpiderFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSpiderFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieBoeFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieBoeFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieJanitorFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieJanitorFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieMoeFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieMoeFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieDarleneFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieDarleneFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieYoFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieYoFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieUtilityWorkerFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieUtilityWorkerFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieBikerFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieBikerFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieFemaleFatFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieFemaleFatFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieFatHawaiianFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieFatHawaiianFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSkateboarderFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSkateboarderFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSoldierFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSoldierFeral" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieWightFeral']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieWightFeral" prob="0.2"/></append>
+	<!-- ALIGN WITH RADIATED -->
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieArleneRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieArleneRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieMarleneRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieMarleneRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieJoeRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieJoeRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSteveRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSteveRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSpiderRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSpiderRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieBoeRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieBoeRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieJanitorRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieJanitorRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieMoeRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieMoeRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieDarleneRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieDarleneRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieYoRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieYoRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieBikerRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieBikerRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieFemaleFatRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieFemaleFatRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSkateboarderRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSkateboarderRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieSoldierRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieSoldierRadiated" prob="0.2"/></append>
+	<append xpath="/entitygroups/entitygroup[starts-with(@name, 'scoutHordeStageGS') and descendant::entity[@name='zombieWightRadiated']]" ><entity name="FuriousRamsayBlackDecoySmokeZombieWightRadiated" prob="0.2"/></append>
+
+	<remove xpath="/entitygroups/entitygroup[@name='WildGameForest']/entity[@name='animalWolf']"/>
+
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesAll']">
+		<entity name="FuriousRamsayUMAAidenEnemyBiome" prob="0.25"/>
+		<entity name="FuriousRamsayUMAHodorEnemyBiome" prob="0.25"/>
+		<entity name="FuriousRamsayUMARichieEnemyBiome" prob="0.25"/>
+		<entity name="FuriousRamsayUMAWillieEnemyBiome" prob="0.25"/>
+		<entity name="FuriousRamsayUMAKimEnemyBiome" prob="0.25"/>
+		<entity name="FuriousRamsayUMACharlotteEnemyBiome" prob="0.15"/>
+		<entity name="FuriousRamsayUMARoxyEnemyBiome" prob="0.25"/>
+		<entity name="FuriousRamsayUMAGabrielleEnemyBiome" prob="0.15"/>
+		<entity name="FuriousRamsayUMAClintEnemyBiome" prob="0.25"/>
+		<entity name="FuriousRamsaySkullsClubTier2Biome" prob="0.15"/>
+		<entity name="FuriousRamsaySkullsHammerTier2Biome" prob="0.15"/>
+		<entity name="FuriousRamsaySkullsAxeTier2Biome" prob="0.15"/>
+	</append>
+
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']">
+		<entity name="FuriousRamsayBlackDecoyFireZombieBoe"/>
+		<entity name="FuriousRamsayBlackDecoyFireZombieJoe"/>
+		<entity name="FuriousRamsayBlackDecoyFireZombieJanitor"/>
+		<entity name="FuriousRamsayBlackDecoyFireZombieArlene"/>
+		<entity name="FuriousRamsayBlackDecoyFireZombieLab"/>
+		<entity name="FuriousRamsayBlackDecoyFireZombieDarlene"/>
+		<entity name="FuriousRamsayBlackDecoyFireZombieMarlene"/>
+		<entity name="FuriousRamsayBlackDecoyFireZombieYo"/>
+		<entity name="FuriousRamsayBlackDecoyFireZombieSteve"/>
+		<entity name="FuriousRamsayBlackDecoyFireZombieBusinessMan"/>
+	</append>
+
+	<append xpath="/entitygroups/entitygroup[@name='SnowZombies']">
+		<entity name="zombieSpiderFeral" prob=".1" />
+		<entity name="zombieMoe" prob="1" />
+		<entity name="zombieMoeFeral" prob=".1" />
+		<entity name="zombieYo" prob="1" />
+		<entity name="zombieYoFeral" prob=".1" />
+		<entity name="zombieFatHawaiian" prob="1" />
+		<entity name="zombieFatHawaiianFeral" prob=".1" />
+		<entity name="zombieFatCop" prob="1" />
+		<entity name="zombieFatCopFeral" prob=".05" />
+		<entity name="zombieSoldier" prob="1" />
+		<entity name="zombieSoldierFeral" prob=".05" />
+		<entity name="FuriousRamsayBlackDecoyShockZombieSkateboarder"/>
+		<entity name="FuriousRamsayBlackDecoyShockZombieUtilityWorker"/>
+		<entity name="FuriousRamsayBlackDecoyShockZombieNurse"/>
+		<entity name="FuriousRamsayBlackDecoyShockZombiePartyGirl"/>
+		<entity name="FuriousRamsayBlackDecoyShockZombieSteveCrawler"/>
+		<entity name="FuriousRamsayBlackDecoyShockZombieSpider"/>
+		<entity name="FuriousRamsayBlackDecoyShockZombieFatHawaiian"/>
+		<entity name="FuriousRamsayBlackDecoyShockZombieBiker"/>
+		<entity name="FuriousRamsayBlackDecoyShockZombieSoldier"/>
+		<entity name="FuriousRamsayBlackDecoyShockZombieMaleHazmat"/>
+	</append>
+
+	<append xpath="/entitygroups">
+		<entitygroup name="DesertZombies">
+			<entity name="zombieSpider" prob="1" />
+			<entity name="zombieSpiderFeral" prob=".05" />
+			<entity name="zombieBoe" prob="1" />
+			<entity name="zombieBoeFeral" prob=".05" />
+			<entity name="zombieJoe" prob="1" />
+			<entity name="zombieJoeFeral" prob=".05" />
+			<entity name="zombieSteve" prob="1" />
+			<entity name="zombieSteveFeral" prob=".05" />
+			<entity name="zombieTomClark" />
+			<entity name="zombieTomClarkFeral" prob=".05" />
+			<entity name="zombieMoe" prob="1" />
+			<entity name="zombieMoeFeral" prob=".05" />
+			<entity name="zombieYo" prob="1" />
+			<entity name="zombieYoFeral" prob=".05" />
+			<entity name="zombieBusinessMan" prob="1" />
+			<entity name="zombieBusinessManFeral" prob=".05" />
+			<entity name="zombieArlene" prob="1" />
+			<entity name="zombieArleneFeral" prob=".05" />
+			<entity name="zombieDarlene" prob="1" />
+			<entity name="zombieDarleneFeral" prob=".05" />
+			<entity name="zombieMarlene" prob="1" />
+			<entity name="zombieMarleneFeral" prob=".05" />
+			<entity name="zombieNurse" prob="1" />
+			<entity name="zombieNurseFeral" prob=".05" />
+			<entity name="zombiePartyGirl" />
+			<entity name="zombiePartyGirlFeral" prob=".05" />
+			<entity name="zombieFatHawaiian" prob="1" />
+			<entity name="zombieFatHawaiianFeral" prob=".05" />
+			<entity name="FuriousRamsayBlackDecoyFireZombieBoe"/>
+			<entity name="FuriousRamsayBlackDecoyFireZombieJoe"/>
+			<entity name="FuriousRamsayBlackDecoyFireZombieJanitor"/>
+			<entity name="FuriousRamsayBlackDecoyFireZombieArlene"/>
+			<entity name="FuriousRamsayBlackDecoyFireZombieLab"/>
+			<entity name="FuriousRamsayBlackDecoyFireZombieDarlene"/>
+			<entity name="FuriousRamsayBlackDecoyFireZombieMarlene"/>
+			<entity name="FuriousRamsayBlackDecoyFireZombieYo"/>
+			<entity name="FuriousRamsayBlackDecoyFireZombieSteve"/>
+			<entity name="FuriousRamsayBlackDecoyFireZombieBusinessMan"/>
+		</entitygroup>
+	</append>
+
+	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']">
+		<entity name="FuriousRamsayHostileDireWolfBiome" prob="25"/>
+		<entity name="FuriousRamsayHostileBearBiome" prob="20"/>
+		<entity name="FuriousRamsayDireWolfToxicRadiatedBiome" prob="20"/>
+		<entity name="FuriousRamsayBearToxicRadiatedBiome" prob="15"/>
+		<entity name="FuriousRamsayVultureToxicRadiatedBiome" prob="20"/>
+		<entity name="FuriousRamsayZombieBoeToxicAllFoursBiome" prob="20"/>
+		<entity name="FuriousRamsayZombieJoeToxicAllFoursBiome" prob="20"/>
+		<entity name="FuriousRamsayZombieJanitorToxicAllFoursBiome" prob="20"/>
+		<entity name="FuriousRamsayZombieArleneToxicAllFoursBiome" prob="20"/>
+		<entity name="FuriousRamsayZombieDarleneToxicAllFoursBiome" prob="20"/>
+		<entity name="FuriousRamsayZombieMarleneToxicAllFoursBiome" prob="20"/>
+		<entity name="FuriousRamsayZombieYoToxicAllFoursBiome" prob="20"/>
+		<entity name="FuriousRamsayZombieSteveToxicAllFoursBiome" prob="20"/>
+		<entity name="FuriousRamsayZombieBusinessManToxicAllFoursBiome" prob="20"/>
+		<entity name="FuriousRamsayZombieSkateboarderToxicAllFoursBiome" prob="20"/>
+		<entity name="FuriousRamsayZombieUtilityWorkerToxicAllFoursBiome" prob="20"/>
+		<entity name="FuriousRamsayZombieSpiderToxicAllFoursBiome" prob="20"/>
+		<entity name="FuriousRamsayZombieFatCopToxicAllFoursBiome" prob="20"/>
+		<entity name="FuriousRamsayZombieBikerToxicAllFoursBiome" prob="20"/>
+		<entity name="FuriousRamsayZombieSoldierToxicAllFoursBiome" prob="20"/>
+		<entity name="FuriousRamsayZombieMoeToxicAllFoursBiome" prob="20"/>
+		<entity name="FuriousRamsayZombieFemaleFatToxicAllFoursBiome" prob="20"/>
+		<entity name="FuriousRamsayZombieWightToxicAllFoursBiome" prob="20"/>
+	</append>
+
+	<insertBefore xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']/entity[@name='none']">
+		<entity name="FuriousRamsayEnemyAndroid1Biome" prob="20"/>
+		<entity name="FuriousRamsayEnemyAndroid2Biome" prob="20"/>
+		<entity name="FuriousRamsayEnemyAndroid3Biome" prob="20"/>
+		<entity name="FuriousRamsayEnemyAndroid4Biome" prob="20"/>
+		<entity name="FuriousRamsayEnemyAndroid5Biome" prob="20"/>
+		<entity name="FuriousRamsayEnemyAndroid6Biome" prob="20"/>
+		<entity name="FuriousRamsayEnemyAndroid7Biome" prob="20"/>
+		<entity name="FuriousRamsayCloakedSnakeBiome" prob="10"/>
+		<entity name="FuriousRamsayCloakedVultureBiome" prob="0.25"/>
+		<entity name="FuriousRamsayBurningRabbitTier4Biome" prob="0.15"/>
+	</insertBefore>
+	
+	<append xpath="/entitygroups">
+		<entitygroup name="WildGameDesert">
+			<entity name="animalChicken" prob="48"/>
+			<entity name="animalBoar" prob="1"/>
+			<entity name="none" prob="50"/>
+		</entitygroup>
+
+		<entitygroup name="WildGameSnow">
+			<entity name="animalRabbit" prob="48"/>
+			<entity name="animalBoar" prob="1"/>
+			<entity name="animalStag" prob="1"/>
+			<entity name="animalDoe" prob="1"/>
+			<entity name="none" prob="50"/>
+		</entitygroup>
+
+		<entitygroup name="WildGameWasteland">
+			<entity name="none" prob="50"/>
+		</entitygroup>
+	</append>
+
+</Config>	

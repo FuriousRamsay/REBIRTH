@@ -1,0 +1,803 @@
+<Config>
+	
+	<append xpath="/materials">
+
+		<material id="MNoScrapPaper">
+			<property name="damage_category" value="cloth"/>
+			<property name="surface_category" value="cloth"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+
+		<!-- PICK UP BLOCKS -->
+		<material id="MpaperPickUp">
+			<property name="damage_category" value="pickup"/>
+			<property name="surface_category" value="cloth"/>
+			<property name="forge_category" value="paper"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MtrashPickUp">
+			<property name="damage_category" value="pickup"/>
+			<property name="surface_category" value="cloth"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="trash"/>
+			<property name="stability_glue" value="5"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="MaxDamage" value="50"/>
+			<property name="Experience" value="0"/>
+		</material>
+		<material id="MCardboardLootPickUp">
+			<property name="surface_category" value="pickup"/>
+			<property name="damage_category" value="wood"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="4"/>
+			<property name="Mass" type="int" value="2"/>
+			<property name="MaxDamage" value="200"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MplasticsPickUp">
+			<property name="damage_category" value="pickup"/>
+			<property name="surface_category" value="cloth"/>
+			<property name="forge_category" value="resourceScrapPolymers"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="lightopacity" value="4"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="100"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MwoodPickUp">
+			<property name="damage_category" value="pickup"/>
+			<property name="surface_category" value="wood"/>
+			<property name="forge_category" value="wood"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="40"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="200"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MmetalPickUp">
+			<property name="damage_category" value="pickup"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="iron"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="metal"/>
+			<property name="stability_glue" value="300"/>
+			<property name="Mass" type="int" value="20"/>
+			<property name="MaxDamage" value="300"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MstonePickUp">
+			<property name="damage_category" value="pickup"/>
+			<property name="surface_category" value="stone"/>
+			<property name="forge_category" value="stone"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="stone"/>
+			<property name="stability_glue" value="120"/>
+			<property name="Mass" type="int" value="10"/>
+			<property name="MaxDamage" value="500"/>
+			<property name="Experience" value="2"/>
+		</material>
+
+		<!-- TOOLS -->
+		<material id="FuriousRamsayMaterialStoneAxe">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsStoneAxe"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+		<material id="FuriousRamsayMaterialStoneAxe">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsStoneAxe"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+		<material id="FuriousRamsayMaterialIronPickAxe">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsIronPickAxe"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+		<material id="FuriousRamsayMaterialSteelPickAxe">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsSteelPickAxe"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+		<material id="FuriousRamsayMaterialStoneShovel">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsStoneShovel"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+		<material id="FuriousRamsayMaterialIronShovel">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsIronShovel"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+		<material id="FuriousRamsayMaterialSteelShovel">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsSteelShovel"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+		<material id="FuriousRamsayMaterialSalvageWrench">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsSalvageWrench"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+		<material id="FuriousRamsayMaterialIronHoe">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsIronHoe"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+		<material id="FuriousRamsayMaterialIcePick001">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsIcePick001"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<!-- WEAPONS -->
+		<material id="FuriousRamsayMaterialIronFireaxe">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsIronFireaxe"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialSteelAxe">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsSteelAxe"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialBoneKnife">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsBoneKnife"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialHuntingKnife">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsHuntingKnife"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialMachete">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsMachete"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialWoodenClub">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsWoodenClub"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialBaseballBat">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsBaseballBat"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialSteelClub">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsSteelClub"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialStunBaton">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsStunBaton"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialStoneSpear">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsStoneSpear"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialIronSpear">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsIronSpear"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialSteelSpear">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsSteelSpear"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialStoneSledgeHammer">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsStoneSledgeHammer"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialIronSledgeHammer">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsIronSledgeHammer"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialSteelSledgeHammer">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsSteelSledgeHammer"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialLeatherKnuckles">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsLeatherKnuckles"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialIronKnuckles">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsIronKnuckles"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialSteelKnuckles">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsSteelKnuckles"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialJunkSledge">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsJunkSledge"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialSpikedClub001">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsSpikedClub001"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialMedievalHammer001">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsMedievalHammer001"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialSciFiSword001">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsSciFiSword001"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialCrowbar001">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsCrowbar001"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialCleaver001">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsCleaver001"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialSledgeHammer001">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsSledgeHammer001"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialAxe001">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsAxe001"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialAxe002">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsAxe002"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialPistol">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsPistol"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialSMG">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsSMG"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialMagnum">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsMagnum"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialDesertVulture">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsDesertVulture"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialShotgunDoubleBarrel">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsShotgunDoubleBarrel"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialShotgunPump">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsShotgunPump"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialShotgunAuto">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsShotgunAuto"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialRifleHunting">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsRifleHunting"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialRifleMarksman">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsRifleMarksman"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialRifleSniper">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsRifleSniper"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialAK47">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsAK47"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialTacticalAR">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsTacticalAR"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialM60">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsM60"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialRocketLauncher">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsRocketLauncher"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialBowPrimitive">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsBowPrimitive"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialBowWooden">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsBowWooden"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialBowCompound">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsBowCompound"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialCrossbowIron">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsCrossbowIron"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialCrossbowCompound">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsCrossbowCompound"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialJunkTurret">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsJunkTurret"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialCrossbow001">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsCrossbow001"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<!-- ARMOR -->
+		<material id="FuriousRamsayMaterialClothHat">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsClothHat"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialClothJacket">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsClothJacket"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialClothGloves">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsClothGloves"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialClothPants">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsClothPants"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialClothBoots">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsClothBoots"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialLeatherHood">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsLeatherHood"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialLeatherChest">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsLeatherChest"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialLeatherGloves">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsLeatherGloves"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialLeatherPants">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsLeatherPants"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialLeatherBoots">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsLeatherBoots"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialMilitaryHelmet">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsMilitaryHelmet"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialMilitaryVest">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsMilitaryVest"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialMilitaryGloves">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsMilitaryGloves"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialMilitaryLegs">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsMilitaryLegs"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialMilitaryBoots">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsMilitaryBoots"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialMilitaryStealthBoots">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsMilitaryStealthBoots"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialScrapHelmet">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsScrapHelmet"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialScrapChest">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsScrapChest"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialScrapGloves">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsScrapGloves"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialScrapLegs">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsScrapLegs"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialScrapBoots">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsScrapBoots"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialIronHelmet">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsIronHelmet"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialIronChest">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsIronChest"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialIronGloves">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsIronGloves"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialIronLegs">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsIronLegs"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialIronBoots">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsIronBoots"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialSteelHelmet">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsSteelHelmet"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialSteelChest">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsSteelChest"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialSteelGloves">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsSteelGloves"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialSteelLegs">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsSteelLegs"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+		<material id="FuriousRamsayMaterialSteelBoots">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="FuriousRamsayPartsSteelBoots"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+	</append>
+	
+</Config>

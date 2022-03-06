@@ -1,0 +1,35 @@
+<Config>
+
+	<!-- REDUCE AMOUNT OF GRASS IN FOREST -->
+    <set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome/decorations/decoration[@type='block' and @blockname='treeTallGrassDiagonal']/@prob">0.1</set>   
+	<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations/decoration[@type='block' and @blockname='treeTallGrassDiagonal']/@prob">0.1</set>
+
+	<!-- REDUCE AMOUNT OF BIRD NESTS IN WORLD -->
+    <set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.0002</set>   
+    <set xpath="/worldgeneration/biomes/biome/decorations/decoration[@type='block' and @blockname='cntBirdnest']/@prob">0.0002</set>   
+
+	<!-- REDUCE AMOUNT OF NODES IN WORLD -->
+	<!-- NODES -->
+    <set xpath="/worldgeneration/biomes/biome/subbiome/layers/layer/resource[@blockname='terrOreIron']/@prob">0.003</set>
+    <set xpath="/worldgeneration/biomes/biome/subbiome/layers/layer/resource[@blockname='terrOreCoal']/@prob">0.003</set>
+    <set xpath="/worldgeneration/biomes/biome/subbiome/layers/layer/resource[@blockname='terrOrePotassiumNitrate']/@prob">0.002</set>
+    <set xpath="/worldgeneration/biomes/biome/subbiome/layers/layer/resource[@blockname='terrOreLead']/@prob">0.002</set>
+    <set xpath="/worldgeneration/biomes/biome/subbiome/layers/layer/resource[@blockname='terrOreOilDeposit']/@prob">0.0015</set>
+    <set xpath="/worldgeneration/biomes/biome/layers/layer/resource[@blockname='terrOreIron']/@prob">0.003</set>
+	<!-- VEINS -->
+    <set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[@name='deco_iron_vein']/@prob">0.003</set>
+    <set xpath="/worldgeneration/biomes/biome/decorations/decoration[@name='deco_iron_vein']/@prob">0.003</set>
+    <set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[@name='deco_coal_vein']/@prob">0.003</set>
+    <set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[@name='deco_nitrate_vein']/@prob">0.002</set>
+    <set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[@name='deco_lead_vein']/@prob">0.002</set>
+    <set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[@name='deco_shale_vein']/@prob">0.0015</set>
+
+	<!-- REPLACE BIRD NESTS -->
+	<setattribute xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[@blockname='cntBirdnest']" name="blockname">FuriousRamsayBirdNestLootHelper</setattribute>
+	<setattribute xpath="/worldgeneration/biomes/biome/decorations/decoration[@blockname='cntBirdnest']" name="blockname">FuriousRamsayBirdNestLootHelper</setattribute>
+
+	<!-- REPLACE TREE STUMPS -->
+	<setattribute xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[@blockname='treeStump']" name="blockname">FuriousRamsayStumpHelper</setattribute>
+	<setattribute xpath="/worldgeneration/biomes/biome/decorations/decoration[@blockname='treeStump']" name="blockname">FuriousRamsayStumpHelper</setattribute>
+
+</Config>

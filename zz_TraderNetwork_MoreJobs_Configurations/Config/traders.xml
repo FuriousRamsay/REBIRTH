@@ -1,0 +1,8 @@
+<Config>
+
+	<!-- SET VANILLA TRADER RESTOCK DAYS, OPEN TIMES -->
+	<setattribute xpath="/traders/trader_info" name="reset_interval">1</setattribute>
+	<setattribute xpath="/traders/trader_info" name="open_time">0:01</setattribute>
+	<setattribute xpath="/traders/trader_info" name="close_time">0:01</setattribute>
+
+</Config>

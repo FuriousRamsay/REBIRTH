@@ -1,0 +1,25 @@
+<Config>
+
+	<set xpath="/styles/global/style_entry[@name='darkGrey']/@value">30,30,30,320</set>
+	<set xpath="/styles/global/style_entry[@name='mediumGrey']/@value">30,30,30,320</set>
+	<set xpath="/styles/style[@name='paging.window.background']/style_entry[@name='color']/@value">0, 0, 0,320</set>
+
+	<append xpath="/styles">
+		<style name="itemStackOutput">
+			<style_entry name="select_color" value="[beige]" />
+			<style_entry name="press_color" value="[limeGreen]" />
+			<style_entry name="final_pressed_color" value="[lightGrey]" />
+			<style_entry name="background_color" value="[mediumGrey]" />
+			<style_entry name="highlight_color" value="[hoverColor]" />
+			<style_entry name="holding_color" value="[white]" />
+			<style_entry name="width" value="54" />
+			<style_entry name="height" value="54" />
+			<style_entry name="hover_icon_grow" value="1.5" />
+			<style_entry name="on_press" value="true" />
+			<style_entry name="sound_volume" value="0.75" />
+			<style_entry name="pickup_sound" value="[pickup_click]" />
+			<style_entry name="place_sound" value="[place_click]" />
+		</style>
+	</append>
+
+</Config>

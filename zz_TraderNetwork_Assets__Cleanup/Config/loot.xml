@@ -1,0 +1,280 @@
+<Config> 
+
+	<!-- REMOVE FROM LOOT -->
+
+	<remove xpath="//lootgroup[@name='schematicsModsAndGeneralT0']/item[@name='modArmorStoragePocketSchematic']"/>
+	<remove xpath="//lootgroup[@name='schematicsModsAndGeneralT1']/item[@name='modArmorDoubleStoragePocketSchematic']"/>
+	<remove xpath="//lootgroup[@name='schematicsModsAndGeneralT2']/item[@name='modArmorTripleStoragePocketSchematic']"/>
+	<remove xpath="//lootgroup[@name='groupCupboard02']/item[@group='farmingCookingRecipesT0']"/>
+	<remove xpath="//lootgroup[@name='groupAirDrop02']/item[@group='farmingCookingRecipesT0']"/>
+	<remove xpath="//lootgroup[@name='perkBooks']/item[@group='perkBooksT0']"/>
+	<remove xpath="//lootgroup[@name='groupMailbox01']/item[@group='perkBooksT0Day1']"/>
+	<remove xpath="//lootgroup[@name='groupReinforcedChestT1_05']/item[@group='perkBooks']"/>
+	<remove xpath="//lootgroup[@name='groupReinforcedChestT2']/item[@group='groupReinforcedChestT2_07']"/>
+	<remove xpath="//lootgroup[@name='groupWeaponsT0_All']/item[@group='groupWeaponsT0_Archery']"/>
+	<remove xpath="//lootgroup[@name='groupWeaponsT0_Ranged']/item[@group='groupWeaponsT0_Archery']"/>
+	<remove xpath="//lootgroup[@name='groupWeaponsMeleeScaledNoStone']/item[@group='groupWeapons_MeleeParts']"/>
+	<remove xpath="//lootgroup[@name='groupWeaponsRangedScaledNoStone']/item[@group='groupWeapons_RangedParts']"/>
+	<remove xpath="//lootgroup[@name='groupAmmoResourcesSmall']/item[@group='groupResourceGunPowderSmall']"/>
+	<remove xpath="//lootgroup[@name='groupAmmoResourcesMedium']/item[@group='groupResourceGunPowderMedium']"/>
+	<remove xpath="//lootgroup[@name='groupAmmoResourcesLarge']/item[@group='groupResourceGunPowderLarge']"/>
+	<remove xpath="//lootgroup/item[@group='groupFoodTrash']"/>
+	
+	<remove xpath="//lootgroup[@name='groupWorkingStiffs03']/item[@group='groupWorkingStiffsBooks']"/>
+	<remove xpath="//lootgroup[@name='groupAirDropT1Bundles']/item[@group='groupQuestT1Books']"/>
+	<remove xpath="//lootgroup[@name='groupGunSafeSecure']/item[@group='groupSafeBooks']"/>
+	<remove xpath="//lootgroup[@name='groupSmallSafeLoot02']/item[@group='groupSafeBooks']"/>
+
+	<remove xpath="//lootgroup[@name='groupMoPower02']/item[@group='groupTechJunkieBooks']"/>
+	<remove xpath="//lootgroup[@name='groupMoPower03']/item[@group='groupTechJunkieBooks']"/>
+	<remove xpath="//lootgroup[@name='groupSavageCountryCrate02']/item[@group='groupSavageCountryBooks']"/>
+	<remove xpath="//lootgroup[@name='groupShotgunMessiahCrate02']/item[@group='groupShotgunMessiahBooks']"/>
+	<remove xpath="//lootgroup[@name='groupPopNPillsCrate02']/item[@group='groupPopNPillsBooks']"/>
+
+	<remove xpath="//lootgroup/item[@name='frameShapes:VariantHelper']"/>
+	<!--<remove xpath="//lootgroup/item[@name='meleeWpnClubT1CandyClub']"/>
+	<remove xpath="//lootgroup/item[@name='meleeWpnBladeT1CandyKnife']"/>-->
+	<remove xpath="//lootgroup/item[@group='groupApparelClothes']"/>
+	<remove xpath="//lootgroup/item[@name='resourcePotassiumNitratePowder']"/>
+	<remove xpath="//lootgroup/item[@name='resourceCropChrysanthemumPlant']"/>
+	<remove xpath="//lootgroup/item[@name='resourceCropGoldenrodPlant']"/>
+	<remove xpath="//lootgroup/item[@name='foodCornMeal']"/>
+	<remove xpath="//lootgroup[@name='groupSinks03']/item[@group='groupToolsT1Wrench']"/>
+	<remove xpath="//lootgroup/item[@name='resourceFishingWeight']"/>
+	<remove xpath="//lootgroup/item[@name='resourceScrapLead']"/>
+	<remove xpath="//lootgroup/item[@name='resourceGunPowder']"/>
+	<remove xpath="//lootgroup/item[@name='resourceScrapBrass']"/>
+	<remove xpath="//lootgroup/item[@name='resourceAnimalFat']"/>
+	<remove xpath="//lootgroup/item[@name='resourceElectricParts']"/>
+	<remove xpath="//lootgroup/item[@name='resourceBone']"/>
+	<remove xpath="//lootgroup/item[@name='resourceCoal']"/>
+	<remove xpath="//lootgroup/item[@name='resourceCloth']"/>
+	<remove xpath="//lootgroup/item[@name='resourceWood']"/>
+	<remove xpath="//lootgroup/item[@name='resourceNail']"/>
+	<remove xpath="//lootgroup[@name='booksAllScaled']/item[@group='perkBooks']"/>
+	<remove xpath="//lootgroup[@name='booksAllScaled']/item[@group='farmingCookingRecipesCommon']"/>
+	<remove xpath="//lootgroup[@name='booksAllScaled']/item[@group='schematicsWeaponsArmorCommon']"/>
+	<remove xpath="//lootgroup[@name='booksAllScaled']/item[@group='schematicsModsAndGeneralCommon']"/>	
+	<remove xpath="//lootgroup[@name='groupQuestSchematics']/item[@group='perkBooks']"/>
+	<remove xpath="//lootgroup[@name='groupReading1']/item[@group='perkBooks']"/>
+	<remove xpath="//lootgroup[@name='groupWeaponsT1_Melee']/item[@name='meleeWpnBatonT2StunBaton']"/>
+	<remove xpath="//lootgroup[@name='groupWeaponsT2_Melee']/item[@name='meleeWpnBatonT2StunBaton']"/>
+
+	<!-- REMOVE MEGA CRUSH AND BLACK STRAP COFFEE -->
+	<remove xpath="//lootgroup/item[@name='drinkCanMegaCrush']"/>
+	<remove xpath="//lootgroup/item[@name='drinkJarBlackStrapCoffee']"/>
+
+	<!-- REMOVE ELIXIRS -->
+	<remove xpath="//lootgroup/item[@name='drinkJarGrandpasAwesomeSauce']"/>
+	<remove xpath="//lootgroup/item[@name='drinkJarGrandpasLearningElixir']"/>
+	<remove xpath="//lootgroup/item[@name='drinkJarGrandpasMoonshine']"/>
+
+	<!-- REMOVE SMOOTHIE -->
+	<remove xpath="//lootgroup/item[@name='drinkYuccaJuiceSmoothieSchematic']"/>
+	<remove xpath="//lootgroup/item[@name='drinkYuccaJuiceSmoothie']"/>
+
+	<!-- REMOVE VANILLA PARTS -->
+	<remove xpath="//lootgroup/item[@name='resourceRepairKit']"/>
+
+	<remove xpath="//lootgroup[@name='groupWeaponsMeleeScaled']/item[@group='groupWeapons_MeleeParts']"/>
+	<remove xpath="//lootgroup[@name='groupWeaponsMeleeScaledTPlus']/item[@group='groupWeapons_MeleeParts']"/>
+
+	<remove xpath="//lootgroup[@name='groupWeaponsRangedScaled']/item[@group='groupWeapons_RangedParts']"/>
+	<remove xpath="//lootgroup[@name='groupWeaponsRangedScaledTPlus']/item[@group='groupWeapons_RangedParts']"/>
+
+	<remove xpath="//lootgroup/item[@name='meleeToolAllSteelParts']"/>
+	<remove xpath="//lootgroup/item[@name='meleeToolAxeT3ChainsawParts']"/>
+
+	<remove xpath="//lootgroup/item[@group='toolParts']"/>
+
+	<remove xpath="//lootgroup/item[@name='gunMGT1AK47Parts']"/>
+	<remove xpath="//lootgroup/item[@name='gunHandgunT1PistolParts']"/>
+	<remove xpath="//lootgroup/item[@name='gunBowT1WoodenBowParts']"/>
+	<remove xpath="//lootgroup/item[@name='gunRifleT1HuntingRifleParts']"/>
+	<remove xpath="//lootgroup/item[@name='gunShotgunT1DoubleBarrelParts']"/>
+	<remove xpath="//lootgroup/item[@name='gunExplosivesT3RocketLauncherParts']"/>
+	<remove xpath="//lootgroup/item[@name='gunBotRoboticsParts']"/>
+	<remove xpath="//lootgroup/item[@name='meleeWpnBatonT2StunBatonParts']"/>
+	<remove xpath="//lootgroup/item[@name='meleeWpnBladeT3MacheteParts']"/>
+	<remove xpath="//lootgroup/item[@name='meleeWpnSpearT3SteelSpearParts']"/>
+	<remove xpath="//lootgroup/item[@name='meleeWpnClubT3SteelClubParts']"/>
+	<remove xpath="//lootgroup/item[@name='meleeWpnSledgeT3SteelSledgehammerParts']"/>
+	<remove xpath="//lootgroup/item[@name='meleeWpnKnucklesT3SteelKnucklesParts']"/>
+
+	<remove xpath="//lootgroup/item[@group='weaponParts']"/>
+	<remove xpath="//lootgroup/item[@name='armorMilitarySetParts']"/>
+	<remove xpath="//lootgroup/item[@name='armorSteelSetParts']"/>
+	
+	<!-- REMOVE HELMET LIGHT MOD AND SCHEMATIC -->
+	<removeattribute xpath="//lootgroup/item[@name='armorMilitaryHelmet']/@mods" />
+	<removeattribute xpath="//lootgroup/item[@name='armorMilitaryHelmet']/@mod_chance" />
+	<removeattribute xpath="//lootgroup/item[@name='armorSwatHelmet']/@mods" />
+	<removeattribute xpath="//lootgroup/item[@name='armorSwatHelmet']/@mod_chance" />
+
+	<remove xpath="//lootgroup[@name='modArmorT1']/item[@name='modArmorHelmetLight']"/>
+	<remove xpath="//lootgroup[@name='schematicsModsAndGeneralT1']/item[@name='modArmorHelmetLightSchematic']"/>
+	
+	<!-- REMOVE MINING HELMET -->
+	<remove xpath="//lootgroup/item[@name='armorMiningHelmet']"/>
+
+	<!-- REMOVE OLD CASH FROM LOOT -->
+	<remove xpath="/lootcontainers/lootgroup/item[@name='oldCash']"/>
+	<remove xpath="/lootcontainers/lootcontainer/item[@name='oldCash']"/>
+
+	<!-- REMOVE CERTAIN ITEMS FROM LOOT -->
+	<!-- REMOVE ITEMS -->
+	<remove xpath="//lootgroup/item[@name='batterybankSchematic']"/>
+	<remove xpath="//lootgroup/item[@name='poweredDoorsSchematic']"/>
+	<remove xpath="//lootgroup/item[@name='generatorbank']"/>
+	<remove xpath="//lootgroup/item[@name='batterybank']"/>
+	<remove xpath="//lootgroup/item[@group='groupToolsT0']"/>
+	<remove xpath="//lootgroup/item[@group='schematicsToolsCommon']"/>
+	<remove xpath="//lootgroup/item[@group='schematicsToolsRare']"/>
+	<remove xpath="//lootgroup/item[@group='schematicsToolsT0']"/>
+	<remove xpath="//lootgroup/item[@group='schematicsToolsT1']"/>
+	<remove xpath="//lootgroup/item[@group='schematicsToolsT2']"/>
+	<remove xpath="//lootgroup/item[@group='schematicsWeaponsArmorT0']"/>
+	<remove xpath="//lootgroup/item[@group='schematicsWeaponsArmorT1']"/>
+	<remove xpath="//lootgroup/item[@group='schematicsWeaponsArmorT2']"/>
+
+	<remove xpath="/lootcontainers/lootgroup/item[@name='drinkCanEmpty']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@group='seeds']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='drinkJarEmpty']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='seeds']"/>
+
+	<remove xpath="/lootcontainers/lootgroup[@name='groupCraftingUncommon']/item[@name='resourceSewingKit']"/>
+
+	<remove xpath="/lootcontainers/lootgroup/item[@name='gunBowT0PrimitiveBow']"/>
+
+	<remove xpath="/lootcontainers/lootgroup/item[@group='groupWeaponsT0_All']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@group='groupWeaponsT0_Melee']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='modArmorWaterPurifier']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='modArmorWaterPurifierSchematic']"/>
+	<!--<remove xpath="/lootcontainers/lootgroup/item[@group='perkBooks']"/>-->
+	<remove xpath="/lootcontainers/lootgroup/item[@name='meleeToolSalvageT1WrenchSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='meleeToolSalvageT2RatchetSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='meleeToolSalvageT3ImpactDriverSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='meleeToolRepairT3NailgunSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='farmingCookingRecipesCommon']/item[@group='farmingCookingRecipesT0']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupQuestSchematics']/item[@group='farmingCookingRecipesT0']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='twitch_schematics1']/item[@group='farmingCookingRecipesT0']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='drinkJarBeerSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='plantedGraceCorn1Schematic']"/>
+	
+	<remove xpath="/lootcontainers/lootgroup/item[@name='forge']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='workbench']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='cementMixer']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupWorkbenchLoot03']/item[@name='resourceSewingKit']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupWorkbenchLoot02']/item[@name='resourceOil']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupWorkbenchLoot02']/item[@name='resourceSpring']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupWorkbenchLoot02']/item[@name='resourceGlue']"/>
+	<!--<remove xpath="/lootcontainers/lootgroup/item[@name='resourceOil']"/>-->
+	<remove xpath="/lootcontainers/lootgroup/item[@name='meleeToolRepairT0StoneAxe']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='meleeToolShovelT0StoneShovel']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='drugRecog']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='drugFortBites']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='medicalSplint']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='resourceOilShale']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='generatorbankSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='ammoRocketHE']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='resourceMilitaryFiberSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='meleeWpnSledgeT1IronSledgehammerSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='meleeWpnSledgeT3SteelSledgehammerSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='modGunBowPolymerString']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='modGunBowPolymerStringSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='drinkJarCoffeeSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='foodBaconAndEggsSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='foodBakedPotatoSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='foodBoiledMeatSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='foodCornOnTheCobSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='foodGrilledMeatSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='foodSteakAndPotatoSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='foodSpaghettiSchematic']"/>
+
+	<remove xpath="/lootcontainers/lootgroup/item[@name='apparelBandana']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='apparelShades']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='apparelToughGuySunglasses']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='apparelNerdGlasses']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='apparelSkiGoggles']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='apparelAviatorGoggles']"/>
+
+	<!--<remove xpath="/lootcontainers/lootgroup[@name='groupDesks02']/item[@name='meleeToolFlashlight02']"/>-->
+
+	<!-- REMOVE BOOKS AND SCHEMATICS FROM LOOT -->
+	<remove xpath="/lootcontainers/lootgroup/item[@name='medicalFirstAidBandageSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='forgeSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='meleeToolIronSetSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='ammoGasCanSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='resourceOilSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='meleeToolSteelSetSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='toolBellowsSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='toolAnvilSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='cementMixerSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='workbenchSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='chemistryStationSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='toolForgeCrucibleSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='meleeToolPickT3AugerSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='meleeToolAxeT3ChainsawSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='gunBotT1JunkSledgeSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='gunBowT1IronCrossbowSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='gunBowT1WoodenBowSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='gunHandgunT1PistolSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='gunMGT1AK47Schematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='gunRifleT1HuntingRifleSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='gunShotgunT1DoubleBarrelSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='meleeWpnBatonT2StunBatonSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='meleeWpnBladeT1HuntingKnifeSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='meleeWpnClubT1BaseballBatSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='meleeWpnKnucklesT1IronKnucklesSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='meleeWpnSpearT1IronSpearSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='thrownAmmoPipeBombSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='thrownDynamiteSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='armorIronSetSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='armorLeatherSetSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='gunBotT2JunkTurretSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='gunBowT3CompoundBowSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='gunBowT3CompoundCrossbowSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='gunHandgunT2Magnum44Schematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='gunMGT2TacticalARSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='gunRifleT2LeverActionRifleSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='gunShotgunT2PumpShotgunSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='meleeWpnBladeT3MacheteSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='meleeWpnKnucklesT3SteelKnucklesSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='thrownGrenadeSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='armorMilitarySetSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='armorSteelSetSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='gunExplosivesT3RocketLauncherSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='gunHandgunT3DesertVultureSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='gunHandgunT3SMG5Schematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='gunMGT3M60Schematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='gunRifleT3SniperRifleSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='gunShotgunT3AutoShotgunSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='thrownGrenadeContactSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='drinkJarGrandpasAwesomeSauceSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='drinkJarGrandpasLearningElixirSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='drinkJarGrandpasMoonshineSchematic']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='foodCanShamSchematic']"/>
+	<!--<remove xpath="/lootcontainers/lootgroup/item[@group='booksAllScaled']"/>-->
+	<remove xpath="/lootcontainers/lootgroup/item[@group='booksRareOnlyScaled']"/>
+
+	<remove xpath="/lootcontainers/lootcontainer/item[@group='twitch_books1']"/>
+	<remove xpath="/lootcontainers/lootcontainer/item[@group='twitch_books2']"/>
+	<remove xpath="/lootcontainers/lootcontainer/item[@group='twitch_books3']"/>
+
+    <!-- REMOVE CRAP FROM LOOT -->
+	<remove xpath="/lootcontainers/lootgroup/item[@name='foodRottingFlesh']"/>
+
+	<!--<remove xpath="/lootcontainers/lootgroup/item[@name='foodShamSandwich']"/>-->
+
+	<remove xpath="/lootcontainers/lootgroup/item[@group='dyes']"/>
+
+	<remove xpath="/lootcontainers/lootgroup/item[@name='resourceCropCottonPlant']"/>
+
+	<remove xpath="/lootcontainers/lootgroup/item[@name='resourceFeather']"/>
+	<remove xpath="/lootcontainers/lootgroup/item[@name='resourceScrapPolymers']"/>
+	<!--<remove xpath="/lootcontainers/lootgroup/item[@name='resourcePaper']"/>-->
+
+	<remove xpath="/lootcontainers/lootgroup/item[@name='medicalBandage']"/>
+
+	<remove xpath="/lootcontainers/lootcontainer/item[@name='resourceScrapPolymers']"/>
+</Config>

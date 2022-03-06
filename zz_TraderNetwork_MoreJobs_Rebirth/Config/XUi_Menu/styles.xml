@@ -1,0 +1,13 @@
+<Config>
+
+	<!--<set xpath="/styles/global/style_entry[@name='darkGrey']/@value">30,30,30,320</set>
+	<set xpath="/styles/global/style_entry[@name='mediumGrey']/@value">30,30,30,320</set>-->
+
+	<append xpath="/styles">
+		<style name="menuBackground" type="texture">
+		<style_entry name="depth" value="0"/>
+		<style_entry name="size" value="1920,1080"/>
+		<style_entry name="texture" value="@file:Mods/zz_TraderNetwork_MoreJobs_Rebirth/Resources/Menu.jpg"/></style>
+	</append>
+
+</Config>

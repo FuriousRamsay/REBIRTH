@@ -1,0 +1,7 @@
+<Config>
+
+	<!--<append xpath="/buffs/buff[@name='buffNPCModSlowStatusCheck']/effect_group[@name='buffNPCModSlowStatusCheck']">
+		<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" target="self" cvar="_stunned" operation="set" value="0"/>
+	</append>-->
+	
+</Config>

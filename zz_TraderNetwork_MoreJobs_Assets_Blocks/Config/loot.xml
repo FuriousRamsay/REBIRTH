@@ -1,0 +1,187 @@
+<Config>
+
+	<!-- ADD TO LOOT -->
+	<append xpath="//lootgroup[@name='groupCupboard01']">
+		<item group="empty" />
+	</append>
+
+	<append xpath="//lootgroup[@name='groupShamwayProduce01']">
+		<item group="empty" />
+		<item name="resourceCropCoffeeBeans" count="1,5"/>
+		<item name="foodCropBlueberries"  count="1,5"/>
+		<item name="foodCropCorn"  count="1,5"/>
+		<item name="foodCropPotato"  count="1,5"/>
+		<item name="foodCropMushrooms"  count="1,5"/>
+		<item name="foodCropPumpkin"  count="1,5"/>
+	</append>
+
+	<!-- ADD AMMO TO LOOT -->
+	<append xpath="//lootcontainer[@id='12']">
+		<item group="groupAmmoRegularT1" />
+	</append>
+	<append xpath="//lootcontainer[@id='13']">
+		<item group="groupAmmoRegularT1" />
+	</append>
+
+	<!-- DETROY ON LOOT -->
+	<setattribute xpath="//lootcontainer[@id='10']" name="destroy_on_close">true</setattribute>
+	<setattribute xpath="//lootcontainer[@id='25']" name="destroy_on_close">true</setattribute>
+
+	<!-- ADJUST REWARD AMOUNTS -->
+	<setattribute xpath="//lootgroup[@name='groupQuestAmmo']/item[@name='ammo9mmBulletBall']" name="count">75</setattribute>
+	<setattribute xpath="//lootgroup[@name='groupQuestAmmo']/item[@name='ammo9mmBulletHP']" name="count">35</setattribute>
+	<setattribute xpath="//lootgroup[@name='groupQuestAmmo']/item[@name='ammo9mmBulletAP']" name="count">35</setattribute>
+	<setattribute xpath="//lootgroup[@name='groupQuestAmmo']/item[@name='ammo44MagnumBulletBall']" name="count">25</setattribute>
+	<setattribute xpath="//lootgroup[@name='groupQuestAmmo']/item[@name='ammo44MagnumBulletHP']" name="count">15</setattribute>
+	<setattribute xpath="//lootgroup[@name='groupQuestAmmo']/item[@name='ammo44MagnumBulletAP']" name="count">15</setattribute>
+	<setattribute xpath="//lootgroup[@name='groupQuestAmmo']/item[@name='ammoShotgunShell']" name="count">35</setattribute>
+	<setattribute xpath="//lootgroup[@name='groupQuestAmmo']/item[@name='ammoShotgunSlug']" name="count">15</setattribute>
+	<setattribute xpath="//lootgroup[@name='groupQuestAmmo']/item[@name='ammo762mmBulletBall']" name="count">40</setattribute>
+	<setattribute xpath="//lootgroup[@name='groupQuestAmmo']/item[@name='ammo762mmBulletHP']" name="count">20</setattribute>
+	<setattribute xpath="//lootgroup[@name='groupQuestAmmo']/item[@name='ammo762mmBulletAP']" name="count">20</setattribute>
+	<setattribute xpath="//lootgroup[@name='groupQuestAmmo']/item[@name='ammoArrowFlaming']" name="count">25</setattribute>
+	<setattribute xpath="//lootgroup[@name='groupQuestAmmo']/item[@name='ammoCrossbowBoltFlaming']" name="count">25</setattribute>
+	<setattribute xpath="//lootgroup[@name='groupQuestAmmo']/item[@name='ammoArrowExploding']" name="count">20</setattribute>
+	<setattribute xpath="//lootgroup[@name='groupQuestAmmo']/item[@name='ammoCrossbowBoltExploding']" name="count">20</setattribute>
+	<setattribute xpath="//lootgroup[@name='groupQuestAmmo']/item[@name='ammoRocketFrag']" name="count">4</setattribute>
+	<setattribute xpath="//lootgroup[@name='groupQuestAmmo']/item[@name='thrownAmmoPipeBomb']" name="count">12</setattribute>
+	<setattribute xpath="//lootgroup[@name='groupQuestAmmo']/item[@name='thrownDynamite']" name="count">5</setattribute>
+	<setattribute xpath="//lootgroup[@name='groupQuestAmmo']/item[@name='thrownAmmoMolotovCocktail']" name="count">15</setattribute>
+	<setattribute xpath="//lootgroup[@name='groupQuestAmmo']/item[@name='thrownGrenade']" name="count">10</setattribute>
+	<setattribute xpath="//lootgroup[@name='groupQuestAmmo']/item[@name='thrownGrenadeContact']" name="count">10</setattribute>
+	<setattribute xpath="//lootgroup[@name='groupQuestAmmo']/item[@name='thrownTimedCharge']" name="count">5</setattribute>
+
+	<append xpath="//lootgroup[@name='groupMedicalUncommon']">
+		<item name="FuriousRamsayHCL" count="1"/>
+	</append>
+
+	<append xpath="/lootcontainers">
+		<lootgroup name="junk">
+			<item name="resourceDuctTape" count="0,1"/>
+			<item name="resourceScrapBrass" count="10,50"/>
+			<item group="groupTreasureMaps" prob="0.025"/>
+			<item name="FuriousRamsayScrews" count="2,4"/>
+			<item name="FuriousRamsayHCL" count="0,1"/>
+			<item name="FuriousRamsayWoodPlank" count="0,3" />
+			<item group="groupAmmoRegularT0" prob="0.35"/>
+			<item name="ammoGasCan" count="0,10" />
+			<item name="medicalBandage" count="0,1" />
+			<item group="cannedfood" count="0,1" prob="0.5" />
+			<item name="resourceElectricParts" count="1,5" prob="0.75" />
+			<item name="resourceMechanicalParts" count="1,5" prob="0.75" />
+			<item name="resourceForgedIron" count="5,15" prob="0.25" />
+			<item name="resourceForgedSteel" count="5,10" prob="0.15" />
+		</lootgroup>
+	</append>
+
+	<append xpath="//lootcontainer[@id='124']">
+		<item name="FuriousRamsayCircularSawBlade" count="1"/>
+		<item name="FuriousRamsayScrewdriver" count="1"/>
+		<item name="FuriousRamsayPliers" count="1"/>
+		<item name="toolAnvil" />
+	</append>
+
+	<append xpath="//lootcontainer[@id='125']">
+		<item name="FuriousRamsayCircularSawBlade" count="1"/>
+		<item name="FuriousRamsayPliers" count="1"/>
+		<item name="FuriousRamsayScrewdriver" count="1"/>
+		<item name="toolAnvil" />
+	</append>
+
+	<append xpath="//lootcontainer[@id='11']">
+		<item group="cannedfood" count="0,1" prob="1" />
+		<item name="FuriousRamsayBakingPan" count="1" prob="0.35"/>
+	</append>
+
+	<append xpath="//lootgroup[@name='workstationToolsScaled']">
+		<item name="FuriousRamsayPliers"/>
+		<item name="FuriousRamsayScrewdriver"/>
+		<item name="toolAnvil" />
+	</append>
+
+	<insertBefore xpath="//lootgroup[@name='junk']">
+
+		<lootgroup name="FuriousRamsayRepairKits">
+			<item name="FuriousRamsayRepairKitJunkDrone" prob="0.5"/>
+			<item name="FuriousRamsayRepairKitImpactNailgun" prob="0.65"/>		
+			<item name="FuriousRamsayRepairKitImpactDriver" prob="0.65"/>
+			<item name="FuriousRamsayRepairKitSteelPickAxe" prob="1"/>
+			<item name="FuriousRamsayRepairKitSteelShovel" prob="1"/>
+			<item name="FuriousRamsayRepairKitChainsaw" prob="0.25"/>
+			<item name="FuriousRamsayRepairKitAuger" prob="0.25"/>
+			<item name="FuriousRamsayRepairKitDoubleBarrelShotgun" prob="1"/>
+			<item name="FuriousRamsayRepairKitHuntingRifle" prob="1"/>
+			<item name="FuriousRamsayRepairKitJunkSledge" prob="1"/>
+			<item name="FuriousRamsayRepairKitPistol" prob="1"/>
+			<item name="FuriousRamsayRepairKitWoodenBow" prob="1"/>
+			<item name="FuriousRamsayRepairKitIronCrossbow" prob="1"/>
+			<item name="FuriousRamsayRepairKitPumpShotgun" prob="0.65"/>
+			<item name="FuriousRamsayRepairKitSMG5" prob="0.65"/>
+			<item name="FuriousRamsayRepairKitAK47" prob="0.65"/>
+			<item name="FuriousRamsayRepairKitMarksmanRifle" prob="0.65"/>
+			<item name="FuriousRamsayRepairKitJunkTurret" prob="0.65"/>
+			<item name="FuriousRamsayRepairKitMagnum44" prob="0.65"/>
+			<item name="FuriousRamsayRepairKitCompoundBow" prob="0.65"/>
+			<item name="FuriousRamsayRepairKitCompoundCrossbow" prob="0.65"/>
+			<item name="FuriousRamsayRepairKitAutoShotgun" prob="0.35"/>
+			<item name="FuriousRamsayRepairKitTacticalAR" prob="0.35"/>
+			<item name="FuriousRamsayRepairKitM60" prob="0.35"/>
+			<item name="FuriousRamsayRepairKitSniperRifle" prob="0.35"/>
+			<item name="FuriousRamsayRepairKitRocketLauncher" prob="0.35"/>
+			<item name="FuriousRamsayRepairKitDesertVulture" prob="0.35"/>
+			<item name="FuriousRamsayRepairKitarmorCloth" prob="1"/>
+			<item name="FuriousRamsayRepairKitarmorLeather" prob="0.85"/>
+			<item name="FuriousRamsayRepairKitarmorScrap" prob="0.65"/>
+			<item name="FuriousRamsayRepairKitarmorIron" prob="0.45"/>
+			<item name="FuriousRamsayRepairKitarmorSteel" prob="0.25"/>
+			<item name="FuriousRamsayRepairKitarmorMilitary" prob="0.25"/>
+			<item name="FuriousRamsayRepairKitSteelClub" prob="0.45"/>
+			<item name="FuriousRamsayRepairKitSteelSpear" prob="0.45"/>
+			<item name="FuriousRamsayRepairKitSteelKnuckles" prob="0.45"/>
+			<item name="FuriousRamsayRepairKitSteelSledgehammer" prob="0.45"/>
+			<item name="FuriousRamsayRepairKitSteelAxe" prob="0.45"/>
+			<item name="FuriousRamsayRepairKitKnife002_FR" prob="0.45"/>
+			<item name="FuriousRamsayRepairKitCleaver001_FR" prob="0.45"/>
+			<item name="FuriousRamsayRepairKitKatana002_FR" prob="0.45"/>
+			<item name="FuriousRamsayRepairKitKatana002_FR" prob="0.45"/>
+			<item name="FuriousRamsayRepairKitKatana002_FR" prob="0.45"/>
+			<item name="FuriousRamsayRepairKitAxe005_FR" prob="0.45"/>
+			<item name="FuriousRamsayRepairKitSledgeHammer001_FR" prob="0.45"/>
+			<item name="FuriousRamsayRepairKitHammer003_FR" prob="0.45"/>
+			<item name="FuriousRamsayRepairKitSpear003_FR" prob="0.45"/>
+			<item name="FuriousRamsayRepairKitClub005_FR" prob="0.45"/>
+			<item name="FuriousRamsayRepairKitClub001_FR" prob="0.45"/>
+			<item name="FuriousRamsayRepairKitJunkBaton001_FR" prob="0.45"/>
+			<item name="FuriousRamsayRepairKitStunBaton" prob="0.35"/>
+			<item name="FuriousRamsayRepairKitKnife001_FR" prob="0.35"/>
+			<item name="FuriousRamsayRepairKitKnife003_FR" prob="0.35"/>
+			<item name="FuriousRamsayRepairKitSciFiSword001_FR" prob="0.35"/>
+			<item name="FuriousRamsayRepairKitSciFiSword003_FR" prob="0.35"/>
+			<item name="FuriousRamsayRepairKitAxe001_FR" prob="0.35"/>
+			<item name="FuriousRamsayRepairKitAxe002_FR" prob="0.35"/>
+			<item name="FuriousRamsayRepairKitAxe003_FR" prob="0.35"/>
+			<item name="FuriousRamsayRepairKitSledgeHammer002_FR" prob="0.35"/>
+			<item name="FuriousRamsayRepairKitHammer001_FR" prob="0.35"/>
+			<item name="FuriousRamsayRepairKitHammer002_FR" prob="0.35"/>
+			<item name="FuriousRamsayRepairKitSpear001_FR" prob="0.35"/>
+			<item name="FuriousRamsayRepairKitSpear002_FR" prob="0.35"/>
+			<item name="FuriousRamsayRepairKitClub002_FR" prob="0.35"/>
+			<item name="FuriousRamsayRepairKitClub009_FR" prob="0.35"/>
+			<item name="FuriousRamsayRepairKitClub010_FR" prob="0.35"/>
+			<item name="FuriousRamsayRepairKitKnuckles002_FR" prob="0.35"/>
+			<item name="FuriousRamsayRepairKitSpear004_FR" prob="0.25"/>
+			<item name="FuriousRamsayRepairKitSpear005_FR" prob="0.25"/>
+			<item name="FuriousRamsayRepairKitClub004_FR" prob="0.25"/>
+			<item name="FuriousRamsayRepairKitClub006_FR" prob="0.25"/>
+			<item name="FuriousRamsayRepairKitClub008_FR" prob="0.25"/>
+			<item name="FuriousRamsayRepairKitKnuckles001_FR" prob="0.25"/>
+			<item name="FuriousRamsayRepairKitBaton001_FR" prob="0.25"/>
+		</lootgroup>
+
+	</insertBefore>
+
+	<append xpath="//lootgroup[@name='junk']">
+		<item group="FuriousRamsayRepairKits" count="0,1" />
+	</append>
+
+</Config>

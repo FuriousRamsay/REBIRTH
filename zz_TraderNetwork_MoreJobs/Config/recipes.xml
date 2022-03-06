@@ -1,0 +1,158 @@
+<Config>
+    
+	<append xpath="/recipes">
+    
+		<recipe name="FuriousRamsayDrugPrussianBluePowder" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+		<recipe name="FuriousRamsayFireZombieBonePowder" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+		<recipe name="FuriousRamsayShockZombieBonePowder" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+		<recipe name="FuriousRamsayFireShockZombieBonePowder" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+		<recipe name="FuriousRamsaySmokeZombieBonePowder" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+		<recipe name="FuriousRamsayFireShockSmokeZombieBonePowder" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+
+		<recipe name="FuriousRamsayDrugPrussianBluePowder" craft_area="chemistryStation" craft_time="3" always_unlocked="true">
+			<ingredient name="resourceScrapIron" count="25"/>
+			<ingredient name="resourceCoal" count="10"/>
+			<ingredient name="resourcePotassiumNitratePowder" count="10"/>
+			<ingredient name="resourceCropCoffeeBeans" count="5"/>
+		</recipe>
+		
+		<recipe name="FuriousRamsayDrinkPerussianBlue" craft_area="campfire" craft_time="60" always_unlocked="true" craft_tool="toolBeaker">
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="FuriousRamsayDrugPrussianBluePowder" count="10"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayZombieBodyBagPileTier1" time="1" always_unlocked="true">
+			<ingredient name="FuriousRamsayZombieBodyBag" count="5"/>
+			<ingredient name="FuriousRamsayZombieRemainsFire" count="10"/>
+		</recipe>
+    
+		<recipe name="FuriousRamsayZombieBodyBagPileTier2" time="1" always_unlocked="true">
+			<ingredient name="FuriousRamsayZombieBodyBag" count="5"/>
+			<ingredient name="FuriousRamsayZombieRemainsShock" count="10"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayZombieBodyBagPileTier3" time="1" always_unlocked="true">
+			<ingredient name="FuriousRamsayZombieBodyBag" count="5"/>
+			<ingredient name="FuriousRamsayZombieRemainsFireShock" count="10"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayZombieBodyBagPileTier4" time="1" always_unlocked="true">
+			<ingredient name="FuriousRamsayZombieBodyBag" count="5"/>
+			<ingredient name="FuriousRamsayZombieRemainsSmoke" count="10"/>
+		</recipe>
+
+
+		<recipe name="FuriousRamsayZombieBodyBagPileTier5" time="1" always_unlocked="true">
+			<ingredient name="FuriousRamsayZombieBodyBag" count="5"/>
+			<ingredient name="FuriousRamsayZombieRemainsFireShockSmoke" count="10"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayFireArmorRepairKit" time="1" always_unlocked="true">
+			<ingredient name="resourceRepairKit" count="1"/>
+			<ingredient name="FuriousRamsayFireZombieBonePowder" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayFireArmorRepairKit" time="1" always_unlocked="true">
+			<ingredient name="resourceRepairKit" count="1"/>
+			<ingredient name="FuriousRamsayFireShockZombieBonePowder" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayFireArmorRepairKit" time="1" always_unlocked="true">
+			<ingredient name="resourceRepairKit" count="1"/>
+			<ingredient name="FuriousRamsayFireShockSmokeZombieBonePowder" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayShockArmorRepairKit" time="1" always_unlocked="true">
+			<ingredient name="resourceRepairKit" count="1"/>
+			<ingredient name="FuriousRamsayShockZombieBonePowder" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayShockArmorRepairKit" time="1" always_unlocked="true">
+			<ingredient name="resourceRepairKit" count="1"/>
+			<ingredient name="FuriousRamsayFireShockZombieBonePowder" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayShockArmorRepairKit" time="1" always_unlocked="true">
+			<ingredient name="resourceRepairKit" count="1"/>
+			<ingredient name="FuriousRamsayFireShockSmokeZombieBonePowder" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsaySmokeArmorRepairKit" time="1" always_unlocked="true">
+			<ingredient name="resourceRepairKit" count="1"/>
+			<ingredient name="FuriousRamsaySmokeZombieBonePowder" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsaySmokeArmorRepairKit" time="1" always_unlocked="true">
+			<ingredient name="resourceRepairKit" count="1"/>
+			<ingredient name="FuriousRamsayFireShockSmokeZombieBonePowder" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayFireShockArmorRepairKit" time="1" always_unlocked="true">
+			<ingredient name="resourceRepairKit" count="1"/>
+			<ingredient name="FuriousRamsayFireShockZombieBonePowder" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayFireShockArmorRepairKit" time="1" always_unlocked="true">
+			<ingredient name="resourceRepairKit" count="1"/>
+			<ingredient name="FuriousRamsayFireShockSmokeZombieBonePowder" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayFireShockSmokeArmorRepairKit" time="1" always_unlocked="true">
+			<ingredient name="resourceRepairKit" count="1"/>
+			<ingredient name="FuriousRamsayFireShockSmokeZombieBonePowder" count="1"/>
+		</recipe>
+
+		<!--<recipe name="FuriousRamsaySedanRepairKit" time="1" always_unlocked="true">
+			<ingredient name="resourceRepairKit" count="10"/>
+			<ingredient name="resourceForgedIron" count="80"/>
+			<ingredient name="resourceLeather" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="15"/>
+			<ingredient name="resourceElectricParts" count="15"/>
+			<ingredient name="resourceSpring" count="4"/>
+			<ingredient name="resourceMetalPipe" count="15"/>
+			<ingredient name="resourceHeadlight" count="2"/>
+			<ingredient name="vehicleWheels" count="4"/>
+			<ingredient name="smallEngine" count="1"/>
+			<ingredient name="carBattery" count="1"/>
+			<ingredient name="resourceOil" count="2"/>
+		</recipe>-->
+
+		<recipe name="FuriousRamsayBanditGravestoneStarter" time="1" always_unlocked="true">
+			<ingredient name="FuriousRamsayBanditChestDusterQuest" count="4"/>
+			<ingredient name="resourceRockSmall" count="5"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayBanditGravestoneTier1" time="1" always_unlocked="true">
+			<ingredient name="FuriousRamsayBanditChestDusterQuest" count="4"/>
+			<ingredient name="resourceRockSmall" count="5"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayBanditGravestoneTier2" time="1" always_unlocked="true">
+			<ingredient name="FuriousRamsayBanditChestDusterQuest" count="8"/>
+			<ingredient name="FuriousRamsayBanditChestShirtRedQuest" count="1"/>
+			<ingredient name="resourceRockSmall" count="5"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayHazmatMarkerTier1" time="1" always_unlocked="true">
+			<ingredient name="FuriousRamsayHazmatHazardTier1" count="7"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayHazmatMarkerTier2" time="1" always_unlocked="true">
+			<ingredient name="FuriousRamsayHazmatHazardTier2" count="7"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayHazmatMarkerTier3" time="1" always_unlocked="true">
+			<ingredient name="FuriousRamsayHazmatHazardTier3" count="7"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayHazmatMarkerTier4" time="1" always_unlocked="true">
+			<ingredient name="FuriousRamsayHazmatHazardTier4" count="7"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayHazmatMarkerTier5" time="1" always_unlocked="true">
+			<ingredient name="FuriousRamsayHazmatHazardTier5" count="7"/>
+		</recipe>
+
+	</append>
+    
+</Config>

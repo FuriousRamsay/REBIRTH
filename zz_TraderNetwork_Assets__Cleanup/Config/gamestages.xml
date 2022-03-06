@@ -1,0 +1,6 @@
+﻿<Config>
+
+	<remove xpath="/gamestages/spawner[starts-with(@name, 'NPC')]"/>
+	<remove xpath="/gamestages/group[starts-with(@name, 'S_-Group_NPC')]"/>
+	
+</Config>

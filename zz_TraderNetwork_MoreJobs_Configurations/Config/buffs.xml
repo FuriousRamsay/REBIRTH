@@ -1,0 +1,601 @@
+<Config>
+		
+		<append xpath="/buffs">
+
+			<buff name="FuriousRamsaySetUpMultipliers" hidden="true">
+				<stack_type value="ignore"/>
+				<duration value="1"/>
+				<effect_group name="FuriousRamsaySetUpMultipliers">
+					<!--
+					Multipliers represent a hundredth of a percent.
+							1	= 100%
+						-0.25 	= -25%
+					-->
+					<!-- CLASS XP MULTIPLIER - INCREASE TO REQUIRE LESS XP -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayAttributeMultiplierConfig" operation="set" value="1"/>
+					<!-- EXPERTISE XP MULTIPLIER - INCREASE TO REQUIRE LESS XP -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayExpertiseMultiplierConfig" operation="set" value="1"/>
+					<!-- GENETICS XP MULTIPLIER - INCREASE TO REQUIRE LESS XP -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayGeneticsMultiplierConfig" operation="set" value="2"/>
+
+				<!-- EXPERTISE UNLOCK AT WHICH CLASS LEVEL -->
+					<!-- HUNTER CLASS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayActiveLevelPerkSpearUnlock" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayActiveLevelPerkBowUnlock" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayActiveLevelPerkSniperRifleUnlock" operation="set" value="4"/>
+					<!-- THUG CLASS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayActiveLevelPerkClubUnlock" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayActiveLevelPerkShotgunUnlock" operation="set" value="3"/>
+					<!-- BUTCHER CLASS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayActiveLevelPerkMacheteUnlock" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayActiveLevelPerkAssaultRifleUnlock" operation="set" value="4"/>
+					<!-- SOLDIER CLASS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayActiveLevelPerkAxeUnlock" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayActiveLevelPerkMarksmanRifleUnlock" operation="set" value="3"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayActiveLevelPerkMachineGunUnlock" operation="set" value="6"/>
+					<!-- TECHNOGEEK CLASS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayActiveLevelPerkStunBatonUnlock" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayActiveLevelPerkMagnumUnlock" operation="set" value="3"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayActiveLevelPerkDeployableTurretUnlock" operation="set" value="4"/>
+					<!-- MADMAN CLASS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayActiveLevelPerkKnucklesUnlock" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayActiveLevelPerkExplosiveUnlock" operation="set" value="3"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayActiveLevelPerkSubmachineGunUnlock" operation="set" value="4"/>
+					<!-- BUILDER CLASS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayActiveLevelPerkHammerUnlock" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayActiveLevelPerkPistolUnlock" operation="set" value="3"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayActiveLevelPerkPoweredTurretUnlock" operation="set" value="4"/>
+					<!-- CHEF CLASS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayActiveLevelPerkKnifeUnlock" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayActiveLevelPerkDesertVultureUnlock" operation="set" value="4"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayActiveLevelPerkRoboticsUnlock" operation="set" value="3"/>
+
+				<!-- SPECIFIC EXPERTISE MULTIPLIER -->
+					<!-- SPEARS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkSpearExpMultiplier" operation="set" value="3"/>
+					<!-- BOWS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkBowExpMultiplier" operation="set" value="3"/>
+					<!-- SNIPER RIFLES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkSniperRifleExpMultiplier" operation="set" value="3"/>
+					<!-- CLUBS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkClubExpMultiplier" operation="set" value="3"/>
+					<!-- SHOTGUNS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkShotgunExpMultiplier" operation="set" value="3"/>
+					<!-- MACHETES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkMacheteExpMultiplier" operation="set" value="3"/>
+					<!-- ASSAULT RIFLES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkAssaultRifleExpMultiplier" operation="set" value="3"/>
+					<!-- AXES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkAxeExpMultiplier" operation="set" value="3"/>
+					<!-- MARKSMAN RIFLES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkMarksmanRifleExpMultiplier" operation="set" value="3"/>
+					<!-- MACHINE GUNS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkMachineGunExpMultiplier" operation="set" value="3"/>
+					<!-- STUN BATONS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkStunBatonExpMultiplier" operation="set" value="3"/>
+					<!-- MAGNUMS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkMagnumExpMultiplier" operation="set" value="3"/>
+					<!-- DEPLOYABLE TURRETS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkDeployableTurretExpMultiplier" operation="set" value="3"/>
+					<!-- KNUCKLES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkKnucklesExpMultiplier" operation="set" value="3"/>
+					<!-- EXPLOSIVES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkExplosiveExpMultiplier" operation="set" value="3"/>
+					<!-- SUBMACHINE GUN -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkSubmachineGunExpMultiplier" operation="set" value="3"/>
+					<!-- HAMMER -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkHammerExpMultiplier" operation="set" value="3"/>
+					<!-- PISTOL -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkPistolExpMultiplier" operation="set" value="3"/>
+					<!-- POWERED TURRETS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkPoweredTurretExpMultiplier" operation="set" value="3"/>
+					<!-- KNIVES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkKnifeExpMultiplier" operation="set" value="3"/>
+					<!-- DESERT VULTURES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkDesertVultureExpMultiplier" operation="set" value="3"/>
+					<!-- ROBOTICS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkRoboticsExpMultiplier" operation="set" value="3"/>
+
+				<!-- STRENGTH TIER INCREASES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthTier1" operation="set" value="0.02"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthTier1" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthTier2" operation="set" value="0.02"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthTier2" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthTier3" operation="set" value="0.02"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthTier3" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthTier4" operation="set" value="0.02"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthTier4" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthTier5" operation="set" value="0.02"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthTier5" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthTier6" operation="set" value="0.02"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthTier6" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+
+				<!-- DEXTERITY TIER INCREASES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseDexterityTier1" operation="set" value="0.02"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseDexterityTier1" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseDexterityTier2" operation="set" value="0.02"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseDexterityTier2" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseDexterityTier3" operation="set" value="0.02"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseDexterityTier3" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseDexterityTier4" operation="set" value="0.02"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseDexterityTier4" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseDexterityTier5" operation="set" value="0.02"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseDexterityTier5" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseDexterityTier6" operation="set" value="0.02"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseDexterityTier6" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+
+				<!-- CONSTITUTION TIER INCREASES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseConstitutionTier1" operation="set" value="0.02"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseConstitutionTier1" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseConstitutionTier2" operation="set" value="0.02"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseConstitutionTier2" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseConstitutionTier3" operation="set" value="0.02"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseConstitutionTier3" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseConstitutionTier4" operation="set" value="0.02"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseConstitutionTier4" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseConstitutionTier5" operation="set" value="0.02"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseConstitutionTier5" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseConstitutionTier6" operation="set" value="0.02"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseConstitutionTier6" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+				<!-- INTELLIGENCE TIER INCREASES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceTier1" operation="set" value="0.04"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceTier1" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceTier2" operation="set" value="0.05"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceTier2" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceTier3" operation="set" value="0.06"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceTier3" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceTier4" operation="set" value="0.07"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceTier4" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceTier5" operation="set" value="0.08"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceTier5" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceTier6" operation="set" value="0.09"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceTier6" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+				
+				<!-- CHARISMA TIER INCREASES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseCharismaTier1" operation="set" value="0.075"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseCharismaTier1" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseCharismaTier2" operation="set" value="0.10"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseCharismaTier2" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseCharismaTier3" operation="set" value="0.125"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseCharismaTier3" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseCharismaTier4" operation="set" value="0.15"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseCharismaTier4" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseCharismaTier5" operation="set" value="0.175"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseCharismaTier5" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseCharismaTier6" operation="set" value="0.2"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseCharismaTier6" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+
+				<!-- GENETICS LBD -->
+					<!-- TIER 1 -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseFightingTier1" operation="set" value="0.0006"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthBreakingOreTier1" operation="set" value="0.001"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceBreakingOreTier1" operation="set" value="0.0005"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthDiggingTier1" operation="set" value="0.001"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceDiggingTier1" operation="set" value="0.002"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseCutTreesTier1" operation="set" value="0.0003"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseBreakingDoorTier1" operation="set" value="0.005"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvageApplianceTier1" operation="set" value="0.005"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvagedCarTier1" operation="set" value="0.005"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseLootedTier1" operation="set" value="0.0005"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseReceivedDamageTier1" operation="set" value="0.0025"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsLowTier1" operation="set" value="0.005"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsMediumTier1" operation="set" value="0.0075"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsHighTier1" operation="set" value="0.01"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseMobilityTier1" operation="set" value="0.00024"/>
+					<!-- APPLY MULTIPLIER -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseFightingTier1" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthBreakingOreTier1" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceBreakingOreTier1" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthDiggingTier1" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceDiggingTier1" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseCutTreesTier1" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseBreakingDoorTier1" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvageApplianceTier1" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvagedCarTier1" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseLootedTier1" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseReceivedDamageTier1" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsLowTier1" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsMediumTier1" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsHighTier1" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseMobilityTier1" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<!-- TIER 2 -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseFightingTier2" operation="set" value="0.00055"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthBreakingOreTier2" operation="set" value="0.0008"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceBreakingOreTier2" operation="set" value="0.0004"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthDiggingTier2" operation="set" value="0.0009"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceDiggingTier2" operation="set" value="0.00175"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseCutTreesTier2" operation="set" value="0.000275"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseBreakingDoorTier2" operation="set" value="0.004"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvageApplianceTier2" operation="set" value="0.004"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvagedCarTier2" operation="set" value="0.004"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseLootedTier2" operation="set" value="0.0004"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseReceivedDamageTier2" operation="set" value="0.00225"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsLowTier2" operation="set" value="0.005"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsMediumTier2" operation="set" value="0.0075"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsHighTier2" operation="set" value="0.01"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseMobilityTier2" operation="set" value="0.00022"/>
+					<!-- APPLY MULTIPLIER -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseFightingTier2" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthBreakingOreTier2" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceBreakingOreTier2" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthDiggingTier2" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceDiggingTier2" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseCutTreesTier2" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseBreakingDoorTier2" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvageApplianceTier2" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvagedCarTier2" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseLootedTier2" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseReceivedDamageTier2" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsLowTier2" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsMediumTier2" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsHighTier2" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseMobilityTier2" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<!-- TIER 3 -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseFightingTier3" operation="set" value="0.0005"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthBreakingOreTier3" operation="set" value="0.0006"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceBreakingOreTier3" operation="set" value="0.0003"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthDiggingTier3" operation="set" value="0.0008"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceDiggingTier3" operation="set" value="0.0015"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseCutTreesTier3" operation="set" value="0.00025"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseBreakingDoorTier3" operation="set" value="0.003"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvageApplianceTier3" operation="set" value="0.003"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvagedCarTier3" operation="set" value="0.003"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseLootedTier3" operation="set" value="0.0002"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseReceivedDamageTier3" operation="set" value="0.002"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsLowTier3" operation="set" value="0.005"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsMediumTier3" operation="set" value="0.0075"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsHighTier3" operation="set" value="0.01"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseMobilityTier3" operation="set" value="0.00020"/>
+					<!-- APPLY MULTIPLIER -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseFightingTier3" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthBreakingOreTier3" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceBreakingOreTier3" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthDiggingTier3" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceDiggingTier3" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseCutTreesTier3" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseBreakingDoorTier3" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvageApplianceTier3" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvagedCarTier3" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseLootedTier3" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseReceivedDamageTier3" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsLowTier3" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsMediumTier3" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsHighTier3" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseMobilityTier3" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<!-- TIER 4 -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseFightingTier4" operation="set" value="0.00045"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthBreakingOreTier4" operation="set" value="0.0004"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceBreakingOreTier4" operation="set" value="0.0002"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthDiggingTier4" operation="set" value="0.0007"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceDiggingTier4" operation="set" value="0.00125"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseCutTreesTier4" operation="set" value="0.000225"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseBreakingDoorTier4" operation="set" value="0.002"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvageApplianceTier4" operation="set" value="0.002"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvagedCarTier4" operation="set" value="0.002"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseLootedTier4" operation="set" value="0.0002"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseReceivedDamageTier4" operation="set" value="0.00175"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsLowTier4" operation="set" value="0.005"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsMediumTier4" operation="set" value="0.0075"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsHighTier4" operation="set" value="0.01"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseMobilityTier4" operation="set" value="0.00018"/>
+					<!-- APPLY MULTIPLIER -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseFightingTier4" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthBreakingOreTier4" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceBreakingOreTier4" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthDiggingTier4" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceDiggingTier4" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseCutTreesTier4" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseBreakingDoorTier4" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvageApplianceTier4" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvagedCarTier4" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseLootedTier4" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseReceivedDamageTier4" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsLowTier4" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsMediumTier4" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsHighTier4" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseMobilityTier4" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<!-- TIER 5 -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseFightingTier5" operation="set" value="0.0004"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthBreakingOreTier5" operation="set" value="0.0002"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceBreakingOreTier5" operation="set" value="0.0001"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthDiggingTier5" operation="set" value="0.0006"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceDiggingTier5" operation="set" value="0.001"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseCutTreesTier5" operation="set" value="0.0002"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseBreakingDoorTier5" operation="set" value="0.001"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvageApplianceTier5" operation="set" value="0.001"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvagedCarTier5" operation="set" value="0.001"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseLootedTier5" operation="set" value="0.0002"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseReceivedDamageTier5" operation="set" value="0.0015"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsLowTier5" operation="set" value="0.005"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsMediumTier5" operation="set" value="0.0075"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsHighTier5" operation="set" value="0.01"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseMobilityTier5" operation="set" value="0.00016"/>
+					<!-- APPLY MULTIPLIER -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseFightingTier5" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthBreakingOreTier5" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceBreakingOreTier5" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseStrengthDiggingTier5" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseIntelligenceDiggingTier5" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseCutTreesTier5" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseBreakingDoorTier5" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvageApplianceTier5" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvagedCarTier5" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseLootedTier5" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseReceivedDamageTier5" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsLowTier5" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsMediumTier5" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsHighTier5" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseMobilityTier5" operation="multiply" value="@varFuriousRamsayGeneticsMultiplierConfig"/>
+
+					<!-- ZOMBIE HEAD DAMAGE MULTIPLIER - INCREASE TO DEAL MORE DAMAGE -->
+						<!-- WITH HELMET - MELEE -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHeadDamageMultiplierHelmetMeleeZombieConfig" operation="set" value="0.5"/>
+						<!-- WITHOUT HELMET - MELEE -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHeadDamageMultiplierNoHelmetMeleeZombieConfig" operation="set" value="1.5"/>
+						<!-- WITH HELMET - RANGED -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHeadDamageMultiplierHelmetRangedZombieConfig" operation="set" value="1"/>
+						<!-- WITHOUT HELMET - RANGED -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHeadDamageMultiplierNoHelmetRangedZombieConfig" operation="set" value="1.5"/>
+					<!-- ZOMBIE BODY DAMAGE MULTIPLIER - INCREASE TO DEAL MORE DAMAGE -->
+						<!-- MELEE -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayBodyDamageMultiplierMeleeZombieConfig" operation="set" value="-0.9"/>
+						<!-- RANGED -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayBodyDamageMultiplierRangedZombieConfig" operation="set" value="-0.85"/>
+					<!-- ZOMBIE ARM/LEG DAMAGE MULTIPLIER - INCREASE TO DEAL MORE DAMAGE -->
+						<!-- MELEE -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayArmLegDamageMultiplierMeleeZombieConfig" operation="set" value="-0.9"/>
+						<!-- RANGED -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayArmLegDamageMultiplierRangedZombieConfig" operation="set" value="-0.75"/>
+
+					<!-- NPC HEAD DAMAGE MULTIPLIER - INCREASE TO DEAL MORE DAMAGE -->
+						<!-- WITH HELMET - MELEE -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHeadDamageMultiplierHelmetMeleeNPCConfig" operation="set" value="0.5"/>
+						<!-- WITHOUT HELMET - MELEE -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHeadDamageMultiplierNoHelmetMeleeNPCConfig" operation="set" value="1.5"/>
+						<!-- WITH HELMET - RANGED -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHeadDamageMultiplierHelmetRangedNPCConfig" operation="set" value="1"/>
+						<!-- WITHOUT HELMET - RANGED -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHeadDamageMultiplierNoHelmetRangedNPCConfig" operation="set" value="1.5"/>
+					<!-- NPC BODY DAMAGE MULTIPLIER - INCREASE TO DEAL MORE DAMAGE -->
+						<!-- MELEE -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayBodyDamageMultiplierMeleeNPCConfig" operation="set" value="0"/>
+						<!-- RANGED -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayBodyDamageMultiplierRangedNPCConfig" operation="set" value="0"/>
+					<!-- NPC ARM/LEG DAMAGE MULTIPLIER - INCREASE TO DEAL MORE DAMAGE -->
+						<!-- MELEE -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayArmLegDamageMultiplierMeleeNPCConfig" operation="set" value="0"/>
+						<!-- RANGED -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayArmLegDamageMultiplierRangedNPCConfig" operation="set" value="0"/>
+
+					<!-- ROBOT DAMAGE MULTIPLIER - INCREASE TO DEAL MORE DAMAGE -->
+						<!-- MELEE -->
+							<!-- CLUBS -->
+								<!-- HEAD -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHeadDamageMultiplierMeleeRobotClubConfig" operation="set" value="1"/>
+								<!-- BODY -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayBodyDamageMultiplierMeleeRobotClubConfig" operation="set" value="0"/>
+								<!-- ARM/LEG -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayArmLegDamageMultiplierMeleeRobotClubConfig" operation="set" value="1.5"/>
+							<!-- HAMMERS -->
+								<!-- HEAD -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHeadDamageMultiplierMeleeRobotHammerConfig" operation="set" value="1.5"/>
+								<!-- BODY -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayBodyDamageMultiplierMeleeRobotHammerConfig" operation="set" value="0.5"/>
+								<!-- ARM/LEG -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayArmLegDamageMultiplierMeleeRobotHammerConfig" operation="set" value="2"/>
+							<!-- TOOLS -->
+								<!-- HEAD -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHeadDamageMultiplierMeleeRobotToolConfig" operation="set" value="-.5"/>
+								<!-- BODY -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayBodyDamageMultiplierMeleeRobotToolConfig" operation="set" value="-.7"/>
+								<!-- ARM/LEG -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayArmLegDamageMultiplierMeleeRobotToolConfig" operation="set" value="-.6"/>
+							<!-- OTHER MELEE -->
+								<!-- HEAD -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHeadDamageMultiplierMeleeRobotOtherConfig" operation="set" value="0.2"/>
+								<!-- BODY -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayBodyDamageMultiplierMeleeRobotOtherConfig" operation="set" value="-0.2"/>
+								<!-- ARM/LEG -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayArmLegDamageMultiplierMeleeRobotOtherConfig" operation="set" value="0.4"/>
+							<!-- RANGED -->
+								<!-- HEAD -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHeadDamageMultiplierRangedRobotConfig" operation="set" value="0.5"/>
+								<!-- BODY -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayBodyDamageMultiplierMeleeRobotConfig" operation="set" value="0"/>
+								<!-- ARM/LEG -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayArmLegDamageMultiplierMeleeRobotConfig" operation="set" value="0.5"/>
+
+					<!-- ANIMAL HEAD DAMAGE MULTIPLIER - INCREASE TO DEAL MORE DAMAGE -->
+						<!-- MELEE -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHeadDamageMultiplierMeleeAnimalConfig" operation="set" value="2"/>
+						<!-- RANGED -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHeadDamageMultiplierRangedAnimalConfig" operation="set" value="3"/>
+					<!-- ANIMAL BODY DAMAGE MULTIPLIER - INCREASE TO DEAL MORE DAMAGE -->
+						<!-- MELEE -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayBodyDamageMultiplierMeleeAnimalConfig" operation="set" value="0"/>
+						<!-- RANGED -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayBodyDamageMultiplierRangedAnimalConfig" operation="set" value="0"/>
+					<!-- ANIMAL ARM/LEG DAMAGE MULTIPLIER - INCREASE TO DEAL MORE DAMAGE -->
+						<!-- MELEE -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayArmLegDamageMultiplierMeleeAnimalConfig" operation="set" value="1"/>
+						<!-- RANGED -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayArmLegDamageMultiplierRangedAnimalConfig" operation="set" value="1.25"/>
+
+					<!-- ANIMAL HEAD DISMEMBER MULTIPLIER - INCREASE FOR HIGHER CHANCE -->
+						<!-- MELEE -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHeadDismemberMultiplierMeleeAnimalConfig" operation="set" value=".1"/>
+						<!-- RANGED -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHeadDismemberMultiplierRangedAnimalConfig" operation="set" value=".05"/>
+
+					<!-- NON ANIMAL HEAD DISMEMBER MULTIPLIER - INCREASE FOR HIGHER CHANCE -->
+						<!-- WITH HELMET - MELEE -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHeadDismemberMultiplierHelmetMeleeConfig" operation="set" value=".05"/>
+						<!-- WITHOUT HELMET - MELEE -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHeadDismemberMultiplierNoHelmetMeleeConfig" operation="set" value=".15"/>
+						<!-- WITH HELMET - RANGED -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHeadDismemberMultiplierHelmetRangedConfig" operation="set" value=".025"/>
+						<!-- WITHOUT HELMET - RANGED -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHeadDismemberMultiplierNoHelmetRangedConfig" operation="set" value=".05"/>
+					<!-- BODY DISMEMBER MULTIPLIER - INCREASE FOR HIGHER CHANCE -->
+						<!-- MELEE -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayBodyDismemberMultiplierMeleeConfig" operation="set" value=".05"/>
+						<!-- RANGED -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayBodyDismemberMultiplierRangedConfig" operation="set" value=".05"/>
+					<!-- ARM/LEG DISMEMBER MULTIPLIER - INCREASE FOR HIGHER CHANCE -->
+						<!-- MELEE -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayArmLegDismemberMultiplierMeleeConfig" operation="set" value=".2"/>
+						<!-- RANGED -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayArmLegDismemberMultiplierRangedConfig" operation="set" value=".1"/>
+					<!-- ROBOT DISMEMBER MULTIPLIER - INCREASE FOR HIGHER CHANCE -->
+						<!-- MELEE -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayDismemberMultiplierMeleeRobotConfig" operation="set" value="0"/>
+						<!-- RANGED -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayDismemberMultiplierRangedRobotConfig" operation="set" value="0"/>
+				</effect_group>
+			</buff>
+
+			<buff name="FuriousRamsayTestMode" hidden="true">
+				<stack_type value="ignore"/>
+				<duration value="1"/>
+				<effect_group name="FuriousRamsaySetUpMultipliers">
+					<!-- ARE YOU TESTING? 1 FOR YES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTestMode" operation="set" value="0"/>
+					<!-- ADJUST MULTIPLIERS AS NECESSARY -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayAttributeMultiplierConfig" operation="set" value="10">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayTestMode" operation="Equals" value="1" />
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayExpertiseMultiplierConfig" operation="set" value="10">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayTestMode" operation="Equals" value="1" />
+					</triggered_effect>
+				</effect_group>
+			</buff>
+
+			<buff name="FuriousRamsaySetUpClassLevels" hidden="true">
+				<stack_type value="ignore"/>
+				<duration value="1"/>
+				<effect_group name="FuriousRamsaySetUpClassLevels">
+					<!-- HUNTER -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayAttributeHunterExpLvlIncrementConfig" operation="set" value="100"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayAttributeHunterExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayAttributeMultiplierConfig"/>
+					<!-- THUG -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayAttributeThugExpLvlIncrementConfig" operation="set" value="100"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayAttributeThugExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayAttributeMultiplierConfig"/>
+					<!-- BUTCHER -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayAttributeButcherExpLvlIncrementConfig" operation="set" value="100"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayAttributeButcherExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayAttributeMultiplierConfig"/>
+					<!-- SOLDIER -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayAttributeSoldierExpLvlIncrementConfig" operation="set" value="100"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayAttributeSoldierExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayAttributeMultiplierConfig"/>
+					<!-- TECHNOGEEK -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayAttributeTechnogeekExpLvlIncrementConfig" operation="set" value="100"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayAttributeTechnogeekExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayAttributeMultiplierConfig"/>
+					<!-- MADMAN -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayAttributeMadmanExpLvlIncrementConfig" operation="set" value="100"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayAttributeMadmanExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayAttributeMultiplierConfig"/>
+					<!-- BUILDER -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayAttributeBuilderExpLvlIncrementConfig" operation="set" value="100"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayAttributeBuilderExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayAttributeMultiplierConfig"/>
+					<!-- CHEF -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayAttributeChefExpLvlIncrementConfig" operation="set" value="100"/>		
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayAttributeChefExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayAttributeMultiplierConfig"/>
+				</effect_group>
+			</buff>
+
+			<buff name="FuriousRamsaySetUpExpertiseLevels" hidden="true">
+				<stack_type value="ignore"/>
+				<duration value="1"/>
+				<effect_group name="FuriousRamsaySetUpExpertiseLevels">
+					<!-- SPEARS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkSpearExpLvlIncrementConfig" operation="set" value="375"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkSpearExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayExpertiseMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkSpearExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayPerkSpearExpMultiplier"/>	
+					<!-- BOWS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkBowExpLvlIncrementConfig" operation="set" value="175"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkBowExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayExpertiseMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkBowExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayPerkBowExpMultiplier"/>
+					<!-- SNIPER RIFLES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkSniperRifleExpLvlIncrementConfig" operation="set" value="275"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkSniperRifleExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayExpertiseMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkSniperRifleExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayPerkSniperRifleExpMultiplier"/>
+					<!-- CLUBS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkClubExpLvlIncrementConfig" operation="set" value="375"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkClubExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayExpertiseMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkClubExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayPerkClubExpMultiplier"/>
+					<!-- SHOTGUNS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkShotgunExpLvlIncrementConfig" operation="set" value="300"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkShotgunExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayExpertiseMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkShotgunExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayPerkShotgunExpMultiplier"/>
+					<!-- MACHETES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkMacheteExpLvlIncrementConfig" operation="set" value="375"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkMacheteExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayExpertiseMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkMacheteExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayPerkMacheteExpMultiplier"/>
+					<!-- ASSAULT RIFLES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkAssaultRifleExpLvlIncrementConfig" operation="set" value="500"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkAssaultRifleExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayExpertiseMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkAssaultRifleExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayPerkAssaultRifleExpMultiplier"/>
+					<!-- AXES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkAxeExpLvlIncrementConfig" operation="set" value="350"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkAxeExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayExpertiseMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkAxeExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayPerkAxeExpMultiplier"/>
+					<!-- MARKSMAN RIFLES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkMarksmanRifleExpLvlIncrementConfig" operation="set" value="275"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkMarksmanRifleExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayExpertiseMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkMarksmanRifleExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayPerkMarksmanRifleExpMultiplier"/>
+					<!-- MACHINE GUNS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkMachineGunExpLvlIncrementConfig" operation="set" value="750"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkMachineGunExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayExpertiseMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkMachineGunExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayPerkMachineGunExpMultiplier"/>
+					<!-- STUN BATONS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkStunBatonExpLvlIncrementConfig" operation="set" value="375"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkStunBatonExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayExpertiseMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkStunBatonExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayPerkStunBatonExpMultiplier"/>
+					<!-- MAGNUMS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkMagnumExpLvlIncrementConfig" operation="set" value="250"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkMagnumExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayExpertiseMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkMagnumExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayPerkMagnumExpMultiplier"/>
+					<!-- DEPLOYABLE TURRETS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkDeployableTurretExpLvlIncrementConfig" operation="set" value="999"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkDeployableTurretExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayExpertiseMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkDeployableTurretExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayPerkDeployableTurretExpMultiplier"/>
+					<!-- KNUCKLES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkKnucklesExpLvlIncrementConfig" operation="set" value="700"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkKnucklesExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayExpertiseMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkKnucklesExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayPerkKnucklesExpMultiplier"/>
+					<!-- EXPLOSIVES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkExplosiveExpLvlIncrementConfig" operation="set" value="450"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkExplosiveExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayExpertiseMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkExplosiveExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayPerkExplosiveExpMultiplier"/>
+					<!-- SUBMACHINE GUN -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkSubmachineGunExpLvlIncrementConfig" operation="set" value="800"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkSubmachineGunExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayExpertiseMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkSubmachineGunExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayPerkSubmachineGunExpMultiplier"/>
+					<!-- HAMMER -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkHammerExpLvlIncrementConfig" operation="set" value="350"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkHammerExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayExpertiseMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkHammerExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayPerkHammerExpMultiplier"/>
+					<!-- PISTOL -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkPistolExpLvlIncrementConfig" operation="set" value="300"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkPistolExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayExpertiseMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkPistolExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayPerkPistolExpMultiplier"/>
+					<!-- POWERED TURRETS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkPoweredTurretExpLvlIncrementConfig" operation="set" value="999"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkPoweredTurretExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayExpertiseMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkPoweredTurretExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayPerkPoweredTurretExpMultiplier"/>
+					<!-- KNIVES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkKnifeExpLvlIncrementConfig" operation="set" value="500"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkKnifeExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayExpertiseMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkKnifeExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayPerkKnifeExpMultiplier"/>
+					<!-- DESERT VULTURES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkDesertVultureExpLvlIncrementConfig" operation="set" value="350"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkDesertVultureExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayExpertiseMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkDesertVultureExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayPerkDesertVultureExpMultiplier"/>
+					<!-- ROBOTICS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkRoboticsExpLvlIncrementConfig" operation="set" value="999"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkRoboticsExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayExpertiseMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPerkRoboticsExpLvlIncrementConfig" operation="divide" value="@varFuriousRamsayPerkRoboticsExpMultiplier"/>
+				</effect_group>
+			</buff>
+
+		</append>
+
+</Config>

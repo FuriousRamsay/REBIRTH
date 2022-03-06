@@ -1,0 +1,46 @@
+<configs>
+
+	<append xpath="/entity_classes">		
+
+		<entity_class name="FuriousRamsayNPCBlackShieldTraderReward" extends="FuriousRamsayNPCBlackShieldTrader1">
+			<property name="Tags" value="entity,npc,human,BlackShieldTrader1,trader,ally"/>
+			<property name="Archetype" value="FuriousRamsayBlackShieldTrader1"/>
+			<property name="NPCID" value="FuriousRamsayBlackShieldTrader1"/>
+
+			<property name="AITask-1" value=""/>
+			<property name="AITarget-1" value=""/>
+
+			<property name="NavObject" value="FuriousRamsayBlackShieldTrader" />
+		
+			<property name="HandItem" value="FuriousRamsayMeleeHandBlackShieldTrader"/>
+		</entity_class>
+		
+		<entity_class name="FuriousRamsayNPCFarmerKatieTraderReward" extends="FuriousRamsayNPCFarmerKatieTrader">
+			<property name="Tags" value="entity,npc,human,FarmerKatie,trader,ally"/>
+			<property name="Archetype" value="FuriousRamsayFarmerKatie"/>
+			<property name="NPCID" value="FuriousRamsayFarmerKatie"/>
+			
+			<property name="AITask-1" value=""/>
+			<property name="AITarget-1" value=""/>
+
+			<property name="NavObject" value="FuriousRamsayFarmerTrader" />
+		
+			<property name="HandItem" value="FuriousRamsayMeleeHandFarmerTrader"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayNPCHandymanLukeTraderReward" extends="FuriousRamsayNPCHandymanLukeTrader">
+			<property name="Tags" value="entity,npc,human,HandymanLuke,trader,ally"/>
+			<property name="Archetype" value="FuriousRamsayHandymanLuke"/>
+			<property name="NPCID" value="FuriousRamsayHandymanLuke"/>
+			
+			<property name="AITask-1" value=""/>
+			<property name="AITarget-1" value=""/>
+
+			<property name="NavObject" value="FuriousRamsayHandymanTrader" />
+		
+			<property name="HandItem" value="FuriousRamsayMeleeHandHandymanTrader"/>
+		</entity_class>
+
+	</append>
+
+</configs>

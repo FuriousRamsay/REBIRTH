@@ -1,0 +1,115 @@
+<Config>
+
+	<append xpath="/blocks">
+
+		<!-- FARMER TRADER -->
+		<block name="FuriousRamsayFarmerTrader">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="EconomicValue" value="5000"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="DisplayType" value="FuriousRamsayTrader"/>
+			<property name="DescriptionKey" value="FuriousRamsayFarmerTraderDesc"/>
+			<property name="CustomIcon" value="cntShoesPileLeatherBoots"/>
+			<property name="CustomIconTint" value="209, 250, 197"/>
+			<property name="ItemTypeIcon" value="talk"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Commercial/shoeBootPairLeatherPrefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="MultiBlockDim" value="2,1,2"/>
+
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerFarmerTrader"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Traders"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerFarmerTrader">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayNPCFarmerKatieTraderReward"/>
+		</block>
+
+		<!-- HANDYMAN TRADER -->
+		<block name="FuriousRamsayHandymanTrader">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="EconomicValue" value="5000"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="DisplayType" value="FuriousRamsayTrader"/>
+			<property name="DescriptionKey" value="FuriousRamsayHandymanTraderDesc"/>
+			<property name="CustomIcon" value="cntShoesPileLeatherBoots"/>
+			<property name="CustomIconTint" value="190, 226, 247"/>
+			<property name="ItemTypeIcon" value="talk"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Commercial/shoeBootPairLeatherPrefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="MultiBlockDim" value="2,1,2"/>
+
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerHandymanTrader"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Traders"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerHandymanTrader">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayNPCHandymanLukeTraderReward"/>
+		</block>
+
+		<!-- BLACK SHIELD TRADER -->
+		<block name="FuriousRamsayBlackShieldTrader">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="EconomicValue" value="5000"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="DisplayType" value="FuriousRamsayTrader"/>
+			<property name="DescriptionKey" value="FuriousRamsayBlackShieldTraderDesc"/>
+			<property name="CustomIcon" value="cntShoesPileLeatherBoots"/>
+			<property name="CustomIconTint" value="250, 190, 190"/>
+			<property name="ItemTypeIcon" value="talk"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Commercial/shoeBootPairLeatherPrefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="MultiBlockDim" value="2,1,2"/>
+
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerBlackShieldTrader"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Traders"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerBlackShieldTrader">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayNPCBlackShieldTraderReward"/>
+		</block>
+
+	</append>
+
+</Config>

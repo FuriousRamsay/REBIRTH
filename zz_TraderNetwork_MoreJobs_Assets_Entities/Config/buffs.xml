@@ -1,0 +1,51 @@
+<Config>
+		
+		<append xpath="/buffs">
+
+			<buff name="FuriousRamsayExperienceGainLeader" hidden="true">
+				<stack_type value="replace"/>
+				<duration value="3"/>
+				<effect_group name="FuriousRamsayExperienceGainLeader">
+					<triggered_effect trigger="onSelfBuffStart" action="GiveExp" exp="500"/>
+				</effect_group>
+			</buff>
+
+			<buff name="buffNPCModAttacked" hidden="true">
+				<stack_type value="replace"/>
+				<duration value="0"/>
+			</buff>
+
+			<buff name="FuriousRamsayUnarmed" hidden="true">
+				<effect_group name="FuriousRamsayUnarmedAnims">
+					<triggered_effect trigger="onSelfBuffStart" action="AnimatorSetInt" property="AttackIndex" value="99"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varAttackIndex" operation="set" value="99"/>
+					<!--<triggered_effect trigger="onSelfWalk" action="AnimatorSetInt" property="AttackIndex" value="99"/>
+					<triggered_effect trigger="onSelfWalk" action="ModifyCVar" cvar=".varAttackIndex" operation="set" value="99"/>
+					<triggered_effect trigger="onSelfRun" action="AnimatorSetInt" property="AttackIndex" value="99"/>
+					<triggered_effect trigger="onSelfRun" action="ModifyCVar" cvar=".varAttackIndex" operation="set" value="99"/>-->
+
+					<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="varAttackIndex" operation="set" value="randomint(0,4)"/>
+					<triggered_effect trigger="onSelfAttackedOther" action="AnimatorSetInt" property="AttackIndex" value="0">
+						<requirement name="CVarCompare" cvar="varAttackIndex" operation="Equals" value="0"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfAttackedOther" action="AnimatorSetInt" property="AttackIndex" value="1">
+						<requirement name="CVarCompare" cvar="varAttackIndex" operation="Equals" value="1"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfAttackedOther" action="AnimatorSetInt" property="AttackIndex" value="2">
+						<requirement name="CVarCompare" cvar="varAttackIndex" operation="Equals" value="2"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfAttackedOther" action="AnimatorSetInt" property="AttackIndex" value="3">
+						<requirement name="CVarCompare" cvar="varAttackIndex" operation="Equals" value="3"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfAttackedOther" action="AnimatorSetInt" property="AttackIndex" value="4">
+						<requirement name="CVarCompare" cvar="varAttackIndex" operation="Equals" value="4"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="self" buff="FuriousRamsayUnarmedIdle"/>
+					<triggered_effect trigger="onSelfKilledOther" action="AddBuff" target="self" buff="FuriousRamsayUnarmedIdle"/>
+					<triggered_effect trigger="onSelfKilledOther" action="AnimatorSetInt" property="AttackIndex" value="99"/>
+				</effect_group>
+			</buff>	
+
+		</append>
+		
+</Config>

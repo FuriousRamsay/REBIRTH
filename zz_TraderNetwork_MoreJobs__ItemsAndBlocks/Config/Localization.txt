@@ -1,0 +1,49 @@
+Key,Source,Context,English
+
+FuriousRamsayShockSpear,items,Melee,"Leonidas' Spear"
+FuriousRamsayShockSpearDesc,items,Melee,"A Spear bearing the legendary king of Sparta's name, capable of shocking your enemies.\n\nTwice the speed of a normal spear and if thrown, will shock enemies up to 6 meters away from where it lands"
+
+FuriousRamsayBurningKnife,items,Melee,"The Jackal, Assassin Knife"
+FuriousRamsayBurningKnifeDesc,items,Melee,"A Knife worthy of its name, capable of burning your enemies.\n\nDeals vicious damage to the head and a deadly sneak attack weapon when thrown."
+
+FuriousRamsayAshChainsaw,items,Melee,"Ash's Chainsaw"
+FuriousRamsayAshChainsawDesc,items,Melee,"A weapon of choice when wanting to dismember the army of the dead.\n\nAim for the head."
+
+FuriousRamsayAshBoomStick,items,Gun,"Ash's Boomstick"
+FuriousRamsayAshBoomStickDesc,items,Melee,"Ash's secret weapon against the undead.\n\nAs per its name, it has a 10% chance to go boom and smoke its target to the ground!"
+
+FuriousRamsayStormBreaker,items,Melee,"Stormbreaker"
+FuriousRamsayStormBreakerDesc,items,Melee,"A Sledgehammer bearing the name of the legendary God of Thunder's weapon, capable of shocking your enemies when you hit a surface around an ennemy.\n\nFaster than a normal sledgehammer and if thrown, will shock and knock down enemies up to 3 and half meters away from where it lands"
+
+FuriousRamsayBurningTrap,blocks,Trap,Burning Embers Traps
+FuriousRamsayBurningTrapDesc,blocks,Trap,"Trap made up of dying embers that you have to keep alive by adding a fuel source"
+
+FuriousRamsayScreamerSignalTier1,blocks,Trap,Tier 1 Screamer Horde Signal
+FuriousRamsayScreamerSignalTier1Desc,blocks,Trap,"Activate this signal to attract zombies and screamers to your location.\n\nThe longer it remains activated the more zombies will zero in on your location."
+FuriousRamsayScreamerSignalTier2,blocks,Trap,Tier 2 Screamer Horde Signal
+FuriousRamsayScreamerSignalTier2Desc,blocks,Trap,"Activate this signal to attract zombies and screamers to your location.\n\nThe longer it remains activated the more zombies will zero in on your location."
+FuriousRamsayScreamerSignalTier3,blocks,Trap,Tier 3 Screamer Horde Signal
+FuriousRamsayScreamerSignalTier3Desc,blocks,Trap,"Activate this signal to attract zombies and screamers to your location.\n\nThe longer it remains activated the more zombies will zero in on your location."
+FuriousRamsayScreamerSignalTier4,blocks,Trap,Tier 4 Screamer Horde Signal
+FuriousRamsayScreamerSignalTier4Desc,blocks,Trap,"Activate this signal to attract zombies and screamers to your location.\n\nThe longer it remains activated the more zombies will zero in on your location."
+FuriousRamsayScreamerSignalTier5,blocks,Trap,Tier 5 Screamer Horde Signal
+FuriousRamsayScreamerSignalTier5Desc,blocks,Trap,"Activate this signal to attract zombies and screamers to your location.\n\nThe longer it remains activated the more zombies will zero in on your location."
+
+FuriousRamsayScreamerSignalTier1Schematic,items,Trap,Tier 1 Screamer Horde Signal Schematic
+FuriousRamsayScreamerSignalTier1SchematicDesc,items,Trap,Tier 1 Screamer Horde Signal Schematic Description
+FuriousRamsayScreamerSignalTier2Schematic,items,Trap,Tier 2 Screamer Horde Signal Schematic
+FuriousRamsayScreamerSignalTier2SchematicDesc,items,Trap,Tier 2 Screamer Horde Signal Schematic Description
+FuriousRamsayScreamerSignalTier3Schematic,items,Trap,Tier 3 Screamer Horde Signal Schematic
+FuriousRamsayScreamerSignalTier3SchematicDesc,items,Trap,Tier 3 Screamer Horde Signal Schematic Description
+FuriousRamsayScreamerSignalTier4Schematic,items,Trap,Tier 4 Screamer Horde Signal Schematic
+FuriousRamsayScreamerSignalTier4SchematicDesc,items,Trap,Tier 4 Screamer Horde Signal Schematic Description
+FuriousRamsayScreamerSignalTier5Schematic,items,Trap,Tier 5 Screamer Horde Signal Schematic
+FuriousRamsayScreamerSignalTier5SchematicDesc,items,Trap,Tier 5 Screamer Horde Signal Schematic Description
+
+quest_FuriousRamsayHordeTraining_offer,Quests,Quests,"Shall we begin your Horde training?\n\nThe number and difficulty of zombies will slowly ramp up over a period of a few minutes.\n\nBeware... once you start this, there's no turning back.\n\nLoot the last Wave's Horde Trainer Zombie while still alive to get the Horde Signal schematic.\n\nReady when you are..."
+
+FuriousRamsayTrainerTier1Quest,entityclasses,Entity,Horde Trainer Zombie
+FuriousRamsayTrainerTier2Quest,entityclasses,Entity,Horde Trainer Zombie
+FuriousRamsayTrainerTier3Quest,entityclasses,Entity,Horde Trainer Zombie
+FuriousRamsayTrainerTier4Quest,entityclasses,Entity,Horde Trainer Zombie
+FuriousRamsayTrainerTier5Quest,entityclasses,Entity,Horde Trainer Zombie

@@ -1,0 +1,1299 @@
+Key,Source,Context,English
+
+FuriousRamsayStatEntityDamageThrown,ui_display,Item stat,Throw Damage
+FuriousRamsayStatAuraRange,ui_display,Item stat,"Aura Range (m)"
+
+FuriousRamsayExplosivesLabel,UI,Tooltip,Explosives
+FuriousRamsayAuraLabel,UI,Tooltip,Auras
+
+FuriousRamsayPerkHealingAuraMod,item_modifiers,mod,Healing Aura Mod
+FuriousRamsayPerkHealingAuraModDesc,item_modifiers,mod,"Insert into [85b3c7]Head Armor[-]\n\nImprove your [cc4137]life regeneration[-] with this Aura modifier\n\nRequirement for the Healing Aura to function"
+FuriousRamsayPerkStaminaAuraMod,item_modifiers,mod,Stamina Aura Mod
+FuriousRamsayPerkStaminaAuraModDesc,item_modifiers,mod,"Insert into [85b3c7]Head Armor[-]\n\nImprove your [e0e036]stamina regeneration[-] with this Aura modifier\n\nRequirement for the Stamina Aura to function"
+FuriousRamsayPerkMobilityAuraMod,item_modifiers,mod,Mobility Aura Mod
+FuriousRamsayPerkMobilityAuraModDesc,item_modifiers,mod,"Insert into [85b3c7]Head Armor[-]\n\nImprove your [53adbd]mobility[-] with this Aura modifier\n\nRequirement for the Mobility Aura to function"
+FuriousRamsayPerkArmorPenetrationAuraMod,item_modifiers,mod,Armor Penetration Aura Mod
+FuriousRamsayPerkArmorPenetrationAuraModDesc,item_modifiers,mod,"Insert into [85b3c7]Head Armor[-]\n\nImprove your [9155fa]armor penetration[-] with this Aura modifier\n\nRequirement for the Armor Penetration Aura to function"
+FuriousRamsayPerkBlockDamageAuraMod,item_modifiers,mod,Block Damage Aura Mod
+FuriousRamsayPerkBlockDamageAuraModDesc,item_modifiers,mod,"Insert into [85b3c7]Head Armor[-]\n\nImprove your [c256fc]block damage[-] with this Aura modifier\n\nRequirement for the Block Damage Aura to function"
+FuriousRamsayPerkFireRateAuraMod,item_modifiers,mod,Fire Rate Aura Mod
+FuriousRamsayPerkFireRateAuraModDesc,item_modifiers,mod,"Insert into [85b3c7]Head Armor[-]\n\nImprove your [76e381]fire rate[-] with this Aura modifier\n\nRequirement for the Fire Rate Aura to function"
+FuriousRamsayPerkAttackSpeedAuraMod,item_modifiers,mod,Attack Speed Aura Mod
+FuriousRamsayPerkAttackSpeedAuraModDesc,item_modifiers,mod,"Insert into [85b3c7]Head Armor[-]\n\nImprove your [e8a276]attack speed[-] with this Aura modifier\n\nRequirement for the Attack Speed Aura to function"
+FuriousRamsayPerkShadowAuraMod,item_modifiers,mod,Shadow Aura Mod
+FuriousRamsayPerkShadowAuraModDesc,item_modifiers,mod,"Insert into [85b3c7]Head Armor[-]\n\nImprove your [257685]noise and light Reduction[-] with this Aura modifier\n\nRequirement for the Shadow Aura to function"
+FuriousRamsayPerkVitalityAuraMod,item_modifiers,mod,Vitality Aura Mod
+FuriousRamsayPerkVitalityAuraModDesc,item_modifiers,mod,"Insert into [85b3c7]Head Armor[-]\n\nImprove your [781c16]vitality[-] with this Aura modifier\n\nRequirement for the Vitality Aura to function"
+FuriousRamsayPerkAgilityAuraMod,item_modifiers,mod,Agility Aura Mod
+FuriousRamsayPerkAgilityAuraModDesc,item_modifiers,mod,"Insert into [85b3c7]Head Armor[-]\n\nImprove your [1e8529]agility[-] with this Aura modifier\n\nRequirement for the Agility Aura to function"
+FuriousRamsayPerkPierceAuraMod,item_modifiers,mod,Pierce Aura Mod
+FuriousRamsayPerkPierceAuraModDesc,item_modifiers,mod,"Insert into [85b3c7]Head Armor[-]\n\nImprove how many enemies you can [741ca3]penetrate[-] with this Aura modifier\n\nRequirement for the Pierce Aura to function"
+FuriousRamsayPerkTradeAuraMod,item_modifiers,mod,Trade Aura Mod
+FuriousRamsayPerkTradeAuraModDesc,item_modifiers,mod,"Insert into [85b3c7]Head Armor[-]\n\nImprove your [3430a1]trade[-] with this Aura modifier\n\nRequirement for the Trade Aura to function"
+FuriousRamsayPerkPreservationAuraMod,item_modifiers,mod,Preservation Aura Mod
+FuriousRamsayPerkPreservationAuraModDesc,item_modifiers,mod,"Insert into [85b3c7]Head Armor[-]\n\nImprove your [9c572c]item degradation[-] with this Aura modifier\n\nRequirement for the Preservation Aura to function"
+FuriousRamsayPerkFortuityAuraMod,item_modifiers,mod,Fortuity Aura Mod
+FuriousRamsayPerkFortuityAuraModDesc,item_modifiers,mod,"Insert into [85b3c7]Head Armor[-]\n\nImprove your [595959]loot quantity[-] with this Aura modifier\n\nRequirement for the Fortuity Aura to function"
+FuriousRamsayPerkStabilityAuraMod,item_modifiers,mod,Stability Aura Mod
+FuriousRamsayPerkStabilityAuraModDesc,item_modifiers,mod,"Insert into [85b3c7]Head Armor[-]\n\nImprove your [b0b000]accuracy and recoil reduction[-] with this Aura modifier\n\nRequirement for the Stability Aura to function"
+
+FuriousRamsayGiveXP,items,Items,Receive 15,000 XP
+
+statCraftingSmeltTime,ui_display,Item stat,Crafting Speed
+toolBellowsDesc,items,Item,"A tool that can be installed in a Furnace. It increases air flow and so reduces the crafting time in the Furnace"
+
+FuriousRamsayLootOnly,items,Items,Cannot be Crafted
+
+drugSteroidsSchematic,items,Items,Steroids Schematic
+drugSteroidsSchematicDesc,items,Items,"Steroids Schematic Description"
+
+FuriousRamsayRope,items,Items,Rope
+FuriousRamsayRopeDesc,items,Items,"Primitive rope made from plant fibre."
+
+FuriousRamsayCharcoal,items,Items,Charcoal
+FuriousRamsayCharcoalDesc,items,Items,"Description"
+
+FuriousRamsayFatChunk,items,Items,Cooking Fat
+FuriousRamsayFatChunkDesc,items,Items,"This fat can be used in various cooking recipes"
+
+FuriousRamsayGroundCharcoal,items,Items,Ground Charcoal
+FuriousRamsayGroundCharcoalDesc,items,Items,"Description"
+
+FuriousRamsayActivatedCharcoal,items,Items,Activated Charcoal
+FuriousRamsayActivatedCharcoalDesc,items,Items,"Description"
+
+drinkJarEmpty,items,Food,Empty Water Glass
+drinkJarEmptyDesc,items,Food,An empty glass that can be filled at water sources using the secondary action or used in other recipes.
+drinkJarPureMineralWater,items,Food,Distilled Water
+drinkJarPureMineralWaterDesc,items,Food,Distilled water is good for your digestion and hydrates you for days!
+
+FuriousRamsayCollapsedFurnace,items,Items,"Repairable Furnace"
+FuriousRamsayCollapsedChemistryStation,items,Items,"Repairable Chemistry Station"
+FuriousRamsayCollapsedWorkbench,items,Items,"Repairable Workbench"
+FuriousRamsayCollapsedCementMixer,items,Items,"Repairable Cement Mixer"
+FuriousRamsayCollapsedGeneratorBank,items,Items,"Repairable Generator Bank"
+FuriousRamsayCollapsedBatteryBank,items,Items,"Repairable Battery Bank"
+FuriousRamsayCollapsedSolarBank,items,Items,"Repairable Solar Bank"
+
+FuriousRamsayCollapsedCircularMachine,items,Items,"Repairable Table Saw"
+FuriousRamsayCollapsedForge,items,Items,"Repairable Forge"
+FuriousRamsayCollapsedGasStove,items,Items,"Repairable Gas Stovetop"
+FuriousRamsayCollapsedDistiller,items,Items,"Repairable Distiller"
+FuriousRamsayCollapsedShredder,items,Items,"Repairable Shredder"
+
+FuriousRamsayCollapsedFurnaceDesc,items,Items,"Repairable Furnace"
+FuriousRamsayCollapsedChemistryStationDesc,items,Items,"Repairable Chemistry Station"
+FuriousRamsayCollapsedWorkbenchDesc,items,Items,"Repairable Workbench"
+FuriousRamsayCollapsedCementMixerDesc,items,Items,"Repairable Cement Mixer"
+FuriousRamsayCollapsedGeneratorBankDesc,items,Items,"Repairable Generator Bank"
+FuriousRamsayCollapsedBatteryBankDesc,items,Items,"Repairable Battery Bank"
+FuriousRamsayCollapsedSolarBankDesc,items,Items,"Repairable Solar Bank"
+
+FuriousRamsayCollapsedCircularMachineDesc,items,Items,"Repairable Table Saw"
+FuriousRamsayCollapsedForgeDesc,items,Items,"Repairable Forge"
+FuriousRamsayCollapsedGasStoveDesc,items,Items,"Repairable Gas Stovetop"
+FuriousRamsayCollapsedDistillerDesc,items,Items,"Repairable Distiller"
+FuriousRamsayCollapsedShredderDesc,items,Items,"Repairable Shredder"
+
+FuriousRamsayClassXPHunter,items,Items,Hunter Class XP Boost - DEV
+FuriousRamsayClassXPHunterDesc,items,Items,"Use this to boost your Hunter Class XP."
+FuriousRamsayClassXPThug,items,Items,Thug Class XP Boost - DEV
+FuriousRamsayClassXPThugDesc,items,Items,"Use this to boost your Thug Class XP."
+FuriousRamsayClassXPButcher,items,Items,Butcher Class XP Boost - DEV
+FuriousRamsayClassXPButcherDesc,items,Items,"Use this to boost your Butcher Class XP."
+FuriousRamsayClassXPSoldier,items,Items,Soldier Class XP Boost - DEV
+FuriousRamsayClassXPSoldierDesc,items,Items,"Use this to boost your Soldier Class XP."
+FuriousRamsayClassXPTechnogeek,items,Items,Technogeek Class XP Boost - DEV
+FuriousRamsayClassXPTechnogeekDesc,items,Items,"Use this to boost your Technogeek Class XP."
+FuriousRamsayClassXPMadman,items,Items,MAdman Class XP Boost - DEV
+FuriousRamsayClassXPMadmanDesc,items,Items,"Use this to boost your Madman Class XP."
+FuriousRamsayClassXPBuilder,items,Items,Builder Class XP Boost - DEV
+FuriousRamsayClassXPBuilderDesc,items,Items,"Use this to boost your Builder Class XP."
+FuriousRamsayClassXPChef,items,Items,Sous-Chef Class XP Boost - DEV
+FuriousRamsayClassXPChefDesc,items,Items,"Use this to boost your Sous-Chef Class XP."
+
+FuriousRamsayClassXPSpear,items,Items,"Spear Expertise XP Boost - DEV"
+FuriousRamsayClassXPBow,items,Items,"Bow Expertise XP Boost - DEV"
+FuriousRamsayClassXPSniperRifle,items,Items,"Sniper Rifle Expertise XP Boost - DEV"
+FuriousRamsayClassXPClub,items,Items,"Club Expertise XP Boost - DEV"
+FuriousRamsayClassXPShotgun,items,Items,"Shotgun Expertise XP Boost - DEV"
+FuriousRamsayClassXPMachete,items,Items,"Machete Expertise XP Boost - DEV"
+FuriousRamsayClassXPAssaultRifle,items,Items,"Assault Rifle Expertise XP Boost - DEV"
+FuriousRamsayClassXPAxe,items,Items,"Axe Expertise XP Boost - DEV"
+FuriousRamsayClassXPMarksmanRifle,items,Items,"Lever Action Rifle Expertise XP Boost - DEV"
+FuriousRamsayClassXPMachineGun,items,Items,"MAchine Gun Expertise XP Boost - DEV"
+FuriousRamsayClassXPStunBaton,items,Items,"Stun Baton Expertise XP Boost - DEV"
+FuriousRamsayClassXPMagnum,items,Items,"Magnum Expertise XP Boost - DEV"
+FuriousRamsayClassXPDeployableTurret,items,Items,"Deployable Turret Expertise XP Boost - DEV"
+FuriousRamsayClassXPKnuckles,items,Items,"Knuckles Expertise XP Boost - DEV"
+FuriousRamsayClassXPExplosives,items,Items,"Explosives Expertise XP Boost - DEV"
+FuriousRamsayClassXPSubMachinegun,items,Items,"Submachine Gun Expertise XP Boost - DEV"
+FuriousRamsayClassXPHammer,items,Items,"Hammer Expertise XP Boost - DEV"
+FuriousRamsayClassXPPistol,items,Items,"Pistol Expertise XP Boost - DEV"
+FuriousRamsayClassXPKnife,items,Items,"Knife Expertise XP Boost - DEV"
+FuriousRamsayClassXPDesertVulture,items,Items,"Desert Vulture Expertise XP Boost - DEV"
+
+FuriousRamsayClassXPSpearDesc,items,Items,"Use this to boost your Spear Expertise XP."
+FuriousRamsayClassXPBowDesc,items,Items,"Use this to boost your Bow Expertise XP."
+FuriousRamsayClassXPSniperRifleDesc,items,Items,"Use this to boost your Sniper Rifle Expertise XP."
+FuriousRamsayClassXPClubDesc,items,Items,"Use this to boost your Club Expertise XP."
+FuriousRamsayClassXPShotgunDesc,items,Items,"Use this to boost your Shotgun Expertise XP."
+FuriousRamsayClassXPMacheteDesc,items,Items,"Use this to boost your MAchete Expertise XP."
+FuriousRamsayClassXPAssaultRifleDesc,items,Items,"Use this to boost your Assault Rifle Expertise XP."
+FuriousRamsayClassXPAxeDesc,items,Items,"Use this to boost your Axe Expertise XP."
+FuriousRamsayClassXPMarksmanRifleDesc,items,Items,"Use this to boost your Lever Action rifle Expertise XP."
+FuriousRamsayClassXPMachineGunDesc,items,Items,"Use this to boost your MAchine Gun Expertise XP."
+FuriousRamsayClassXPStunBatonDesc,items,Items,"Use this to boost your Stun Baton Expertise XP."
+FuriousRamsayClassXPMagnumDesc,items,Items,"Use this to boost your Magnum Expertise XP."
+FuriousRamsayClassXPDeployableTurretDesc,items,Items,"Use this to boost your Deployable Turret Expertise XP."
+FuriousRamsayClassXPKnucklesDesc,items,Items,"Use this to boost your Knuckles Expertise XP."
+FuriousRamsayClassXPExplosivesDesc,items,Items,"Use this to boost your Explosives Expertise XP."
+FuriousRamsayClassXPSubMachinegunDesc,items,Items,"Use this to boost your Submachine Gun Expertise XP."
+FuriousRamsayClassXPHammerDesc,items,Items,"Use this to boost your Hammer Expertise XP."
+FuriousRamsayClassXPPistolDesc,items,Items,"Use this to boost your Pistol Expertise XP."
+FuriousRamsayClassXPKnifeDesc,items,Items,"Use this to boost your Knife Expertise XP."
+FuriousRamsayClassXPDesertVultureDesc,items,Items,"Use this to boost your Desert Vulture Expertise XP."
+
+
+FuriousRamsayDNAInjector,items,Items,DNA Boost Injector
+FuriousRamsayDNAInjectorDesc,items,Items,"Use this device to inject yourself with any DNA Boost."
+FuriousRamsayDNAInjectorCharisma,items,Items,Injection (Charisma)
+FuriousRamsayDNAInjectorCharismaDesc,items,Items,"This injection will boost your Charisma"
+FuriousRamsayDNAInjectorConstitution,items,Items,Injection (Constitution)
+FuriousRamsayDNAInjectorConstitutionDesc,items,Items,"This injection will boost your Constitution"
+FuriousRamsayDNAInjectorDexterity,items,Items,Injection (Dexterity)
+FuriousRamsayDNAInjectorDexterityDesc,items,Items,"This injection will boost your Dexterity"
+FuriousRamsayDNAInjectorIntelligence,items,Items,Injection (Intelligence)
+FuriousRamsayDNAInjectorIntelligenceDesc,items,Items,"This injection will boost your Intelligence"
+FuriousRamsayDNAInjectorStrength,items,Items,Injection (Strength)
+FuriousRamsayDNAInjectorStrengthDesc,items,Items,"This injection will boost your Strength"
+
+FuriousRamsayDNAInjectorCharismaDev,items,Items,Injection (Charisma) - DEV
+FuriousRamsayDNAInjectorCharismaDevDesc,items,Items,"This injection will boost your Charisma by 10%"
+FuriousRamsayDNAInjectorConstitutionDev,items,Items,Injection (Constitution) - DEV
+FuriousRamsayDNAInjectorConstitutionDevDesc,items,Items,"This injection will boost your Constitution by 10%"
+FuriousRamsayDNAInjectorDexterityDev,items,Items,Injection (Dexterity) - DEV
+FuriousRamsayDNAInjectorDexterityDevDesc,items,Items,"This injection will boost your Dexterity by 10%"
+FuriousRamsayDNAInjectorIntelligenceDev,items,Items,Injection (Intelligence) - DEV
+FuriousRamsayDNAInjectorIntelligenceDevDesc,items,Items,"This injection will boost your Intelligence by 10%"
+FuriousRamsayDNAInjectorStrengthDev,items,Items,Injection (Strength) - DEV
+FuriousRamsayDNAInjectorStrengthDevDesc,items,Items,"This injection will boost your Strength by 10%"
+
+FuriousRamsayLearnClothArmor,items,Items,Cloth Armor Crafting Basic
+FuriousRamsayLearnClothArmorDesc,items,Items,"Cloth Armor Crafting Basics\n\nRequires Player Level: [ff595f]10[-]"
+FuriousRamsayLearnLeatherArmor,items,Items,Leather Armor Crafting Basic
+FuriousRamsayLearnLeatherArmorDesc,items,Items,"Leather Armor Crafting Basics\n\nRequires Player Level: [ff595f]20[-]"
+FuriousRamsayLearnScrapArmor,items,Items,Scrap Armor Crafting Basic
+FuriousRamsayLearnScrapArmorDesc,items,Items,"Scrap Armor Crafting Basics\n\nRequires Player Level: [ff595f]30[-]"
+FuriousRamsayLearnIronArmor,items,Items,Iron Armor Crafting Basic
+FuriousRamsayLearnIronArmorDesc,items,Items,"Iron Armor Crafting Basics\n\nRequires Player Level: [ff595f]50[-]"
+FuriousRamsayLearnSteelArmor,items,Items,Steel Armor Crafting Basic
+FuriousRamsayLearnSteelArmorDesc,items,Items,"Steel Armor Crafting Basics\n\nRequires Player Level: [ff595f]70[-]"
+FuriousRamsayLearnMilitaryArmor,items,Items,Military Armor Crafting Basic
+FuriousRamsayLearnMilitaryArmorDesc,items,Items,"Military Armor Crafting Basics\n\nRequires Player Level: [ff595f]70[-]"
+
+FuriousRamsayRepairKitJunkDrone,items,Items,"Junk Drone Repair Kit"
+FuriousRamsayRepairKitImpactNailgun,items,Items,"Nail Gun Repair Kit"
+FuriousRamsayRepairKitImpactDriver,items,Items,"Impact Driver Repair Kit"
+FuriousRamsayRepairKitSteelPickAxe,items,Items,"Steel Pickaxe Repair Kit"
+FuriousRamsayRepairKitSteelShovel,items,Items,"Steel Shovel Repair Kit"
+FuriousRamsayRepairKitChainsaw,items,Items,"Chainsaw Repair Kit"
+FuriousRamsayRepairKitAuger,items,Items,"Auger Repair Kit"
+FuriousRamsayRepairKitJunkDroneDesc,items,Items,"This is a repair kit for the following tool:\n\n • [a9d9d3]Junk Drone[-]"
+FuriousRamsayRepairKitImpactNailgunDesc,items,Items,"This is a repair kit for the following tool:\n\n • [a9d9d3]Nail Gun[-]"
+FuriousRamsayRepairKitImpactDriverDesc,items,Items,"This is a repair kit for the following tool:\n\n • [a9d9d3]Impact Driver[-]"
+FuriousRamsayRepairKitSteelPickAxeDesc,items,Items,"This is a repair kit for the following tool:\n\n • [a9d9d3]Steel Pickaxe[-]"
+FuriousRamsayRepairKitSteelShovelDesc,items,Items,"This is a repair kit for the following tool:\n\n • [a9d9d3]Steel Shovel[-]"
+FuriousRamsayRepairKitChainsawDesc,items,Items,"This is a repair kit for the following tool:\n\n • [a9d9d3]Chainsaw[-]"
+FuriousRamsayRepairKitAugerDesc,items,Items,"This is a repair kit for the following tool:\n\n • [a9d9d3]Auger[-]"
+
+FuriousRamsayRepairKitSteelClub,items,Items,"Steel Club Repair Kit"
+FuriousRamsayRepairKitSteelSpear,items,Items,"Steel Spear Repair Kit"
+FuriousRamsayRepairKitSteelKnuckles,items,Items,"Steel Knuckles Repair Kit"
+FuriousRamsayRepairKitSteelSledgehammer,items,Items,"Steel Sledgehammer Repair Kit"
+FuriousRamsayRepairKitSteelAxe,items,Items,"Steel Axe Repair Kit"
+FuriousRamsayRepairKitKnife002_FR,items,Items,"Marine Force Sawback Bowie Repair Kit"
+FuriousRamsayRepairKitCleaver001_FR,items,Items,"Cleaver Repair Kit"
+FuriousRamsayRepairKitKatana001_FR,items,Items,"Shinji Katana Repair Kit"
+FuriousRamsayRepairKitKatana002_FR,items,Items,"Modern Wakisashi Repair Kit"
+FuriousRamsayRepairKitAxe005_FR,items,Items,"Viking Axe Repair Kit"
+FuriousRamsayRepairKitSledgeHammer001_FR,items,Items,"Crippling Sledgehammer Repair Kit"
+FuriousRamsayRepairKitHammer003_FR,items,Items,"Spike Hammer Repair Kit"
+FuriousRamsayRepairKitSpear003_FR,items,Items,"Yanyue Dao Spear Repair Kit"
+FuriousRamsayRepairKitClub005_FR,items,Items,"Heavy Iron Flanged Mace Repair Kit"
+FuriousRamsayRepairKitClub001_FR,items,Items,"Samurai Club Repair Kit"
+FuriousRamsayRepairKitJunkBaton001_FR,items,Items,"Blade Baton Repair Kit"
+FuriousRamsayRepairKitStunBaton,items,Items,"Stun Baton Repair Kit"
+FuriousRamsayRepairKitKnife001_FR,items,Items,"Military Kukri Repair Kit"
+FuriousRamsayRepairKitKnife003_FR,items,Items,"Honshu Boshin Combat Kukri Repair Kit"
+FuriousRamsayRepairKitSciFiSword001_FR,items,Items,"Titanium Long Dark Blade Repair Kit"
+FuriousRamsayRepairKitSciFiSword003_FR,items,Items,"Titanium Frost Blade Repair Kit"
+FuriousRamsayRepairKitAxe001_FR,items,Items,"Titanium Tactical Axe Repair Kit"
+FuriousRamsayRepairKitAxe002_FR,items,Items,"Titanium Bearded Battle Axe Repair Kit"
+FuriousRamsayRepairKitAxe003_FR,items,Items,"Titanium War Axe Repair Kit"
+FuriousRamsayRepairKitSledgeHammer002_FR,items,Items,"Battle Sledgehammer Repair Kit"
+FuriousRamsayRepairKitHammer001_FR,items,Items,"Titanium Combat Hammer Repair Kit"
+FuriousRamsayRepairKitHammer002_FR,items,Items,"The Two-Headed Eagle Repair Kit"
+FuriousRamsayRepairKitSpear001_FR,items,Items,"Tai Chi Spear Repair Kit"
+FuriousRamsayRepairKitSpear002_FR,items,Items,"Roman Spear Repair Kit"
+FuriousRamsayRepairKitClub002_FR,items,Items,"Heavy Morningstar Mace Repair Kit"
+FuriousRamsayRepairKitClub009_FR,items,Items,"Steel Spike Mace Repair Kit"
+FuriousRamsayRepairKitClub010_FR,items,Items,"Steel Flanged Mace Repair Kit"
+FuriousRamsayRepairKitKnuckles002_FR,items,Items,"Blade Knuckles Repair Kit"
+FuriousRamsayRepairKitSpear004_FR,items,Items,"Alliance Spear Repair Kit"
+FuriousRamsayRepairKitSpear005_FR,items,Items,"Dragon Spear Repair Kit"
+FuriousRamsayRepairKitClub004_FR,items,Items,"Titanium Spike Mace Repair Kit"
+FuriousRamsayRepairKitClub006_FR,items,Items,"Goth Titanium Mace Repair Kit"
+FuriousRamsayRepairKitClub008_FR,items,Items,"Heavy Titanium Flanged Mace Repair Kit"
+FuriousRamsayRepairKitKnuckles001_FR,items,Items,"Spike Knuckles Repair Kit"
+FuriousRamsayRepairKitBaton001_FR,items,Items,"Plasma Baton Repair Kit"
+FuriousRamsayRepairKitBurningKnife,items,Items,"The Jackal Repair Kit"
+FuriousRamsayRepairKitKatana003_FR,items,Items,"Powered Shinji Katana Repair Kit"
+FuriousRamsayRepairKitAxe004_FR,items,Items,"Stormbreaker Repair Kit"
+FuriousRamsayRepairKitSledgeHammer003_FR,items,Items,"Doomsday Repair Kit"
+FuriousRamsayRepairKitSpear006_FR,items,Items,"Leonidas' Spear Repair Kit"
+FuriousRamsayRepairKitClub003_FR,items,Items,"The Savage Repair Kit"
+FuriousRamsayRepairKitKnuckles003_FR,items,Items,"The Gusher Repair Kit"
+FuriousRamsayRepairKitBaton002_FR,items,Items,"The Shocker Repair Kit"
+
+FuriousRamsayRepairKitSteelClubDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Steel Club[-]"
+FuriousRamsayRepairKitSteelSpearDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Steel Spear[-]"
+FuriousRamsayRepairKitSteelKnucklesDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Steel Knuckles[-]"
+FuriousRamsayRepairKitSteelSledgehammerDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Steel Sledgehammer[-]"
+FuriousRamsayRepairKitSteelAxeDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Steel Axe[-]"
+FuriousRamsayRepairKitKnife002_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Marine Force Sawback Bowie[-]"
+FuriousRamsayRepairKitCleaver001_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Cleaver[-]"
+FuriousRamsayRepairKitKatana001_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Shinji Katana[-]"
+FuriousRamsayRepairKitKatana002_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Modern Wakisashi[-]"
+FuriousRamsayRepairKitAxe005_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Viking Axe[-]"
+FuriousRamsayRepairKitSledgeHammer001_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Crippling Sledgehammer[-]"
+FuriousRamsayRepairKitHammer003_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Spike Hammer[-]"
+FuriousRamsayRepairKitSpear003_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Yanyue Dao Spear[-]"
+FuriousRamsayRepairKitClub005_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Heavy Iron Flanged Mace[-]"
+FuriousRamsayRepairKitClub001_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Samurai Club[-]"
+FuriousRamsayRepairKitJunkBaton001_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Blade Baton[-]"
+FuriousRamsayRepairKitStunBatonDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Stun Baton[-]"
+FuriousRamsayRepairKitKnife001_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Military Kukri[-]"
+FuriousRamsayRepairKitKnife003_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Honshu Boshin Combat Kukri[-]"
+FuriousRamsayRepairKitSciFiSword001_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Titanium Long Dark Blade[-]"
+FuriousRamsayRepairKitSciFiSword003_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Titanium Frost Blade[-]"
+FuriousRamsayRepairKitAxe001_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Titanium Tactical Axe[-]"
+FuriousRamsayRepairKitAxe002_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Titanium Bearded Battle Axe[-]"
+FuriousRamsayRepairKitAxe003_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Titanium War Axe[-]"
+FuriousRamsayRepairKitSledgeHammer002_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Battle Sledgehammer[-]"
+FuriousRamsayRepairKitHammer001_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Titanium Combat Hammer[-]"
+FuriousRamsayRepairKitHammer002_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]The Two-Headed Eagle[-]"
+FuriousRamsayRepairKitSpear001_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Tai Chi Spear[-]"
+FuriousRamsayRepairKitSpear002_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Roman Spear[-]"
+FuriousRamsayRepairKitClub002_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Heavy Morningstar Mace[-]"
+FuriousRamsayRepairKitClub009_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Steel Spike Mace[-]"
+FuriousRamsayRepairKitClub010_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Steel Flanged Mace[-]"
+FuriousRamsayRepairKitKnuckles002_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Blade Knuckles[-]"
+FuriousRamsayRepairKitSpear004_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Alliance Spear[-]"
+FuriousRamsayRepairKitSpear005_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Dragon Spear[-]"
+FuriousRamsayRepairKitClub004_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Titanium Spike Mace[-]"
+FuriousRamsayRepairKitClub006_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Goth Titanium Mace[-]"
+FuriousRamsayRepairKitClub008_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Heavy Titanium Flanged Mace[-]"
+FuriousRamsayRepairKitKnuckles001_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Spike Knuckles[-]"
+FuriousRamsayRepairKitBaton001_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Plasma Baton[-]"
+FuriousRamsayRepairKitBurningKnifeDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]The Jackal[-]"
+FuriousRamsayRepairKitKatana003_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Powered Shinji Katana[-]"
+FuriousRamsayRepairKitAxe004_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Stormbreaker[-]"
+FuriousRamsayRepairKitSledgeHammer003_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Doomsday[-]"
+FuriousRamsayRepairKitSpear006_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Leonidas' Spear[-]"
+FuriousRamsayRepairKitClub003_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]The Savage[-]"
+FuriousRamsayRepairKitKnuckles003_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]The Gusher[-]"
+FuriousRamsayRepairKitBaton002_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]The Shocker[-]"
+
+FuriousRamsayRepairKitWoodenBow,items,Items,"Wooden Bow Repair Kit"
+FuriousRamsayRepairKitIronCrossbow,items,Items,"Iron Crossbow Repair Kit"
+FuriousRamsayRepairKitCompoundBow,items,Items,"Compound Bow Repair Kit"
+FuriousRamsayRepairKitCompoundCrossbow,items,Items,"Compound Crossbow Repair Kit"
+FuriousRamsayRepairKitPistol,items,Items,"Pistol Repair Kit"
+FuriousRamsayRepairKitMagnum44,items,Items,".44 Magnum Repair Kit"
+FuriousRamsayRepairKitDesertVulture,items,Items,"Desert Vulture Repair Kit"
+FuriousRamsayRepairKitDoubleBarrelShotgun,items,Items,"Double Barrel Shotgun Repair Kit"
+FuriousRamsayRepairKitPumpShotgun,items,Items,"Pump Shotgun Repair Kit"
+FuriousRamsayRepairKitAutoShotgun,items,Items,"Auto Shotgun Repair Kit"
+FuriousRamsayRepairKitSMG5,items,Items,"SMG-5 Repair Kit"
+FuriousRamsayRepairKitAK47,items,Items,"AK-47 Repair Kit"
+FuriousRamsayRepairKitTacticalAR,items,Items,"Tactical Assault Rifle Repair Kit"
+FuriousRamsayRepairKitM60,items,Items,"M60 Repair Kit"
+FuriousRamsayRepairKitHuntingRifle,items,Items,"Hunting Rifle Repair Kit"
+FuriousRamsayRepairKitMarksmanRifle,items,Items,"Lever Action Rifle Repair Kit"
+FuriousRamsayRepairKitSniperRifle,items,Items,"Sniper Rifle Repair Kit"
+FuriousRamsayRepairKitRocketLauncher,items,Items,"Rocket Launcher Repair Kit"
+FuriousRamsayRepairKitJunkSledge,items,Items,"Junk Sledge Repair Kit"
+FuriousRamsayRepairKitJunkTurret,items,Items,"Junk Turret Repair Kit"
+
+FuriousRamsayRepairKitarmorCloth,items,Items,"Padded Armor Repair Kit"
+FuriousRamsayRepairKitarmorLeather,items,Items,"Leather Armor Repair Kit"
+FuriousRamsayRepairKitarmorScrap,items,Items,"Scrap Armor Repair Kit"
+FuriousRamsayRepairKitarmorIron,items,Items,"Iron Armor Repair Kit"
+FuriousRamsayRepairKitarmorSteel,items,Items,"Steel Armor Repair Kit"
+FuriousRamsayRepairKitarmorMilitary,items,Items,"Military Armor Repair Kit"
+
+FuriousRamsayRepairKitWoodenBowDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Wooden Bow[-]"
+FuriousRamsayRepairKitIronCrossbowDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Iron Crossbow[-]"
+FuriousRamsayRepairKitCompoundBowDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Compound Bow[-]"
+FuriousRamsayRepairKitCompoundCrossbowDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Compound Crossbow[-]"
+FuriousRamsayRepairKitPistolDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Pistol[-]"
+FuriousRamsayRepairKitMagnum44Desc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3].44 Magnum[-]"
+FuriousRamsayRepairKitDesertVultureDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Desert Vulture[-]"
+FuriousRamsayRepairKitDoubleBarrelShotgunDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Double Barrel Shotgun[-]"
+FuriousRamsayRepairKitPumpShotgunDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Pump Shotgun[-]"
+FuriousRamsayRepairKitAutoShotgunDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Auto Shotgun[-]"
+FuriousRamsayRepairKitSMG5Desc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]SMG-5[-]"
+FuriousRamsayRepairKitAK47Desc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]AK-47[-]"
+FuriousRamsayRepairKitTacticalARDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Tactical Assault Rifle[-]"
+FuriousRamsayRepairKitM60Desc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]M60 Machine Gun[-]"
+FuriousRamsayRepairKitHuntingRifleDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Hunting Rifle[-]"
+FuriousRamsayRepairKitMarksmanRifleDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Lever Action Rifle[-]"
+FuriousRamsayRepairKitSniperRifleDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Sniper Rifle[-]"
+FuriousRamsayRepairKitRocketLauncherDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Rocket Launcher[-]"
+FuriousRamsayRepairKitJunkSledgeDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Junk Sledge[-]"
+FuriousRamsayRepairKitJunkTurretDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Junk turret[-]"
+
+FuriousRamsayRepairKitarmorClothBoots,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Padded Boots[-]"
+FuriousRamsayRepairKitarmorClothGloves,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Padded Gloves[-]"
+FuriousRamsayRepairKitarmorClothHat,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Padded Hood[-]"
+FuriousRamsayRepairKitarmorClothJacket,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Padded Chest Armor[-]"
+FuriousRamsayRepairKitarmorClothPants,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Padded Leg Armor[-]"
+FuriousRamsayRepairKitarmorLeatherBoots,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Leather Boots[-]"
+FuriousRamsayRepairKitarmorLeatherChest,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Leather Chest[-]"
+FuriousRamsayRepairKitarmorLeatherGloves,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Leather Gloves[-]"
+FuriousRamsayRepairKitarmorLeatherHood,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Leather Hood[-]"
+FuriousRamsayRepairKitarmorLeatherPants,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Leather Pants[-]"
+FuriousRamsayRepairKitarmorScrapBoots,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Scrap Boots[-]"
+FuriousRamsayRepairKitarmorScrapChest,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Scrap Chest Armor[-]"
+FuriousRamsayRepairKitarmorScrapGloves,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Scrap Gloves[-]"
+FuriousRamsayRepairKitarmorScrapHelmet,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Scrap Helmet[-]"
+FuriousRamsayRepairKitarmorScrapLegs,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Scrap Leg Armor[-]"
+FuriousRamsayRepairKitarmorIronBoots,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Iron Boots[-]"
+FuriousRamsayRepairKitarmorIronChest,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Iron Chest Armor[-]"
+FuriousRamsayRepairKitarmorIronGloves,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Iron Gloves[-]"
+FuriousRamsayRepairKitarmorIronHelmet,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Iron Helmet[-]"
+FuriousRamsayRepairKitarmorIronLegs,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Iron Leg Armor[-]"
+FuriousRamsayRepairKitarmorSteelBoots,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Steel Boots[-]"
+FuriousRamsayRepairKitarmorSteelChest,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Steel Chest Armor[-]"
+FuriousRamsayRepairKitarmorSteelGloves,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Steel Gloves[-]"
+FuriousRamsayRepairKitarmorSteelHelmet,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Steel Helmet[-]"
+FuriousRamsayRepairKitarmorSteelLegs,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Steel Leg Armor[-]"
+FuriousRamsayRepairKitarmorMilitaryBoots,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Military Boots[-]"
+FuriousRamsayRepairKitarmorMilitaryGloves,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Military Gloves[-]"
+FuriousRamsayRepairKitarmorMilitaryHelmet,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Military Helmet[-]"
+FuriousRamsayRepairKitarmorMilitaryLegs,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Military Leg Armor[-]"
+FuriousRamsayRepairKitarmorMilitaryVest,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Military Vest[-]"
+
+FuriousRamsayCircularSawBlade,items,Items,"Circular Saw Blade"
+FuriousRamsayCircularSawBladeDesc,items,Items,"This Circular Saw Blade would be useful in building a functional Table Saw"
+
+FuriousRamsayMedicalDroidHead,items,Items,Medical Droid Head
+FuriousRamsayMedicalDroidBody,items,Items,Medical Droid Body
+FuriousRamsayMedicalDroidRightArm,items,Items,Medical Droid Right Arm
+FuriousRamsayMedicalDroidLeftArm,items,Items,Medical Droid Left Arm
+FuriousRamsayMedicalDroidLegs,items,Items,Medical Droid Legs
+FuriousRamsayMedicalDroidNoPower,items,Items,Medical Droid (Unpowered)
+
+FuriousRamsayMedicalDroidHeadDesc,items,Items,"This is part of what appears to be a Medical Droid.\n\nIf you gather all of the parts, maybe you can find a way to put back together."
+FuriousRamsayMedicalDroidBodyDesc,items,Items,"This is part of what appears to be a Medical Droid.\n\nIf you gather all of the parts, maybe you can find a way to put back together."
+FuriousRamsayMedicalDroidRightArmDesc,items,Items,"This is part of what appears to be a Medical Droid.\n\nIf you gather all of the parts, maybe you can find a way to put back together."
+FuriousRamsayMedicalDroidLeftArmDesc,items,Items,"This is part of what appears to be a Medical Droid.\n\nIf you gather all of the parts, maybe you can find a way to put back together."
+FuriousRamsayMedicalDroidLegsDesc,items,Items,"This is part of what appears to be a Medical Droid.\n\nIf you gather all of the parts, maybe you can find a way to put back together."
+FuriousRamsayMedicalDroidNoPowerDesc,items,Items,"This is an assembled medical droid.\n\nOnly thing missing is to include the parts that power it up."
+
+FuriousRamsayBakingPan,items,Items,"Baking Pan"
+FuriousRamsayBakingPanDesc,items,Items,"Required for advanced cooking skills"
+
+FuriousRamsayBurner,items,Items,"Burner"
+FuriousRamsayBurnerDesc,items,Items,"Part of a stove"
+
+FuriousRamsayDiapers,items,Items,"Adult Diapers"
+FuriousRamsayDiapersDesc,items,Items,"If you find yourself in need of these, you must have had something you weren't supposed to... or maybe you had no choice.\n\nNow you find yourself restricted in your movement unless you want to shit all over yourself.\n\nPut these on to get some of your dignity back and maybe be able to move normally."
+
+FuriousRamsayScrews,items,Items,"Screws"
+FuriousRamsayScrewsDesc,items,Items,"Nothing better to keep things tightly bound"
+
+FuriousRamsayMotor,items,Items,"Small Motor"
+FuriousRamsayMotorDesc,items,Items,"This motor could have a few uses"
+
+FuriousRamsayHazmatMarkerStarter,blocks,Quest,Hazard Zone Marker
+FuriousRamsayHazmatMarkerStarterDesc,blocks,Quest,"A sign to mark the area as hazardous.\n\nPeople need to know that this is a dangerous zone."
+
+FuriousRamsayHazmatHazardStarter,items,Items,"Biohazard Sign"
+FuriousRamsayHazmatHazardStarterDesc,items,Items,"A Biohazard Sign"
+
+FuriousRamsayHCL,items,Items,Hydrochloric Acid
+FuriousRamsayHCLDesc,items,Items,"These pills are usually meant to help with digestion but you can find another use for them"
+
+FuriousRamsayMoltenSteel,items,Items,Molten Steel
+FuriousRamsayMoltenSteelDesc,items,Items,"Description"
+
+FuriousRamsayCalciumChloride,items,Items,Calcium Chloride
+FuriousRamsayCalciumChlorideDesc,items,Items,"Calcium Chloride is a key ingredient in making activated charcoal"
+
+FuriousRamsayImportantGeneticsLevels,items,Items,Important Note
+FuriousRamsayImportantGeneticsLevelsDesc,items,Items,"Leveling your Genetics will affect some of your skills:\n • [c27272]STRENGTH[-]: Increased Damage with Melee Weapons\n • [bdbf71]DEXTERITY[-]: Increased Max Stamina, Walk and Run Speed\n • [7abd71]CONSTITUTION[-]: Increased Max Health, Mobility and Carrying Capacity\n • [70a4ba]INTELLIGENCE[-]: Increased Damage with Tools\n • [179, 107, 167]CHARISMA[-]: Increased Sell Prices.\n\n - Briston"
+
+FuriousRamsayImportantAuraHunter,items,Items,Important Note
+FuriousRamsayImportantAuraHunterDesc,items,Items,"You have been granted the [53adbd]Ranged Burn Aura[-] ability.\n\nIt will become active when you wear your full set of class gear. You will also be able to craft this gear into a mod that can be worn in any head armor should you wish to use other armor.\n\nPlease note that you cannot both use this mod and use your class gear.\n\n - Briston"
+FuriousRamsayImportantAuraThug,items,Items,Important Note
+FuriousRamsayImportantAuraThugDesc,items,Items,"You have been granted the [e0e036]Ranged Restraint Aura[-] ability.\n\nIt will become active when you wear your full set of class gear. You will also be able to craft this gear into a mod that can be worn in any head armor should you wish to use other armor.\n\nPlease note that you cannot both use this mod and use your class gear.\n\n - Briston"
+FuriousRamsayImportantAuraButcher,items,Items,Important Note
+FuriousRamsayImportantAuraButcherDesc,items,Items,"You have been granted the [ff5b69]Ranged Bleed Aura[-] ability.\n\nIt will become active when you wear your full set of class gear. You will also be able to craft this gear into a mod that can be worn in any head armor should you wish to use other armor.\n\nPlease note that you cannot both use this mod and use your class gear.\n\n - Briston"
+FuriousRamsayImportantAuraSoldier,items,Items,Important Note
+FuriousRamsayImportantAuraSoldierDesc,items,Items,"You have been granted the [76e381]Ranged Double Damage Aura[-] ability.\n\nIt will become active when you wear your full set of class gear. You will also be able to craft this gear into a mod that can be worn in any head armor should you wish to use other armor.\n\nPlease note that you cannot both use this mod and use your class gear.\n\n - Briston"
+FuriousRamsayImportantAuraTechnogeek,items,Items,Important Note
+FuriousRamsayImportantAuraTechnogeekDesc,items,Items,"You have been granted the [736fe3]Ranged Shock Aura[-] ability.\n\nIt will become active when you wear your full set of class gear. You will also be able to craft this gear into a mod that can be worn in any head armor should you wish to use other armor.\n\nPlease note that you cannot both use this mod and use your class gear.\n\n - Briston"
+FuriousRamsayImportantAuraMadman,items,Items,Important Note
+FuriousRamsayImportantAuraMadmanDesc,items,Items,"You have been granted the [e8a276]Ranged Explosion Aura[-] ability.\n\nIt will become active when you wear your full set of class gear. You will also be able to craft this gear into a mod that can be worn in any head armor should you wish to use other armor.\n\nPlease note that you cannot both use this mod and use your class gear.\n\n - Briston"
+FuriousRamsayImportantAuraBuilder,items,Items,Important Note
+FuriousRamsayImportantAuraBuilderDesc,items,Items,"You have been granted the [c256fc]Ranged Dismemberment Aura[-] ability.\n\nIt will become active when you wear your full set of class gear. You will also be able to craft this gear into a mod that can be worn in any head armor should you wish to use other armor.\n\nPlease note that you cannot both use this mod and use your class gear.\n\nOne important note about this aura. If it triggers, you will hear a sound and have very limited time to dismember any target with a ranged weapon.\n\n - Briston"
+FuriousRamsayImportantAuraChef,items,Items,Important Note
+FuriousRamsayImportantAuraChefDesc,items,Items,"You have been granted the [878787]Ranged Knockdown Aura[-] ability.\n\nIt will become active when you wear your full set of class gear. You will also be able to craft this gear into a mod that can be worn in any head armor should you wish to use other armor.\n\nPlease note that you cannot both use this mod and use your class gear.\n\n - Briston"
+
+FuriousRamsayImportantDecoys,items,Items,Important Note
+FuriousRamsayImportantDecoysDesc,items,Items,"You've reached a high enough level to start crafting some explosive Decoys. Here's one you can use as a test.\n\n - Briston"
+
+FuriousRamsayImportantCompanion,items,Items,Important Note
+FuriousRamsayImportantCompanionDesc,items,Items,"This dog needs a master and I thought you might appreciate the company.\n\nIt will stay close to you at all times no matter what mode you use to control your hires. You can use the Stop command if you want it come come back to you though.\n\nOnce you complete 7 Tier 1 quests, the Trader Network will reward you with a Farmer Trader which will have more animals for sale.\n\n - Briston"
+
+FuriousRamsayImportantNPCControl,items,Items,Important Note
+FuriousRamsayImportantNPCControlDesc,items,Items,"In the event you're not too antisocial, there are some survivors that will work for you... for a price.\n\nI've given you a couple commands you can use from your toolbelt. Both are toggles. Press them to cycle through the various options. By default your hires will hunt down everything (Hunting Mode). You have no control over them, they're stubborn.\n\nIn Threat Control Mode they will refrain from attacking any type of hostile animal. In Full control mode they won't attack at all. In both of these last two modes they will engage hostiles if you get hurt or if you start attacking.\n\nThe second command (Stop) will only work in the last two modes. They will halt all current attacks or will resume attacking when you toggle this command. This can be useful if you need to run and force them to follow you. Just don't forget to that they won't help unless you eventually tell them to Resume.\n\n - Briston"
+
+FuriousRamsayImportantGenetics,items,Items,Important Note
+FuriousRamsayImportantGeneticsDesc,items,Items,"Your Genetics are bound by your actions. You will get stronger over time:\n\n • [c27272]STRENGTH[-]: Deal melee damage, Dig, Mine, chop trees, break doors...\n • [bdbf71]DEXTERITY[-]: Jump, Run, Attack, Aim, Reload...\n • [7abd71]CONSTITUTION[-]: Survive incoming damage, Use Drugs...\n • [70a4ba]INTELLIGENCE[-]: Loot, Dig, Mine, Salvage, Complete Quests...\n • [b36ba7]CHARISMA[-]: Complete Quests...\n\nThese will be key in advancing your perks, which you can only purchase from dear old me\n\n - Briston"
+
+FuriousRamsayImportantClassBook,items,Items,Important Note
+FuriousRamsayImportantClassBookDesc,items,Items,"You got your hands on the Starter Pack. It contains a Class Reference Book and some concoction that will apparently improve on your current physical condition.\n\nYou should use this book to determine which path to follow.\n\nThe Class Reference Book lists the recipes you'll need to retrieve the Training Instructions for the Class you wish to specialize in."
+
+FuriousRamsayImportantComponents,items,Items,Important Note
+FuriousRamsayImportantComponentsDesc,items,Items,"[569c59]You will need a number of components for crafting. Here are a few tips on where to find some of them[-]:\n • [57ada6]Small Motors[-] from salvaging Refrigerators, Ice Machines,Washers and Dryers, Air Conditioners, etc\n • [57ada6]Anvils, Pliers, Screwdrivers, Saw Blades[-] from looting toolboxes\n • [57ada6]Propane Tanks[-] from looting BBQs\n • [57ada6]Fountain Pens[-] from looting Metal Desks\n • Picking up [57ada6]Water Coler Bottles, Gas Barrels, Plastic Barrels[-] from POIs\n\nNote: This is for information only and can be thrown away."
+
+FuriousRamsayImportantGlobalAura,items,Items,Important Note
+FuriousRamsayImportantGlobalAuraDesc,items,Items,"[569c59]You have unlocked the ability to get two additional auras[-]:\n\nTake a look at the Good Vibrations section of Global Achievements in your Skill window and see which ones you wish to craft\n\nNote: This is for information only and can be thrown away."
+
+FuriousRamsayImportantSniperRifle,items,Items,Important Note
+FuriousRamsayImportantSniperRifleDesc,items,Items,"[569c59]You have unlocked your Sniper Rifle Expertise[-]:\n\nYou have been given:\n • [57ada6]A Sniper Rifle and repair kit[-]\n • [57ada6]The ability to craft Hunting and Sniper Rifle Repair Kits[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantShotgun,items,Items,Important Note
+FuriousRamsayImportantShotgunDesc,items,Items,"[569c59]You have unlocked your Shotgun Expertise[-]:\n\nYou have been given:\n • [57ada6]A Pump Shotgun and repair kit[-]\n • [57ada6]The ability to craft Shotgun Repair Kits[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantAssaultRifle,items,Items,Important Note
+FuriousRamsayImportantAssaultRifleDesc,items,Items,"[569c59]You have unlocked your Assault Rifle Expertise[-]:\n\nYou have been given:\n • [57ada6]An AK-47 Assault Rifle and repair kit[-]\n • [57ada6]The ability to craft AK-47 and Tactical Assault Rifle Repair Kits[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantMarksmanRifle,items,Items,Important Note
+FuriousRamsayImportantMarksmanRifleDesc,items,Items,"[569c59]You have unlocked your Lever Action Rifle Expertise[-]:\n\nYou have been given:\n • [57ada6]A Lever Action Rifle and repair kit[-]\n • [57ada6]The ability to craft Lever Action Rifle Repair Kits[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantMachineGun,items,Items,Important Note
+FuriousRamsayImportantMachineGunDesc,items,Items,"[569c59]You have unlocked your Machine Gun Expertise[-]:\n\nYou have been given:\n • [57ada6]An M60 Machine Gun and repair kit[-]\n • [57ada6]The ability to craft Machine Gun Repair Kits[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantMagnum,items,Items,Important Note
+FuriousRamsayImportantMagnumDesc,items,Items,"[569c59]You have unlocked your Magnum Expertise[-]:\n\nYou have been given:\n • [57ada6]A .44 Magnum and repair kit[-]\n • [57ada6]The ability to craft Magnum Repair Kits[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantDeployableTurret,items,Items,Important Note
+FuriousRamsayImportantDeployableTurretDesc,items,Items,"[569c59]You have unlocked your Deployable Turret Expertise[-]:\n\nYou have been given:\n • [57ada6]A Junk Turret and repair kit[-]\n • [57ada6]The ability to craft Deployable Turret Repair Kits[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantSubmachineGun,items,Items,Important Note
+FuriousRamsayImportantSubmachineGunDesc,items,Items,"[569c59]You have unlocked your Submachine Gun Expertise[-]:\n\nYou have been given:\n • [57ada6]A SMG-5 Submachine Gun and repair kit[-]\n • [57ada6]The ability to craft Submachine Gun Repair Kits[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantPistol,items,Items,Important Note
+FuriousRamsayImportantPistolDesc,items,Items,"[569c59]You have unlocked your Pistol Expertise[-]:\n\nYou have been given:\n • [57ada6]A Pistol and repair kit[-]\n • [57ada6]The ability to craft Pistol Repair Kits[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantPoweredTurret,items,Items,Important Note
+FuriousRamsayImportantPoweredTurretDesc,items,Items,"[569c59]You have unlocked your POwered Turret Expertise[-]:\n\nYou have been given:\n • [57ada6]A SMG Turret[-]\n • [57ada6]A Shotgun Turret[-]\n • [57ada6]The ability to craft Powered Turrets[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantDesertVulture,items,Items,Important Note
+FuriousRamsayImportantDesertVultureDesc,items,Items,"[569c59]You have unlocked your Desert Vulture Expertise[-]:\n\nYou have been given:\n • [57ada6]A Desert Vulture and repair kit[-]\n • [57ada6]The ability to craft Desert Vulture Repair Kits[-]\n\nNote: This is for information only and can be thrown away."
+
+FuriousRamsayImportantHunterSpearsWeapon1,items,Items,Important Note
+FuriousRamsayImportantHunterSpearsWeapon1Desc,items,Items,"[569c59]You have reached Spears Level 4[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Steel Spear[-]\n • [57ada6]Yanyue Dao Spear[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantHunterSpearsWeapon2,items,Items,Important Note
+FuriousRamsayImportantHunterSpearsWeapon2Desc,items,Items,"[569c59]You have reached Spears Level 6[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Tai Chi Spear[-]\n • [57ada6]Roman Spear[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantHunterSpearsWeapon3,items,Items,Important Note
+FuriousRamsayImportantHunterSpearsWeapon3Desc,items,Items,"[569c59]You have reached Spears Level 7[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Alliance Spear[-]\n • [57ada6]Dragon Spear[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantHunterSpearsWeapon4,items,Items,Important Note
+FuriousRamsayImportantHunterSpearsWeapon4Desc,items,Items,"[569c59]You have reached Spears Level 8[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]Leonidas' Spear[-]]\n\nNote: This is for information only and can be thrown away."
+
+FuriousRamsayImportantThugClubsWeapon1,items,Items,Important Note
+FuriousRamsayImportantThugClubsWeapon1Desc,items,Items,"[569c59]You have reached Clubs Level 4[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Steel Club[-]\n • [57ada6]Samurai Club[-]\n • [57ada6]Heavy Iron Flanged Mace[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantThugClubsWeapon2,items,Items,Important Note
+FuriousRamsayImportantThugClubsWeapon2Desc,items,Items,"[569c59]You have reached Clubs Level 6[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Heavy Morningstar Mace[-]\n • [57ada6]Steel Spike Mace[-]\n • [57ada6]Steel Flanged Mace[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantThugClubsWeapon3,items,Items,Important Note
+FuriousRamsayImportantThugClubsWeapon3Desc,items,Items,"[569c59]You have reached Clubs Level 7[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Titanium Spike Mace[-]\n • [57ada6]Goth Titanium Mace[-]\n • [57ada6]Heavy Titanium Flanged Mace[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantThugClubsWeapon4,items,Items,Important Note
+FuriousRamsayImportantThugClubsWeapon4Desc,items,Items,"[569c59]You have reached Clubs Level 8[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]The Savage[-]]\n\nNote: This is for information only and can be thrown away."
+
+FuriousRamsayImportantButcherSwordsWeapon1,items,Items,Important Note
+FuriousRamsayImportantButcherSwordsWeapon1Desc,items,Items,"[569c59]You have reached Swords Level 4[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Shinji Katana[-]\n • [57ada6]Modern Wakisashi[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantButcherSwordsWeapon2,items,Items,Important Note
+FuriousRamsayImportantButcherSwordsWeapon2Desc,items,Items,"[569c59]You have reached Swords Level 6[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Titanium Long Dark Blade[-]\n • [57ada6]Titanium Frost Blade[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantButcherSwordsWeapon3,items,Items,Important Note
+FuriousRamsayImportantButcherSwordsWeapon3Desc,items,Items,"[569c59]You have reached Swords Level 8[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]Powered Shinji Katana[-]\n\nNote: This is for information only and can be thrown away."
+
+FuriousRamsayImportantSoldierAxesWeapon1,items,Items,Important Note
+FuriousRamsayImportantSoldierAxesWeapon1Desc,items,Items,"[569c59]You have reached Axes Level 4[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Steel Axe[-]\n • [57ada6]Viking Axe[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantSoldierAxesWeapon2,items,Items,Important Note
+FuriousRamsayImportantSoldierAxesWeapon2Desc,items,Items,"[569c59]You have reached Axes Level 6[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Titanium Tactical Axe[-]\n • [57ada6]Titanium Bearded Battle Axe[-]\n • [57ada6]Titanium War Axe[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantSoldierAxesWeapon3,items,Items,Important Note
+FuriousRamsayImportantSoldierAxesWeapon3Desc,items,Items,"[569c59]You have reached Axes Level 8[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]Stormbreaker[-]\n\nNote: This is for information only and can be thrown away."
+
+FuriousRamsayImportantTechnogeekBatonsWeapon1,items,Items,Important Note
+FuriousRamsayImportantTechnogeekBatonsWeapon1Desc,items,Items,"[569c59]You have reached Batons Level 4[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]Blade Baton[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantTechnogeekBatonsWeapon2,items,Items,Important Note
+FuriousRamsayImportantTechnogeekBatonsWeapon2Desc,items,Items,"[569c59]You have reached Batons Level 6[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]Stun Baton[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantTechnogeekBatonsWeapon3,items,Items,Important Note
+FuriousRamsayImportantTechnogeekBatonsWeapon3Desc,items,Items,"[569c59]You have reached Batons Level 7[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]Plasma Baton[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantTechnogeekBatonsWeapon4,items,Items,Important Note
+FuriousRamsayImportantTechnogeekBatonsWeapon4Desc,items,Items,"[569c59]You have reached Batons Level 8[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]The Shocker[-]\n\nNote: This is for information only and can be thrown away."
+
+FuriousRamsayImportantMadmanKnucklesWeapon1,items,Items,Important Note
+FuriousRamsayImportantMadmanKnucklesWeapon1Desc,items,Items,"[569c59]You have reached Knuckles Level 4[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]Steel Knuckles[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantMadmanKnucklesWeapon2,items,Items,Important Note
+FuriousRamsayImportantMadmanKnucklesWeapon2Desc,items,Items,"[569c59]You have reached Knuckles Level 6[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]Blade Knuckles[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantMadmanKnucklesWeapon3,items,Items,Important Note
+FuriousRamsayImportantMadmanKnucklesWeapon3Desc,items,Items,"[569c59]You have reached Knuckles Level 7[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]Spike Knuckles[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantMadmanKnucklesWeapon4,items,Items,Important Note
+FuriousRamsayImportantMadmanKnucklesWeapon4Desc,items,Items,"[569c59]You have reached Knuckles Level 8[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]The Gusher[-]\n\nNote: This is for information only and can be thrown away."
+
+FuriousRamsayImportantBuilderHammersWeapon1,items,Items,Important Note
+FuriousRamsayImportantBuilderHammersWeapon1Desc,items,Items,"[569c59]You have reached Hammers Level 4[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Steel Sledgehammer[-]\n • [57ada6]Crippling Sledgehammer[-]\n • [57ada6]Spike Hammer[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantBuilderHammersWeapon2,items,Items,Important Note
+FuriousRamsayImportantBuilderHammersWeapon2Desc,items,Items,"[569c59]You have reached Hammers Level 6[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Battle Sledgehammer[-]\n • [57ada6]Titanium Combat Hammer[-]\n • [57ada6]The Two-Headed Eagle[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantBuilderHammersWeapon3,items,Items,Important Note
+FuriousRamsayImportantBuilderHammersWeapon3Desc,items,Items,"[569c59]You have reached Hammers Level 8[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]Doomsday[-]\n\nNote: This is for information only and can be thrown away."
+
+FuriousRamsayImportantChefKnivesWeapon1,items,Items,Important Note
+FuriousRamsayImportantChefKnivesWeapon1Desc,items,Items,"[569c59]You have reached Knives Level 4[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Marine Force Sawback Bowie[-]\n • [57ada6]Cleaver[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantChefKnivesWeapon2,items,Items,Important Note
+FuriousRamsayImportantChefKnivesWeapon2Desc,items,Items,"[569c59]You have reached Knives Level 6[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Military Kukri[-]\n • [57ada6]Honshu Boshin Combat Kukri[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantChefKnivesWeapon3,items,Items,Important Note
+FuriousRamsayImportantChefKnivesWeapon3Desc,items,Items,"[569c59]You have reached Knives Level 8[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]The Jackal, Assassin Knife[-]\n\nNote: This is for information only and can be thrown away."
+
+FuriousRamsayLargeRock,items,Items,Large Rock
+FuriousRamsayLargeRockDesc,items,Items,"Description"
+
+FuriousRamsayLimestone,items,Items,Limestone
+FuriousRamsayLimestoneDesc,items,Items,"Description"
+
+FuriousRamsayGroundLimestone,items,Items,Limestone fragments
+FuriousRamsayGroundLimestoneDesc,items,Items,"Description"
+
+FuriousRamsayHammerPliers,items,Items,Hammer and Pliers
+FuriousRamsayHammerPliersDesc,items,Items,"Description"
+
+FuriousRamsayPliers,items,Items,Pliers
+FuriousRamsayPliersDesc,items,Items,"Description"
+
+FuriousRamsayScrewdriver,items,Items,Screwdriver
+FuriousRamsayScrewdriverDesc,items,Items,"Description"
+
+FuriousRamsayNails,items,Items,Nails
+FuriousRamsayNailsDesc,items,Items,"Description"
+
+FuriousRamsayBarbedWire,items,Items,Barbed Wire
+FuriousRamsayBarbedWireDesc,items,Items,"Description"
+
+FuriousRamsayWoodLog,items,Items,Wood Log
+FuriousRamsayWoodLogDesc,items,Items,"Wood Log"
+
+FuriousRamsayTreeBranch,items,Items,Tree Branch
+FuriousRamsayTreeBranchDesc,items,Items,"Tree Branch"
+
+FuriousRamsayWoodPlank,items,Items,Wood Plank
+FuriousRamsayWoodPlankDesc,items,Items,"Wood Plank"
+
+FuriousRamsayWoodStick,items,Items,Stick
+FuriousRamsayWoodStickDesc,items,Items,"Stick"
+
+FuriousRamsayTreeSap,items,Items,Tree Sap
+FuriousRamsayTreeSapDesc,items,Items,"Description"
+
+FuriousRamsayInkBottleEmpty,items,Items,Empty Bottle of Ink
+FuriousRamsayInkBottleEmptyDesc,items,Items,"Description"
+
+FuriousRamsayInkBottle,items,Items,Bottle of Ink
+FuriousRamsayInkBottleDesc,items,Items,"Description"
+
+FuriousRamsayFountainPen,items,Items,Fountain Pen
+FuriousRamsayFountainPenDesc,items,Items,"Description"
+
+FuriousRamsayBlueprintPaper,items,Items,Blueprint Paper
+FuriousRamsayBlueprintPaperDesc,items,Items,"Description"
+
+FuriousRamsayPerkHealingAuraBlueprint,items,Items,Healing Aura Blueprint
+FuriousRamsayPerkHealingAuraBlueprintDesc,items,Items,"Use this blueprint and gather all necessary component to assemble what is required to make the following mod:\n\n[cc4137]HEALING AURA[-] MOD"
+FuriousRamsayPerkStaminaAuraBlueprint,items,Items,Stamina Aura Blueprint
+FuriousRamsayPerkStaminaAuraBlueprintDesc,items,Items,"Use this blueprint and gather all necessary component to assemble what is required to make the following mod:\n\n[e0e036]STAMINA AURA[-] MOD"
+FuriousRamsayPerkMobilityAuraBlueprint,items,Items,Mobility Aura Blueprint
+FuriousRamsayPerkMobilityAuraBlueprintDesc,items,Items,"Use this blueprint and gather all necessary component to assemble what is required to make the following mod:\n\n[53adbd]MOBILITY AURA[-] MOD"
+FuriousRamsayPerkArmorPenetrationAuraBlueprint,items,Items,Armor Penetration Aura Blueprint
+FuriousRamsayPerkArmorPenetrationAuraBlueprintDesc,items,Items,"Use this blueprint and gather all necessary component to assemble what is required to make the following mod:\n\n[9155fa]ARMOR PENETRATION AURA[-] MOD"
+FuriousRamsayPerkBlockDamageAuraBlueprint,items,Items,Block Damage Aura Blueprint
+FuriousRamsayPerkBlockDamageAuraBlueprintDesc,items,Items,"Use this blueprint and gather all necessary component to assemble what is required to make the following mod:\n\n[c256fc]BLOCK DAMAGE AURA[-] MOD"
+FuriousRamsayPerkFireRateAuraBlueprint,items,Items,Fire Rate Aura Blueprint
+FuriousRamsayPerkFireRateAuraBlueprintDesc,items,Items,"Use this blueprint and gather all necessary component to assemble what is required to make the following mod:\n\n[76e381]FIRE RATE AURA[-] MOD"
+FuriousRamsayPerkAttackSpeedAuraBlueprint,items,Items,Attack Speed Aura Blueprint
+FuriousRamsayPerkAttackSpeedAuraBlueprintDesc,items,Items,"Use this blueprint and gather all necessary component to assemble what is required to make the following mod:\n\n[e8a276]ATTACK SPEED AURA[-] MOD"
+FuriousRamsayPerkShadowAuraBlueprint,items,Items,Shadow Aura Blueprint
+FuriousRamsayPerkShadowAuraBlueprintDesc,items,Items,"Use this blueprint and gather all necessary component to assemble what is required to make the following mod:\n\n[257685]SHADOW AURA[-] MOD"
+FuriousRamsayPerkVitalityAuraBlueprint,items,Items,Vitality Aura Blueprint
+FuriousRamsayPerkVitalityAuraBlueprintDesc,items,Items,"Use this blueprint and gather all necessary component to assemble what is required to make the following mod:\n\n[781c16]VITALITY AURA[-] MOD"
+FuriousRamsayPerkAgilityAuraBlueprint,items,Items,Agility Aura Blueprint
+FuriousRamsayPerkAgilityAuraBlueprintDesc,items,Items,"Use this blueprint and gather all necessary component to assemble what is required to make the following mod:\n\n[1e8529]AGILITY AURA[-] MOD"
+FuriousRamsayPerkPierceAuraBlueprint,items,Items,Pierce Aura Blueprint
+FuriousRamsayPerkPierceAuraBlueprintDesc,items,Items,"Use this blueprint and gather all necessary component to assemble what is required to make the following mod:\n\n[741ca3]PIERCE AURA[-] MOD"
+FuriousRamsayPerkTradeAuraBlueprint,items,Items,Trade Aura Blueprint
+FuriousRamsayPerkTradeAuraBlueprintDesc,items,Items,"Use this blueprint and gather all necessary component to assemble what is required to make the following mod:\n\n[3430a1]TRADE AURA[-] MOD"
+FuriousRamsayPerkPreservationAuraBlueprint,items,Items,Preservation Aura Blueprint
+FuriousRamsayPerkPreservationAuraBlueprintDesc,items,Items,"Use this blueprint and gather all necessary component to assemble what is required to make the following mod:\n\n[9c572c]PERSERVATION AURA[-] MOD"
+FuriousRamsayPerkFortuityAuraBlueprint,items,Items,Fortuity Aura Blueprint
+FuriousRamsayPerkFortuityAuraBlueprintDesc,items,Items,"Use this blueprint and gather all necessary component to assemble what is required to make the following mod:\n\n[595959]FORTUITY AURA[-] MOD"
+FuriousRamsayPerkStabilityAuraBlueprint,items,Items,Stability Aura Blueprint
+FuriousRamsayPerkStabilityAuraBlueprintDesc,items,Items,"Use this blueprint and gather all necessary component to assemble what is required to make the following mod:\n\n[b0b000]STABILITY AURA[-] MOD"
+
+FuriousRamsayPropaneTank,items,Items,Propane Tank
+FuriousRamsayPropaneTankDesc,items,Items,"Description"
+
+FuriousRamsayKnife001_FR,items,Melee,"Military Kukri"
+FuriousRamsayKnife001_FRDesc,items,Melee,"This heavy-duty chopper gets its shape from its older sibling, the Kukri Machete, adapted for military combat.\n\nWill reach its full potential if training as a [878787]SOUS-CHEF[-] and reach level [549990]30[-]."
+FuriousRamsayKnife002_FR,items,Melee,"Marine Force Sawback Bowie"
+FuriousRamsayKnife002_FRDesc,items,Melee,"This knife is a step up from your standard hunting knife.\n\nWill reach its full potential if training as a [878787]SOUS-CHEF[-] and reach level [549990]20[-]."
+FuriousRamsayKnife003_FR,items,Melee,"Honshu Boshin Combat Kukri"
+FuriousRamsayKnife003_FRDesc,items,Melee,"This heavy-duty chopper gets its shape from its older sibling, the Kukri Machete, with the Boshin blade quality you come to expect from the Honshu family.\n\nWill reach its full potential if training as a [878787]SOUS-CHEF[-] and reach level [549990]30[-]."
+FuriousRamsayKnife004_FR,items,Melee,"Wraith Kunai Throwing Knife"
+FuriousRamsayKnife004_FRDesc,items,Melee,"A set of knives you can successively throw for ranged damage.\n\nEach knife can be retrieved after having been thrown.\n\nWhen you reach:\n • Player Level [549990]15[-]: Your knives have a [ff595f]10%[-] chance to [e08989]BURN[-] your target\n • Player Level [549990]25[-]: Your knives have a [ff595f]15%[-] chance to [e08989]BURN[-] your target\n • Player Level [549990]35[-]: Your knives have a [ff595f]20%[-] chance to [8997e0]SHOCK[-] and [e08989]BURN[-] your target"
+ItemsWeaponsCleaver001_FR,items,Items,Cleaver
+ItemsWeaponsCleaver001_FRDesc,items,Items,"Cleaver Description"
+
+ItemsWeaponsSciFiSword001_FR,items,Items,Titanium Long Dark Blade
+ItemsWeaponsSciFiSword001_FRDesc,items,Items,"Titanium Long Dark Blade Description"
+ItemsWeaponsSciFiSword003_FR,items,Items,Titanium Frost Blade
+ItemsWeaponsSciFiSword003_FRDesc,items,Items,"Titanium Frost Blade Description"
+ItemsWeaponsKatana001_FR,items,Items,Shinji Katana
+ItemsWeaponsKatana001_FRDesc,items,Items,"Shinji Katana Description"
+ItemsWeaponsKatana002_FR,items,Items,Modern Wakisashi
+ItemsWeaponsKatana002_FRDesc,items,Items,"Modern Wakisashi Description"
+ItemsWeaponsKatana003_FR,items,Items,Powered Shinji Katana
+ItemsWeaponsKatana003_FRDesc,items,Items,"Powered Shinji Katana Description"
+
+ItemsWeaponsAxe001_FR,items,Items,Titanium Tactical Axe
+ItemsWeaponsAxe001_FRDesc,items,Items,Titanium Tactical Axe Description
+ItemsWeaponsAxe002_FR,items,Items,Titanium Bearded Battle Axe
+ItemsWeaponsAxe002_FRDesc,items,Items,Titanium Bearded Battle Axe Description
+ItemsWeaponsAxe003_FR,items,Items,Titanium War Axe
+ItemsWeaponsAxe003_FRDesc,items,Items,Titanium War Axe Description
+ItemsWeaponsAxe004_FR,items,Items,Stormbreaker
+ItemsWeaponsAxe004_FRDesc,items,Items,Stormbreaker Description
+ItemsWeaponsAxe005_FR,items,Items,Viking Axe
+ItemsWeaponsAxe005_FRDesc,items,Items,Viking Axe Description
+
+ItemsWeaponsSledgeHammer001_FR,items,Items,Crippling Sledgehammer
+ItemsWeaponsSledgeHammer001_FRDesc,items,Items,"Crippling Sledgehammer Description"
+ItemsWeaponsSledgeHammer002_FR,items,Items,Battle Sledgehammer
+ItemsWeaponsSledgeHammer002_FRDesc,items,Items,"Battle Sledgehammer Description"
+ItemsWeaponsSledgeHammer003_FR,items,Items,"Doomsday"
+ItemsWeaponsSledgeHammer003_FRDesc,items,Items,"Doomsday Description"
+ItemsWeaponsHammer001_FR,items,Items,Titanium Combat Hammer
+ItemsWeaponsHammer001_FRDesc,items,Items,"Titanium Combat Hammer Description"
+ItemsWeaponsHammer002_FR,items,Items,The Two-Headed Eagle
+ItemsWeaponsHammer002_FRDesc,items,Items,"The Two-Headed Eagle Description"
+ItemsWeaponsHammer003_FR,items,Items,Spike Hammer
+ItemsWeaponsHammer003_FRDesc,items,Items,"Spike Hammer Description"
+
+ItemsWeaponsSpear001_FR,items,Items,Tai Chi Spear
+ItemsWeaponsSpear001_FRDesc,items,Items,Tai Chi Spear Description
+ItemsWeaponsSpear002_FR,items,Items,Roman Spear
+ItemsWeaponsSpear002_FRDesc,items,Items,Roman Spear Description
+ItemsWeaponsSpear003_FR,items,Items,Yanyue Dao Spear
+ItemsWeaponsSpear003_FRDesc,items,Items,Yanyue Dao Spear Description
+ItemsWeaponsSpear004_FR,items,Items,Alliance Spear
+ItemsWeaponsSpear004_FRDesc,items,Items,Alliance Spear Description
+ItemsWeaponsSpear005_FR,items,Items,Dragon Spear
+ItemsWeaponsSpear005_FRDesc,items,Items,Dragon Spear Description
+ItemsWeaponsSpear006_FR,items,Items,Leonidas' Spear
+ItemsWeaponsSpear006_FRDesc,items,Items,Leonidas' Spear Description
+
+ItemsWeaponsClub001_FR,items,Items,Samurai Club
+ItemsWeaponsClub001_FRDesc,items,Items,Samurai Club
+ItemsWeaponsClub002_FR,items,Items,Heavy Morningstar Mace
+ItemsWeaponsClub002_FRDesc,items,Items,Heavy Morningstar Description
+ItemsWeaponsClub003_FR,items,Items,The Savage
+ItemsWeaponsClub003_FRDesc,items,Items,The Savage Description
+ItemsWeaponsClub004_FR,items,Items,Titanium Spike Mace
+ItemsWeaponsClub004_FRDesc,items,Items,Titanium Spike Mace Description
+ItemsWeaponsClub005_FR,items,Items,Heavy Iron Flanged Mace
+ItemsWeaponsClub005_FRDesc,items,Items,Heavy Iron Flanged Mace Description
+ItemsWeaponsClub006_FR,items,Items,Goth Titanium Mace
+ItemsWeaponsClub006_FRDesc,items,Items,Goth Titanium Mace Description
+ItemsWeaponsClub008_FR,items,Items,Heavy Titanium Flanged Mace
+ItemsWeaponsClub008_FRDesc,items,Items,Heavy Titanium Flanged Mace Description
+ItemsWeaponsClub009_FR,items,Items,Steel Spike Mace
+ItemsWeaponsClub009_FRDesc,items,Items,Steel Spike Mace Description
+ItemsWeaponsClub010_FR,items,Items,Steel Flanged Mace
+ItemsWeaponsClub010_FRDesc,items,Items,Steel Flanged Mace Description
+
+ItemsWeaponsJunkBaton001_FR,items,Items,Blade Baton
+ItemsWeaponsJunkBaton001_FRDesc,items,Items,"Blade Baton"
+ItemsWeaponsBaton001_FR,items,Items,Plasma Baton
+ItemsWeaponsBaton001_FRDesc,items,Items,"Plasma Baton Description"
+ItemsWeaponsBaton002_FR,items,Items,"The Shocker"
+ItemsWeaponsBaton002_FRDesc,items,Items,"The Shocker Description"
+
+ItemsWeaponsKnuckles001_FR,items,Items,Spike Knuckles
+ItemsWeaponsKnuckles001_FRDesc,items,Items,"Spike Knuckles Description"
+ItemsWeaponsKnuckles002_FR,items,Items,Blade Knuckles
+ItemsWeaponsKnuckles002_FRDesc,items,Items,"Blade Knuckles Description"
+ItemsWeaponsKnuckles003_FR,items,Items,The Gusher
+ItemsWeaponsKnuckles003_FRDesc,items,Items,"The Gusher Description"
+
+FuriousRamsayWorkbench,blocks,Block,Workbench
+FuriousRamsayForge,blocks,Block,Forge
+FuriousRamsayFurnace,blocks,Block,Furnace
+FuriousRamsayCementMixer,blocks,Block,Cement Mixer
+FuriousRamsayChemistryStation,blocks,Block,Chemistry Station
+FuriousRamsayGeneratorBank,blocks,Block,Generator Bank
+FuriousRamsaySolarBank,blocks,Block,Solar Bank
+FuriousRamsayBatteryBank,blocks,Block,Battery Bank
+
+FuriousRamsayWorkbenchDesc,blocks,Block,Workbench Description
+FuriousRamsayForgeDesc,blocks,Block,Forge Description
+FuriousRamsayFurnaceDesc,blocks,Block,Furnace Description
+FuriousRamsayCementMixerDesc,blocks,Block,Cement Mixer Description
+FuriousRamsayChemistryStationDesc,blocks,Block,Chemistry Station Description
+FuriousRamsayGeneratorBankDesc,blocks,Block,Generator Bank Description
+FuriousRamsaySolarBankDesc,blocks,Block,Solar Bank Description
+FuriousRamsayBatteryBankDesc,blocks,Block,Battery Bank Description
+
+WoodContainer001_FR,blocks,Block,Basic Chest
+WoodContainer001_FRDesc,blocks,Block,"Description"
+
+WorkbenchWoodWorking001_FR,blocks,Block,Workbench
+WorkbenchWoodWorking001_FRDesc,blocks,Block,"Description"
+
+WorkbenchToolbox001_FR,blocks,Block,Toolbox
+WorkbenchToolbox001_FRDesc,blocks,Block,"Description"
+
+WorkbenchCircularMachine001_FR,blocks,Block,Table Saw
+WorkbenchCircularMachine001_FRDesc,blocks,Block,"Description"
+
+WorkbenchFurnace001_FR,blocks,Block,Furnace
+WorkbenchFurnace001_FRDesc,blocks,Block,"Description"
+
+WorkbenchForge001_FR,blocks,Block,Forge
+WorkbenchForge001_FRDesc,blocks,Block,"Description"
+
+WorkbenchCementMixer001_FR,blocks,Block,Cement Mixer
+WorkbenchCementMixer001_FRDesc,blocks,Block,"Description"
+
+WorkbenchGasStove001_FR,blocks,Block,Gas Stovetop
+WorkbenchGasStove001_FRDesc,blocks,Block,"Description"
+
+WorkbenchDistiller001_FR,blocks,Block,Distiller
+WorkbenchDistiller001_FRDesc,blocks,Block,"Description"
+
+WorkbenchGenerator001_FR,blocks,Block,Generator
+WorkbenchGenerator001_FRDesc,blocks,Block,"Description"
+
+WorkbenchMetalBox001_FR,blocks,Block,Lockers
+WorkbenchMetalBox001_FRDesc,blocks,Block,"Description"
+
+WorkbenchShredder001_FR,blocks,Block,Shredder
+WorkbenchShredder001_FRDesc,blocks,Block,"Description"
+
+WorkbenchResearchTable001_FR,blocks,Block,Research Table
+WorkbenchResearchTable001_FRDesc,blocks,Block,Description
+
+WorkbenchMortarPestle001_FR,blocks,Block,Mortar and Pestle
+WorkbenchMortarPestle001_FRDesc,blocks,Block,"Description"
+
+WorkbenchIronOven001_FR,blocks,Block,Iron Oven
+WorkbenchIronOven001_FRDesc,blocks,Block,"Description"
+
+forge,blocks,Workstation,Furnace
+
+forgeDesc,blocks,Workstation,"Used to smelt metals to craft tools and weapons."
+forgeSchematic,blocks,Workstation,Furnace Schematic
+
+FuriousRamsaySchematicWorkbenchMortarPestle001_FR,items,Item,"Mortar and Pestle Schematic"
+FuriousRamsaySchematicWorkbenchToolbox001_FR,items,Item,"Toolbox Schematic"
+FuriousRamsaySchematicWorkbenchFurnace001_FR,items,Item,"Furnace Schematic"
+FuriousRamsaySchematicWorkbenchForge001_FR,items,Item,"Forge Schematic"
+FuriousRamsaySchematicWorkbenchDistiller001_FR,items,Item,"Distiller Schematic"
+FuriousRamsaySchematicWorkbenchCircularMachine001_FR,items,Item,"Table Saw Schematic"
+FuriousRamsaySchematicWorkbenchWoodWorking001_FR,items,Item,"Workbench Schematic"
+FuriousRamsaySchematicWorkbenchGasStove001_FR,items,Item,"Gas Stovetop Schematic"
+FuriousRamsaySchematicWorkbenchIronOven001_FR,items,Item,"Iron Oven Schematic"
+FuriousRamsaySchematicWorkbenchCementMixer001_FR,items,Item,"Cement Mixer Schematic"
+FuriousRamsaySchematicChemistryStation,items,Item,"Chemistry Station Schematic"
+FuriousRamsaySchematicWorkbenchShredder001_FR,items,Item,"Shredder Schematic"
+FuriousRamsaySchematicWorkbenchResearchTable001_FR,items,Item,"Research Table Schematic"
+FuriousRamsaySchematicWorkbenchMortalPestle001_FR,items,Item,"Mortar and Pestle Schematic"
+FuriousRamsaySchematicWorkbenchGenerator001_FR,items,Item,"Generator Bank Schematic"
+FuriousRamsaySchematicWorkbenchBatteryBank001_FR,items,Item,"Battery Bank Schematic"
+FuriousRamsaySchematicWorkbenchSolarBank001_FR,items,Item,"Solar Bank Schematic"
+
+FuriousRamsaySchematicMedDroid,items,Item,"Medical Droid Schematic"
+
+FuriousRamsaySchematicToolIronPickAxe,items,Item,"Iron Pickaxe Schematic"
+FuriousRamsaySchematicToolSteelPickAxe,items,Item,"Steel Pickaxe Schematic"
+FuriousRamsaySchematicToolSteelAxe,items,Item,"Steel Axe Schematic"
+FuriousRamsaySchematicToolIronShovel,items,Item,"Iron Shovel Schematic"
+FuriousRamsaySchematicToolSteelShovel,items,Item,"Steel Shovel Schematic"
+FuriousRamsaySchematicToolSalvageWrench,items,Item,"Salvage Wrench Schematic"
+FuriousRamsaySchematicToolIronHoe,items,Item,"Iron Hoe Schematic"
+FuriousRamsaySchematicToolIcePick001,items,Item,"Ice Pick Schematic"
+FuriousRamsaySchematicToolAuger,items,Item,"Auger Schematic"
+FuriousRamsaySchematicToolChainsaw,items,Item,"Chainsaw Schematic"
+FuriousRamsaySchematicToolIronFireaxe,items,Item,"Iron Fireaxe Schematic"
+
+FuriousRamsaySchematicWeaponSteelAxe,items,Item,"Steel Axe Schematic"
+FuriousRamsaySchematicWeaponHuntingKnife,items,Item,"Hunting Knife Schematic"
+FuriousRamsaySchematicWeaponMachete,items,Item,"Machete Schematic"
+FuriousRamsaySchematicWeaponBaseballBat,items,Item,"Baseball Bat Schematic"
+FuriousRamsaySchematicWeaponSteelClub,items,Item,"Steel Club Schematic"
+FuriousRamsaySchematicWeaponStunBaton,items,Item,"Stun Baton Schematic"
+FuriousRamsaySchematicWeaponsJunkBaton001_FR,items,Item,"Blade Baton Schematic"
+FuriousRamsaySchematicWeaponIronSpear,items,Item,"Iron Spear Schematic"
+FuriousRamsaySchematicWeaponSteelSpear,items,Item,"Steel Spear Schematic"
+FuriousRamsaySchematicWeaponIronSledgeHammer,items,Item,"Iron Sledgehammer Schematic"
+FuriousRamsaySchematicWeaponSteelSledgeHammer,items,Item,"Steel Slegdehammer Schematic"
+FuriousRamsaySchematicWeaponIronKnuckles,items,Item,"Iron Knuckles Schematic"
+FuriousRamsaySchematicWeaponSteelKnuckles,items,Item,"Steel Knuckles Schematic"
+FuriousRamsaySchematicWeaponJunkSledge,items,Item,"Junk Sledge Schematic"
+FuriousRamsaySchematicWeaponSpikedClub001,items,Item,"Spiked Club Schematic"
+FuriousRamsaySchematicWeaponMedievalHammer001,items,Item,"Combat Hammer Schematic"
+FuriousRamsaySchematicWeaponSciFiSword001,items,Item,"Dark Long Blade Schematic"
+FuriousRamsaySchematicWeaponCrowbar001,items,Item,"Crowbar Schematic"
+FuriousRamsaySchematicWeaponCleaver001,items,Item,"Cleaver Schematic"
+FuriousRamsaySchematicWeaponSledgeHammer001,items,Item,"Killer Hammer Schematic"
+FuriousRamsaySchematicWeaponAxe001,items,Item,"Titanium Combat Axe Schematic"
+FuriousRamsaySchematicWeaponAxe002,items,Item,"Titanium Combat Axe Schematic"
+FuriousRamsaySchematicWeaponPistol,items,Item,"Pistol Schematic"
+FuriousRamsaySchematicWeaponSMG,items,Item,"SMG Schematic"
+FuriousRamsaySchematicWeaponMagnum,items,Item,"Magnum Schematic"
+FuriousRamsaySchematicWeaponDesertVulture,items,Item,"Desert Vulture Schematic"
+FuriousRamsaySchematicWeaponShotgunDoubleBarrel,items,Item,"Double Barrel Shotgun Schematic"
+FuriousRamsaySchematicWeaponShotgunPump,items,Item,"Pump Shotgun Schematic"
+FuriousRamsaySchematicWeaponShotgunAuto,items,Item,"Auto Shotgun Schematic"
+FuriousRamsaySchematicWeaponRifleHunting,items,Item,"Hunting Rifle Schematic"
+FuriousRamsaySchematicWeaponRifleMarksman,items,Item,"Lever Action Rifle Schematic"
+FuriousRamsaySchematicWeaponRifleSniper,items,Item,"Sniper Rifle Schematic"
+FuriousRamsaySchematicWeaponAK47,items,Item,"AK-47 Schematic"
+FuriousRamsaySchematicWeaponTacticalAR,items,Item,"Tactical Assault Rifle Schematic"
+FuriousRamsaySchematicWeaponM60,items,Item,"Machine Gun Schematic"
+FuriousRamsaySchematicWeaponRocketLauncher,items,Item,"Rocket Launcher Schematic"
+FuriousRamsaySchematicWeaponBowWooden,items,Item,"Wooden Bow Schematic"
+FuriousRamsaySchematicWeaponBowCompound,items,Item,"Compound Bow Schematic"
+FuriousRamsaySchematicWeaponCrossbowIron,items,Item,"Iron Crossbow Schematic"
+FuriousRamsaySchematicWeaponCrossbowCompound,items,Item,"Compound Crossbow Schematic"
+FuriousRamsaySchematicWeaponJunkTurret,items,Item,"Junk Turret Schematic"
+FuriousRamsaySchematicWeaponCrossbow001,items,Item,"Crossbow Schematic"
+
+FuriousRamsaySchematicArmorClothHat,items,Item,"Padded Hood Schematic"
+FuriousRamsaySchematicArmorClothJacket,items,Item,"Padded Chest Armor Schematic"
+FuriousRamsaySchematicArmorClothGloves,items,Item,"Padded Gloves Schematic"
+FuriousRamsaySchematicArmorClothPants,items,Item,"Padded Leg Armor Schematic"
+FuriousRamsaySchematicArmorClothBoots,items,Item,"Padded Boots Schematic"
+FuriousRamsaySchematicArmorLeatherHood,items,Item,"Leather Hood Schematic"
+FuriousRamsaySchematicArmorLeatherChest,items,Item,"Leather Chest Armor Schematic"
+FuriousRamsaySchematicArmorLeatherGloves,items,Item,"Leather Gloves Schematic"
+FuriousRamsaySchematicArmorLeatherPants,items,Item,"Leather Leg Armor Schematic"
+FuriousRamsaySchematicArmorLeatherBoots,items,Item,"Leather Boots Schematic"
+FuriousRamsaySchematicArmorMilitaryHelmet,items,Item,"Military Helmet Schematic"
+FuriousRamsaySchematicArmorMilitaryVest,items,Item,"Military Vest Schematic"
+FuriousRamsaySchematicArmorMilitaryGloves,items,Item,"Military Gloves Schematic"
+FuriousRamsaySchematicArmorMilitaryLegs,items,Item,"Military Gloves Schematic"
+FuriousRamsaySchematicArmorMilitaryBoots,items,Item,"Military Boots Schematic"
+FuriousRamsaySchematicArmorMilitaryStealthBoots,items,Item,"Military Stealth Boots Schematic"
+FuriousRamsaySchematicArmorScrapHelmet,items,Item,"Scrap Helmet Schematic"
+FuriousRamsaySchematicArmorScrapChest,items,Item,"Scrap Chest Armor Schematic"
+FuriousRamsaySchematicArmorScrapGloves,items,Item,"Scrap Gloves Schematic"
+FuriousRamsaySchematicArmorScrapLegs,items,Item,"Scrap Leg Armor Schematic"
+FuriousRamsaySchematicArmorScrapBoots,items,Item,"Scrap Boots Schematic"
+FuriousRamsaySchematicArmorIronHelmet,items,Item,"Iron Helmet Schematic"
+FuriousRamsaySchematicArmorIronChest,items,Item,"Iron Chest Armor Schematic"
+FuriousRamsaySchematicArmorIronGloves,items,Item,"Iron Gloves Schematic"
+FuriousRamsaySchematicArmorIronLegs,items,Item,"Iron Leg Armor Schematic"
+FuriousRamsaySchematicArmorIronBoots,items,Item,"Iron Boots Schematic"
+FuriousRamsaySchematicArmorSteelHelmet,items,Item,"Steel Helmet Schematic"
+FuriousRamsaySchematicArmorSteelChest,items,Item,"Steel Chest Armor Schematic"
+FuriousRamsaySchematicArmorSteelGloves,items,Item,"Steel Gloves Schematic"
+FuriousRamsaySchematicArmorSteelLegs,items,Item,"Steel Leg Armor Schematic"
+FuriousRamsaySchematicArmorSteelBoots,items,Item,"Steel Boots Schematic"
+
+FuriousRamsaySchematicToolStoneAxeDesc,items,Item,"Stone Axe Schematic"
+FuriousRamsaySchematicToolIronPickAxeDesc,items,Item,"Iron Pickaxe Schematic"
+FuriousRamsaySchematicToolSteelPickAxeDesc,items,Item,"Steel Pickaxe Schematic"
+FuriousRamsaySchematicToolStoneShovelDesc,items,Item,"Stone Shovel Schematic"
+FuriousRamsaySchematicToolIronShovelDesc,items,Item,"Iron Shovel Schematic"
+FuriousRamsaySchematicToolSteelShovelDesc,items,Item,"Steel Shovel Schematic"
+FuriousRamsaySchematicToolSalvageWrenchDesc,items,Item,"Salvage Wrench Schematic"
+FuriousRamsaySchematicToolIronHoeDesc,items,Item,"Iron Hoe Schematic"
+FuriousRamsaySchematicToolIcePick001Desc,items,Item,"Ice Pick Schematic"
+
+FuriousRamsaySchematicWeaponIronFireaxeDesc,items,Item,"Iron Fireaxe Schematic"
+FuriousRamsaySchematicWeaponSteelAxeDesc,items,Item,"Steel Axe Schematic"
+FuriousRamsaySchematicWeaponBoneKnifeDesc,items,Item,"Bone Knife Schematic"
+FuriousRamsaySchematicWeaponHuntingKnifeDesc,items,Item,"Hunting Knife Schematic"
+FuriousRamsaySchematicWeaponMacheteDesc,items,Item,"Machete Schematic"
+FuriousRamsaySchematicWeaponWoodenClubDesc,items,Item,"Wodden Club Schematic"
+FuriousRamsaySchematicWeaponBaseballBatDesc,items,Item,"Baseball Bat Schematic"
+FuriousRamsaySchematicWeaponSteelClubDesc,items,Item,"Steel Club Schematic"
+FuriousRamsaySchematicWeaponStunBatonDesc,items,Item,"Stun Baton Schematic"
+FuriousRamsaySchematicWeaponStoneSpearDesc,items,Item,"Stone Spear Schematic"
+FuriousRamsaySchematicWeaponIronSpearDesc,items,Item,"Iron Spear Schematic"
+FuriousRamsaySchematicWeaponSteelSpearDesc,items,Item,"Steel Spear Schematic"
+FuriousRamsaySchematicWeaponStoneSledgeHammerDesc,items,Item,"Stone Sledgehammer Schematic"
+FuriousRamsaySchematicWeaponIronSledgeHammerDesc,items,Item,"Iron Sledgehammer Schematic"
+FuriousRamsaySchematicWeaponSteelSledgeHammerDesc,items,Item,"Steel Slegdehammer Schematic"
+FuriousRamsaySchematicWeaponLeatherKnucklesDesc,items,Item,"Leather Knuckles Schematic"
+FuriousRamsaySchematicWeaponIronKnucklesDesc,items,Item,"Iron Knuckles Schematic"
+FuriousRamsaySchematicWeaponSteelKnucklesDesc,items,Item,"Steel Knuckles Schematic"
+FuriousRamsaySchematicWeaponJunkSledgeDesc,items,Item,"Junk Sledge Schematic"
+FuriousRamsaySchematicWeaponSpikedClub001Desc,items,Item,"Spiked Club Schematic"
+FuriousRamsaySchematicWeaponMedievalHammer001Desc,items,Item,"Combat Hammer Schematic"
+FuriousRamsaySchematicWeaponSciFiSword001Desc,items,Item,"Dark Long Blade Schematic"
+FuriousRamsaySchematicWeaponCrowbar001Desc,items,Item,"Crowbar Schematic"
+FuriousRamsaySchematicWeaponCleaver001Desc,items,Item,"Cleaver Schematic"
+FuriousRamsaySchematicWeaponSledgeHammer001Desc,items,Item,"Killer Hammer Schematic"
+FuriousRamsaySchematicWeaponAxe001Desc,items,Item,"Titanium Combat Axe Schematic"
+FuriousRamsaySchematicWeaponAxe002Desc,items,Item,"Titanium Combat Axe Schematic"
+FuriousRamsaySchematicWeaponPistolDesc,items,Item,"Pistol Schematic"
+FuriousRamsaySchematicWeaponSMGDesc,items,Item,"SMG Schematic"
+FuriousRamsaySchematicWeaponMagnumDesc,items,Item,"Magnum Schematic"
+FuriousRamsaySchematicWeaponDesertVultureDesc,items,Item,"Desert Vulture Schematic"
+FuriousRamsaySchematicWeaponShotgunDoubleBarrelDesc,items,Item,"Double Barrel Shotgun Schematic"
+FuriousRamsaySchematicWeaponShotgunPumpDesc,items,Item,"Pump Shotgun Schematic"
+FuriousRamsaySchematicWeaponShotgunAutoDesc,items,Item,"Auto Shotgun Schematic"
+FuriousRamsaySchematicWeaponRifleHuntingDesc,items,Item,"Hunting Rifle Schematic"
+FuriousRamsaySchematicWeaponRifleMarksmanDesc,items,Item,"Lever Action Rifle Schematic"
+FuriousRamsaySchematicWeaponRifleSniperDesc,items,Item,"Sniper Rifle Schematic"
+FuriousRamsaySchematicWeaponAK47Desc,items,Item,"AK-47 Schematic"
+FuriousRamsaySchematicWeaponTacticalARDesc,items,Item,"Tactical Assault Rifle Schematic"
+FuriousRamsaySchematicWeaponM60Desc,items,Item,"Machine Gun Schematic"
+FuriousRamsaySchematicWeaponRocketLauncherDesc,items,Item,"Rocket Launcher Schematic"
+FuriousRamsaySchematicWeaponBowPrimitiveDesc,items,Item,"Primitive Bow Schematic"
+FuriousRamsaySchematicWeaponBowWoodenDesc,items,Item,"Wooden Bow Schematic"
+FuriousRamsaySchematicWeaponBowCompoundDesc,items,Item,"Compound Bow Schematic"
+FuriousRamsaySchematicWeaponCrossbowIronDesc,items,Item,"Iron Crossbow Schematic"
+FuriousRamsaySchematicWeaponCrossbowCompoundDesc,items,Item,"Compound Crossbow Schematic"
+FuriousRamsaySchematicWeaponJunkTurretDesc,items,Item,"Junk Turret Schematic"
+FuriousRamsaySchematicWeaponCrossbow001Desc,items,Item,"Crossbow Schematic"
+
+FuriousRamsaySchematicArmorClothHatDesc,items,Item,"Padded Hood Schematic"
+FuriousRamsaySchematicArmorClothJacketDesc,items,Item,"Padded Chest Armor Schematic"
+FuriousRamsaySchematicArmorClothGlovesDesc,items,Item,"Padded Gloves Schematic"
+FuriousRamsaySchematicArmorClothPantsDesc,items,Item,"Padded Leg Armor Schematic"
+FuriousRamsaySchematicArmorClothBootsDesc,items,Item,"Padded Boots Schematic"
+FuriousRamsaySchematicArmorLeatherHoodDesc,items,Item,"Leather Hood Schematic"
+FuriousRamsaySchematicArmorLeatherChestDesc,items,Item,"Leather Chest Armor Schematic"
+FuriousRamsaySchematicArmorLeatherGlovesDesc,items,Item,"Leather Gloves Schematic"
+FuriousRamsaySchematicArmorLeatherPantsDesc,items,Item,"Leather Leg Armor Schematic"
+FuriousRamsaySchematicArmorLeatherBootsDesc,items,Item,"Leather Boots Schematic"
+FuriousRamsaySchematicArmorMilitaryHelmetDesc,items,Item,"Military Helmet Schematic"
+FuriousRamsaySchematicArmorMilitaryVestDesc,items,Item,"Military Vest Schematic"
+FuriousRamsaySchematicArmorMilitaryGlovesDesc,items,Item,"Military Gloves Schematic"
+FuriousRamsaySchematicArmorMilitaryLegsDesc,items,Item,"Military Gloves Schematic"
+FuriousRamsaySchematicArmorMilitaryBootsDesc,items,Item,"Military Boots Schematic"
+FuriousRamsaySchematicArmorMilitaryStealthBootsDesc,items,Item,"Military Stealth Boots Schematic"
+FuriousRamsaySchematicArmorScrapHelmetDesc,items,Item,"Scrap Helmet Schematic"
+FuriousRamsaySchematicArmorScrapChestDesc,items,Item,"Scrap Chest Armor Schematic"
+FuriousRamsaySchematicArmorScrapGlovesDesc,items,Item,"Scrap Gloves Schematic"
+FuriousRamsaySchematicArmorScrapLegsDesc,items,Item,"Scrap Leg Armor Schematic"
+FuriousRamsaySchematicArmorScrapBootsDesc,items,Item,"Scrap Boots Schematic"
+FuriousRamsaySchematicArmorIronHelmetDesc,items,Item,"Iron Helmet Schematic"
+FuriousRamsaySchematicArmorIronChestDesc,items,Item,"Iron Chest Armor Schematic"
+FuriousRamsaySchematicArmorIronGlovesDesc,items,Item,"Iron Gloves Schematic"
+FuriousRamsaySchematicArmorIronLegsDesc,items,Item,"Iron Leg Armor Schematic"
+FuriousRamsaySchematicArmorIronBootsDesc,items,Item,"Iron Boots Schematic"
+FuriousRamsaySchematicArmorSteelHelmetDesc,items,Item,"Steel Helmet Schematic"
+FuriousRamsaySchematicArmorSteelChestDesc,items,Item,"Steel Chest Armor Schematic"
+FuriousRamsaySchematicArmorSteelGlovesDesc,items,Item,"Steel Gloves Schematic"
+FuriousRamsaySchematicArmorSteelLegsDesc,items,Item,"Steel Leg Armor Schematic"
+FuriousRamsaySchematicArmorSteelBootsDesc,items,Item,"Steel Boots Schematic"
+
+FuriousRamsayPartsClothBoots,items,Clothes,Parts for Padded Boots
+FuriousRamsayPartsClothGloves,items,Clothes,Parts for Padded Gloves
+FuriousRamsayPartsClothHat,items,Clothes,Parts for Padded Hood
+FuriousRamsayPartsClothJacket,items,Clothes,Parts for Padded Chest Armor
+FuriousRamsayPartsClothPants,items,Clothes,Parts for Padded Leg Armor
+FuriousRamsayPartsIronBoots,items,Clothes,Parts for Iron Boots
+FuriousRamsayPartsIronChest,items,Clothes,Parts for Iron Chest Armor
+FuriousRamsayPartsIronGloves,items,Clothes,Parts for Iron Gloves
+FuriousRamsayPartsIronHelmet,items,Clothes,Parts for Iron Helmet
+FuriousRamsayPartsIronLegs,items,Clothes,Parts for Iron Leg Armor
+FuriousRamsayPartsLeatherBoots,items,Clothes,Parts for Leather Boots
+FuriousRamsayPartsLeatherChest,items,Clothes,Parts for Leather Chest Armor
+FuriousRamsayPartsLeatherGloves,items,Clothes,Parts for Leather Gloves
+FuriousRamsayPartsLeatherHood,items,Clothes,Parts for Leather Hood
+FuriousRamsayPartsLeatherPants,items,Clothes,Parts for Leather Leg Armor
+FuriousRamsayPartsMilitaryBoots,items,Clothes,Parts for Military Boots
+FuriousRamsayPartsMilitaryGloves,items,Clothes,Parts for Military Gloves
+FuriousRamsayPartsMilitaryHelmet,items,Clothes,Parts for Military Helmet
+FuriousRamsayPartsMilitaryVest,items,Clothes,Parts for Military Vest
+FuriousRamsayPartsMilitaryLegs,items,Clothes,Parts for Military Leg Armor
+FuriousRamsayPartsMilitaryStealthBoots,items,Clothes,Parts for Military Stealth Boots
+FuriousRamsayPartsScrapBoots,items,Clothes,Parts for Scrap Boots
+FuriousRamsayPartsScrapChest,items,Clothes,Parts for Scrap Chest Armor
+FuriousRamsayPartsScrapGloves,items,Clothes,Parts for Scrap Gloves
+FuriousRamsayPartsScrapHelmet,items,Clothes,Parts for Scrap Helmet
+FuriousRamsayPartsScrapLegs,items,Clothes,Parts for Scrap Leg Armor
+FuriousRamsayPartsSteelBoots,items,Clothes,Parts for Steel Boots
+FuriousRamsayPartsSteelChest,items,Clothes,Parts for Steel Chest Armor
+FuriousRamsayPartsSteelGloves,items,Clothes,Parts for Steel Gloves
+FuriousRamsayPartsSteelHelmet,items,Clothes,Parts for Steel Helmet
+FuriousRamsayPartsSteelLegs,items,Clothes,Parts for Steel Legs
+
+FuriousRamsayPartsIronPickAxe,items,Tool,Parts for Iron Pickaxe
+FuriousRamsayPartsSteelPickAxe,items,Tool,Parts for Steel Pickaxe
+FuriousRamsayPartsStoneAxe,items,Tool,Parts for Stone Axe
+FuriousRamsayPartsSalvageWrench,items,Tool,Parts for Wrench
+FuriousRamsayPartsStoneShovel,items,Tool,Parts for Stone Shovel
+FuriousRamsayPartsIronShovel,items,Tool,Parts for Iron Shovel
+FuriousRamsayPartsSteelShovel,items,Tool,Parts for Steel Shovel
+FuriousRamsayPartsIronHoe,items,Tool,Parts for Iron Hoe
+FuriousRamsayPartsIcePick001,items,Tool,Parts for Ice Pick
+
+FuriousRamsayPartsIronFireaxe,items,Tool,Parts for Iron Fireaxe
+FuriousRamsayPartsSteelAxe,items,Tool,Parts for Steel Axe
+FuriousRamsayPartsSpikedClub001,items,Melee,Parts for Spiked Club
+FuriousRamsayPartsMedievalHammer001,items,Melee,Parts for Combat Hammer
+FuriousRamsayPartsSciFiSword001,items,Melee,Parts for Dark Long Blade
+FuriousRamsayPartsCrowbar001,items,Melee,Parts for Crowbar
+FuriousRamsayPartsCleaver001,items,Melee,Parts for Cleaver
+FuriousRamsayPartsSledgeHammer001,items,Melee,Parts for Killer Hammer
+FuriousRamsayPartsAxe001,items,Melee,Parts for Titanium Combat Axe
+FuriousRamsayPartsAxe002,items,Melee,Parts for Titanium Combat Axe
+
+FuriousRamsayPartsStunBaton,items,Melee,Parts for Stun Baton
+FuriousRamsayPartsBoneKnife,items,Melee,Parts for Bone Knife
+FuriousRamsayPartsHuntingKnife,items,Melee,Parts for Hunting Knife
+FuriousRamsayPartsMachete,items,Melee,Parts for Machete
+FuriousRamsayPartsWoodenClub,items,Melee,Parts for Wooden Club
+FuriousRamsayPartsBaseballBat,items,Melee,Parts for Baseball Bat
+FuriousRamsayPartsSteelClub,items,Melee,Parts for Steel Club
+FuriousRamsayPartsLeatherKnuckles,items,Melee,Parts for Knuckle Wraps
+FuriousRamsayPartsIronKnuckles,items,Melee,Parts for Iron Knuckles
+FuriousRamsayPartsSteelKnuckles,items,Melee,Parts for Steel Knuckles
+FuriousRamsayPartsStoneSledgeHammer,items,Melee,Parts for Stone Sledgehammer
+FuriousRamsayPartsIronSledgeHammer,items,Melee,Parts for Iron Sledgehammer
+FuriousRamsayPartsSteelSledgeHammer,items,Melee,Parts for Steel Sledgehammer
+FuriousRamsayPartsStoneSpear,items,Melee,Parts for Stone Spear
+FuriousRamsayPartsIronSpear,items,Melee,Parts for Iron Spear
+FuriousRamsayPartsSteelSpear,items,Melee,Parts for Steel Spear
+FuriousRamsayPartsJunkSledge,items,Gun,Parts for Robotic Sledge
+
+FuriousRamsayPartsJunkTurret,items,Gun,Parts for Robotic Turret
+FuriousRamsayPartsBowPrimitive,items,Gun,Parts for Primitive Bow
+FuriousRamsayPartsCrossbowIron,items,Gun,Parts for Iron Crossbow
+FuriousRamsayPartsBowWooden,items,Gun,Parts for Wooden Bow
+FuriousRamsayPartsBowCompound,items,Gun,Parts for Compound Bow
+FuriousRamsayPartsCrossbowCompound,items,Gun,Parts for Compound Crossbow
+FuriousRamsayPartsRocketLauncher,items,Gun,Parts for Rocket Launcher
+FuriousRamsayPartsPistol,items,Gun,Parts for Pistol
+FuriousRamsayPartsMagnum,items,Gun,Parts for .44 Magnum
+FuriousRamsayPartsDesertVulture,items,Gun,Parts for .44 Desert Vulture
+FuriousRamsayPartsSMG,items,Gun,Parts for SMG-5
+FuriousRamsayPartsAK47,items,Gun,Parts for AK-47 Machine Gun
+FuriousRamsayPartsTacticalAR,items,Gun,Parts for Tactical Assault Rifle
+FuriousRamsayPartsM60,items,Gun,Parts for M60 Machine Gun
+FuriousRamsayPartsRifleHunting,items,Gun,Parts for Hunting Rifle
+FuriousRamsayPartsRifleMarksman,items,Gun,Parts for Lever Action Rifle
+FuriousRamsayPartsRifleSniper,items,Gun,Parts for Sniper Rifle
+FuriousRamsayPartsShotgunDoubleBarrel,items,Gun,Parts for Double Barrel Shotgun
+FuriousRamsayPartsShotgunPump,items,Gun,Parts for Pump Shotgun
+FuriousRamsayPartsShotgunAuto,items,Gun,Parts for Auto Shotgun
+FuriousRamsayPartsCrossbow001,items,Melee,Parts for  Crossbow
+
+FuriousRamsayPartsClothHatDesc,items,Clothes,Parts for Padded Hood
+FuriousRamsayPartsClothBootsDesc,items,Clothes,Parts for Padded Boots
+FuriousRamsayPartsClothGlovesDesc,items,Clothes,Parts for Padded Gloves
+FuriousRamsayPartsClothJacketDesc,items,Clothes,Parts for Padded Chest Armor
+FuriousRamsayPartsClothPantsDesc,items,Clothes,Parts for Padded Leg Armor
+FuriousRamsayPartsIronBootsDesc,items,Clothes,Parts for Iron Boots
+FuriousRamsayPartsIronChestDesc,items,Clothes,Parts for Iron Chest Armor
+FuriousRamsayPartsIronGlovesDesc,items,Clothes,Parts for Iron Gloves
+FuriousRamsayPartsIronHelmetDesc,items,Clothes,Parts for Iron Helmet
+FuriousRamsayPartsIronLegsDesc,items,Clothes,Parts for Iron Leg Armor
+FuriousRamsayPartsLeatherBootsDesc,items,Clothes,Parts for Leather Boots
+FuriousRamsayPartsLeatherChestDesc,items,Clothes,Parts for Leather Chest Armor
+FuriousRamsayPartsLeatherGlovesDesc,items,Clothes,Parts for Leather Gloves
+FuriousRamsayPartsLeatherHoodDesc,items,Clothes,Parts for Leather Hood
+FuriousRamsayPartsLeatherPantsDesc,items,Clothes,Parts for Leather Leg Armor
+FuriousRamsayPartsMilitaryBootsDesc,items,Clothes,Parts for Military Boots
+FuriousRamsayPartsMilitaryGlovesDesc,items,Clothes,Parts for Military Gloves
+FuriousRamsayPartsMilitaryHelmetDesc,items,Clothes,Parts for Military Helmet
+FuriousRamsayPartsMilitaryVestDesc,items,Clothes,Parts for Military Vest
+FuriousRamsayPartsMilitaryLegsDesc,items,Clothes,Parts for Military Leg Armor
+FuriousRamsayPartsMilitaryStealthBootsDesc,items,Clothes,Parts for Military Stealth Boots
+FuriousRamsayPartsScrapBootsDesc,items,Clothes,Parts for Scrap Boots
+FuriousRamsayPartsScrapChestDesc,items,Clothes,Parts for Scrap Chest Armor
+FuriousRamsayPartsScrapGlovesDesc,items,Clothes,Parts for Scrap Gloves
+FuriousRamsayPartsScrapHelmetDesc,items,Clothes,Parts for Scrap Helmet
+FuriousRamsayPartsScrapLegsDesc,items,Clothes,Parts for Scrap Leg Armor
+FuriousRamsayPartsSteelBootsDesc,items,Clothes,Parts for Steel Boots
+FuriousRamsayPartsSteelChestDesc,items,Clothes,Parts for Steel Chest Armor
+FuriousRamsayPartsSteelGlovesDesc,items,Clothes,Parts for Steel Gloves
+FuriousRamsayPartsSteelHelmetDesc,items,Clothes,Parts for Steel Helmet
+FuriousRamsayPartsSteelLegsDesc,items,Clothes,Parts for Steel Leg Armor
+
+FuriousRamsayPartsIronPickAxeDesc,items,Tool,Parts for Iron Pickaxe
+FuriousRamsayPartsSteelPickAxeDesc,items,Tool,Parts for Steel Pickaxe
+FuriousRamsayPartsStoneAxeDesc,items,Tool,Parts for Stone Axe
+FuriousRamsayPartsSalvageWrenchDesc,items,Tool,Parts for Salvage Wrench
+FuriousRamsayPartsStoneShovelDesc,items,Tool,Parts for Stone Shovel
+FuriousRamsayPartsIronShovelDesc,items,Tool,Parts for Iron Shovel
+FuriousRamsayPartsSteelShovelDesc,items,Tool,Parts for Steel Shovel
+FuriousRamsayPartsIronHoeDesc,items,Tool,Parts for Iron Hoe
+FuriousRamsayPartsIcePick001Desc,items,Tool,Parts for Ice Pick
+
+FuriousRamsayPartsIronFireaxeDesc,items,Tool,Parts for Iron Fireaxe
+FuriousRamsayPartsSteelAxeDesc,items,Tool,Parts for Steel Axe
+FuriousRamsayPartsSpikedClub001Desc,items,Melee,Parts for Spiked Club
+FuriousRamsayPartsMedievalHammer001Desc,items,Melee,Parts for Combat Hammer
+FuriousRamsayPartsSciFiSword001Desc,items,Melee,Parts for Dark Long Blade
+FuriousRamsayPartsCrowbar001Desc,items,Melee,Parts for Crowbar
+FuriousRamsayPartsCleaver001Desc,items,Melee,Parts for Cleaver
+FuriousRamsayPartsSledgeHammer001Desc,items,Melee,Parts for Killer Hammer
+FuriousRamsayPartsAxe001Desc,items,Melee,Parts for Titanium Combat Axe
+FuriousRamsayPartsAxe002Desc,items,Melee,Parts for Titanium Combat Axe
+
+FuriousRamsayPartsStunBatonDesc,items,Melee,Parts for Stun Baton
+FuriousRamsayPartsBoneKnifeDesc,items,Melee,Parts for Bone Knife
+FuriousRamsayPartsHuntingKnifeDesc,items,Melee,Parts for Hunting Knife
+FuriousRamsayPartsMacheteDesc,items,Melee,Parts for Machete
+FuriousRamsayPartsWoodenClubDesc,items,Melee,Parts for Wooden Club
+FuriousRamsayPartsBaseballBatDesc,items,Melee,Parts for Baseball Bat
+FuriousRamsayPartsSteelClubDesc,items,Melee,Parts for Steel Club
+FuriousRamsayPartsLeatherKnucklesDesc,items,Melee,Parts for Knuckle Wraps
+FuriousRamsayPartsIronKnucklesDesc,items,Melee,Parts for Iron Knuckles
+FuriousRamsayPartsSteelKnucklesDesc,items,Melee,Parts for Steel Knuckles
+FuriousRamsayPartsStoneSledgeHammerDesc,items,Melee,Parts for Stone Sledgehammer
+FuriousRamsayPartsIronSledgeHammerDesc,items,Melee,Parts for Iron Sledgehammer
+FuriousRamsayPartsSteelSledgeHammerDesc,items,Melee,Parts for Steel Sledgehammer
+FuriousRamsayPartsStoneSpearDesc,items,Melee,Parts for Stone Spear
+FuriousRamsayPartsIronSpearDesc,items,Melee,Parts for Iron Spear
+FuriousRamsayPartsSteelSpearDesc,items,Melee,Parts for Steel Spear
+FuriousRamsayPartsJunkSledgeDesc,items,Gun,Parts for Robotic Sledge
+
+FuriousRamsayPartsJunkTurretDesc,items,Gun,Parts for Robotic Turret
+FuriousRamsayPartsBowPrimitiveDesc,items,Gun,Parts for Primitive Bow
+FuriousRamsayPartsCrossbowIronDesc,items,Gun,Parts for Iron Crossbow
+FuriousRamsayPartsBowWoodenDesc,items,Gun,Parts for Wooden Bow
+FuriousRamsayPartsBowCompoundDesc,items,Gun,Parts for Compound Bow
+FuriousRamsayPartsCrossbowCompoundDesc,items,Gun,Parts for Compound Crossbow
+FuriousRamsayPartsRocketLauncherDesc,items,Gun,Parts for Rocket Launcher
+FuriousRamsayPartsPistolDesc,items,Gun,Parts for Pistol
+FuriousRamsayPartsMagnumDesc,items,Gun,Parts for .44 Magnum
+FuriousRamsayPartsDesertVultureDesc,items,Gun,Parts for .44 Desert Vulture
+FuriousRamsayPartsSMGDesc,items,Gun,Parts for SMG-5
+FuriousRamsayPartsAK47Desc,items,Gun,Parts for AK-47 Machine Gun
+FuriousRamsayPartsTacticalARDesc,items,Gun,Parts for Tactical Assault Rifle
+FuriousRamsayPartsM60Desc,items,Gun,Parts for M60 Machine Gun
+FuriousRamsayPartsRifleHuntingDesc,items,Gun,Parts for Hunting Rifle
+FuriousRamsayPartsRifleMarksmanDesc,items,Gun,Parts for Lever Action Rifle
+FuriousRamsayPartsRifleSniperDesc,items,Gun,Parts for Sniper Rifle
+FuriousRamsayPartsShotgunDoubleBarrelDesc,items,Gun,Parts for Double Barrel Shotgun
+FuriousRamsayPartsShotgunPumpDesc,items,Gun,Parts for Pump Shotgun
+FuriousRamsayPartsShotgunAutoDesc,items,Gun,Parts for Auto Shotgun
+FuriousRamsayPartsCrossbow001Desc,items,Melee,Parts for Crossbow
+
+gunBotT1JunkSledgeDesc,items,Gun,You may not be good at punching but you have the technology.\nYou can also deploy this on the ground using the Secondary action.
+gunHandgunT1PistolDesc,items,Gun,A basic pistol that uses 9mm ammo.
+gunHandgunT3SMG5Desc,items,Gun,This submachine gun uses 9mm ammo.
+gunHandgunT2Magnum44Desc,items,Gun,The .44 Magnum is the king of handguns. It's the most powerful but makes the most noise. Wield this bad boy and make Clint proud.
+gunHandgunT3DesertVultureDesc,items,Gun,This heavy pistol uses .44 Magnum ammo.
+gunShotgunT1DoubleBarrelDesc,items,Gun,"A rusty old double barrel shotgun, great for close range carnage.
+gunShotgunT2PumpShotgunDesc,items,Gun,A long-barreled shotgun with pump action loading .
+gunShotgunT3AutoShotgunDesc,items,Gun,This semi automatic shotgun is a rare and devasting short range weapon capable of making minced meat out of anything in its path.
+gunRifleT1HuntingRifleDesc,items,Gun,This common farmer's hunting rifle uses 7.62mm ammo.
+gunRifleT2MarksmanRifleDesc,items,Gun,This lever action rifle uses 7.62mm ammo and is your first choice if you want to make that shot count.
+gunRifleT3SniperRifleDesc,items,Gun,"This high precision, long ranged rifle is perfect for sniping enemies at great distances.
+gunMGT1AK47Desc,items,Gun,This badass AK-47 Machine Gun uses 7.62mm ammo.
+gunMGT2TacticalARDesc,items,Gun,This Tactical Assault Rifle uses 7.62mm ammo.
+gunMGT3M60Desc,items,Gun,Machine guns are somewhat cumbersome to use but excel at automatic fire. This one uses 7.62mm ammo.
+gunExplosivesT3RocketLauncherDesc,items,Gun,A Rocket Launcher shoots rocket propelled grenades.
+gunBowT1WoodenBowDesc,items,Gun,Good for hunting and killing zombies. Uses arrows for ammunition.\nHold reload to use alternate ammo.
+gunBowT3CompoundBowDesc,items,Gun,A compound bow does more damage and arrows fly straighter which makes it easier to aim.
+gunBowT1IronCrossbowDesc,items,Gun,A crossbow is slow to reload but does more damage than a bow.\nThis weapon can be fired underwater.\nHold reload to use alternate ammo.
+gunBowT3CompoundCrossbowDesc,items,Gun,A compound crossbow does more damage than a compound bow.
+gunBotT2JunkTurretDesc,items,Gun,This contraption can be fired and reloaded like a gun. It uses Robotic Turret Ammo for ammunition.\nYou can also deploy it on the ground using the Secondary action.
+
+meleeToolPickT1IronPickaxeDesc,items,Tool,"The iron pickaxe is great for breaking stone and harvesting minerals."
+meleeToolPickT2SteelPickaxeDesc,items,Tool,"The steel pickaxe is best for breaking stone and harvesting minerals."
+meleeToolShovelT1IronShovelDesc,items,Tool,"The iron shovel is great for digging through earth, sand or snow."
+meleeToolSalvageT1WrenchDesc,items,Tool,"Great for disassembling mechanical devices like cars, air conditioners and more."
+
+meleeToolFarmT1IronHoe,"The iron hoe is great for farming.\n\nScrap to Iron Hoe parts."
+
+FuriousRamsayArmorClothHatDesc,items,Clothes,"This light armor won't encumber you and provides some protection against damage.\nIt will not protect you from the weather.\n\nScrap to Padded Hood parts."
+FuriousRamsayArmorClothJacketDesc,items,Clothes,"This light armor won't encumber you and provides some protection against damage.\nIt will not protect you from the weather.\n\nScrap to Padded Chest Armor parts."
+FuriousRamsayArmorClothGlovesDesc,items,Clothes,"This light armor won't encumber you and provides some protection against damage.\nIt will not protect you from the weather.\n\nScrap to Padded Glove parts."
+FuriousRamsayArmorClothPantsDesc,items,Clothes,"This light armor won't encumber you and provides some protection against damage.\nIt will not protect you from the weather.\n\nScrap to Padded Leg Armor parts."
+FuriousRamsayArmorClothBootsDesc,items,Clothes,"This light armor won't encumber you and provides some protection against damage.\nIt will not protect you from the weather.\n\nScrap to Padded Boot parts."
+
+FuriousRamsayArmorLeatherHoodDesc,items,Clothes,"Light armor will encumber you a little and provides some protection against damage.\nIt will not protect you from the weather.\n\nScrap to Leather Hood parts."
+FuriousRamsayArmorLeatherChestDesc,items,Clothes,"Light armor will encumber you a little and provides some protection against damage.\nIt will not protect you from the weather.\n\nScrap to Leather Chest Armor parts."
+FuriousRamsayArmorLeatherGlovesDesc,items,Clothes,"Light armor will encumber you a little and provides some protection against damage.\nIt will not protect you from the weather.\n\nScrap to Leather Glove parts."
+FuriousRamsayArmorLeatherPantsDesc,items,Clothes,"Light armor will encumber you a little and provides some protection against damage.\nIt will not protect you from the weather.\n\nScrap to Leather Leg Armor parts."
+FuriousRamsayArmorLeatherBootsDesc,items,Clothes,"Light armor will encumber you a little and provides some protection against damage.\nIt will not protect you from the weather.\n\nScrap to Leather Boot parts."
+
+FuriousRamsayArmorScrapHelmetDesc,items,Clothes,"Heavy armor will encumber you but provides good protection against damage.\nIt will not protect you from the weather.\n\nScrap to Scrap Helmet parts."
+FuriousRamsayArmorScrapChestDesc,items,Clothes,"Heavy armor will encumber you but provides good protection against damage.\nIt will not protect you from the weather.\n\nScrap to Scrap Chest Armor parts."
+FuriousRamsayArmorScrapGlovesDesc,items,Clothes,"Heavy armor will encumber you but provides good protection against damage.\nIt will not protect you from the weather.\n\nScrap to Scrap Glove parts."
+FuriousRamsayA,items,Clothes,"Heavy armor will encumber you but provides good protection against damage.\nIt will not protect you from the weather.\n\nScrap to Scrap Leg Armor parts."
+FuriousRamsayA,items,Clothes,"Heavy armor will encumber you but provides good protection against damage.\nIt will not protect you from the weather.\n\nScrap to Scrap Boot parts."
+
+FuriousRamsayA,items,Clothes,"Heavy armor will encumber you but provides good protection against damage.\nIt will not protect you from the weather.\n\nScrap to Iron Helmet parts."
+FuriousRamsayArmorIronChestDesc,items,Clothes,"Heavy armor will encumber you but provides good protection against damage.\nIt will not protect you from the weather.\n\nScrap to Iron Chest Armor parts."
+FuriousRamsayArmorIronGlovesDesc,items,Clothes,"Heavy armor will encumber you but provides good protection against damage.\nIt will not protect you from the weather.\n\nScrap to Iron Glove parts."
+FuriousRamsayArmorIronLegsDesc,items,Clothes,"Heavy armor will encumber you but provides good protection against damage.\nIt will not protect you from the weather.\n\nScrap to Iron Leg Armor parts."
+FuriousRamsayArmorIronBootsDesc,items,Clothes,"Heavy armor will encumber you but provides good protection against damage.\nIt will not protect you from the weather.\n\nScrap to Iron Boot parts."
+
+FuriousRamsayArmorSteelHelmetDesc,items,Clothes,"Heavy armor will encumber you but provides good protection against damage.\nIt will not protect you from the weather.\n\nScrap to Steel Helmet parts."
+FuriousRamsayArmorSteelChestDesc,items,Clothes,"Heavy armor will encumber you but provides good protection against damage.\nIt will not protect you from the weather.\n\nScrap to Steel Chest Armor parts."
+FuriousRamsayArmorSteelGlovesDesc,items,Clothes,"Heavy armor will encumber you but provides good protection against damage.\nIt will not protect you from the weather.\n\nScrap to Steel Glove parts."
+FuriousRamsayA,items,Clothes,"Heavy armor will encumber you but provides good protection against damage.\nIt will not protect you from the weather.\n\nScrap to Steel Leg Armor parts."
+FuriousRamsayA,items,Clothes,"Heavy armor will encumber you but provides good protection against damage.\nIt will not protect you from the weather.\n\nScrap to Steel Boot parts."
+
+FuriousRamsayArmorMilitaryHelmetDesc,items,Clothes,"Light armor will encumber you a little and provides some protection against damage.\nIt will not protect you from the weather.\n\nScrap to Military Helmet parts."
+FuriousRamsayArmorMilitaryVestDesc,items,Clothes,"Light armor will encumber you a little and provides some protection against damage.\nIt will not protect you from the weather.\n\nScrap to Military Vest parts."
+FuriousRamsayArmorMilitaryGlovesDesc,items,Clothes,"Light armor will encumber you a little and provides some protection against damage.\nIt will not protect you from the weather.\n\nScrap to Military Gloves parts."
+FuriousRamsayArmorMilitaryLegsDesc,items,Clothes,"Light armor will encumber you a little and provides some protection against damage.\nIt will not protect you from the weather.\n\nScrap to Military Legs parts."
+FuriousRamsayA,items,Clothes,"Light armor will encumber you a little and provides some protection against damage.\nIt will not protect you from the weather.\n\nScrap to Military Boots parts."
+FuriousRamsayA,items,Clothes,"Light armor will encumber you a little and provides some protection against damage.\nIt will not protect you from the weather.\n\nScrap to Military Stealth Boots parts."
+
+cntBarrelGasOld,blocks,Block,Empty Rusty Barrel
+cntBarrelGasOldDesc,blocks,Block,"This Rusty Barrel could be useful in making a Furnace."
+
+tableSaw,blocks,Block,Broken Table Saw
+tableSawDesc,blocks,Block,"You can probably salvage the blade from this table saw using your toolbox."
+
+plantedAloe3Harvest,blocks,Farming,Aloe Vera Plant
+plantedBlueberry3Harvest,blocks,Farming,Blueberry Plant
+plantedChrysanthemum3Harvest,blocks,Farming,Chrysanthemum Flower
+plantedCoffee3Harvest,blocks,Farming,Coffee Plant
+plantedCorn3Harvest,blocks,Farming,Corn Plant
+plantedCotton3Harvest,blocks,Farming,Cotton Plant
+plantedGoldenrod3Harvest,blocks,Farming,Goldenrod Flower
+plantedGraceCorn3Harvest,blocks,Farming,Super Corn Plant
+plantedHop3Harvest,blocks,Farming,Hop Plant
+plantedMushroom3Harvest,blocks,Farming,Mushrooms
+plantedPotato3Harvest,blocks,Farming,Potato Plant
+plantedPumpkin3Harvest,blocks,Farming,Pumpkin Plant
+plantedSnowberry3Harvest,blocks,Farming,Snowberry Plant
+plantedYucca3Harvest,blocks,Farming,Yucca Plant
+
+lblCategoryMissions,UI,Tooltip,Missions
+
+FuriousRamsaySpawnMedicalDroid,blocks,Block,Medical Droid Trader
+FuriousRamsaySpawnMedicalDroidDesc,blocks,Block,"This Medical Droid will supply you will common medical items"
+
+cntGasGrillOpen,blocks,Container,Gas Grill
+
+resourceRepairKit,items,Item,Vehicle Repair Kit
+resourceRepairKitDesc,items,Item,"Vehicle Repair Kits are used to help restore your existing vehicle's durability."
+
+FuriousRamsayBirdNest,blocks,Block,Bird Nest
+FuriousRamsayBirdNestEggs,blocks,Block,Bird Nest
+FuriousRamsayBirdNestFeathers,blocks,Block,Bird Nest
+
+drinkJarYuccaJuiceSchematic,items,Item,Yucca Juice Schematic
+
+FuriousRamsayBeeWax,items,Item,Beeswax
+FuriousRamsayBeeWaxDesc,items,Item,"Bees are amazing.\n\nYou can use this wax to make yourself some candles."
+foodHoney,items,Item,Honeycomb
+
+FuriousRamsayCornFlour,items,Item,"Corn Flour"
+FuriousRamsayCornFlourDesc,items,Item,"Corn Flour isn't your first choice, but will be useful when alternatives aren't available."

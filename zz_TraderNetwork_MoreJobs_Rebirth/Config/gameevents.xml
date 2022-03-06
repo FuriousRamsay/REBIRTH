@@ -1,0 +1,1831 @@
+<!--<action type="GameEvent" id="spawn_QuestCompletionStarterBackpack" phase="4"/>
+-->
+<Config>
+
+	<setattribute xpath="/gameevents" name="max_entities">30</setattribute>
+	<remove xpath="//action_sequence[@name='game_first_spawn']/action[@class='Delay']"/>
+	<remove xpath="//action_sequence[@name='game_first_spawn']/action[@class='AddJournalTip']"/>
+	<remove xpath="//action_sequence[@name='game_on_death']/action[@class='AddXPDeficit']"/>
+
+<!--
+twitch_good_spawn
+twitch_bad_spawn
+
+wolfalert
+vulturealert
+hulkalert
+zombieferalalert
+boaralert
+zombiedogalert
+mlionalert
+bearalert
+zombiemalealert
+zombiefemale2alert
+spideralert
+-->
+
+	<set xpath="/gameevents/action_sequence[@name='vote_horde_standard']">
+		<property name="allow_user_trigger" value="false" />
+		<property name="action_type" value="TwitchVote" />
+		<property name="refund_inactivity" value="false" />
+		<property name="category" value="twitch_votes" />
+
+		<action class="AddPartyToGroup">
+			<property name="phase" value="0" />
+			<property name="group_name" value="party" />
+			<property name="twitch_negative" value="false" />
+		</action>
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="zombieBurnt" param1="zombiename" />
+			<property name="spawn_count" value="5" param1="zombiecount" />
+			<property name="party_addition" value="2" />
+			<property name="phase" value="0" />
+			<property name="safe_spawn" value="true" />
+			<property name="add_to_group" value="zombies,minions" />
+			<property name="add_buffs" value="twitch_minion" param1="minionbuff" />
+			<!--<property name="spawn_from_position" value="true" />-->
+			<property name="min_distance" value="15" />
+			<property name="max_distance" value="20" />
+			<property name="clear_position_on_complete" value="true" />
+		</action>
+
+		<action class="SpawnEntity">
+			<property name="entity_names" value="zombieBurnt" param1="bossname" />
+			<property name="spawn_count" value="1" />
+			<property name="phase" value="0" />
+			<property name="safe_spawn" value="true" />
+			<property name="add_to_group" value="zombies,boss" />
+			<property name="add_buffs" value="twitch_tough1,twitch_boss" param1="bossbuff" />
+			<!--<property name="spawn_from_position" value="true" />-->
+			<property name="min_distance" value="20" />
+			<property name="max_distance" value="25" />
+		</action>
+
+		<action class="PlaySound">
+			<property name="sound" value="zombiemalealert" param1="alertsound" />
+			<property name="phase" value="1" />
+		</action>
+		
+		<action class="Delay">
+			<property name="time" value="1" />
+			<property name="phase" value="2" />
+		</action>
+		
+		<action class="SetupBossGroup">
+			<property name="minion_group_name" value="minions" />
+			<property name="boss_group_name" value="boss" />
+			<property name="boss_icon1" value="" param1="bossicon1" />
+			<property name="phase" value="3" />
+		</action>
+		
+		<action class="RageZombies">
+			<property name="target_group" value="zombies" />
+			<property name="time" value="600" />
+			<property name="speed_percent" value="1.25" />
+			<property name="phase" value="3" />
+		</action>
+		
+		<action class="WaitForDead">
+			<property name="target_group" value="zombies" />
+			<property name="phase_on_despawn" value="8" />
+			<property name="phase" value="4" />
+		</action>
+
+		<action class="Delay">
+			<property name="time" value="5" />
+			<property name="phase" value="5" />
+		</action>
+
+		<action class="PlaySound">
+			<property name="sound" value="open_supply_crate" />
+			<property name="phase" value="6" />
+		</action>
+
+		<action class="PlaySound">
+			<property name="sound" value="twitch_vote_horde_success" param1="successsound" />
+			<property name="phase" value="6" />
+			<property name="inside_head" value="true" />
+			<property name="target_group" value="party" />
+		</action>
+		
+		<action class="AddQuest">
+			<property name="quest" value="challenge_FuriousRamsayQuestCompletion" param1="questkey" />
+			<property name="phase" value="7" />
+		</action>
+
+		<action class="SpawnContainer">
+			<property name="entity_names" value="TwitchAction_VoteRewardT1" param1="cratename" />
+			<property name="safe_spawn" value="true" />
+			<property name="phase" value="7" />
+			<property name="phase_on_complete" value="9" />
+			<property name="target_group" value="party" />
+			<property name="spawn_from_position" value="true" />
+		</action>
+
+		<action class="PlaySound">
+			<property name="sound" value="twitch_vote_horde_failed" param1="failedsound" />
+			<property name="phase" value="8" />
+			<property name="inside_head" value="true" />
+			<property name="target_group" value="party" />
+		</action>
+
+		<action class="BeltTooltip">
+			<property name="text_key" value="BossEventFailedDespawn" param1="failedkey" />
+			<property name="phase" value="8" />
+		</action>
+		
+		<action class="RemoveEntities">
+			<property name="target_group" value="zombies" />
+			<property name="phase" value="8" />
+		</action>	
+	
+	</set>
+
+	<append xpath="/gameevents">
+
+		<action_sequence name="spawn_FuriousRamsay_NPCBriston">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayNPCBriston"/>
+				<property name="min_distance" value="1" />
+				<property name="max_distance" value="1" />
+				<property name="spawn_count" value="1" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
+
+
+<!-- EVENT SPAWNS -->
+	<!-- EVENT SPAWN TEMPLATE -->
+		<action_sequence name="spawn_FuriousRamsay_Event_Horde">
+			<action class="AddPartyToGroup">
+				<property name="phase" value="0" />
+				<property name="group_name" value="party" />
+				<property name="twitch_negative" value="false" />
+			</action>
+			<action class="GetNearbyPoint">
+				<property name="phase" value="1" />
+				<property name="safe_spawn" value="true" />
+				<property name="min_distance" value="40" param1="minDistance"/>
+				<property name="max_distance" value="50" param1="maxDistance"/>
+			</action>
+			<action class="BeltTooltip">
+				<property name="text" value="" param1="beltTooltip"/>
+				<property name="phase" value="2" />
+			</action>
+			<action class="PlaySound">
+				<property name="sound" value="FuriousRamsayEventWarning" param1="warningSound"/>
+				<property name="phase" value="3" />
+			</action>
+			<action class="SetScreenEffect">
+				<property name="screen_effect" value="Drunk"/>
+				<property name="intensity" value="1" param1="intensity"/>
+				<property name="fade_time" value="1"/>
+				<property name="phase" value="4" />
+			</action>
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayZombie001"  param1="entityNames"/>
+				<property name="spawn_count" value="5"  param1="entityCount"/>
+				<property name="phase" value="5" />
+				<property name="add_to_group" value="zombies" />
+				<property name="safe_spawn" value="true" />
+				<property name="spawn_from_position" value="true" />
+			</action>
+			<action class="Delay">
+				<property name="time" value="1" />
+				<property name="phase" value="6" />
+			</action>
+			<action class="SetScreenEffect">
+				<property name="screen_effect" value="Drunk"/>
+				<property name="intensity" value="0"/>
+				<property name="fade_time" value="1"/>
+				<property name="phase" value="7" />
+			</action>
+		</action_sequence>
+		<!-- TEST -->
+		<action_sequence name="spawn_FuriousRamsay_Event_Horde_Test" template="spawn_FuriousRamsay_Event_Horde">
+			<variable name="entityNames" value="FuriousRamsayBlackDecoyFireShockZombieSkateboarderWandering,FuriousRamsayBlackDecoyFireShockZombieUtilityWorkerWandering,FuriousRamsayBlackDecoyFireShockZombieNurseWandering,FuriousRamsayBlackDecoyFireShockZombiePartyGirlWandering,FuriousRamsayBlackDecoyFireShockZombieSteveCrawlerWandering,FuriousRamsayBlackDecoyFireShockZombieSpiderWandering,FuriousRamsayBlackDecoyFireShockZombieFatHawaiianWandering,FuriousRamsayBlackDecoyFireShockZombieBikerWandering,FuriousRamsayBlackDecoyFireShockZombieSoldierWandering,FuriousRamsayBlackDecoyFireShockZombieMaleHazmatWandering" />
+			<variable name="entityCount" value="12" />
+			<variable name="intensity" value="0" />
+			<variable name="warningSound" value="" />
+		</action_sequence>
+		<!-- TIER 1 ZOMBIE HORDE A -->
+		<action_sequence name="spawn_FuriousRamsay_Event_Horde_Zombie_Tier1A" template="spawn_FuriousRamsay_Event_Horde">
+			<variable name="entityNames" value="FuriousRamsayZombie001,FuriousRamsayZombie002,FuriousRamsayZombie003,FuriousRamsayZombie004,FuriousRamsayZombie005,FuriousRamsayZombie006,FuriousRamsayZombie007" />
+			<variable name="entityCount" value="12" />
+			<variable name="beltTooltip" value="[f2b3b6]You hear death's whisper[-]" />
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_Event_Horde_Zombie_Tier1A2" template="spawn_FuriousRamsay_Event_Horde">
+			<variable name="entityNames" value="FuriousRamsayZombie001,FuriousRamsayZombie002,FuriousRamsayZombie003,FuriousRamsayZombie004,FuriousRamsayZombie005,FuriousRamsayZombie006,FuriousRamsayZombie007" />
+			<variable name="entityCount" value="20" />
+			<variable name="intensity" value="0" />
+			<variable name="warningSound" value="" />
+		</action_sequence>
+		<!-- TIER 1 ZOMBIE HORDE B -->
+		<action_sequence name="spawn_FuriousRamsay_Event_Horde_Zombie_Tier1B" template="spawn_FuriousRamsay_Event_Horde">
+			<variable name="entityNames" value="FuriousRamsayZombie008,FuriousRamsayZombie009,FuriousRamsayZombie010,FuriousRamsayZombie011,FuriousRamsayZombie012,FuriousRamsayZombie013" />
+			<variable name="entityCount" value="12" />
+			<variable name="beltTooltip" value="[f2b3b6]You hear death's whisper[-]" />
+		</action_sequence>
+		<!-- TIER 1 ZOMBIE HORDE C -->
+		<action_sequence name="spawn_FuriousRamsay_Event_Horde_Zombie_Tier1C" template="spawn_FuriousRamsay_Event_Horde">
+			<variable name="entityNames" value="FuriousRamsayUMAAidenZombieWandering,FuriousRamsayUMAHodorZombieWandering,FuriousRamsayUMARichieZombieWandering,FuriousRamsayUMAWillieZombieWandering,FuriousRamsayUMAKimZombieWandering,FuriousRamsayUMACharlotteZombieWandering,FuriousRamsayUMARoxyZombieWandering,FuriousRamsayUMAGabrielleZombieWandering,FuriousRamsayUMAClintZombieWandering" />
+			<variable name="entityCount" value="12" />
+			<variable name="beltTooltip" value="[f2b3b6]You hear death's whisper[-]" />
+		</action_sequence>
+		<!-- TIER 1 ZOMBIE HORDE FIRE -->
+		<action_sequence name="spawn_FuriousRamsay_Event_Horde_Zombie_Tier1Fire" template="spawn_FuriousRamsay_Event_Horde">
+			<variable name="entityNames" value="FuriousRamsayBlackDecoyFireZombieBoeWandering,FuriousRamsayBlackDecoyFireZombieJoeWandering,FuriousRamsayBlackDecoyFireZombieJanitorWandering,,FuriousRamsayBlackDecoyFireZombieArleneWandering,FuriousRamsayBlackDecoyFireZombieLabWandering,FuriousRamsayBlackDecoyFireZombieDarleneWandering,FuriousRamsayBlackDecoyFireZombieMarleneWandering,FuriousRamsayBlackDecoyFireZombieYoWandering,uriousRamsayBlackDecoyFireZombieSteveWandering,FuriousRamsayBlackDecoyFireZombieBusinessManWandering" />
+			<variable name="entityCount" value="12" />
+			<variable name="beltTooltip" value="[f2b3b6]You hear death's whisper[-]" />
+		</action_sequence>
+		<!-- TIER 1 ZOMBIE HORDE SHOCK -->
+		<action_sequence name="spawn_FuriousRamsay_Event_Horde_Zombie_Tier1Shock" template="spawn_FuriousRamsay_Event_Horde">
+			<variable name="entityNames" value="FuriousRamsayBlackDecoyShockZombieSkateboarderWandering,FuriousRamsayBlackDecoyShockZombieUtilityWorkerWandering,FuriousRamsayBlackDecoyShockZombieNurseWandering,FuriousRamsayBlackDecoyShockZombiePartyGirlWandering,FuriousRamsayBlackDecoyShockZombieSteveCrawlerWandering,FuriousRamsayBlackDecoyShockZombieSpiderWandering,FuriousRamsayBlackDecoyShockZombieFatHawaiianWandering,FuriousRamsayBlackDecoyShockZombieBikerWandering,FuriousRamsayBlackDecoyShockZombieSoldierWandering,FuriousRamsayBlackDecoyShockZombieMaleHazmatWandering" />
+			<variable name="entityCount" value="12" />
+			<variable name="beltTooltip" value="[f2b3b6]You hear death's whisper[-]" />
+		</action_sequence>
+		<!-- TIER 2 ZOMBIE HORDE TOXIC -->
+		<action_sequence name="spawn_FuriousRamsay_Event_Horde_Zombie_Tier2Toxic" template="spawn_FuriousRamsay_Event_Horde">
+			<variable name="entityNames" value="FuriousRamsayZombieBoeToxicWandering,FuriousRamsayZombieJoeToxicWandering,FuriousRamsayZombieJanitorToxicWandering,FuriousRamsayZombieArleneToxicWandering,FuriousRamsayZombieLabToxicWandering,FuriousRamsayZombieDarleneToxicWandering,FuriousRamsayZombieMarleneToxicWandering,FuriousRamsayZombieYoToxicWandering,FuriousRamsayZombieSteveToxicWandering,FuriousRamsayZombieBusinessManToxicWandering,FuriousRamsayZombieAlexToxicWandering,FuriousRamsayZombieSkateboarderToxicWandering,FuriousRamsayZombieUtilityWorkerToxicWandering,FuriousRamsayZombieNurseToxicWandering,FuriousRamsayZombiePartyGirlToxicWandering,FuriousRamsayZombieSteveCrawlerToxicWandering,FuriousRamsayZombieSpiderToxicWandering,FuriousRamsayZombieFatCopToxicWandering,FuriousRamsayZombieFatHawaiianToxicWandering,FuriousRamsayZombieBikerToxicWandering,FuriousRamsayZombieSoldierToxicWandering,FuriousRamsayZombieMaleHazmatToxicWandering,FuriousRamsayZombieMoeToxicWandering,FuriousRamsayZombieFemaleFatToxicWandering" />
+			<variable name="entityCount" value="12" />
+			<variable name="beltTooltip" value="[f2b3b6]You hear death's whisper[-]" />
+		</action_sequence>
+		<!-- TIER 2 ZOMBIE HORDE FIRE/SHOCK -->
+		<action_sequence name="spawn_FuriousRamsay_Event_Horde_Zombie_Tier2FireShock" template="spawn_FuriousRamsay_Event_Horde">
+			<variable name="entityNames" value="FuriousRamsayBlackDecoyFireShockZombieSkateboarderWandering,FuriousRamsayBlackDecoyFireShockZombieUtilityWorkerWandering,FuriousRamsayBlackDecoyFireShockZombieNurseWandering,FuriousRamsayBlackDecoyFireShockZombiePartyGirlWandering,FuriousRamsayBlackDecoyFireShockZombieSteveCrawlerWandering,FuriousRamsayBlackDecoyFireShockZombieSpiderWandering,FuriousRamsayBlackDecoyFireShockZombieFatHawaiianWandering,FuriousRamsayBlackDecoyFireShockZombieBikerWandering,FuriousRamsayBlackDecoyFireShockZombieSoldierWandering,FuriousRamsayBlackDecoyFireShockZombieMaleHazmatWandering" />
+			<variable name="entityCount" value="12" />
+			<variable name="beltTooltip" value="[f2b3b6]You hear death's whisper[-]" />
+		</action_sequence>
+		<!-- TIER 3 ZOMBIE HORDE FIRE/SHOCK -->
+		<action_sequence name="spawn_FuriousRamsay_Event_Horde_Zombie_Tier3FireShockSmoke" template="spawn_FuriousRamsay_Event_Horde">
+			<variable name="entityNames" value="FuriousRamsayBlackDecoyFireShockZombieSkateboarderWandering,FuriousRamsayBlackDecoyFireShockZombieUtilityWorkerWandering,FuriousRamsayBlackDecoyFireShockZombieNurseWandering,FuriousRamsayBlackDecoyFireShockZombiePartyGirlWandering,FuriousRamsayBlackDecoyFireShockZombieSteveCrawlerWandering,FuriousRamsayBlackDecoyFireShockZombieSpiderWandering,FuriousRamsayBlackDecoyFireShockZombieFatHawaiianWandering,FuriousRamsayBlackDecoyFireShockZombieBikerWandering,FuriousRamsayBlackDecoyFireShockZombieSoldierWandering,FuriousRamsayBlackDecoyFireShockZombieMaleHazmatWandering" />
+			<variable name="entityCount" value="12" />
+			<variable name="beltTooltip" value="[f2b3b6]You hear death's whisper[-]" />
+		</action_sequence>
+		<!-- TIER 1 BOSSES -->
+		<action_sequence name="spawn_FuriousRamsay_Event_Tier1Bosses" template="spawn_FuriousRamsay_Event_Horde">
+			<variable name="entityNames" value="FuriousRamsayPandemicMan002aMacheteBossTier1Event,FuriousRamsayBanditCyborg001AxeBossTier1Event,FuriousRamsayWerewolfBossTier1Event" />
+			<variable name="entityCount" value="1" />
+			<variable name="intensity" value="0" />
+			<variable name="warningSound" value="" />
+		</action_sequence>
+		<!-- TIER 2 VULTURES -->
+		<action_sequence name="spawn_FuriousRamsay_Event_Tier2Vultures" template="spawn_FuriousRamsay_Event_Horde">
+			<variable name="entityNames" value="animalZombieVulture" />
+			<variable name="entityCount" value="12" />
+			<variable name="beltTooltip" value="[f2b3b6]You hear death's whisper[-]" />
+		</action_sequence>
+		<!-- TIER 3 VULTURES -->
+		<action_sequence name="spawn_FuriousRamsay_Event_Tier2Vultures" template="spawn_FuriousRamsay_Event_Horde">
+			<variable name="entityNames" value="animalZombieVultureRadiated" />
+			<variable name="entityCount" value="10" />
+			<variable name="beltTooltip" value="[f2b3b6]You hear death's whisper[-]" />
+		</action_sequence>
+
+<!-- QUEST SPAWNS -->
+	<!-- QUEST: GHOSTS -->
+		<action_sequence name="spawn_FuriousRamsay_Ghosts_Tier1">
+			<action class="CallGameEvent">
+				<property name="game_events" value="spawn_FuriousRamsay_GhostsSurvivors_Tier1" />
+				<property name="phase" value="1" />
+			</action>
+			<action class="CallGameEvent">
+				<property name="game_events" value="spawn_FuriousRamsay_GhostBossTier1" />
+				<property name="phase" value="2" />
+			</action>
+		</action_sequence>
+		<!-- SURVIVORS -->
+		<action_sequence name="spawn_FuriousRamsay_GhostsSurvivors_Tier1">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySurvivorMan010bBatTier1NoHire,FuriousRamsaySurvivorMan009a1KnifeTier1NoHire,FuriousRamsaySurvivorMan006aBatTier1NoHire,FuriousRamsaySurvivorMan002f1SpearTier1NoHire,FuriousRamsaySurvivorMan002cMacheteTier1NoHire,FuriousRamsaySurvivorMan000eAxeTier1NoHire,FuriousRamsaySurvivorMan000b1MacheteTier1NoHire"/>
+				<property name="min_distance" value="5" />
+				<property name="max_distance" value="10" />
+				<property name="spawn_count" value="3" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
+		<!-- BOSS -->
+		<action_sequence name="spawn_FuriousRamsay_GhostBossTier1" template="vote_horde_standard">
+			<variable name="alertsound" value="snakealert" />
+			<variable name="zombiecount" value="6" />
+			<variable name="zombiename" value="FuriousRamsayCloakedSnake" />
+			<variable name="minionbuff" value="" />
+			<variable name="bossname" value="FuriousRamsayCloakedSnakeBoss" />
+			<variable name="bossicon1" value="FuriousRamsayCloakedSnake_profile" />
+			<variable name="bossbuff" value="" />
+			<variable name="cratename" value="FuriousRamsayQuestLootGhostsTier1" />
+			<variable name="successsound" value="twitch_vote_horde_success" />
+			<variable name="failedsound" value="twitch_vote_horde_failed" />
+			<variable name="failedkey" value="BossEventFailedDespawn" />
+			<variable name="questkey" value="challenge_FuriousRamsayStarterMortarPestle" />
+		</action_sequence>
+
+	<!-- QUEST: THE HUNT -->
+		<action_sequence name="spawn_FuriousRamsay_TheHunt_Tier1">
+			<action class="CallGameEvent">
+				<property name="game_events" value="spawn_FuriousRamsay_TheHuntZombiesTier1" />
+				<property name="phase" value="1" />
+			</action>
+			<action class="Delay">
+				<property name="time" value="5" />
+				<property name="phase" value="2" />
+			</action>
+			<action class="CallGameEvent">
+				<property name="game_events" value="spawn_FuriousRamsay_TheHuntBossTier1" />
+				<property name="phase" value="3" />
+			</action>
+		</action_sequence>
+		<!-- BOSS -->
+		<action_sequence name="spawn_FuriousRamsay_TheHuntBossTier1" template="vote_horde_standard">
+			<variable name="alertsound" value="FuriousRamsayScarecrowAlert" />
+			<variable name="zombiecount" value="6" />
+			<variable name="zombiename" value="FuriousRamsayHostileChicken,FuriousRamsayHostileChicken2,FuriousRamsayHostileChicken3,FuriousRamsayHostileChicken4,FuriousRamsayHostileChicken5,FuriousRamsayHostileRabbit,FuriousRamsayHostileRabbit2,FuriousRamsayHostileRabbit3,FuriousRamsayHostileRabbit4" />
+			<variable name="minionbuff" value="" />
+			<variable name="bossname" value="FuriousRamsayWerewolfBossTier1" />
+			<variable name="bossicon1" value="FuriousRamsayWerewolfForestTier1_profile" />
+			<variable name="bossbuff" value="" />
+			<variable name="cratename" value="FuriousRamsayQuestLootHuntTier1" />
+			<variable name="successsound" value="twitch_vote_horde_success" />
+			<variable name="failedsound" value="twitch_vote_horde_failed" />
+			<variable name="failedkey" value="BossEventFailedDespawn" />
+		</action_sequence>
+		<!-- ZOMBIES -->
+		<action_sequence name="spawn_FuriousRamsay_TheHuntZombiesTier1">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieBoe,zombieJoe,zombieArlene,zombieDarlene,zombieMarlene,zombieYo,zombieSteve,zombieBusinessMan"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="20" />
+				<property name="spawn_count" value="10" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
+
+	<!-- QUEST: TOXIC -->
+		<!-- BOSS -->
+		<action_sequence name="spawn_FuriousRamsay_ToxicTier1" template="vote_horde_standard">
+			<variable name="alertsound" value="" />
+			<variable name="zombiecount" value="5" />
+			<variable name="zombiename" value="FuriousRamsayZombieBoeToxic,FuriousRamsayZombieJoeToxic,FuriousRamsayZombieJanitorToxic,FuriousRamsayZombieArleneToxic,FuriousRamsayZombieLabToxic,FuriousRamsayZombieDarleneToxic,FuriousRamsayZombieMarleneToxic,FuriousRamsayZombieYoToxic,FuriousRamsayZombieSteveToxic,FuriousRamsayZombieBusinessManToxic" />
+			<variable name="minionbuff" value="" />
+			<variable name="bossname" value="FuriousRamsayZombieSkateboarderToxicBoss" />
+			<variable name="bossicon1" value="FuriousRamsayZombieSkateboarderToxicBoss_profile" />
+			<variable name="bossbuff" value="" />
+			<variable name="cratename" value="FuriousRamsayQuestLootToxicTier1" />
+			<variable name="successsound" value="twitch_vote_horde_success" />
+			<variable name="failedsound" value="twitch_vote_horde_failed" />
+			<variable name="failedkey" value="BossEventFailedDespawn" />
+		</action_sequence>
+		<!-- ZOMBIES -->
+
+	<!-- QUEST: FACTION WARS -->
+		<action_sequence name="spawn_FuriousRamsay_FactionWarWave1_Tier1">
+			<action class="CallGameEvent">
+				<property name="game_events" value="spawn_FuriousRamsay_FactionWarWave1Survivors_Tier1" />
+				<property name="phase" value="1" />
+			</action>
+			<action class="CallGameEvent">
+				<property name="game_events" value="spawn_FuriousRamsay_CyborgBanditTier1" />
+				<property name="phase" value="2" />
+			</action>
+			<action class="CallGameEvent">
+				<property name="game_events" value="spawn_FuriousRamsay_FactionWarWave1Zombies_Tier1" />
+				<property name="phase" value="3" />
+			</action>
+		</action_sequence>
+		<!-- SURVIVORS -->
+		<action_sequence name="spawn_FuriousRamsay_FactionWarWave1Survivors_Tier1">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySurvivorMan012aPipeShotgunTier1NoHire"/>
+				<property name="min_distance" value="5" />
+				<property name="max_distance" value="5" />
+				<property name="spawn_count" value="1" />
+				<property name="phase" value="1" />
+			</action>
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySurvivorMan010bBatTier1NoHire"/>
+				<property name="min_distance" value="10" />
+				<property name="max_distance" value="10" />
+				<property name="spawn_count" value="1" />
+				<property name="phase" value="1" />
+			</action>
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySurvivorMan009a1KnifeTier1NoHire"/>
+				<property name="min_distance" value="7" />
+				<property name="max_distance" value="7" />
+				<property name="spawn_count" value="1" />
+				<property name="phase" value="1" />
+			</action>
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySurvivorMan006aBatTier1NoHire"/>
+				<property name="min_distance" value="12" />
+				<property name="max_distance" value="12" />
+				<property name="spawn_count" value="1" />
+				<property name="phase" value="1" />
+			</action>
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySurvivorMan002f1SpearTier1NoHire"/>
+				<property name="min_distance" value="9" />
+				<property name="max_distance" value="9" />
+				<property name="spawn_count" value="1" />
+				<property name="phase" value="1" />
+			</action>
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySurvivorMan001b2PipePistolTier1NoHire"/>
+				<property name="min_distance" value="14" />
+				<property name="max_distance" value="14" />
+				<property name="spawn_count" value="1" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
+		<!-- BOSS -->
+		<action_sequence name="spawn_FuriousRamsay_CyborgBanditTier1" template="vote_horde_standard">
+			<variable name="alertsound" value="malehatesense06" />
+			<variable name="zombiecount" value="3" />
+			<variable name="zombiename" value="FuriousRamsayBanditMan001aBatTier1NoHire,FuriousRamsayBanditMan001bAxeTier1NoHire,FuriousRamsayBanditMan002aClubTier1NoHire,FuriousRamsayBanditMan002bKnifeTier1NoHire,FuriousRamsayBanditMan003aSpearTier1NoHire,FuriousRamsayBanditMan005aMacheteTier1NoHire,FuriousRamsayBanditMan005dBatTier1NoHire,FuriousRamsayBanditWoman001dAxeTier1NoHire,FuriousRamsayBanditWoman001gMacheteTier1NoHire" />
+			<variable name="minionbuff" value="" />
+			<variable name="bossname" value="FuriousRamsayBanditCyborg001AxeBossTier1" />
+			<variable name="bossicon1" value="FuriousRamsayBanditCyborg001AxeBoss_profile" />
+			<variable name="bossbuff" value="" />
+			<variable name="cratename" value="FuriousRamsayQuestLootFactionWarTier1" />
+			<variable name="successsound" value="twitch_vote_horde_success" />
+			<variable name="failedsound" value="twitch_vote_horde_failed" />
+			<variable name="failedkey" value="BossEventFailedDespawn" />
+		</action_sequence>
+		<!-- ZOMBIES -->
+		<action_sequence name="spawn_FuriousRamsay_FactionWarWave1Zombies_Tier1">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieBoe,zombieJoe,zombieArlene,zombieDarlene,zombieMarlene,zombieYo,zombieSteve,zombieBusinessMan"/>
+				<property name="min_distance" value="20" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="10" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
+		<!-- BANDIT -->
+		<action_sequence name="spawn_FuriousRamsay_FactionWarWave1Bandit">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayBanditMan001aBatTier1NoHire,FuriousRamsayBanditMan001bAxeTier1NoHire,FuriousRamsayBanditMan002aClubTier1NoHire,FuriousRamsayBanditMan002bKnifeTier1NoHire,FuriousRamsayBanditMan003aSpearTier1NoHire,FuriousRamsayBanditMan005aMacheteTier1NoHire,FuriousRamsayBanditMan005dBatTier1NoHire,FuriousRamsayBanditWoman001dAxeTier1NoHire,FuriousRamsayBanditWoman001gMacheteTier1NoHire"/>
+				<property name="min_distance" value="20" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="10" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
+
+	<!-- QUEST: HAZARD -->
+		<action_sequence name="spawn_FuriousRamsay_Hazard_Tier1">
+			<action class="CallGameEvent">
+				<property name="game_events" value="spawn_FuriousRamsay_HazardZombies_Tier1" />
+				<property name="phase" value="1" />
+			</action>
+			<action class="CallGameEvent">
+				<property name="game_events" value="spawn_FuriousRamsay_HazmatLeaderTier1" />
+				<property name="phase" value="2" />
+			</action>
+		</action_sequence>
+		<!-- BOSS -->
+		<action_sequence name="spawn_FuriousRamsay_HazmatLeaderTier1" template="vote_horde_standard">
+			<variable name="alertsound" value="malehatesense05" />
+			<variable name="zombiecount" value="3" />
+			<variable name="zombiename" value="FuriousRamsayPandemicMan001aBatTier1NoHire,FuriousRamsayPandemicMan001aAxeTier1NoHire,FuriousRamsayPandemicWoman001aKnifeTier1NoHire,FuriousRamsayPandemicWoman001aSpearTier1NoHire" />
+			<variable name="minionbuff" value="" />
+			<variable name="bossname" value="FuriousRamsayPandemicMan002aMacheteBossTier1" />
+			<variable name="bossicon1" value="FuriousRamsayPandemicMan002aMachete_profile" />
+			<variable name="bossbuff" value="" />
+			<variable name="cratename" value="FuriousRamsayQuestLootHazardTier1" />
+			<variable name="successsound" value="twitch_vote_horde_success" />
+			<variable name="failedsound" value="twitch_vote_horde_failed" />
+			<variable name="failedkey" value="BossEventFailedDespawn" />
+		</action_sequence>
+		<!-- ZOMBIES -->
+		<action_sequence name="spawn_FuriousRamsay_HazardZombies_Tier1">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieBoe,zombieJoe,zombieArlene,zombieDarlene,zombieMarlene,zombieYo,zombieSteve,zombieBusinessMan"/>
+				<property name="min_distance" value="10" />
+				<property name="max_distance" value="15" />
+				<property name="spawn_count" value="10" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
+
+	<!-- QUEST: MINI-HORDE -->
+		<action_sequence name="spawn_FuriousRamsay_MiniHorde_Tier1">
+			<action class="CallGameEvent">
+				<property name="game_events" value="spawn_QuestCompletionGeneticsXPTier1" />
+				<property name="phase" value="1" />
+			</action>
+			<action class="CallGameEvent">
+				<property name="game_events" value="spawn_FuriousRamsay_MiniHordeBossTier1" />
+				<property name="phase" value="2" />
+			</action>
+		</action_sequence>
+		<!-- BOSS -->
+		<action_sequence name="spawn_FuriousRamsay_MiniHordeBossTier1" template="vote_horde_standard">
+			<variable name="alertsound" value="zombiefemalescoutalert" />
+			<variable name="zombiecount" value="20" />
+			<variable name="zombiename" value="zombieBoe,zombieJoe,zombieArlene,zombieDarlene,zombieMarlene,zombieYo,zombieSteve,zombieBusinessMan" />
+			<variable name="minionbuff" value="" />
+			<variable name="bossname" value="FuriousRamsayMiniHordeBossTier1" />
+			<variable name="bossicon1" value="FuriousRamsayMiniHordeBossTier1_profile" />
+			<variable name="bossbuff" value="" />
+			<variable name="cratename" value="FuriousRamsayQuestLootMiniHordeTier1" />
+			<variable name="successsound" value="twitch_vote_horde_success" />
+			<variable name="failedsound" value="twitch_vote_horde_failed" />
+			<variable name="failedkey" value="BossEventFailedDespawn" />
+		</action_sequence>
+
+		<!-- ADD CLASS AURA NOTE -->
+		<action_sequence name="spawn_FuriousRamsay_RangedAuraHunter">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantAuraHunter" />
+				<property name="added_item_counts" value="1" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_RangedAuraThug">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantAuraThug" />
+				<property name="added_item_counts" value="1" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_RangedAuraButcher">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantAuraButcher" />
+				<property name="added_item_counts" value="1" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_RangedAuraSoldier">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantAuraSoldier" />
+				<property name="added_item_counts" value="1" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_RangedAuraTechnogeek">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantAuraTechnogeek" />
+				<property name="added_item_counts" value="1" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_RangedAuraMadman">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantAuraMadman" />
+				<property name="added_item_counts" value="1" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_RangedAuraBuilder">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantAuraBuilder" />
+				<property name="added_item_counts" value="1" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_RangedAuraChef">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantAuraChef" />
+				<property name="added_item_counts" value="1" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
+
+		<!-- ADD COMPANION NOTE -->
+		<action_sequence name="spawn_FuriousRamsay_Decoys">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantDecoys,FuriousRamsayMadmanDecoyTier1" />
+				<property name="added_item_counts" value="1,1" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
+
+		<!-- ADD COMPANION NOTE -->
+		<action_sequence name="spawn_FuriousRamsay_Companion">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsaySpawnCubePitbull001_FR,FuriousRamsayImportantCompanion,foodRawMeat" />
+				<property name="added_item_counts" value="1,1,1" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
+
+		<!-- ADD GLOBAL AURA NOTE -->
+		<action_sequence name="FuriousRamsayAddItemNoteGlobalAura">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantGlobalAura" />
+				<property name="added_item_counts" value="1" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
+
+	<!-- ADD EXPERTISE WEAPONS -->
+	<!-- HUNTER -->
+		<!-- SNIPER RIFLE -->
+		<action_sequence name="FuriousRamsayAddItemSniperRifle">
+			<action class="AddItems">
+				<property name="added_items" value="gunRifleT3SniperRifle,FuriousRamsayRepairKitSniperRifle,FuriousRamsayImportantSniperRifle" />
+				<property name="added_item_counts" value="1,1,1" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
+	<!-- THUG -->
+		<!-- SHOTGUN -->
+		<action_sequence name="FuriousRamsayAddItemShotgun">
+			<action class="AddItems">
+				<property name="added_items" value="gunShotgunT2PumpShotgun,FuriousRamsayRepairKitPumpShotgun,FuriousRamsayImportantShotgun" />
+				<property name="added_item_counts" value="1,1,1" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
+	<!-- BUTCHER -->
+		<!-- ASSAULT RIFLE -->
+		<action_sequence name="FuriousRamsayAddItemAssaultRifle">
+			<action class="AddItems">
+				<property name="added_items" value="gunMGT1AK47,FuriousRamsayRepairKitAK47,FuriousRamsayImportantAssaultRifle" />
+				<property name="added_item_counts" value="1,1,1" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
+	<!-- SOLDIER -->
+		<!-- MARKSMAN RIFLE -->
+		<action_sequence name="FuriousRamsayAddItemMarksmanRifle">
+			<action class="AddItems">
+				<property name="added_items" value="gunRifleT2LeverActionRifle,FuriousRamsayRepairKitMarksmanRifle,FuriousRamsayImportantMarksmanRifle" />
+				<property name="added_item_counts" value="1,1,1" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
+		<!-- MACHINE GUN -->
+		<action_sequence name="FuriousRamsayAddItemMachineGun">
+			<action class="AddItems">
+				<property name="added_items" value="gunMGT3M60,FuriousRamsayRepairKitM60,FuriousRamsayImportantMachineGun" />
+				<property name="added_item_counts" value="1,1,1" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
+	<!-- TECHNOGEEK -->
+		<!-- MAGNUM -->
+		<action_sequence name="FuriousRamsayAddItemMagnum">
+			<action class="AddItems">
+				<property name="added_items" value="gunHandgunT2Magnum44,FuriousRamsayRepairKitMagnum44,FuriousRamsayImportantMagnum" />
+				<property name="added_item_counts" value="1,1,1" />
+			</action>
+		</action_sequence>
+		<!-- DEPLOYABLE TURRET -->
+		<action_sequence name="FuriousRamsayAddItemDeployableTurret">
+			<action class="AddItems">
+				<property name="added_items" value="gunBotT2JunkTurret,FuriousRamsayRepairKitJunkTurret,FuriousRamsayImportantDeployableTurret" />
+				<property name="added_item_counts" value="1,1,1" />
+			</action>
+		</action_sequence>
+	<!-- MADMAN -->
+		<!-- SUBMACHINE GUN -->
+		<action_sequence name="FuriousRamsayAddItemSubmachineGun">
+			<action class="AddItems">
+				<property name="added_items" value="gunHandgunT3SMG5,FuriousRamsayRepairKitSMG5,FuriousRamsayImportantSubmachineGun" />
+				<property name="added_item_counts" value="1,1,1" />
+			</action>
+		</action_sequence>
+	<!-- BUILDER -->
+		<!-- PISTOL -->
+		<action_sequence name="FuriousRamsayAddItemPistol">
+			<action class="AddItems">
+				<property name="added_items" value="gunHandgunT1Pistol,FuriousRamsayRepairKitPistol,FuriousRamsayImportantPistol" />
+				<property name="added_item_counts" value="1,1,1" />
+			</action>
+		</action_sequence>
+		<!-- POWERED TURRET -->
+		<action_sequence name="FuriousRamsayAddItemPoweredTurret">
+			<action class="AddItems">
+				<property name="added_items" value="autoTurret,shotgunTurret,FuriousRamsayImportantPoweredTurret" />
+				<property name="added_item_counts" value="1,1,1" />
+			</action>
+		</action_sequence>
+	<!-- CHEF -->
+		<!-- DESERT VULTURE -->
+		<action_sequence name="FuriousRamsayAddItemDesertVulture">
+			<action class="AddItems">
+				<property name="added_items" value="gunHandgunT3DesertVulture,FuriousRamsayRepairKitDesertVulture,FuriousRamsayImportantDesertVulture" />
+				<property name="added_item_counts" value="1,1,1" />
+			</action>
+		</action_sequence>
+
+	<!-- IMPORTANT NOTES -->
+		<!-- SPEARS -->
+		<action_sequence name="FuriousRamsayImportantHunterSpearsWeapon1">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantHunterSpearsWeapon1,meleeWpnSpearT3SteelSpear,ItemsWeaponsSpear003_FR" />
+				<property name="added_item_counts" value="1,1,1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="FuriousRamsayImportantHunterSpearsWeapon2">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantHunterSpearsWeapon2,ItemsWeaponsSpear001_FR,ItemsWeaponsSpear002_FR" />
+				<property name="added_item_counts" value="1,1,1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="FuriousRamsayImportantHunterSpearsWeapon3">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantHunterSpearsWeapon3,ItemsWeaponsSpear004_FR,ItemsWeaponsSpear005_FR" />
+				<property name="added_item_counts" value="1,1,1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="FuriousRamsayImportantHunterSpearsWeapon4">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantHunterSpearsWeapon4,ItemsWeaponsSpear006_FR" />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>
+		<!-- CLUBS -->
+		<action_sequence name="FuriousRamsayImportantThugClubsWeapon1">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantThugClubsWeapon1,meleeWpnClubT3SteelClub,ItemsWeaponsClub001_FR,ItemsWeaponsClub005_FR" />
+				<property name="added_item_counts" value="1,1,1,1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="FuriousRamsayImportantThugClubsWeapon2">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantThugClubsWeapon2,ItemsWeaponsClub002_FR,ItemsWeaponsClub009_FR,ItemsWeaponsClub010_FR" />
+				<property name="added_item_counts" value="1,1,1,1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="FuriousRamsayImportantThugClubsWeapon3">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantThugClubsWeapon3,ItemsWeaponsClub004_FR,ItemsWeaponsClub006_FR,ItemsWeaponsClub008_FR" />
+				<property name="added_item_counts" value="1,1,1,1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="FuriousRamsayImportantThugClubsWeapon4">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantThugClubsWeapon4,ItemsWeaponsClub003_FR" />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>
+		<!-- SWORDS -->
+		<action_sequence name="FuriousRamsayImportantButcherSwordsWeapon1">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantButcherSwordsWeapon1,ItemsWeaponsKatana001_FR,ItemsWeaponsKatana002_FR" />
+				<property name="added_item_counts" value="1,1,1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="FuriousRamsayImportantButcherSwordsWeapon2">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantButcherSwordsWeapon2,ItemsWeaponsSciFiSword001_FR,ItemsWeaponsSciFiSword003_FR" />
+				<property name="added_item_counts" value="1,1,1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="FuriousRamsayImportantButcherSwordsWeapon3">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantButcherSwordsWeapon3,ItemsWeaponsKatana003_FR" />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>
+		<!-- AXES -->
+		<action_sequence name="FuriousRamsayImportantSoldierAxesWeapon1">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantSoldierAxesWeapon1,meleeToolAxeT2SteelAxe,ItemsWeaponsAxe005_FR" />
+				<property name="added_item_counts" value="1,1,1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="FuriousRamsayImportantSoldierAxesWeapon2">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantSoldierAxesWeapon2,ItemsWeaponsAxe001_FR,ItemsWeaponsAxe002_FR,ItemsWeaponsAxe003_FR" />
+				<property name="added_item_counts" value="1,1,1,1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="FuriousRamsayImportantSoldierAxesWeapon3">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantSoldierAxesWeapon3,ItemsWeaponsAxe004_FR," />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>
+		<!-- BATONS -->
+		<action_sequence name="FuriousRamsayImportantTechnogeekBatonsWeapon1">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantTechnogeekBatonsWeapon1,ItemsWeaponsJunkBaton001_FR" />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="FuriousRamsayImportantTechnogeekBatonsWeapon2">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantTechnogeekBatonsWeapon2,meleeWpnBatonT2StunBaton" />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="FuriousRamsayImportantTechnogeekBatonsWeapon3">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantTechnogeekBatonsWeapon3,ItemsWeaponsBaton001_FR" />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="FuriousRamsayImportantTechnogeekBatonsWeapon4">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantTechnogeekBatonsWeapon4,ItemsWeaponsBaton002_FR" />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>
+		<!-- KNUCKLES -->
+		<action_sequence name="FuriousRamsayImportantMadmanKnucklesWeapon1">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantMadmanKnucklesWeapon1,meleeWpnKnucklesT3SteelKnuckles" />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="FuriousRamsayImportantMadmanKnucklesWeapon2">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantMadmanKnucklesWeapon2,ItemsWeaponsKnuckles002_FR" />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="FuriousRamsayImportantMadmanKnucklesWeapon3">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantMadmanKnucklesWeapon3,ItemsWeaponsKnuckles001_FR" />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="FuriousRamsayImportantMadmanKnucklesWeapon4">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantMadmanKnucklesWeapon4,ItemsWeaponsKnuckles003_FR" />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>
+		<!-- HAMMERS -->
+		<action_sequence name="FuriousRamsayImportantBuilderHammersWeapon1">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantBuilderHammersWeapon1,meleeWpnSledgeT3SteelSledgehammer,ItemsWeaponsSledgeHammer001_FR,ItemsWeaponsHammer003_FR" />
+				<property name="added_item_counts" value="1,1,1,1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="FuriousRamsayImportantBuilderHammersWeapon2">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantBuilderHammersWeapon2,ItemsWeaponsSledgeHammer002_FR,ItemsWeaponsHammer001_FR,ItemsWeaponsHammer002_FR" />
+				<property name="added_item_counts" value="1,1,1,1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="FuriousRamsayImportantBuilderHammersWeapon3">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantBuilderHammersWeapon3,ItemsWeaponsSledgeHammer003_FR" />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>
+		<!-- KNIVES -->
+		<action_sequence name="FuriousRamsayImportantChefKnivesWeapon1">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantChefKnivesWeapon1,FuriousRamsayKnife002_FR,ItemsWeaponsCleaver001_FR" />
+				<property name="added_item_counts" value="1,1,1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="FuriousRamsayImportantChefKnivesWeapon2">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantChefKnivesWeapon2,FuriousRamsayKnife001_FR,FuriousRamsayKnife003_FR" />
+				<property name="added_item_counts" value="1,1,1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="FuriousRamsayImportantChefKnivesWeapon3">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantChefKnivesWeapon3,FuriousRamsayBurningKnife" />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>
+
+		<action_sequence name="FuriousRamsayAddItemGeneticsPerkBook">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayGeneticsPerBook,FuriousRamsayPillGeneric" />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_Salvage">
+			<action class="AddItems">
+				<property name="added_items" value="meleeToolSalvageT1Wrench,vehicleBicyclePlaceable" />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_ClawHammer">
+			<action class="AddItems">
+				<property name="added_items" value="meleeToolRepairT1ClawHammer,resourceWood,resourceNail" />
+				<property name="added_item_counts" value="1,50,20" />
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_HammerPliers">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayPliers,meleeToolRepairT1ClawHammer,resourceWood,resourceNail" />
+				<property name="added_item_counts" value="1,1,16,5" />
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_NPCControl">
+			<action class="AddItems">
+				<property name="added_items" value="itemNPCModMode,itemNPCModStop,FuriousRamsayImportantNPCControl,FuriousRamsayImportantGenetics,FuriousRamsayImportantGeneticsLevels,FuriousRamsayImportantClassBook" />
+				<property name="added_item_counts" value="1,1,1,1,1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_BristonJournal">
+			<action class="AddJournalTip">
+				<property name="tip_name" value="FuriousRamsayNPCControl" />
+				<property name="show_window" value="false" />
+				<property name="phase" value="1" />
+			</action>
+			<action class="AddJournalTip">
+				<property name="tip_name" value="quest_FuriousRamsayGeneticsInfo" />
+				<property name="show_window" value="false" />
+				<property name="phase" value="2" />
+			</action>
+			<action class="AddJournalTip">
+				<property name="tip_name" value="quest_FuriousRamsayCraftClassBook" />
+				<property name="show_window" value="false" />
+				<property name="phase" value="3" />
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_Toolbox">
+			<action class="AddItems">
+				<property name="added_items" value="WorkbenchToolbox001_FR" />
+				<property name="added_item_counts" value="1" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_FuriousRamsay_TrainerHunter">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsaySpawnTrainerHunter_FR,FuriousRamsayImportantComponents" />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_FuriousRamsay_TrainerThug">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsaySpawnTrainerThug_FR,FuriousRamsayImportantComponents" />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_FuriousRamsay_TrainerButcher">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsaySpawnTrainerButcher_FR,FuriousRamsayImportantComponents" />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_FuriousRamsay_TrainerSoldier">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsaySpawnTrainerSoldier_FR,FuriousRamsayImportantComponents" />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_FuriousRamsay_TrainerTechnogeek">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsaySpawnTrainerTechnogeek_FR,FuriousRamsayImportantComponents" />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_FuriousRamsay_TrainerMadman">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsaySpawnTrainerMadman_FR,FuriousRamsayImportantComponents" />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_FuriousRamsay_TrainerBuilder">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsaySpawnTrainerBuilder_FR,FuriousRamsayImportantComponents" />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_FuriousRamsay_TrainerChef">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsaySpawnTrainerChef_FR,FuriousRamsayImportantComponents" />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>	
+		<!-- challenge_FuriousRamsayStarterGhosts -->
+		<action_sequence name="spawn_QuestStarterGhostsStart">
+			<action class="AddItems">
+				<property name="added_items" value="ammo9mmBulletBall,meleeWpnSledgeT0StoneSledgehammer,medicalFirstAidBandage" />
+				<property name="added_item_counts" value="40,1,3" />
+			</action>
+		</action_sequence>	
+		<!-- challenge_FuriousRamsayStarterHunt -->
+		<action_sequence name="spawn_QuestStarterHuntStart">
+			<action class="AddItems">
+				<property name="added_items" value="ammo9mmBulletBall,drinkJarRedTea" />
+				<property name="added_item_counts" value="20,1" />
+			</action>
+		</action_sequence>	
+		<!-- challenge_FuriousRamsayStarterHoldFetch -->
+		<action_sequence name="spawn_QuestStarterHoldFetchStart">
+			<action class="AddItems">
+				<property name="added_items" value="drinkJarCoffee,drinkJarGoldenRodTea" />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>	
+		<!-- challenge_FuriousRamsayStarterToxic -->
+		<action_sequence name="spawn_QuestStarterToxicStart">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayDrinkPerussianBlue" />
+				<property name="added_item_counts" value="1" />
+			</action>
+		</action_sequence>	
+		<!-- challenge_FuriousRamsayStarterProtect -->
+		<action_sequence name="spawn_QuestStarterProtectStart">
+			<action class="AddItems">
+				<property name="added_items" value="drinkJarCoffee,drinkJarYuccaJuice" />
+				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>	
+		<!-- challenge_FuriousRamsayStarterMiniHorde -->
+		<action_sequence name="spawn_QuestStarterMiniHordeStart">
+			<action class="AddItems">
+				<property name="added_items" value="frameShapes:VariantHelper,FuriousRamsayWoodPlank,resourceCobblestones,FuriousRamsayScrews,scrapHatch_v1,resourceScrapIron,trapSpikesWoodDmg0,resourceCloth,ammoGasCan,drinkJarEmpty" />
+				<property name="added_item_counts" value="60,200,300,10,2,80,8,8,120,8" />
+			</action>
+		</action_sequence>	
+		<!-- quest_FuriousRamsayPlaceSurvivalSpecialist -->
+		<action_sequence name="spawn_QuestPlaceSurvivalSpecialist">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayZombieArlene"/>
+				<property name="min_distance" value="20" />
+				<property name="max_distance" value="20" />
+				<property name="spawn_count" value="1" />
+			</action>
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayZombieBoe"/>
+				<property name="min_distance" value="20" />
+				<property name="max_distance" value="20" />
+				<property name="spawn_count" value="1" />
+			</action>
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayZombieJoe"/>
+				<property name="min_distance" value="20" />
+				<property name="max_distance" value="20" />
+				<property name="spawn_count" value="1" />
+			</action>
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayZombieDarlene"/>
+				<property name="min_distance" value="20" />
+				<property name="max_distance" value="20" />
+				<property name="spawn_count" value="1" />
+			</action>
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayZombieMarlene"/>
+				<property name="min_distance" value="20" />
+				<property name="max_distance" value="20" />
+				<property name="spawn_count" value="1" />
+			</action>
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayZombieYo"/>
+				<property name="min_distance" value="20" />
+				<property name="max_distance" value="20" />
+				<property name="spawn_count" value="1" />
+			</action>
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayZombieSteve"/>
+				<property name="min_distance" value="20" />
+				<property name="max_distance" value="20" />
+				<property name="spawn_count" value="1" />
+			</action>
+		</action_sequence>	
+		<!-- quest_FuriousRamsaySkullsClearFetch_Tier1 -->
+		<action_sequence name="spawn_QuestSkullsClearFetchTier1Part1">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySkullsClubTier1Quest,FuriousRamsaySkullsHammerTier1Quest,FuriousRamsaySkullsAxeTier1Quest"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="1" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestSkullsClearFetchTier1Part2">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySkullsClubTier1Quest,FuriousRamsaySkullsHammerTier1Quest,FuriousRamsaySkullsAxeTier1Quest"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="1" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestSkullsClearFetchTier1Part3">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySkullsClubTier1Quest,FuriousRamsaySkullsHammerTier1Quest,FuriousRamsaySkullsAxeTier1Quest"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="2" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestSkullsClearFetchTier1Part4">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySkullsClubTier1Quest,FuriousRamsaySkullsHammerTier1Quest,FuriousRamsaySkullsAxeTier1Quest"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="4" />
+			</action>
+		</action_sequence>	
+		<!-- quest_FuriousRamsaySkullsClearFetch_Tier2 -->
+		<action_sequence name="spawn_QuestSkullsClearFetchTier2Part1">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySkullsClubTier2Quest,FuriousRamsaySkullsHammerTier2Quest,FuriousRamsaySkullsAxeTier2Quest"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="2" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestSkullsClearFetchTier2Part2">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySkullsClubTier2Quest,FuriousRamsaySkullsHammerTier2Quest,FuriousRamsaySkullsAxeTier2Quest"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="2" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestSkullsClearFetchTier2Part3">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySkullsClubTier2Quest,FuriousRamsaySkullsHammerTier2Quest,FuriousRamsaySkullsAxeTier2Quest"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="3" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestSkullsClearFetchTier2Part4">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySkullsClubTier2Quest,FuriousRamsaySkullsHammerTier2Quest,FuriousRamsaySkullsAxeTier2Quest"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="5" />
+			</action>
+		</action_sequence>	
+		<!-- quest_FuriousRamsaySkullsClearFetch_Tier3 -->
+		<action_sequence name="spawn_QuestSkullsClearFetchTier3Part1">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySkullsClubTier3Quest,FuriousRamsaySkullsHammerTier3Quest,FuriousRamsaySkullsAxeTier3Quest"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="2" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestSkullsClearFetchTier3Part2">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySkullsClubTier3Quest,FuriousRamsaySkullsHammerTier3Quest,FuriousRamsaySkullsAxeTier3Quest"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="3" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestSkullsClearFetchTier3Part3">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySkullsClubTier3Quest,FuriousRamsaySkullsHammerTier3Quest,FuriousRamsaySkullsAxeTier3Quest"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="4" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestSkullsClearFetchTier3Part4">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySkullsClubTier3Quest,FuriousRamsaySkullsHammerTier3Quest,FuriousRamsaySkullsAxeTier3Quest"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="5" />
+			</action>
+		</action_sequence>	
+		<!-- quest_FuriousRamsaySkullsClearFetch_Tier4 -->
+		<action_sequence name="spawn_QuestSkullsClearFetchTier4Part1">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySkullsClubTier4Quest,FuriousRamsaySkullsHammerTier4Quest,FuriousRamsaySkullsAxeTier4Quest"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="2" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestSkullsClearFetchTier4Part2">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySkullsClubTier4Quest,FuriousRamsaySkullsHammerTier4Quest,FuriousRamsaySkullsAxeTier4Quest"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="3" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestSkullsClearFetchTier4Part3">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySkullsClubTier4Quest,FuriousRamsaySkullsHammerTier4Quest,FuriousRamsaySkullsAxeTier4Quest"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="4" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestSkullsClearFetchTier4Part4">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySkullsClubTier4Quest,FuriousRamsaySkullsHammerTier4Quest,FuriousRamsaySkullsAxeTier4Quest"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="5" />
+			</action>
+		</action_sequence>	
+		<!-- quest_FuriousRamsaySkullsClearFetch_Tier5 -->
+		<action_sequence name="spawn_QuestSkullsClearFetchTier5Part1">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySkullsClubTier5Quest,FuriousRamsaySkullsHammerTier5Quest,FuriousRamsaySkullsAxeTier5Quest"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="2" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestSkullsClearFetchTier5Part2">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySkullsClubTier5Quest,FuriousRamsaySkullsHammerTier5Quest,FuriousRamsaySkullsAxeTier5Quest"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="3" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestSkullsClearFetchTier5Part3">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySkullsClubTier5Quest,FuriousRamsaySkullsHammerTier5Quest,FuriousRamsaySkullsAxeTier5Quest"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="4" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestSkullsClearFetchTier5Part4">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySkullsClubTier5Quest,FuriousRamsaySkullsHammerTier5Quest,FuriousRamsaySkullsAxeTier5Quest"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="5" />
+			</action>
+		</action_sequence>	
+		<!-- quest_FuriousRamsayDefendArea_Tier1 -->
+		<action_sequence name="spawn_QuestDefendAreaTier1Part1">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieBoe,zombieFemaleFat,zombieJoe,zombieJanitor,zombieMoe,zombieArlene,zombieLab,zombieDarlene,zombieMarlene,zombieYo,zombieSteve,zombieBusinessMan"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="3" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestDefendAreaTier1Part2">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieBoe,zombieFemaleFat,zombieJoe,zombieJanitor,zombieMoe,zombieArlene,zombieLab,zombieDarlene,zombieMarlene,zombieYo,zombieSteve,zombieBusinessMan"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="4" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestDefendAreaTier1Part3">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieBoe,zombieFemaleFat,zombieJoe,zombieJanitor,zombieMoe,zombieArlene,zombieLab,zombieDarlene,zombieMarlene,zombieYo,zombieSteve,zombieBusinessMan"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="5" />
+			</action>
+		</action_sequence>	
+		<!-- quest_FuriousRamsayDefendArea_Tier2 -->
+		<action_sequence name="spawn_QuestDefendAreaTier2Part1">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieBoe,zombieFemaleFat,zombieJoe,zombieJanitor,zombieMoe,zombieArlene,zombieLab,zombieDarlene,zombieMarlene,zombieYo,zombieSteve,zombieBusinessMan"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="5" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestDefendAreaTier2Part2">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieBoe,zombieFemaleFat,zombieJoe,zombieJanitor,zombieMoe,zombieArlene,zombieLab,zombieDarlene,zombieMarlene,zombieYo,zombieSteve,zombieBusinessMan"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="6" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestDefendAreaTier2Part3">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieBoe,zombieFemaleFat,zombieJoe,zombieJanitor,zombieMoe,zombieArlene,zombieLab,zombieDarlene,zombieMarlene,zombieYo,zombieSteve,zombieBusinessMan"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="7" />
+			</action>
+		</action_sequence>	
+		<!-- quest_FuriousRamsayDefendArea_Tier3 -->
+		<action_sequence name="spawn_QuestDefendAreaTier3Part1">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieFootballPlayer,zombieNurseFeral,zombieBusinessManFeral,zombieSteveFeral,zombieYoFeral,zombieMarleneFeral,zombieDarleneFeral,zombieLabFeral,zombieArleneFeral,zombieMoeFeral,zombieJanitorFeral,zombieJoeFeral,zombieFemaleFatFeral,zombieBoeFeral,zombieStripperFeral,zombieFarmerFeral,zombieBikerFeral,zombieOldTimerFeral,zombieCheerleaderFeral,zombieSkateboarderFeral,zombieSoldierFeral,zombieUtilityWorkerFeral,zombieFatCopFeral,zombieFatHawaiianFeral,zombieSpiderFeral,zombieSteveCrawlerFeral,zombieWightFeral,animalZombieVulture"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="4" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestDefendAreaTier3Part2">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieFootballPlayer,zombieNurseFeral,zombieBusinessManFeral,zombieSteveFeral,zombieYoFeral,zombieMarleneFeral,zombieDarleneFeral,zombieLabFeral,zombieArleneFeral,zombieMoeFeral,zombieJanitorFeral,zombieJoeFeral,zombieFemaleFatFeral,zombieBoeFeral,zombieStripperFeral,zombieFarmerFeral,zombieBikerFeral,zombieOldTimerFeral,zombieCheerleaderFeral,zombieSkateboarderFeral,zombieSoldierFeral,zombieUtilityWorkerFeral,zombieFatCopFeral,zombieFatHawaiianFeral,zombieSpiderFeral,zombieSteveCrawlerFeral,zombieWightFeral,animalZombieVulture"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="5" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestDefendAreaTier3Part3">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieFootballPlayer,zombieNurseFeral,zombieBusinessManFeral,zombieSteveFeral,zombieYoFeral,zombieMarleneFeral,zombieDarleneFeral,zombieLabFeral,zombieArleneFeral,zombieMoeFeral,zombieJanitorFeral,zombieJoeFeral,zombieFemaleFatFeral,zombieBoeFeral,zombieStripperFeral,zombieFarmerFeral,zombieBikerFeral,zombieOldTimerFeral,zombieCheerleaderFeral,zombieSkateboarderFeral,zombieSoldierFeral,zombieUtilityWorkerFeral,zombieFatCopFeral,zombieFatHawaiianFeral,zombieSpiderFeral,zombieSteveCrawlerFeral,zombieWightFeral,animalZombieVulture"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="6" />
+			</action>
+		</action_sequence>	
+		<!-- quest_FuriousRamsayDefendArea_Tier4 -->
+		<action_sequence name="spawn_QuestDefendAreaTier4Part1">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieBikerRadiated,zombieOldTimerRadiated,zombieCheerleaderRadiated,zombieSkateboarderRadiated,zombieSoldierRadiated,zombieFatCopRadiated,zombieSpiderRadiated,zombieSteveRadiated,zombieYoRadiated,zombieMarleneRadiated,zombieDarleneRadiated,zombieLabRadiated,zombieArleneRadiated,zombieMoeRadiated,zombieJanitorRadiated,zombieJoeRadiated,zombieFemaleFatRadiated,zombieBoeRadiated,zombieWightRadiated,animalZombieDog"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="4" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestDefendAreaTier4Part2">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieBikerRadiated,zombieOldTimerRadiated,zombieCheerleaderRadiated,zombieSkateboarderRadiated,zombieSoldierRadiated,zombieFatCopRadiated,zombieSpiderRadiated,zombieSteveRadiated,zombieYoRadiated,zombieMarleneRadiated,zombieDarleneRadiated,zombieLabRadiated,zombieArleneRadiated,zombieMoeRadiated,zombieJanitorRadiated,zombieJoeRadiated,zombieFemaleFatRadiated,zombieBoeRadiated,zombieWightRadiated,animalZombieDog"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="5" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestDefendAreaTier4Part3">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieBikerRadiated,zombieOldTimerRadiated,zombieCheerleaderRadiated,zombieSkateboarderRadiated,zombieSoldierRadiated,zombieFatCopRadiated,zombieSpiderRadiated,zombieSteveRadiated,zombieYoRadiated,zombieMarleneRadiated,zombieDarleneRadiated,zombieLabRadiated,zombieArleneRadiated,zombieMoeRadiated,zombieJanitorRadiated,zombieJoeRadiated,zombieFemaleFatRadiated,zombieBoeRadiated,zombieWightRadiated,animalZombieDog"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="6" />
+			</action>
+		</action_sequence>	
+		<!-- quest_FuriousRamsayDefendArea_Tier5 -->
+		<action_sequence name="spawn_QuestDefendAreaTier5Part1">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieLabRadiated,zombieBusinessManRadiated,zombieUtilityWorkerRadiated,zombieDemolition,zombieFatCopRadiated,zombieBikerRadiated,animalZombieVultureRadiated,animalZombieDog,zombieSnowFeral"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="6" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestDefendAreaTier5Part2">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieLabRadiated,zombieBusinessManRadiated,zombieUtilityWorkerRadiated,zombieDemolition,zombieFatCopRadiated,zombieBikerRadiated,animalZombieVultureRadiated,animalZombieDog,zombieSnowFeral"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="7" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestDefendAreaTier5Part3">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieLabRadiated,zombieBusinessManRadiated,zombieUtilityWorkerRadiated,zombieDemolition,zombieFatCopRadiated,zombieBikerRadiated,animalZombieVultureRadiated,animalZombieDog,zombieSnowFeral"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="25" />
+				<property name="spawn_count" value="8" />
+			</action>
+		</action_sequence>	
+		<!-- challenge_FuriousRamsayStarterDecoys -->
+		<action_sequence name="spawn_QuestStarterDecoysStart">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsaySpawnBlockDecoyTier1,FuriousRamsayZombieBodyBag" />
+				<property name="added_item_counts" value="10,5" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestStarterDecoysWave1">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayBlackDecoyFireZombieBoe,FuriousRamsayBlackDecoyFireZombieJoe,FuriousRamsayBlackDecoyFireZombieJanitor,FuriousRamsayBlackDecoyFireZombieArlene,FuriousRamsayBlackDecoyFireZombieLab,FuriousRamsayBlackDecoyFireZombieDarlene,FuriousRamsayBlackDecoyFireZombieMarlene,FuriousRamsayBlackDecoyFireZombieYo,FuriousRamsayBlackDecoyFireZombieSteve,FuriousRamsayBlackDecoyFireZombieBusinessMan"/>
+				<property name="min_distance" value="10" />
+				<property name="max_distance" value="15" />
+				<property name="spawn_count" value="2" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestStarterDecoysWave2">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayBlackDecoyFireZombieBoe,FuriousRamsayBlackDecoyFireZombieJoe,FuriousRamsayBlackDecoyFireZombieJanitor,FuriousRamsayBlackDecoyFireZombieArlene,FuriousRamsayBlackDecoyFireZombieLab,FuriousRamsayBlackDecoyFireZombieDarlene,FuriousRamsayBlackDecoyFireZombieMarlene,FuriousRamsayBlackDecoyFireZombieYo,FuriousRamsayBlackDecoyFireZombieSteve,FuriousRamsayBlackDecoyFireZombieBusinessMan"/>
+				<property name="min_distance" value="10" />
+				<property name="max_distance" value="15" />
+				<property name="spawn_count" value="4" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestStarterDecoysWave3">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayBlackDecoyFireZombieBoe,FuriousRamsayBlackDecoyFireZombieJoe,FuriousRamsayBlackDecoyFireZombieJanitor,FuriousRamsayBlackDecoyFireZombieArlene,FuriousRamsayBlackDecoyFireZombieLab,FuriousRamsayBlackDecoyFireZombieDarlene,FuriousRamsayBlackDecoyFireZombieMarlene,FuriousRamsayBlackDecoyFireZombieYo,FuriousRamsayBlackDecoyFireZombieSteve,FuriousRamsayBlackDecoyFireZombieBusinessMan"/>
+				<property name="min_distance" value="10" />
+				<property name="max_distance" value="15" />
+				<property name="spawn_count" value="6" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_QuestStarterDecoysEnd">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayBlackDecoyFireZombieBoe,FuriousRamsayBlackDecoyFireZombieJoe,FuriousRamsayBlackDecoyFireZombieJanitor,FuriousRamsayBlackDecoyFireZombieArlene,FuriousRamsayBlackDecoyFireZombieLab,FuriousRamsayBlackDecoyFireZombieDarlene,FuriousRamsayBlackDecoyFireZombieMarlene,FuriousRamsayBlackDecoyFireZombieYo,FuriousRamsayBlackDecoyFireZombieSteve,FuriousRamsayBlackDecoyFireZombieBusinessMan"/>
+				<property name="min_distance" value="12" />
+				<property name="max_distance" value="17" />
+				<property name="spawn_count" value="8" />
+			</action>
+		</action_sequence>	
+		<!-- quest_FuriousRamsayTraderNetwork -->
+		<action_sequence name="spawn_QuestTraderNetworkPart1">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieJoe"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="20" />
+				<property name="spawn_count" value="1" />
+			</action>
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieJanitor"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="20" />
+				<property name="spawn_count" value="1" />
+			</action>
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieLab"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="20" />
+				<property name="spawn_count" value="1" />
+			</action>
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieYo"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="20" />
+				<property name="spawn_count" value="1" />
+			</action>
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieFemaleFat"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="20" />
+				<property name="spawn_count" value="1" />
+			</action>
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieBoe"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="20" />
+				<property name="spawn_count" value="1" />
+			</action>		
+		</action_sequence>
+		<action_sequence name="spawn_QuestTraderNetworkPart2">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieBoe,zombieFemaleFat,zombieJoe,zombieJanitor,zombieMoe,zombieArlene,zombieLab,zombieDarlene,zombieMarlene,zombieYo,zombieSteve,zombieBusinessMan"/>
+				<property name="min_distance" value="15" />
+				<property name="max_distance" value="20" />
+				<property name="spawn_count" value="12" />
+			</action>
+		</action_sequence>
+
+		<action_sequence name="spawn_QuestCompletionStarterBackpack">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayInvisibleStarterBackpack"/>
+				<property name="min_distance" value="1" />
+				<property name="max_distance" value="1" />
+				<property name="spawn_count" value="1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_QuestCompletionGeneticsXPTier1">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayInvisibleXPIntelligenceTier1"/>
+				<property name="min_distance" value="1" />
+				<property name="max_distance" value="1" />
+				<property name="spawn_count" value="1" />
+			</action>
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayInvisibleXPCharismaTier1"/>
+				<property name="min_distance" value="1" />
+				<property name="max_distance" value="1" />
+				<property name="spawn_count" value="1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_QuestCompletionGeneticsXPTier2">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayInvisibleXPIntelligenceTier2"/>
+				<property name="min_distance" value="1" />
+				<property name="max_distance" value="1" />
+				<property name="spawn_count" value="1" />
+			</action>
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayInvisibleXPCharismaTier2"/>
+				<property name="min_distance" value="1" />
+				<property name="max_distance" value="1" />
+				<property name="spawn_count" value="1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_QuestCompletionGeneticsXPTier3">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayInvisibleXPIntelligenceTier3"/>
+				<property name="min_distance" value="1" />
+				<property name="max_distance" value="1" />
+				<property name="spawn_count" value="1" />
+			</action>
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayInvisibleXPCharismaTier3"/>
+				<property name="min_distance" value="1" />
+				<property name="max_distance" value="1" />
+				<property name="spawn_count" value="1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_QuestCompletionGeneticsXPTier4">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayInvisibleXPIntelligenceTier4"/>
+				<property name="min_distance" value="1" />
+				<property name="max_distance" value="1" />
+				<property name="spawn_count" value="1" />
+			</action>
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayInvisibleXPCharismaTier4"/>
+				<property name="min_distance" value="1" />
+				<property name="max_distance" value="1" />
+				<property name="spawn_count" value="1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_QuestCompletionGeneticsXPTier5">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayInvisibleXPIntelligenceTier5"/>
+				<property name="min_distance" value="1" />
+				<property name="max_distance" value="1" />
+				<property name="spawn_count" value="1" />
+			</action>
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayInvisibleXPCharismaTier5"/>
+				<property name="min_distance" value="1" />
+				<property name="max_distance" value="1" />
+				<property name="spawn_count" value="1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_QuestCompletionGeneticsXPTier6">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayInvisibleXPIntelligenceTier6"/>
+				<property name="min_distance" value="1" />
+				<property name="max_distance" value="1" />
+				<property name="spawn_count" value="1" />
+			</action>
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayInvisibleXPCharismaTier6"/>
+				<property name="min_distance" value="1" />
+				<property name="max_distance" value="1" />
+				<property name="spawn_count" value="1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_Start_LetsGo">
+			<!-- PHASE 1 -->
+			<action class="AddItems">
+				<property name="added_items" value="ammo9mmBulletBall,bedroll,casinoCoin" />
+				<property name="added_item_counts" value="18,1,2000" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_Briston">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayBristonStart_FR"/>
+				<property name="min_distance" value="5" />
+				<property name="max_distance" value="5" />
+				<property name="spawn_count" value="1" />
+			</action>
+		</action_sequence>
+	<!-- QUEST REWARDS -->
+		<action_sequence name="spawn_FuriousRamsay_BristonWeapon">
+			<action class="AddItems">
+				<property name="added_items" value="ammo9mmBulletBall" />
+				<property name="added_item_counts" value="30" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
+	<!-- VANILLA ZOMBIES -->
+		<!-- TIER 1 -->
+		<action_sequence name="spawn_FuriousRamsay_Zombies_Tier1_5">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieBoe,zombieJoe,zombieJanitor,zombieArlene,zombieLab,zombieDarlene,zombieMarlene,zombieYo,zombieSteve,zombieBusinessMan"/>
+				<property name="min_distance" value="60" />
+				<property name="max_distance" value="60" />
+				<property name="safe_spawn" value="false" />
+				<property name="spawn_count" value="5"/> 
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_Zombies_Tier1_10">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieBoe,zombieJoe,zombieJanitor,zombieArlene,zombieLab,zombieDarlene,zombieMarlene,zombieYo,zombieSteve,zombieBusinessMan"/>
+				<property name="min_distance" value="60" />
+				<property name="max_distance" value="60" />
+				<property name="safe_spawn" value="false" />
+				<property name="spawn_count" value="10"/> 
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_Zombies_Tier1_20">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieBoe,zombieJoe,zombieJanitor,zombieArlene,zombieLab,zombieDarlene,zombieMarlene,zombieYo,zombieSteve,zombieBusinessMan"/>
+				<property name="min_distance" value="60" />
+				<property name="max_distance" value="60" />
+				<property name="safe_spawn" value="false" />
+				<property name="spawn_count" value="20"/> 
+			</action>
+		</action_sequence>
+		<!-- TIER 2 -->
+		<action_sequence name="spawn_FuriousRamsay_Zombies_Tier2_5">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieSkateboarder,zombieUtilityWorker,zombieNurse,zombiePartyGirl,zombieSteveCrawler,zombieSpider,zombieFatCop,zombieFatHawaiian,zombieBiker,zombieSoldier,zombieMaleHazmat,zombieMoe,zombieFemaleFat"/>
+				<property name="min_distance" value="60" />
+				<property name="max_distance" value="60" />
+				<property name="safe_spawn" value="false" />
+				<property name="spawn_count" value="5"/> 
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_Zombies_Tier2_10">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieSkateboarder,zombieUtilityWorker,zombieNurse,zombiePartyGirl,zombieSteveCrawler,zombieSpider,zombieFatCop,zombieFatHawaiian,zombieBiker,zombieSoldier,zombieMaleHazmat,zombieMoe,zombieFemaleFat"/>
+				<property name="min_distance" value="60" />
+				<property name="max_distance" value="60" />
+				<property name="safe_spawn" value="false" />
+				<property name="spawn_count" value="10"/> 
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_Zombies_Tier2_20">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieSkateboarder,zombieUtilityWorker,zombieNurse,zombiePartyGirl,zombieSteveCrawler,zombieSpider,zombieFatCop,zombieFatHawaiian,zombieBiker,zombieSoldier,zombieMaleHazmat,zombieMoe,zombieFemaleFat"/>
+				<property name="min_distance" value="60" />
+				<property name="max_distance" value="60" />
+				<property name="safe_spawn" value="false" />
+				<property name="spawn_count" value="20"/> 
+			</action>
+		</action_sequence>
+		<!-- TIER 3 -->
+		<action_sequence name="spawn_FuriousRamsay_Zombies_Tier3_5">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieBoeFeral,zombieJoeFeral,zombieJanitorFeral,zombieArleneFeral,zombieLabFeral,zombieDarleneFeral,zombieMarleneFeral,zombieYoFeral,zombieSteveFeral,zombieBusinessManFeral,zombieSkateboarderFeral,zombieUtilityWorkerFeral,zombieNurseFeral,zombiePartyGirlFeral,zombieSteveCrawlerFeral,zombieSpiderFeral,zombieZombieFatCopFeral,zombieFatHawaiianFeral,zombieBikerFeral,zombieSoldierFeral,zombieMoeFeral,zombieFemaleFatFeral,zombieWightFeral"/>
+				<property name="min_distance" value="60" />
+				<property name="max_distance" value="60" />
+				<property name="safe_spawn" value="false" />
+				<property name="spawn_count" value="5"/> 
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_Zombies_Tier3_10">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieBoeFeral,zombieJoeFeral,zombieJanitorFeral,zombieArleneFeral,zombieLabFeral,zombieDarleneFeral,zombieMarleneFeral,zombieYoFeral,zombieSteveFeral,zombieBusinessManFeral,zombieSkateboarderFeral,zombieUtilityWorkerFeral,zombieNurseFeral,zombiePartyGirlFeral,zombieSteveCrawlerFeral,zombieSpiderFeral,zombieZombieFatCopFeral,zombieFatHawaiianFeral,zombieBikerFeral,zombieSoldierFeral,zombieMoeFeral,zombieFemaleFatFeral,zombieWightFeral"/>
+				<property name="min_distance" value="60" />
+				<property name="max_distance" value="60" />
+				<property name="safe_spawn" value="false" />
+				<property name="spawn_count" value="10"/> 
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_Zombies_Tier3_20">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieBoeFeral,zombieJoeFeral,zombieJanitorFeral,zombieArleneFeral,zombieLabFeral,zombieDarleneFeral,zombieMarleneFeral,zombieYoFeral,zombieSteveFeral,zombieBusinessManFeral,zombieSkateboarderFeral,zombieUtilityWorkerFeral,zombieNurseFeral,zombiePartyGirlFeral,zombieSteveCrawlerFeral,zombieSpiderFeral,zombieZombieFatCopFeral,zombieFatHawaiianFeral,zombieBikerFeral,zombieSoldierFeral,zombieMoeFeral,zombieFemaleFatFeral,zombieWightFeral"/>
+				<property name="min_distance" value="60" />
+				<property name="max_distance" value="60" />
+				<property name="safe_spawn" value="false" />
+				<property name="spawn_count" value="20"/> 
+			</action>
+		</action_sequence>
+		<!-- TIER 4 -->
+		<action_sequence name="spawn_FuriousRamsay_Zombies_Tier4_5">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieBoeRadiated,zombieJoeRadiated,zombieJanitorRadiated,zombieArleneRadiated,zombieDarleneRadiated,zombieMarleneRadiated,zombieYoRadiated,zombieSteveRadiated"/>
+				<property name="min_distance" value="60" />
+				<property name="max_distance" value="60" />
+				<property name="safe_spawn" value="false" />
+				<property name="spawn_count" value="5"/> 
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_Zombies_Tier4_10">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieBoeRadiated,zombieJoeRadiated,zombieJanitorRadiated,zombieArleneRadiated,zombieDarleneRadiated,zombieMarleneRadiated,zombieYoRadiated,zombieSteveRadiated"/>
+				<property name="min_distance" value="60" />
+				<property name="max_distance" value="60" />
+				<property name="safe_spawn" value="false" />
+				<property name="spawn_count" value="10"/> 
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_Zombies_Tier4_20">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieBoeRadiated,zombieJoeRadiated,zombieJanitorRadiated,zombieArleneRadiated,zombieDarleneRadiated,zombieMarleneRadiated,zombieYoRadiated,zombieSteveRadiated"/>
+				<property name="min_distance" value="60" />
+				<property name="max_distance" value="60" />
+				<property name="safe_spawn" value="false" />
+				<property name="spawn_count" value="20"/> 
+			</action>
+		</action_sequence>
+		<!-- TIER 5 -->
+		<action_sequence name="spawn_FuriousRamsay_Zombies_Tier5_5">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieDemolition,zombieSkateboarderRadiated,zombieSpiderRadiated,zombieFatCopRadiated,zombieBikerRadiated,zombieSoldierRadiated,zombieMoeRadiated,zombieFemaleFatRadiated,zombieWightRadiated"/>
+				<property name="min_distance" value="60" />
+				<property name="max_distance" value="60" />
+				<property name="safe_spawn" value="false" />
+				<property name="spawn_count" value="5"/> 
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_Zombies_Tier5_10">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieDemolition,zombieSkateboarderRadiated,zombieSpiderRadiated,zombieFatCopRadiated,zombieBikerRadiated,zombieSoldierRadiated,zombieMoeRadiated,zombieFemaleFatRadiated,zombieWightRadiated"/>
+				<property name="min_distance" value="60" />
+				<property name="max_distance" value="60" />
+				<property name="safe_spawn" value="false" />
+				<property name="spawn_count" value="10"/> 
+			</action>
+		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_Zombies_Tier5_20">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="zombieDemolition,zombieSkateboarderRadiated,zombieSpiderRadiated,zombieFatCopRadiated,zombieBikerRadiated,zombieSoldierRadiated,zombieMoeRadiated,zombieFemaleFatRadiated,zombieWightRadiated"/>
+				<property name="min_distance" value="60" />
+				<property name="max_distance" value="60" />
+				<property name="safe_spawn" value="false" />
+				<property name="spawn_count" value="20"/> 
+			</action>
+		</action_sequence>
+
+	<!--<action_sequence name="spawn_double">
+		<property name="allow_user_trigger" value="false" />
+		<property name="category" value="twitch_actions" />
+
+		<action class="SpawnEntity">
+			<property name="entity_names" value="animalZombieVultureRadiated" param1="zombiename" />
+			<property name="spawn_count" value="1" param1="spawncount" />
+		</action>
+
+		<action class="RandomDelay">
+			<property name="min_time" value="3" />
+			<property name="max_time" value="6" />
+			<property name="phase" value="2" />
+
+			<requirement class="Gamestage">
+				<property name="operation" value="GTE" />
+				<property name="game_stage" value="120" param1="gamestage" />
+			</requirement>
+
+		</action>
+		
+		<action class="SpawnEntity">
+			<property name="entity_names" value="animalCoyote" param1="zombiename" />
+			<property name="spawn_count" value="1" />
+
+			<requirement class="Gamestage">
+				<property name="operation" value="GTE" />
+				<property name="game_stage" value="230" param1="gamestage" />
+			</requirement>
+		</action>
+
+		<action class="PrimeEntity">
+			<property name="phase" value="3" />
+			<property name="target_group" value="zombie" />
+			<requirement class="Gamestage">
+				<property name="operation" value="GTE" />
+				<property name="game_stage" value="120" param1="gamestage" />
+			</requirement>
+		</action>
+
+		<action class="SpawnContainer">
+			<property name="entity_names" value="TwitchAction_SupplyWeapon1" param1="cratename" />
+			<property name="spawn_count" value="1" param1="spawncount" />
+			<property name="min_distance" value="4" />
+			<property name="max_distance" value="8" />
+			<property name="safe_spawn" value="true" />
+		</action>
+
+		<action class="PlaySound">
+			<property name="sound" value="" param1="twitchsound" />
+			<property name="phase" value="1" />
+			<property name="inside_head" value="true" />
+			<property name="target_group" value="party" />
+		</action>
+		
+		<action class="AddItemDurability">
+			<property name="phase" value="1" />
+			<property name="items_location" value="Toolbelt" />
+			<property name="amount" value="0.20" />
+			<property name="is_percent" value="true" />
+			<property name="target_group" value="party" />
+		</action>		
+
+		<action class="AddEntitiesToGroup">
+			<property name="phase" value="0" />
+			<property name="entity_tags" value="entity" />
+			<property name="group_name" value="zombies" />
+			<property name="max_distance" value="40" />
+		</action>
+		
+		<action class="RageZombies">
+			<property name="time" value="60" />
+			<property name="speed_percent" value="2.0" />
+			<property name="target_group" value="zombies" />
+		</action>
+
+		<action class="Ragdoll">
+			<property name="phase" value="1" />
+			<property name="target_group" value="zombies" />
+		</action>
+
+		<action class="ReplaceItems">
+			<property name="phase" value="1" />
+			<property name="items_location" value="Both" />
+			<property name="replaced_by_item" value="foodRottingFlesh" />
+			<property name="replace_item_tag" value="food" />
+			<property name="target_group" value="party" />
+		</action>
+
+		<requirement class="NearbyEntities">
+			<property name="entity_tags" value="vehicle" />
+			<property name="max_distance" value="20" />
+			<property name="target_is_owner" value="true" />
+		</requirement>
+
+		<action class="AddClosestEntityToGroup">
+			<property name="phase" value="0" />
+			<property name="group_name" value="vehicle" />
+			<property name="entity_tags" value="vehicle" />
+			<property name="max_distance" value="20" />
+			<property name="target_is_owner" value="true" />
+		</action>
+
+		<action class="RemoveVehicles">
+			<property name="phase" value="1" />
+			<property name="target_group" value="vehicle" />
+			<property name="return_items" value="true" />
+			<property name="include_vehicle" value="true" />
+		</action>
+				
+	</action_sequence>-->
+
+	</append>
+	
+</Config>

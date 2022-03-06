@@ -1,0 +1,283 @@
+<Config>
+
+	<append xpath="/Sounds">
+
+		<SoundDataNode name="FuriousRamsayImpact"> 
+
+			<AudioSource name="Sounds/AudioSource_Impact"/>
+			<Noise ID="4" noise="10" time="1" heat_map_strength="0.1" heat_map_time="10"/>
+			<AudioClip ClipName="Sounds/DestroyBlock/avalanche1"/>
+			<LocalCrouchVolumeScale value="0.5"/>
+			<CrouchNoiseScale value="0.5"/> 
+			<NoiseScale value="1"/> 
+			<MaxVoices value="10"/> 
+			<MaxRepeatRate value="0.01"/> 
+
+		</SoundDataNode>
+		
+		<SoundDataNode name="FuriousRamsayExplosion"> 
+
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<AudioClip ClipName="Sounds/Explosions/explosion3"/>
+			<LowestPitch name="0.9"/>
+			<HighestPitch name="1.0"/>
+			<LocalCrouchVolumeScale value="0.5"/> 
+			<CrouchNoiseScale value="0.5"/> 
+			<NoiseScale value="1"/> 
+			<MaxVoices value="3"/> 
+			<MaxRepeatRate value="0.01"/>
+			
+		</SoundDataNode>
+		
+		<SoundDataNode name="FuriousRamsayAlarm">
+
+			<AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<AudioClip ClipName="Sounds/Electricity/Alarms/alarm1_lp"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/> 
+			<NoiseScale value="1"/> 
+			<MaxVoices value="10"/> 
+			<MaxRepeatRate value="0"/> 
+			
+		</SoundDataNode>
+
+		<SoundDataNode name="FuriousRamsayHonk">
+
+			<AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<AudioClip ClipName="Sounds/Electricity/Alarms/alarm1_lp"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/> 
+			<LowestPitch name="0.1"/>
+			<HighestPitch name="0.1"/>
+			<NoiseScale value="1"/> 
+			<MaxVoices value="10"/> 
+			<MaxRepeatRate value="0"/> 
+		
+		</SoundDataNode>
+
+		<SoundDataNode name="FuriousRamsayBeep"> 
+			<AudioSource name="Sounds/AudioSource_PainLG"/>
+			<Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="Sounds/Enemies/Demolition_Zombie/demolitionz_beep"/>
+			<LocalCrouchVolumeScale value="1"/> 
+			<CrouchNoiseScale value="1"/> 
+			<NoiseScale value="1"/> 
+			<MaxVoices value="3"/> 
+			<MaxRepeatRate value="0.01"/> 
+			<LowestPitch name="0.2"/>
+			<HighestPitch name="0.2"/>
+			<Channel name="Mouth"/>
+		</SoundDataNode>		
+
+		<SoundDataNode name="FuriousRamsayCarAccel1"> 
+			<AudioSource name="Sounds/AudioSource_Vehicle"/>
+			<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+			<AudioClip ClipName="Sounds/Vehicles/Suv/suv_accel1"/>
+			<LowestPitch name="0.1"/>
+			<HighestPitch name="0.1"/>
+			<LocalCrouchVolumeScale value="1.0"/> 
+			<CrouchNoiseScale value="0.5"/> 
+			<NoiseScale value="1"/> 
+			<MaxVoices value="2"/> 
+			<MaxRepeatRate value="0.01"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="FuriousRamsayCarAccel2"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
+			<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+			<AudioClip ClipName="Sounds/Vehicles/Suv/suv_accel2"/>
+			<LowestPitch name="0.1"/>
+			<HighestPitch name="0.1"/>
+			<LocalCrouchVolumeScale value="1.0"/> 
+			<CrouchNoiseScale value="0.5"/> 
+			<NoiseScale value="1"/> 
+			<MaxVoices value="2"/> 
+			<MaxRepeatRate value="0.01"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="FuriousRamsayCarAccel3"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
+			<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+			<AudioClip ClipName="Sounds/Vehicles/Suv/suv_accel3"/>
+			<LowestPitch name="0.1"/>
+			<HighestPitch name="0.1"/>
+			<LocalCrouchVolumeScale value="1.0"/> 
+			<CrouchNoiseScale value="0.5"/> 
+			<NoiseScale value="1"/> 
+			<MaxVoices value="2"/> 
+			<MaxRepeatRate value="0.01"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="FuriousRamsayCarTurbo"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
+			<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+			<AudioClip ClipName="Sounds/Vehicles/Suv/suv_turbo"/>
+			<LowestPitch name="0.1"/>
+			<HighestPitch name="0.1"/>
+			<LocalCrouchVolumeScale value="1.0"/> 
+			<CrouchNoiseScale value="0.5"/> 
+			<NoiseScale value="1"/> 
+			<MaxVoices value="2"/> 
+			<MaxRepeatRate value="0.01"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="FuriousRamsayCarDecel1"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
+			<AudioClip ClipName="Sounds/Vehicles/Suv/suv_decel1"/>
+			<LowestPitch name="0.1"/>
+			<HighestPitch name="0.1"/>
+			<LocalCrouchVolumeScale value="1.0"/> 
+			<CrouchNoiseScale value="0.5"/> 
+			<NoiseScale value="1"/> 
+			<MaxVoices value="2"/> 
+			<MaxRepeatRate value="0.01"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="FuriousRamsayCarDecel2"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
+			<AudioClip ClipName="Sounds/Vehicles/Suv/suv_decel2"/>
+			<LowestPitch name="0.1"/>
+			<HighestPitch name="0.1"/>
+			<LocalCrouchVolumeScale value="1.0"/> 
+			<CrouchNoiseScale value="0.5"/> 
+			<NoiseScale value="1"/> 
+			<MaxVoices value="2"/> 
+			<MaxRepeatRate value="0.01"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="FuriousRamsayCarSpeed_lp"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
+			<AudioClip ClipName="Sounds/Vehicles/Suv/suv_max_speed_lp" Loop="true"/>
+			<LowestPitch name="0.1"/>
+			<HighestPitch name="0.1"/>
+			<LocalCrouchVolumeScale value="1.0"/> 
+			<CrouchNoiseScale value="0.5"/> 
+			<NoiseScale value="1"/> 
+			<MaxVoices value="2"/> 
+			<MaxRepeatRate value="0.01"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="FuriousRamsayMotorcycleStart"> 
+			<AudioSource name="Sounds/AudioSource_Vehicle"/>
+			<AudioClip ClipName="Sounds/Vehicles/Minibike/minibike_start_1"/>
+			<AudioClip ClipName="Sounds/Vehicles/Minibike/minibike_start_2"/>
+			<Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+			<Priority name="3"/>
+			<maxVoicesPerEntity value="1"/>
+			<LowestPitch name="0.1"/>
+			<HighestPitch name="0.1"/>
+			<LocalCrouchVolumeScale value="1.0"/> 
+			<CrouchNoiseScale value="0.5"/> 
+			<NoiseScale value="2"/> 
+			<MaxVoices value="10"/> 
+			<MaxRepeatRate value="0.01"/> 
+		</SoundDataNode>
+			
+		<SoundDataNode name="FuriousRamsayMotorcycleStop"> 
+			<AudioSource name="Sounds/AudioSource_Vehicle"/>
+			<AudioClip ClipName="Sounds/Vehicles/Minibike/minibike_shutoff_1"/>
+			<Priority name="3"/>
+			<maxVoicesPerEntity value="1"/>
+			<LowestPitch name="0.1"/>
+			<HighestPitch name="0.1"/>
+			<LocalCrouchVolumeScale value="1.0"/> 
+			<CrouchNoiseScale value="0.5"/> 
+			<NoiseScale value="2"/> 
+			<MaxVoices value="10"/> 
+			<MaxRepeatRate value="0.01"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="FuriousRamsayMotorcycleIdle"> 
+			<AudioSource name="Sounds/AudioSource_Vehicle"/>
+			<AudioClip ClipName="Sounds/Vehicles/Motorbike/motorbike_idle_lp_1" Loop="true"/>
+			<Priority name="3"/>
+			<maxVoicesPerEntity value="1"/>
+			<LowestPitch name="0.1"/>
+			<HighestPitch name="0.1"/>
+			<LocalCrouchVolumeScale value="1.0"/> 
+			<CrouchNoiseScale value="0.5"/> 
+			<NoiseScale value="2"/> 
+			<MaxVoices value="10"/> 
+			<MaxRepeatRate value="0.01"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="FuriousRamsayMotorcycleRun"> 
+			<AudioSource name="Sounds/AudioSource_Vehicle"/>
+			<AudioClip ClipName="Sounds/Vehicles/Motorbike/motorbike_max_speed_lp" Loop="true"/>
+			<Priority name="3"/>
+			<LowestPitch name="0.1"/>
+			<HighestPitch name="0.1"/>
+			<LocalCrouchVolumeScale value="1.0"/> 
+			<CrouchNoiseScale value="0.5"/> 
+			<NoiseScale value="2"/> 
+			<MaxVoices value="10"/> 
+			<MaxRepeatRate value="0.01"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="FuriousRamsayMotorcycleAccel1"> 
+			<AudioSource name="Sounds/AudioSource_Vehicle"/>
+			<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+			<AudioClip ClipName="Sounds/Vehicles/Motorbike/motorbike_accel_1"/>
+			<LowestPitch name="0.1"/>
+			<HighestPitch name="0.1"/>
+			<LocalCrouchVolumeScale value="1.0"/> 
+			<CrouchNoiseScale value="0.5"/> 
+			<NoiseScale value="1"/> 
+			<MaxVoices value="2"/> 
+			<MaxRepeatRate value="0.01"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="FuriousRamsayMotorcycleAccel2"> 
+			<AudioSource name="Sounds/AudioSource_Vehicle"/>
+			<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+			<AudioClip ClipName="Sounds/Vehicles/Motorbike/motorbike_accel_2"/>
+			<LowestPitch name="0.1"/>
+			<HighestPitch name="0.1"/>
+			<LocalCrouchVolumeScale value="1.0"/> 
+			<CrouchNoiseScale value="0.5"/> 
+			<NoiseScale value="1"/> 
+			<MaxVoices value="2"/> 
+			<MaxRepeatRate value="0.01"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="FuriousRamsayMotorcycleAccel3"> 
+			<AudioSource name="Sounds/AudioSource_Vehicle"/>
+			<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+			<AudioClip ClipName="Sounds/Vehicles/Motorbike/motorbike_accel_3"/>
+			<LowestPitch name="0.1"/>
+			<HighestPitch name="0.1"/>
+			<LocalCrouchVolumeScale value="1.0"/> 
+			<CrouchNoiseScale value="0.5"/> 
+			<NoiseScale value="1"/> 
+			<MaxVoices value="2"/> 
+			<MaxRepeatRate value="0.01"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="FuriousRamsayMotorcycleEmpty"> 
+			<AudioSource name="Sounds/AudioSource_Vehicle"/>
+			<AudioClip ClipName="Sounds/Vehicles/Motorbike/motorbike_empty_1"/>
+			<AudioClip ClipName="Sounds/Vehicles/Motorbike/motorbike_empty_2"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<Priority name="3"/>
+			<maxVoicesPerEntity value="1"/>
+			<LowestPitch name="0.1"/>
+			<HighestPitch name="0.1"/>
+			<LocalCrouchVolumeScale value="1.0"/> 
+			<CrouchNoiseScale value="0.5"/> 
+			<NoiseScale value="2"/> 
+			<MaxVoices value="10"/> 
+			<MaxRepeatRate value="3"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="FuriousRamsayMotorcycleDecel"> 
+			<AudioSource name="Sounds/AudioSource_Vehicle"/>
+			<AudioClip ClipName="Sounds/Vehicles/Motorbike/motorbike_decel_1"/>
+			<Priority name="3"/>
+			<maxVoicesPerEntity value="1"/>
+			<LowestPitch name="0.1"/>
+			<HighestPitch name="0.1"/>
+			<LocalCrouchVolumeScale value="1.0"/> 
+			<CrouchNoiseScale value="0.5"/> 
+			<NoiseScale value="2"/> 
+			<MaxVoices value="10"/> 
+			<MaxRepeatRate value="3"/> 
+		</SoundDataNode>
+
+	</append>
+		
+</Config>

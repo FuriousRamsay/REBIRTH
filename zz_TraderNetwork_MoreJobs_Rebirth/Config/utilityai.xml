@@ -1,0 +1,23 @@
+﻿<Config>
+
+	<append xpath="/utility_ai/ai_packages">
+
+		<ai_package name="NPCMeleeBasic2" entity_filter="IsEnemy"> <!-- faction check  -->
+			<action name="MoveToEnemyRunMelee" weight="4">
+				<task class="MoveToTargetSDX, SCore" run="true" /> 
+				<consideration class="NotInWeaponRange, SCore" action_index="0" /> 
+				<consideration class="CanSeeTarget, SCore"/>
+				<consideration class="SelfNotHasBuff, SCore" buffs="buffHitStun"/>	
+				<consideration class="NotHasOrder, SCore" order="Stay"/>
+			</action>
+			<action name="MeleeAttackEntity" weight="5">
+				<task class="AttackTargetEntitySDX, SCore" action_index="0"/>
+				<consideration class="InWeaponRange, SCore" action_index="0" /> <!-- option 1  -->
+				<consideration class="CanSeeTarget, SCore"/>
+				<consideration class="SelfNotHasBuff, SCore" buffs="IsHealing,buffHitStun"/>	
+			</action>
+		</ai_package>	
+							
+	</append>
+
+</Config>

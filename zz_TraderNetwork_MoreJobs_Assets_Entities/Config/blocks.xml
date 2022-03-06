@@ -1,0 +1,331 @@
+<Config>
+
+	<setattribute xpath="/blocks/block[@name='SpawnCube']/property[@name='MultiBlockDim']" name="value">1,2,1</setattribute>
+
+	<append xpath="/blocks/block[@name='SpawnCube']">
+		<property name="Material" value="FuriousRamsaySpawnBlock"/>
+	</append>
+
+	<!-- ADD DECOYS -->
+	<append xpath="/blocks">
+		<block name="FuriousRamsaySpawnBlockDecoyTier1">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnBlockDecoyTier1Desc"/>
+            <property name="Config" value="ec=FuriousRamsaySpawnEntityDecoyTier1;buff=buffOrderStay;pc=0" />
+			<property name="CustomIcon" value="Decoy_FR"/>
+			<property name="EconomicValue" value="350"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="DisplayType" value="FuriousRamsayNPCDisplay"/>
+			<property name="MaxDamage" value="150"/>
+			<property name="Model" value="#@modfolder:Resources/FR_MenSurvivors2.unity3d?Decoy_Preview_FR"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="OnlySimpleRotations" value="true"/>
+        </block>
+	</append>
+
+	<append xpath="/blocks">
+		<block name="FuriousRamsayMadmanDecoyTier1">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnBlockMadmanDecoyTier1Desc"/>
+            <property name="Config" value="ec=FuriousRamsaySpawnEntityMadmanDecoyTier1;buff=buffOrderStay;pc=0" />
+			<property name="CustomIcon" value="Decoy_FR"/>
+			<property name="EconomicValue" value="350"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="CustomIconTint" value="255, 194, 194"/>
+			<property name="DisplayType" value="FuriousRamsayNPCDisplay"/>
+			<property name="MaxDamage" value="300"/>
+			<property name="Model" value="#@modfolder:Resources/FR_MenSurvivors2.unity3d?Decoy_Preview_FR"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="OnlySimpleRotations" value="true"/>
+        </block>
+	</append>
+	<append xpath="/blocks">
+		<block name="FuriousRamsayMadmanDecoyTier2">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnBlockMadmanDecoyTier2Desc"/>
+            <property name="Config" value="ec=FuriousRamsaySpawnEntityMadmanDecoyTier2;buff=buffOrderStay;pc=0" />
+			<property name="CustomIcon" value="Decoy_FR"/>
+			<property name="EconomicValue" value="350"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="CustomIconTint" value="252, 169, 169"/>
+			<property name="DisplayType" value="FuriousRamsayNPCDisplay"/>
+			<property name="MaxDamage" value="400"/>
+			<property name="Model" value="#@modfolder:Resources/FR_MenSurvivors2.unity3d?Decoy_Preview_FR"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="OnlySimpleRotations" value="true"/>
+        </block>
+	</append>
+	<append xpath="/blocks">
+		<block name="FuriousRamsayMadmanDecoyTier3">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnBlockMadmanDecoyTier3Desc"/>
+            <property name="Config" value="ec=FuriousRamsaySpawnEntityMadmanDecoyTier3;buff=buffOrderStay;pc=0" />
+			<property name="CustomIcon" value="Decoy_FR"/>
+			<property name="EconomicValue" value="350"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="CustomIconTint" value="245, 142, 142"/>
+			<property name="DisplayType" value="FuriousRamsayNPCDisplay"/>
+			<property name="MaxDamage" value="500"/>
+			<property name="Model" value="#@modfolder:Resources/FR_MenSurvivors2.unity3d?Decoy_Preview_FR"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="OnlySimpleRotations" value="true"/>
+        </block>
+	</append>
+	<append xpath="/blocks">
+		<block name="FuriousRamsayMadmanDecoyTier4">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnBlockMadmanDecoyTier4Desc"/>
+            <property name="Config" value="ec=FuriousRamsaySpawnEntityMadmanDecoyTier4;buff=buffOrderStay;pc=0" />
+			<property name="CustomIcon" value="Decoy_FR"/>
+			<property name="EconomicValue" value="350"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="CustomIconTint" value="245, 122, 122"/>
+			<property name="DisplayType" value="FuriousRamsayNPCDisplay"/>
+			<property name="MaxDamage" value="600"/>
+			<property name="Model" value="#@modfolder:Resources/FR_MenSurvivors2.unity3d?Decoy_Preview_FR"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="OnlySimpleRotations" value="true"/>
+        </block>
+	</append>
+	<append xpath="/blocks">
+		<block name="FuriousRamsayMadmanDecoyTier5">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnBlockMadmanDecoyTier5Desc"/>
+            <property name="Config" value="ec=FuriousRamsaySpawnEntityMadmanDecoyTier5;buff=buffOrderStay;pc=0" />
+			<property name="CustomIcon" value="Decoy_FR"/>
+			<property name="EconomicValue" value="350"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="CustomIconTint" value="245, 98, 98"/>
+			<property name="DisplayType" value="FuriousRamsayNPCDisplay"/>
+			<property name="MaxDamage" value="700"/>
+			<property name="Model" value="#@modfolder:Resources/FR_MenSurvivors2.unity3d?Decoy_Preview_FR"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="OnlySimpleRotations" value="true"/>
+        </block>
+	</append>
+
+	<append xpath="/blocks">
+
+		<block name="FuriousRamsaySpawnFarmerTrader_FR">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnFarmerTrader_FRDesc"/>
+            <property name="Config" value="ec=FuriousRamsayFarmerTrader_FR;buff=buffOrderStay;pc=0;leader=true" />
+			<property name="CustomIcon" value="npc_farmer"/>
+			<property name="EconomicValue" value="350"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="DisplayType" value="FuriousRamsayNPCDisplay"/>
+			<property name="MaxDamage" value="2000"/>
+			<property name="Model" value="#@modfolder:Resources/FR_MenSurvivors3.unity3d?TraderFarmer_Preview_FR"/>		
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="OnlySimpleRotations" value="true"/>
+        </block>
+
+		<block name="FuriousRamsaySpawnHandyManTrader_FR">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnHandyManTrader_FRDesc"/>
+            <property name="Config" value="ec=FuriousRamsayTraderHandyman_FR;buff=buffOrderStay;pc=0;leader=true" />
+			<property name="CustomIcon" value="npc_handyman"/>
+			<property name="EconomicValue" value="350"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="DisplayType" value="FuriousRamsayNPCDisplay"/>
+			<property name="MaxDamage" value="2000"/>
+			<property name="Model" value="#@modfolder:Resources/FR_WomenSurvivors.unity3d?TraderHandyman_Preview_FR"/>		
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="OnlySimpleRotations" value="true"/>
+        </block>
+
+		<block name="FuriousRamsaySpawnBlackShieldTrader_FR">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnBlackShieldTrader_FRDesc"/>
+            <property name="Config" value="ec=FuriousRamsayBlackShieldTrader_FR;buff=buffOrderStay;pc=0;leader=true" />
+			<property name="CustomIcon" value="npc_blackshield"/>
+			<property name="EconomicValue" value="350"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="DisplayType" value="FuriousRamsayNPCDisplay"/>
+			<property name="MaxDamage" value="2000"/>
+			<property name="Model" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?BlackShieldTrader_Preview_FR"/>		
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="OnlySimpleRotations" value="true"/>
+        </block>
+
+		<block name="FuriousRamsaySpawnBriston_FR">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnBriston_FRDesc"/>
+            <property name="Config" value="ec=FuriousRamsayBriston_FR;buff=buffOrderStay;pc=0;leader=true" />
+			<property name="CustomIcon" value="npc_briston"/>
+			<property name="EconomicValue" value="350"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="DisplayType" value="FuriousRamsayNPCDisplay"/>
+			<property name="MaxDamage" value="2000"/>
+			<property name="Model" value="#@modfolder:Resources/FR_MenSurvivors2.unity3d?Briston_Preview_FR"/>		
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="OnlySimpleRotations" value="true"/>
+        </block>
+
+		<block name="FuriousRamsaySpawnTrainerHunter_FR">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnTrainerHunter_FRDesc"/>
+            <property name="Config" value="ec=FuriousRamsayTrainerHunter_FR;buff=buffOrderStay;pc=0;leader=true" />
+			<property name="CustomIcon" value="npc_hunter"/>
+			<property name="EconomicValue" value="350"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="DisplayType" value="FuriousRamsayNPCDisplay"/>
+			<property name="MaxDamage" value="2000"/>
+			<property name="Model" value="#@modfolder:Resources/FR_WomenSurvivors.unity3d?TrainerHunter_Preview_FR"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="OnlySimpleRotations" value="true"/>
+        </block>
+
+		<block name="FuriousRamsaySpawnTrainerThug_FR">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnTrainerThug_FRDesc"/>
+            <property name="Config" value="ec=FuriousRamsayTrainerThug_FR;buff=buffOrderStay;pc=0;leader=true" />
+			<property name="CustomIcon" value="npc_thug"/>
+			<property name="EconomicValue" value="350"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="DisplayType" value="FuriousRamsayNPCDisplay"/>
+			<property name="MaxDamage" value="2000"/>
+			<property name="Model" value="#@modfolder:Resources/FR_MenSurvivors4.unity3d?TrainerThug_Preview_FR"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="OnlySimpleRotations" value="true"/>
+        </block>
+
+		<block name="FuriousRamsaySpawnTrainerButcher_FR">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnTrainerButcher_FRDesc"/>
+            <property name="Config" value="ec=FuriousRamsayTrainerButcher_FR;buff=buffOrderStay;pc=0;leader=true" />
+			<property name="CustomIcon" value="npc_butcher"/>
+			<property name="EconomicValue" value="350"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="DisplayType" value="FuriousRamsayNPCDisplay"/>
+			<property name="MaxDamage" value="2000"/>
+			<property name="Model" value="#@modfolder:Resources/FR_MenSurvivors3.unity3d?TrainerButcher_Preview_FR"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="OnlySimpleRotations" value="true"/>
+        </block>
+
+		<block name="FuriousRamsaySpawnTrainerSoldier_FR">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnTrainerSoldier_FRDesc"/>
+            <property name="Config" value="ec=FuriousRamsayTrainerSoldier_FR;buff=buffOrderStay;pc=0;leader=true" />
+			<property name="CustomIcon" value="npc_soldier"/>
+			<property name="EconomicValue" value="350"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="DisplayType" value="FuriousRamsayNPCDisplay"/>
+			<property name="MaxDamage" value="2000"/>
+			<property name="Model" value="#@modfolder:Resources/FR_MenSurvivors3.unity3d?TrainerSoldier_Preview_FR"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="OnlySimpleRotations" value="true"/>
+        </block>
+
+		<block name="FuriousRamsaySpawnTrainerTechnogeek_FR">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnTrainerTechnogeek_FRDesc"/>
+            <property name="Config" value="ec=FuriousRamsayTrainerTechnogeek_FR;buff=buffOrderStay;pc=0;leader=true" />
+			<property name="CustomIcon" value="npc_technogeek"/>
+			<property name="EconomicValue" value="350"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="DisplayType" value="FuriousRamsayNPCDisplay"/>
+			<property name="MaxDamage" value="2000"/>
+			<property name="Model" value="#@modfolder:Resources/FR_WomenSurvivors.unity3d?TrainerTechnogeek_Preview_FR"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="OnlySimpleRotations" value="true"/>
+        </block>
+
+		<block name="FuriousRamsaySpawnTrainerMadman_FR">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnTrainerMadman_FRDesc"/>
+            <property name="Config" value="ec=FuriousRamsayTrainerMadman_FR;buff=buffOrderStay;pc=0;leader=true" />
+			<property name="CustomIcon" value="npc_madman"/>
+			<property name="EconomicValue" value="350"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="DisplayType" value="FuriousRamsayNPCDisplay"/>
+			<property name="MaxDamage" value="2000"/>
+			<property name="Model" value="#@modfolder:Resources/FR_MenSurvivors3.unity3d?TrainerMadman_Preview_FR"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="OnlySimpleRotations" value="true"/>
+        </block>
+
+		<block name="FuriousRamsaySpawnTrainerBuilder_FR">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnTrainerBuilder_FRDesc"/>
+            <property name="Config" value="ec=FuriousRamsayTrainerBuilder_FR;buff=buffOrderStay;pc=0;leader=true" />
+			<property name="CustomIcon" value="npc_builder"/>
+			<property name="EconomicValue" value="350"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="DisplayType" value="FuriousRamsayNPCDisplay"/>
+			<property name="MaxDamage" value="2000"/>
+			<property name="Model" value="#@modfolder:Resources/FR_MenSurvivors4.unity3d?TrainerBuilder_Preview_FR"/>
+			<property name="ModelOffset" value="0,0,0"/>
+        </block>
+
+		<block name="FuriousRamsaySpawnTrainerChef_FR">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnTrainerChef_FRDesc"/>
+            <property name="Config" value="ec=FuriousRamsayTrainerChef_FR;buff=buffOrderStay;pc=0;leader=true" />
+			<property name="CustomIcon" value="npc_chef"/>
+			<property name="EconomicValue" value="350"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="DisplayType" value="FuriousRamsayNPCDisplay"/>
+			<property name="MaxDamage" value="2000"/>
+			<property name="Model" value="#@modfolder:Resources/FR_WomenSurvivors.unity3d?TrainerChef_Preview_FR"/>
+			<property name="ModelOffset" value="0,0,0"/>
+        </block>
+
+	</append>
+	
+</Config>

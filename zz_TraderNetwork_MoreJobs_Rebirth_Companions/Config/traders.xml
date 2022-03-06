@@ -1,0 +1,47 @@
+<Config>
+
+	<insertBefore xpath="/traders/trader_item_groups/trader_item_group[@name='FuriousRamsayHunterTrainerItems']">
+
+		<trader_item_group name="FuriousRamsayTrainerCompanions" count="all">
+			<item name="FuriousRamsaySpawnPantherCube001_FR" count="1" prob="1"/>
+			<item name="FuriousRamsaySpawnCubeShepherd001_FR" count="1" prob="1"/>
+			<item name="FuriousRamsaySpawnCubePitbull001_FR" count="1" prob="1"/>
+			<item name="FuriousRamsaySpawnCubeLabrador001_FR" count="1" prob="1"/>
+			<item name="FuriousRamsaySpawnCubeHusky001_FR" count="1" prob="1"/>
+			<item name="FuriousRamsaySpawnCubeGoldenRetriever001_FR" count="1" prob="1"/>
+			<item name="FuriousRamsaySpawnCubeDoberman001_FR" count="1" prob="1"/>
+			<item name="FuriousRamsaySpawnCubeDalmatian001_FR" count="1" prob="1"/>
+			<item name="FuriousRamsaySpawnCubeBullTerrier001_FR" count="1" prob="1"/>
+		</trader_item_group>
+
+	</insertBefore>
+
+	<append xpath="/traders/trader_info[@id='91']/trader_items[@count='all']">
+		<item group="FuriousRamsayTrainerCompanions" count="1"/>
+	</append>
+	<!--<insertBefore xpath="/traders/trader_info[@id='71']/trader_items[@count='all']/item[@name='woodBlock']">
+		<item group="FuriousRamsayTrainerCompanions"/>
+	</insertBefore>
+	<insertBefore xpath="/traders/trader_info[@id='72']/trader_items[@count='all']/item[@name='woodBlock']">
+		<item group="FuriousRamsayTrainerCompanions"/>
+	</insertBefore>
+	<insertBefore xpath="/traders/trader_info[@id='73']/trader_items[@count='all']/item[@name='woodBlock']">
+		<item group="FuriousRamsayTrainerCompanions"/>
+	</insertBefore>
+	<insertBefore xpath="/traders/trader_info[@id='74']/trader_items[@count='all']/item[@name='woodBlock']">
+		<item group="FuriousRamsayTrainerCompanions"/>
+	</insertBefore>
+	<insertBefore xpath="/traders/trader_info[@id='75']/trader_items[@count='all']/item[@name='woodBlock']">
+		<item group="FuriousRamsayTrainerCompanions"/>
+	</insertBefore>
+	<insertBefore xpath="/traders/trader_info[@id='76']/trader_items[@count='all']/item[@name='woodBlock']">
+		<item group="FuriousRamsayTrainerCompanions"/>
+	</insertBefore>
+	<insertBefore xpath="/traders/trader_info[@id='77']/trader_items[@count='all']/item[@name='woodBlock']">
+		<item group="FuriousRamsayTrainerCompanions"/>
+	</insertBefore>
+	<insertBefore xpath="/traders/trader_info[@id='78']/trader_items[@count='all']/item[@name='woodBlock']">
+		<item group="FuriousRamsayTrainerCompanions"/>
+	</insertBefore>-->
+
+</Config>

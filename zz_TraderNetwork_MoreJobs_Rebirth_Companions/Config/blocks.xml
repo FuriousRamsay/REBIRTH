@@ -1,0 +1,177 @@
+<Config>
+
+	<append xpath="/blocks">
+
+		<block name="FuriousRamsaySpawnPantherCube001_FR">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnPantherCube001_FRDesc"/>
+            <property name="Config" value="ec=FuriousRamsayNPCPanther001_FR;buff=buffOrderFollow;pc=0;leader=true" />
+			<property name="CustomIcon" value="Panther001_FR_icon"/>
+			<property name="EconomicValue" value="350"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="DisplayType" value="FuriousRamsayCompanionDisplay"/>
+			<property name="MaxDamage" value="500"/>
+			<property name="LightOpacity" value="30"/>
+			<property name="MultiBlockDim" value="1,1,2"/>
+			<property name="Model" value="#@modfolder:Resources/FR_Animals.unity3d?Panther001_Preview_FR"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="OnlySimpleRotations" value="true"/>
+        </block>
+
+		<block name="FuriousRamsaySpawnCubeShepherd001_FR">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnCubeShepherd001_FRDesc"/>
+            <property name="Config" value="ec=FuriousRamsayNPCShepherd001_FR;buff=buffOrderFollow;pc=0;leader=true" />
+			<property name="CustomIcon" value="Shepherd001_FR_icon"/>
+			<property name="EconomicValue" value="250"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="DisplayType" value="FuriousRamsayCompanionDisplay"/>
+			<property name="MaxDamage" value="400"/>
+			<property name="LightOpacity" value="25"/>
+			<property name="MultiBlockDim" value="1,1,2"/>
+			<property name="Model" value="#@modfolder:Resources/FR_Animals.unity3d?Shepherd001_Preview_FR"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="OnlySimpleRotations" value="true"/>
+        </block>
+
+		<block name="FuriousRamsaySpawnCubePitbull001_FR">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnCubePitbull001_FRDesc"/>
+            <property name="Config" value="ec=FuriousRamsayNPCPitbull001_FR;buff=buffOrderFollow;pc=0;leader=true" />
+			<property name="CustomIcon" value="Pitbull001_FR_icon"/>
+			<property name="EconomicValue" value="250"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="DisplayType" value="FuriousRamsayCompanionDisplay"/>
+			<property name="MaxDamage" value="400"/>
+			<property name="LightOpacity" value="25"/>
+			<property name="MultiBlockDim" value="1,1,2"/>
+			<property name="Model" value="#@modfolder:Resources/FR_Animals.unity3d?Pitbull001_Preview_FR"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="OnlySimpleRotations" value="true"/>
+        </block>
+
+		<block name="FuriousRamsaySpawnCubeLabrador001_FR">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnCubeLabrador001_FRDesc"/>
+            <property name="Config" value="ec=FuriousRamsayNPCLabrador001_FR;buff=buffOrderFollow;pc=0;leader=true" />
+			<property name="CustomIcon" value="Labrador001_FR_icon"/>
+			<property name="EconomicValue" value="250"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="DisplayType" value="FuriousRamsayCompanionDisplay"/>
+			<property name="MaxDamage" value="400"/>
+			<property name="LightOpacity" value="25"/>
+			<property name="MultiBlockDim" value="1,1,2"/>
+			<property name="Model" value="#@modfolder:Resources/FR_Animals.unity3d?Labrador001_Preview_FR"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="OnlySimpleRotations" value="true"/>
+        </block>
+
+		<block name="FuriousRamsaySpawnCubeHusky001_FR">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnCubeHusky001_FRDesc"/>
+            <property name="Config" value="ec=FuriousRamsayNPCHusky001_FR;buff=buffOrderFollow;pc=0;leader=true" />
+			<property name="CustomIcon" value="Husky001_FR_icon"/>
+			<property name="EconomicValue" value="250"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="DisplayType" value="FuriousRamsayCompanionDisplay"/>
+			<property name="MaxDamage" value="400"/>
+			<property name="LightOpacity" value="25"/>
+			<property name="MultiBlockDim" value="1,1,2"/>
+			<property name="Model" value="#@modfolder:Resources/FR_Animals.unity3d?Husky001_Preview_FR"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="OnlySimpleRotations" value="true"/>
+        </block>
+
+		<block name="FuriousRamsaySpawnCubeGoldenRetriever001_FR">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnCubeGoldenRetriever001_FRDesc"/>
+            <property name="Config" value="ec=FuriousRamsayNPCGoldenRetriever001_FR;buff=buffOrderFollow;pc=0;leader=true" />
+			<property name="CustomIcon" value="GoldenRetriever001_FR_icon"/>
+			<property name="EconomicValue" value="250"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="DisplayType" value="FuriousRamsayCompanionDisplay"/>
+			<property name="MaxDamage" value="400"/>
+			<property name="LightOpacity" value="25"/>
+			<property name="MultiBlockDim" value="1,1,2"/>
+			<property name="Model" value="#@modfolder:Resources/FR_Animals.unity3d?GoldenRetriever001_Preview_FR"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="OnlySimpleRotations" value="true"/>
+        </block>
+
+		<block name="FuriousRamsaySpawnCubeDoberman001_FR">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnCubeDoberman001_FRDesc"/>
+            <property name="Config" value="ec=FuriousRamsayNPCDoberman001_FR;buff=buffOrderFollow;pc=0;leader=true" />
+			<property name="CustomIcon" value="Doberman001_FR_icon"/>
+			<property name="EconomicValue" value="250"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="DisplayType" value="FuriousRamsayCompanionDisplay"/>
+			<property name="MaxDamage" value="400"/>
+			<property name="LightOpacity" value="25"/>
+			<property name="MultiBlockDim" value="1,1,2"/>
+			<property name="Model" value="#@modfolder:Resources/FR_Animals.unity3d?Doberman001_Preview_FR"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="OnlySimpleRotations" value="true"/>
+        </block>
+
+		<block name="FuriousRamsaySpawnCubeDalmatian001_FR">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnCubeDalmatian001_FRDesc"/>
+            <property name="Config" value="ec=FuriousRamsayNPCDalmatian001_FR;buff=buffOrderFollow;pc=0;leader=true" />
+			<property name="CustomIcon" value="Dalmatian001_FR_icon"/>
+			<property name="EconomicValue" value="250"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="DisplayType" value="FuriousRamsayCompanionDisplay"/>
+			<property name="MaxDamage" value="400"/>
+			<property name="LightOpacity" value="25"/>
+			<property name="MultiBlockDim" value="1,1,2"/>
+			<property name="Model" value="#@modfolder:Resources/FR_Animals.unity3d?Dalmatian001_Preview_FR"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="OnlySimpleRotations" value="true"/>
+        </block>
+
+		<block name="FuriousRamsaySpawnCubeBullTerrier001_FR">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnCubeBullTerrier001_FRDesc"/>
+            <property name="Config" value="ec=FuriousRamsayNPCBullTerrier001_FR;buff=buffOrderFollow;pc=0;leader=true" />
+			<property name="CustomIcon" value="BullTerrier001_FR_icon"/>
+			<property name="EconomicValue" value="250"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="DisplayType" value="FuriousRamsayCompanionDisplay"/>
+			<property name="MaxDamage" value="400"/>
+			<property name="LightOpacity" value="25"/>
+			<property name="MultiBlockDim" value="1,1,2"/>
+			<property name="Model" value="#@modfolder:Resources/FR_Animals.unity3d?BullTerrier001_Preview_FR"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="OnlySimpleRotations" value="true"/>
+        </block>
+	</append>
+
+</Config>

@@ -1,0 +1,14 @@
+<Config>
+
+	<!-- REMOVE SOME LOOT FROM QUEST REWARDS -->
+	<remove xpath="/quests/quest[@id='quest_tier1complete']/reward[@id='groupQuestHelmetLightSchematic']"/>
+	<remove xpath="/quests/quest[@id='quest_tier1complete']/reward[@id='groupQuestForge']"/>
+	<remove xpath="/quests/quest[@id='quest_tier1complete']/reward[@id='groupQuestT1Books']"/>
+	<remove xpath="/quests/quest[@id='quest_tier2complete']/reward[@id='groupQuestMiningHelmet']"/>
+	<remove xpath="/quests/quest[@id='quest_tier2complete']/reward[@id='groupQuestWorkbench']"/>
+	<remove xpath="/quests/quest[@id='quest_tier3complete']/reward[@id='groupQuestGeneratorBank']"/>
+	<remove xpath="/quests/quest[@id='quest_tier3complete']/reward[@id='groupQuestChemistryStation']"/>
+	<remove xpath="/quests/quest[@id='quest_tier4complete']/reward[@id='groupQuestBatteryBank']"/>
+	<remove xpath="/quests/quest[@id='quest_tier5complete']/reward[@id='groupQuestSolarBank']"/>
+
+</Config>

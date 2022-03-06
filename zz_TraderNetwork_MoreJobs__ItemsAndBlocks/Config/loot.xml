@@ -1,0 +1,23 @@
+<Config>
+
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayGroupBlackShieldBossDeathItemsTier1Special']">
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayGroupBlackShieldBossDeathItemsTier2Special']">
+		<item name="FuriousRamsayShockSpear" prob="0.45"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayGroupBlackShieldBossDeathItemsTier3Special']">
+		<item name="FuriousRamsayBurningKnife" prob="0.45"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayGroupBlackShieldBossDeathItemsTier4Special']">
+		<item name="FuriousRamsayAshChainsaw" prob="0.45"/>
+		<item name="FuriousRamsayAshBoomStick" prob="0.45"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='FuriousRamsayGroupBlackShieldBossDeathItemsTier5Special']">
+		<item name="FuriousRamsayStormBreaker" prob="0.45"/>
+	</append>
+    
+</Config>

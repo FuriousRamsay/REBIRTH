@@ -1,0 +1,903 @@
+<configs>
+
+	<append xpath="/entity_classes">		
+
+        <entity_class name="FuriousRamsayZombieBoeToxicWandering" extends="FuriousRamsayZombieBoeToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieJoeToxicWandering" extends="FuriousRamsayZombieJoeToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieJanitorToxicWandering" extends="FuriousRamsayZombieJanitorToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieArleneToxicWandering" extends="FuriousRamsayZombieArleneToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieLabToxicWandering" extends="FuriousRamsayZombieLabToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieDarleneToxicWandering" extends="FuriousRamsayZombieDarleneToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieMarleneToxicWandering" extends="FuriousRamsayZombieMarleneToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieYoToxicWandering" extends="FuriousRamsayZombieYoToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSteveToxicWandering" extends="FuriousRamsayZombieSteveToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBusinessManToxicWandering" extends="FuriousRamsayZombieBusinessManToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieAlexToxicWandering" extends="FuriousRamsayZombieAlexToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSkateboarderToxicWandering" extends="FuriousRamsayZombieSkateboarderToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieUtilityWorkerToxicWandering" extends="FuriousRamsayZombieUtilityWorkerToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieNurseToxicWandering" extends="FuriousRamsayZombieNurseToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombiePartyGirlToxicWandering" extends="FuriousRamsayZombiePartyGirlToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSteveCrawlerToxicWandering" extends="FuriousRamsayZombieSteveCrawlerToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSpiderToxicWandering" extends="FuriousRamsayZombieSpiderToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieFatCopToxicWandering" extends="FuriousRamsayZombieFatCopToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieFatHawaiianToxicWandering" extends="FuriousRamsayZombieFatHawaiianToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBikerToxicWandering" extends="FuriousRamsayZombieBikerToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSoldierToxicWandering" extends="FuriousRamsayZombieSoldierToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieMaleHazmatToxicWandering" extends="FuriousRamsayZombieMaleHazmatToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieMoeToxicWandering" extends="FuriousRamsayZombieMoeToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieFemaleFatToxicWandering" extends="FuriousRamsayZombieFemaleFatToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBoeToxicFeralWandering" extends="FuriousRamsayZombieBoeToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieJoeToxicFeralWandering" extends="FuriousRamsayZombieJoeToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieJanitorToxicFeralWandering" extends="FuriousRamsayZombieJanitorToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieArleneToxicFeralWandering" extends="FuriousRamsayZombieArleneToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieLabToxicFeralWandering" extends="FuriousRamsayZombieLabToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieDarleneToxicFeralWandering" extends="FuriousRamsayZombieDarleneToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieMarleneToxicFeralWandering" extends="FuriousRamsayZombieMarleneToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieYoToxicFeralWandering" extends="FuriousRamsayZombieYoToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSteveToxicFeralWandering" extends="FuriousRamsayZombieSteveToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBusinessManToxicFeralWandering" extends="FuriousRamsayZombieBusinessManToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieAlexToxicFeralWandering" extends="FuriousRamsayZombieAlexToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSkateboarderToxicFeralWandering" extends="FuriousRamsayZombieSkateboarderToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieUtilityWorkerToxicFeralWandering" extends="FuriousRamsayZombieUtilityWorkerToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieNurseToxicFeralWandering" extends="FuriousRamsayZombieNurseToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombiePartyGirlToxicFeralWandering" extends="FuriousRamsayZombiePartyGirlToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSteveCrawlerToxicFeralWandering" extends="FuriousRamsayZombieSteveCrawlerToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSpiderToxicFeralWandering" extends="FuriousRamsayZombieSpiderToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieFatCopToxicFeralWandering" extends="FuriousRamsayZombieFatCopToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieFatHawaiianToxicFeralWandering" extends="FuriousRamsayZombieFatHawaiianToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBikerToxicFeralWandering" extends="FuriousRamsayZombieBikerToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSoldierToxicFeralWandering" extends="FuriousRamsayZombieSoldierToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieMaleHazmatToxicFeralWandering" extends="FuriousRamsayZombieMaleHazmatToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieMoeToxicFeralWandering" extends="FuriousRamsayZombieMoeToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieFemaleFatToxicFeralWandering" extends="FuriousRamsayZombieFemaleFatToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieWightToxicFeralWandering" extends="FuriousRamsayZombieWightToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBoeToxicRadiatedWandering" extends="FuriousRamsayZombieBoeToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieJoeToxicRadiatedWandering" extends="FuriousRamsayZombieJoeToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieJanitorToxicRadiatedWandering" extends="FuriousRamsayZombieJanitorToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieArleneToxicRadiatedWandering" extends="FuriousRamsayZombieArleneToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieDarleneToxicRadiatedWandering" extends="FuriousRamsayZombieDarleneToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieMarleneToxicRadiatedWandering" extends="FuriousRamsayZombieMarleneToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieYoToxicRadiatedWandering" extends="FuriousRamsayZombieYoToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSteveToxicRadiatedWandering" extends="FuriousRamsayZombieSteveToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBusinessManToxicRadiatedWandering" extends="FuriousRamsayZombieBusinessManToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieAlexToxicRadiatedWandering" extends="FuriousRamsayZombieAlexToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSkateboarderToxicRadiatedWandering" extends="FuriousRamsayZombieSkateboarderToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieUtilityWorkerToxicRadiatedWandering" extends="FuriousRamsayZombieUtilityWorkerToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSpiderToxicRadiatedWandering" extends="FuriousRamsayZombieSpiderToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieFatCopToxicRadiatedWandering" extends="FuriousRamsayZombieFatCopToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBikerToxicRadiatedWandering" extends="FuriousRamsayZombieBikerToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSoldierToxicRadiatedWandering" extends="FuriousRamsayZombieSoldierToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieMoeToxicRadiatedWandering" extends="FuriousRamsayZombieMoeToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieFemaleFatToxicRadiatedWandering" extends="FuriousRamsayZombieFemaleFatToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieWightToxicRadiatedWandering" extends="FuriousRamsayZombieWightToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBoeToxicAllFoursWandering" extends="FuriousRamsayZombieBoeToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieJoeToxicAllFoursWandering" extends="FuriousRamsayZombieJoeToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieJanitorToxicAllFoursWandering" extends="FuriousRamsayZombieJanitorToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieArleneToxicAllFoursWandering" extends="FuriousRamsayZombieArleneToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieDarleneToxicAllFoursWandering" extends="FuriousRamsayZombieDarleneToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieMarleneToxicAllFoursWandering" extends="FuriousRamsayZombieMarleneToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieYoToxicAllFoursWandering" extends="FuriousRamsayZombieYoToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSteveToxicAllFoursWandering" extends="FuriousRamsayZombieSteveToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBusinessManToxicAllFoursWandering" extends="FuriousRamsayZombieBusinessManToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSkateboarderToxicAllFoursWandering" extends="FuriousRamsayZombieSkateboarderToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieUtilityWorkerToxicAllFoursWandering" extends="FuriousRamsayZombieUtilityWorkerToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSpiderToxicAllFoursWandering" extends="FuriousRamsayZombieSpiderToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieFatCopToxicAllFoursWandering" extends="FuriousRamsayZombieFatCopToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBikerToxicAllFoursWandering" extends="FuriousRamsayZombieBikerToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSoldierToxicAllFoursWandering" extends="FuriousRamsayZombieSoldierToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieMoeToxicAllFoursWandering" extends="FuriousRamsayZombieMoeToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieFemaleFatToxicAllFoursWandering" extends="FuriousRamsayZombieFemaleFatToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieWightToxicAllFoursWandering" extends="FuriousRamsayZombieWightToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBoeToxicCrawlerWandering" extends="FuriousRamsayZombieBoeToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieJoeToxicCrawlerWandering" extends="FuriousRamsayZombieJoeToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieJanitorToxicCrawlerWandering" extends="FuriousRamsayZombieJanitorToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieArleneToxicCrawlerWandering" extends="FuriousRamsayZombieArleneToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieDarleneToxicCrawlerWandering" extends="FuriousRamsayZombieDarleneToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieMarleneToxicCrawlerWandering" extends="FuriousRamsayZombieMarleneToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieYoToxicCrawlerWandering" extends="FuriousRamsayZombieYoToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSteveToxicCrawlerWandering" extends="FuriousRamsayZombieSteveToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBusinessManToxicCrawlerWandering" extends="FuriousRamsayZombieBusinessManToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSkateboarderToxicCrawlerWandering" extends="FuriousRamsayZombieSkateboarderToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieUtilityWorkerToxicCrawlerWandering" extends="FuriousRamsayZombieUtilityWorkerToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSpiderToxicCrawlerWandering" extends="FuriousRamsayZombieSpiderToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieFatCopToxicCrawlerWandering" extends="FuriousRamsayZombieFatCopToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBikerToxicCrawlerWandering" extends="FuriousRamsayZombieBikerToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSoldierToxicCrawlerWandering" extends="FuriousRamsayZombieSoldierToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieMoeToxicCrawlerWandering" extends="FuriousRamsayZombieMoeToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieFemaleFatToxicCrawlerWandering" extends="FuriousRamsayZombieFemaleFatToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieWightToxicCrawlerWandering" extends="FuriousRamsayZombieWightToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayBoarToxicRadiatedWandering" extends="FuriousRamsayBoarToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayCoyoteToxicRadiatedWandering" extends="FuriousRamsayCoyoteToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayWolfToxicRadiatedWandering" extends="FuriousRamsayWolfToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayDireWolfToxicRadiatedWandering" extends="FuriousRamsayDireWolfToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayMountainLionToxicRadiatedWandering" extends="FuriousRamsayMountainLionToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayBearToxicRadiatedWandering" extends="FuriousRamsayBearToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayVultureToxicRadiatedWandering" extends="FuriousRamsayVultureToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+		
+		<entity_class name="FuriousRamsayTrainerTier1Wandering" extends="FuriousRamsayTrainerTier1">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayTrainerTier2Wandering" extends="FuriousRamsayTrainerTier2">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayTrainerTier3Wandering" extends="FuriousRamsayTrainerTier3">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayTrainerTier4Wandering" extends="FuriousRamsayTrainerTier4">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayTrainerTier5Wandering" extends="FuriousRamsayTrainerTier5">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAAidenZombieWandering" extends="FuriousRamsayUMAAidenZombie">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAHodorZombieWandering" extends="FuriousRamsayUMAHodorZombie">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMARichieZombieWandering" extends="FuriousRamsayUMARichieZombie">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAWillieZombieWandering" extends="FuriousRamsayUMAWillieZombie">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAKimZombieWandering" extends="FuriousRamsayUMAKimZombie">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMACharlotteZombieWandering" extends="FuriousRamsayUMACharlotteZombie">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMARoxyZombieWandering" extends="FuriousRamsayUMARoxyZombie">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAGabrielleZombieWandering" extends="FuriousRamsayUMAGabrielleZombie">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAClintZombieWandering" extends="FuriousRamsayUMAClintZombie">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireZombieBoeWandering" extends="FuriousRamsayBlackDecoyFireZombieBoe">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireZombieJoeWandering" extends="FuriousRamsayBlackDecoyFireZombieJoe">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireZombieJanitorWandering" extends="FuriousRamsayBlackDecoyFireZombieJanitor">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireZombieArleneWandering" extends="FuriousRamsayBlackDecoyFireZombieArlene">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireZombieLabWandering" extends="FuriousRamsayBlackDecoyFireZombieLab">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireZombieDarleneWandering" extends="FuriousRamsayBlackDecoyFireZombieDarlene">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireZombieMarleneWandering" extends="FuriousRamsayBlackDecoyFireZombieMarlene">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireZombieYoWandering" extends="FuriousRamsayBlackDecoyFireZombieYo">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireZombieSteveWandering" extends="FuriousRamsayBlackDecoyFireZombieSteve">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireZombieBusinessManWandering" extends="FuriousRamsayBlackDecoyFireZombieBusinessMan">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyShockZombieSkateboarderWandering" extends="FuriousRamsayBlackDecoyShockZombieSkateboarder">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyShockZombieUtilityWorkerWandering" extends="FuriousRamsayBlackDecoyShockZombieUtilityWorker">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyShockZombieNurseWandering" extends="FuriousRamsayBlackDecoyShockZombieNurse">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyShockZombiePartyGirlWandering" extends="FuriousRamsayBlackDecoyShockZombiePartyGirl">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyShockZombieSteveCrawlerWandering" extends="FuriousRamsayBlackDecoyShockZombieSteveCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyShockZombieSpiderWandering" extends="FuriousRamsayBlackDecoyShockZombieSpider">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyShockZombieFatHawaiianWandering" extends="FuriousRamsayBlackDecoyShockZombieFatHawaiian">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyShockZombieBikerWandering" extends="FuriousRamsayBlackDecoyShockZombieBiker">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyShockZombieSoldierWandering" extends="FuriousRamsayBlackDecoyShockZombieSoldier">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyShockZombieMaleHazmatWandering" extends="FuriousRamsayBlackDecoyShockZombieMaleHazmat">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAAidenZombieFeralWandering" extends="FuriousRamsayUMAAidenZombieFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAHodorZombieFeralWandering" extends="FuriousRamsayUMAHodorZombieFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMARichieZombieFeralWandering" extends="FuriousRamsayUMARichieZombieFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAWillieZombieFeralWandering" extends="FuriousRamsayUMAWillieZombieFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAKimZombieFeralWandering" extends="FuriousRamsayUMAKimZombieFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMACharlotteZombieFeralWandering" extends="FuriousRamsayUMACharlotteZombieFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMARoxyZombieFeralWandering" extends="FuriousRamsayUMARoxyZombieFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAGabrielleZombieFeralWandering" extends="FuriousRamsayUMAGabrielleZombieFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAClintZombieFeralWandering" extends="FuriousRamsayUMAClintZombieFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieSkateboarderWandering" extends="FuriousRamsayBlackDecoyFireShockZombieSkateboarder">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieUtilityWorkerWandering" extends="FuriousRamsayBlackDecoyFireShockZombieUtilityWorker">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieNurseWandering" extends="FuriousRamsayBlackDecoyFireShockZombieNurse">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombiePartyGirlWandering" extends="FuriousRamsayBlackDecoyFireShockZombiePartyGirl">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieSteveCrawlerWandering" extends="FuriousRamsayBlackDecoyFireShockZombieSteveCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieSpiderWandering" extends="FuriousRamsayBlackDecoyFireShockZombieSpider">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieFatHawaiianWandering" extends="FuriousRamsayBlackDecoyFireShockZombieFatHawaiian">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieBikerWandering" extends="FuriousRamsayBlackDecoyFireShockZombieBiker">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieSoldierWandering" extends="FuriousRamsayBlackDecoyFireShockZombieSoldier">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieMaleHazmatWandering" extends="FuriousRamsayBlackDecoyFireShockZombieMaleHazmat">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieNurseFeralWandering" extends="FuriousRamsayBlackDecoyFireShockZombieNurseFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieBusinessManFeralWandering" extends="FuriousRamsayBlackDecoyFireShockZombieBusinessManFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieSteveFeralWandering" extends="FuriousRamsayBlackDecoyFireShockZombieSteveFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieYoFeralWandering" extends="FuriousRamsayBlackDecoyFireShockZombieYoFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieMarleneFeralWandering" extends="FuriousRamsayBlackDecoyFireShockZombieMarleneFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieDarleneFeralWandering" extends="FuriousRamsayBlackDecoyFireShockZombieDarleneFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieLabFeralWandering" extends="FuriousRamsayBlackDecoyFireShockZombieLabFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieArleneFeralWandering" extends="FuriousRamsayBlackDecoyFireShockZombieArleneFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieMoeFeralWandering" extends="FuriousRamsayBlackDecoyFireShockZombieMoeFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieJanitorFeralWandering" extends="FuriousRamsayBlackDecoyFireShockZombieJanitorFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieJoeFeralWandering" extends="FuriousRamsayBlackDecoyFireShockZombieJoeFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieFemaleFatFeralWandering" extends="FuriousRamsayBlackDecoyFireShockZombieFemaleFatFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieBoeFeralWandering" extends="FuriousRamsayBlackDecoyFireShockZombieBoeFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAAidenZombieRageWandering" extends="FuriousRamsayUMAAidenZombieRage">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAHodorZombieRageWandering" extends="FuriousRamsayUMAHodorZombieRage">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMARichieZombieRageWandering" extends="FuriousRamsayUMARichieZombieRage">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAWillieZombieRageWandering" extends="FuriousRamsayUMAWillieZombieRage">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAKimZombieRageWandering" extends="FuriousRamsayUMAKimZombieRage">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMACharlotteZombieRageWandering" extends="FuriousRamsayUMACharlotteZombieRage">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMARoxyZombieRageWandering" extends="FuriousRamsayUMARoxyZombieRage">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAClintZombieRageWandering" extends="FuriousRamsayUMAClintZombieRage">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAGabrielleZombieRageWandering" extends="FuriousRamsayUMAGabrielleZombieRage">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieNurseFeralWandering" extends="FuriousRamsayBlackDecoySmokeZombieNurseFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieBusinessManFeralWandering" extends="FuriousRamsayBlackDecoySmokeZombieBusinessManFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieSteveFeralWandering" extends="FuriousRamsayBlackDecoySmokeZombieSteveFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieYoFeralWandering" extends="FuriousRamsayBlackDecoySmokeZombieYoFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieMarleneFeralWandering" extends="FuriousRamsayBlackDecoySmokeZombieMarleneFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieDarleneFeralWandering" extends="FuriousRamsayBlackDecoySmokeZombieDarleneFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieLabFeralWandering" extends="FuriousRamsayBlackDecoySmokeZombieLabFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieArleneFeralWandering" extends="FuriousRamsayBlackDecoySmokeZombieArleneFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieMoeFeralWandering" extends="FuriousRamsayBlackDecoySmokeZombieMoeFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieJanitorFeralWandering" extends="FuriousRamsayBlackDecoySmokeZombieJanitorFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieJoeFeralWandering" extends="FuriousRamsayBlackDecoySmokeZombieJoeFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieFemaleFatFeralWandering" extends="FuriousRamsayBlackDecoySmokeZombieFemaleFatFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieBoeFeralWandering" extends="FuriousRamsayBlackDecoySmokeZombieBoeFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombiePartyGirlFeralWandering" extends="FuriousRamsayBlackDecoySmokeZombiePartyGirlFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieBikerFeralWandering" extends="FuriousRamsayBlackDecoySmokeZombieBikerFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieSkateboarderFeralWandering" extends="FuriousRamsayBlackDecoySmokeZombieSkateboarderFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieSoldierFeralWandering" extends="FuriousRamsayBlackDecoySmokeZombieSoldierFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieUtilityWorkerFeralWandering" extends="FuriousRamsayBlackDecoySmokeZombieUtilityWorkerFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieFatHawaiianFeralWandering" extends="FuriousRamsayBlackDecoySmokeZombieFatHawaiianFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieSpiderFeralWandering" extends="FuriousRamsayBlackDecoySmokeZombieSpiderFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieSteveCrawlerFeralWandering" extends="FuriousRamsayBlackDecoySmokeZombieSteveCrawlerFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieWightFeralWandering" extends="FuriousRamsayBlackDecoySmokeZombieWightFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieBikerRadiatedWandering" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieBikerRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieSkateboarderRadiatedWandering" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieSkateboarderRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieSoldierRadiatedWandering" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieSoldierRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieSpiderRadiatedWandering" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieSpiderRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieSteveRadiatedWandering" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieSteveRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieYoRadiatedWandering" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieYoRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieMarleneRadiatedWandering" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieMarleneRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieDarleneRadiatedWandering" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieDarleneRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieLabRadiatedWandering" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieLabRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieArleneRadiatedWandering" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieArleneRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieMoeRadiatedWandering" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieMoeRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieJanitorRadiatedWandering" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieJanitorRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieJoeRadiatedWandering" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieJoeRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieFemaleFatRadiatedWandering" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieFemaleFatRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieBoeRadiatedWandering" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieBoeRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieWightRadiatedWandering" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieWightRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/><property name="AINoiseSeekDist" value="200"/><property name="SightRange" value="200"/><property name="MaxViewAngle" value="360"/>
+		</entity_class>
+
+	</append>
+
+</configs>

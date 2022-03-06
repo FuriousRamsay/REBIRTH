@@ -1,0 +1,1661 @@
+<Config>
+
+	<!-- SET SOME BLOCK ECONOMIC VALUES -->
+	<setattribute xpath="/blocks/block[@name='cntNightstandRandomLootHelper']/property[@name='EconomicValue']" name="value">25</setattribute>
+
+	<append xpath="/blocks/block[@name='cntGasGrillRandomLootHelper']"><property name="EconomicValue" value="70"/></append>
+	<append xpath="/blocks/block[@name='cntCabinetBottom']"><property name="EconomicValue" value="60"/></append>
+	<append xpath="/blocks/block[@name='cntGraniteSink']"><property name="EconomicValue" value="80"/></append>
+	<append xpath="/blocks/block[@name='cntCupboardCabinetRedTopClosed']"><property name="EconomicValue" value="60"/></append>
+	<append xpath="/blocks/block[@name='cntCabinetOldBottom']"><property name="EconomicValue" value="60"/></append>
+	<append xpath="/blocks/block[@name='cntCabinetOldSink']"><property name="EconomicValue" value="80"/></append>
+	<append xpath="/blocks/block[@name='cntCupboardCabinetOldTopClosed']"><property name="EconomicValue" value="60"/></append>
+	<append xpath="/blocks/block[@name='cntWoodBurningStove']"><property name="EconomicValue" value="100"/></append>
+	<append xpath="/blocks/block[@name='cntCoolerClosed']"><property name="EconomicValue" value="30"/></append>
+	<append xpath="/blocks/block[@name='cntBeerCooler']"><property name="EconomicValue" value="70"/></append>
+	<append xpath="/blocks/block[@name='utilitySink']"><property name="EconomicValue" value="80"/></append>
+	<append xpath="/blocks/block[@name='pedestalSink']"><property name="EconomicValue" value="80"/></append>
+	<append xpath="/blocks/block[@name='counterSinkCommercialTile']"><property name="EconomicValue" value="80"/></append>
+	<append xpath="/blocks/block[@name='cntWasherClosed']"><property name="EconomicValue" value="90"/></append>
+	<append xpath="/blocks/block[@name='laundryCartEmpty']"><property name="EconomicValue" value="20"/></append>
+	<append xpath="/blocks/block[@name='cntToilet01']"><property name="EconomicValue" value="80"/></append>
+	<append xpath="/blocks/block[@name='bathroomStallWall']"><property name="EconomicValue" value="50"/></append>
+	<append xpath="/blocks/block[@name='cntMedicineCabinetFaucetClosed']"><property name="EconomicValue" value="30"/></append>
+	<append xpath="/blocks/block[@name='cntMedicineCabinetClosed']"><property name="EconomicValue" value="30"/></append>
+	<append xpath="/blocks/block[@name='wallMirror']"><property name="EconomicValue" value="10"/></append>
+	<append xpath="/blocks/block[@name='cntWoodDesk01Closed']"><property name="EconomicValue" value="100"/></append>
+	<append xpath="/blocks/block[@name='cntMetalDesk02Closed']"><property name="EconomicValue" value="125"/></append>
+	<append xpath="/blocks/block[@name='decoPicnicTable']"><property name="EconomicValue" value="80"/></append>
+	<append xpath="/blocks/block[@name='officeChair01']"><property name="EconomicValue" value="30"/></append>
+	<append xpath="/blocks/block[@name='oldChair1']"><property name="EconomicValue" value="10"/></append>
+	<append xpath="/blocks/block[@name='barracksChair']"><property name="EconomicValue" value="20"/></append>
+	<append xpath="/blocks/block[@name='barStool']"><property name="EconomicValue" value="20"/></append>
+	<append xpath="/blocks/block[@name='parkBenchA']"><property name="EconomicValue" value="70"/></append>
+	<append xpath="/blocks/block[@name='cntWaterCoolerFull']"><property name="EconomicValue" value="80"/></append>
+	<append xpath="/blocks/block[@name='wineBarrel']"><property name="EconomicValue" value="50"/></append>
+	<append xpath="/blocks/block[@name='tv']"><property name="EconomicValue" value="30"/></append>
+	<append xpath="/blocks/block[@name='wallClock']"><property name="EconomicValue" value="20"/></append>
+	<append xpath="/blocks/block[@name='decoPoolTable']"><property name="EconomicValue" value="200"/></append>
+	<append xpath="/blocks/block[@name='decoClassicDogHouse']"><property name="EconomicValue" value="10"/></append>
+	<append xpath="/blocks/block[@name='decoLargePetCage']"><property name="EconomicValue" value="20"/></append>
+	<append xpath="/blocks/block[@name='decoStationaryBike']"><property name="EconomicValue" value="100"/></append>
+	<append xpath="/blocks/block[@name='decoTreadmill']"><property name="EconomicValue" value="120"/></append>
+	<append xpath="/blocks/block[@name='decoWeightBar']"><property name="EconomicValue" value="80"/></append>
+	<append xpath="/blocks/block[@name='decoBenchPress']"><property name="EconomicValue" value="90"/></append>
+	<append xpath="/blocks/block[@name='bed02']"><property name="EconomicValue" value="130"/></append>
+	<append xpath="/blocks/block[@name='bunkBedMade']"><property name="EconomicValue" value="110"/></append>
+	<append xpath="/blocks/block[@name='mattressFlatThin']"><property name="EconomicValue" value="50"/></append>
+	<append xpath="/blocks/block[@name='cntFileCabinetShortClosed']"><property name="EconomicValue" value="40"/></append>
+	<append xpath="/blocks/block[@name='cntFileCabinetTallClosed']"><property name="EconomicValue" value="45"/></append>
+	<append xpath="/blocks/block[@name='cntLockersShortClosed']"><property name="EconomicValue" value="50"/></append>
+	<append xpath="/blocks/block[@name='cntLockersTallClosed']"><property name="EconomicValue" value="70"/></append>
+	<append xpath="/blocks/block[@name='cntLockersTallDoubleClosed']"><property name="EconomicValue" value="100"/></append>
+	<append xpath="/blocks/block[@name='decoClawFootBathTub']"><property name="EconomicValue" value="150"/></append>
+	<append xpath="/blocks/block[@name='cntToolBoxClosed']"><property name="EconomicValue" value="30"/></append>
+	<append xpath="/blocks/block[@name='cntRollingToolBoxClosed']"><property name="EconomicValue" value="50"/></append>
+	<append xpath="/blocks/block[@name='cntStoreShelfSingleBottomEmpty']"><property name="EconomicValue" value="80"/></append>
+	<append xpath="/blocks/block[@name='cntStoreShelfSingleTopEmpty']"><property name="EconomicValue" value="80"/></append>
+	<append xpath="/blocks/block[@name='cntGunRackSmallMagazines']"><property name="EconomicValue" value="90"/></append>
+	<append xpath="/blocks/block[@name='cntGunRackSmallArmor']"><property name="EconomicValue" value="90"/></append>
+	<append xpath="/blocks/block[@name='cntGunRackLargeGuns01']"><property name="EconomicValue" value="90"/></append>
+	<append xpath="/blocks/block[@name='cntBookcaseFull']"><property name="EconomicValue" value="90"/></append>
+
+	<!-- HIDE SPAWN CUB FROM CREATIVE -->
+	<append xpath="/blocks/block[@name='SpawnCube']">
+		<property name="CreativeMode" value="None" />
+	</append>
+
+	<!-- MAKE CARDBOARD BOXES SCRAPPABLE -->
+	<setattribute xpath="/blocks/block[@name='cntGarageStorage']/property[@name='Material']" name="value">FuriousRamsayMLootpaper</setattribute>
+	<setattribute xpath="/blocks/block[@name='palletBrownBoxesBase']/property[@name='Material']" name="value">FuriousRamsayMLootpaper</setattribute>
+	<append xpath="/blocks/block[@name='cntGarageStorage']">
+		<property name="Weight" value="20" />
+	</append>
+	<append xpath="/blocks/block[@name='palletBrownBoxesBase']">
+		<property name="Weight" value="20" />
+	</append>
+
+	<!-- MOVE CHANCE TO PICK UP SEED TO 100% -->
+	<setattribute xpath="/blocks/block/drop[@event='Harvest' and @tag='bonusCropHarvest']" name="prob">1</setattribute>
+
+	<!-- MODIFY GEMS HARVESTING -->
+	<remove xpath="/blocks/block/drop[@tag='artOfMiningLuckyStrikeHarvest']"/>
+
+	<append xpath="/blocks/block[@name='terrOreIron']">
+		<drop event="Harvest" name="resourceRawDiamond" prob=".005" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".007" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".01" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".01" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".014" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".02" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".015" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".021" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".03" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".02" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".028" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".04" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".025" count="1" tag="FuriousRamsayGemsLVL5" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".035" count="1" tag="FuriousRamsayGemsLVL5" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".05" count="1" tag="FuriousRamsayGemsLVL5" />
+	</append>
+
+	<append xpath="/blocks/block[@name='terrOreLead']">
+		<drop event="Harvest" name="resourceRawDiamond" prob=".005" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".007" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".02" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".01" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".014" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".04" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".015" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".021" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".06" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".02" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".028" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".08" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".025" count="1" tag="FuriousRamsayGemsLVL5" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".035" count="1" tag="FuriousRamsayGemsLVL5" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".1" count="1" tag="FuriousRamsayGemsLVL5" />
+	</append>
+
+	<append xpath="/blocks/block[@name='terrOreCoal']">
+		<drop event="Harvest" name="resourceRawDiamond" prob=".01" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".007" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".01" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".02" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".014" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".02" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".03" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".021" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".03" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".04" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".028" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".04" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".05" count="1" tag="FuriousRamsayGemsLVL5" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".035" count="1" tag="FuriousRamsayGemsLVL5" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".05" count="1" tag="FuriousRamsayGemsLVL5" />
+	</append>
+
+	<append xpath="/blocks/block[@name='terrOrePotassiumNitrate']">
+		<drop event="Harvest" name="resourceRawDiamond" prob=".005" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".014" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".01" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".01" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".028" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".02" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".015" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".042" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".03" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".02" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".060" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".04" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".025" count="1" tag="FuriousRamsayGemsLVL5" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".078" count="1" tag="FuriousRamsayGemsLVL5" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".05" count="1" tag="FuriousRamsayGemsLVL5" />
+	</append>
+
+	<append xpath="/blocks/block[@name='terrOreOilDeposit']">
+		<drop event="Harvest" name="resourceRawDiamond" prob=".005" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".014" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".01" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".01" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".028" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".02" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".015" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".042" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".03" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".02" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".06" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".04" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".025" count="1" tag="FuriousRamsayGemsLVL5" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".078" count="1" tag="FuriousRamsayGemsLVL5" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".05" count="1" tag="FuriousRamsayGemsLVL5" />
+	</append>
+
+	<!-- CHANGE MECHANICAL ALLY ICONS -->
+	<setattribute xpath="/blocks/block[@name='FuriousRamsaySpawnMechanicalAllyDog']/property[@name='CustomIcon']" name="value">FR_AllyDog_icon</setattribute>
+	<setattribute xpath="/blocks/block[@name='FuriousRamsaySpawnMechanicalAllyWolf']/property[@name='CustomIcon']" name="value">FR_AllyWolf_icon</setattribute>
+	<setattribute xpath="/blocks/block[@name='FuriousRamsaySpawnMechanicalAllyLion']/property[@name='CustomIcon']" name="value">FR_AllyLion_icon</setattribute>
+	<setattribute xpath="/blocks/block[@name='FuriousRamsaySpawnMechanicalAllyBear']/property[@name='CustomIcon']" name="value">FR_AllyBear_icon</setattribute>
+	<setattribute xpath="/blocks/block[@name='FuriousRamsaySpawnMechanicalAllyAndroid']/property[@name='CustomIcon']" name="value">FR_AllyAndroid_icon</setattribute>
+	<setattribute xpath="/blocks/block[@name='FuriousRamsaySpawnMechanicalAllyBoar']/property[@name='CustomIcon']" name="value">FR_AllyBoar_icon</setattribute>
+
+	<remove xpath="/blocks/block[@name='FuriousRamsaySpawnMechanicalAllyDog']/property[@name='CustomIconTint']"/>
+	<remove xpath="/blocks/block[@name='FuriousRamsaySpawnMechanicalAllyWolf']/property[@name='CustomIconTint']"/>
+	<remove xpath="/blocks/block[@name='FuriousRamsaySpawnMechanicalAllyLion']/property[@name='CustomIconTint']"/>
+	<remove xpath="/blocks/block[@name='FuriousRamsaySpawnMechanicalAllyBear']/property[@name='CustomIconTint']"/>
+	<remove xpath="/blocks/block[@name='FuriousRamsaySpawnMechanicalAllyAndroid']/property[@name='CustomIconTint']"/>
+	<remove xpath="/blocks/block[@name='FuriousRamsaySpawnMechanicalAllyBoar']/property[@name='CustomIconTint']"/>
+	
+	<!-- ADJUST BLOCK DESCRIPTION -->
+	<append xpath="/blocks/block[@name='trapSpikesWoodDmg0']">
+		<property name="DescriptionKey" value="trapSpikesWoodDmg0Desc" />
+	</append>
+
+	<!-- ADJUST GARBAGE BIN LOOTGROUP -->
+	<setattribute xpath="/blocks/block[@name='cntBin']/property[@name='LootList']" name="value">FuriousRamsay872</setattribute>
+
+	<!-- MODIFICATIONS TO GAS GRILLS -->
+	<remove xpath="/blocks/block[@name='cntGasGrillClosed']"/>
+	<setattribute xpath="/blocks/block[@name='cntGasGrillOpen']/property[@name='Model']" name="value">#Entities/LootContainers?GasGrill_FullPrefab.prefab</setattribute>
+	<append xpath="/blocks/block[@name='cntGasGrillOpen']">
+		<property name="Tags" value="FuriousRamsayDig" />
+		<property name="Class" value="Loot" />
+		<property name="LootList" value="FuriousRamsay871"/>
+	</append>
+	<append xpath="/blocks">
+		<block name="cntGasGrillClosed">
+			<property name="Extends" value="cntGasGrillOpen" />
+			<property name="CreativeMode" value="Player" />
+		</block>
+	</append>
+
+	<!-- TAG BLOCKS -->
+	<append xpath="/blocks/block[@name='terrDirt']">
+		<property name="Tags" value="FuriousRamsayDig" />
+	</append>
+	<append xpath="/blocks/block[@name='terrBurntForestGround']">
+		<property name="Tags" value="FuriousRamsayDig" />
+	</append>
+	<append xpath="/blocks/block[@name='terrSand']">
+		<property name="Tags" value="FuriousRamsayDig" />
+	</append>
+	<append xpath="/blocks/block[@name='terrSnow']">
+		<property name="Tags" value="FuriousRamsayDig" />
+	</append>
+	<append xpath="/blocks/block[@name='terrTopSoil']">
+		<property name="Tags" value="FuriousRamsayDig" />
+	</append>
+	<append xpath="/blocks/block[@name='terrForestGround']">
+		<property name="Tags" value="FuriousRamsayDig"/>
+	</append>
+	<append xpath="/blocks/block[@name='terrDesertGround']">
+		<property name="Tags" value="FuriousRamsayDig"/>
+	</append>
+
+
+	<!-- CHANGE CUSTOM TRADER ICONS -->
+	<setattribute xpath="/blocks/block[@name='FuriousRamsayFarmerTrader']/property[@name='CustomIcon']" name="value">npc_farmer</setattribute>
+	<setattribute xpath="/blocks/block[@name='FuriousRamsayHandymanTrader']/property[@name='CustomIcon']" name="value">npc_handyman</setattribute>
+	<setattribute xpath="/blocks/block[@name='FuriousRamsayBlackShieldTrader']/property[@name='CustomIcon']" name="value">npc_blackshield</setattribute>
+
+<!-- CHANGE ICONS AND MODELS -->
+	<!-- SCREAMER SIGNAL -->
+	<remove xpath="/blocks/block[@name='FuriousRamsayScreamerSignalMaster']/property[@name='Shape']"/>
+	<remove xpath="/blocks/block[@name='FuriousRamsayScreamerSignalMaster']/property[@name='Model']"/>
+	<remove xpath="/blocks/block[@name='FuriousRamsayScreamerSignalMaster']/property[@name='Texture']"/>
+	<remove xpath="/blocks/block[@name='FuriousRamsayScreamerSignalMaster']/property[@name='ParticleName']"/>
+	<remove xpath="/blocks/block[@name='FuriousRamsayScreamerSignalMaster']/property[@name='ParticleOffset']"/>
+	<remove xpath="/blocks/block[@name='FuriousRamsayScreamerSignalMaster']/property[@name='CraftActionName']"/>
+	<remove xpath="/blocks/block[@name='FuriousRamsayScreamerSignalMaster']/property[@name='CraftIcon']"/>
+	<append xpath="/blocks/block[@name='FuriousRamsayScreamerSignalMaster']">
+		<property name="CustomIcon" value="FR_FirePit_icon"/>
+		<property name="Path" value="solid"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="#@modfolder:Resources/FR_Industrial.unity3d?FirePit001_FR" />
+		<property name="Mesh" value="models"/>
+		<property name="ParticleName" value="chemistryStation"/>
+		<property name="ParticleOffset" value="-.65,.175,-.55"/>
+		<property name="CraftActionName" value="Start" />
+		<property name="CraftIcon" value="ui_game_symbol_check" />
+	</append>
+	<setattribute xpath="/blocks/block[@name='FuriousRamsayScreamerSignalTier1']/property[@name='UnlockedBy']" name="value">FuriousRamsayPerkCraftingWorkbenchIronOven001_FR,FuriousRamsaySchematicWorkbenchIronOven001_FR</setattribute>
+	<setattribute xpath="/blocks/block[@name='FuriousRamsayScreamerSignalTier2']/property[@name='UnlockedBy']" name="value">FuriousRamsayPerkCraftingWorkbenchIronOven001_FR,FuriousRamsaySchematicWorkbenchIronOven001_FR</setattribute>
+	<setattribute xpath="/blocks/block[@name='FuriousRamsayScreamerSignalTier3']/property[@name='UnlockedBy']" name="value">FuriousRamsayPerkCraftingWorkbenchIronOven001_FR,FuriousRamsaySchematicWorkbenchIronOven001_FR</setattribute>
+	<setattribute xpath="/blocks/block[@name='FuriousRamsayScreamerSignalTier4']/property[@name='UnlockedBy']" name="value">FuriousRamsayPerkCraftingWorkbenchIronOven001_FR,FuriousRamsaySchematicWorkbenchIronOven001_FR</setattribute>
+	<setattribute xpath="/blocks/block[@name='FuriousRamsayScreamerSignalTier5']/property[@name='UnlockedBy']" name="value">FuriousRamsayPerkCraftingWorkbenchIronOven001_FR,FuriousRamsaySchematicWorkbenchIronOven001_FR</setattribute>
+
+	<!-- PREVENT CLOTH LOOT FROM BEING DESTROYED WHEN NOT PAYING ATTENTION -->
+	<setattribute xpath="/blocks/block[@name='cntBackpack01']/property[@name='Material']" name="value">FuriousRamsayMLootcloth</setattribute>
+
+	<!-- ADD LOOT TO CONTAINERS -->
+	<append xpath="/blocks/block[@name='wineBarrel']">
+		<property name="Class" value="Loot"/>
+		<property name="LootList" value="FuriousRamsay865"/>
+	</append>
+	<append xpath="/blocks/block[@name='wineBarrelPlain']">
+		<property name="Class" value="Loot"/>
+		<property name="LootList" value="FuriousRamsay865"/>
+	</append>
+	<append xpath="/blocks/block[@name='wineBarrelSet']">
+		<property name="Class" value="Loot"/>
+		<property name="LootList" value="FuriousRamsay865"/>
+	</append>	
+
+	<!-- ADD JUNK LOOT TO EMPTY SHELVES -->
+	<append xpath="/blocks/block[@name='cntStoreShelfSingleBottomEmpty']">
+		<property name="Class" value="Loot"/>
+		<property name="LootList" value="FuriousRamsay873"/>
+	</append>
+
+	<!-- ADD JUNK LOOT TO GENERIC BOXES -->
+	<append xpath="/blocks/block[@name='palletBrownBoxesBase']">
+		<property name="Class" value="Loot"/>
+		<property name="LootList" value="FuriousRamsay865"/>
+	</append>
+	<append xpath="/blocks/block[@name='palletBrownBoxesLoose']">
+		<property name="Class" value="Loot"/>
+		<property name="LootList" value="FuriousRamsay865"/>
+	</append>
+	<append xpath="/blocks/block[@name='palletBrownBoxesTile']">
+		<property name="Class" value="Loot"/>
+		<property name="LootList" value="FuriousRamsay865"/>
+	</append>
+	<append xpath="/blocks/block[@name='palletBrownBoxesTop']">
+		<property name="Class" value="Loot"/>
+		<property name="LootList" value="FuriousRamsay865"/>
+	</append>
+
+	<append xpath="/blocks">
+
+		<block name="FuriousRamsayTraderNetworkBuriedSupplies">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="cntLootChestHeroInsecure" param1="DescriptionKey"/>
+			<property name="CustomIcon" value="cntLootChestHero"/>
+			<property name="CustomIconTint" value="80ff80"/>
+			<property name="Class" value="QuestLoot"/>
+			<property name="LootList" value="FuriousRamsay863"/>
+			<property name="Tags" value="buriedTreasure"/>
+		</block>
+
+		<block name="FuriousRamsaySurvivalBuriedSupplies">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="cntLootChestHeroInsecure" param1="DescriptionKey"/>
+			<property name="CustomIcon" value="cntLootChestHero"/>
+			<property name="CustomIconTint" value="80ff80"/>
+			<property name="Class" value="QuestLoot"/>
+			<property name="LootList" value="FuriousRamsay864"/>
+			<property name="Tags" value="buriedTreasure"/>
+		</block>
+
+		<!-- HUNTER -->
+		<block name="FuriousRamsayContainerTrainerHunter">
+			<property name="DescriptionKey" value="FuriousRamsayContainerTrainerHunterDesc"/>
+			<property name="CustomIcon" value="cntGarageStorage"/>
+			<property name="CustomIconTint" value="83, 173, 189"/>
+
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsayContainerContentTrainerHunter"/>
+			<property name="PlantGrowing.GrowthRate" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="Shape" value="New"/>
+			<property name="Material" value="MCardboardLoot"/>
+			<property name="Path" value="solid"/>
+			<property name="Texture" value="276,276,270,270,270,270"/>
+			<property name="Model" value="cube_no_cull"/>
+			<property name="MaxDamage" value="10000"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="OnlySimpleRotations" value="true"/>			
+			<drop event="Destroy" count="0"/>
+			<property name="Stacknumber" value="1"/>
+			<drop event="Fall" name="FuriousRamsayContainerTrainerHunter" count="1" prob="1" stick_chance="1"/>
+		</block>
+		<block name="FuriousRamsayContainerContentTrainerHunter">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="FuriousRamsayContainerTrainerHunterDesc"/>
+			<property name="CustomIcon" value="cntGarageStorage"/>
+			<property name="CustomIconTint" value="83, 173, 189"/>
+
+			<property name="Class" value="Loot"/>
+			<property name="Shape" value="New"/>
+			<property name="Material" value="MCardboardLoot"/>
+			<property name="Path" value="solid"/>
+			<property name="Texture" value="276,276,270,270,270,270"/>
+			<property name="Model" value="cube_no_cull"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Candrop" value="false"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="MaxDamage" value="1000"/>
+			<drop event="Destroy" count="0"/>
+			<property name="LootList" value="FuriousRamsay826"/>
+			<drop event="Fall" name="FuriousRamsayContainerContentTrainerHunter" count="1" prob="1" stick_chance="1"/>
+		</block>
+		
+		<!-- THUG -->
+		<block name="FuriousRamsayContainerTrainerThug">
+			<property name="DescriptionKey" value="FuriousRamsayContainerTrainerThugDesc"/>
+			<property name="CustomIcon" value="cntGarageStorage"/>
+			<property name="CustomIconTint" value="224, 224, 54"/>
+
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsayContainerContentTrainerThug"/>
+			<property name="PlantGrowing.GrowthRate" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="Shape" value="New"/>
+			<property name="Material" value="MCardboardLoot"/>
+			<property name="Path" value="solid"/>
+			<property name="Texture" value="276,276,270,270,270,270"/>
+			<property name="Model" value="cube_no_cull"/>
+			<property name="MaxDamage" value="10000"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="OnlySimpleRotations" value="true"/>			
+			<drop event="Destroy" count="0"/>
+			<property name="Stacknumber" value="1"/>
+			<drop event="Fall" name="FuriousRamsayContainerTrainerThug" count="1" prob="1" stick_chance="1"/>
+		</block>
+		<block name="FuriousRamsayContainerContentTrainerThug">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="FuriousRamsayContainerTrainerThugDesc"/>
+			<property name="CustomIcon" value="cntGarageStorage"/>
+			<property name="CustomIconTint" value="224, 224, 54"/>
+
+			<property name="Class" value="Loot"/>
+			<property name="Shape" value="New"/>
+			<property name="Material" value="MCardboardLoot"/>
+			<property name="Path" value="solid"/>
+			<property name="Texture" value="276,276,270,270,270,270"/>
+			<property name="Model" value="cube_no_cull"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Candrop" value="false"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="MaxDamage" value="1000"/>
+			<drop event="Destroy" count="0"/>
+			<property name="LootList" value="FuriousRamsay827"/>
+			<drop event="Fall" name="FuriousRamsayContainerContentTrainerThug" count="1" prob="1" stick_chance="1"/>
+		</block>
+
+		<!-- BUTCHER -->
+		<block name="FuriousRamsayContainerTrainerButcher">
+			<property name="DescriptionKey" value="FuriousRamsayContainerTrainerButcherDesc"/>
+			<property name="CustomIcon" value="cntGarageStorage"/>
+			<property name="CustomIconTint" value="268, 91, 105"/>
+
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsayContainerContentTrainerButcher"/>
+			<property name="PlantGrowing.GrowthRate" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="Shape" value="New"/>
+			<property name="Material" value="MCardboardLoot"/>
+			<property name="Path" value="solid"/>
+			<property name="Texture" value="276,276,270,270,270,270"/>
+			<property name="Model" value="cube_no_cull"/>
+			<property name="MaxDamage" value="10000"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="OnlySimpleRotations" value="true"/>			
+			<drop event="Destroy" count="0"/>
+			<property name="Stacknumber" value="1"/>
+			<drop event="Fall" name="FuriousRamsayContainerTrainerButcher" count="1" prob="1" stick_chance="1"/>
+		</block>
+		<block name="FuriousRamsayContainerContentTrainerButcher">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="FuriousRamsayContainerTrainerButcherDesc"/>
+			<property name="CustomIcon" value="cntGarageStorage"/>
+			<property name="CustomIconTint" value="268, 91, 105"/>
+
+			<property name="Class" value="Loot"/>
+			<property name="Shape" value="New"/>
+			<property name="Material" value="MCardboardLoot"/>
+			<property name="Path" value="solid"/>
+			<property name="Texture" value="276,276,270,270,270,270"/>
+			<property name="Model" value="cube_no_cull"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Candrop" value="false"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="MaxDamage" value="1000"/>
+			<drop event="Destroy" count="0"/>
+			<property name="LootList" value="FuriousRamsay828"/>
+			<drop event="Fall" name="FuriousRamsayContainerContentTrainerButcher" count="1" prob="1" stick_chance="1"/>
+		</block>
+
+		<!-- SOLDIER -->
+		<block name="FuriousRamsayContainerTrainerSoldier">
+			<property name="DescriptionKey" value="FuriousRamsayContainerTrainerSoldierDesc"/>
+			<property name="CustomIcon" value="cntGarageStorage"/>
+			<property name="CustomIconTint" value="118, 227, 129"/>
+
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsayContainerContentTrainerSoldier"/>
+			<property name="PlantGrowing.GrowthRate" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="Shape" value="New"/>
+			<property name="Material" value="MCardboardLoot"/>
+			<property name="Path" value="solid"/>
+			<property name="Texture" value="276,276,270,270,270,270"/>
+			<property name="Model" value="cube_no_cull"/>
+			<property name="MaxDamage" value="10000"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="OnlySimpleRotations" value="true"/>			
+			<drop event="Destroy" count="0"/>
+			<property name="Stacknumber" value="1"/>
+			<drop event="Fall" name="FuriousRamsayContainerTrainerSoldier" count="1" prob="1" stick_chance="1"/>
+		</block>
+		<block name="FuriousRamsayContainerContentTrainerSoldier">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="FuriousRamsayContainerTrainerSoldierDesc"/>
+			<property name="CustomIcon" value="cntGarageStorage"/>
+			<property name="CustomIconTint" value="118, 227, 129"/>
+
+			<property name="Class" value="Loot"/>
+			<property name="Shape" value="New"/>
+			<property name="Material" value="MCardboardLoot"/>
+			<property name="Path" value="solid"/>
+			<property name="Texture" value="276,276,270,270,270,270"/>
+			<property name="Model" value="cube_no_cull"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Candrop" value="false"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="MaxDamage" value="1000"/>
+			<drop event="Destroy" count="0"/>
+			<property name="LootList" value="FuriousRamsay829"/>
+			<drop event="Fall" name="FuriousRamsayContainerContentTrainerSoldier" count="1" prob="1" stick_chance="1"/>
+		</block>
+
+		<!-- TECHNOGEEK -->
+		<block name="FuriousRamsayContainerTrainerTechnogeek">
+			<property name="DescriptionKey" value="FuriousRamsayContainerTrainerTechnogeekDesc"/>
+			<property name="CustomIcon" value="cntGarageStorage"/>
+			<property name="CustomIconTint" value="115, 111, 227"/>
+
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsayContainerContentTrainerTechnogeek"/>
+			<property name="PlantGrowing.GrowthRate" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="Shape" value="New"/>
+			<property name="Material" value="MCardboardLoot"/>
+			<property name="Path" value="solid"/>
+			<property name="Texture" value="276,276,270,270,270,270"/>
+			<property name="Model" value="cube_no_cull"/>
+			<property name="MaxDamage" value="10000"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="OnlySimpleRotations" value="true"/>			
+			<drop event="Destroy" count="0"/>
+			<property name="Stacknumber" value="1"/>
+			<drop event="Fall" name="FuriousRamsayContainerTrainerTechnogeek" count="1" prob="1" stick_chance="1"/>
+		</block>
+		<block name="FuriousRamsayContainerContentTrainerTechnogeek">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="FuriousRamsayContainerTrainerTechnogeekDesc"/>
+			<property name="CustomIcon" value="cntGarageStorage"/>
+			<property name="CustomIconTint" value="115, 111, 227"/>
+
+			<property name="Class" value="Loot"/>
+			<property name="Shape" value="New"/>
+			<property name="Material" value="MCardboardLoot"/>
+			<property name="Path" value="solid"/>
+			<property name="Texture" value="276,276,270,270,270,270"/>
+			<property name="Model" value="cube_no_cull"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Candrop" value="false"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="MaxDamage" value="1000"/>
+			<drop event="Destroy" count="0"/>
+			<property name="LootList" value="FuriousRamsay830"/>
+			<drop event="Fall" name="FuriousRamsayContainerContentTrainerTechnogeek" count="1" prob="1" stick_chance="1"/>
+		</block>
+
+		<!-- MADMAN -->
+		<block name="FuriousRamsayContainerTrainerMadman">
+			<property name="DescriptionKey" value="FuriousRamsayContainerTrainerMadmanDesc"/>
+			<property name="CustomIcon" value="cntGarageStorage"/>
+			<property name="CustomIconTint" value="232, 162, 118"/>
+
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsayContainerContentTrainerMadman"/>
+			<property name="PlantGrowing.GrowthRate" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="Shape" value="New"/>
+			<property name="Material" value="MCardboardLoot"/>
+			<property name="Path" value="solid"/>
+			<property name="Texture" value="276,276,270,270,270,270"/>
+			<property name="Model" value="cube_no_cull"/>
+			<property name="MaxDamage" value="10000"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="OnlySimpleRotations" value="true"/>			
+			<drop event="Destroy" count="0"/>
+			<property name="Stacknumber" value="1"/>
+			<drop event="Fall" name="FuriousRamsayContainerTrainerMadman" count="1" prob="1" stick_chance="1"/>
+		</block>
+		<block name="FuriousRamsayContainerContentTrainerMadman">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="FuriousRamsayContainerTrainerMadmanDesc"/>
+			<property name="CustomIcon" value="cntGarageStorage"/>
+			<property name="CustomIconTint" value="232, 162, 118"/>
+
+			<property name="Class" value="Loot"/>
+			<property name="Shape" value="New"/>
+			<property name="Material" value="MCardboardLoot"/>
+			<property name="Path" value="solid"/>
+			<property name="Texture" value="276,276,270,270,270,270"/>
+			<property name="Model" value="cube_no_cull"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Candrop" value="false"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="MaxDamage" value="1000"/>
+			<drop event="Destroy" count="0"/>
+			<property name="LootList" value="FuriousRamsay831"/>
+			<drop event="Fall" name="FuriousRamsayContainerContentTrainerMadman" count="1" prob="1" stick_chance="1"/>
+		</block>
+
+		<!-- BUILDER -->
+		<block name="FuriousRamsayContainerTrainerBuilder">
+			<property name="DescriptionKey" value="FuriousRamsayContainerTrainerBuilderDesc"/>
+			<property name="CustomIcon" value="cntGarageStorage"/>
+			<property name="CustomIconTint" value="194, 86, 252"/>
+
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsayContainerContentTrainerBuilder"/>
+			<property name="PlantGrowing.GrowthRate" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="Shape" value="New"/>
+			<property name="Material" value="MCardboardLoot"/>
+			<property name="Path" value="solid"/>
+			<property name="Texture" value="276,276,270,270,270,270"/>
+			<property name="Model" value="cube_no_cull"/>
+			<property name="MaxDamage" value="10000"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="OnlySimpleRotations" value="true"/>			
+			<drop event="Destroy" count="0"/>
+			<property name="Stacknumber" value="1"/>
+			<drop event="Fall" name="FuriousRamsayContainerTrainerBuilder" count="1" prob="1" stick_chance="1"/>
+		</block>
+		<block name="FuriousRamsayContainerContentTrainerBuilder">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="FuriousRamsayContainerTrainerBuilderDesc"/>
+			<property name="CustomIcon" value="cntGarageStorage"/>
+			<property name="CustomIconTint" value="194, 86, 252"/>
+
+			<property name="Class" value="Loot"/>
+			<property name="Shape" value="New"/>
+			<property name="Material" value="MCardboardLoot"/>
+			<property name="Path" value="solid"/>
+			<property name="Texture" value="276,276,270,270,270,270"/>
+			<property name="Model" value="cube_no_cull"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Candrop" value="false"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="MaxDamage" value="1000"/>
+			<drop event="Destroy" count="0"/>
+			<property name="LootList" value="FuriousRamsay832"/>
+			<drop event="Fall" name="FuriousRamsayContainerContentTrainerBuilder" count="1" prob="1" stick_chance="1"/>
+		</block>
+
+		<!-- CHEF -->
+		<block name="FuriousRamsayContainerTrainerChef">
+			<property name="DescriptionKey" value="FuriousRamsayContainerTrainerChefDesc"/>
+			<property name="CustomIcon" value="cntGarageStorage"/>
+			<property name="CustomIconTint" value="80, 80, 80"/>
+
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsayContainerContentTrainerChef"/>
+			<property name="PlantGrowing.GrowthRate" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="Shape" value="New"/>
+			<property name="Material" value="MCardboardLoot"/>
+			<property name="Path" value="solid"/>
+			<property name="Texture" value="276,276,270,270,270,270"/>
+			<property name="Model" value="cube_no_cull"/>
+			<property name="MaxDamage" value="10000"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="OnlySimpleRotations" value="true"/>			
+			<drop event="Destroy" count="0"/>
+			<property name="Stacknumber" value="1"/>
+			<drop event="Fall" name="FuriousRamsayContainerTrainerChef" count="1" prob="1" stick_chance="1"/>
+		</block>
+		<block name="FuriousRamsayContainerContentTrainerChef">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="FuriousRamsayContainerTrainerChefDesc"/>
+			<property name="CustomIcon" value="cntGarageStorage"/>
+			<property name="CustomIconTint" value="80, 80, 80"/>
+
+			<property name="Class" value="Loot"/>
+			<property name="Shape" value="New"/>
+			<property name="Material" value="MCardboardLoot"/>
+			<property name="Path" value="solid"/>
+			<property name="Texture" value="276,276,270,270,270,270"/>
+			<property name="Model" value="cube_no_cull"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Candrop" value="false"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="MaxDamage" value="1000"/>
+			<drop event="Destroy" count="0"/>
+			<property name="LootList" value="FuriousRamsay833"/>
+			<drop event="Fall" name="FuriousRamsayContainerContentTrainerChef" count="1" prob="1" stick_chance="1"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnSurvivalSpecialist">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="EconomicValue" value="5000"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="DisplayType" value="FuriousRamsayTrader"/>
+			<property name="DescriptionKey" value="FuriousRamsaySpawnSurvivalSpecialistDesc"/>
+			<property name="CustomIcon" value="npc_briston"/>
+			<property name="ItemTypeIcon" value="talk"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Commercial/shoeBootPairLeatherPrefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="MultiBlockDim" value="2,1,2"/>
+
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerSurvivalSpecialist"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Traders"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerSurvivalSpecialist">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayNPCSurvivalSpecialist"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnSurvivorWoman">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="EconomicValue" value="5000"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="DisplayType" value="FuriousRamsayTrader"/>
+			<property name="DescriptionKey" value="FuriousRamsaySpawnHunterTrainerDesc"/>
+			<property name="CustomIcon" value="npc_hunter"/>
+			<property name="ItemTypeIcon" value="skills"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Commercial/shoeBootPairLeatherPrefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="MultiBlockDim" value="2,1,2"/>
+
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerSurvivorWoman"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Traders"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerSurvivorWoman">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsaySurvivorWoman001aPipeRifle"/>
+		</block>
+
+		<!-- HUNTER -->
+		<block name="FuriousRamsaySpawnHunterTrainer">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="EconomicValue" value="5000"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="DisplayType" value="FuriousRamsayTrader"/>
+			<property name="DescriptionKey" value="FuriousRamsaySpawnHunterTrainerDesc"/>
+			<property name="CustomIcon" value="npc_hunter"/>
+			<property name="ItemTypeIcon" value="skills"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Commercial/shoeBootPairLeatherPrefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="MultiBlockDim" value="2,1,2"/>
+
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerHunterTrainer"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Traders"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerHunterTrainer">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayNPCAllyOlivia"/>
+		</block>
+
+		<!-- THUG -->
+		<block name="FuriousRamsaySpawnThugTrainer">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="EconomicValue" value="5000"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="DisplayType" value="FuriousRamsayTrader"/>
+			<property name="DescriptionKey" value="FuriousRamsaySpawnThugTrainerDesc"/>
+			<property name="CustomIcon" value="npc_thug"/>
+			<property name="ItemTypeIcon" value="skills"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Commercial/shoeBootPairLeatherPrefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="MultiBlockDim" value="2,1,2"/>
+
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerThugTrainer"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Traders"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerThugTrainer">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayNPCAllyIsaac"/>
+		</block>
+		
+		<!-- BUTCHER -->
+		<block name="FuriousRamsaySpawnButcherTrainer">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="EconomicValue" value="5000"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="DisplayType" value="FuriousRamsayTrader"/>
+			<property name="DescriptionKey" value="FuriousRamsaySpawnButcherTrainerDesc"/>
+			<property name="CustomIcon" value="npc_butcher"/>
+			<property name="ItemTypeIcon" value="skills"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Commercial/shoeBootPairLeatherPrefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="MultiBlockDim" value="2,1,2"/>
+
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerButcherTrainer"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Traders"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerButcherTrainer">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayNPCAllyHank"/>
+		</block>
+
+		<!-- SOLDIER -->
+		<block name="FuriousRamsaySpawnSoldierTrainer">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="EconomicValue" value="5000"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="DisplayType" value="FuriousRamsayTrader"/>
+			<property name="DescriptionKey" value="FuriousRamsaySpawnSoldierTrainerDesc"/>
+			<property name="CustomIcon" value="npc_soldier"/>
+			<property name="ItemTypeIcon" value="skills"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Commercial/shoeBootPairLeatherPrefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="MultiBlockDim" value="2,1,2"/>
+
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerSoldierTrainer"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Traders"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerSoldierTrainer">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayNPCAllyElias"/>
+		</block>
+			
+		<!-- TECHNOGEEK -->
+		<block name="FuriousRamsaySpawnTechnogeekTrainer">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="EconomicValue" value="5000"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="DisplayType" value="FuriousRamsayTrader"/>
+			<property name="DescriptionKey" value="FuriousRamsaySpawnTechnogeekTrainerDesc"/>
+			<property name="CustomIcon" value="npc_technogeek"/>
+			<property name="ItemTypeIcon" value="skills"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Commercial/shoeBootPairLeatherPrefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="MultiBlockDim" value="2,1,2"/>
+
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerTechnogeekTrainer"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Traders"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerTechnogeekTrainer">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayNPCAllyScarlett"/>
+		</block>
+
+		<!-- MADMAN -->
+		<block name="FuriousRamsaySpawnMadmanTrainer">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="EconomicValue" value="5000"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="DisplayType" value="FuriousRamsayTrader"/>
+			<property name="DescriptionKey" value="FuriousRamsaySpawnMadmanTrainerDesc"/>
+			<property name="CustomIcon" value="npc_madman"/>
+			<property name="ItemTypeIcon" value="skills"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Commercial/shoeBootPairLeatherPrefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="MultiBlockDim" value="2,1,2"/>
+
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerMadmanTrainer"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Traders"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerMadmanTrainer">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayNPCAllyLiam"/>
+		</block>
+
+		<!-- BUILDER -->
+		<block name="FuriousRamsaySpawnBuilderTrainer">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="EconomicValue" value="5000"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="DisplayType" value="FuriousRamsayTrader"/>
+			<property name="DescriptionKey" value="FuriousRamsaySpawnBuilderTrainerDesc"/>
+			<property name="CustomIcon" value="npc_builder"/>
+			<property name="ItemTypeIcon" value="skills"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Commercial/shoeBootPairLeatherPrefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="MultiBlockDim" value="2,1,2"/>
+
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerBuilderTrainer"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Traders"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerBuilderTrainer">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayNPCAllyVince"/>
+		</block>
+
+		<!-- CHEF -->
+		<block name="FuriousRamsaySpawnChefTrainer">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="air"/>
+			<property name="EconomicValue" value="5000"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="DisplayType" value="FuriousRamsayTrader"/>
+			<property name="DescriptionKey" value="FuriousRamsaySpawnChefTrainerDesc"/>
+			<property name="CustomIcon" value="npc_chef"/>
+			<property name="ItemTypeIcon" value="skills"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Commercial/shoeBootPairLeatherPrefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="MultiBlockDim" value="2,1,2"/>
+
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsaySpawnBlockNext"/>
+			<property name="PlantGrowing.GrowOnTop" value="FuriousRamsaySpawnerChefTrainer"/>
+			<property name="PlantGrowing.GrowthRate" value="0.0001"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<drop event="Destroy" count="0"/>
+			<property name="Group" value="Traders"/>
+		</block>
+
+		<block name="FuriousRamsaySpawnerChefTrainer">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="FuriousRamsayEntitySpawnerMaster"/>
+			<property name="SpawnClass" value="FuriousRamsayNPCAllyHelen"/>
+		</block>
+
+	</append>
+
+	<!-- CHANGE BLOCK WEIGHT -->
+	<!--<setattribute xpath="/blocks/block[@name='faucet02']/property[@name='Weight']" name="value">0</setattribute>
+	<setattribute xpath="/blocks/block[@name='faucet04']/property[@name='Weight']" name="value">0</setattribute>
+	<setattribute xpath="/blocks/block[@name='faucetBrass02']/property[@name='Weight']" name="value">0</setattribute>
+	<setattribute xpath="/blocks/block[@name='faucetBrass04']/property[@name='Weight']" name="value">0</setattribute>
+	<setattribute xpath="/blocks/block[@name='showerHead']/property[@name='Weight']" name="value">0</setattribute>
+	<setattribute xpath="/blocks/block[@name='officeChair01']/property[@name='Weight']" name="value">0</setattribute>
+	<setattribute xpath="/blocks/block[@name='woodChair1']/property[@name='Weight']" name="value">0</setattribute>
+	<setattribute xpath="/blocks/block[@name='oldChair1']/property[@name='Weight']" name="value">0</setattribute>
+	<setattribute xpath="/blocks/block[@name='barracksChair']/property[@name='Weight']" name="value">0</setattribute>
+	<setattribute xpath="/blocks/block[@name='tv']/property[@name='Weight']" name="value">0</setattribute>
+	<setattribute xpath="/blocks/block[@name='palletCompressedCardboard']/property[@name='Weight']" name="value">0</setattribute>
+	<setattribute xpath="/blocks/block[@name='candelabraLight']/property[@name='Weight']" name="value">0</setattribute>
+	<setattribute xpath="/blocks/block[@name='glassBusinessSheet']/property[@name='Weight']" name="value">0</setattribute>
+	<setattribute xpath="/blocks/block[@name='decoCarTireSmallFlat']/property[@name='Weight']" name="value">0</setattribute>
+	<setattribute xpath="/blocks/block[@name='FuriousRamsayScreamerSignalMaster']/property[@name='Weight']" name="value">0</setattribute>
+	<setattribute xpath="/blocks/block[@name='FuriousRamsayBurningTrap']/property[@name='Weight']" name="value">0</setattribute>-->
+
+	<!--<remove xpath="/blocks/block/property[@name='Weight']"/>
+	<remove xpath="/blocks/block/property[@name='Material']"/>-->
+
+	<!-- APPEND TO BLOCK TAGS -->
+	<append xpath="/blocks/block[@name='scrapHatch_v1']/property[@name='Tags']/@value">,Mmetal_medium</append>
+	<append xpath="/blocks/block[@name='terrDirt']/property[@name='Tags']/@value">,Mdirt</append>
+	<append xpath="/blocks/block[@name='woodWeakNoUpgradeMaster']/property[@name='Tags']/@value">,Mwood_weak</append>
+	<append xpath="/blocks/block[@name='rWoodMaster']/property[@name='Tags']/@value">,MwoodReinforced</append>
+	<append xpath="/blocks/block[@name='terrForestGround']/property[@name='Tags']/@value">,MforestGround</append>
+	<append xpath="/blocks/block[@name='terrBurntForestGround']/property[@name='Tags']/@value">,MforestGround</append>
+	<append xpath="/blocks/block[@name='terrDesertGround']/property[@name='Tags']/@value">,Msand</append>
+	<append xpath="/blocks/block[@name='terrSand']/property[@name='Tags']/@value">,Msand</append>
+	<append xpath="/blocks/block[@name='oreBoulderMaster']/property[@name='Tags']/@value">,MoreStone</append>
+	<append xpath="/blocks/block[@name='terrOreOilDeposit']/property[@name='Tags']/@value">,MoreStone</append>
+	<append xpath="/blocks/block[@name='awningMaster']/property[@name='Tags']/@value">,MclothStable</append>
+	<append xpath="/blocks/block[@name='terrSnow']/property[@name='Tags']/@value">,Msnow</append>
+	<append xpath="/blocks/block[@name='vaultDoor01']/property[@name='Tags']/@value">,Msteel</append>
+	<append xpath="/blocks/block[@name='vaultDoor03']/property[@name='Tags']/@value">,Msteel</append>
+	<append xpath="/blocks/block[@name='treeMaster']/property[@name='Tags']/@value">,MtreeWoodSmall</append>
+	<append xpath="/blocks/block[@name='mineCandyTin']/property[@name='Tags']/@value">,MLandMine</append>
+	<append xpath="/blocks/block[@name='rScrapIronPlateMine']/property[@name='Tags']/@value">,MLandMine</append>
+	
+	<!-- ADD BLOCK TAGS -->
+	<append xpath="/blocks/block[@name='treeBrownGrassDiagonal']">
+		<property name="Tags" value="Mgrass"/>
+	</append>
+	<append xpath="/blocks/block[@name='treeForestGrassDiagonal']">
+		<property name="Tags" value="Mgrass"/>
+	</append>
+	<append xpath="/blocks/block[@name='treeGreenBrownGrassDiagonal']">
+		<property name="Tags" value="Mgrass"/>
+	</append>
+	<append xpath="/blocks/block[@name='treeSnowyGrassDiagonal']">
+		<property name="Tags" value="Mgrass"/>
+	</append>
+	<append xpath="/blocks/block[@name='treeTallGrassDiagonal']">
+		<property name="Tags" value="Mgrass"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedtreeGrassSeed1']">
+		<property name="Tags" value="Mgrass"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='treeAzalea']">
+		<property name="Tags" value="Mleaves"/>
+	</append>
+	<append xpath="/blocks/block[@name='treeSnowyDeadBush']">
+		<property name="Tags" value="Mleaves"/>
+	</append>
+	<append xpath="/blocks/block[@name='treeDeadPineLeaf']">
+		<property name="Tags" value="Mleaves"/>
+	</append>
+	<append xpath="/blocks/block[@name='treePlainsTree']">
+		<property name="Tags" value="Mleaves"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='bodyBagBlack']">
+		<property name="Tags" value="Morganic"/>
+	</append>
+	<append xpath="/blocks/block[@name='goreBlockAnimal']">
+		<property name="Tags" value="Morganic"/>
+	</append>
+	<append xpath="/blocks/block[@name='goreBlockHumanCorpse']">
+		<property name="Tags" value="Morganic"/>
+	</append>
+	<append xpath="/blocks/block[@name='goreBlockHumanBones']">
+		<property name="Tags" value="Morganic"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='terrAsphalt']">
+		<property name="Tags" value="Mconcrete"/>
+	</append>
+	<append xpath="/blocks/block[@name='terrConcrete']">
+		<property name="Tags" value="Mconcrete"/>
+	</append>
+	<append xpath="/blocks/block[@name='concreteNoUpgradeMaster']">
+		<property name="Tags" value="Mconcrete"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='terrainFiller']">
+		<property name="Tags" value="Mdirt"/>
+	</append>
+	<append xpath="/blocks/block[@name='poiFillerBlock']">
+		<property name="Tags" value="Mdirt"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='terrDestroyedStone']">
+		<property name="Tags" value="Mrubble"/>
+	</append>
+	<append xpath="/blocks/block[@name='decoCowSkull']">
+		<property name="Tags" value="Mrubble"/>
+	</append>
+	<append xpath="/blocks/block[@name='palletBricksBase']">
+		<property name="Tags" value="Mrubble"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='scrapIronNoUpgradeMaster']">
+		<property name="Tags" value="Mmetal_medium"/>
+	</append>
+	<append xpath="/blocks/block[@name='rScrapIronMaster']">
+		<property name="Tags" value="Mmetal_medium"/>
+	</append>
+	<append xpath="/blocks/block[@name='metalTrussingBlockOld']">
+		<property name="Tags" value="Mmetal_medium"/>
+	</append>
+	<append xpath="/blocks/block[@name='metalTrussingBlock']">
+		<property name="Tags" value="Mmetal_medium"/>
+	</append>
+	<append xpath="/blocks/block[@name='rebarDestroyed']">
+		<property name="Tags" value="Mmetal_medium"/>
+	</append>
+	<append xpath="/blocks/block[@name='decoWeightBar']">
+		<property name="Tags" value="Mmetal_medium"/>
+	</append>
+	<append xpath="/blocks/block[@name='pressureplate']">
+		<property name="Tags" value="Mmetal_medium"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='corrugatedMetalNoUpgradeMaster']">
+		<property name="Tags" value="Mmetal"/>
+	</append>
+	<append xpath="/blocks/block[@name='rustyIronTable']">
+		<property name="Tags" value="Mmetal"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='decoEntityMetalMaster']">
+		<property name="Tags" value="Mmetal_weak"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='metalCatwalk']">
+		<property name="Tags" value="MmetalCatwalk"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='metalRivetSheet']">
+		<property name="Tags" value="Mmetal_hard"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='ductSoft']">
+		<property name="Tags" value="Mmetal_thin"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='scrapMetalPile']">
+		<property name="Tags" value="MmetalNoGlue"/>
+	</append>
+	<append xpath="/blocks/block[@name='hubcapNoMine']">
+		<property name="Tags" value="MmetalNoGlue"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='terrDestroyedWoodDebris']">
+		<property name="Tags" value="Mwood_regular"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='plywoodOsbCTRPlate']">
+		<property name="Tags" value="Mwood_weak"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='decoEntityWoodMaster']">
+		<property name="Tags" value="Mwood_weak"/>
+	</append>
+	<append xpath="/blocks/block[@name='woodFenceSheet']">
+		<property name="Tags" value="Mwood_weak"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntCabinetBottomFiller']">
+		<property name="Tags" value="Mwood_weak"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntCoolerRandomLootHelper']">
+		<property name="Tags" value="Mwood_weak"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntNightstandRandomLootHelper']">
+		<property name="Tags" value="Mwood_weak"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntWoodDesk01RandomLootHelper']">
+		<property name="Tags" value="Mwood_weak"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntCoffinWildWestRandomHelper']">
+		<property name="Tags" value="Mwood_weak"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntBookcaseEmpty']">
+		<property name="Tags" value="Mwood_weak"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntBookcaseFull']">
+		<property name="Tags" value="Mwood_weak"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntBirdnest']">
+		<property name="Tags" value="Mwood_weak"/>
+	</append>
+	<append xpath="/blocks/block[@name='driftwood']">
+		<property name="Tags" value="Mwood_weak"/>
+	</append>
+	<append xpath="/blocks/block[@name='modularFireWoodStackA']">
+		<property name="Tags" value="Mwood_weak"/>
+	</append>
+	<append xpath="/blocks/block[@name='emberPileDeco1']">
+		<property name="Tags" value="Mwood_weak"/>
+	</append>
+	<append xpath="/blocks/block[@name='emberPileDeco3']">
+		<property name="Tags" value="Mwood_weak"/>
+	</append>
+	<append xpath="/blocks/block[@name='emberPileLightPOI1']">
+		<property name="Tags" value="Mwood_weak"/>
+	</append>
+	<append xpath="/blocks/block[@name='tripwirepost']">
+		<property name="Tags" value="Mwood_weak"/>
+	</append>
+	<append xpath="/blocks/block[@name='window02Frame']">
+		<property name="Tags" value="Mwood_weak"/>
+	</append>
+	<append xpath="/blocks/block[@name='window02Broken01CTRPlate']">
+		<property name="Tags" value="Mwood_weak"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='woodHatch1_v2']">
+		<property name="Tags" value="MwoodReinforced"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='woodHatch1_v3']">
+		<property name="Tags" value="MwoodMetal"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='ladderWood']">
+		<property name="Tags" value="Mwood_ladders"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='terrStone']">
+		<property name="Tags" value="Mstone"/>
+	</append>
+	<append xpath="/blocks/block[@name='stoneNoUpgradeMaster']">
+		<property name="Tags" value="Mstone"/>
+	</append>
+	<append xpath="/blocks/block[@name='arrowHelper']">
+		<property name="Tags" value="Mstone"/>
+	</append>
+	<append xpath="/blocks/block[@name='cinderBlocks01']">
+		<property name="Tags" value="Mstone"/>
+	</append>
+	<append xpath="/blocks/block[@name='rock01']">
+		<property name="Tags" value="Mstone"/>
+	</append>
+	<append xpath="/blocks/block[@name='graveStone01']">
+		<property name="Tags" value="Mstone"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntWastelandRandomLootHelper']">
+		<property name="Tags" value="Mstone"/>
+	</append>
+	<append xpath="/blocks/block[@name='decals1']">
+		<property name="Tags" value="Mstone"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='sandbagStraight01']">
+		<property name="Tags" value="Msand"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='palletWhiteBagsBase']">
+		<property name="Tags" value="Msandstone"/>
+	</append>
+	<append xpath="/blocks/block[@name='palletBlueTarpBase']">
+		<property name="Tags" value="Msandstone"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='decoHoistChain']">
+		<property name="Tags" value="Mmetal_chains"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='palletBrownBoxesBase']">
+		<property name="Tags" value="MCardboardLoot"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntStoreElectronicsPalletTvFallen']">
+		<property name="Tags" value="MCardboardLoot"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='campfire']">
+		<property name="Tags" value="MstoneNoGlue"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='cinderBlocks01']">
+		<property name="Tags" value="Mstone_scrap"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='rockResource']">
+		<property name="Tags" value="Mboulder"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='oreIronBoulder']">
+		<property name="Tags" value="MoreMetal"/>
+	</append>
+	<append xpath="/blocks/block[@name='oreLeadBoulder']">
+		<property name="Tags" value="MoreMetal"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='cobweb']">
+		<property name="Tags" value="Mcloth"/>
+	</append>
+	<append xpath="/blocks/block[@name='decoEntityClothMaster']">
+		<property name="Tags" value="Mcloth"/>
+	</append>
+	<append xpath="/blocks/block[@name='paperPillar100']">
+		<property name="Tags" value="Mcloth"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntClothesPileFloor01']">
+		<property name="Tags" value="Mcloth"/>
+	</append>
+	<append xpath="/blocks/block[@name='modularRopeTiled']">
+		<property name="Tags" value="Mcloth"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='decoEntityPolymerMaster']">
+		<property name="Tags" value="Mplastics"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='glassBulletproofMaster']">
+		<property name="Tags" value="MglassBulletproof"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='decoEntityGlassMaster']">
+		<property name="Tags" value="Mglass"/>
+	</append>
+	<append xpath="/blocks/block[@name='glassCTRSheet']">
+		<property name="Tags" value="Mglass"/>
+	</append>
+	<append xpath="/blocks/block[@name='glassBusinessBlock']">
+		<property name="Tags" value="Mglass"/>
+	</append>
+	<append xpath="/blocks/block[@name='glassBusinessSheet']">
+		<property name="Tags" value="Mglass"/>
+	</append>
+	<append xpath="/blocks/block[@name='glassIndustrialCTRPlate']">
+		<property name="Tags" value="Mglass"/>
+	</append>
+	<append xpath="/blocks/block[@name='glassIndustrial02CTRPlate']">
+		<property name="Tags" value="Mglass"/>
+	</append>
+	<append xpath="/blocks/block[@name='trapGlassBusinessCTRSheet1x1']">
+		<property name="Tags" value="Mglass"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='terrBedrock']">
+		<property name="Tags" value="Mbedrock"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='terrWaterPOI']">
+		<property name="Tags" value="Mwater"/>
+	</append>
+	<append xpath="/blocks/block[@name='waterMovingBucket']">
+		<property name="Tags" value="Mwater"/>
+	</append>
+	<append xpath="/blocks/block[@name='waterStaticBucket']">
+		<property name="Tags" value="Mwater"/>
+	</append>
+	<append xpath="/blocks/block[@name='waterMoving']">
+		<property name="Tags" value="Mwater"/>
+	</append>
+	<append xpath="/blocks/block[@name='water']">
+		<property name="Tags" value="Mwater"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='steelMaster']">
+		<property name="Tags" value="Msteel"/>
+	</append>
+	<append xpath="/blocks/block[@name='ladderSteel']">
+		<property name="Tags" value="Msteel"/>
+	</append>
+	<append xpath="/blocks/block[@name='morticianDrawer']">
+		<property name="Tags" value="Msteel"/>
+	</append>
+	<append xpath="/blocks/block[@name='keystoneBlock']">
+		<property name="Tags" value="Msteel"/>
+	</append>
+	<append xpath="/blocks/block[@name='jailBars']">
+		<property name="Tags" value="Msteel"/>
+	</append>
+	<append xpath="/blocks/block[@name='vaultHatch_v2']">
+		<property name="Tags" value="Msteel"/>
+	</append>
+	<append xpath="/blocks/block[@name='FuriousRamsayScreamerSignalMaster']">
+		<property name="Tags" value="Msteel"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='cobblestoneMaster']">
+		<property name="Tags" value="Mcobblestone"/>
+	</append>
+	<append xpath="/blocks/block[@name='concreteDestroyed01']">
+		<property name="Tags" value="Mcobblestone"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='brickNoUpgradeMaster']">
+		<property name="Tags" value="Mbrick"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='cropsGrowingMaster']">
+		<property name="Tags" value="Mplants"/>
+	</append>
+	<append xpath="/blocks/block[@name='cropsHarvestableMaster']">
+		<property name="Tags" value="Mplants"/>
+	</append>
+	<append xpath="/blocks/block[@name='treePlantedOak1m']">
+		<property name="Tags" value="Mplants"/>
+	</append>
+	<append xpath="/blocks/block[@name='treePlantedMountainPine1m']">
+		<property name="Tags" value="Mplants"/>
+	</append>
+	<append xpath="/blocks/block[@name='decoPumpkinJackOLantern']">
+		<property name="Tags" value="Mplants"/>
+	</append>
+	<append xpath="/blocks/block[@name='bedroll']">
+		<property name="Tags" value="Mplants"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='treeGrassMaster']">
+		<property name="Tags" value="Mtallgrass"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedtreeGrassSeed1']">
+		<property name="Tags" value="Mtallgrass"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='treeStump']">
+		<property name="Tags" value="MtreeWoodSmall"/>
+	</append>
+	<append xpath="/blocks/block[@name='decoPicnicTable']">
+		<property name="Tags" value="MtreeWoodSmall"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='bridgeMetalRivetBlock']">
+		<property name="Tags" value="Mbridge_metal"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='hayBaleSquare']">
+		<property name="Tags" value="Mhay"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='bridgeConcreteBlock']">
+		<property name="Tags" value="Mbridge_concrete"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='bridgeWoodBlock']">
+		<property name="Tags" value="Mbridge_wood"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='treeCactus01']">
+		<property name="Tags" value="Mcactus"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='mushroom01']">
+		<property name="Tags" value="Mmushrooms"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedMushroom1']">
+		<property name="Tags" value="Mmushrooms"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedMushroom3Harvest']">
+		<property name="Tags" value="Mmushrooms"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='plantedYucca1']">
+		<property name="Tags" value="Mcorn"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedYucca3Harvest']">
+		<property name="Tags" value="Mcorn"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedAloe1']">
+		<property name="Tags" value="Mcorn"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedAloe3Harvest']">
+		<property name="Tags" value="Mcorn"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedCorn1']">
+		<property name="Tags" value="Mcorn"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedCorn3Harvest']">
+		<property name="Tags" value="Mcorn"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedCornDead']">
+		<property name="Tags" value="Mcorn"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedGraceCorn1']">
+		<property name="Tags" value="Mcorn"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedGraceCorn3Harvest']">
+		<property name="Tags" value="Mcorn"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedPumpkin1']">
+		<property name="Tags" value="Mcorn"/>
+	</append>
+	<append xpath="/blocks/block[@name='plantedPumpkin3Harvest']">
+		<property name="Tags" value="Mcorn"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='farmPlotBlock']">
+		<property name="Tags" value="Mfarmland"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='pedestalSink']">
+		<property name="Tags" value="MstoneFurniture"/>
+	</append>
+	<append xpath="/blocks/block[@name='counterSinkCommercialTile']">
+		<property name="Tags" value="MstoneFurniture"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntToilet01']">
+		<property name="Tags" value="MstoneFurniture"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='schoolDesk']">
+		<property name="Tags" value="Mfurniture"/>
+	</append>
+	<append xpath="/blocks/block[@name='sectionalPlaidCouchSofaMiddle']">
+		<property name="Tags" value="Mfurniture"/>
+	</append>
+	<append xpath="/blocks/block[@name='sectionalLeatherCouchSofaArm']">
+		<property name="Tags" value="Mfurniture"/>
+	</append>
+	<append xpath="/blocks/block[@name='bed02']">
+		<property name="Tags" value="Mfurniture"/>
+	</append>
+	<append xpath="/blocks/block[@name='mattressFlatThin']">
+		<property name="Tags" value="Mfurniture"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='officeChair01']">
+		<property name="Tags" value="Mleather"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='tv']">
+		<property name="Tags" value="MelectricParts"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='cntBagsRandomLootHelper']">
+		<property name="Tags" value="MdroppedBackpack"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='treePlant02']">
+		<property name="Tags" value="MfertilizedClayPlanter"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='faucetBrass02']">
+		<property name="Tags" value="Mbrass"/>
+	</append>
+	<append xpath="/blocks/block[@name='candelabraLight']">
+		<property name="Tags" value="Mbrass"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='wallTorchLight']">
+		<property name="Tags" value="Mpaper"/>
+	</append>
+	<append xpath="/blocks/block[@name='candleWallLight']">
+		<property name="Tags" value="Mpaper"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='trapSpikesWoodMaster']">
+		<property name="Tags" value="MtrapSpikesWood"/>
+	</append>
+	<append xpath="/blocks/block[@name='trapSpikesNew']">
+		<property name="Tags" value="MtrapSpikesWood"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='trapSpikesScrapIronMaster']">
+		<property name="Tags" value="MtrapSpikesIron"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='barbedWireSheet']">
+		<property name="Tags" value="MbarbedWire"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='barbedFence']">
+		<property name="Tags" value="MbarbedFence"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='cntBarrelMetalMaster']">
+		<property name="Tags" value="MFuelBarrelMetal"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='cntBarrelPolymerMaster']">
+		<property name="Tags" value="MFuelBarrelPolymer"/>
+	</append>
+
+	<!-- CHANGE STACK LIMITS -->
+	<setattribute xpath="/blocks/block/property[@name='Stacknumber' and @value='200']" name="value">2000</setattribute>
+	<setattribute xpath="/blocks/block/property[@name='Stacknumber' and @value='50']" name="value">1000</setattribute>
+	<setattribute xpath="/blocks/block/property[@name='Stacknumber' and @value='25']" name="value">750</setattribute>
+	<setattribute xpath="/blocks/block/property[@name='Stacknumber' and @value='20']" name="value">750</setattribute>
+	<setattribute xpath="/blocks/block/property[@name='Stacknumber' and @value='10']" name="value">500</setattribute>
+	<setattribute xpath="/blocks/block/property[@name='Stacknumber' and @value='3']" name="value">250</setattribute>
+
+</Config>

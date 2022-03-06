@@ -1,0 +1,916 @@
+<Config>
+
+	<append xpath="/traders/trader_item_groups">
+
+		<trader_item_group name="FuriousRamsayImmunityArmorRepairKits">
+			<item name="FuriousRamsayFireArmorRepairKit"/>
+			<item name="FuriousRamsayShockArmorRepairKit"/>
+			<item name="FuriousRamsayFireShockArmorRepairKit"/>
+			<item name="FuriousRamsaySmokeArmorRepairKit"/>
+			<item name="FuriousRamsayFireShockSmokeArmorRepairKit"/>
+		</trader_item_group>
+
+		<!-- Had to put back everything below in as Darkness Falls removed trader groups from Vanilla -->
+		<trader_item_group name="FuriousRamsayWeaponsMeleeT0-1">
+			<item name="meleeWpnBladeT1HuntingKnife" quality="1,4"/>
+			<item name="meleeWpnClubT1BaseballBat" quality="1,4"/>
+			<item name="meleeWpnSpearT1IronSpear" quality="1,4"/>
+			<item name="meleeWpnSledgeT1IronSledgehammer" quality="1,4"/>
+			<item name="meleeWpnKnucklesT1IronKnuckles" quality="1,4"/>
+			<item name="meleeWpnBatonT2StunBaton" quality="1,4"/>
+			<item name="FuriousRamsayThrownBarrel" count="1,5"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayWeaponsMeleeT2">
+			<item name="meleeWpnBladeT3Machete" quality="1,3"/>
+			<item name="meleeWpnClubT3SteelClub" quality="1,3"/>
+			<item name="meleeWpnSpearT3SteelSpear" quality="1,3"/>
+			<item name="meleeWpnSledgeT3SteelSledgehammer" quality="1,3"/>
+			<item name="meleeWpnKnucklesT3SteelKnuckles" quality="1,3"/>
+			<item name="FuriousRamsayThrownBarrel" count="1,5"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayWeaponsMeleeMixed">
+			<item group="FuriousRamsayWeaponsMeleeT0-1"/>
+			<item group="FuriousRamsayWeaponsMeleeT2" prob="0.3"/>
+			<item name="FuriousRamsayThrownBarrel" count="1,5"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayWeaponsGunParts">
+			<item name="gunHandgunT1PistolParts" count="1,5"/>
+			<item name="gunShotgunT1DoubleBarrelParts" count="1,5"/>
+			<item name="gunMGT1AK47Parts" count="1,5"/>
+			<item name="gunRifleT1HuntingRifleParts" count="1,5"/>
+			<item name="gunBowT1WoodenBowParts" count="1,5"/>
+			<item name="gunBotRoboticsParts" count="1,5"/>
+			<item name="gunExplosivesT3RocketLauncherParts" count="1,5"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayWeaponsGunsT1">
+			<item name="gunHandgunT1Pistol" quality="1,4"/>
+			<item name="gunShotgunT1DoubleBarrel" quality="1,4"/>
+			<item name="gunMGT1AK47" quality="1,4"/>
+			<item name="gunRifleT1HuntingRifle" quality="1,4"/>
+			<item name="gunBowT1WoodenBow" prob="0.7" quality="1,4"/>
+			<item name="gunBowT1IronCrossbow" prob="0.7" quality="1,4"/>
+			<item name="gunBotT1JunkSledge" prob="0.7" quality="1,4"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayWeaponsGunsT2">
+			<item name="gunShotgunT2PumpShotgun" quality="1,3"/>
+			<item name="gunMGT2TacticalAR" quality="1,3"/>
+			<item name="gunRifleT2LeverActionRifle" quality="1,3"/>
+			<item name="gunHandgunT2Magnum44" prob="0.7" quality="1,3"/>
+			<item name="gunBowT3CompoundBow" prob="0.7" quality="1,3"/>
+			<item name="gunBowT3CompoundCrossbow" prob="0.7" quality="1,3"/>
+			<item name="gunBotT2JunkTurret" prob="0.7" quality="1,3"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayWeaponsGunsT3">
+			<item name="gunHandgunT3SMG5" prob="0.7" quality="1,3"/>
+			<item name="gunMGT3M60" quality="1,3"/>
+			<item name="gunHandgunT2Magnum44" prob="0.7" quality="1,3"/>
+			<item name="gunHandgunT3DesertVulture" prob="0.7" quality="1,3"/>
+			<item name="gunShotgunT3AutoShotgun" prob="0.7" quality="1,3"/>
+			<item name="gunRifleT3SniperRifle" prob="0.7" quality="1,3"/>
+			<item name="gunExplosivesT3RocketLauncher" quality="1,3"/>
+			<!-- <item name="gunBotT3JunkDrone" prob="0.7" quality="1,3"/> -->
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayWeaponsGunsT3QL5">
+			<item name="gunHandgunT3SMG5" prob="0.7" quality="2,5"/>
+			<item name="gunMGT3M60" quality="2,5"/>
+			<item name="gunHandgunT2Magnum44" prob="0.7" quality="2,5"/>
+			<item name="gunHandgunT3DesertVulture" prob="0.7" quality="2,5"/>
+			<item name="gunShotgunT3AutoShotgun" prob="0.7" quality="2,5"/>
+			<item name="gunRifleT3SniperRifle" prob="0.7" quality="2,5"/>
+			<item name="gunExplosivesT3RocketLauncher" quality="2,5"/>
+			<!-- <item name="gunBotT3JunkDrone" prob="0.7" quality="2,5"/> -->
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayGroupArmorLightT0">
+			<item name="armorClothHat" quality="1,4"/>
+			<item name="armorClothPants" quality="1,4"/>
+			<item name="armorClothJacket" quality="1,4"/>
+			<item name="armorClothBoots" quality="1,4"/>
+			<item name="armorClothGloves" quality="1,4"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayGroupArmorLightT1">
+			<item name="armorLeatherBoots" quality="1,4"/>
+			<item name="armorLeatherPants" quality="1,4"/>
+			<item name="armorLeatherChest" quality="1,4"/>
+			<item name="armorLeatherGloves" quality="1,4"/>
+			<item name="armorLeatherHood" quality="1,4"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayGroupArmorLightT2">
+			<item name="armorMilitaryGloves" quality="1,3"/>
+			<item name="armorMilitaryHelmet" mods="modArmorHelmetLight" mod_chance=".2" quality="1,3"/>
+			<item name="armorMilitaryBoots" quality="1,3"/>
+			<item name="armorMilitaryLegs" quality="1,3"/>
+			<item name="armorMilitaryVest" quality="1,3"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayGroupArmorLightMixed">
+			<item group="FuriousRamsayGroupArmorLightT0" prob="0.5"/>
+			<item group="FuriousRamsayGroupArmorLightT1" prob="0.3"/>
+			<item group="FuriousRamsayGroupArmorLightT2" prob="0.2"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayGroupArmorHeavyT0">
+			<item name="armorScrapBoots" quality="1,4"/>
+			<item name="armorScrapLegs" quality="1,4"/>
+			<item name="armorScrapGloves" quality="1,4"/>
+			<item name="armorScrapChest" quality="1,4"/>
+			<item name="armorScrapHelmet" quality="1,4"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayGroupArmorHeavyT1">
+			<item name="armorIronGloves" quality="1,4"/>
+			<item name="armorIronHelmet" quality="1,4"/>
+			<item name="armorIronBoots" quality="1,4"/>
+			<item name="armorIronLegs" quality="1,4"/>
+			<item name="armorIronChest" quality="1,4"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayGroupArmorHeavyT2">
+			<item name="armorSteelBoots" quality="1,3"/>
+			<item name="armorSteelLegs" quality="1,3"/>
+			<item name="armorSteelChest" quality="1,3"/>
+			<item name="armorSteelGloves" quality="1,3"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayGroupArmorHeavyMixed">
+			<item group="FuriousRamsayGroupArmorHeavyT0" prob="0.5"/>
+			<item group="FuriousRamsayGroupArmorHeavyT1" prob="0.3"/>
+			<item group="FuriousRamsayGroupArmorHeavyT2" prob="0.2"/>
+		</trader_item_group>
+
+		<!-- Had to put back everything below in as Undead Legacy removed trader groups from Vanilla -->
+		<trader_item_group name="FuriousRamsayWeaponsGunsMixed">
+			<item group="FuriousRamsayWeaponsGunsT1" prob="3"/>
+			<item group="FuriousRamsayWeaponsGunsT2" prob="1"/>
+			<item group="FuriousRamsayWeaponsGunParts" count="1" prob=".3"/>
+		</trader_item_group>
+
+		<!-- Vending Machine Items -->
+		<trader_item_group name="FuriousRamsayGroupQuestChallengesTier1">
+			<item name="qc_FuriousRamsayHordeTrainingTier1" count="1" prob="0.4"/>
+			<item name="FuriousRamsaySpawnMechanicalAllyDog" count="5" quality="0" prob="2"/>
+			<item name="FuriousRamsaySpawnMechanicalAllyBoar" count="3" quality="0" prob="1"/>
+			<!--<item name="qc_FuriousRamsayFactionWarTier1" prob="0.4"/>-->
+			<item name="qc_FuriousRamsayResetPOI" count="1" prob="0.05"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayGroupQuestChallengesTier2">
+			<item name="qc_FuriousRamsayHordeTrainingTier2" count="1" prob="0.4"/>
+			<item name="FuriousRamsaySpawnMechanicalAllyWolf" count="5" quality="0" prob="2"/>
+			<!--<item name="qc_FuriousRamsayFactionWarTier1" prob="0.4"/>-->
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayGroupQuestChallengesTier3">
+			<item name="qc_FuriousRamsayHordeTrainingTier3" count="1" prob="0.4"/>
+			<item name="FuriousRamsaySpawnMechanicalAllyLion" count="5" quality="0" prob="2"/>
+			<!--<item name="qc_FuriousRamsayFactionWarTier1" prob="0.4"/>-->
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayGroupQuestChallengesTier4">
+			<item name="qc_FuriousRamsayHordeTrainingTier4" count="1" prob="0.4"/>
+			<item name="FuriousRamsaySpawnMechanicalAllyBear" count="5" quality="0" prob="2"/>
+			<!--<item name="qc_FuriousRamsayFactionWarTier1" prob="0.4"/>-->
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayGroupQuestChallengesTier5">
+			<item name="qc_FuriousRamsayHordeTrainingTier5" count="1" prob="0.4"/>
+			<item name="FuriousRamsaySpawnMechanicalAllyAndroid" count="5" quality="0" prob="2"/>
+			<!--<item name="qc_FuriousRamsayFactionWarTier1" prob="0.4"/>-->
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayGroupMiscItems">
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayTraderGroupQuestChallengesTier1" >
+			<item group="FuriousRamsayGroupQuestChallengesTier1"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayTraderGroupQuestChallengesTier2" >
+			<item group="FuriousRamsayGroupQuestChallengesTier2"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayTraderGroupQuestChallengesTier3" >
+			<item group="FuriousRamsayGroupQuestChallengesTier3"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayTraderGroupQuestChallengesTier4" >
+			<item group="FuriousRamsayGroupQuestChallengesTier4"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayTraderGroupQuestChallengesTier5" >
+			<item group="FuriousRamsayGroupQuestChallengesTier5"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayTraderMiscItems" >
+			<item group="FuriousRamsayGroupMiscItems"/>
+		</trader_item_group>
+		
+		<trader_item_group name="FuriousRamsayTraderArmorFire" >
+			<item name="FuriousRamsayArmorHelmetFire"/>
+			<item name="FuriousRamsayArmorChestFire"/>
+			<item name="FuriousRamsayArmorGloveFire"/>
+			<item name="FuriousRamsayArmorLegFire"/>
+			<item name="FuriousRamsayArmorBootFire"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayTraderArmorShock" >
+			<item name="FuriousRamsayArmorHelmetShock"/>
+			<item name="FuriousRamsayArmorChestShock"/>
+			<item name="FuriousRamsayArmorGloveShock"/>
+			<item name="FuriousRamsayArmorLegShock"/>
+			<item name="FuriousRamsayArmorBootShock"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayTraderArmorFireShock" >
+			<item name="FuriousRamsayArmorHelmetFireShock"/>
+			<item name="FuriousRamsayArmorChestFireShock"/>
+			<item name="FuriousRamsayArmorGloveFireShock"/>
+			<item name="FuriousRamsayArmorLegFireShock"/>
+			<item name="FuriousRamsayArmorBootFireShock"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayTraderArmorSmoke" >
+			<item name="FuriousRamsayArmorHelmetSmoke"/>
+			<item name="FuriousRamsayArmorChestSmoke"/>
+			<item name="FuriousRamsayArmorGloveSmoke"/>
+			<item name="FuriousRamsayArmorLegSmoke"/>
+			<item name="FuriousRamsayArmorBootSmoke"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayTraderArmorFireShockSmoke" >
+			<item name="FuriousRamsayArmorHelmetFireShockSmoke"/>
+			<item name="FuriousRamsayArmorChestFireShockSmoke"/>
+			<item name="FuriousRamsayArmorGloveFireShockSmoke"/>
+			<item name="FuriousRamsayArmorLegFireShockSmoke"/>
+			<item name="FuriousRamsayArmorBootFireShockSmoke"/>
+		</trader_item_group>
+		
+		<trader_item_group name="FuriousRamsayTraderEarlyVehicles" >
+			<!--<item name="FuriousRamsayBlackShieldBicyclePlaceable"/>-->
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayTraderLaterVehicles" >
+			<item name="FuriousRamsayBlackShieldFireMotorcyclePlaceable"/>
+			<item name="FuriousRamsayBlackShieldShockMotorcyclePlaceable"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayDrinkSchematics">
+			<item name="drinkJarCoffeeSchematic"/>
+			<item name="drinkJarGoldenRodTeaSchematic" prob=".6"/>
+			<item name="drinkJarRedTeaSchematic" prob=".4"/>
+			<item name="drinkYuccaJuiceSmoothieSchematic" prob=".2"/>
+			<item name="drinkJarBeerSchematic"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayCooking1Schematics">
+			<item name="foodBakedPotatoSchematic"/>
+			<item name="foodGrilledMeatSchematic"/>
+			<item name="foodBoiledMeatSchematic"/>
+			<item name="foodCornOnTheCobSchematic"/>
+			<item name="foodCornBreadSchematic"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayCooking2Schematics">
+			<item name="foodBaconAndEggsSchematic"/>
+			<item name="foodVegetableStewSchematic" prob=".6"/>
+			<item name="foodMeatStewSchematic" prob=".4"/>
+			<item name="foodSteakAndPotatoSchematic" prob=".3"/>
+			<item name="foodBlueberryPieSchematic" prob=".3"/>
+			<item name="foodPumpkinPieSchematic" prob=".6"/>
+			<item name="foodPumpkinCheesecakeSchematic" prob=".3"/>
+			<item name="foodPumpkinBreadSchematic"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayCooking3Schematics">
+			<item name="foodShamChowderSchematic" prob=".1"/>
+			<item name="foodHoboStewSchematic" prob=".3"/>
+			<item name="foodFishTacosSchematic"/>
+			<item name="foodChiliDogSchematic"/>
+			<item name="foodGumboStewSchematic" prob=".1"/>
+			<item name="foodShepardsPieSchematic" prob=".1"/>
+			<item name="foodSpaghettiSchematic" prob=".5"/>
+			<item name="foodTunaFishGravyToastSchematic" prob=".1"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsaySeeds1Schematics">
+			<item name="plantedChrysanthemum1Schematic"/>
+			<item name="plantedCotton1Schematic"/>
+			<item name="plantedGoldenrod1Schematic"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsaySeeds2Schematics">
+			<item name="plantedAloe1Schematic" prob=".6"/>
+			<item name="plantedHop1Schematic"/>
+			<item name="plantedCoffee1Schematic"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsaySeeds3Schematics">
+			<item name="plantedCorn1Schematic"/>
+			<item name="plantedPotato1Schematic" prob="0.6"/>
+			<item name="plantedYucca1Schematic"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsaySeeds4Schematics">
+			<item name="plantedBlueberry1Schematic"/>
+			<item name="plantedMushroom1Schematic" prob=".4"/>
+			<item name="plantedPumpkin1Schematic" prob=".8"/>
+			<item name="plantedGraceCorn1Schematic" prob=".01"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsaySeeds1">
+			<item name="plantedCoffee1"/>
+			<item name="plantedAloe1" prob=".6"/>
+			<item name="plantedGoldenrod1"/>
+			<item name="plantedHop1"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsaySeeds2">
+			<item name="plantedPotato1"/>
+			<item name="plantedCorn1"/>
+			<item name="plantedYucca1"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsaySeeds3">
+			<item name="plantedBlueberry1"/>
+			<item name="plantedPumpkin1" prob=".6"/>
+			<item name="plantedMushroom1" prob=".3"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayCans1">
+			<item name="foodCanMiso" count="2,4"/>
+			<item name="foodCanStock" count="2,4"/>
+			<item name="foodCanPears" count="2,4"/>
+			<item name="foodCanCatfood" count="2,4"/>
+			<item name="foodCanSoup" count="2,4"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayCans2">
+			<item name="foodCanBeef" count="2,4"/>
+			<item name="foodCanChicken" count="2,4"/>
+			<item name="foodCanLamb" count="2,4"/>
+			<item name="foodCanSham" count="2,4"/>
+			<item name="foodCanSalmon" count="2,4"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayCans3">
+			<item name="foodCanChili" count="2,4"/>
+			<item name="foodCanDogfood" count="2,4"/>
+			<item name="foodCanPasta" count="2,4"/>
+			<item name="foodCanPeas" count="2,4"/>
+			<item name="foodCanTuna" count="2,4"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFresh1">
+			<item name="foodEgg" count="2,5"/>
+			<item name="foodRawMeat" count="2,5"/>
+			<item name="foodCornMeal" count="1,2"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFresh2">
+			<item name="foodCropCorn" count="2,4"/>
+			<item name="foodCropPotato" count="2,4" prob=".6"/>
+			<item name="foodCropYuccaFruit" count="2,4"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFresh3">
+			<item name="foodCropBlueberries" count="2,4"/>
+			<item name="foodCropMushrooms" count="2,4" prob=".3"/>
+			<item name="foodCropPumpkin" count="2,4"  prob=".6"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayCookedBasic">
+			<item name="foodBakedPotato" count="2,4"/>
+			<item name="foodEggBoiled" count="2,4"/>
+			<item name="foodGrilledMeat" count="2,4" prob=".8"/>
+			<item name="foodBoiledMeat" count="2,4" prob=".8"/>
+			<item name="foodCornOnTheCob" count="2,4"/>
+			<item name="foodBaconAndEggs" count="2,4" prob=".6"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayBaked1">
+			<item name="foodCornBread" count="2,4"/>
+			<item name="foodPumpkinPie" count="2,4" prob=".4"/>
+			<item name="foodPumpkinBread" count="2,4"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayBaked2">
+			<item name="foodBlueberryPie" count="2,4" prob=".5"/>
+			<item name="foodPumpkinCheesecake" count="2,4" prob=".4"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayCookedAdvanced">
+			<item name="foodVegetableStew" count="2,4"/>
+			<item name="foodFishTacos" count="2,4" prob=".8"/>
+			<item name="foodMeatStew" count="2,4" prob=".8"/>
+			<item name="foodSteakAndPotato" count="2,4" prob=".6"/>
+			<item name="foodChiliDog" count="2,4" prob=".6"/>
+			<item name="foodHoboStew" count="2,4" prob=".4"/>
+			<item name="foodShamChowder" count="2,4" prob=".3"/>
+			<item name="foodGumboStew" count="2,4" prob=".1"/>
+			<item name="foodShepardsPie" count="2,4" prob=".2"/>
+			<item name="foodSpaghetti" count="2,4" prob=".2"/>
+			<item name="foodTunaFishGravyToast" count="2,4" prob=".2"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayBrewed">
+			<item name="drinkJarBoiledWater" count="2,4"/>
+			<item name="drinkJarYuccaJuice" count="2,4"/>
+			<item name="drinkJarGoldenRodTea" count="2,4"/>
+			<item name="drinkJarRedTea" count="2,4"/>
+			<item name="drinkJarCoffee" count="2,4"/>
+			<item name="drinkJarBeer" count="2,4"/>
+			<item name="drinkYuccaJuiceSmoothie" count="2,4"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayCookingAccessories">
+			<item name="toolBeaker" count="1"/>
+			<item name="toolCookingGrill" count="1"/>
+			<item name="toolCookingPot" count="1"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmingAccessories">
+			<item name="meleeToolShovelT1IronShovel" count="1"/>
+			<item name="meleeToolShovelT2SteelShovel" count="1" prob="0.2"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderDrinkSchematics" >
+			<item group="FuriousRamsayDrinkSchematics"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderCooking1Schematics" >
+			<item group="FuriousRamsayCooking1Schematics"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderCooking2Schematics" >
+			<item group="FuriousRamsayCooking2Schematics"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderCooking3Schematics" >
+			<item group="FuriousRamsayCooking3Schematics"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderSeeds1Schematics" >
+			<item group="FuriousRamsaySeeds1Schematics"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderSeeds2Schematics" >
+			<item group="FuriousRamsaySeeds2Schematics"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderSeeds3Schematics" >
+			<item group="FuriousRamsaySeeds3Schematics"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderSeeds4Schematics" >
+			<item group="FuriousRamsaySeeds4Schematics"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderSeedsStash1Schematics" >
+			<item group="FuriousRamsaySeeds2Schematics" prob="0.05"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderSeedsStash2Schematics" >
+			<item group="FuriousRamsaySeeds2Schematics" prob="0.15"/>
+			<item group="FuriousRamsaySeeds3Schematics" prob="0.05"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderSeedsStash3Schematics" >
+			<item group="FuriousRamsaySeeds2Schematics" prob="0.25"/>
+			<item group="FuriousRamsaySeeds3Schematics" prob="0.15"/>
+			<item group="FuriousRamsaySeeds4Schematics" prob="0.05"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderSeeds1" >
+			<item group="FuriousRamsaySeeds1"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderSeeds2" >
+			<item group="FuriousRamsaySeeds2"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderSeeds3" >
+			<item group="FuriousRamsaySeeds3"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderCans1" >
+			<item group="FuriousRamsayCans1"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderCans2" >
+			<item group="FuriousRamsayCans2"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderCans3" >
+			<item group="FuriousRamsayCans3"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderFresh1" >
+			<item group="FuriousRamsayFresh1"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderFresh2" >
+			<item group="FuriousRamsayFresh2"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderFresh3" >
+			<item group="FuriousRamsayFresh3"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderCookedBasic" >
+			<item group="FuriousRamsayCookedBasic"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderBaked1" >
+			<item group="FuriousRamsayBaked1"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderBaked2" >
+			<item group="FuriousRamsayBaked2"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderCookedAdvanced" >
+			<item group="FuriousRamsayCookedAdvanced"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderBrewed" >
+			<item group="FuriousRamsayBrewed"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderCookingAccessories" >
+			<item group="FuriousRamsayCookingAccessories"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmerTraderFarmingAccessories" >
+			<item group="FuriousRamsayFarmingAccessories"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayMechanicalPets">
+			<item name="FuriousRamsayPetMechanicalDog" prob="0.8" count="1"/>
+			<item name="FuriousRamsayPetMechanicalWolf" prob="0.6" count="1"/>
+			<item name="FuriousRamsayPetMechanicalLion" prob="0.4" count="1"/>
+			<item name="FuriousRamsayPetMechanicalBear" prob="0.2" count="1"/>
+			<item name="FuriousRamsayPetMechanicalCoyote" prob="0.8" count="1"/>
+			<item name="FuriousRamsayPetMechanicalBoar" prob="0.8" count="1"/>
+			<item name="FuriousRamsayPetMechanicalRabbit" prob="1" count="1"/>
+			<item name="FuriousRamsayPetMechanicalChicken" prob="1" count="1"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayTools1">
+			<item name="meleeToolPickT1IronPickaxe" count="1" prob="0.5"/>
+			<item name="meleeToolShovelT1IronShovel" count="1" prob="0.5"/>
+			<item name="meleeToolAxeT1IronFireaxe" count="1" prob="0.5"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayTools2">
+			<item name="meleeToolPickT1IronPickaxe" count="1" prob="0.5"/>
+			<item name="meleeToolShovelT1IronShovel" count="1" prob="0.5"/>
+			<item name="meleeToolAxeT1IronFireaxe" count="1" prob="0.5"/>
+			<item name="meleeToolRepairT1ClawHammer" count="1" prob="1"/>
+			<item name="meleeToolSalvageT1Wrench" count="1" prob="0.8"/>
+			<item name="meleeToolWireTool" count="1" prob="0.2"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayTools3">
+			<item name="meleeToolPickT1IronPickaxe" count="1" prob="0.5"/>
+			<item name="meleeToolShovelT1IronShovel" count="1" prob="0.5"/>
+			<item name="meleeToolAxeT1IronFireaxe" count="1" prob="0.5"/>
+			<item name="meleeToolRepairT1ClawHammer" count="1" prob="1"/>
+			<item name="meleeToolSalvageT1Wrench" count="1" prob="0.8"/>
+			<item name="meleeToolWireTool" count="1" prob="0.2"/>
+			<item name="meleeToolShovelT2SteelShovel" count="1" prob="1"/>
+			<item name="meleeToolPickT2SteelPickaxe" count="1" prob="0.8"/>
+			<item name="meleeToolSalvageT2Ratchet" count="1" prob="0.5"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayTools4">
+			<item name="meleeToolPickT1IronPickaxe" count="1" prob="0.5"/>
+			<item name="meleeToolShovelT1IronShovel" count="1" prob="0.5"/>
+			<item name="meleeToolAxeT1IronFireaxe" count="1" prob="0.5"/>
+			<item name="meleeToolRepairT1ClawHammer" count="1" prob="1"/>
+			<item name="meleeToolSalvageT1Wrench" count="1" prob="0.8"/>
+			<item name="meleeToolWireTool" count="1" prob="0.2"/>
+			<item name="meleeToolShovelT2SteelShovel" count="1" prob="1"/>
+			<item name="meleeToolPickT2SteelPickaxe" count="1" prob="0.8"/>
+			<item name="meleeToolSalvageT2Ratchet" count="1" prob="0.5"/>
+			<item name="meleeToolAxeT3Chainsaw" count="1" prob="0.4"/>
+			<item name="meleeToolPickT3Auger" count="1" prob="0.2"/>
+			<item name="meleeToolRepairT3Nailgun" count="1" prob="1"/>
+			<item name="meleeToolSalvageT3ImpactDriver" count="1" prob="0.6"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayVehicleResources">
+			<item name="resourceGlue" count="2,4" prob="1"/>
+			<item name="resourceDuctTape" count="2,4" prob="0.8"/>
+			<item name="resourceScrapPolymers" count="4,8" prob="1"/>
+			<item name="resourceOil" count="2,4" prob="0.6"/>
+			<item name="resourceAcid" count="1" prob="0.3"/>
+			<item name="resourceMetalPipe" count="2,4" prob="1"/>
+			<item name="resourceSpring" count="2,4" prob="1"/>
+			<item name="resourceElectricParts" count="2,4" prob="1"/>
+			<item name="resourceMechanicalParts" count="2,4" prob="1"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayVehicleParts">
+			<item name="ammoGasCan" count="4,8" prob="0.8"/>
+			<item name="resourceHeadlight" count="1" prob="0.2"/>
+			<item name="carBattery" count="1" prob="0.4"/>
+			<item name="smallEngine" count="1" prob="0.3"/>
+			<item name="vehicleWheels" count="1" prob="0.2"/>
+			<item name="resourceRepairKit" count="1,2" prob="1"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayBuildingMaterials">
+			<item name="resourceConcreteMix" count="10,20" prob="1"/>
+			<item name="resourceCobblestones" count="20,20" prob="1"/>
+			<item name="resourceForgedIron" count="4,8" prob="0.8"/>
+			<item name="resourceForgedSteel" count="4,8" prob="0.3"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayCraftingTools">
+			<item name="toolAnvil" count="1" prob="1"/>
+			<item name="toolBellows" count="1" prob="0.6"/>
+			<item name="toolForgeCrucible" count="1" prob="0.2"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayVehicleSchematics1">
+			<item name="vehicleBicycleChassisSchematic" count="1" prob="1"/>
+			<item name="vehicleBicycleHandlebarsSchematic" count="1" prob="0.8"/>
+			<item name="vehicleMinibikeChassisSchematic" count="1" prob="0.4"/>
+			<item name="vehicleMinibikeHandlebarsSchematic" count="1" prob="0.2"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayVehicleSchematics2">
+			<item name="vehicleMotorcycleChassisSchematic" count="1" prob="1"/>
+			<item name="vehicleMotorcycleHandlebarsSchematic" count="1" prob="0.8"/>
+			<item name="vehicle4x4TruckChassisSchematic" count="1" prob="0.4"/>
+			<item name="vehicle4x4TruckAccessoriesSchematic" count="1" prob="0.2"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayVehicleSchematics3">
+			<item name="vehicle4x4TruckChassisSchematic" count="1" prob="1"/>
+			<item name="vehicle4x4TruckAccessoriesSchematic" count="1" prob="0.8"/>
+			<item name="vehicleGyroCopterChassisSchematic" count="1" prob="0.1"/>
+			<item name="vehicleGyroCopterAccessoriesSchematic" count="1" prob="0.05"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayToolSchematics1">
+			<item name="meleeToolRepairT3NailgunSchematic" count="1" prob="1"/>
+			<item name="meleeToolSteelSetSchematic" count="1" prob="0.6"/>
+			<item name="meleeToolSalvageT2RatchetSchematic" count="1" prob="0.8"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayToolSchematics2">
+			<item name="meleeToolPickT3AugerSchematic" count="1" prob="0.1"/>
+			<item name="meleeToolAxeT3ChainsawSchematic" count="1" prob="0.3"/>
+			<item name="meleeToolSalvageT3ImpactDriverSchematic" count="1" prob="0.4"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayCraftingToolSchematics">
+			<item name="ammoGasCanSchematic" count="1" prob="0.6"/>
+			<!--<item name="resourceOilSchematic" count="1" prob="1"/>-->
+			<item name="toolBellowsSchematic" count="1" prob="0.3"/>
+			<item name="toolAnvilSchematic" count="1" prob="0.8"/>
+			<item name="toolForgeCrucibleSchematic" count="1" prob="0.1"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayCraftingStationSchematics">
+			<item name="forgeSchematic" count="1" prob="1"/>
+			<item name="cementMixerSchematic" count="1" prob="0.4"/>
+			<item name="workbenchSchematic" count="1" prob="0.6"/>
+			<item name="chemistryStationSchematic" count="1" prob="0.2"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayVehicles1">
+			<item name="vehicleBicyclePlaceable" count="1" prob="1"/>
+			<item name="vehicleMinibikePlaceable" count="1" prob="0.3"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayVehicles2">
+			<item name="vehicleMotorcyclePlaceable" count="1" prob="1"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayVehicles3">
+			<item name="vehicleMotorcyclePlaceable" count="1" prob="1"/>
+			<item name="vehicle4x4TruckPlaceable" count="1" prob="0.3"/>
+			<item name="FuriousRamsayAllTerrainPlaceable" count="1" prob="0.15"/>
+			<item name="vehicleGyrocopterPlaceable" count="1" prob="0.05"/>
+		</trader_item_group>
+
+	</append>
+
+	<remove xpath="/traders/trader_info[@id='5']"/>
+	<append xpath="/traders">
+	
+		<!-- Vending Machine at the Traders -->
+		<trader_info id="5" reset_interval="1" override_buy_markup="1.0" override_sell_markup="1.0" allow_sell="false" rentable="false" min_inventory="15" max_inventory="15" min_items_swapped="15" max_items_swapped="15">
+			<trader_items count="15">
+				<item group="FuriousRamsayTraderGroupQuestChallengesTier1" count="1"/>
+				<item group="FuriousRamsayTraderGroupQuestChallengesTier2" count="1"/>
+				<item group="FuriousRamsayTraderGroupQuestChallengesTier3" count="1"/>
+				<item group="FuriousRamsayTraderGroupQuestChallengesTier4" count="1"/>
+				<item group="FuriousRamsayTraderGroupQuestChallengesTier5" count="1"/>
+				<item group="FuriousRamsayTraderMiscItems"/>
+			</trader_items>
+		</trader_info>
+
+		<!-- Black Shield Trader 1, id=90, carries more weapons and ammo -->
+		<trader_info id="90" full_reset="true" override_buy_markup="1.6" min_inventory="20" max_inventory="40" min_items_swapped="10" max_items_swapped="30" reset_interval="1" open_time="0:00" close_time="0:00">
+			<trader_items count="all">
+				<item group="tools" count="1,2"/>
+				<item group="ammo" count="1,2"/>
+				<item group="ammoSupplies" count="1,2"/>
+				<item group="FuriousRamsayWeaponsMeleeT0-1" count="1"/>
+				<item group="FuriousRamsayWeaponsGunsT1" count="1"/>
+				<item group="FuriousRamsayWeaponsGunParts" count="1"/>
+				<item group="FuriousRamsayGroupArmorLightMixed" count="1,2"/>
+				<item group="FuriousRamsayGroupArmorHeavyMixed" count="1,2"/>
+				<item group="modAllT1SecretStash" count="1,2"/>
+				<item group="FuriousRamsayTraderArmorFire" count="1"/>
+				<item group="FuriousRamsayTraderArmorShock" count="1"/>
+				<item group="FuriousRamsayTraderEarlyVehicles" count="1" prob="0.5"/>
+			</trader_items>
+
+			<tier_items level="3000,3999" count="all"> <!-- requires Perk 3 -->
+				<!-- Bug: The count is overridden by "all" anyway so all probabilities are =1 -->
+				<item group="tools" count="1"/>
+				<item group="rareTools" count="1"/>
+				<item group="FuriousRamsayImmunityArmorRepairKits" count="1"/>
+				<item group="FuriousRamsayWeaponsMeleeMixed" count="1,2"/>
+				<item group="FuriousRamsayWeaponsGunsMixed" count="1,2"/>
+				<item group="ammo" count="2,4"/>
+				<item group="ammoSupplies" count="1,2"/>
+				<item group="FuriousRamsayGroupArmorHeavyMixed" count="1,2"/>
+				<item group="FuriousRamsayGroupArmorLightMixed" count="1,2"/>
+				<item group="modAllT3SecretStash" count="1,2"/>
+				<item group="FuriousRamsayTraderArmorFire" count="1"/>
+				<item group="FuriousRamsayTraderArmorShock" count="1"/>
+				<item group="FuriousRamsayTraderArmorFireShock" count="1"/>
+				<item group="FuriousRamsayTraderLaterVehicles" count="1" prob="0.5"/>
+			</tier_items>
+
+			<tier_items level="4000,4999" count="all"> <!-- requires Perk 4 -->
+				<item group="tools" count="1,2"/>
+				<item group="rareTools" count="1,2"/>
+				<item group="FuriousRamsayImmunityArmorRepairKits" count="2"/>
+				<item group="FuriousRamsayWeaponsMeleeMixed" count="2,3"/>
+				<item group="FuriousRamsayWeaponsGunsMixed" count="2,3"/>
+				<item group="ammo" count="2,4"/>
+				<item group="FuriousRamsayGroupArmorHeavyT2" count="1,2"/>
+				<item group="FuriousRamsayGroupArmorLightT2" count="1,2"/>
+				<item group="FuriousRamsayWeaponsGunsT3" count="1,2"/>
+				<item group="modAllT4SecretStash" count="1,2"/>
+				<item group="FuriousRamsayTraderArmorFire" count="1"/>
+				<item group="FuriousRamsayTraderArmorShock" count="1"/>
+				<item group="FuriousRamsayTraderArmorFireShock" count="1"/>
+				<item group="FuriousRamsayTraderArmorSmoke" count="1"/>
+				<item group="FuriousRamsayTraderLaterVehicles" count="1" prob="0.6"/>
+			</tier_items>
+
+			<tier_items level="5000,-1" count="all"> <!-- requires Perk 5 -->
+				<item group="tools" count="1,2"/>
+				<item group="rareTools" count="3,4"/>
+				<item group="FuriousRamsayImmunityArmorRepairKits" count="2,3"/>
+				<item group="FuriousRamsayWeaponsMeleeMixed" count="2,3"/>
+				<item group="FuriousRamsayWeaponsGunsMixed" count="2,3"/>
+				<item group="FuriousRamsayWeaponsGunsT2" count="1"/>
+				<item group="ammo" count="5,8"/>
+				<item group="FuriousRamsayGroupArmorHeavyT2" count="2,3"/>
+				<item group="FuriousRamsayGroupArmorLightT2" count="2,3"/>
+				<item group="FuriousRamsayWeaponsGunsT3QL5" count="1,2"/>
+				<item group="modAllT5SecretStash" count="1,4"/>
+				<item group="FuriousRamsayTraderArmorFire" count="1"/>
+				<item group="FuriousRamsayTraderArmorShock" count="1"/>
+				<item group="FuriousRamsayTraderArmorFireShock" count="1"/>
+				<item group="FuriousRamsayTraderArmorSmoke" count="1"/>
+				<item group="FuriousRamsayTraderArmorFireShockSmoke" count="1"/>
+				<item group="FuriousRamsayTraderLaterVehicles" count="1" prob="0.7"/>
+			</tier_items>
+		</trader_info>
+	
+		<!-- Farmer Katie, id=91, carries food, seeds and recipes -->
+		<trader_info id="91" full_reset="true" min_inventory="70" max_inventory="70" min_items_swapped="70" max_items_swapped="70" reset_interval="1" open_time="0:00" close_time="0:00">
+			<trader_items count="all">
+				<item group="FuriousRamsayFarmerTraderCans1" />
+				<item group="FuriousRamsayFarmerTraderFresh1" />
+				<item group="FuriousRamsayFarmerTraderCookedBasic" />
+				<item group="FuriousRamsayFarmerTraderBaked1" />
+				<item group="FuriousRamsayFarmerTraderBrewed" />
+				<item group="FuriousRamsayFarmerTraderSeeds1Schematics" prob="0.10" />
+			</trader_items>
+
+			<tier_items level="3000,3999" count="all"> <!-- requires Perk 3 -->
+				<!-- Bug: The count is overridden by "all" anyway so all probabilities are =1 -->
+				<item group="FuriousRamsayFarmerTraderSeeds1" prob="0.15"/>
+				<item group="FuriousRamsayFarmerTraderCans2" prob="1" />
+				<item group="FuriousRamsayFarmerTraderCans3" prob="1" />
+				<item group="FuriousRamsayFarmerTraderFresh2" prob="1" />
+				<item group="FuriousRamsayFarmerTraderBaked2" prob="1" />
+				<item group="FuriousRamsayFarmerTraderDrinkSchematics" prob="0.15" />
+				<item group="FuriousRamsayFarmerTraderCookedAdvanced" prob="1" />
+				<item group="FuriousRamsayFarmerTraderCookingAccessories" prob="0.5" />
+				<item group="FuriousRamsayFarmerTraderFarmingAccessories" prob="0.15" />
+				<item group="FuriousRamsayFarmerTraderCooking1Schematics" prob="0.05" />
+				<item group="FuriousRamsayFarmerTraderSeedsStash1Schematics" prob="0.1" />
+				<item group="FuriousRamsayMechanicalPets" prob="0.8" />
+			</tier_items>
+
+			<tier_items level="4000,4999" count="all"> <!-- requires Perk 4 -->
+				<item group="FuriousRamsayFarmerTraderSeeds1" prob="0.10" />
+				<item group="FuriousRamsayFarmerTraderSeeds2" prob="0.05" />
+				<item group="FuriousRamsayFarmerTraderCans2" prob="1" />
+				<item group="FuriousRamsayFarmerTraderCans3" prob="1" />
+				<item group="FuriousRamsayFarmerTraderFresh2" prob="1" />
+				<item group="FuriousRamsayFarmerTraderFresh3" prob="1" />
+				<item group="FuriousRamsayFarmerTraderBaked2" prob="1" />
+				<item group="FuriousRamsayFarmerTraderDrinkSchematics" prob="0.15" />
+				<item group="FuriousRamsayFarmerTraderCookedAdvanced" prob="1" />
+				<item group="FuriousRamsayFarmerTraderCookingAccessories" prob="0.5" />
+				<item group="FuriousRamsayFarmerTraderFarmingAccessories" prob="0.15" />
+				<item group="FuriousRamsayFarmerTraderCooking1Schematics" prob="0.10" />
+				<item group="FuriousRamsayFarmerTraderCooking2Schematics" prob="0.05" />
+				<item group="FuriousRamsayFarmerTraderSeedsStash2Schematics" prob="0.1" />
+				<item group="FuriousRamsayMechanicalPets" prob="0.8" />
+			</tier_items>
+
+			<tier_items level="5000,-1" count="all"> <!-- requires Perk 5 -->
+				<item group="FuriousRamsayFarmerTraderSeeds1" prob="0.15" />
+				<item group="FuriousRamsayFarmerTraderSeeds2" prob="0.10" />
+				<item group="FuriousRamsayFarmerTraderSeeds3" prob="0.05" />
+				<item group="FuriousRamsayFarmerTraderCans2" prob="1" />
+				<item group="FuriousRamsayFarmerTraderCans3" prob="1" />
+				<item group="FuriousRamsayFarmerTraderFresh2" prob="1" />
+				<item group="FuriousRamsayFarmerTraderFresh3" prob="1" />
+				<item group="FuriousRamsayFarmerTraderBaked2" prob="1" />
+				<item group="FuriousRamsayFarmerTraderDrinkSchematics" prob="0.15" />
+				<item group="FuriousRamsayFarmerTraderCookedAdvanced" prob="1" />
+				<item group="FuriousRamsayFarmerTraderCookingAccessories" prob="0.5" />
+				<item group="FuriousRamsayFarmerTraderFarmingAccessories" prob="0.15" />
+				<item group="FuriousRamsayFarmerTraderCooking1Schematics" prob="0.15" />
+				<item group="FuriousRamsayFarmerTraderCooking2Schematics" prob="0.10" />
+				<item group="FuriousRamsayFarmerTraderCooking3Schematics" prob="0.05" />
+				<item group="FuriousRamsayFarmerTraderSeedsStash3Schematics" prob="0.1" />
+				<item group="FuriousRamsayMechanicalPets" prob="0.8" />
+			</tier_items>
+		</trader_info>
+
+		<!-- Handyman Luke, id=92, carries tools, materials, vehicles -->
+		<trader_info id="92" full_reset="true" min_inventory="20" max_inventory="50" min_items_swapped="20" max_items_swapped="50" reset_interval="1" open_time="0:00" close_time="0:00">
+			<trader_items count="all">
+				<item group="FuriousRamsayTools1" count="1" prob="0.5"/>
+				<item group="FuriousRamsayVehicleResources"/>
+				<item group="FuriousRamsayVehicleParts"/>
+				<item group="FuriousRamsayBuildingMaterials"/>
+			</trader_items>
+
+			<tier_items level="3000,3999" count="all"> <!-- requires Perk 3 -->
+				<!-- Bug: The count is overridden by "all" anyway so all probabilities are =1 -->
+				<item group="FuriousRamsayVehicleResources"/>
+				<item group="FuriousRamsayVehicleParts"/>
+				<item group="FuriousRamsayBuildingMaterials"/>
+				<item group="FuriousRamsayTools2"/>
+				<item group="FuriousRamsayToolSchematics1"/>
+				<item group="FuriousRamsayVehicles1"/>
+				<item group="FuriousRamsayCraftingStationSchematics"/>
+				<item group="FuriousRamsayCraftingToolSchematics"/>
+				<item group="FuriousRamsayVehicleSchematics1"/>
+			</tier_items>
+
+			<tier_items level="4000,4999" count="all"> <!-- requires Perk 4 -->
+				<item group="FuriousRamsayVehicleResources"/>
+				<item group="FuriousRamsayVehicleParts"/>
+				<item group="FuriousRamsayBuildingMaterials"/>
+				<item group="FuriousRamsayTools3"/>
+				<item group="FuriousRamsayVehicles2"/>
+				<item group="FuriousRamsayCraftingStationSchematics"/>
+				<item group="FuriousRamsayCraftingToolSchematics"/>
+				<item group="FuriousRamsayToolSchematics2"/>
+				<item group="FuriousRamsayVehicleSchematics2"/>
+				<item group="FuriousRamsayCraftingTools"/>
+			</tier_items>
+
+			<tier_items level="5000,-1" count="all"> <!-- requires Perk 5 -->
+				<item group="FuriousRamsayVehicleResources"/>
+				<item group="FuriousRamsayVehicleParts"/>
+				<item group="FuriousRamsayBuildingMaterials"/>
+				<item group="FuriousRamsayTools4"/>
+				<item group="FuriousRamsayVehicles3"/>
+				<item group="FuriousRamsayCraftingStationSchematics"/>
+				<item group="FuriousRamsayCraftingToolSchematics"/>
+				<item group="FuriousRamsayToolSchematics2"/>
+				<item group="FuriousRamsayVehicleSchematics3"/>
+				<item group="FuriousRamsayCraftingTools"/>
+			</tier_items>
+		</trader_info>
+		
+	</append>
+
+</Config>

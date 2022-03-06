@@ -1,0 +1,15 @@
+<Configs>
+
+	<append xpath="/materials">		
+
+		<material id="FuriousRamsayCoalMaterial">
+			<property name="damage_category" value="stone"/>
+			<property name="surface_category" value="stone"/>
+			<property name="forge_category" value="resourceCoal"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="Experience" value="4"/>
+		</material>
+
+	</append>
+
+</Configs>

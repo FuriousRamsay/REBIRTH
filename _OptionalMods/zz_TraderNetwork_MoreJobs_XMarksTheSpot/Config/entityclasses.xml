@@ -1,0 +1,345 @@
+<Config>
+
+	<remove xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='DamageModifier' and @operation='perc_add' and @tags='head']"/>
+	
+	<append xpath="/entity_classes/entity_class[contains(@name, 'Football') or contains(@name, 'Biker') or contains(@name, 'Demolition') or contains(@name, 'Soldier') or contains(@name, 'Utility')]/property[@name='Tags']/@value">,helmet</append>
+
+	<append xpath="/entity_classes/entity_class[@name='playerMale']">
+	<!-- ZOMBIES -->
+		<!-- MELEE -->
+		<effect_group name="FuriousRamsayMeleeHeadHelmetZombie">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="!EntityTagCompare" target="other" tags="dog"/>
+			<requirement name="!EntityTagCompare" target="other" tags="bear"/>
+			<requirement name="!EntityTagCompare" target="other" tags="vulture"/>
+			<requirement name="EntityTagCompare" target="other" tags="helmet"/>
+			<requirement name="HoldingItemHasTags" tags="melee"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayHeadDismemberMultiplierHelmetMeleeConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayHeadDamageMultiplierHelmetMeleeZombieConfig" tags="head"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayMeleeHeadNotHelmetZombie">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="!EntityTagCompare" target="other" tags="dog"/>
+			<requirement name="!EntityTagCompare" target="other" tags="bear"/>
+			<requirement name="!EntityTagCompare" target="other" tags="vulture"/>
+			<requirement name="!EntityTagCompare" target="other" tags="helmet"/>
+			<requirement name="HoldingItemHasTags" tags="melee"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayHeadDismemberMultiplierNoHelmetMeleeConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayHeadDamageMultiplierNoHelmetMeleeZombieConfig" tags="head"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayMeleeNotHeadZombie">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="!EntityTagCompare" target="other" tags="dog"/>
+			<requirement name="!EntityTagCompare" target="other" tags="bear"/>
+			<requirement name="!EntityTagCompare" target="other" tags="vulture"/>
+			<requirement name="HoldingItemHasTags" tags="melee"/>
+			<requirement name="IsAlive" target="other" />
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayBodyDismemberMultiplierMeleeConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayBodyDamageMultiplierMeleeZombieConfig" tags="upperbody,lowerbody"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayMeleeNotHeadZombie">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="!EntityTagCompare" target="other" tags="dog"/>
+			<requirement name="!EntityTagCompare" target="other" tags="bear"/>
+			<requirement name="!EntityTagCompare" target="other" tags="vulture"/>
+			<requirement name="HoldingItemHasTags" tags="melee"/>
+			<requirement name="IsAlive" target="other" />
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayArmLegDismemberMultiplierMeleeConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayArmLegDamageMultiplierMeleeZombieConfig" tags="arm,leg"> 
+			</passive_effect>
+		</effect_group>
+		<!-- RANGED -->
+		<effect_group name="FuriousRamsayRangedHeadHelmetZombie">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="!EntityTagCompare" target="other" tags="dog"/>
+			<requirement name="!EntityTagCompare" target="other" tags="bear"/>
+			<requirement name="!EntityTagCompare" target="other" tags="vulture"/>
+			<requirement name="EntityTagCompare" target="other" tags="helmet"/>
+			<requirement name="HoldingItemHasTags" tags="ranged"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayHeadDismemberMultiplierHelmetRangedConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayHeadDamageMultiplierHelmetRangedZombieConfig" tags="head"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayRangedHeadNotHelmetZombie">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="!EntityTagCompare" target="other" tags="dog"/>
+			<requirement name="!EntityTagCompare" target="other" tags="bear"/>
+			<requirement name="!EntityTagCompare" target="other" tags="vulture"/>
+			<requirement name="!EntityTagCompare" target="other" tags="helmet"/>
+			<requirement name="HoldingItemHasTags" tags="ranged"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayHeadDismemberMultiplierNoHelmetRangedConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayHeadDamageMultiplierNoHelmetRangedZombieConfig" tags="head"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayRangedNotHeadZombie">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="!EntityTagCompare" target="other" tags="dog"/>
+			<requirement name="!EntityTagCompare" target="other" tags="bear"/>
+			<requirement name="!EntityTagCompare" target="other" tags="vulture"/>
+			<requirement name="HoldingItemHasTags" tags="ranged"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayBodyDismemberMultiplierRangedConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayBodyDamageMultiplierRangedZombieConfig" tags="upperbody,lowerbody"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayRangedNotHeadZombie">
+			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="!EntityTagCompare" target="other" tags="dog"/>
+			<requirement name="!EntityTagCompare" target="other" tags="bear"/>
+			<requirement name="!EntityTagCompare" target="other" tags="vulture"/>
+			<requirement name="HoldingItemHasTags" tags="ranged"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayArmLegDismemberMultiplierRangedConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayArmLegDamageMultiplierRangedZombieConfig" tags="arm,leg"> 
+			</passive_effect>
+		</effect_group>
+	<!-- NPC -->
+		<!-- MELEE -->
+		<effect_group name="FuriousRamsayMeleeHeadHelmetNPC">
+			<requirement name="EntityTagCompare" target="other" tags="UMA"/>
+			<requirement name="!EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="EntityTagCompare" target="other" tags="helmet"/>
+			<requirement name="HoldingItemHasTags" tags="melee"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayHeadDismemberMultiplierHelmetMeleeConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayHeadDamageMultiplierHelmetMeleeNPCConfig" tags="head"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayMeleeHeadNotHelmetNPC">
+			<requirement name="EntityTagCompare" target="other" tags="UMA"/>
+			<requirement name="!EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="!EntityTagCompare" target="other" tags="helmet"/>
+			<requirement name="HoldingItemHasTags" tags="melee"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayHeadDismemberMultiplierNoHelmetMeleeConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayHeadDamageMultiplierNoHelmetMeleeNPCConfig" tags="head"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayMeleeNotHeadNPC">
+			<requirement name="EntityTagCompare" target="other" tags="UMA"/>
+			<requirement name="!EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="melee"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayBodyDismemberMultiplierMeleeConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayBodyDamageMultiplierMeleeNPCConfig" tags="upperbody,lowerbody"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayMeleeNotHeadNPC">
+			<requirement name="EntityTagCompare" target="other" tags="UMA"/>
+			<requirement name="!EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="melee"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayArmLegDismemberMultiplierMeleeConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayArmLegDamageMultiplierMeleeNPCConfig" tags="arm,leg"> 
+			</passive_effect>
+		</effect_group>
+		<!-- RANGED -->
+		<effect_group name="FuriousRamsayRangedHeadHelmetNPC">
+			<requirement name="EntityTagCompare" target="other" tags="UMA"/>
+			<requirement name="!EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="EntityTagCompare" target="other" tags="helmet"/>
+			<requirement name="HoldingItemHasTags" tags="ranged"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayHeadDismemberMultiplierHelmetRangedConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayHeadDamageMultiplierHelmetRangedNPCConfig" tags="head"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayRangedHeadNotHelmetNPC">
+			<requirement name="EntityTagCompare" target="other" tags="UMA"/>
+			<requirement name="!EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="!EntityTagCompare" target="other" tags="helmet"/>
+			<requirement name="HoldingItemHasTags" tags="ranged"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayHeadDismemberMultiplierNoHelmetRangedConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayHeadDamageMultiplierNoHelmetRangedNPCConfig" tags="head"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayRangedNotHeadNPC">
+			<requirement name="EntityTagCompare" target="other" tags="UMA"/>
+			<requirement name="!EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="ranged"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayBodyDismemberMultiplierMeleeConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayBodyDamageMultiplierRangedNPCConfig" tags="upperbody,lowerbody"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayRangedNotHeadNPC">
+			<requirement name="EntityTagCompare" target="other" tags="UMA"/>
+			<requirement name="!EntityTagCompare" target="other" tags="zombie"/>
+			<requirement name="HoldingItemHasTags" tags="ranged"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayArmLegDismemberMultiplierRangedConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayArmLegDamageMultiplierRangedNPCConfig" tags="arm,leg"> 
+			</passive_effect>
+		</effect_group>
+	<!-- ANIMALS -->
+		<!-- MELEE -->
+		<effect_group name="FuriousRamsayMeleeHeadAnimal">
+			<requirement name="EntityTagCompare" target="other" tags="animal"/>
+			<!--<requirement name="!EntityTagCompare" target="other" tags="zombie"/>-->
+			<requirement name="!EntityTagCompare" target="other" tags="metal"/>
+			<requirement name="HoldingItemHasTags" tags="melee"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayHeadDismemberMultiplierMeleeAnimalConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayHeadDamageMultiplierMeleeAnimalConfig" tags="head"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayMeleeNotHeadAnimal">
+			<requirement name="EntityTagCompare" target="other" tags="animal"/>
+			<!--<requirement name="!EntityTagCompare" target="other" tags="zombie"/>-->
+			<requirement name="!EntityTagCompare" target="other" tags="metal"/>
+			<requirement name="HoldingItemHasTags" tags="melee"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayBodyDismemberMultiplierMeleeConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayBodyDamageMultiplierMeleeAnimalConfig" tags="upperbody,lowerbody"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayMeleeNotHeadAnimal">
+			<requirement name="EntityTagCompare" target="other" tags="animal"/>
+			<!--<requirement name="!EntityTagCompare" target="other" tags="zombie"/>-->
+			<requirement name="!EntityTagCompare" target="other" tags="metal"/>
+			<requirement name="HoldingItemHasTags" tags="melee"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayArmLegDismemberMultiplierMeleeConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayArmLegDamageMultiplierMeleeAnimalConfig" tags="arm,leg"> 
+			</passive_effect>
+		</effect_group>
+		<!-- RANGED -->
+		<effect_group name="FuriousRamsayRangedHeadAnimal">
+			<requirement name="EntityTagCompare" target="other" tags="animal"/>
+			<!--<requirement name="!EntityTagCompare" target="other" tags="zombie"/>-->
+			<requirement name="!EntityTagCompare" target="other" tags="metal"/>
+			<requirement name="HoldingItemHasTags" tags="ranged"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayHeadDismemberMultiplierRangedAnimalConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayHeadDamageMultiplierRangedAnimalConfig" tags="head"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayRangedNotHeadAnimal">
+			<requirement name="EntityTagCompare" target="other" tags="animal"/>
+			<!--<requirement name="!EntityTagCompare" target="other" tags="zombie"/>-->
+			<requirement name="!EntityTagCompare" target="other" tags="metal"/>
+			<requirement name="HoldingItemHasTags" tags="ranged"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayBodyDismemberMultiplierRangedConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayBodyDamageMultiplierRangedAnimalConfig" tags="upperbody,lowerbody"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayRangedNotHeadAnimal">
+			<requirement name="EntityTagCompare" target="other" tags="animal"/>
+			<!--<requirement name="!EntityTagCompare" target="other" tags="zombie"/>-->
+			<requirement name="!EntityTagCompare" target="other" tags="metal"/>
+			<requirement name="HoldingItemHasTags" tags="ranged"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayArmLegDismemberMultiplierRangedConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayArmLegDamageMultiplierRangedAnimalConfig" tags="arm,leg"> 
+			</passive_effect>
+		</effect_group>
+	<!-- ROBOTS -->
+		<!-- MELEE -->
+			<!-- CLUBS -->
+		<effect_group name="FuriousRamsayMeleeHeadRobotClubs">
+			<requirement name="EntityTagCompare" target="other" tags="allyrobot,enemyrobot"/>
+			<requirement name="HoldingItemHasTags" tags="FuriousRamsayClubs"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayDismemberMultiplierMeleeRobotConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayHeadDamageMultiplierMeleeRobotClubConfig" tags="head"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayMeleeNotHeadRobotClubs">
+			<requirement name="EntityTagCompare" target="other" tags="allyrobot,enemyrobot"/>
+			<requirement name="HoldingItemHasTags" tags="FuriousRamsayClubs"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayDismemberMultiplierMeleeRobotConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayBodyDamageMultiplierMeleeRobotClubConfig" tags="upperbody,lowerbody"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayMeleeNotHeadRobotClubs">
+			<requirement name="EntityTagCompare" target="other" tags="allyrobot,enemyrobot"/>
+			<requirement name="HoldingItemHasTags" tags="FuriousRamsayClubs"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayDismemberMultiplierMeleeRobotConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayArmLegDamageMultiplierMeleeRobotClubConfig" tags="arm,leg"> 
+			</passive_effect>
+		</effect_group>
+			<!-- HAMMERS -->
+		<effect_group name="FuriousRamsayMeleeHeadRobotHammers">
+			<requirement name="EntityTagCompare" target="other" tags="allyrobot,enemyrobot"/>
+			<requirement name="HoldingItemHasTags" tags="FuriousRamsayHammers"/>
+			<requirement name="!HoldingItemHasTags" tags="tool"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayDismemberMultiplierMeleeRobotConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayHeadDamageMultiplierMeleeRobotHammerConfig" tags="head"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayMeleeNotHeadRobotHammers">
+			<requirement name="EntityTagCompare" target="other" tags="allyrobot,enemyrobot"/>
+			<requirement name="HoldingItemHasTags" tags="FuriousRamsayHammers"/>
+			<requirement name="!HoldingItemHasTags" tags="tool"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayDismemberMultiplierMeleeRobotConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayBodyDamageMultiplierMeleeRobotHammerConfig" tags="upperbody,lowerbody"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayMeleeNotHeadRobotHammers">
+			<requirement name="EntityTagCompare" target="other" tags="allyrobot,enemyrobot"/>
+			<requirement name="HoldingItemHasTags" tags="FuriousRamsayHammers"/>
+			<requirement name="!HoldingItemHasTags" tags="tool"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayDismemberMultiplierMeleeRobotConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayArmLegDamageMultiplierMeleeRobotHammerConfig" tags="arm,leg"> 
+			</passive_effect>
+		</effect_group>
+			<!-- TOOLS -->
+		<effect_group name="FuriousRamsayMeleeHeadRobotTools">
+			<requirement name="EntityTagCompare" target="other" tags="allyrobot,enemyrobot"/>
+			<requirement name="HoldingItemHasTags" tags="tool"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayDismemberMultiplierMeleeRobotConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayHeadDamageMultiplierMeleeRobotToolConfig" tags="head"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayMeleeNotHeadRobotTools">
+			<requirement name="EntityTagCompare" target="other" tags="allyrobot,enemyrobot"/>
+			<requirement name="HoldingItemHasTags" tags="tool"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayDismemberMultiplierMeleeRobotConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayBodyDamageMultiplierMeleeRobotToolConfig" tags="upperbody,lowerbody"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayMeleeNotHeadRobotTools">
+			<requirement name="EntityTagCompare" target="other" tags="allyrobot,enemyrobot"/>
+			<requirement name="HoldingItemHasTags" tags="tool"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayDismemberMultiplierMeleeRobotConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayArmLegDamageMultiplierMeleeRobotToolConfig" tags="arm,leg"> 
+			</passive_effect>
+		</effect_group>
+			<!-- OTHER MELEE -->
+		<effect_group name="FuriousRamsayMeleeHeadRobotOtherMelee">
+			<requirement name="EntityTagCompare" target="other" tags="allyrobot,enemyrobot"/>
+			<requirement name="HoldingItemHasTags" tags="FuriousRamsayAxes,FuriousRamsayKnives,FuriousRamsayMachetes,FuriousRamsayStunBatons,FuriousRamsaySpears,FuriousRamsayKnuckles"/>
+			<requirement name="!HoldingItemHasTags" tags="tool"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayDismemberMultiplierMeleeRobotConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayHeadDamageMultiplierMeleeRobotOtherConfig" tags="head"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayMeleeNotHeadRobotOtherMelee">
+			<requirement name="EntityTagCompare" target="other" tags="allyrobot,enemyrobot"/>
+			<requirement name="HoldingItemHasTags" tags="FuriousRamsayAxes,FuriousRamsayKnives,FuriousRamsayMachetes,FuriousRamsayStunBatons,FuriousRamsaySpears,FuriousRamsayKnuckles"/>
+			<requirement name="!HoldingItemHasTags" tags="tool"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayDismemberMultiplierMeleeRobotConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayBodyDamageMultiplierMeleeRobotOtherConfig" tags="upperbody,lowerbody"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayMeleeNotHeadRobotOtherMelee">
+			<requirement name="EntityTagCompare" target="other" tags="allyrobot,enemyrobot"/>
+			<requirement name="HoldingItemHasTags" tags="FuriousRamsayAxes,FuriousRamsayKnives,FuriousRamsayMachetes,FuriousRamsayStunBatons,FuriousRamsaySpears,FuriousRamsayKnuckles"/>
+			<requirement name="!HoldingItemHasTags" tags="tool"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayDismemberMultiplierMeleeRobotConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayArmLegDamageMultiplierMeleeRobotOtherConfig" tags="arm,leg"> 
+			</passive_effect>
+		</effect_group>
+		<!-- RANGED -->
+		<effect_group name="FuriousRamsayRangedHeadRobot">
+			<requirement name="EntityTagCompare" target="other" tags="allyrobot,enemyrobot"/>
+			<requirement name="HoldingItemHasTags" tags="ranged"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayDismemberMultiplierRangedRobotConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayHeadDamageMultiplierRangedRobotConfig" tags="head"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayRangedNotHeadRobot">
+			<requirement name="EntityTagCompare" target="other" tags="allyrobot,enemyrobot"/>
+			<requirement name="HoldingItemHasTags" tags="ranged"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayDismemberMultiplierRangedRobotConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayBodyDamageMultiplierMeleeRobotConfig" tags="upperbody,lowerbody"> 
+			</passive_effect>
+		</effect_group>
+		<effect_group name="FuriousRamsayRangedNotHeadRobot">
+			<requirement name="EntityTagCompare" target="other" tags="allyrobot,enemyrobot"/>
+			<requirement name="HoldingItemHasTags" tags="ranged"/>
+				<passive_effect name="DismemberChance" operation="base_set" value="@varFuriousRamsayDismemberMultiplierRangedRobotConfig" />
+				<passive_effect name="DamageModifier" operation="perc_add" value="@varFuriousRamsayArmLegDamageMultiplierMeleeRobotConfig" tags="arm,leg"> 
+			</passive_effect>
+		</effect_group>
+	</append>
+
+</Config>

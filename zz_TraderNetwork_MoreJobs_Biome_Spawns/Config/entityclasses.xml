@@ -1,0 +1,2157 @@
+<configs>
+
+	<set xpath="/entity_classes/entity_class[starts-with(@name, 'zombieTemplate')]/property[@name='LootDropProb']/@value">0.01</set>
+	<set xpath="/entity_classes/entity_class[contains(@name, 'Feral')]/property[@name='LootDropProb']/@value">0.025</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieWightFeral']/property[@name='LootDropProb']/@value">0.025</set>
+
+	<append xpath="/entity_classes">		
+
+        <entity_class name="FuriousRamsayKamikazeTier1Biome" extends="FuriousRamsayKamikazeTier1">
+			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Explosion.BlockDamage" value="150"/>
+			<property name="Explosion.EntityDamage" value="200"/>
+
+			<property name="HandItem" value="FuriousRamsayMeleeHandKamikazeTier1Biome"/>
+
+            <effect_group name="Base Effects">
+                <passive_effect name="HealthMax" operation="base_set" value="200" />
+                <passive_effect name="HealthMax" operation="perc_set" value="1" />
+                <passive_effect name="PhysicalDamageResist" operation="base_set" value="10" />
+				<passive_effect name="StaminaMax" operation="base_set" value="10000"/>
+				<passive_effect name="StaminaChangeOT" operation="base_add" value="10"/>
+            </effect_group>
+
+			<effect_group name="FuriousRamsayKamikaze">
+			</effect_group>
+        </entity_class>
+
+        <entity_class name="FuriousRamsayKamikazeTier2Biome" extends="FuriousRamsayKamikazeTier2">
+			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Explosion.BlockDamage" value="150"/>
+			<property name="Explosion.EntityDamage" value="300"/>
+
+			<property name="HandItem" value="FuriousRamsayMeleeHandKamikazeTier2Biome"/>
+
+            <effect_group name="Base Effects">
+                <passive_effect name="HealthMax" operation="base_set" value="250" />
+                <passive_effect name="HealthMax" operation="perc_set" value="1" />
+                <passive_effect name="PhysicalDamageResist" operation="base_set" value="15" />
+				<passive_effect name="StaminaMax" operation="base_set" value="10000"/>
+				<passive_effect name="StaminaChangeOT" operation="base_add" value="10"/>
+            </effect_group>
+
+			<effect_group name="FuriousRamsayKamikaze">
+			</effect_group>
+        </entity_class>
+
+        <entity_class name="FuriousRamsayKamikazeTier3Biome" extends="FuriousRamsayKamikazeTier3">
+			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Explosion.BlockDamage" value="150"/>
+			<property name="Explosion.EntityDamage" value="500"/>
+
+			<property name="HandItem" value="FuriousRamsayMeleeHandKamikazeTier3Biome"/>
+
+            <effect_group name="Base Effects">
+                <passive_effect name="HealthMax" operation="base_set" value="300" />
+                <passive_effect name="HealthMax" operation="perc_set" value="1" />
+                <passive_effect name="PhysicalDamageResist" operation="base_set" value="20" />
+				<passive_effect name="StaminaMax" operation="base_set" value="10000"/>
+				<passive_effect name="StaminaChangeOT" operation="base_add" value="10"/>
+            </effect_group>
+
+			<effect_group name="FuriousRamsayKamikaze">
+			</effect_group>
+        </entity_class>
+
+        <entity_class name="FuriousRamsayKamikazeTier4Biome" extends="FuriousRamsayKamikazeTier4">
+			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Explosion.BlockDamage" value="150"/>
+			<property name="Explosion.EntityDamage" value="800"/>
+
+			<property name="HandItem" value="FuriousRamsayMeleeHandKamikazeTier4Biome"/>
+
+            <effect_group name="Base Effects">
+                <passive_effect name="HealthMax" operation="base_set" value="600" />
+                <passive_effect name="HealthMax" operation="perc_set" value="1" />
+                <passive_effect name="PhysicalDamageResist" operation="base_set" value="40" />
+				<passive_effect name="StaminaMax" operation="base_set" value="10000"/>
+				<passive_effect name="StaminaChangeOT" operation="base_add" value="10"/>
+            </effect_group>
+
+			<effect_group name="FuriousRamsayKamikaze">
+			</effect_group>
+        </entity_class>
+
+        <entity_class name="FuriousRamsayKamikazeTier5Biome" extends="FuriousRamsayKamikazeTier5">
+			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Explosion.BlockDamage" value="150"/>
+			<property name="Explosion.EntityDamage" value="1000"/>
+
+			<property name="HandItem" value="FuriousRamsayMeleeHandKamikazeTier5Biome"/>
+
+            <effect_group name="Base Effects">
+                <passive_effect name="HealthMax" operation="base_set" value="800" />
+                <passive_effect name="HealthMax" operation="perc_set" value="1" />
+                <passive_effect name="PhysicalDamageResist" operation="base_set" value="60" />
+				<passive_effect name="StaminaMax" operation="base_set" value="10000"/>
+				<passive_effect name="StaminaChangeOT" operation="base_add" value="10"/>
+            </effect_group>
+
+			<effect_group name="FuriousRamsayKamikaze">
+			</effect_group>
+        </entity_class>
+
+        <entity_class name="FuriousRamsayZombieBoeToxicBiome" extends="FuriousRamsayZombieBoeToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieJoeToxicBiome" extends="FuriousRamsayZombieJoeToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieJanitorToxicBiome" extends="FuriousRamsayZombieJanitorToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieArleneToxicBiome" extends="FuriousRamsayZombieArleneToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieLabToxicBiome" extends="FuriousRamsayZombieLabToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieDarleneToxicBiome" extends="FuriousRamsayZombieDarleneToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieMarleneToxicBiome" extends="FuriousRamsayZombieMarleneToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieYoToxicBiome" extends="FuriousRamsayZombieYoToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSteveToxicBiome" extends="FuriousRamsayZombieSteveToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBusinessManToxicBiome" extends="FuriousRamsayZombieBusinessManToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieAlexToxicBiome" extends="FuriousRamsayZombieAlexToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSkateboarderToxicBiome" extends="FuriousRamsayZombieSkateboarderToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieUtilityWorkerToxicBiome" extends="FuriousRamsayZombieUtilityWorkerToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieNurseToxicBiome" extends="FuriousRamsayZombieNurseToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombiePartyGirlToxicBiome" extends="FuriousRamsayZombiePartyGirlToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSteveCrawlerToxicBiome" extends="FuriousRamsayZombieSteveCrawlerToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSpiderToxicBiome" extends="FuriousRamsayZombieSpiderToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieFatCopToxicBiome" extends="FuriousRamsayZombieFatCopToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieFatHawaiianToxicBiome" extends="FuriousRamsayZombieFatHawaiianToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBikerToxicBiome" extends="FuriousRamsayZombieBikerToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSoldierToxicBiome" extends="FuriousRamsayZombieSoldierToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieMaleHazmatToxicBiome" extends="FuriousRamsayZombieMaleHazmatToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieMoeToxicBiome" extends="FuriousRamsayZombieMoeToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieFemaleFatToxicBiome" extends="FuriousRamsayZombieFemaleFatToxic">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBoeToxicFeralBiome" extends="FuriousRamsayZombieBoeToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieJoeToxicFeralBiome" extends="FuriousRamsayZombieJoeToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieJanitorToxicFeralBiome" extends="FuriousRamsayZombieJanitorToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieArleneToxicFeralBiome" extends="FuriousRamsayZombieArleneToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieLabToxicFeralBiome" extends="FuriousRamsayZombieLabToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieDarleneToxicFeralBiome" extends="FuriousRamsayZombieDarleneToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieMarleneToxicFeralBiome" extends="FuriousRamsayZombieMarleneToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieYoToxicFeralBiome" extends="FuriousRamsayZombieYoToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSteveToxicFeralBiome" extends="FuriousRamsayZombieSteveToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBusinessManToxicFeralBiome" extends="FuriousRamsayZombieBusinessManToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieAlexToxicFeralBiome" extends="FuriousRamsayZombieAlexToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSkateboarderToxicFeralBiome" extends="FuriousRamsayZombieSkateboarderToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieUtilityWorkerToxicFeralBiome" extends="FuriousRamsayZombieUtilityWorkerToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieNurseToxicFeralBiome" extends="FuriousRamsayZombieNurseToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombiePartyGirlToxicFeralBiome" extends="FuriousRamsayZombiePartyGirlToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSteveCrawlerToxicFeralBiome" extends="FuriousRamsayZombieSteveCrawlerToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSpiderToxicFeralBiome" extends="FuriousRamsayZombieSpiderToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieFatCopToxicFeralBiome" extends="FuriousRamsayZombieFatCopToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieFatHawaiianToxicFeralBiome" extends="FuriousRamsayZombieFatHawaiianToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBikerToxicFeralBiome" extends="FuriousRamsayZombieBikerToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSoldierToxicFeralBiome" extends="FuriousRamsayZombieSoldierToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieMaleHazmatToxicFeralBiome" extends="FuriousRamsayZombieMaleHazmatToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieMoeToxicFeralBiome" extends="FuriousRamsayZombieMoeToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieFemaleFatToxicFeralBiome" extends="FuriousRamsayZombieFemaleFatToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieWightToxicFeralBiome" extends="FuriousRamsayZombieWightToxicFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBoeToxicRadiatedBiome" extends="FuriousRamsayZombieBoeToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieJoeToxicRadiatedBiome" extends="FuriousRamsayZombieJoeToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieJanitorToxicRadiatedBiome" extends="FuriousRamsayZombieJanitorToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieArleneToxicRadiatedBiome" extends="FuriousRamsayZombieArleneToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieDarleneToxicRadiatedBiome" extends="FuriousRamsayZombieDarleneToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieMarleneToxicRadiatedBiome" extends="FuriousRamsayZombieMarleneToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieYoToxicRadiatedBiome" extends="FuriousRamsayZombieYoToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSteveToxicRadiatedBiome" extends="FuriousRamsayZombieSteveToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBusinessManToxicRadiatedBiome" extends="FuriousRamsayZombieBusinessManToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieAlexToxicRadiatedBiome" extends="FuriousRamsayZombieAlexToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSkateboarderToxicRadiatedBiome" extends="FuriousRamsayZombieSkateboarderToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieUtilityWorkerToxicRadiatedBiome" extends="FuriousRamsayZombieUtilityWorkerToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSpiderToxicRadiatedBiome" extends="FuriousRamsayZombieSpiderToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieFatCopToxicRadiatedBiome" extends="FuriousRamsayZombieFatCopToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBikerToxicRadiatedBiome" extends="FuriousRamsayZombieBikerToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSoldierToxicRadiatedBiome" extends="FuriousRamsayZombieSoldierToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieMoeToxicRadiatedBiome" extends="FuriousRamsayZombieMoeToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieFemaleFatToxicRadiatedBiome" extends="FuriousRamsayZombieFemaleFatToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieWightToxicRadiatedBiome" extends="FuriousRamsayZombieWightToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBoeToxicAllFoursBiome" extends="FuriousRamsayZombieBoeToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieJoeToxicAllFoursBiome" extends="FuriousRamsayZombieJoeToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieJanitorToxicAllFoursBiome" extends="FuriousRamsayZombieJanitorToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieArleneToxicAllFoursBiome" extends="FuriousRamsayZombieArleneToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieDarleneToxicAllFoursBiome" extends="FuriousRamsayZombieDarleneToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieMarleneToxicAllFoursBiome" extends="FuriousRamsayZombieMarleneToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieYoToxicAllFoursBiome" extends="FuriousRamsayZombieYoToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSteveToxicAllFoursBiome" extends="FuriousRamsayZombieSteveToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBusinessManToxicAllFoursBiome" extends="FuriousRamsayZombieBusinessManToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSkateboarderToxicAllFoursBiome" extends="FuriousRamsayZombieSkateboarderToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieUtilityWorkerToxicAllFoursBiome" extends="FuriousRamsayZombieUtilityWorkerToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSpiderToxicAllFoursBiome" extends="FuriousRamsayZombieSpiderToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieFatCopToxicAllFoursBiome" extends="FuriousRamsayZombieFatCopToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBikerToxicAllFoursBiome" extends="FuriousRamsayZombieBikerToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSoldierToxicAllFoursBiome" extends="FuriousRamsayZombieSoldierToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieMoeToxicAllFoursBiome" extends="FuriousRamsayZombieMoeToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieFemaleFatToxicAllFoursBiome" extends="FuriousRamsayZombieFemaleFatToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieWightToxicAllFoursBiome" extends="FuriousRamsayZombieWightToxicAllFours">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBoeToxicCrawlerBiome" extends="FuriousRamsayZombieBoeToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieJoeToxicCrawlerBiome" extends="FuriousRamsayZombieJoeToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieJanitorToxicCrawlerBiome" extends="FuriousRamsayZombieJanitorToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieArleneToxicCrawlerBiome" extends="FuriousRamsayZombieArleneToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieDarleneToxicCrawlerBiome" extends="FuriousRamsayZombieDarleneToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieMarleneToxicCrawlerBiome" extends="FuriousRamsayZombieMarleneToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieYoToxicCrawlerBiome" extends="FuriousRamsayZombieYoToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSteveToxicCrawlerBiome" extends="FuriousRamsayZombieSteveToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBusinessManToxicCrawlerBiome" extends="FuriousRamsayZombieBusinessManToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSkateboarderToxicCrawlerBiome" extends="FuriousRamsayZombieSkateboarderToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieUtilityWorkerToxicCrawlerBiome" extends="FuriousRamsayZombieUtilityWorkerToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSpiderToxicCrawlerBiome" extends="FuriousRamsayZombieSpiderToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieFatCopToxicCrawlerBiome" extends="FuriousRamsayZombieFatCopToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieBikerToxicCrawlerBiome" extends="FuriousRamsayZombieBikerToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieSoldierToxicCrawlerBiome" extends="FuriousRamsayZombieSoldierToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieMoeToxicCrawlerBiome" extends="FuriousRamsayZombieMoeToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieFemaleFatToxicCrawlerBiome" extends="FuriousRamsayZombieFemaleFatToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayZombieWightToxicCrawlerBiome" extends="FuriousRamsayZombieWightToxicCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayBoarToxicRadiatedBiome" extends="FuriousRamsayBoarToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="30"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="7"/>
+			<drop event="Harvest" name="resourceAnimalFat" count="4" tag="butcherHarvest"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayCoyoteToxicRadiatedBiome" extends="FuriousRamsayCoyoteToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="12"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="8"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="3"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayWolfToxicRadiatedBiome" extends="FuriousRamsayWolfToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="25"/> <!-- animalWolf -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayDireWolfToxicRadiatedBiome" extends="FuriousRamsayDireWolfToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="35"/> <!-- animalDireWolf -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="12"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayMountainLionToxicRadiatedBiome" extends="FuriousRamsayMountainLionToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="4"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayBearToxicRadiatedBiome" extends="FuriousRamsayBearToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="50"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayVultureToxicRadiatedBiome" extends="FuriousRamsayVultureToxicRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="6"/>
+			<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="35"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="8"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayHazmatTier1Biome" extends="FuriousRamsayHazmatTier1">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayHazmatTier2Biome" extends="FuriousRamsayHazmatTier2">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayHazmatTier3Biome" extends="FuriousRamsayHazmatTier3">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayHazmatTier4Biome" extends="FuriousRamsayHazmatTier4">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+        <entity_class name="FuriousRamsayHazmatTier5Biome" extends="FuriousRamsayHazmatTier5">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAAidenEnemyBiome" extends="FuriousRamsayUMAAidenEnemy">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+            <property name="Archetype" value="FuriousRamsayAidenBiome" />
+			<property name="LootDropProb" value="1"/>
+			<property name="LootDropEntityClass" value="FuriousRamsayBlackShieldAidenLoot"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAHodorEnemyBiome" extends="FuriousRamsayUMAHodorEnemy">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+            <property name="Archetype" value="FuriousRamsayHodorBiome" />
+			<property name="LootDropProb" value="1"/>
+			<property name="LootDropEntityClass" value="FuriousRamsayBlackShieldHodorLoot"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMARichieEnemyBiome" extends="FuriousRamsayUMARichieEnemy">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+            <property name="Archetype" value="FuriousRamsayRichieBiome" />
+			<property name="LootDropProb" value="1"/>
+			<property name="LootDropEntityClass" value="FuriousRamsayBlackShieldRichieLoot"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAWillieEnemyBiome" extends="FuriousRamsayUMAWillieEnemy">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+            <property name="Archetype" value="FuriousRamsayWillieBiome" />
+			<property name="LootDropProb" value="1"/>
+			<property name="LootDropEntityClass" value="FuriousRamsayBlackShieldWillieLoot"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAKimEnemyBiome" extends="FuriousRamsayUMAKimEnemy">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+            <property name="Archetype" value="FuriousRamsayKimBiome" />
+			<property name="LootDropProb" value="1"/>
+			<property name="LootDropEntityClass" value="FuriousRamsayBlackShieldKimLoot"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMACharlotteEnemyBiome" extends="FuriousRamsayUMACharlotteEnemy">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+            <property name="Archetype" value="FuriousRamsayCharlotteBiome" />
+			<property name="LootDropProb" value="1"/>
+			<property name="LootDropEntityClass" value="FuriousRamsayBlackShieldCharlotteLoot"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMARoxyEnemyBiome" extends="FuriousRamsayUMARoxyEnemy">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+            <property name="Archetype" value="FuriousRamsayRoxyBiome" />
+			<property name="LootDropProb" value="1"/>
+			<property name="LootDropEntityClass" value="FuriousRamsayBlackShieldRoxyLoot"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAGabrielleEnemyBiome" extends="FuriousRamsayUMAGabrielleEnemy">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+            <property name="Archetype" value="FuriousRamsayGabrielleBiome" />
+			<property name="LootDropProb" value="1"/>
+			<property name="LootDropEntityClass" value="FuriousRamsayBlackShieldGabrielleLoot"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAClintEnemyBiome" extends="FuriousRamsayUMAClintEnemy">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+            <property name="Archetype" value="FuriousRamsayClintBiome" />
+			<property name="LootDropProb" value="1"/>
+			<property name="LootDropEntityClass" value="FuriousRamsayBlackShieldClintLoot"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAAidenZombieBiome" extends="FuriousRamsayUMAAidenZombie">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAHodorZombieBiome" extends="FuriousRamsayUMAHodorZombie">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMARichieZombieBiome" extends="FuriousRamsayUMARichieZombie">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAWillieZombieBiome" extends="FuriousRamsayUMAWillieZombie">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAKimZombieBiome" extends="FuriousRamsayUMAKimZombie">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMACharlotteZombieBiome" extends="FuriousRamsayUMACharlotteZombie">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMARoxyZombieBiome" extends="FuriousRamsayUMARoxyZombie">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAGabrielleZombieBiome" extends="FuriousRamsayUMAGabrielleZombie">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAClintZombieBiome" extends="FuriousRamsayUMAClintZombie">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireZombieBoeBiome" extends="FuriousRamsayBlackDecoyFireZombieBoe">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireZombieJoeBiome" extends="FuriousRamsayBlackDecoyFireZombieJoe">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireZombieJanitorBiome" extends="FuriousRamsayBlackDecoyFireZombieJanitor">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireZombieArleneBiome" extends="FuriousRamsayBlackDecoyFireZombieArlene">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireZombieLabBiome" extends="FuriousRamsayBlackDecoyFireZombieLab">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireZombieDarleneBiome" extends="FuriousRamsayBlackDecoyFireZombieDarlene">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireZombieMarleneBiome" extends="FuriousRamsayBlackDecoyFireZombieMarlene">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireZombieYoBiome" extends="FuriousRamsayBlackDecoyFireZombieYo">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireZombieSteveBiome" extends="FuriousRamsayBlackDecoyFireZombieSteve">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireZombieBusinessManBiome" extends="FuriousRamsayBlackDecoyFireZombieBusinessMan">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyShockZombieSkateboarderBiome" extends="FuriousRamsayBlackDecoyShockZombieSkateboarder">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyShockZombieUtilityWorkerBiome" extends="FuriousRamsayBlackDecoyShockZombieUtilityWorker">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyShockZombieNurseBiome" extends="FuriousRamsayBlackDecoyShockZombieNurse">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyShockZombiePartyGirlBiome" extends="FuriousRamsayBlackDecoyShockZombiePartyGirl">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyShockZombieSteveCrawlerBiome" extends="FuriousRamsayBlackDecoyShockZombieSteveCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyShockZombieSpiderBiome" extends="FuriousRamsayBlackDecoyShockZombieSpider">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyShockZombieFatHawaiianBiome" extends="FuriousRamsayBlackDecoyShockZombieFatHawaiian">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyShockZombieBikerBiome" extends="FuriousRamsayBlackDecoyShockZombieBiker">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyShockZombieSoldierBiome" extends="FuriousRamsayBlackDecoyShockZombieSoldier">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyShockZombieMaleHazmatBiome" extends="FuriousRamsayBlackDecoyShockZombieMaleHazmat">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayCloakedShockAndroidBiome" extends="FuriousRamsayCloakedShockAndroid">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayCloakedBurnAndroidBiome" extends="FuriousRamsayCloakedBurnAndroid">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayEnemyAndroid1Biome" extends="FuriousRamsayEnemyAndroid1">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+		<entity_class name="FuriousRamsayEnemyAndroid2Biome" extends="FuriousRamsayEnemyAndroid2">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+		<entity_class name="FuriousRamsayEnemyAndroid3Biome" extends="FuriousRamsayEnemyAndroid3">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+		<entity_class name="FuriousRamsayEnemyAndroid4Biome" extends="FuriousRamsayEnemyAndroid4">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+		<entity_class name="FuriousRamsayEnemyAndroid5Biome" extends="FuriousRamsayEnemyAndroid5">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+		<entity_class name="FuriousRamsayEnemyAndroid6Biome" extends="FuriousRamsayEnemyAndroid6">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+		<entity_class name="FuriousRamsayEnemyAndroid7Biome" extends="FuriousRamsayEnemyAndroid7">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAAidenZombieFeralBiome" extends="FuriousRamsayUMAAidenZombieFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAHodorZombieFeralBiome" extends="FuriousRamsayUMAHodorZombieFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMARichieZombieFeralBiome" extends="FuriousRamsayUMARichieZombieFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAWillieZombieFeralBiome" extends="FuriousRamsayUMAWillieZombieFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAKimZombieFeralBiome" extends="FuriousRamsayUMAKimZombieFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMACharlotteZombieFeralBiome" extends="FuriousRamsayUMACharlotteZombieFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMARoxyZombieFeralBiome" extends="FuriousRamsayUMARoxyZombieFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAGabrielleZombieFeralBiome" extends="FuriousRamsayUMAGabrielleZombieFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAClintZombieFeralBiome" extends="FuriousRamsayUMAClintZombieFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieSkateboarderBiome" extends="FuriousRamsayBlackDecoyFireShockZombieSkateboarder">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieUtilityWorkerBiome" extends="FuriousRamsayBlackDecoyFireShockZombieUtilityWorker">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieNurseBiome" extends="FuriousRamsayBlackDecoyFireShockZombieNurse">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombiePartyGirlBiome" extends="FuriousRamsayBlackDecoyFireShockZombiePartyGirl">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieSteveCrawlerBiome" extends="FuriousRamsayBlackDecoyFireShockZombieSteveCrawler">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieSpiderBiome" extends="FuriousRamsayBlackDecoyFireShockZombieSpider">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieFatHawaiianBiome" extends="FuriousRamsayBlackDecoyFireShockZombieFatHawaiian">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieBikerBiome" extends="FuriousRamsayBlackDecoyFireShockZombieBiker">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieSoldierBiome" extends="FuriousRamsayBlackDecoyFireShockZombieSoldier">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieMaleHazmatBiome" extends="FuriousRamsayBlackDecoyFireShockZombieMaleHazmat">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieNurseFeralBiome" extends="FuriousRamsayBlackDecoyFireShockZombieNurseFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieBusinessManFeralBiome" extends="FuriousRamsayBlackDecoyFireShockZombieBusinessManFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieSteveFeralBiome" extends="FuriousRamsayBlackDecoyFireShockZombieSteveFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieYoFeralBiome" extends="FuriousRamsayBlackDecoyFireShockZombieYoFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieMarleneFeralBiome" extends="FuriousRamsayBlackDecoyFireShockZombieMarleneFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieDarleneFeralBiome" extends="FuriousRamsayBlackDecoyFireShockZombieDarleneFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieLabFeralBiome" extends="FuriousRamsayBlackDecoyFireShockZombieLabFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieArleneFeralBiome" extends="FuriousRamsayBlackDecoyFireShockZombieArleneFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieMoeFeralBiome" extends="FuriousRamsayBlackDecoyFireShockZombieMoeFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieJanitorFeralBiome" extends="FuriousRamsayBlackDecoyFireShockZombieJanitorFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieJoeFeralBiome" extends="FuriousRamsayBlackDecoyFireShockZombieJoeFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieFemaleFatFeralBiome" extends="FuriousRamsayBlackDecoyFireShockZombieFemaleFatFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockZombieBoeFeralBiome" extends="FuriousRamsayBlackDecoyFireShockZombieBoeFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAAidenZombieRageBiome" extends="FuriousRamsayUMAAidenZombieRage">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAHodorZombieRageBiome" extends="FuriousRamsayUMAHodorZombieRage">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMARichieZombieRageBiome" extends="FuriousRamsayUMARichieZombieRage">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAWillieZombieRageBiome" extends="FuriousRamsayUMAWillieZombieRage">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAKimZombieRageBiome" extends="FuriousRamsayUMAKimZombieRage">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMACharlotteZombieRageBiome" extends="FuriousRamsayUMACharlotteZombieRage">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMARoxyZombieRageBiome" extends="FuriousRamsayUMARoxyZombieRage">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAClintZombieRageBiome" extends="FuriousRamsayUMAClintZombieRage">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMAGabrielleZombieRageBiome" extends="FuriousRamsayUMAGabrielleZombieRage">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieNurseFeralBiome" extends="FuriousRamsayBlackDecoySmokeZombieNurseFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieBusinessManFeralBiome" extends="FuriousRamsayBlackDecoySmokeZombieBusinessManFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieSteveFeralBiome" extends="FuriousRamsayBlackDecoySmokeZombieSteveFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieYoFeralBiome" extends="FuriousRamsayBlackDecoySmokeZombieYoFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieMarleneFeralBiome" extends="FuriousRamsayBlackDecoySmokeZombieMarleneFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieDarleneFeralBiome" extends="FuriousRamsayBlackDecoySmokeZombieDarleneFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieLabFeralBiome" extends="FuriousRamsayBlackDecoySmokeZombieLabFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieArleneFeralBiome" extends="FuriousRamsayBlackDecoySmokeZombieArleneFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieMoeFeralBiome" extends="FuriousRamsayBlackDecoySmokeZombieMoeFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieJanitorFeralBiome" extends="FuriousRamsayBlackDecoySmokeZombieJanitorFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieJoeFeralBiome" extends="FuriousRamsayBlackDecoySmokeZombieJoeFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieFemaleFatFeralBiome" extends="FuriousRamsayBlackDecoySmokeZombieFemaleFatFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieBoeFeralBiome" extends="FuriousRamsayBlackDecoySmokeZombieBoeFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombiePartyGirlFeralBiome" extends="FuriousRamsayBlackDecoySmokeZombiePartyGirlFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieBikerFeralBiome" extends="FuriousRamsayBlackDecoySmokeZombieBikerFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieSkateboarderFeralBiome" extends="FuriousRamsayBlackDecoySmokeZombieSkateboarderFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieSoldierFeralBiome" extends="FuriousRamsayBlackDecoySmokeZombieSoldierFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieUtilityWorkerFeralBiome" extends="FuriousRamsayBlackDecoySmokeZombieUtilityWorkerFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieFatHawaiianFeralBiome" extends="FuriousRamsayBlackDecoySmokeZombieFatHawaiianFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieSpiderFeralBiome" extends="FuriousRamsayBlackDecoySmokeZombieSpiderFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieSteveCrawlerFeralBiome" extends="FuriousRamsayBlackDecoySmokeZombieSteveCrawlerFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoySmokeZombieWightFeralBiome" extends="FuriousRamsayBlackDecoySmokeZombieWightFeral">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieBikerRadiatedBiome" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieBikerRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieSkateboarderRadiatedBiome" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieSkateboarderRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieSoldierRadiatedBiome" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieSoldierRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieSpiderRadiatedBiome" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieSpiderRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieSteveRadiatedBiome" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieSteveRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieYoRadiatedBiome" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieYoRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieMarleneRadiatedBiome" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieMarleneRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieDarleneRadiatedBiome" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieDarleneRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieLabRadiatedBiome" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieLabRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieArleneRadiatedBiome" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieArleneRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieMoeRadiatedBiome" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieMoeRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieJanitorRadiatedBiome" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieJanitorRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieJoeRadiatedBiome" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieJoeRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieFemaleFatRadiatedBiome" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieFemaleFatRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieBoeRadiatedBiome" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieBoeRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBlackDecoyFireShockSmokeZombieWightRadiatedBiome" extends="FuriousRamsayBlackDecoyFireShockSmokeZombieWightRadiated">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMABlackShieldBossTier2Biome" extends="FuriousRamsayUMABlackShieldBossTier2">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMABlackShieldBossTier3Biome" extends="FuriousRamsayUMABlackShieldBossTier3">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMABlackShieldBossTier4Biome" extends="FuriousRamsayUMABlackShieldBossTier4">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayUMABlackShieldBossTier5Biome" extends="FuriousRamsayUMABlackShieldBossTier5">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayCloakedSnakeBiome" extends="FuriousRamsayCloakedSnake">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayCloakedVultureBiome" extends="FuriousRamsayCloakedVulture">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayBurningRabbitTier4Biome" extends="FuriousRamsayBurningRabbitTier4">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayEnemyAndroid1Biome" extends="FuriousRamsayEnemyAndroid1">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayEnemyAndroid2Biome" extends="FuriousRamsayEnemyAndroid2">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayEnemyAndroid3Biome" extends="FuriousRamsayEnemyAndroid3">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayEnemyAndroid4Biome" extends="FuriousRamsayEnemyAndroid4">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayEnemyAndroid5Biome" extends="FuriousRamsayEnemyAndroid5">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayEnemyAndroid6Biome" extends="FuriousRamsayEnemyAndroid6">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayEnemyAndroid7Biome" extends="FuriousRamsayEnemyAndroid7">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileChickenBiome" extends="FuriousRamsayHostileChicken">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/> <!-- animalChicken -->
+			<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="23"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="4"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+		
+		<entity_class name="FuriousRamsayHostileChicken2Biome" extends="FuriousRamsayHostileChicken2">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/> <!-- animalChicken -->
+			<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="23"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="4"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileChicken3Biome" extends="FuriousRamsayHostileChicken3">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/> <!-- animalChicken -->
+			<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="23"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="4"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileChicken4Biome" extends="FuriousRamsayHostileChicken4">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/> <!-- animalChicken -->
+			<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="23"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="4"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileChicken5Biome" extends="FuriousRamsayHostileChicken5">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/> <!-- animalChicken -->
+			<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="23"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="4"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileRabbitBiome" extends="FuriousRamsayHostileRabbit">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/> <!-- animalRabbit -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="4"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+		
+		<entity_class name="FuriousRamsayHostileRabbit2Biome" extends="FuriousRamsayHostileRabbit2">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/> <!-- animalRabbit -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="4"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileRabbit3Biome" extends="FuriousRamsayHostileRabbit3">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/> <!-- animalRabbit -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="4"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileRabbit4Biome" extends="FuriousRamsayHostileRabbit4">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/> <!-- animalRabbit -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="4"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileDoeBiome" extends="FuriousRamsayHostileDoe">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/> <!-- this triggers the special harvesting animation like on the knife -->
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="30"/> <!-- animalStag -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="9"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="7"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+		
+		<entity_class name="FuriousRamsayHostileDoe2Biome" extends="FuriousRamsayHostileDoe2">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/> <!-- this triggers the special harvesting animation like on the knife -->
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="30"/> <!-- animalStag -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="9"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="7"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileDoe3Biome" extends="FuriousRamsayHostileDoe3">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/> <!-- this triggers the special harvesting animation like on the knife -->
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="30"/> <!-- animalStag -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="9"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="7"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileDoe4Biome" extends="FuriousRamsayHostileDoe4">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/> <!-- this triggers the special harvesting animation like on the knife -->
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="30"/> <!-- animalStag -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="9"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="7"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileStagBiome" extends="FuriousRamsayHostileStag">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/> <!-- this triggers the special harvesting animation like on the knife -->
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="30"/> <!-- animalStag -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="9"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="7"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileStag2Biome" extends="FuriousRamsayHostileStag2">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/> <!-- this triggers the special harvesting animation like on the knife -->
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="30"/> <!-- animalStag -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="9"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="7"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileStag3Biome" extends="FuriousRamsayHostileStag3">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/> <!-- this triggers the special harvesting animation like on the knife -->
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="30"/> <!-- animalStag -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="9"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="7"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileStag4Biome" extends="FuriousRamsayHostileStag4">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/> <!-- this triggers the special harvesting animation like on the knife -->
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="30"/> <!-- animalStag -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="9"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="7"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileWolfBiome" extends="FuriousRamsayHostileWolf">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+			
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="25"/> <!-- animalWolf -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileWolf2Biome" extends="FuriousRamsayHostileWolf2">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+			
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="25"/> <!-- animalWolf -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileWolf3Biome" extends="FuriousRamsayHostileWolf3">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+			
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="25"/> <!-- animalWolf -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileWolf4Biome" extends="FuriousRamsayHostileWolf4">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+			
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="25"/> <!-- animalWolf -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileWolf5Biome" extends="FuriousRamsayHostileWolf5">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+			
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="25"/> <!-- animalWolf -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileWolf6Biome" extends="FuriousRamsayHostileWolf6">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+			
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="25"/> <!-- animalWolf -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileBoarBiome" extends="FuriousRamsayHostileBoar">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+			
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="30"/> <!-- animalBoar -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="7"/>
+			<drop event="Harvest" name="resourceAnimalFat" count="4" tag="butcherHarvest"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileBoar2Biome" extends="FuriousRamsayHostileBoar2">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+			
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="30"/> <!-- animalBoar -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="7"/>
+			<drop event="Harvest" name="resourceAnimalFat" count="4" tag="butcherHarvest"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileBoar3Biome" extends="FuriousRamsayHostileBoar3">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+			
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="30"/> <!-- animalBoar -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="7"/>
+			<drop event="Harvest" name="resourceAnimalFat" count="4" tag="butcherHarvest"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileBoar4Biome" extends="FuriousRamsayHostileBoar4">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+			
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="30"/> <!-- animalBoar -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="7"/>
+			<drop event="Harvest" name="resourceAnimalFat" count="4" tag="butcherHarvest"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileCoyoteBiome" extends="FuriousRamsayHostileCoyote">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="12"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="8"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="3"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileCoyote2Biome" extends="FuriousRamsayHostileCoyote2">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="12"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="8"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="3"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileCoyote3Biome" extends="FuriousRamsayHostileCoyote3">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="12"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="8"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="3"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileCoyote4Biome" extends="FuriousRamsayHostileCoyote4">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="12"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="8"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="3"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileCoyote5Biome" extends="FuriousRamsayHostileCoyote5">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="12"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="8"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="3"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileCoyote6Biome" extends="FuriousRamsayHostileCoyote6">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="12"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="8"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="3"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileDireWolfBiome" extends="FuriousRamsayHostileDireWolf">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+						
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="35"/> <!-- animalDireWolf -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="12"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileDireWolf2Biome" extends="FuriousRamsayHostileDireWolf2">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+						
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="35"/> <!-- animalDireWolf -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="12"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileDireWolf3Biome" extends="FuriousRamsayHostileDireWolf3">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+						
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="35"/> <!-- animalDireWolf -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="12"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileDireWolf4Biome" extends="FuriousRamsayHostileDireWolf4">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+						
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="35"/> <!-- animalDireWolf -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="12"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileDireWolf5Biome" extends="FuriousRamsayHostileDireWolf5">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+						
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="35"/> <!-- animalDireWolf -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="12"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileDireWolf6Biome" extends="FuriousRamsayHostileDireWolf6">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+						
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="35"/> <!-- animalDireWolf -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="12"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileBearBiome" extends="FuriousRamsayHostileBear">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+			<property name="MaxViewAngle" value="360"/>
+			<property name="SightRange" value="30" />
+								
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="50"/> <!-- animalBear -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="resourceTestosteroneExtract" tag="butcherHarvest" count="2"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileBear2Biome" extends="FuriousRamsayHostileBear2">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+								
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="50"/> <!-- animalBear -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="resourceTestosteroneExtract" tag="butcherHarvest" count="2"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileBear3Biome" extends="FuriousRamsayHostileBear3">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+								
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="50"/> <!-- animalBear -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="resourceTestosteroneExtract" tag="butcherHarvest" count="2"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileBear4Biome" extends="FuriousRamsayHostileBear4">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+								
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="50"/> <!-- animalBear -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="resourceTestosteroneExtract" tag="butcherHarvest" count="2"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileBear5Biome" extends="FuriousRamsayHostileBear5">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+								
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="50"/> <!-- animalBear -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="resourceTestosteroneExtract" tag="butcherHarvest" count="2"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileBear6Biome" extends="FuriousRamsayHostileBear6">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+								
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="50"/> <!-- animalBear -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="resourceTestosteroneExtract" tag="butcherHarvest" count="2"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileBear7Biome" extends="FuriousRamsayHostileBear7">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+								
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="50"/> <!-- animalBear -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="resourceTestosteroneExtract" tag="butcherHarvest" count="2"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileMountainLionBiome" extends="FuriousRamsayHostileMountainLion">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+					
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="4"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileMountainLion2Biome" extends="FuriousRamsayHostileMountainLion2">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+					
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="4"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileMountainLion3Biome" extends="FuriousRamsayHostileMountainLion3">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+					
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="4"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileMountainLion4Biome" extends="FuriousRamsayHostileMountainLion4">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+					
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="4"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileMountainLion5Biome" extends="FuriousRamsayHostileMountainLion5">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+					
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="4"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileMountainLion6Biome" extends="FuriousRamsayHostileMountainLion6">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+					
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="4"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayHostileMountainLion7Biome" extends="FuriousRamsayHostileMountainLion7">
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+			<property name="TimeStayAfterDeath" value="30"/>
+					
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="25"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="4"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsaySkullsClubTier1Biome" extends="FuriousRamsaySkullsClubTier1">
+			<property name="Archetype" value="FuriousRamsaySkullsBiome"/>
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+		<entity_class name="FuriousRamsaySkullsClubTier2Biome" extends="FuriousRamsaySkullsClubTier2">
+			<property name="Archetype" value="FuriousRamsaySkullsBiome"/>
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+		<entity_class name="FuriousRamsaySkullsClubTier3Biome" extends="FuriousRamsaySkullsClubTier3">
+			<property name="Archetype" value="FuriousRamsaySkullsBiome"/>
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+		<entity_class name="FuriousRamsaySkullsClubTier4Biome" extends="FuriousRamsaySkullsClubTier4">
+			<property name="Archetype" value="FuriousRamsaySkullsBiome"/>
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+		<entity_class name="FuriousRamsaySkullsClubTier5Biome" extends="FuriousRamsaySkullsClubTier5">
+			<property name="Archetype" value="FuriousRamsaySkullsBiome"/>
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsaySkullsHammerTier1Biome" extends="FuriousRamsaySkullsHammerTier1">
+			<property name="Archetype" value="FuriousRamsaySkullsBiome"/>
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+		<entity_class name="FuriousRamsaySkullsHammerTier2Biome" extends="FuriousRamsaySkullsHammerTier2">
+			<property name="Archetype" value="FuriousRamsaySkullsBiome"/>
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+		<entity_class name="FuriousRamsaySkullsHammerTier3Biome" extends="FuriousRamsaySkullsHammerTier3">
+			<property name="Archetype" value="FuriousRamsaySkullsBiome"/>
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+		<entity_class name="FuriousRamsaySkullsHammerTier4Biome" extends="FuriousRamsaySkullsHammerTier4">
+			<property name="Archetype" value="FuriousRamsaySkullsBiome"/>
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+		<entity_class name="FuriousRamsaySkullsHammerTier5Biome" extends="FuriousRamsaySkullsHammerTier5">
+			<property name="Archetype" value="FuriousRamsaySkullsBiome"/>
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+		<entity_class name="FuriousRamsaySkullsAxeTier1Biome" extends="FuriousRamsaySkullsAxeTier1">
+			<property name="Archetype" value="FuriousRamsaySkullsBiome"/>
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+		<entity_class name="FuriousRamsaySkullsAxeTier2Biome" extends="FuriousRamsaySkullsAxeTier2">
+			<property name="Archetype" value="FuriousRamsaySkullsBiome"/>
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+		<entity_class name="FuriousRamsaySkullsAxeTier3Biome" extends="FuriousRamsaySkullsAxeTier3">
+			<property name="Archetype" value="FuriousRamsaySkullsBiome"/>
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+		<entity_class name="FuriousRamsaySkullsAxeTier4Biome" extends="FuriousRamsaySkullsAxeTier4">
+			<property name="Archetype" value="FuriousRamsaySkullsBiome"/>
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+		<entity_class name="FuriousRamsaySkullsAxeTier5Biome" extends="FuriousRamsaySkullsAxeTier5">
+			<property name="Archetype" value="FuriousRamsaySkullsBiome"/>
+			<property name="NavObject" value="" /><property name="HideInSpawnMenu" value="true"/>
+		</entity_class>
+
+	</append>
+
+</configs>

@@ -1,0 +1,79 @@
+<Config>
+		
+		<append xpath="/buffs">
+
+			<!--<buff name="FuriousRamsayAnimalAnimations" hidden="true" remove_on_death="true">
+			<stack_type value="ignore"/>
+			<update_rate value="4"/>
+				<effect_group name="FuriousRamsayAnimalAnimationsMove">
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varMoveIndex" operation="set" value="3">
+						<requirement name="CVarCompare" cvar="varMoveIndex" operation="Equals" value="2"/>
+						<requirement name="CVarCompare" cvar="CurrentOrder" operation="Equals" value="2"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varMoveIndex" operation="set" value="2">
+						<requirement name="CVarCompare" cvar="varMoveIndex" operation="Equals" value="1"/>
+						<requirement name="CVarCompare" cvar="CurrentOrder" operation="Equals" value="2"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varMoveIndex" operation="set" value="1">
+						<requirement name="CVarCompare" cvar="CurrentOrder" operation="Equals" value="1"/>
+					</triggered_effect>
+
+					<triggered_effect trigger="onSelfBuffUpdate" action="AnimatorSetInt" property="MoveIndex" value="0">
+						<requirement name="CVarCompare" cvar="varMoveIndex" operation="Equals" value="1"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="AnimatorSetInt" property="MoveIndex" value="1">
+						<requirement name="CVarCompare" cvar="varMoveIndex" operation="Equals" value="2"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="AnimatorSetInt" property="MoveIndex" value="2">
+						<requirement name="CVarCompare" cvar="varMoveIndex" operation="Equals" value="3"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="CVarLogValue" cvar="varMoveIndex"/>
+				</effect_group>
+			</buff>-->
+
+
+			<buff name="FuriousRamsayAnimal2Attacks" hidden="true">
+				<effect_group name="FuriousRamsayAnimal2Attacks">
+					<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="varAttackIndex" operation="set" value="randomint(0,1)"/>
+					<triggered_effect trigger="onSelfAttackedOther" action="AnimatorSetInt" property="AttackIndex" value="0">
+						<requirement name="CVarCompare" cvar="varAttackIndex" operation="Equals" value="0"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfAttackedOther" action="AnimatorSetInt" property="AttackIndex" value="1">
+						<requirement name="CVarCompare" cvar="varAttackIndex" operation="Equals" value="1"/>
+					</triggered_effect>
+				</effect_group>
+			</buff>	
+
+			<buff name="FuriousRamsayAnimal3Attacks" hidden="true">
+				<effect_group name="FuriousRamsayAnimal3Attacks">
+					<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="varAttackIndex" operation="set" value="randomint(0,2)"/>
+					<triggered_effect trigger="onSelfAttackedOther" action="AnimatorSetInt" property="AttackIndex" value="0">
+						<requirement name="CVarCompare" cvar="varAttackIndex" operation="Equals" value="0"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfAttackedOther" action="AnimatorSetInt" property="AttackIndex" value="1">
+						<requirement name="CVarCompare" cvar="varAttackIndex" operation="Equals" value="1"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfAttackedOther" action="AnimatorSetInt" property="AttackIndex" value="2">
+						<requirement name="CVarCompare" cvar="varAttackIndex" operation="Equals" value="2"/>
+					</triggered_effect>
+				</effect_group>
+			</buff>	
+
+			<buff name="FuriousRamsayAnimalPain3Hits" hidden="true">
+				<effect_group name="FuriousRamsayAnimalPain3Hits">
+					<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" cvar="varPainIndex" operation="set" value="randomint(0,2)"/>
+					<triggered_effect trigger="onOtherDamagedSelf" action="AnimatorSetInt" property="PainIndex" value="0">
+						<requirement name="CVarCompare" cvar="varPainIndex" operation="Equals" value="0"/>
+					</triggered_effect>
+					<triggered_effect trigger="onOtherDamagedSelf" action="AnimatorSetInt" property="PainIndex" value="1">
+						<requirement name="CVarCompare" cvar="varPainIndex" operation="Equals" value="1"/>
+					</triggered_effect>
+					<triggered_effect trigger="onOtherDamagedSelf" action="AnimatorSetInt" property="PainIndex" value="2">
+						<requirement name="CVarCompare" cvar="varPainIndex" operation="Equals" value="2"/>
+					</triggered_effect>
+				</effect_group>
+			</buff>	
+
+		</append>
+		
+</Config>

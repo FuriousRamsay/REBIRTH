@@ -1,0 +1,5 @@
+<Config>
+
+	<append xpath="/entity_classes/entity_class[contains(@name,'Bandit')]/property[@name='Tags']/@value">,perkAT05</append>
+
+</Config>

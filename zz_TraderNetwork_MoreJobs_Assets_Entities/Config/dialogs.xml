@@ -1,0 +1,53 @@
+<Config>
+
+	<append xpath="/dialogs">
+
+		<dialog id="FuriousRamsayPersonalTraders" startstatementid="start">
+			<statement id="start" text="dialog_trader_statement_start">
+				<response_entry id="FollowMe" />
+				<response_entry id="shopResponse" />
+				<response_entry id="StayHere" />
+				<response_entry id="GuardHere" />
+				<!--<response_entry id="Hire" />
+				<response_entry id="Dismiss" />-->
+				<response_entry id="done" />
+			</statement>
+
+			<!--<response id="Hire" text="I'd like to hire you" >
+				<requirement type="HiredSDX, SCore" requirementtype="Hide" value="not"/>
+				<action type="OpenDialogSDX, SCore" id="Hire" />
+			</response>
+
+			<response id="Dismiss" text="Dismiss" >
+				<requirement type="Leader, SCore" requirementtype="Hide" />
+				<action type="ExecuteCommandSDX, SCore" id="Dismiss" />
+				<action type="AddBuffSDX, SCore" value="Self" id="buffOrderDismiss" />
+			</response>-->
+
+			<response id="FollowMe" text="Follow me" >
+				<requirement type="Leader, SCore" requirementtype="Hide"/>
+				<action type="AddBuffSDX, SCore" value="Self" id="buffOrderFollow" />
+			</response>
+
+			<response id="shopResponse" text="dialog_trader_response_shop">
+				<action type="Trader" id="trade" />
+			</response>
+
+			<response id="StayHere" text="Stay where you are" >
+				<requirement type="Leader, SCore" requirementtype="Hide" />
+				<action type="AddBuffSDX, SCore" value="Self" id="buffOrderStay" />
+			</response>
+	  
+			<response id="GuardHere" text="Stay where I am" >
+				<requirement type="Leader, SCore" requirementtype="Hide" />
+				<requirement type="HasTask, SCore" requirementtype="Hide" value="Stay" />
+				<action type="AddBuffSDX, SCore" value="Self" id="buffOrderGuardHere" />
+			</response>
+ 
+			<response id="done" text="dialog_trader_response_nevermind" />
+
+		</dialog>
+	
+	</append>
+ 
+</Config>

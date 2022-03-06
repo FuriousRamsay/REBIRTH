@@ -1,0 +1,557 @@
+<Config>
+	
+	<setattribute xpath="/item_modifiers/item_modifier[@name='modGunDrumMagazineExtender']/property[@name='UnlockedBy']" name="value">FuriousRamsayLootOnly</setattribute>
+	<setattribute xpath="/item_modifiers/item_modifier[@name='modGunShotgunTubeExtenderMagazine']/property[@name='UnlockedBy']" name="value">FuriousRamsayLootOnly</setattribute>
+	<setattribute xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalChain']/property[@name='UnlockedBy']" name="value">FuriousRamsayLootOnly</setattribute>
+	<setattribute xpath="/item_modifiers/item_modifier[@name='modMeleeFiremansAxeMod']/property[@name='UnlockedBy']" name="value">FuriousRamsayLootOnly</setattribute>
+	<setattribute xpath="/item_modifiers/item_modifier[@name='modMeleeDiamondTip']/property[@name='UnlockedBy']" name="value">FuriousRamsayLootOnly</setattribute>
+	<setattribute xpath="/item_modifiers/item_modifier[@name='modMeleeStunBatonRepulsor']/property[@name='UnlockedBy']" name="value">FuriousRamsayLootOnly</setattribute>
+	<setattribute xpath="/item_modifiers/item_modifier[@name='modClothingCargoStoragePocket']/property[@name='UnlockedBy']" name="value">FuriousRamsayLootOnly</setattribute>
+
+	<append xpath="/item_modifiers">
+
+		<item_modifier name="FuriousRamsayPerkHealingAuraMod" installable_tags="armor" modifier_tags="healingAura" blocked_tags="noMods" type="attachment">
+			<property name="CustomIcon" value="HealingAuraMod_icon"/>
+			<property name="DisplayType" value="FuriousRamsayAura"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Group" value="Aura"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+
+			<effect_group tiered="false">
+				<display_value name="dAuraRange" value="10"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayBuffHealingAura">
+					<requirement name="ProgressionLevel" progression_name="FuriousRamsayPerkAchievementsHealingAura" operation="GTE" value="1"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayBuffHealingAura"/>
+			</effect_group>
+		</item_modifier>
+
+		<item_modifier name="FuriousRamsayPerkStaminaAuraMod" installable_tags="armor" modifier_tags="StaminaAura" blocked_tags="noMods" type="attachment">
+			<property name="CustomIcon" value="StaminaAuraMod_icon"/>
+			<property name="DisplayType" value="FuriousRamsayAura"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Group" value="Aura"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+
+			<effect_group tiered="false">
+				<display_value name="dAuraRange" value="10"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayBuffStaminaAura">
+					<requirement name="ProgressionLevel" progression_name="FuriousRamsayPerkAchievementsStaminaAura" operation="GTE" value="1"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayBuffStaminaAura"/>
+			</effect_group>
+		</item_modifier>
+
+		<item_modifier name="FuriousRamsayPerkMobilityAuraMod" installable_tags="armor" modifier_tags="MobilityAura" blocked_tags="noMods" type="attachment">
+			<property name="CustomIcon" value="MobilityAuraMod_icon"/>
+			<property name="DisplayType" value="FuriousRamsayAura"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Group" value="Aura"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+
+			<effect_group tiered="false">
+				<display_value name="dAuraRange" value="10"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayBuffMobilityAura">
+					<requirement name="ProgressionLevel" progression_name="FuriousRamsayPerkAchievementsMobilityAura" operation="GTE" value="1"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayBuffMobilityAura"/>
+			</effect_group>
+		</item_modifier>
+
+		<item_modifier name="FuriousRamsayPerkArmorPenetrationAuraMod" installable_tags="armor" modifier_tags="ArmorPenetrationAura" blocked_tags="noMods" type="attachment">
+			<property name="CustomIcon" value="ArmorPenetrationAuraMod_icon"/>
+			<property name="DisplayType" value="FuriousRamsayAura"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Group" value="Aura"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+
+			<effect_group tiered="false">
+				<display_value name="dAuraRange" value="10"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayBuffArmorPenetrationAura">
+					<requirement name="ProgressionLevel" progression_name="FuriousRamsayPerkAchievementsArmorPenetrationAura" operation="GTE" value="1"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayBuffArmorPenetrationAura"/>
+			</effect_group>
+		</item_modifier>
+
+		<item_modifier name="FuriousRamsayPerkBlockDamageAuraMod" installable_tags="armor" modifier_tags="BlockDamageAura" blocked_tags="noMods" type="attachment">
+			<property name="CustomIcon" value="BlockDamageAuraMod_icon"/>
+			<property name="DisplayType" value="FuriousRamsayAura"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Group" value="Aura"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+
+			<effect_group tiered="false">
+				<display_value name="dAuraRange" value="10"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayBuffBlockDamageAura">
+					<requirement name="ProgressionLevel" progression_name="FuriousRamsayPerkAchievementsBlockDamageAura" operation="GTE" value="1"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayBuffBlockDamageAura"/>
+			</effect_group>
+		</item_modifier>
+
+		<item_modifier name="FuriousRamsayPerkFireRateAuraMod" installable_tags="armor" modifier_tags="FireRateAura" blocked_tags="noMods" type="attachment">
+			<property name="CustomIcon" value="FireRateAuraMod_icon"/>
+			<property name="DisplayType" value="FuriousRamsayAura"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Group" value="Aura"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+
+			<effect_group tiered="false">
+				<display_value name="dAuraRange" value="10"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayBuffFireRateAura">
+					<requirement name="ProgressionLevel" progression_name="FuriousRamsayPerkAchievementsFireRateAura" operation="GTE" value="1"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayBuffFireRateAura"/>
+			</effect_group>
+		</item_modifier>
+
+		<item_modifier name="FuriousRamsayPerkAttackSpeedAuraMod" installable_tags="armor" modifier_tags="AttackSpeedAura" blocked_tags="noMods" type="attachment">
+			<property name="CustomIcon" value="AttackSpeedAuraMod_icon"/>
+			<property name="DisplayType" value="FuriousRamsayAura"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Group" value="Aura"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+
+			<effect_group tiered="false">
+				<display_value name="dAuraRange" value="10"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayBuffAttackSpeedAura">
+					<requirement name="ProgressionLevel" progression_name="FuriousRamsayPerkAchievementsAttackSpeedAura" operation="GTE" value="1"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayBuffAttackSpeedAura"/>
+			</effect_group>
+		</item_modifier>
+
+		<item_modifier name="FuriousRamsayPerkShadowAuraMod" installable_tags="armor" modifier_tags="ShadowAura" blocked_tags="noMods" type="attachment">
+			<property name="CustomIcon" value="ShadowAuraMod_icon"/>
+			<property name="DisplayType" value="FuriousRamsayAura"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Group" value="Aura"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+
+			<effect_group tiered="false">
+				<display_value name="dAuraRange" value="10"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayBuffShadowAura">
+					<requirement name="ProgressionLevel" progression_name="FuriousRamsayPerkAchievementsShadowAura" operation="GTE" value="1"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayBuffShadowAura"/>
+			</effect_group>
+		</item_modifier>
+
+		<item_modifier name="FuriousRamsayPerkVitalityAuraMod" installable_tags="armor" modifier_tags="VitalityAura" blocked_tags="noMods" type="attachment">
+			<property name="CustomIcon" value="VitalityAuraMod_icon"/>
+			<property name="DisplayType" value="FuriousRamsayAura"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Group" value="Aura"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+
+			<effect_group tiered="false">
+				<display_value name="dAuraRange" value="10"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayBuffVitalityAura">
+					<requirement name="ProgressionLevel" progression_name="FuriousRamsayPerkAchievementsVitalityAura" operation="GTE" value="1"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayBuffVitalityAura"/>
+			</effect_group>
+		</item_modifier>
+
+		<item_modifier name="FuriousRamsayPerkAgilityAuraMod" installable_tags="armor" modifier_tags="AgilityAura" blocked_tags="noMods" type="attachment">
+			<property name="CustomIcon" value="AgilityAuraMod_icon"/>
+			<property name="DisplayType" value="FuriousRamsayAura"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Group" value="Aura"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+
+			<effect_group tiered="false">
+				<display_value name="dAuraRange" value="10"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayBuffAgilityAura">
+					<requirement name="ProgressionLevel" progression_name="FuriousRamsayPerkAchievementsAgilityAura" operation="GTE" value="1"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayBuffAgilityAura"/>
+			</effect_group>
+		</item_modifier>
+
+		<item_modifier name="FuriousRamsayPerkPierceAuraMod" installable_tags="armor" modifier_tags="PierceAura" blocked_tags="noMods" type="attachment">
+			<property name="CustomIcon" value="PierceAuraMod_icon"/>
+			<property name="DisplayType" value="FuriousRamsayAura"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Group" value="Aura"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+
+			<effect_group tiered="false">
+				<display_value name="dAuraRange" value="10"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayBuffPierceAura">
+					<requirement name="ProgressionLevel" progression_name="FuriousRamsayPerkAchievementsPierceAura" operation="GTE" value="1"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayBuffPierceAura"/>
+			</effect_group>
+		</item_modifier>
+
+		<item_modifier name="FuriousRamsayPerkTradeAuraMod" installable_tags="armor" modifier_tags="TradeAura" blocked_tags="noMods" type="attachment">
+			<property name="CustomIcon" value="TradeAuraMod_icon"/>
+			<property name="DisplayType" value="FuriousRamsayAura"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Group" value="Aura"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+
+			<effect_group tiered="false">
+				<display_value name="dAuraRange" value="10"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayBuffTradeAura">
+					<requirement name="ProgressionLevel" progression_name="FuriousRamsayPerkAchievementsTradeAura" operation="GTE" value="1"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayBuffTradeAura"/>
+			</effect_group>
+		</item_modifier>
+
+		<item_modifier name="FuriousRamsayPerkPreservationAuraMod" installable_tags="armor" modifier_tags="PreservationAura" blocked_tags="noMods" type="attachment">
+			<property name="CustomIcon" value="PreservationAuraMod_icon"/>
+			<property name="DisplayType" value="FuriousRamsayAura"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Group" value="Aura"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+
+			<effect_group tiered="false">
+				<display_value name="dAuraRange" value="10"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayBuffPreservationAura">
+					<requirement name="ProgressionLevel" progression_name="FuriousRamsayPerkAchievementsPreservationAura" operation="GTE" value="1"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayBuffPreservationAura"/>
+			</effect_group>
+		</item_modifier>
+
+		<item_modifier name="FuriousRamsayPerkFortuityAuraMod" installable_tags="armor" modifier_tags="FortuityAura" blocked_tags="noMods" type="attachment">
+			<property name="CustomIcon" value="FortuityAuraMod_icon"/>
+			<property name="DisplayType" value="FuriousRamsayAura"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Group" value="Aura"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+
+			<effect_group tiered="false">
+				<display_value name="dAuraRange" value="10"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayBuffFortuityAura">
+					<requirement name="ProgressionLevel" progression_name="FuriousRamsayPerkAchievementsFortuityAura" operation="GTE" value="1"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayBuffFortuityAura"/>
+			</effect_group>
+		</item_modifier>
+
+		<item_modifier name="FuriousRamsayPerkStabilityAuraMod" installable_tags="armor" modifier_tags="StabilityAura" blocked_tags="noMods" type="attachment">
+			<property name="CustomIcon" value="StabilityAuraMod_icon"/>
+			<property name="DisplayType" value="FuriousRamsayAura"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Group" value="Aura"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+
+			<effect_group tiered="false">
+				<display_value name="dAuraRange" value="10"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayBuffStabilityAura">
+					<requirement name="ProgressionLevel" progression_name="FuriousRamsayPerkAchievementsStabilityAura" operation="GTE" value="1"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayBuffStabilityAura"/>
+			</effect_group>
+		</item_modifier>
+
+	</append>
+
+	<!-- REMOVE ACCESS TO HELMET LIGHT MOD -->
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorHelmetLight']">
+		<property name="CreativeMode" value="Dev"/>
+	</append>
+
+	<!-- SET PRICE FOR MODS -->
+	<append xpath="//item_modifier[@name='modGunBarrelExtender']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunMuzzleBrake']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunSoundSuppressorSilencer']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunLaserSight']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunFlashlight']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunScopeSmall']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunScopeMedium']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunScopeLarge']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunReflexSight']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunTriggerGroupSemi']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunTriggerGroupBurst3']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunTriggerGroupAutomatic']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunBipod']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunForegrip']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunRetractingStock']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modShotgunSawedOffBarrel']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunDuckbill']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunChoke']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunMagazineExtender']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunDrumMagazineExtender']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunShotgunTubeExtenderMagazine']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunButtkick3000']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunButtkick4000']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modMeleeGunToolDecapitizer']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunCrippleEm']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunBowPolymerString']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunBowArrowRest']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunMeleeTheHunter']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunMeleeRadRemover']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunMeleeBlessedMetal']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunMeleeNiCdBattery']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunMeleeFlammableOil']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modGunMeleeLiquidNitrogen']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modMeleeTemperedBlade']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modMeleeSerratedBlade']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modMeleeWeightedHead']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modMeleeStructuralBrace']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modMeleeErgonomicGrip']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modMeleeFortifyingGrip']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modMeleeClubBarbedWire']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modMeleeClubMetalSpikes']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modMeleeClubMetalChain']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modMeleeClubBurningShaft']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modMeleeFiremansAxeMod']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modMeleeGraveDigger']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modMeleeBunkerBuster']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modMeleeIronBreaker']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modMeleeWoodSplitter']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modMeleeDiamondTip']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modMeleeStunBatonRepulsor']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modFuelTankSmall']">
+		<property name="EconomicValue" value="220" />
+	</append>
+	<append xpath="//item_modifier[@name='modFuelTankLarge']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modArmorBandolier']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modRadiationReady']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modArmorInsulatedLiner']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modArmorCoolingMesh']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modArmorImprovedFittings']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modArmorCustomizedFittings']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modArmorPlatingBasic']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modArmorPlatingReinforced']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modArmorStoragePocket']">
+		<property name="EconomicValue" value="220" />
+	</append>
+	<append xpath="//item_modifier[@name='modArmorDoubleStoragePocket']">
+		<property name="EconomicValue" value="330" />
+	</append>
+	<append xpath="//item_modifier[@name='modArmorTripleStoragePocket']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modArmorMuffledConnectors']">
+		<property name="EconomicValue" value="220" />
+	</append>
+	<append xpath="//item_modifier[@name='modArmorAdvancedMuffledConnectors']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modArmorImpactBracing']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modArmorWaterPurifier']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modArmorJumpJets']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modArmorHelmetLight']">
+		<property name="EconomicValue" value="440" />
+	</append>
+	<append xpath="//item_modifier[@name='modClothingStoragePocket']">
+		<property name="EconomicValue" value="220" />
+	</append>
+	<append xpath="//item_modifier[@name='modClothingCargoStoragePocket']">
+		<property name="EconomicValue" value="440" />
+	</append>
+
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBurningShaft']/effect_group[@name='light torch']">
+		<requirement name="!HoldingItemHasTags" tags="longsword1,longsword2"/>
+	</append>
+
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBurningShaft']">
+	<!-- CUSTOM WEAPONS -->
+		<!-- SPEARS -->
+		<item_property_overrides name="ItemsWeaponsSpear001_FR">
+			<property name="FlameEffect" value="ItemModEffects/mod_spear_flamePrefab"/>
+		</item_property_overrides>
+		<item_property_overrides name="ItemsWeaponsSpear002_FR">
+			<property name="FlameEffect" value="ItemModEffects/mod_spear_flamePrefab"/>
+		</item_property_overrides>
+		<item_property_overrides name="ItemsWeaponsSpear003_FR">
+			<property name="FlameEffect" value="ItemModEffects/mod_spear_flamePrefab"/>
+		</item_property_overrides>
+		<item_property_overrides name="ItemsWeaponsSpear004_FR">
+			<property name="FlameEffect" value="ItemModEffects/mod_spear_flamePrefab"/>
+		</item_property_overrides>
+		<item_property_overrides name="ItemsWeaponsSpear005_FR">
+			<property name="FlameEffect" value="ItemModEffects/mod_spear_flamePrefab"/>
+		</item_property_overrides>
+		<item_property_overrides name="ItemsWeaponsSpear006_FR">
+			<property name="FlameEffect" value="ItemModEffects/mod_spear_flamePrefab"/>
+		</item_property_overrides>
+
+		<!-- CLUBS -->
+		<item_property_overrides name="ItemsWeaponsClub001_FR">
+			<property name="FlameEffect" value="ItemModEffects/mod_club_flamePrefab"/>
+		</item_property_overrides>
+
+		<!-- SWORDS -->
+		<item_property_overrides name="ItemsWeaponsSciFiSword001_FR">
+			<property name="FlameEffect" value="ItemModEffects/mod_spear_iron_flamePrefab"/>
+		</item_property_overrides>
+		<item_property_overrides name="ItemsWeaponsKatana001_FR">
+			<property name="FlameEffect" value="ItemModEffects/mod_spear_iron_flamePrefab"/>
+		</item_property_overrides>
+
+		<!-- HAMMERS -->
+		<item_property_overrides name="ItemsWeaponsHammer001_FR">
+			<property name="FlameEffect" value="ItemModEffects/mod_stone_sledge_flamePrefab"/>
+		</item_property_overrides>
+		<item_property_overrides name="ItemsWeaponsHammer002_FR">
+			<property name="FlameEffect" value="ItemModEffects/mod_stone_sledge_flamePrefab"/>
+		</item_property_overrides>
+		<item_property_overrides name="ItemsWeaponsHammer003_FR">
+			<property name="FlameEffect" value="ItemModEffects/mod_stone_sledge_flamePrefab"/>
+		</item_property_overrides>
+
+		<effect_group name="light torch longsword1" tiered="false">
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1"/>
+			<requirement name="HoldingItemHasTags" tags="longsword1"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Flames" prefab="property?FlameEffect" parentTransform="#HeldItemRoot" localPos="0,-0.3,0"/>
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AddPart" part="Flames" prefab="property?FlameEffect" parentTransform="#HeldItemRoot" localPos="0,-0.3,0"/>
+				<triggered_effect trigger="onSelfSwimStop" action="AddPart" part="Flames" prefab="property?FlameEffect" parentTransform="#HeldItemRoot" localPos="0,-0.3,0"/>
+		</effect_group>
+
+		<effect_group name="light torch longsword2" tiered="false">
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1"/>
+			<requirement name="HoldingItemHasTags" tags="longsword2"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Flames" prefab="property?FlameEffect" parentTransform="#HeldItemRoot" localPos="0,-0.35,0"/>
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AddPart" part="Flames" prefab="property?FlameEffect" parentTransform="#HeldItemRoot" localPos="0,-0.35,0"/>
+				<triggered_effect trigger="onSelfSwimStop" action="AddPart" part="Flames" prefab="property?FlameEffect" parentTransform="#HeldItemRoot" localPos="0,-0.35,0"/>
+		</effect_group>
+	</append>
+
+</Config>

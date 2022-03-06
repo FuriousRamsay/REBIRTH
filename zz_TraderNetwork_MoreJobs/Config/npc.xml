@@ -1,0 +1,49 @@
+<Config>
+
+	<setattribute xpath="/npc/npc_info[@id='traitorjoel']" name="quest_list">trader_quests_traderjoel</setattribute>
+	<setattribute xpath="/npc/npc_info[@id='traderjen']" name="quest_list">trader_quests_traderjen</setattribute>
+	<setattribute xpath="/npc/npc_info[@id='traderbob']" name="quest_list">trader_quests_traderbob</setattribute>
+	<setattribute xpath="/npc/npc_info[@id='traderhugh']" name="quest_list">trader_quests_traderhugh</setattribute>
+	<setattribute xpath="/npc/npc_info[@id='traderrekt']" name="quest_list">trader_quests_traderrekt</setattribute>
+	
+	<append xpath="/npc">
+
+		<npc_info
+			id="FuriousRamsayBlackShieldTrader1"
+			name="Black Shield Trader"
+			name_key="npc_blackshieldtrader1"
+			faction="trader"
+			portrait="npc_blackshield"
+			greeting_type="nearby"
+			stance="Dislike" voice_set=""
+			trader_id="90" dialog_id="FuriousRamsayBlackShieldTrader"
+			/>
+			<!--quest_list="trader_quests_blackshield" quest_faction="90" />-->
+
+		<npc_info
+			id="FuriousRamsayFarmerKatie"
+			name="Katie (Farmer)"
+			name_key="npc_farmerkatie"
+			faction="trader"
+			portrait="npc_farmer"
+			greeting_type="nearby"
+			stance="Dislike" voice_set=""
+			trader_id="91" dialog_id="FuriousRamsayFarmerKatie"
+			/>
+			<!--quest_list="trader_quests_farmerkatie" quest_faction="91" />-->
+
+		<npc_info
+			id="FuriousRamsayHandymanLuke"
+			name="Luke (Handyman)"
+			name_key="npc_handymanluke"
+			faction="trader"
+			portrait="npc_handyman"
+			greeting_type="nearby"
+			stance="Dislike" voice_set=""
+			trader_id="92" dialog_id="FuriousRamsayHandymanLuke"
+			/>
+			<!--quest_list="trader_quests_handymanluke"  quest_faction="92" />-->
+
+	</append>
+	
+</Config>

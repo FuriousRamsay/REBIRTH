@@ -1,0 +1,39 @@
+Key,Source,Context,English
+
+FuriousRamsayNPCPanther,entityclasses,Entity,Panther
+FuriousRamsayNPCHorrorPanther,entityclasses,Entity,Panther
+
+FuriousRamsaySpawnPantherCube001_FR,blocks,Block,Panther
+FuriousRamsaySpawnCubeShepherd001_FR,blocks,Block,German Shepherd
+FuriousRamsaySpawnCubePitbull001_FR,blocks,Block,Pitbull
+FuriousRamsaySpawnCubeLabrador001_FR,blocks,Block,Labrador
+FuriousRamsaySpawnCubeHusky001_FR,blocks,Block,Husky
+FuriousRamsaySpawnCubeGoldenRetriever001_FR,blocks,Block,Golden Retriever
+FuriousRamsaySpawnCubeDoberman001_FR,blocks,Block,Doberman
+FuriousRamsaySpawnCubeDalmatian001_FR,blocks,Block,Dalmatian
+FuriousRamsaySpawnCubeBullTerrier001_FR,blocks,Block,Bull Terrier
+
+FuriousRamsaySpawnPantherCube001_FRDesc,blocks,Block,"Your very own [95ded9]Panther[-] companion.\n • Health: [96e09a]500[-]\n • Damage: [e3989e]30[-]\n\nYou will have to feed it [dece92]30 raw meat[-] in order for it to start obeying you."
+FuriousRamsaySpawnCubeShepherd001_FRDesc,blocks,Block,"Your very own [95ded9]German Shepherd[-] companion.\n • Health: [96e09a]400[-]\n • Damage: [e3989e]20[-]\n\nYou will have to feed it [dece92]30 raw meat[-] in order for it to start obeying you."
+FuriousRamsaySpawnCubePitbull001_FRDesc,blocks,Block,"Your very own [95ded9]Pitbull[-] companion.\n • Health: [96e09a]400[-]\n • Damage: [e3989e]20[-]\n\nYou will have to feed it [dece92]30 raw meat[-] in order for it to start obeying you."
+FuriousRamsaySpawnCubeLabrador001_FRDesc,blocks,Block,"Your very own [95ded9]Labrador[-] companion.\n • Health: [96e09a]400[-]\n • Damage: [e3989e]20[-]\n\nYou will have to feed it [dece92]30 raw meat[-] in order for it to start obeying you."
+FuriousRamsaySpawnCubeHusky001_FRDesc,blocks,Block,"Your very own [95ded9]Husky[-] companion.\n • Health: [96e09a]400[-]\n • Damage: [e3989e]20[-]\n\nYou will have to feed it [dece92]30 raw meat[-] in order for it to start obeying you."
+FuriousRamsaySpawnCubeGoldenRetriever001_FRDesc,blocks,Block,"Your very own [95ded9]Golden Retriever[-] companion.\n • Health: [96e09a]400[-]\n • Damage: [e3989e]20[-]\n\nYou will have to feed it [dece92]30 raw meat[-] in order for it to start obeying you."
+FuriousRamsaySpawnCubeDoberman001_FRDesc,blocks,Block,"Your very own [95ded9]Doberman[-] companion.\n • Health: [96e09a]400[-]\n • Damage: [e3989e]20[-]\n\nYou will have to feed it [dece92]30 raw meat[-] in order for it to start obeying you."
+FuriousRamsaySpawnCubeDalmatian001_FRDesc,blocks,Block,"Your very own [95ded9]Dalmatian[-] companion.\n • Health: [96e09a]400[-]\n • Damage: [e3989e]20[-]\n\nYou will have to feed it [dece92]30 raw meat[-] in order for it to start obeying you."
+FuriousRamsaySpawnCubeBullTerrier001_FRDesc,blocks,Block,"Your very own [95ded9]Bull Terrier[-] companion.\n • Health: [96e09a]400[-]\n • Damage: [e3989e]20[-]\n\nYou will have to feed it [dece92]30 raw meat[-] in order for it to start obeying you."
+
+FuriousRamsayNPCPanther001_FR,entityclasses,Entity,Panther
+FuriousRamsayNPCShepherd001_FR,entityclasses,Entity,German Shepherd
+FuriousRamsayNPCPitbull001_FR,entityclasses,Entity,Pitbull
+FuriousRamsayNPCLabrador001_FR,entityclasses,Entity,Labrador
+FuriousRamsayNPCHusky001_FR,entityclasses,Entity,Husky
+FuriousRamsayNPCGoldenRetriever001_FR,entityclasses,Entity,Golden Retriever
+FuriousRamsayNPCDoberman001_FR,entityclasses,Entity,Doberman
+FuriousRamsayNPCDalmatian001_FR,entityclasses,Entity,Dalmatian
+FuriousRamsayNPCBullTerrier001_FR,entityclasses,Entity,Bull Terrier
+
+FuriousRamsayStatHealth,ui_display,Item stat,Health
+FuriousRamsayStatDamage,ui_display,Item stat,Damage
+
+FuriousRamsayStatCheckDescription,ui_display,Item stat,"Check Description for details"

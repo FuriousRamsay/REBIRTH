@@ -1,0 +1,11 @@
+<Config>
+
+	<append xpath="/ui_display_info/item_display" >		
+
+		<item_display_info display_type="FuriousRamsayCompanion" display_group="groupRanged">
+			<display_entry title_key="FuriousRamsayStatCheckDescription"/>
+		</item_display_info>
+
+	</append>
+	
+</Config>

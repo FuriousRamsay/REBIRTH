@@ -1,0 +1,97 @@
+<Config>
+ 
+ <append xpath="/nav_object_classes">
+	
+		<nav_object_class name="FuriousRamsayStormBreaker">
+			<property name="requirement_type" value="Tracking" />
+
+			<map_settings>
+				<property name="sprite_name" value="ui_game_symbol_sledge"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="-1"/>
+				<property name="color" value="70, 182, 219,255"/>
+				<property name="has_pulse" value="true"/>
+			</map_settings>
+
+			<compass_settings>
+				<property name="sprite_name" value="ui_game_symbol_sledge"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="1024"/>
+				<property name="color" value="70, 182, 219,255"/>
+				<property name="has_pulse" value="true"/>
+				<property name="icon_clamped" value="false" />
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="ui_game_symbol_sledge"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="50"/>
+				<property name="color" value="70, 182, 219,255"/>
+				<property name="has_pulse" value="true"/>
+				<property name="text_type" value="Distance"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="FuriousRamsayShockSpear">
+			<property name="requirement_type" value="Tracking" />
+
+			<map_settings>
+				<property name="sprite_name" value="ui_game_symbol_spear"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="-1"/>
+				<property name="color" value="70, 182, 219,255"/>
+				<property name="has_pulse" value="true"/>
+			</map_settings>
+
+			<compass_settings>
+				<property name="sprite_name" value="ui_game_symbol_spear"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="1024"/>
+				<property name="color" value="70, 182, 219,255"/>
+				<property name="has_pulse" value="true"/>
+				<property name="icon_clamped" value="false" />
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="ui_game_symbol_spear"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="50"/>
+				<property name="color" value="70, 182, 219,255"/>
+				<property name="has_pulse" value="true"/>
+				<property name="text_type" value="Distance"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="FuriousRamsayBurningKnife">
+			<property name="requirement_type" value="Tracking" />
+
+			<map_settings>
+				<property name="sprite_name" value="ui_game_symbol_knife"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="-1"/>
+				<property name="color" value="168, 81, 91,255"/>
+				<property name="has_pulse" value="true"/>
+			</map_settings>
+
+			<compass_settings>
+				<property name="sprite_name" value="ui_game_symbol_knife"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="1024"/>
+				<property name="color" value="168, 81, 91,255"/>
+				<property name="has_pulse" value="true"/>
+				<property name="icon_clamped" value="false" />
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="ui_game_symbol_knife"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="50"/>
+				<property name="color" value="168, 81, 91,255"/>
+				<property name="has_pulse" value="true"/>
+				<property name="text_type" value="Distance"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+	</append>
+	
+</Config>

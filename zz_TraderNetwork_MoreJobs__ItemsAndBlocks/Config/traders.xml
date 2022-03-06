@@ -1,0 +1,58 @@
+<Config>
+
+	<append xpath="/traders/trader_item_groups">
+
+		<trader_item_group name="FuriousRamsayFarmingWeaponsTier3">
+			<item name="FuriousRamsayBurningKnife" count="1" prob="1"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmingWeaponsTier4">
+			<item name="FuriousRamsayShockSpear" count="1" prob="1"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayFarmingWeaponsTier5">
+			<item name="FuriousRamsayStormBreaker" count="1" prob="1"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayHandymanWeaponsTier4">
+			<item name="FuriousRamsayAshBoomStick" count="1" prob="1"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayHandymanWeaponsTier5">
+			<item name="FuriousRamsayAshChainsaw" count="1" prob="1"/>
+		</trader_item_group>
+
+
+	</append>
+
+	<append xpath="/traders/trader_info[@id='91']/tier_items[@level='3000,3999']">
+
+		<item group="FuriousRamsayFarmingWeaponsTier3" prob="0.1" />
+
+	</append>
+
+	<append xpath="/traders/trader_info[@id='91']/tier_items[@level='4000,4999']">
+
+		<item group="FuriousRamsayFarmingWeaponsTier4" prob="0.1" />
+
+	</append>
+
+	<append xpath="/traders/trader_info[@id='91']/tier_items[@level='5000,-1']">
+	
+		<item group="FuriousRamsayFarmingWeaponsTier5" prob="0.1" />
+
+	</append>
+
+	<append xpath="/traders/trader_info[@id='92']/tier_items[@level='4000,4999']">
+
+		<item group="FuriousRamsayHandymanWeaponsTier4" prob="0.1" />
+
+	</append>
+
+	<append xpath="/traders/trader_info[@id='92']/tier_items[@level='5000,-1']">
+	
+		<item group="FuriousRamsayHandymanWeaponsTier5" prob="0.1" />
+
+	</append>
+
+</Config>

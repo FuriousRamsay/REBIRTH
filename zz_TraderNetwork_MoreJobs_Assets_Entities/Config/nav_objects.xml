@@ -1,0 +1,297 @@
+<Config>
+ 
+	<append xpath="/nav_object_classes">
+	
+		<nav_object_class name="FuriousRamsaySurvivalSpecialist">
+			<map_settings>
+			  <property name="sprite_name" value="ui_game_symbol_talk"/>
+			  <property name="min_distance" value="0"/>
+			  <property name="max_distance" value="-1"/>
+			  <property name="color" value="144, 31, 209,255"/>
+			  <property name="has_pulse" value="true"/>
+			</map_settings>
+			<compass_settings>
+				<property name="sprite_name" value="ui_game_symbol_talk"/>
+				<property name="min_distance" value="5"/>
+				<property name="max_distance" value="-1"/>
+				<property name="max_scale_distance" value="32"/>
+				<property name="color" value="144, 31, 209,255"/>
+				<property name="has_pulse" value="true"/>
+				<property name="icon_clamped" value="false" />
+			</compass_settings>
+			<onscreen_settings>
+			  <property name="sprite_name" value="ui_game_symbol_talk"/>
+			  <property name="min_distance" value="5"/>
+			  <property name="max_distance" value="100"/>
+  			  <property name="max_scale_distance" value="25"/>
+			  <property name="color" value="144, 31, 209,255"/>
+			  <property name="has_pulse" value="true"/>
+			  <property name="text_type" value="Distance"/>
+			  <property name="offset" value="0,2.4,0" />
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="FuriousRamsayMedicalDroid">
+			<map_settings>
+			  <property name="sprite_name" value="ui_game_stat_bar_health"/>
+			  <property name="min_distance" value="0"/>
+			  <property name="max_distance" value="-1"/>
+			  <property name="color" value="224, 79, 98,255"/>
+			  <property name="has_pulse" value="true"/>
+			</map_settings>
+			<compass_settings>
+				<property name="sprite_name" value="ui_game_stat_bar_health"/>
+				<property name="min_distance" value="5"/>
+				<property name="max_distance" value="-1"/>
+				<property name="max_scale_distance" value="32"/>
+				<property name="color" value="224, 79, 98,255"/>
+				<property name="has_pulse" value="true"/>
+				<property name="icon_clamped" value="false" />
+			</compass_settings>
+			<onscreen_settings>
+			  <property name="sprite_name" value="ui_game_stat_bar_health"/>
+			  <property name="min_distance" value="5"/>
+			  <property name="max_distance" value="100"/>
+  			  <property name="max_scale_distance" value="25"/>
+			  <property name="color" value="224, 79, 98,255"/>
+			  <property name="has_pulse" value="true"/>
+			  <property name="text_type" value="Distance"/>
+			  <property name="offset" value="0,2.4,0" />
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="FuriousRamsayTrainerHunter">
+			<map_settings>
+			  <property name="sprite_name" value="ui_game_symbol_skills"/>
+			  <property name="min_distance" value="0"/>
+			  <property name="max_distance" value="-1"/>
+			  <property name="color" value="83, 173, 189,255"/>
+			  <property name="has_pulse" value="true"/>
+			</map_settings>
+			<compass_settings>
+				<property name="sprite_name" value="ui_game_symbol_skills"/>
+				<property name="min_distance" value="5"/>
+				<property name="max_distance" value="-1"/>
+				<property name="max_scale_distance" value="32"/>
+				<property name="color" value="83, 173, 189,255"/>
+				<property name="has_pulse" value="true"/>
+				<property name="icon_clamped" value="false" />
+			</compass_settings>
+			<onscreen_settings>
+			  <property name="sprite_name" value="ui_game_symbol_skills"/>
+			  <property name="min_distance" value="5"/>
+			  <property name="max_distance" value="100"/>
+  			  <property name="max_scale_distance" value="25"/>
+			  <property name="color" value="83, 173, 189,255"/>
+			  <property name="has_pulse" value="true"/>
+			  <property name="text_type" value="Distance"/>
+			  <property name="offset" value="0,2.4,0" />
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="FuriousRamsayTrainerThug">
+			<map_settings>
+			  <property name="sprite_name" value="ui_game_symbol_skills"/>
+			  <property name="min_distance" value="0"/>
+			  <property name="max_distance" value="-1"/>
+			  <property name="color" value="224, 224, 54,255"/>
+			  <property name="has_pulse" value="true"/>
+			</map_settings>
+			<compass_settings>
+				<property name="sprite_name" value="ui_game_symbol_skills"/>
+				<property name="min_distance" value="5"/>
+				<property name="max_distance" value="-1"/>
+				<property name="max_scale_distance" value="32"/>
+				<property name="color" value="224, 224, 54,255"/>
+				<property name="has_pulse" value="true"/>
+				<property name="icon_clamped" value="false" />
+			</compass_settings>
+			<onscreen_settings>
+			  <property name="sprite_name" value="ui_game_symbol_skills"/>
+			  <property name="min_distance" value="5"/>
+			  <property name="max_distance" value="100"/>
+  			  <property name="max_scale_distance" value="25"/>
+			  <property name="color" value="224, 224, 54,255"/>
+			  <property name="has_pulse" value="true"/>
+			  <property name="text_type" value="Distance"/>
+			  <property name="offset" value="0,2.4,0" />
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="FuriousRamsayTrainerButcher">
+			<map_settings>
+			  <property name="sprite_name" value="ui_game_symbol_skills"/>
+			  <property name="min_distance" value="0"/>
+			  <property name="max_distance" value="-1"/>
+			  <property name="color" value="168, 91, 105,255"/>
+			  <property name="has_pulse" value="true"/>
+			</map_settings>
+			<compass_settings>
+				<property name="sprite_name" value="ui_game_symbol_skills"/>
+				<property name="min_distance" value="5"/>
+				<property name="max_distance" value="-1"/>
+				<property name="max_scale_distance" value="32"/>
+				<property name="color" value="168, 91, 105,255"/>
+				<property name="has_pulse" value="true"/>
+				<property name="icon_clamped" value="false" />
+			</compass_settings>
+			<onscreen_settings>
+			  <property name="sprite_name" value="ui_game_symbol_skills"/>
+			  <property name="min_distance" value="5"/>
+			  <property name="max_distance" value="100"/>
+  			  <property name="max_scale_distance" value="25"/>
+			  <property name="color" value="168, 91, 105,255"/>
+			  <property name="has_pulse" value="true"/>
+			  <property name="text_type" value="Distance"/>
+			  <property name="offset" value="0,2.4,0" />
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="FuriousRamsayTrainerSoldier">
+			<map_settings>
+			  <property name="sprite_name" value="ui_game_symbol_skills"/>
+			  <property name="min_distance" value="0"/>
+			  <property name="max_distance" value="-1"/>
+			  <property name="color" value="118, 227, 129,255"/>
+			  <property name="has_pulse" value="true"/>
+			</map_settings>
+			<compass_settings>
+				<property name="sprite_name" value="ui_game_symbol_skills"/>
+				<property name="min_distance" value="5"/>
+				<property name="max_distance" value="-1"/>
+				<property name="max_scale_distance" value="32"/>
+				<property name="color" value="118, 227, 129,255"/>
+				<property name="has_pulse" value="true"/>
+				<property name="icon_clamped" value="false" />
+			</compass_settings>
+			<onscreen_settings>
+			  <property name="sprite_name" value="ui_game_symbol_skills"/>
+			  <property name="min_distance" value="5"/>
+			  <property name="max_distance" value="100"/>
+  			  <property name="max_scale_distance" value="25"/>
+			  <property name="color" value="118, 227, 129,255"/>
+			  <property name="has_pulse" value="true"/>
+			  <property name="text_type" value="Distance"/>
+			  <property name="offset" value="0,2.4,0" />
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="FuriousRamsayTrainerTechnogeek">
+			<map_settings>
+			  <property name="sprite_name" value="ui_game_symbol_skills"/>
+			  <property name="min_distance" value="0"/>
+			  <property name="max_distance" value="-1"/>
+			  <property name="color" value="115, 111, 227,255"/>
+			  <property name="has_pulse" value="true"/>
+			</map_settings>
+			<compass_settings>
+				<property name="sprite_name" value="ui_game_symbol_skills"/>
+				<property name="min_distance" value="5"/>
+				<property name="max_distance" value="-1"/>
+				<property name="max_scale_distance" value="32"/>
+				<property name="color" value="115, 111, 227,255"/>
+				<property name="has_pulse" value="true"/>
+				<property name="icon_clamped" value="false" />
+			</compass_settings>
+			<onscreen_settings>
+			  <property name="sprite_name" value="ui_game_symbol_skills"/>
+			  <property name="min_distance" value="5"/>
+			  <property name="max_distance" value="100"/>
+  			  <property name="max_scale_distance" value="25"/>
+			  <property name="color" value="115, 111, 227,255"/>
+			  <property name="has_pulse" value="true"/>
+			  <property name="text_type" value="Distance"/>
+			  <property name="offset" value="0,2.4,0" />
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="FuriousRamsayTrainerMadman">
+			<map_settings>
+			  <property name="sprite_name" value="ui_game_symbol_skills"/>
+			  <property name="min_distance" value="0"/>
+			  <property name="max_distance" value="-1"/>
+			  <property name="color" value="232, 162, 118,255"/>
+			  <property name="has_pulse" value="true"/>
+			</map_settings>
+			<compass_settings>
+				<property name="sprite_name" value="ui_game_symbol_skills"/>
+				<property name="min_distance" value="5"/>
+				<property name="max_distance" value="-1"/>
+				<property name="max_scale_distance" value="32"/>
+				<property name="color" value="232, 162, 118,255"/>
+				<property name="has_pulse" value="true"/>
+				<property name="icon_clamped" value="false" />
+			</compass_settings>
+			<onscreen_settings>
+			  <property name="sprite_name" value="ui_game_symbol_skills"/>
+			  <property name="min_distance" value="5"/>
+			  <property name="max_distance" value="100"/>
+  			  <property name="max_scale_distance" value="25"/>
+			  <property name="color" value="232, 162, 118,255"/>
+			  <property name="has_pulse" value="true"/>
+			  <property name="text_type" value="Distance"/>
+			  <property name="offset" value="0,2.4,0" />
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="FuriousRamsayTrainerBuilder">
+			<map_settings>
+			  <property name="sprite_name" value="ui_game_symbol_skills"/>
+			  <property name="min_distance" value="0"/>
+			  <property name="max_distance" value="-1"/>
+			  <property name="color" value="194, 86, 252,255"/>
+			  <property name="has_pulse" value="true"/>
+			</map_settings>
+			<compass_settings>
+				<property name="sprite_name" value="ui_game_symbol_skills"/>
+				<property name="min_distance" value="5"/>
+				<property name="max_distance" value="-1"/>
+				<property name="max_scale_distance" value="32"/>
+				<property name="color" value="194, 86, 252,255"/>
+				<property name="has_pulse" value="true"/>
+				<property name="icon_clamped" value="false" />
+			</compass_settings>
+			<onscreen_settings>
+			  <property name="sprite_name" value="ui_game_symbol_skills"/>
+			  <property name="min_distance" value="5"/>
+			  <property name="max_distance" value="100"/>
+  			  <property name="max_scale_distance" value="25"/>
+			  <property name="color" value="194, 86, 252,255"/>
+			  <property name="has_pulse" value="true"/>
+			  <property name="text_type" value="Distance"/>
+			  <property name="offset" value="0,2.4,0" />
+			</onscreen_settings>
+		</nav_object_class>
+
+		<nav_object_class name="FuriousRamsayTrainerChef">
+			<map_settings>
+			  <property name="sprite_name" value="ui_game_symbol_skills"/>
+			  <property name="min_distance" value="0"/>
+			  <property name="max_distance" value="-1"/>
+			  <property name="color" value="80, 80, 80,255"/>
+			  <property name="has_pulse" value="true"/>
+			</map_settings>
+			<compass_settings>
+				<property name="sprite_name" value="ui_game_symbol_skills"/>
+				<property name="min_distance" value="5"/>
+				<property name="max_distance" value="-1"/>
+				<property name="max_scale_distance" value="32"/>
+				<property name="color" value="80, 80, 80,255"/>
+				<property name="has_pulse" value="true"/>
+				<property name="icon_clamped" value="false" />
+			</compass_settings>
+			<onscreen_settings>
+			  <property name="sprite_name" value="ui_game_symbol_skills"/>
+			  <property name="min_distance" value="5"/>
+			  <property name="max_distance" value="100"/>
+  			  <property name="max_scale_distance" value="25"/>
+			  <property name="color" value="80, 80, 80,255"/>
+			  <property name="has_pulse" value="true"/>
+			  <property name="text_type" value="Distance"/>
+			  <property name="offset" value="0,2.4,0" />
+			</onscreen_settings>
+		</nav_object_class>
+
+	</append>
+	
+</Config>

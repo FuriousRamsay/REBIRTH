@@ -1,0 +1,6 @@
+<configs>
+
+	<!-- SET DESPAWN TIME FOR ZOMBIE CORPSES (IN SECONDS) -->
+	<setattribute xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='TimeStayAfterDeath']" name="value">60</setattribute>
+
+</configs>

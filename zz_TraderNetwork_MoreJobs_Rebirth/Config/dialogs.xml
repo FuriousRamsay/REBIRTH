@@ -1,0 +1,590 @@
+<Config>
+
+	<remove xpath="/dialogs/dialog[@id='GenericNPC']/statement[@id='start']/response_entry[@id='TellMe']"/>
+	<remove xpath="/dialogs/dialog[@id='GenericNPC']/statement[@id='start']/response_entry[@id='Wander']"/>
+	<remove xpath="/dialogs/dialog[@id='GenericNPC']/statement[@id='start']/response_entry[@id='SetPatrol']"/>
+	<remove xpath="/dialogs/dialog[@id='GenericNPC']/statement[@id='start']/response_entry[@id='SetCode']"/>
+	<remove xpath="/dialogs/dialog[@id='GenericNPC']/statement[@id='start']/response_entry[@id='Patrol']"/>
+
+	<append xpath="/dialogs" >
+
+		<dialog id="FuriousRamsayMedicalAndroid" startstatementid="startStatement">
+			<!-- Statements -->
+			<statement id="startStatement" text="dialog_FuriousRamsayMedicalAndroid_statement_start">
+				<response_entry id="shopResponse" />
+				<response_entry id="doneResponse" />
+			</statement>
+			
+			<!-- Responses -->
+			<response id="shopResponse" text="dialog_trader_response_shop">
+				<action type="Trader" id="trade" />
+			</response>
+		
+			<response id="nevermindResponse" text="dialog_trader_response_nevermind" nextstatementid="startStatement" />
+			
+			<response id="doneResponse" text="dialog_trader_response_nevermind" />
+		
+		</dialog>
+
+		<dialog id="FuriousRamsaySurvivalSpecialist" startstatementid="startStatement">
+			<!-- Statements -->
+			<statement id="startStatement" text="dialog_FuriousRamsaySurvivalSpecialist_statement_start">
+				<response_entry id="shopResponse" />
+				<response_entry id="doneResponse" />
+			</statement>
+			
+			<!-- Responses -->
+			<response id="shopResponse" text="dialog_trader_response_shop">
+				<action type="Trader" id="trade" />
+			</response>
+		
+			<response id="nevermindResponse" text="dialog_trader_response_nevermind" nextstatementid="startStatement" />
+			
+			<response id="doneResponse" text="dialog_trader_response_nevermind" />
+		
+		</dialog>
+			
+		<dialog id="FuriousRamsaySurvivalSpecialist1" startstatementid="startStatement">
+			<!-- Statements -->
+			<statement id="startStatement" text="dialog_FuriousRamsaySurvivalSpecialist1_statement_start">
+				<!--<response_entry id="jobsnoneResponse" />-->
+				<response_entry id="questionsResponse" />
+				<!--<response_entry id="jobshaveResponse" />-->
+				<response_entry id="doneResponse" />
+			</statement>
+		
+			<statement id="questionsStatement" text="dialog_FuriousRamsaySurvivalSpecialist1_statement_questions">
+				<response_entry id="whyhelpmeResponse" />
+				<!--<response_entry id="whatnowResponse" />-->
+				<response_entry id="nevermindResponse" />
+			</statement>
+		
+			<statement id="whyhelpmeStatement" text="dialog_FuriousRamsaySurvivalSpecialist1_statement_whyhelpme" nextstatementid="questionsStatement" />
+			<statement id="whatnowStatement" text="dialog_FuriousRamsaySurvivalSpecialist1_statement_whatnow" nextstatementid="questionsStatement" />
+		
+			<statement id="tasksStatement" text="dialog_FuriousRamsaySurvivalSpecialist1_statement_tasks" nextstatementid="startStatement" >
+				<quest_entry listindex="0" />
+				<quest_entry listindex="1" />
+				<quest_entry listindex="2" />
+				<quest_entry listindex="3" />
+				<quest_entry listindex="4" />
+				<response_entry id="resetquests" />
+				<response_entry id="nevermindResponse" />
+			</statement>
+		
+			<statement id="nojobsStatement" text="dialog_trader_statement_nojobs" nextstatementid="startStatement" />
+		
+			<!-- Responses -->
+			<response id="jobsnoneResponse" text="dialog_trader_response_jobsnone" nextstatementid="nojobsStatement" >
+				<requirement type="QuestStatus" value="InProgress" requirementtype="Hide" />
+			</response>
+			<response id="jobshaveResponse" text="dialog_FuriousRamsaySurvivalSpecialist1_response_findshelter" nextstatementid="tasksStatement" >
+				<requirement type="QuestStatus" value="NotStarted" requirementtype="Hide" />
+			</response>
+		
+			<response id="questionsResponse" text="dialog_FuriousRamsaySurvivalSpecialist1_response_questions" nextstatementid="questionsStatement"/>
+		
+			<response id="whyhelpmeResponse" text="dialog_FuriousRamsaySurvivalSpecialist1_response_whyhelpme" nextstatementid="whyhelpmeStatement"/>
+			<response id="whatnowResponse" text="dialog_FuriousRamsaySurvivalSpecialist1_response_whatnow" nextstatementid="whatnowStatement"/>
+
+			<response id="nevermindResponse" text="dialog_trader_response_nevermind" nextstatementid="startStatement" />
+				
+			<response id="doneResponse" text="dialog_trader_response_nevermind" />
+		
+			<response id="resetquests" text="dialog_FuriousRamsaySurvivalSpecialist1_response_MoreLocations">
+				<action type="Trader" id="reset_quests" />
+			</response>
+		
+		</dialog>
+
+		<dialog id="FuriousRamsayHunterTrainer" startstatementid="start">
+			<!-- Statements -->
+			<statement id="start" text="dialog_FuriousRamsayBlackShieldTrader_statement_start">
+				<response_entry id="shop" />
+				<!--<response_entry id="jobsnone" />
+				<response_entry id="jobshave" />-->
+				<!--<response_entry id="background" />-->
+				<response_entry id="done" />
+			</statement>
+		
+			<statement id="background" text="dialog_FuriousRamsayBlackShieldTrader_statement_background">
+				<response_entry id="placeholder" />
+				<response_entry id="nevermind" />
+			</statement>
+		
+			<statement id="placeholder" text="dialog_FuriousRamsayHunterTrainder_statement_placeholder" nextstatementid="background" />
+		
+			<statement id="currentjobs" text="dialog_trader_statement_currentjobs" nextstatementid="start" >
+				<quest_entry listindex="0" />
+				<quest_entry listindex="1" />
+				<quest_entry listindex="2" />
+				<quest_entry listindex="3" />
+				<quest_entry listindex="4" />
+				<response_entry id="FuriousRamsayOtherTraining" />
+			</statement>
+		
+			<response id="FuriousRamsayOtherTraining" text="dialog_FuriousRamsayTrainers_response_OtherTraining">
+				<action type="Trader" id="reset_quests" />
+			</response>
+		
+			<statement id="nojobs" text="dialog_trader_statement_nojobs" nextstatementid="start" />
+				
+			<!-- Responses -->
+			<response id="shop" text="dialog_trader_response_shop">
+				<action type="Trader" id="trade" />
+			</response>
+		
+			<response id="jobsnone" text="dialog_trader_response_jobsnone" nextstatementid="nojobs" >
+				<requirement type="QuestStatus" value="InProgress" requirementtype="Hide" />
+			</response>
+			<response id="jobshave" text="dialog_trader_response_jobshave" nextstatementid="currentjobs" >
+				<requirement type="QuestStatus" value="NotStarted" requirementtype="Hide" />
+				<action type="AddJournalEntry" id="questTip" />
+			</response>
+		
+			<response id="specialjobshave" text="dialog_trader_response_specialjobshave" nextstatementid="currentjobsspecial" >
+				<requirement type="QuestStatus" value="NotStarted" requirementtype="Hide" tag="special" />
+				<requirement type="QuestsAvailable" value="special" requirementtype="Hide" />
+				<action type="AddJournalEntry" id="questTip" />
+			</response>
+		
+			<response id="background" text="dialog_trader_response_background" nextstatementid="background"/>
+		
+			<response id="placeholder" text="dialog_FuriousRamsayHunterTrainder_response_placeholder" nextstatementid="placeholder"/>
+
+			<response id="nevermind" text="dialog_trader_response_nevermind" nextstatementid="start" />
+				
+			<response id="done" text="dialog_trader_response_nevermind" />
+		
+		</dialog>
+		
+		<dialog id="FuriousRamsayThugTrainer" startstatementid="start">
+			<!-- Statements -->
+			<statement id="start" text="dialog_FuriousRamsayBlackShieldTrader_statement_start">
+				<response_entry id="shop" />
+				<!--<response_entry id="jobsnone" />
+				<response_entry id="jobshave" />-->
+				<!--<response_entry id="background" />-->
+				<response_entry id="done" />
+			</statement>
+		
+			<statement id="background" text="dialog_FuriousRamsayBlackShieldTrader_statement_background">
+				<response_entry id="placeholder" />
+				<response_entry id="nevermind" />
+			</statement>
+		
+			<statement id="placeholder" text="dialog_FuriousRamsayThugTrainder_statement_placeholder" nextstatementid="background" />
+		
+			<statement id="currentjobs" text="dialog_trader_statement_currentjobs" nextstatementid="start" >
+				<quest_entry listindex="0" />
+				<quest_entry listindex="1" />
+				<quest_entry listindex="2" />
+				<quest_entry listindex="3" />
+				<quest_entry listindex="4" />
+				<response_entry id="FuriousRamsayOtherTraining" />
+			</statement>
+		
+			<response id="FuriousRamsayOtherTraining" text="dialog_FuriousRamsayTrainers_response_OtherTraining">
+				<action type="Trader" id="reset_quests" />
+			</response>
+		
+			<statement id="nojobs" text="dialog_trader_statement_nojobs" nextstatementid="start" />
+				
+			<!-- Responses -->
+			<response id="shop" text="dialog_trader_response_shop">
+				<action type="Trader" id="trade" />
+			</response>
+		
+			<response id="jobsnone" text="dialog_trader_response_jobsnone" nextstatementid="nojobs" >
+				<requirement type="QuestStatus" value="InProgress" requirementtype="Hide" />
+			</response>
+			<response id="jobshave" text="dialog_trader_response_jobshave" nextstatementid="currentjobs" >
+				<requirement type="QuestStatus" value="NotStarted" requirementtype="Hide" />
+				<action type="AddJournalEntry" id="questTip" />
+			</response>
+		
+			<response id="specialjobshave" text="dialog_trader_response_specialjobshave" nextstatementid="currentjobsspecial" >
+				<requirement type="QuestStatus" value="NotStarted" requirementtype="Hide" tag="special" />
+				<requirement type="QuestsAvailable" value="special" requirementtype="Hide" />
+				<action type="AddJournalEntry" id="questTip" />
+			</response>
+		
+			<response id="background" text="dialog_trader_response_background" nextstatementid="background"/>
+		
+			<response id="placeholder" text="dialog_FuriousRamsayThugTrainder_response_placeholder" nextstatementid="placeholder"/>
+
+			<response id="nevermind" text="dialog_trader_response_nevermind" nextstatementid="start" />
+				
+			<response id="done" text="dialog_trader_response_nevermind" />
+		
+		</dialog>
+		
+		<dialog id="FuriousRamsayButcherTrainer" startstatementid="start">
+			<!-- Statements -->
+			<statement id="start" text="dialog_FuriousRamsayBlackShieldTrader_statement_start">
+				<response_entry id="shop" />
+				<!--<response_entry id="jobsnone" />
+				<response_entry id="jobshave" />-->
+				<!--<response_entry id="background" />-->
+				<response_entry id="done" />
+			</statement>
+		
+			<statement id="background" text="dialog_FuriousRamsayBlackShieldTrader_statement_background">
+				<response_entry id="placeholder" />
+				<response_entry id="nevermind" />
+			</statement>
+		
+			<statement id="placeholder" text="dialog_FuriousRamsayButcherTrainder_statement_placeholder" nextstatementid="background" />
+		
+			<statement id="currentjobs" text="dialog_trader_statement_currentjobs" nextstatementid="start" >
+				<quest_entry listindex="0" />
+				<quest_entry listindex="1" />
+				<quest_entry listindex="2" />
+				<quest_entry listindex="3" />
+				<quest_entry listindex="4" />
+				<response_entry id="FuriousRamsayOtherTraining" />
+			</statement>
+		
+			<response id="FuriousRamsayOtherTraining" text="dialog_FuriousRamsayTrainers_response_OtherTraining">
+				<action type="Trader" id="reset_quests" />
+			</response>
+		
+			<statement id="nojobs" text="dialog_trader_statement_nojobs" nextstatementid="start" />
+				
+			<!-- Responses -->
+			<response id="shop" text="dialog_trader_response_shop">
+				<action type="Trader" id="trade" />
+			</response>
+		
+			<response id="jobsnone" text="dialog_trader_response_jobsnone" nextstatementid="nojobs" >
+				<requirement type="QuestStatus" value="InProgress" requirementtype="Hide" />
+			</response>
+			<response id="jobshave" text="dialog_trader_response_jobshave" nextstatementid="currentjobs" >
+				<requirement type="QuestStatus" value="NotStarted" requirementtype="Hide" />
+				<action type="AddJournalEntry" id="questTip" />
+			</response>
+		
+			<response id="specialjobshave" text="dialog_trader_response_specialjobshave" nextstatementid="currentjobsspecial" >
+				<requirement type="QuestStatus" value="NotStarted" requirementtype="Hide" tag="special" />
+				<requirement type="QuestsAvailable" value="special" requirementtype="Hide" />
+				<action type="AddJournalEntry" id="questTip" />
+			</response>
+		
+			<response id="background" text="dialog_trader_response_background" nextstatementid="background"/>
+		
+			<response id="placeholder" text="dialog_FuriousRamsayButcherTrainder_response_placeholder" nextstatementid="placeholder"/>
+
+			<response id="nevermind" text="dialog_trader_response_nevermind" nextstatementid="start" />
+				
+			<response id="done" text="dialog_trader_response_nevermind" />
+		
+		</dialog>
+		
+		<dialog id="FuriousRamsaySoldierTrainer" startstatementid="start">
+			<!-- Statements -->
+			<statement id="start" text="dialog_FuriousRamsayBlackShieldTrader_statement_start">
+				<response_entry id="shop" />
+				<!--<response_entry id="jobsnone" />
+				<response_entry id="jobshave" />-->
+				<!--<response_entry id="background" />-->
+				<response_entry id="done" />
+			</statement>
+		
+			<statement id="background" text="dialog_FuriousRamsayBlackShieldTrader_statement_background">
+				<response_entry id="placeholder" />
+				<response_entry id="nevermind" />
+			</statement>
+		
+			<statement id="placeholder" text="dialog_FuriousRamsaySoldierTrainder_statement_placeholder" nextstatementid="background" />
+		
+			<statement id="currentjobs" text="dialog_trader_statement_currentjobs" nextstatementid="start" >
+				<quest_entry listindex="0" />
+				<quest_entry listindex="1" />
+				<quest_entry listindex="2" />
+				<quest_entry listindex="3" />
+				<quest_entry listindex="4" />
+				<response_entry id="FuriousRamsayOtherTraining" />
+			</statement>
+		
+			<response id="FuriousRamsayOtherTraining" text="dialog_FuriousRamsayTrainers_response_OtherTraining">
+				<action type="Trader" id="reset_quests" />
+			</response>
+		
+			<statement id="nojobs" text="dialog_trader_statement_nojobs" nextstatementid="start" />
+				
+			<!-- Responses -->
+			<response id="shop" text="dialog_trader_response_shop">
+				<action type="Trader" id="trade" />
+			</response>
+		
+			<response id="jobsnone" text="dialog_trader_response_jobsnone" nextstatementid="nojobs" >
+				<requirement type="QuestStatus" value="InProgress" requirementtype="Hide" />
+			</response>
+			<response id="jobshave" text="dialog_trader_response_jobshave" nextstatementid="currentjobs" >
+				<requirement type="QuestStatus" value="NotStarted" requirementtype="Hide" />
+				<action type="AddJournalEntry" id="questTip" />
+			</response>
+		
+			<response id="specialjobshave" text="dialog_trader_response_specialjobshave" nextstatementid="currentjobsspecial" >
+				<requirement type="QuestStatus" value="NotStarted" requirementtype="Hide" tag="special" />
+				<requirement type="QuestsAvailable" value="special" requirementtype="Hide" />
+				<action type="AddJournalEntry" id="questTip" />
+			</response>
+		
+			<response id="background" text="dialog_trader_response_background" nextstatementid="background"/>
+		
+			<response id="placeholder" text="dialog_FuriousRamsaySoldierTrainder_response_placeholder" nextstatementid="placeholder"/>
+
+			<response id="nevermind" text="dialog_trader_response_nevermind" nextstatementid="start" />
+				
+			<response id="done" text="dialog_trader_response_nevermind" />
+		
+		</dialog>
+		
+		<dialog id="FuriousRamsayTechnogeekTrainer" startstatementid="start">
+			<!-- Statements -->
+			<statement id="start" text="dialog_FuriousRamsayBlackShieldTrader_statement_start">
+				<response_entry id="shop" />
+				<!--<response_entry id="jobsnone" />
+				<response_entry id="jobshave" />-->
+				<!--<response_entry id="background" />-->
+				<response_entry id="done" />
+			</statement>
+		
+			<statement id="background" text="dialog_FuriousRamsayBlackShieldTrader_statement_background">
+				<response_entry id="placeholder" />
+				<response_entry id="nevermind" />
+			</statement>
+		
+			<statement id="placeholder" text="dialog_FuriousRamsayTechnogeekTrainder_statement_placeholder" nextstatementid="background" />
+		
+			<statement id="currentjobs" text="dialog_trader_statement_currentjobs" nextstatementid="start" >
+				<quest_entry listindex="0" />
+				<quest_entry listindex="1" />
+				<quest_entry listindex="2" />
+				<quest_entry listindex="3" />
+				<quest_entry listindex="4" />
+				<response_entry id="FuriousRamsayOtherTraining" />
+			</statement>
+		
+			<response id="FuriousRamsayOtherTraining" text="dialog_FuriousRamsayTrainers_response_OtherTraining">
+				<action type="Trader" id="reset_quests" />
+			</response>
+		
+			<statement id="nojobs" text="dialog_trader_statement_nojobs" nextstatementid="start" />
+				
+			<!-- Responses -->
+			<response id="shop" text="dialog_trader_response_shop">
+				<action type="Trader" id="trade" />
+			</response>
+		
+			<response id="jobsnone" text="dialog_trader_response_jobsnone" nextstatementid="nojobs" >
+				<requirement type="QuestStatus" value="InProgress" requirementtype="Hide" />
+			</response>
+			<response id="jobshave" text="dialog_trader_response_jobshave" nextstatementid="currentjobs" >
+				<requirement type="QuestStatus" value="NotStarted" requirementtype="Hide" />
+				<action type="AddJournalEntry" id="questTip" />
+			</response>
+		
+			<response id="specialjobshave" text="dialog_trader_response_specialjobshave" nextstatementid="currentjobsspecial" >
+				<requirement type="QuestStatus" value="NotStarted" requirementtype="Hide" tag="special" />
+				<requirement type="QuestsAvailable" value="special" requirementtype="Hide" />
+				<action type="AddJournalEntry" id="questTip" />
+			</response>
+		
+			<response id="background" text="dialog_trader_response_background" nextstatementid="background"/>
+		
+			<response id="placeholder" text="dialog_FuriousRamsayTechnogeekTrainder_response_placeholder" nextstatementid="placeholder"/>
+
+			<response id="nevermind" text="dialog_trader_response_nevermind" nextstatementid="start" />
+				
+			<response id="done" text="dialog_trader_response_nevermind" />
+		
+		</dialog>
+		
+		<dialog id="FuriousRamsayMadmanTrainer" startstatementid="start">
+			<!-- Statements -->
+			<statement id="start" text="dialog_FuriousRamsayBlackShieldTrader_statement_start">
+				<response_entry id="shop" />
+				<!--<response_entry id="jobsnone" />
+				<response_entry id="jobshave" />-->
+				<!--<response_entry id="background" />-->
+				<response_entry id="done" />
+			</statement>
+		
+			<statement id="background" text="dialog_FuriousRamsayBlackShieldTrader_statement_background">
+				<response_entry id="placeholder" />
+				<response_entry id="nevermind" />
+			</statement>
+		
+			<statement id="placeholder" text="dialog_FuriousRamsayMadmanTrainder_statement_placeholder" nextstatementid="background" />
+		
+			<statement id="currentjobs" text="dialog_trader_statement_currentjobs" nextstatementid="start" >
+				<quest_entry listindex="0" />
+				<quest_entry listindex="1" />
+				<quest_entry listindex="2" />
+				<quest_entry listindex="3" />
+				<quest_entry listindex="4" />
+				<response_entry id="FuriousRamsayOtherTraining" />
+			</statement>
+		
+			<response id="FuriousRamsayOtherTraining" text="dialog_FuriousRamsayTrainers_response_OtherTraining">
+				<action type="Trader" id="reset_quests" />
+			</response>
+		
+			<statement id="nojobs" text="dialog_trader_statement_nojobs" nextstatementid="start" />
+				
+			<!-- Responses -->
+			<response id="shop" text="dialog_trader_response_shop">
+				<action type="Trader" id="trade" />
+			</response>
+		
+			<response id="jobsnone" text="dialog_trader_response_jobsnone" nextstatementid="nojobs" >
+				<requirement type="QuestStatus" value="InProgress" requirementtype="Hide" />
+			</response>
+			<response id="jobshave" text="dialog_trader_response_jobshave" nextstatementid="currentjobs" >
+				<requirement type="QuestStatus" value="NotStarted" requirementtype="Hide" />
+				<action type="AddJournalEntry" id="questTip" />
+			</response>
+		
+			<response id="specialjobshave" text="dialog_trader_response_specialjobshave" nextstatementid="currentjobsspecial" >
+				<requirement type="QuestStatus" value="NotStarted" requirementtype="Hide" tag="special" />
+				<requirement type="QuestsAvailable" value="special" requirementtype="Hide" />
+				<action type="AddJournalEntry" id="questTip" />
+			</response>
+		
+			<response id="background" text="dialog_trader_response_background" nextstatementid="background"/>
+		
+			<response id="placeholder" text="dialog_FuriousRamsayMadmanTrainder_response_placeholder" nextstatementid="placeholder"/>
+
+			<response id="nevermind" text="dialog_trader_response_nevermind" nextstatementid="start" />
+				
+			<response id="done" text="dialog_trader_response_nevermind" />
+		
+		</dialog>
+		
+		<dialog id="FuriousRamsayBuilderTrainer" startstatementid="start">
+			<!-- Statements -->
+			<statement id="start" text="dialog_FuriousRamsayBlackShieldTrader_statement_start">
+				<response_entry id="shop" />
+				<!--<response_entry id="jobsnone" />
+				<response_entry id="jobshave" />-->
+				<!--<response_entry id="background" />-->
+				<response_entry id="done" />
+			</statement>
+		
+			<statement id="background" text="dialog_FuriousRamsayBlackShieldTrader_statement_background">
+				<response_entry id="placeholder" />
+				<response_entry id="nevermind" />
+			</statement>
+		
+			<statement id="placeholder" text="dialog_FuriousRamsayBuilderTrainder_statement_placeholder" nextstatementid="background" />
+		
+			<statement id="currentjobs" text="dialog_trader_statement_currentjobs" nextstatementid="start" >
+				<quest_entry listindex="0" />
+				<quest_entry listindex="1" />
+				<quest_entry listindex="2" />
+				<quest_entry listindex="3" />
+				<quest_entry listindex="4" />
+				<response_entry id="FuriousRamsayOtherTraining" />
+			</statement>
+		
+			<response id="FuriousRamsayOtherTraining" text="dialog_FuriousRamsayTrainers_response_OtherTraining">
+				<action type="Trader" id="reset_quests" />
+			</response>
+		
+			<statement id="nojobs" text="dialog_trader_statement_nojobs" nextstatementid="start" />
+				
+			<!-- Responses -->
+			<response id="shop" text="dialog_trader_response_shop">
+				<action type="Trader" id="trade" />
+			</response>
+		
+			<response id="jobsnone" text="dialog_trader_response_jobsnone" nextstatementid="nojobs" >
+				<requirement type="QuestStatus" value="InProgress" requirementtype="Hide" />
+			</response>
+			<response id="jobshave" text="dialog_trader_response_jobshave" nextstatementid="currentjobs" >
+				<requirement type="QuestStatus" value="NotStarted" requirementtype="Hide" />
+				<action type="AddJournalEntry" id="questTip" />
+			</response>
+		
+			<response id="specialjobshave" text="dialog_trader_response_specialjobshave" nextstatementid="currentjobsspecial" >
+				<requirement type="QuestStatus" value="NotStarted" requirementtype="Hide" tag="special" />
+				<requirement type="QuestsAvailable" value="special" requirementtype="Hide" />
+				<action type="AddJournalEntry" id="questTip" />
+			</response>
+		
+			<response id="background" text="dialog_trader_response_background" nextstatementid="background"/>
+		
+			<response id="placeholder" text="dialog_FuriousRamsayBuilderTrainder_response_placeholder" nextstatementid="placeholder"/>
+
+			<response id="nevermind" text="dialog_trader_response_nevermind" nextstatementid="start" />
+				
+			<response id="done" text="dialog_trader_response_nevermind" />
+		
+		</dialog>
+		
+		<dialog id="FuriousRamsayChefTrainer" startstatementid="start">
+			<!-- Statements -->
+			<statement id="start" text="dialog_FuriousRamsayBlackShieldTrader_statement_start">
+				<response_entry id="shop" />
+				<!--<response_entry id="jobsnone" />
+				<response_entry id="jobshave" />-->
+				<!--<response_entry id="background" />-->
+				<response_entry id="done" />
+			</statement>
+		
+			<statement id="background" text="dialog_FuriousRamsayBlackShieldTrader_statement_background">
+				<response_entry id="placeholder" />
+				<response_entry id="nevermind" />
+			</statement>
+		
+			<statement id="placeholder" text="dialog_FuriousRamsayChefTrainder_statement_placeholder" nextstatementid="background" />
+		
+			<statement id="currentjobs" text="dialog_trader_statement_currentjobs" nextstatementid="start" >
+				<quest_entry listindex="0" />
+				<quest_entry listindex="1" />
+				<quest_entry listindex="2" />
+				<quest_entry listindex="3" />
+				<quest_entry listindex="4" />
+				<response_entry id="FuriousRamsayOtherTraining" />
+			</statement>
+		
+			<response id="FuriousRamsayOtherTraining" text="dialog_FuriousRamsayTrainers_response_OtherTraining">
+				<action type="Trader" id="reset_quests" />
+			</response>
+		
+			<statement id="nojobs" text="dialog_trader_statement_nojobs" nextstatementid="start" />
+				
+			<!-- Responses -->
+			<response id="shop" text="dialog_trader_response_shop">
+				<action type="Trader" id="trade" />
+			</response>
+		
+			<response id="jobsnone" text="dialog_trader_response_jobsnone" nextstatementid="nojobs" >
+				<requirement type="QuestStatus" value="InProgress" requirementtype="Hide" />
+			</response>
+			<response id="jobshave" text="dialog_trader_response_jobshave" nextstatementid="currentjobs" >
+				<requirement type="QuestStatus" value="NotStarted" requirementtype="Hide" />
+				<action type="AddJournalEntry" id="questTip" />
+			</response>
+		
+			<response id="specialjobshave" text="dialog_trader_response_specialjobshave" nextstatementid="currentjobsspecial" >
+				<requirement type="QuestStatus" value="NotStarted" requirementtype="Hide" tag="special" />
+				<requirement type="QuestsAvailable" value="special" requirementtype="Hide" />
+				<action type="AddJournalEntry" id="questTip" />
+			</response>
+		
+			<response id="background" text="dialog_trader_response_background" nextstatementid="background"/>
+		
+			<response id="placeholder" text="dialog_FuriousRamsayChefTrainder_response_placeholder" nextstatementid="placeholder"/>
+
+			<response id="nevermind" text="dialog_trader_response_nevermind" nextstatementid="start" />
+				
+			<response id="done" text="dialog_trader_response_nevermind" />
+		
+		</dialog>
+	
+	</append>
+	
+</Config>

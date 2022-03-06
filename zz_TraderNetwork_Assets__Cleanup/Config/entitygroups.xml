@@ -1,0 +1,7 @@
+<Config>
+	
+	<remove xpath="/entitygroups/entitygroup[starts-with(@name, 'npc')]" />
+	<remove xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'npc')]" />
+	<remove xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'zombieFemaleTutorial')]" />
+	
+</Config>

@@ -1,0 +1,5 @@
+<Config>
+
+	<remove xpath="/blocks/block/property[@name='PickupJournalEntry']"/>
+
+</Config>

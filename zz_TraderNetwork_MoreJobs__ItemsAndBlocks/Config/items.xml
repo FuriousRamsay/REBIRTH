@@ -1,0 +1,589 @@
+<Config>
+
+	<append xpath="/items">
+
+		<item name="FuriousRamsayStormBreaker">
+			<property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer"/>
+			<property name="CustomIconTint" value="70, 182, 219"/>
+			<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,meleeWeapon,longShaft,attStrength,perkSkullCrusher,canHaveCosmetic"/>
+			<property name="DisplayType" value="meleeHeavy"/>
+			<property name="HoldType" value="33"/>
+			<property name="Meshfile" value="#Other/Items?Weapons/Melee/SledgeHammer/steelSledgeHammerPrefab.prefab"/>
+			<property name="Material" value="MmeleeWpnSledgeParts"/>
+			<!--<property name="RepairTools" value="resourceRepairKit"/>-->
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property name="SoundJammed" value="ItemNeedsRepair"/>
+			<property name="SoundDestroy" value="metaldestroy1"/>
+			<property name="EconomicValue" value="10000"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Ammo/Weapons"/>
+			<property name="ShowQuality" value="false"/>
+			<property name="Stacknumber" value="1"/>
+
+			<property name="StickyMaterial" value="#Other/Items?Weapons/Melee/SledgeHammer/steelSledgeHammer/Materials/steelSledgeHammer.mat"/>
+
+			<property name="IsSticky" value="True"/>
+			<property name="StickyOffset" value="0.35"/>
+			<property name="StickyColliderUp" value="1"/>
+			<property name="StickyColliderRadius" value=".1"/>
+			<property name="StickyColliderLength" value="2.1"/>
+			<property name="StickyForwardDirection" value="0,0,1"/>
+
+			<property name="NavObject" value="FuriousRamsayStormBreaker"/>
+
+			<property class="Action0">
+				<property name="Class" value="DynamicMelee"/>
+				<property name="Sphere" value=".15"/>
+				<property name="Sound_start" value="sledge_swinglight"/>
+				<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+				<property name="UseGrazingHits" value="true"/>
+				<property name="GrazeStart" value=".515"/>
+				<property name="GrazeEnd" value=".52"/>
+				<property name="SwingDegrees" value="65"/>
+				<property name="SwingAngle" value="160"/>
+				<property class="HitSounds">
+					<property name="Override0" value="organic" param1="metalsolidhitorganic"/>
+				</property>
+				<property class="GrazeSounds">
+					<property name="Override0" value="organic" param1="metalgrazeorganic"/>
+				</property>
+			</property>
+			<property class="Action1">
+				<requirement name="StatCompareCurrent" stat="Stamina" operation="GTE" value="20.1"/>
+				<property name="Class" value="ThrownWeapon"/>
+				<property name="Hitmask_override" value="Bullet"/>
+				<property name="Delay" value="1.2"/>
+				<property name="Throw_strength_default" value="15"/>
+				<property name="Throw_strength_max" value="30"/>
+				<property name="Max_strain_time" value="1"/>
+				<property name="Sound_start" value="spear_throw"/>
+
+				<property name="DamageEntity" value="20"/>
+				<property name="DamageBlock" value="50"/>
+				<property name="Explosion.ParticleIndex" value="0"/>
+
+				<property name="FlyTime" value="0.1"/>
+				<property name="Gravity" value="-7.5"/>
+				<property name="LifeTime" value="3600"/>
+				<property class="HitSounds">
+					<property name="Override0" value="organic" param1="metalstaborganic"/>
+				</property>
+			</property>
+			<effect_group name="FuriousRamsayStormBreaker">
+				<passive_effect tags="head" value="2" operation="perc_add" name="DamageModifier">
+					<requirement name="!EntityTagCompare" tags="metal"/>
+				</passive_effect>
+				<passive_effect name="DismemberChance" operation="base_set" value="1" tags="primary"/>
+				<passive_effect name="EntityDamage" operation="base_set" value="80" tags="perkSkullCrusher"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="85" tags="perkSkullCrusher"/>
+				<passive_effect name="AttacksPerMinute" operation="base_set" value="60" tags="primary"/>
+				<passive_effect name="AttacksPerMinute" operation="base_set" value="35" tags="secondary"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="40.5" tags="primary"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="1000,1500" tags="perkSkullCrusher"/>
+				<passive_effect name="DegradationPerUse" operation="base_set" value="0" tags="perkSkullCrusher"/>
+				<passive_effect name="MaxRange" operation="base_set" value="2.6" tags="perkSkullCrusher"/>
+				<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkSkullCrusher"/>
+
+				<passive_effect name="ModSlots" operation="base_set" value="5,6"/>
+				<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+
+				<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkSkullCrusher"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value=".3" tags="perkSkullCrusher"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkSkullCrusher"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value=".3" tags="perkSkullCrusher"/>
+
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.95" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="metal"/>
+
+				<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allHarvest"/>
+				<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allToolsHarvest"/>
+				<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="oreWoodHarvest"/>
+			</effect_group>
+			<effect_group name="FuriousRamsayStormBreakerEffects">
+				<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Sparks" prefab="ItemModEffects/baton_electricityPrefab" parentTransform="#HeldItemRoot" localPos="0,.3,-0.38" localRot="90,0,0"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="SparksB" prefab="ItemModEffects/baton_electricityPrefab" parentTransform="Handle" localPos="0,.42,-0.33" localRot="90,0,0"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="SparksC" prefab="ItemModEffects/baton_electricityPrefab" parentTransform="steelSledgehammer_LOD0" localPos="-.07,.36,-0.38" localRot="90,0,0"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="SparksD" prefab="ItemModEffects/baton_electricityPrefab" parentTransform="steelSledgehammer_LOD1" localPos=".07,.36,-0.38" localRot="90,0,0"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="SparksE" prefab="ItemModEffects/baton_electricityPrefab" parentTransform="steelSledgehammer_LOD2" localPos="0,-.34,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="SparksF" prefab="ParticleEffects/p_electric_shock_small" parentTransform="#HeldItemRoot" localPos="0,-.6,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="SparksG" prefab="ParticleEffects/p_electric_shock_small" parentTransform="Handle" localPos="0,-.86,0" localRot="0,0,0"/>
+
+				<triggered_effect trigger="onSelfDamagedBlock" action="AddBuff" buff="FuriousRamsayStormBreakerEffects"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" buff="FuriousRamsayStormBreakerEffects"/>
+
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Sparks"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="SparksB"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="SparksC"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="SparksD"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="SparksE"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="SparksF"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="SparksG"/>
+			</effect_group>
+			
+			<effect_group name="FuriousRamsayStormBreakerDebuff" tiered="false">
+					<triggered_effect trigger="onSelfDamagedBlock" action="AddBuff" target="positionAOE" range="3.5" buff="FuriousRamsayStormBreakerShockDamageAoE"/>
+					<triggered_effect trigger="onSelfDestroyedBlock" action="AddBuff" target="positionAOE" range="3.5" buff="FuriousRamsayStormBreakerShockDamageAoE"/>
+					<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="positionAOE" range="3.5" buff="FuriousRamsayStormBreakerShockDamageAoE"/>
+					<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="positionAOE" range="3.5" buff="FuriousRamsayStormBreakerKnockdownDamageAoE"/>
+					
+					<triggered_effect trigger="onProjectileImpact" target="positionAOE" range="3.5" action="Ragdoll" duration="5" force="10000">
+						<requirement name="!EntityTagCompare" tags="UMA,player,robot,trader"/>
+					</triggered_effect>
+					<triggered_effect trigger="onProjectileImpact" target="positionAOE" range="3.5" action="Ragdoll" duration="5" force="100">
+						<requirement name="EntityTagCompare" tags="UMA"/>
+						<requirement name="!EntityTagCompare" tags="player"/>
+					</triggered_effect>
+
+					<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="self" buff="FuriousRamsayShockSelfAoE">
+						<requirement name="WornItems" tags="FuriousRamsayArmorShock" operation="Equals" value="5"/>
+					</triggered_effect>
+					<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="self" buff="FuriousRamsayShockSelfAoE">
+						<requirement name="WornItems" tags="FuriousRamsayArmorFireShock" operation="Equals" value="5"/>
+					</triggered_effect>
+					<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="self" buff="FuriousRamsayShockSelfAoE">
+						<requirement name="WornItems" tags="FuriousRamsayArmorFireShockSmoke" operation="Equals" value="5"/>
+					</triggered_effect>
+			</effect_group>
+		</item>
+
+		<item name="FuriousRamsayAshChainsaw">
+			<property name="CustomIcon" value="meleeToolAxeT3Chainsaw"/>
+			<property name="CustomIconTint" value="120, 110, 110"/>
+			<property name="TintColor" value="120, 110, 110"/>
+			<property name="Tags" value="melee,heavy,tool,motorTool,attStrength,perkMiner69r,perkMotherLode,chainsaw,canHaveCosmetic"/>
+			<property name="DisplayType" value="motorTool"/>
+			<property name="HoldType" value="19"/>
+			<property name="Meshfile" value="#Other/Items?Weapons/Melee/Chainsaw/chainsaw.fbx"/>
+			<property name="Material" value="MMotorToolParts"/> <property name="Weight" value="6"/>
+			<!--<property name="RepairTools" value="resourceRepairKit"/>-->
+			<property name="SoundIdle" value="chainsaw_idle"/>
+			<property name="Group" value="Tools/Traps"/>
+			<property name="RepairExpMultiplier" value="10.8"/>
+			<property name="EconomicValue" value="10000"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="ShowQuality" value="false"/>
+			<property name="Stacknumber" value="1"/>
+
+			<property class="Action0">
+				<property name="Class" value="Ranged"/>
+				<property name="Hitmask_override" value="Melee"/>
+				<property name="UseMeleeCrosshair" value="true"/>
+				<property name="Single_magazine_usage" value="false"/>
+				<property name="Magazine_items" value="ammoGasCan"/>
+				<property name="Bullet_material" value="metal"/>
+				<property name="Reload_time" value="4.1"/>
+				<property name="Sound_start" value="FuriousRamsayAshChainsawStart"/>
+				<property name="Sound_empty" value="chainsaw_empty"/>
+				<property name="Sound_repeat" value="FuriousRamsayAshChainsawLP"/>
+				<property name="Sound_end" value="FuriousRamsayAshChainsawEnd"/>
+				<property name="Sound_reload" value="chainsaw_reload"/>
+				<property name="Particles_muzzle_smoke" value="nozzlesmoke_chainsaw"/>
+				<property name="DamageBonus.head" value="5"/>
+				<property name="SupportHarvesting" value="true"/>
+				<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
+			</property>
+
+			<effect_group name="FuriousRamsayAshChainsaw" tiered="false">
+				<passive_effect name="DismemberChance" operation="base_add" value="50">
+					<requirement name="!EntityTagCompare" tags="metal"/>
+				</passive_effect>
+				<passive_effect name="EntityDamage" operation="base_set" value="5"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="20"/>
+				<passive_effect name="RoundsPerMinute" operation="base_set" value="2000"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="1000"/>
+				<passive_effect name="DegradationPerUse" operation="base_set" value="0"/>
+				<passive_effect name="MaxRange" operation="base_set" value="2.5"/>
+				<passive_effect name="BlockRange" operation="base_set" value="3.5"/>
+
+				<passive_effect name="ModSlots" operation="base_set" value="5,6"/>
+				<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+
+				<passive_effect name="SphereCastRadius" operation="base_set" value=".1"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value=".3"/>
+
+				<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2"/>
+				<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05"/>
+				<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.122"/>
+				<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
+
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.85" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.85" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.85" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="wood"/>
+
+				<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
+				<passive_effect name="MagazineSize" operation="base_set" value="500"/>
+				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
+
+				<passive_effect name="SpreadDegreesVertical" operation="base_set" value=".5"/>
+				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value=".5"/>
+				<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="-.25"/>
+				<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".25"/>
+				<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.45"/>
+				<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".45"/>
+
+				<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1"/>
+				<passive_effect name="WeaponHandling" operation="base_set" value="5"/>
+			</effect_group>
+
+			<effect_group name="FuriousRamsayAshChainsawEffects" tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Sparks" prefab="ItemModEffects/mod_club_flamePrefab" parentTransform="#HeldItemRoot" localPos="0.07,-0.06,-0.02" localRot="0,90,90"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" particle="Sparks"/>
+			</effect_group>
+
+			<!--<effect_group name="FuriousRamsayAshChainsawDebuff" tiered="false">
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="FuriousRamsayAshChainsawBurningDamage"/>
+			</effect_group>-->
+		</item>
+
+		<item name="FuriousRamsayAshBoomStick">
+			<property name="CustomIcon" value="gunShotgunT1DoubleBarrel"/>
+			<property name="CustomIconTint" value="120, 110, 110"/>
+			<property name="TintColor" value="120, 110, 110"/>
+			<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,canHaveCosmetic"/>
+			<property name="DisplayType" value="rangedShotgun"/>
+			<property name="HoldType" value="56"/>
+			<property name="Meshfile" value="#Other/Items?Weapons/Ranged/DoubleBarrelShotgun/doubleBarrelShotgunPrefab.prefab"/>
+			<property name="Material" value="MShotgunParts"/> <property name="Weight" value="4"/>
+			<!--<property name="RepairTools" value="resourceRepairKit"/>-->
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property name="SoundJammed" value="weapon_jam"/>
+			<property name="Attachments" value="meleeToolFlashlight02"/>
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="CrosshairUpAfterShot" value="true"/>
+			<property name="Sound_Sight_In" value="rifle_sight_in"/>
+			<property name="Sound_Sight_Out" value="rifle_sight_out"/>
+			<property name="LightSource" value="lightSource"/>
+			<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
+			<property name="AttachmentFlashlight" value="meleeToolFlashlight02"/>
+			<property name="Group" value="Ammo/Weapons"/>
+			<property name="RepairExpMultiplier" value="10.8"/>
+			<property name="PickupJournalEntry" value="alternateAmmoTip"/>
+			<property name="LightValue" value=".45"/>
+			<property name="EconomicValue" value="10000"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="ShowQuality" value="false"/>
+			<property name="Stacknumber" value="1"/>
+			<property class="Action0">
+				<property name="Class" value="Ranged"/>
+				<property name="Delay" value="1"/>
+				<property name="Magazine_items" value="ammoShotgunShell,ammoShotgunSlug,ammoShotgunBreachingSlug"/>
+				<property name="Reload_time" value="1.5"/>
+				<property name="Sound_start" value="FuriousRamsayAshBoomstickFire"/>
+				<property name="Sound_repeat" value=""/>
+				<property name="Sound_end" value=""/>
+				<property name="Sound_empty" value="dryfire"/>
+				<property name="Particles_muzzle_fire" value="gunfire_doublebarrel"/>
+				<property name="Particles_muzzle_fire_fpv" value="gunfire_doublebarrel_fpv"/>
+				<property name="Particles_muzzle_smoke" value="gunfire_smoke"/>
+				<property name="Particles_muzzle_smoke_fpv" value="gunfire_smoke_fpv"/>
+				<property name="ScopeOffset" value="-.00062,.088,.065"/>
+				<property name="SideOffset" value="0,0,0"/>
+				<property name="BarrelOffset" value="0,0,0"/>
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+			</property>
+			<property class="Action1">
+				<property name="Class" value="Zoom"/>
+				<property name="Zoom_max_out" value="55"/>
+				<property name="Zoom_max_in" value="55"/>
+				<property name="ScopeCameraOffset" value="0,-.005,0"/>
+			</property>
+			<effect_group name="FuriousRamsayAshBoomStick">
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="varFuriousRamsayAshBoomStick" operation="set" value="1" />
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="varFuriousRamsayAshBoomStick" operation="set" value="0" />
+				
+				<passive_effect name="RoundsPerMinute" operation="base_set" value="160" tags="perkBoomstick"/>
+				<passive_effect name="MagazineSize" operation="base_set" value="6" tags="perkBoomstick"/>
+				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkBoomstick"/>
+				<passive_effect name="ModSlots" operation="base_set" value="5,6"/>
+				<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkBoomstick"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value=".3" tags="perkBoomstick"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkBoomstick"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value=".3" tags="perkBoomstick"/>
+
+				<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkBoomstick"/>
+				<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05" tags="perkBoomstick"/>
+				<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkBoomstick"/>
+
+				<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="1" tags="perkBoomstick"/>
+				<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="2" tags="perkBoomstick"/>
+				<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-1" tags="perkBoomstick"/>
+				<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="1" tags="perkBoomstick"/>
+
+				<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2" tags="perkBoomstick"/>
+				<passive_effect name="WeaponHandling" operation="base_set" value="1.7" tags="perkBoomstick"/>
+
+				<passive_effect name="DegradationMax" operation="base_set" value="1000" tags="perkBoomstick"/>
+				<passive_effect name="DegradationPerUse" operation="base_set" value="0" tags="perkBoomstick"/>
+				<display_value name="dStatStunEffect" value="4"/>
+			</effect_group>
+
+			<effect_group name="FuriousRamsayAshBoomStickEffects">
+				<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Sparks" prefab="#Other/Items?Tools/torch02.prefab" parentTransform="#HeldItemRoot" localPos="0.01,0.02,-0.24" localRot="0,90,90"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" particle="Sparks"/>
+
+				<!--<triggered_effect trigger="onReloadStart" action="RemovePart" particle="Sparks"/>
+				<triggered_effect trigger="onReloadStop" action="AddPart" part="Sparks" prefab="#Other/Items?Tools/torch02.prefab" parentTransform="#HeldItemRoot" localPos="0.01,0.02,-0.24" localRot="0,90,90"/>-->
+			</effect_group>
+
+			<effect_group name="FuriousRamsayAshBoomStickDebuff" tiered="false">
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="FuriousRamsayAshBoomStickDamage">
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="25"/>
+				</triggered_effect>
+			</effect_group>
+		</item>
+
+		<item name="FuriousRamsayBurningKnife">
+			<property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife"/>
+			<property name="CustomIconTint" value="168, 81, 91"/>
+			<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
+			<property name="DisplayType" value="FuriousRamsayJackal"/>
+			<property name="HoldType" value="36"/>
+			<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knives/hunting_knifePrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Weight" value="6"/>
+			<!--<property name="StickyMaterial" value="#Other/Items?Weapons/Melee/Knives/Materials/huntingKnife.mat"/>-->
+			<property name="EconomicValue" value="10000"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property name="SoundJammed" value="ItemNeedsRepair"/>
+			<property name="SoundDestroy" value="wooddestroy1"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="IsSticky" value="true"/>
+			<property name="StickyOffset" value="0"/>
+			<property name="StickyColliderUp" value="0"/>
+			<property name="StickyColliderRadius" value=".1"/>
+			<property name="StickyColliderLength" value="0.3"/>
+			<property name="StickyForwardDirection" value="0,0,1"/>
+			<property name="ShowQuality" value="false"/>
+			<property name="Group" value="Ammo/Weapons"/>
+			<property name="RepairExpMultiplier" value="5.5"/>
+			<property name="NavObject" value="FuriousRamsayBurningKnife"/>
+			<property name="Stacknumber" value="1"/>
+
+			<property class="Action0">
+				<property name="Class" value="DynamicMelee"/>
+				<property name="Damage_type" value="Slashing"/>
+				<property name="Sphere" value=".1"/>
+				<property name="Sound_start" value="swoosh"/>
+				<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+				<property name="ToolCategory.Butcher" value="0" param1="5"/>
+				<property name="UseGrazingHits" value="true"/>
+				<property name="GrazeStart" value=".25"/>
+				<property name="GrazeEnd" value=".35"/>
+				<property name="SwingDegrees" value="90"/>
+				<property name="SwingAngle" value="90"/>
+				<property class="HitSounds">
+					<property name="Override0" value="organic" param1="metalstaborganic"/>
+				</property>
+				<property class="GrazeSounds">
+					<property name="Override0" value="organic" param1="metalgrazeorganic"/>
+				</property>
+			</property>
+			<property class="Action1">
+				<requirement name="StatCompareCurrent" stat="Stamina" operation="GTE" value="26.25"/>
+				<property name="Class" value="ThrownWeapon"/>
+				<property name="Damage_type" value="Slashing"/>
+				<property name="Hitmask_override" value="Bullet"/>
+				<property name="Delay" value="0.05"/>
+				<property name="Throw_strength_default" value="20"/>
+				<property name="Throw_strength_max" value="20"/>
+				<property name="Max_strain_time" value="0.05"/>
+				<property name="Sound_start" value="spear_throw"/>
+				<property name="DamageEntity" value="50"/>
+				<property name="DamageBlock" value="1"/>
+				<property name="Explosion.ParticleIndex" value="0"/>
+				<property name="FlyTime" value="0.5"/>
+				<property name="Gravity" value="-2.5"/>
+				<property name="LifeTime" value="3600"/>
+				<property class="HitSounds">
+					<property name="Override0" value="organic" param1="metalstaborganic"/>
+				</property>
+			</property>
+			<effect_group name="FuriousRamsayBurningKnife">
+				<passive_effect tags="head" value="1" operation="perc_add" name="DamageModifier">
+					<requirement name="!EntityTagCompare" tags="metal"/>
+				</passive_effect>
+				<passive_effect name="DismemberChance" operation="base_set" value="0"/>
+				<passive_effect name="EntityDamage" operation="base_set" value="35" tags="perkDeepCuts,knife"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="5.3" tags="perkDeepCuts"/>
+				<passive_effect name="AttacksPerMinute" operation="base_set" value="115" tags="perkDeepCuts,perkFlurryOfBlows"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="17.5" tags="primary"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="26.25" tags="secondary"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="1000" tags="perkDeepCuts"/>
+				<passive_effect name="DegradationPerUse" operation="base_set" value="0" tags="perkDeepCuts"/>
+				<passive_effect name="MaxRange" operation="base_set" value="2.5" tags="perkDeepCuts"/>
+				<passive_effect name="BlockRange" operation="base_set" value="2.5" tags="perkDeepCuts"/>
+
+				<passive_effect name="ModSlots" operation="base_set" value="5,6"/>
+				<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+
+				<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkDeepCuts"/>
+
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".6" tags="organic"/>
+				<passive_effect name="HarvestCount" operation="base_set" value="1" tags="butcherHarvest"/>
+			</effect_group>
+	
+			<effect_group name="sneak damage bonus">
+				<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="_notAlerted" operation="GT" value="0" target="other"/>
+					<passive_effect name="DamageBonus" operation="base_add" value="15"/>
+					<passive_effect name="EntityDamage" operation="perc_add" value="6" tags="perkDeepCuts"/>
+					<display_value name="dEntityDamageSneak" value="6"/>
+			</effect_group>
+			<property name="Group" value="Ammo/Weapons"/>
+			<property name="RepairExpMultiplier" value="5.5"/>
+
+			<effect_group name="FuriousRamsayBurningKnifeEffects">
+				<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Sparks" prefab="ItemModEffects/mod_flame_defaultPrefab" parentTransform="#HeldItemRoot" localPos="0,-0.3,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Sparks"/>
+				
+				<triggered_effect trigger="onSelfSecondaryActionEnd" action="RemovePart" part="Sparks"/>			
+			</effect_group>
+
+			<effect_group name="FuriousRamsayBurningKnifeDebuff" tiered="false">
+				<!--<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="self" buff="FuriousRamsayTempResistFire">
+					<requirement name="IsAlive" target="other"/>
+				</triggered_effect>-->
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="FuriousRamsayAddBurningDamage"/>
+				
+				<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="self" buff="FuriousRamsayTempResistFire">
+					<requirement name="IsAlive" target="other"/>
+				</triggered_effect>
+				<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="FuriousRamsayAddBurningThrownDamage"/>
+					<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="self" buff="FuriousRamsayBurningSelfAoE">
+					<requirement name="WornItems" tags="FuriousRamsayArmorFire" operation="Equals" value="5"/>
+				</triggered_effect>
+				<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="self" buff="FuriousRamsayBurningSelfAoE">
+					<requirement name="WornItems" tags="FuriousRamsayArmorFireShock" operation="Equals" value="5"/>
+				</triggered_effect>
+				<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="self" buff="FuriousRamsayBurningSelfAoE">
+					<requirement name="WornItems" tags="FuriousRamsayArmorFireShockSmoke" operation="Equals" value="5"/>
+				</triggered_effect>
+			</effect_group>
+		</item>
+		
+		<item name="FuriousRamsayShockSpear">
+			<property name="CustomIcon" value="meleeWpnSpearT3SteelSpear"/>
+			<property name="CustomIconTint" value="70, 182, 219"/>
+			<property name="Tags" value="melee,grunting,medium,weapon,meleeWeapon,longShaft,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
+			<property name="DisplayType" value="meleeSpear"/>
+			<property name="HoldType" value="59"/>
+			<property name="Meshfile" value="#Other/Items?Weapons/Melee/Spear/spear_steel_Prefab.prefab"/>
+			<property name="Material" value="MmeleeWpnSpearParts"/>
+			<property name="Weight" value="6"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="StickyMaterial" value="#Other/Items?Weapons/Melee/Spear/Materials/spearIron_sticky.mat"/>
+			<property name="EconomicValue" value="10000"/>
+			<!--<property name="RepairTools" value="resourceRepairKit"/>-->
+			<property name="SellableToTrader" value="false"/>
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property name="SoundJammed" value="ItemNeedsRepair"/>
+			<property name="SoundDestroy" value="wooddestroy1"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="IsSticky" value="true"/>
+			<property name="StickyOffset" value=".7"/>
+			<property name="StickyColliderUp" value="1"/>
+			<property name="StickyColliderRadius" value=".1"/>
+			<property name="StickyColliderLength" value="2"/>
+			<property name="StickyForwardDirection" value="0,0,1"/>
+			<property name="ShowQuality" value="false"/>
+			<property name="Group" value="Ammo/Weapons"/>
+			<property name="RepairExpMultiplier" value="5.5"/>
+			<property name="NavObject" value="FuriousRamsayShockSpear"/>
+			<property class="Action0">
+				<property name="Class" value="DynamicMelee"/>
+				<property name="Hitmask_override" value="Melee"/>
+				<property name="Sphere" value=".15"/>
+				<property name="Sound_start" value="spear_fire"/>
+				<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
+				<property name="UseGrazingHits" value="true"/>
+				<property name="GrazeStart" value=".25"/>
+				<property name="GrazeEnd" value=".32"/>
+				<property name="SwingDegrees" value="10"/>
+				<property name="SwingAngle" value="20"/>
+				<property class="HitSounds">
+					<property name="Override0" value="organic" param1="metalstaborganic"/>
+				</property>
+				<property class="GrazeSounds">
+					<property name="Override0" value="organic" param1="metalgrazeorganic"/>
+				</property>
+			</property>
+
+			<property class="Action1">
+				<requirement name="StatCompareCurrent" stat="Stamina" operation="GTE" value="20.1"/>
+				<property name="Class" value="ThrownWeapon"/>
+				<property name="Hitmask_override" value="Bullet"/>
+				<property name="Delay" value="1.2"/>
+				<property name="Throw_strength_default" value="20"/>
+				<property name="Throw_strength_max" value="40"/>
+				<property name="Max_strain_time" value="1"/>
+				<property name="Sound_start" value="spear_throw"/>
+
+				<property name="DamageEntity" value="20"/>
+				<property name="DamageBlock" value="50"/>
+				<property name="Explosion.ParticleIndex" value="0"/>
+
+				<property name="FlyTime" value="0.1"/>
+				<property name="Gravity" value="-7.5"/>
+				<property name="LifeTime" value="3600"/>
+				<property class="HitSounds">
+					<property name="Override0" value="organic" param1="metalstaborganic"/>
+				</property>
+			</property>
+
+			<effect_group name="FuriousRamsayShockSpear">
+				<passive_effect name="EntityDamage" operation="base_set" value="65" tags="perkJavelinMaster"/>
+				<passive_effect name="TargetArmor" operation="perc_add" value="-.3" tags="perkJavelinMaster"/>
+				<display_value name="dTargetArmor" value="-.3"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="150" tags="perkJavelinMaster"/>
+				<passive_effect name="AttacksPerMinute" operation="base_set" value="100" tags="perkJavelinMaster"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="18" tags="primary"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="1000" tags="perkJavelinMaster"/>
+				<passive_effect name="DegradationPerUse" operation="base_set" value="0" tags="perkJavelinMaster"/>
+				<passive_effect name="MaxRange" operation="base_set" value="3.5" tags="perkJavelinMaster"/>
+				<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkJavelinMaster"/>
+
+				<passive_effect name="ModSlots" operation="base_set" value="5,6"/>
+				<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+
+				<passive_effect name="EntityDamage" operation="perc_add" value=".3" tags="perkJavelinMaster"/>
+		
+				<passive_effect name="BlockDamage" operation="perc_add" value=".3" tags="perkJavelinMaster"/>
+
+				<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="metal"/>
+				
+				<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allHarvest"/>
+				<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allToolsHarvest"/>
+				<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="oreWoodHarvest"/>
+			</effect_group>
+
+			<effect_group name="FuriousRamsayShockSpearEffects">
+				<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Sparks" prefab="ItemModEffects/baton_electricityPrefab" parentTransform="#HeldItemRoot" localPos="0,0.5,0.028" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Sparks"/>
+			</effect_group>
+
+			<effect_group name="FuriousRamsayShockSpearDebuff" tiered="false">
+					<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="FuriousRamsayAddShockDamage"/>
+					<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="positionAOE" range="7" buff="FuriousRamsayAddShockDamageAoE"/>
+					<!--<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="positionAOE" range="7" buff="FuriousRamsayAddKnockdownDamageAoE"/>-->
+			</effect_group>
+			
+		</item>
+
+	</append>
+</Config>

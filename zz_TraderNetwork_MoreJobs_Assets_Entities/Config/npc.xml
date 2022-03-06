@@ -1,0 +1,157 @@
+<configs>
+	<insertAfter xpath="/npc/npc_info[@id='NPCjunkDrone']" >
+
+		<npc_info
+			id="FuriousRamsaySurvivalSpecialistNPCStart"
+			name="Survival Specialist"
+			name_key="npc_survivalspecialist"
+			faction="trader"
+			portrait="npc_briston"
+			greeting_type="nearby"
+			stance="Like" voice_set="trader_briston"
+			trader_id="70" dialog_id="FuriousRamsaySurvivalSpecialist1"/>
+			<!--quest_list="trader_quests_survivalspecialist1" />-->
+
+		<npc_info
+			id="FuriousRamsaySurvivalSpecialistNPC"
+			name="Survival Specialist"
+			name_key="npc_survivalspecialist"
+			faction="trader"
+			portrait="npc_briston"
+			greeting_type="nearby"
+			stance="Like" voice_set="trader_briston"
+			trader_id="70" dialog_id="FuriousRamsayPersonalTraders"/>
+			<!--quest_list="trader_quests_survivalspecialist" />-->
+
+		<npc_info
+			id="FuriousRamsayHunterTrainerNPC"
+			name="Hunter Trader"
+			name_key="npc_huntertrainer"
+			faction="trader"
+			portrait="npc_hunter"
+			greeting_type="nearby"
+			stance="Like" voice_set=""
+			trader_id="71" dialog_id="FuriousRamsayPersonalTraders"
+			/>
+			<!--quest_list="trader_quests_huntertrainer" />-->
+
+		<npc_info
+			id="FuriousRamsayThugTrainerNPC"
+			name="Thug Trader"
+			name_key="npc_thugtrainer"
+			faction="trader"
+			portrait="npc_thug"
+			greeting_type="nearby"
+			stance="Like" voice_set=""
+			trader_id="72" dialog_id="FuriousRamsayPersonalTraders"
+			/>
+			<!--quest_list="trader_quests_thugtrainer" />-->
+
+		<npc_info
+			id="FuriousRamsayButcherTrainerNPC"
+			name="Butcher Trader"
+			name_key="npc_butchertrainer"
+			faction="trader"
+			portrait="npc_butcher"
+			greeting_type="nearby"
+			stance="Like" voice_set=""
+			trader_id="73" dialog_id="FuriousRamsayPersonalTraders"
+			/>
+			<!--quest_list="trader_quests_butchertrainer" />-->
+
+		<npc_info
+			id="FuriousRamsaySoldierTrainerNPC"
+			name="Soldier Trader"
+			name_key="npc_soldiertrainer"
+			faction="trader"
+			portrait="npc_soldier"
+			greeting_type="nearby"
+			stance="Like" voice_set=""
+			trader_id="74" dialog_id="FuriousRamsayPersonalTraders"
+			/>
+			<!--quest_list="trader_quests_soldiertrainer" />-->
+
+		<npc_info
+			id="FuriousRamsayTechnogeekTrainerNPC"
+			name="Technogeek Trader"
+			name_key="npc_technogeektrainer"
+			faction="trader"
+			portrait="npc_technogeek"
+			greeting_type="nearby"
+			stance="Like" voice_set=""
+			trader_id="75" dialog_id="FuriousRamsayPersonalTraders"
+			/>
+			<!--quest_list="trader_quests_technogeektrainer" />-->
+
+		<npc_info
+			id="FuriousRamsayMadmanTrainerNPC"
+			name="Madman Trader"
+			name_key="npc_madmantrainer"
+			faction="trader"
+			portrait="npc_madman"
+			greeting_type="nearby"
+			stance="Like" voice_set=""
+			trader_id="76" dialog_id="FuriousRamsayPersonalTraders"
+			/>
+			<!--quest_list="trader_quests_madmantrainer" />-->
+
+		<npc_info
+			id="FuriousRamsayBuilderTrainerNPC"
+			name="Builder Trader"
+			name_key="npc_buildertrainer"
+			faction="trader"
+			portrait="npc_builder"
+			greeting_type="nearby"
+			stance="Like" voice_set=""
+			trader_id="77" dialog_id="FuriousRamsayPersonalTraders"
+			/>
+			<!--quest_list="trader_quests_buildertrainer" />-->
+
+		<npc_info
+			id="FuriousRamsayChefTrainerNPC"
+			name="Chef Trader"
+			name_key="npc_cheftrainer"
+			faction="trader"
+			portrait="npc_chef"
+			greeting_type="nearby"
+			stance="Like" voice_set=""
+			trader_id="78" dialog_id="FuriousRamsayPersonalTraders"
+			/>
+
+		<npc_info
+			id="FuriousRamsayFarmerTraderNPC"
+			name="Farmer Trader"
+			name_key="npc_farmer"
+			faction="trader"
+			portrait="npc_farmer"
+			greeting_type="nearby"
+			stance="Like" voice_set=""
+			trader_id="91" dialog_id="FuriousRamsayPersonalTraders"
+			/>
+
+		<npc_info
+			id="FuriousRamsayHandymanTraderNPC"
+			name="Handywoman Trader"
+			name_key="npc_handyman"
+			faction="trader"
+			portrait="npc_handyman"
+			greeting_type="nearby"
+			stance="Like" voice_set=""
+			trader_id="92" dialog_id="FuriousRamsayPersonalTraders"
+			/>
+
+		<npc_info
+			id="FuriousRamsayBlackShieldTraderNPC"
+			name="Black Shield Trader"
+			name_key="npc_blackshield"
+			faction="trader"
+			portrait="npc_blackshield"
+			greeting_type="nearby"
+			stance="Like" voice_set=""
+			trader_id="90" dialog_id="FuriousRamsayPersonalTraders"
+			/>
+
+
+	</insertAfter>
+	
+</configs>

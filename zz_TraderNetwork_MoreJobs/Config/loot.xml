@@ -1,0 +1,960 @@
+<Config>
+	
+	<append xpath="//lootgroup[@name='groupChemistryStationLoot01']">
+		<item name="FuriousRamsayDrugPrussianBluePowder" count="2,4"/>
+	</append>
+
+	<append xpath="//lootgroup[@name='groupMedicalRare']">
+		<item name="FuriousRamsayDrinkPerussianBlue"/>	
+	</append>
+
+	<append xpath="/lootcontainers/lootprobtemplates">
+
+		<lootprobtemplate name="FuriousRamsayProbTemplateTreasure">
+			<loot level="1,8" prob="0.05"/>
+			<loot level="9,16" prob="0.075"/>
+			<loot level="17,25" prob="0.1"/>
+			<loot level="26,34" prob="0.125"/>
+			<loot level="35,44" prob="0.15"/>
+			<loot level="45,54" prob="0.175"/>
+			<loot level="55,65" prob="0.2"/>
+			<loot level="66,76" prob="0.225"/>
+			<loot level="77,88" prob="0.25"/>
+			<loot level="89,101" prob="0.275"/>
+			<loot level="102,114" prob="0.3"/>
+			<loot level="115,128" prob="0.325"/>
+			<loot level="129,142" prob="0.35"/>
+			<loot level="143,157" prob="0.375"/>
+			<loot level="158,173" prob="0.4"/>
+			<loot level="174,190" prob="0.425"/>
+			<loot level="191,208" prob="0.45"/>
+			<loot level="209,226" prob="0.475"/>
+			<loot level="227,245" prob="0.5"/>
+			<loot level="246,266" prob="0.525"/>
+			<loot level="267,300" prob="0.55"/>
+			<loot level="301,999" prob="0.6"/>
+		</lootprobtemplate>
+
+		<lootprobtemplate name="FuriousRamsayProbTemplateLow">
+			<loot level="1,8" prob="1"/>
+			<loot level="9,16" prob="0.8"/>
+			<loot level="17,25" prob="0.4"/>
+			<loot level="26,34" prob="0.2"/>
+			<loot level="35,44" prob="0.08"/>
+			<loot level="45,54" prob="0.04"/>
+			<loot level="55,999999" prob="0.001"/>
+		</lootprobtemplate>
+
+		<lootprobtemplate name="FuriousRamsayProbTemplateHigh">
+			<loot level="1,8" prob="0.001"/>
+			<loot level="9,16" prob="0.04"/>
+			<loot level="17,25" prob="0.08"/>
+			<loot level="26,34" prob="0.2"/>
+			<loot level="35,44" prob="0.4"/>
+			<loot level="45,54" prob="0.8"/>
+			<loot level="55,999999" prob="1"/>
+		</lootprobtemplate>
+
+	</append>
+    
+	<append xpath="/lootcontainers/lootgroup[@name='groupMedicalUncommon']">
+		<item name="FuriousRamsayDrinkPerussianBlue"/>
+	</append>
+
+	<append xpath="/lootcontainers">
+
+		<lootgroup name="FuriousRamsayZombieRemainsFireLoot" count="all">
+			<item name="FuriousRamsayZombieRemainsFire" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayZombieRemainsShockLoot" count="all">
+			<item name="FuriousRamsayZombieRemainsShock" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayZombieRemainsFireShockLoot" count="all">
+			<item name="FuriousRamsayZombieRemainsFireShock" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayZombieRemainsSmokeLoot" count="all">
+			<item name="FuriousRamsayZombieRemainsSmoke" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayZombieRemainsFireShockSmokeLoot" count="all">
+			<item name="FuriousRamsayZombieRemainsFireShockSmoke" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupQuestCookedFoodsTier1">
+			<item name="foodBoiledMeat" count="2"/>
+			<item name="foodPumpkinBread" count="2"/>
+			<item name="foodBaconAndEggs" count="2"/>
+		</lootgroup>
+			
+		<lootgroup name="FuriousRamsayGroupQuestCookedFoodsTier2">
+			<item name="foodBlueberryPie" count="2"/>
+			<item name="foodPumpkinPie" count="2"/>
+			<item name="foodSteakAndPotato" count="2"/>
+			<item name="foodTunaFishGravyToast" count="2"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupQuestCookedFoodsTier3">
+			<item name="foodChiliDog" count="2"/>
+			<item name="foodPumpkinCheesecake" count="2"/>
+			<item name="foodSpaghetti" count="2"/>
+			<item name="foodVegetableStew" count="2"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupQuestCookedFoodsTier4">
+			<item name="drinkYuccaJuiceSmoothie" count="2"/>
+			<item name="foodFishTacos" count="3"/>
+			<item name="foodShepardsPie" count="3"/>
+			<item name="foodMeatStew" count="3"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupQuestCookedFoodsTier5">
+			<item name="foodHoboStew" count="4"/>
+			<item name="foodShamChowder" count="4"/>
+			<item name="foodGumboStew" count="4"/>
+		</lootgroup>
+	
+		<lootgroup name="FuriousRamsayGroupQuestMedicalLow">
+			<item name="drugPainkillers" count="3"/>
+			<item name="medicalFirstAidBandage" count="3"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupQuestMedicalHigh">
+			<item name="medicalFirstAidBandage" count="4"/>
+			<item name="medicalFirstAidKit" count="4"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldCaptainDead" count="2">
+			<item group="FuriousRamsayGroupQuestMedicalLow" loot_prob_template="FuriousRamsayProbTemplateLow"/>
+			<item group="FuriousRamsayGroupQuestMedicalHigh" loot_prob_template="FuriousRamsayProbTemplateHigh"/>
+			<item group="groupApparelClothes" loot_prob_template="FuriousRamsayProbTemplateLow"/>
+			<item group="groupArmorScaled" loot_prob_template="FuriousRamsayProbTemplateHigh"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldCaptainAlive" count="1">
+			<item group="groupAmmoRegular" loot_prob_template="FuriousRamsayProbTemplateLow"/>
+			<item group="groupAmmoAdvanced" loot_prob_template="FuriousRamsayProbTemplateHigh"/>
+			<!--<item group="groupTreasureMaps" loot_prob_template="FuriousRamsayProbTemplateTreasure"/>-->
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBanditAlive" count="1">
+			<item name="casinoCoin" count="10,20" loot_prob_template="FuriousRamsayProbTemplateLow"/>
+			<item name="casinoCoin" count="25,50" loot_prob_template="FuriousRamsayProbTemplateHigh"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBossDeathItemsTier1">
+			<item name="casinoCoin" count="150,500" prob="0.95"/>
+			<item name="qc_FuriousRamsayResetPOI" prob="0.05"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBossDeathItemsTier2">
+			<item name="casinoCoin" count="300,800" prob="0.9"/>
+			<item name="qc_FuriousRamsayResetPOI" prob="0.1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBossDeathItemsTier3">
+			<item name="casinoCoin" count="500,1200" prob="0.85"/>
+			<item name="qc_FuriousRamsayResetPOI" prob="0.15"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBossDeathItemsTier4">
+			<item name="casinoCoin" count="750,1500" prob="0.8"/>
+			<item name="qc_FuriousRamsayResetPOI" prob="0.2"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBossDeathItemsTier5">
+			<item name="casinoCoin" count="1000,2000" prob="0.75"/>
+			<item name="qc_FuriousRamsayResetPOI" prob="0.25"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBossDeathCorpseTier1" count="all">
+			<item name="FuriousRamsayBlackShieldBossCorpseTier1" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBossDeathCorpseTier2" count="all">
+			<item name="FuriousRamsayBlackShieldBossCorpseTier2" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBossDeathCorpseTier3" count="all">
+			<item name="FuriousRamsayBlackShieldBossCorpseTier3" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBossDeathCorpseTier4" count="all">
+			<item name="FuriousRamsayBlackShieldBossCorpseTier4" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBossDeathCorpseTier5" count="all">
+			<item name="FuriousRamsayBlackShieldBossCorpseTier5" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBossDeathArmorTier1" count="all">
+			<item name="armorClothHat" count="1"/>
+			<item name="armorClothJacket" count="1"/>
+			<item name="armorClothGloves" count="1"/>
+			<item name="armorClothPants" count="1"/>
+			<item name="armorClothBoots" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBossDeathArmorTier2" count="all">
+			<item name="armorLeatherHood" count="1"/>
+			<item name="armorLeatherChest" count="1"/>
+			<item name="armorLeatherGloves" count="1"/>
+			<item name="armorLeatherPants" count="1"/>
+			<item name="armorLeatherBoots" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBossDeathArmorTier3" count="all">
+			<item name="armorScrapHelmet" count="1"/>
+			<item name="armorScrapChest" count="1"/>
+			<item name="armorScrapGloves" count="1"/>
+			<item name="armorScrapLegs" count="1"/>
+			<item name="armorScrapBoots" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBossDeathArmorTier4" count="all">
+			<item name="armorIronHelmet" count="1"/>
+			<item name="armorIronChest" count="1"/>
+			<item name="armorIronGloves" count="1"/>
+			<item name="armorIronLegs" count="1"/>
+			<item name="armorIronBoots" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBossDeathArmorTier5" count="all">
+			<item name="armorSteelHelmet" count="1"/>
+			<item name="armorSteelChest" count="1"/>
+			<item name="armorSteelGloves" count="1"/>
+			<item name="armorSteelLegs" count="1"/>
+			<item name="armorSteelBoots" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBossDeathItemsTier1Special">
+			<item name="FuriousRamsayFireArmorRepairKit" count="5" prob="0.5"/>
+			<item name="meleeToolPickT1IronPickaxe" prob="0.7"/>
+			<item name="meleeToolRepairT1ClawHammer" prob="0.7"/>
+			<item name="meleeToolShovelT1IronShovel" prob="0.7"/>
+			<item name="meleeWpnKnucklesT1IronKnuckles" prob="0.7"/>
+			<item name="gunBotT1JunkSledge" prob="0.7"/>
+			<item name="FuriousRamsayModHazmatHead" prob="0.45"/>
+			<item name="FuriousRamsayThrownBarrel" prob="0.4"/>
+			<item name="FuriousRamsayArmorHelmetFire" prob="0.5"/>
+			<item name="FuriousRamsayArmorChestFire" prob="0.5"/>
+			<item name="FuriousRamsayArmorGloveFire" prob="0.5"/>
+			<item name="FuriousRamsayArmorLegFire" prob="0.5"/>
+			<item name="FuriousRamsayArmorBootFire" prob="0.5"/>
+			<item name="FuriousRamsayScreamerSignalTier1Schematic" prob="0.1"/>
+			<item name="qc_FuriousRamsayResetPOI" prob="0.05"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBossDeathItemsTier2Special">
+			<item name="FuriousRamsayShockArmorRepairKit" count="5" prob="0.5"/>
+			<item name="meleeToolSalvageT1Wrench" prob="0.7"/>
+			<item name="meleeWpnClubT1BaseballBat" prob="0.7"/>
+			<item name="meleeWpnBatonT2StunBaton" prob="0.7"/>
+			<item name="meleeWpnSledgeT1IronSledgehammer" prob="0.7"/>
+			<item name="gunHandgunT1Pistol" prob="0.7"/>
+			<item name="gunShotgunT1DoubleBarrel" prob="0.7"/>
+			<item name="gunBowT1IronCrossbow" prob="0.7"/>
+			<item name="gunRifleT1HuntingRifle" prob="0.7"/>
+			<item name="modArmorStoragePocket" prob="0.6"/>
+			<item name="FuriousRamsayModHazmatChest" prob="0.45"/>
+			<item name="FuriousRamsayArmorHelmetShock" prob="0.5"/>
+			<item name="FuriousRamsayArmorChestShock" prob="0.5"/>
+			<item name="FuriousRamsayArmorGloveShock" prob="0.5"/>
+			<item name="FuriousRamsayArmorLegShock" prob="0.5"/>
+			<item name="FuriousRamsayArmorBootShock" prob="0.5"/>
+			<item name="FuriousRamsayScreamerSignalTier2Schematic" prob="0.1"/>
+			<item name="qc_FuriousRamsayResetPOI" prob="0.1"/>
+		</lootgroup>
+
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBossDeathItemsTier3Special">
+			<item name="FuriousRamsayFireShockArmorRepairKit" count="5" prob="0.5"/>
+			<item name="meleeToolPickT2SteelPickaxe" prob="0.7"/>
+			<item name="meleeToolShovelT2SteelShovel" prob="0.7"/>
+			<item name="meleeWpnSledgeT3SteelSledgehammer" prob="0.7"/>
+			<item name="meleeToolAxeT1IronFireaxe" prob="0.7"/>
+			<item name="meleeToolSalvageT2Ratchet" prob="0.7"/>
+			<item name="meleeToolRepairT3Nailgun" prob="0.7"/>
+			<item name="meleeWpnKnucklesT3SteelKnuckles" prob="0.7"/>
+			<item name="meleeWpnBladeT3Machete" prob="0.7"/>
+			<item name="gunHandgunT3SMG5" prob="0.7"/>
+			<item name="gunBotT2JunkTurret" prob="0.7"/>
+			<item name="gunMGT1AK47" prob="0.7"/>
+			<item name="gunHandgunT2Magnum44" prob="0.7"/>
+			<item name="gunShotgunT2PumpShotgun" prob="0.7"/>
+			<item name="gunRifleT2LeverActionRifle" prob="0.7"/>
+			<item name="modArmorDoubleStoragePocket" prob="0.6"/>
+			<item name="FuriousRamsayModHazmatLegs" prob="0.45"/>
+			<item name="FuriousRamsayArmorHelmetFireShock" prob="0.5"/>
+			<item name="FuriousRamsayArmorChestFireShock" prob="0.5"/>
+			<item name="FuriousRamsayArmorGloveFireShock" prob="0.5"/>
+			<item name="FuriousRamsayArmorLegFireShock" prob="0.5"/>
+			<item name="FuriousRamsayArmorBootFireShock" prob="0.5"/>
+			<item name="FuriousRamsayScreamerSignalTier3Schematic" prob="0.1"/>
+			<item name="qc_FuriousRamsayResetPOI" prob="0.15"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBossDeathItemsTier4Special">
+			<item name="FuriousRamsaySmokeArmorRepairKit" count="5" prob="0.5"/>
+			<item name="meleeWpnClubT3SteelClub" prob="0.7"/>
+			<item name="meleeToolAxeT3Chainsaw" prob="0.7"/>
+			<item name="meleeToolAxeT2SteelAxe" prob="0.7"/>
+			<item name="meleeToolSalvageT3ImpactDriver" prob="0.7"/>
+			<item name="gunBowT3CompoundCrossbow" prob="0.7"/>
+			<item name="gunHandgunT3DesertVulture" prob="0.7"/>
+			<item name="gunMGT2TacticalAR" prob="0.7"/>
+			<item name="gunShotgunT3AutoShotgun" prob="0.7"/>
+			<item name="gunRifleT3SniperRifle" prob="0.7"/>
+			<item name="modArmorTripleStoragePocket" prob="0.6"/>
+			<item name="modGunSoundSuppressorSilencer" prob="0.6"/>
+			<item name="modArmorImpactBracing" prob="0.6"/>
+			<item name="modGunMeleeRadRemover" prob="0.6"/>
+			<item name="modGunDrumMagazineExtender" prob="0.6"/>
+			<item name="modGunScopeLarge" prob="0.6"/>
+			<item name="modGunMeleeBlessedMetal" prob="0.6"/>
+			<item name="FuriousRamsayModHazmatGloves" prob="0.45"/>
+			<item name="FuriousRamsayArmorHelmetSmoke" prob="0.5"/>
+			<item name="FuriousRamsayArmorChestSmoke" prob="0.5"/>
+			<item name="FuriousRamsayArmorGloveSmoke" prob="0.5"/>
+			<item name="FuriousRamsayArmorLegSmoke" prob="0.5"/>
+			<item name="FuriousRamsayArmorBootSmoke" prob="0.5"/>
+			<item name="FuriousRamsayScreamerSignalTier4Schematic" prob="0.1"/>
+			<item name="qc_FuriousRamsayResetPOI" prob="0.2"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBossDeathItemsTier5Special">
+			<item name="FuriousRamsayFireShockSmokeArmorRepairKit" count="5" prob="0.5"/>
+			<item name="meleeToolPickT3Auger" prob="0.7"/>
+			<item name="gunMGT3M60" prob="0.8"/>
+			<item name="FuriousRamsayModHazmatBoots" prob="0.45"/>
+			<item name="FuriousRamsayArmorHelmetFireShockSmoke" prob="0.5"/>
+			<item name="FuriousRamsayArmorChestFireShockSmoke" prob="0.5"/>
+			<item name="FuriousRamsayArmorGloveFireShockSmoke" prob="0.5"/>
+			<item name="FuriousRamsayArmorLegFireShockSmoke" prob="0.5"/>
+			<item name="FuriousRamsayArmorBootFireShockSmoke" prob="0.5"/>
+			<item name="FuriousRamsayScreamerSignalTier5Schematic" prob="0.1"/>
+			<item name="FuriousRamsayBlackShieldShockMotorcyclePlaceable" prob="0.15"/>
+			<item name="FuriousRamsayBlackShieldFireMotorcyclePlaceable" prob="0.15"/>
+			<item name="FuriousRamsayAllTerrainPlaceable" prob="0.1"/>
+			<item name="qc_FuriousRamsayResetPOI" prob="0.25"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBossDeathTier1" count="all">
+			<item group="FuriousRamsayGroupBlackShieldBossDeathCorpseTier1"/>
+			<item group="FuriousRamsayGroupBlackShieldBossDeathArmorTier1"/>
+			<item group="FuriousRamsayGroupBlackShieldBossDeathItemsTier1"/>
+			<item group="FuriousRamsayGroupBlackShieldBossDeathItemsTier1Special"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBossDeathTier2" count="all">
+			<item group="FuriousRamsayGroupBlackShieldBossDeathCorpseTier2"/>
+			<item group="FuriousRamsayGroupBlackShieldBossDeathArmorTier2" prob="1"/>
+			<item group="FuriousRamsayGroupBlackShieldBossDeathItemsTier2" prob="1"/>
+			<item group="FuriousRamsayGroupBlackShieldBossDeathItemsTier2Special"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBossDeathTier3" count="all">
+			<item group="FuriousRamsayGroupBlackShieldBossDeathCorpseTier3"/>
+			<item group="FuriousRamsayGroupBlackShieldBossDeathArmorTier3" prob="1"/>
+			<item group="FuriousRamsayGroupBlackShieldBossDeathItemsTier3" prob="1"/>
+			<item group="FuriousRamsayGroupBlackShieldBossDeathItemsTier3Special"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBossDeathTier4" count="all">
+			<item group="FuriousRamsayGroupBlackShieldBossDeathCorpseTier4"/>
+			<item group="FuriousRamsayGroupBlackShieldBossDeathArmorTier4" prob="1"/>
+			<item group="FuriousRamsayGroupBlackShieldBossDeathItemsTier4" prob="1"/>
+			<item group="FuriousRamsayGroupBlackShieldBossDeathItemsTier4Special"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBossDeathTier5" count="all">
+			<item group="FuriousRamsayGroupBlackShieldBossDeathCorpseTier5"/>
+			<item group="FuriousRamsayGroupBlackShieldBossDeathArmorTier5" prob="1"/>
+			<item group="FuriousRamsayGroupBlackShieldBossDeathItemsTier5" prob="1"/>
+			<item group="FuriousRamsayGroupBlackShieldBossDeathItemsTier5Special"/>
+		</lootgroup>
+		
+		<lootgroup name="FuriousRamsayGroupHazmatModTier1" count="1">
+			<item name="FuriousRamsayModHazmatHead" count="1" prob="0.01"/>
+			<item name="FuriousRamsayModHazmatChest" count="1" prob="0.05"/>
+			<item name="FuriousRamsayModHazmatGloves" count="1" prob="0.10"/>
+			<item name="FuriousRamsayModHazmatLegs" count="1" prob="0.25"/>
+			<item name="FuriousRamsayModHazmatBoots" count="1" prob="1"/>
+		</lootgroup>
+		
+		<lootgroup name="FuriousRamsayGroupHazmatModTier2" count="1">
+			<item name="FuriousRamsayModHazmatHead" count="1" prob="0.05"/>
+			<item name="FuriousRamsayModHazmatChest" count="1" prob="0.10"/>
+			<item name="FuriousRamsayModHazmatGloves" count="1" prob="0.20"/>
+			<item name="FuriousRamsayModHazmatLegs" count="1" prob="0.5"/>
+			<item name="FuriousRamsayModHazmatBoots" count="1" prob="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupHazmatModTier3" count="1">
+			<item name="FuriousRamsayModHazmatHead" count="1" prob="0.1"/>
+			<item name="FuriousRamsayModHazmatChest" count="1" prob="0.15"/>
+			<item name="FuriousRamsayModHazmatGloves" count="1" prob="0.5"/>
+			<item name="FuriousRamsayModHazmatLegs" count="1" prob="1"/>
+			<item name="FuriousRamsayModHazmatBoots" count="1" prob="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupHazmatModTier4" count="1">
+			<item name="FuriousRamsayModHazmatHead" count="1" prob="0.15"/>
+			<item name="FuriousRamsayModHazmatChest" count="1" prob="0.5"/>
+			<item name="FuriousRamsayModHazmatGloves" count="1" prob="1"/>
+			<item name="FuriousRamsayModHazmatLegs" count="1" prob="1"/>
+			<item name="FuriousRamsayModHazmatBoots" count="1" prob="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupHazmatModTier5" count="1">
+			<item name="FuriousRamsayModHazmatHead" count="1" prob="0.5"/>
+			<item name="FuriousRamsayModHazmatChest" count="1" prob="1"/>
+			<item name="FuriousRamsayModHazmatGloves" count="1" prob="1"/>
+			<item name="FuriousRamsayModHazmatLegs" count="1" prob="1"/>
+			<item name="FuriousRamsayModHazmatBoots" count="1" prob="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayHordeTrainerTier1Alive" count="all">
+			<item name="casinoCoin" count="150,300"/>
+			<item name="FuriousRamsayScreamerSignalTier1Schematic" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayHordeTrainerTier2Alive" count="all">
+			<item name="casinoCoin" count="300,600"/>
+			<item name="FuriousRamsayScreamerSignalTier2Schematic" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayHordeTrainerTier3Alive" count="all">
+			<item name="casinoCoin" count="600,800"/>
+			<item name="FuriousRamsayScreamerSignalTier3Schematic" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayHordeTrainerTier4Alive" count="all">
+			<item name="casinoCoin" count="800,1000"/>
+			<item name="FuriousRamsayScreamerSignalTier4Schematic" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayHordeTrainerTier5Alive" count="all">
+			<item name="casinoCoin" count="1000,1500"/>
+			<item name="FuriousRamsayScreamerSignalTier5Schematic" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldAiden" count="all">
+			<item name="casinoCoin" count="15,25"/>
+			<item name="FuriousRamsayStarterBaseballBat" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditChestShirtRed" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditChestDuster" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditLegsPantsBlack" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditBootsLeather" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditHeadAviatorGoggles" quality="1" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldHodor" count="all">
+			<item name="casinoCoin" count="15,25"/>
+			<item name="FuriousRamsayStarterSteelPickAxe" count="1"/>
+			<item name="FuriousRamsayBanditHeadHoodRed" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditChestDuster" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditLegsFiberPantsBlack" quality="1" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldClint" count="all">
+			<item name="casinoCoin" count="25,35"/>
+			<item name="FuriousRamsayStarterIronFireAxe" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditHeadCowboyHat" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditChestShirtRed" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditChestDuster" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditLegsLeatherPantsBlack" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditBootsLeather" quality="1" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldRichie" count="all">
+			<item name="casinoCoin" count="15,25"/>
+			<item name="FuriousRamsayStarterSalvageWrench" count="1"/>
+			<item name="FuriousRamsayBanditChestShirtBlack" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditChestDuster" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditLegsFiberPantsRed" quality="1" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldWillie" count="all">
+			<item name="casinoCoin" count="15,25"/>
+			<item name="meleeToolRepairT0StoneAxe" quality="3" count="1"/>
+			<item name="FuriousRamsayBanditHeadSkiGoggles" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditChestShirtBlack" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditChestDuster" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditLegsPantsRed" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditGlovesFiber" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditBootsRunning" quality="1" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldKim" count="all">
+			<item name="casinoCoin" count="15,25"/>
+			<item name="FuriousRamsayStarterIronPickAxe" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditChestShirtBlack" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditChestDuster" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditLegsFiberPantsRed" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditGlovesFiberRed" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditBootsLeather" quality="1" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldCharlotte" count="all">
+			<item name="casinoCoin" count="15,25"/>
+			<item name="FuriousRamsayStarterMachete" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditHeadHoodGray" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditChestShirtRed" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditChestDuster" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditLegsPantsBlack" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditBootsMilitary" quality="1" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldRoxy" count="all">
+			<item name="casinoCoin" count="15,25"/>
+			<item name="meleeToolRepairT1ClawHammer" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditChestTanktopRed" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditChestDuster" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditLegsGothPantsBlack" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditBootsGoth" quality="1" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldGabrielle" count="all">
+			<item name="casinoCoin" count="25,35"/>
+			<item name="FuriousRamsayStarterSteelClub" count="1"/>
+			<item name="FuriousRamsayBanditChestShirtRed" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditChestDuster" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditLegsPantsBlack" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditLegsScrap" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditChestScrap" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditBootsMilitary" quality="1" count="1"/>
+			<item name="apparelFacialPiercings" quality="1" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldClintCaptain" count="all">
+			<item name="casinoCoin" count="50,135"/>
+			<item name="FuriousRamsayBanditChestShirtRedQuest" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditChestShirtRedQuest" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldGabrielleCaptain" count="all">
+			<item name="casinoCoin" count="50,135"/>
+			<item name="FuriousRamsayBanditChestDusterQuest" quality="1" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayUMAClintZombieFeralQuestLoot" count="all">
+			<item name="casinoCoin" count="100,185"/>
+			<item name="FuriousRamsayBanditHeadCowboyHatQuest" quality="1" count="1"/>
+			<item name="FuriousRamsayBlackShieldCaptainCorpseTier3" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayUMAGabrielleZombieFeralQuestLoot" count="all">
+			<item name="casinoCoin" count="100,185"/>
+			<item name="FuriousRamsayBlackShieldCaptainCorpseTier3" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayUMAClintZombieRageQuestLoot" count="all">
+			<item name="casinoCoin" count="150,235"/>
+			<item name="FuriousRamsayBanditHeadCowboyHatQuest" quality="1" count="1"/>
+			<item name="FuriousRamsayBlackShieldCaptainCorpseTier4" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayUMAGabrielleZombieRageQuestLoot" count="all">
+			<item name="casinoCoin" count="150,235"/>
+			<item name="FuriousRamsayBlackShieldCaptainCorpseTier4" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayUMAClintZombieShockedRageLoot" count="all">
+			<item name="casinoCoin" count="200,285"/>
+			<item name="FuriousRamsayBanditHeadCowboyHatQuest" quality="1" count="1"/>
+			<item name="FuriousRamsayBlackShieldCaptainCorpseTier5" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayUMAGabrielleZombieShockedRageLoot" count="all">
+			<item name="casinoCoin" count="200,285"/>
+			<item name="FuriousRamsayBlackShieldCaptainCorpseTier5" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldClintZombieCaptain" count="all">
+			<item name="casinoCoin" count="50,135"/>
+			<item name="FuriousRamsayBanditHeadCowboyHatQuest" quality="1" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldGabrielleZombieCaptain" count="all">
+			<item name="casinoCoin" count="50,135"/>
+			<item name="FuriousRamsayBanditLegsPantsBlackQuest" quality="1" count="1"/>
+			<item name="FuriousRamsayBlackShieldCaptainCorpseTier3" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupBlackShieldBandit" count="all">
+			<item name="casinoCoin" count="10,25"/>
+			<item name="FuriousRamsayBanditChestDusterQuest" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupHazmatTier1" count="all">
+			<item name="casinoCoin" count="10,15"/>
+			<item name="FuriousRamsayHazmatHazardTier1" quality="1" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupHazmatTier2" count="all">
+			<item name="casinoCoin" count="15,20"/>
+			<item name="FuriousRamsayHazmatHazardTier2" quality="1" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupHazmatTier3" count="all">
+			<item name="casinoCoin" count="20,25"/>
+			<item name="FuriousRamsayHazmatHazardTier3" quality="1" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupHazmatTier4" count="all">
+			<item name="casinoCoin" count="25,30"/>
+			<item name="FuriousRamsayHazmatHazardTier4" quality="1" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupHazmatTier5" count="all">
+			<item name="casinoCoin" count="30,35"/>
+			<item name="FuriousRamsayHazmatHazardTier5" quality="1" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayLindaStarterLoot" count="all">
+			<item name="casinoCoin" count="150,200"/>
+			<item name="meleeWpnSpearT0StoneSpear" count="1"/>
+			<item name="drugPainkillers" count="2"/>
+			<item name="medicalFirstAidBandage" count="2"/>
+			<item name="drugHerbalAntibiotics" count="1"/>
+			<item name="FuriousRamsayBanditChestShirtBlack" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditChestDuster" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditLegsPantsRed" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditGlovesFiber" quality="1" count="1"/>
+			<item name="FuriousRamsayBanditBootsRunning" quality="1" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsaySkullsClubLoot" count="all">
+			<item name="casinoCoin" count="15,30"/>
+			<item name="FuriousRamsayStarterSteelClub" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsaySkullsHammerLoot" count="all">
+			<item name="casinoCoin" count="15,30"/>
+			<item name="FuriousRamsayStarterSteelSledgehammer" count="1"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsaySkullsAxeLoot" count="all">
+			<item name="casinoCoin" count="15,30"/>
+			<item name="FuriousRamsayStarterSteelAxe" count="1"/>
+		</lootgroup>
+
+		<!-- ZOMBIE CLOTHING -->
+		<lootgroup name="FuriousRamsayGroupStarterClothes1" count="all">
+			<item name="apparelLongShirt" count="1" mod_chance="0"/>
+			<item name="apparelDenimPants" count="1" mod_chance="0"/>
+			<item name="apparelRunningShoesRegular" count="1" mod_chance="0"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupStarterClothes2" count="all">
+			<item name="apparelTankTop" count="1" mod_chance="0"/>
+			<item name="apparelSkirt" count="1" mod_chance="0"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupStarterClothes2b" count="all">
+			<item name="apparelTankTop" count="1" mod_chance="0"/>
+			<item name="apparelSkirt" count="1" mod_chance="0"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupStarterClothes3" count="all">
+			<item name="apparelTShirtPlain" count="1" mod_chance="0"/>
+			<item name="apparelDenimPants" count="1" mod_chance="0"/>
+			<item name="apparelRunningShoesRegular" count="1" mod_chance="0"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupStarterClothes4" count="all">
+			<item name="apparelTShirtPlain" count="1" mod_chance="0"/>
+			<item name="apparelDenimPants" count="1" mod_chance="0"/>
+			<item name="apparelWornBoots" count="1" mod_chance="0"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupStarterClothes5" count="all">
+			<item name="apparelTankTop" count="1" mod_chance="0"/>
+			<item name="apparelDenimShortsPants" count="1" mod_chance="0"/>
+			<item name="apparelRunningShoesRegular" count="1" mod_chance="0"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupStarterClothes6" count="all">
+			<item name="apparelFlannelShirt" count="1" mod_chance="0"/>
+			<item name="apparelDenimPants" count="1" mod_chance="0"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupStarterClothes7" count="all">
+			<item name="apparelTShirtPlain" count="1" mod_chance="0"/>
+			<item name="apparelGothPants" count="1" mod_chance="0"/>
+			<item name="apparelRunningShoesRegular" count="1" mod_chance="0"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupStarterClothes8" count="all">
+			<item name="apparelSuitJacket" count="1" mod_chance="0"/>
+			<item name="apparelSuitPants" count="1" mod_chance="0"/>
+			<item name="apparelSuitDressShoes" count="1" mod_chance="0"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupStarterClothes9" count="all">
+			<item name="apparelCowboyHat" count="1" mod_chance="0"/>
+			<item name="apparelCoatLeatherPoncho" count="1" mod_chance="0"/>
+			<item name="apparelLongShirt" count="1" mod_chance="0"/>
+			<item name="apparelDenimPants" count="1" mod_chance="0"/>
+			<item name="apparelWornBoots" count="1" mod_chance="0"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupStarterClothes10" count="all">
+			<item name="apparelHoodySweatshirt" count="1" mod_chance="0"/>
+			<item name="apparelDenimPants" count="1" mod_chance="0"/>
+			<item name="apparelWornBoots" count="1" mod_chance="0"/>
+		</lootgroup>
+
+		<lootgroup name="FuriousRamsayGroupStarterClothes11" count="all">
+			<item name="apparelTankTop" count="1" mod_chance="0"/>
+			<item name="apparelDenimShortsPants" count="1" mod_chance="0"/>
+			<item name="apparelWornBoots" count="1" mod_chance="0"/>
+		</lootgroup>
+
+		<!-- Horde Trainers -->
+		<lootcontainer name="FuriousRamsay804" id="804" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayHordeTrainerTier1Alive" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay805" id="805" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayHordeTrainerTier2Alive" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay806" id="806" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayHordeTrainerTier3Alive" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay807" id="807" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayHordeTrainerTier4Alive" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay808" id="808" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayHordeTrainerTier5Alive" />
+		</lootcontainer>
+
+		<!-- All Terrain Vehicle Storage -->
+		<lootcontainer name="FuriousRamsay809" id="809" count="0" size="10,9" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="qualBaseTemplate">
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay810" id="810" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayGroupBlackShieldCaptainAlive" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay811" id="811" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayGroupBlackShieldCaptainDead"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay812" id="812" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayGroupBlackShieldBanditAlive" />
+		</lootcontainer>
+
+		<!-- Black Shield Bosses -->
+		<lootcontainer name="FuriousRamsay813" id="813" size="4,3" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayGroupBlackShieldBossDeathTier1" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay814" id="814" size="4,3" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayGroupBlackShieldBossDeathTier2" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay815" id="815" size="4,3" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayGroupBlackShieldBossDeathTier3" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay816" id="816" size="4,3" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayGroupBlackShieldBossDeathTier4" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay817" id="817" size="4,3" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayGroupBlackShieldBossDeathTier5" />
+		</lootcontainer>
+
+		<!-- ZOMBIE CLOTHING -->
+		<lootcontainer name="FuriousRamsay818" id="818" size="3,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayGroupStarterClothes2" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay818b" size="3,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayGroupStarterClothes2b" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay819" id="819" size="3,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayGroupStarterClothes3" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay820" id="820" size="3,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayGroupStarterClothes7" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay821" id="821" size="3,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayGroupStarterClothes6" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay822" id="822" size="3,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayGroupStarterClothes5" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay823" id="823" size="3,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayGroupStarterClothes1" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay824" id="824" size="3,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayGroupStarterClothes4" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay825" id="825" size="3,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayGroupStarterClothes8" />
+		</lootcontainer>
+
+		<!-- BANDITS -->
+		<lootcontainer name="FuriousRamsay840" id="840" size="4,3" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayGroupBlackShieldAiden"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay841" id="841" size="4,3" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayGroupBlackShieldHodor"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay842" id="842" size="4,3" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayGroupBlackShieldClint"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay843" id="843" size="4,3" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayGroupBlackShieldRichie"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay844" id="844" size="4,3" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayGroupBlackShieldWillie"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay845" id="845" size="4,3" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayGroupBlackShieldKim"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay846" id="846" size="4,3" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayGroupBlackShieldCharlotte"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay847" id="847" size="4,3" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayGroupBlackShieldRoxy"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay848" id="848" size="4,3" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayGroupBlackShieldGabrielle"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay849" id="849" size="5,3" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayLindaStarterLoot"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay850" id="850" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsaySkullsClubLoot"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay851" id="851" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsaySkullsHammerLoot"/>
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay852" id="852" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsaySkullsAxeLoot"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay853" id="853" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayGroupBlackShieldClintCaptain"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay854" id="854" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayGroupBlackShieldGabrielleCaptain"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay855" id="855" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayGroupBlackShieldClintZombieCaptain"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay856" id="856" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayGroupBlackShieldGabrielleZombieCaptain"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay857" id="857" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayGroupHazmatTier1"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay858" id="858" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayGroupHazmatTier2"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay859" id="859" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayGroupHazmatTier3"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay860" id="860" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayGroupHazmatTier4"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay861" id="861" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayGroupHazmatTier5"/>	
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay862" id="862" size="2,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" destroy_on_close="false">
+			<item group="FuriousRamsayGroupBlackShieldBandit"/>	
+		</lootcontainer>
+
+		<!-- ZOMBIE CLOTHING -->
+		<lootcontainer name="FuriousRamsay867" id="867" size="3,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayGroupStarterClothes10" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay868" id="868" size="3,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayGroupStarterClothes11" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay877" id="877" size="3,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayZombieRemainsFireLoot"/>
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay878" id="878" size="3,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayZombieRemainsShockLoot"/>
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay879" id="879" size="3,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayZombieRemainsFireShockLoot"/>
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay880" id="880" size="3,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayZombieRemainsSmokeLoot"/>
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay881" id="881" size="3,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayZombieRemainsFireShockSmokeLoot"/>
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay882" id="882" size="3,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayUMAClintZombieFeralQuestLoot"/>
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay883" id="883" size="3,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayUMAGabrielleZombieFeralQuestLoot"/>
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay884" id="884" size="3,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayUMAClintZombieRageQuestLoot"/>
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay885" id="885" size="3,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayUMAGabrielleZombieRageQuestLoot"/>
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay886" id="886" size="3,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayUMAClintZombieShockedRageLoot"/>
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsay887" id="887" size="3,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" destroy_on_close="false">
+			<item group="FuriousRamsayUMAGabrielleZombieShockedRageLoot"/>
+		</lootcontainer>
+	</append>
+    
+
+</Config>

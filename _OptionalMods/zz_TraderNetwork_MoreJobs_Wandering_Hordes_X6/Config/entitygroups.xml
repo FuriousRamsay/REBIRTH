@@ -1,0 +1,233 @@
+<Config>
+
+	<append xpath="/entitygroups">
+
+		<entitygroup name="FuriousRamsayWanderingHordeStage08">
+			<entity name="FuriousRamsayUMAAidenZombieWandering" prob="1"/>
+			<entity name="FuriousRamsayUMAHodorZombieWandering" prob="1"/>
+			<entity name="FuriousRamsayUMARichieZombieWandering" prob="1"/>
+			<entity name="FuriousRamsayUMAWillieZombieWandering" prob="1"/>
+			<entity name="FuriousRamsayUMAKimZombieWandering" prob="1"/>
+			<entity name="FuriousRamsayUMACharlotteZombieWandering" prob="1"/>
+			<entity name="FuriousRamsayUMARoxyZombieWandering" prob="1"/>
+			<entity name="FuriousRamsayUMAGabrielleZombieWandering" prob="1"/>
+			<entity name="FuriousRamsayUMAClintZombieWandering" prob="1"/>
+		</entitygroup>
+
+		<entitygroup name="FuriousRamsayWanderingHordeStage12">
+			<entity name="FuriousRamsayBlackDecoyFireZombieBoeWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireZombieJoeWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireZombieJanitorWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireZombieArleneWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireZombieLabWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireZombieDarleneWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireZombieMarleneWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireZombieYoWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireZombieSteveWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireZombieBusinessManWandering" prob="1"/>
+			<entity name="FuriousRamsayTrainerTier1Wandering" prob="0.15"/>
+		</entitygroup>
+
+		<entitygroup name="FuriousRamsayWanderingHordeStage20">
+			<entity name="FuriousRamsayBlackDecoyShockZombieSkateboarderWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyShockZombieUtilityWorkerWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyShockZombieNurseWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyShockZombiePartyGirlWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyShockZombieSteveCrawlerWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyShockZombieSpiderWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyShockZombieFatHawaiianWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyShockZombieBikerWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyShockZombieSoldierWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyShockZombieMaleHazmatWandering" prob="1"/>
+			<entity name="FuriousRamsayTrainerTier2Wandering" prob="0.15"/>
+		</entitygroup>
+
+		<entitygroup name="FuriousRamsayWanderingHordeStage34">
+			<entity name="FuriousRamsayUMAAidenZombieFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayUMAHodorZombieFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayUMARichieZombieFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayUMAWillieZombieFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayUMAKimZombieFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayUMACharlotteZombieFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayUMARoxyZombieFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayUMAGabrielleZombieFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayUMAClintZombieFeralWandering" prob="1"/>
+		</entitygroup>
+
+		<entitygroup name="FuriousRamsayWanderingHordeStage38">
+			<entity name="FuriousRamsayBlackDecoyFireShockZombieSkateboarderWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockZombieUtilityWorkerWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockZombieNurseWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockZombiePartyGirlWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockZombieSteveCrawlerWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockZombieSpiderWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockZombieFatHawaiianWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockZombieBikerWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockZombieSoldierWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockZombieMaleHazmatWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockZombieNurseFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockZombieBusinessManFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockZombieSteveFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockZombieYoFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockZombieMarleneFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockZombieDarleneFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockZombieLabFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockZombieArleneFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockZombieMoeFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockZombieJanitorFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockZombieJoeFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockZombieFemaleFatFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockZombieBoeFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayTrainerTier3Wandering" prob="0.15"/>
+		</entitygroup>
+
+		<entitygroup name="FuriousRamsayWanderingHordeStage41">
+			<entity name="FuriousRamsayUMAAidenZombieRageWandering" prob="1"/>
+			<entity name="FuriousRamsayUMAHodorZombieRageWandering" prob="1"/>
+			<entity name="FuriousRamsayUMARichieZombieRageWandering" prob="1"/>
+			<entity name="FuriousRamsayUMAWillieZombieRageWandering" prob="1"/>
+			<entity name="FuriousRamsayUMAKimZombieRageWandering" prob="1"/>
+			<entity name="FuriousRamsayUMACharlotteZombieRageWandering" prob="1"/>
+			<entity name="FuriousRamsayUMARoxyZombieRageWandering" prob="1"/>
+			<entity name="FuriousRamsayUMAClintZombieRageWandering" prob="1"/>
+			<entity name="FuriousRamsayUMAGabrielleZombieRageWandering" prob="1"/>
+		</entitygroup>
+
+		<entitygroup name="FuriousRamsayWanderingHordeStage44">
+			<entity name="FuriousRamsayBlackDecoySmokeZombieNurseFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieBusinessManFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieSteveFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieYoFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieMarleneFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieDarleneFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieLabFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieArleneFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieMoeFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieJanitorFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieJoeFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieFemaleFatFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieBoeFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombiePartyGirlFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieBikerFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieSkateboarderFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieSoldierFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieUtilityWorkerFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieFatHawaiianFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieSpiderFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieSteveCrawlerFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieWightFeralWandering" prob="1"/>
+			<entity name="FuriousRamsayTrainerTier4Wandering" prob="0.15"/>
+		</entitygroup>
+
+		<entitygroup name="FuriousRamsayWanderingHordeStage47">
+			<entity name="FuriousRamsayBlackDecoyFireShockSmokeZombieBikerRadiatedWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockSmokeZombieSkateboarderRadiatedWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockSmokeZombieSoldierRadiatedWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockSmokeZombieSpiderRadiatedWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockSmokeZombieSteveRadiatedWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockSmokeZombieYoRadiatedWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockSmokeZombieMarleneRadiatedWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockSmokeZombieDarleneRadiatedWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockSmokeZombieLabRadiatedWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockSmokeZombieArleneRadiatedWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockSmokeZombieMoeRadiatedWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockSmokeZombieJanitorRadiatedWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockSmokeZombieJoeRadiatedWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockSmokeZombieFemaleFatRadiatedWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockSmokeZombieBoeRadiatedWandering" prob="1"/>
+			<entity name="FuriousRamsayBlackDecoyFireShockSmokeZombieWightRadiatedWandering" prob="1"/>
+			<entity name="FuriousRamsayTrainerTier5Wandering" prob="0.15"/>
+		</entitygroup>
+
+		<entitygroup name="FuriousRamsayWanderingHordeStage50">
+			<entity name="FuriousRamsayZombieBoeToxicWandering" prob="1"/>
+			<entity name="FuriousRamsayZombieJoeToxicWandering" prob="1"/>
+			<entity name="FuriousRamsayZombieJanitorToxicWandering" prob="1"/>
+			<entity name="FuriousRamsayZombieArleneToxicWandering" prob="1"/>
+			<entity name="FuriousRamsayZombieLabToxicWandering" prob="1"/>
+			<entity name="FuriousRamsayZombieDarleneToxicWandering" prob="1"/>
+			<entity name="FuriousRamsayZombieMarleneToxicWandering" prob="1"/>
+			<entity name="FuriousRamsayZombieYoToxicWandering" prob="1"/>
+			<entity name="FuriousRamsayZombieSteveToxicWandering" prob="1"/>
+			<entity name="FuriousRamsayZombieBusinessManToxicWandering" prob="1"/>
+			<entity name="FuriousRamsayZombieAlexToxicWandering" prob="1"/>
+			<entity name="FuriousRamsayZombieSkateboarderToxicWandering" prob="1"/>
+			<entity name="FuriousRamsayZombieUtilityWorkerToxicWandering" prob="1"/>
+			<entity name="FuriousRamsayZombieNurseToxicWandering" prob="1"/>
+			<entity name="FuriousRamsayZombiePartyGirlToxicWandering" prob="1"/>
+			<entity name="FuriousRamsayZombieSteveCrawlerToxicWandering" prob="1"/>
+			<entity name="FuriousRamsayZombieSpiderToxicWandering" prob="1"/>
+			<entity name="FuriousRamsayZombieFatCopToxicWandering" prob="1"/>
+			<entity name="FuriousRamsayZombieFatHawaiianToxicWandering" prob="1"/>
+			<entity name="FuriousRamsayZombieBikerToxicWandering" prob="1"/>
+			<entity name="FuriousRamsayZombieSoldierToxicWandering" prob="1"/>
+			<entity name="FuriousRamsayZombieMaleHazmatToxicWandering" prob="1"/>
+			<entity name="FuriousRamsayZombieMoeToxicWandering" prob="1"/>
+			<entity name="FuriousRamsayZombieFemaleFatToxicWandering" prob="1"/>
+			<entity name="FuriousRamsayZombieBoeToxicFeralWandering" prob="0.75"/>
+			<entity name="FuriousRamsayZombieJoeToxicFeralWandering" prob="0.75"/>
+			<entity name="FuriousRamsayZombieJanitorToxicFeralWandering" prob="0.75"/>
+			<entity name="FuriousRamsayZombieArleneToxicFeralWandering" prob="0.75"/>
+			<entity name="FuriousRamsayZombieLabToxicFeralWandering" prob="0.75"/>
+			<entity name="FuriousRamsayZombieDarleneToxicFeralWandering" prob="0.75"/>
+			<entity name="FuriousRamsayZombieMarleneToxicFeralWandering" prob="0.75"/>
+			<entity name="FuriousRamsayZombieYoToxicFeralWandering" prob="0.75"/>
+			<entity name="FuriousRamsayZombieSteveToxicFeralWandering" prob="0.75"/>
+			<entity name="FuriousRamsayZombieBusinessManToxicFeralWandering" prob="0.75"/>
+			<entity name="FuriousRamsayZombieAlexToxicFeralWandering" prob="0.75"/>
+			<entity name="FuriousRamsayZombieSkateboarderToxicFeralWandering" prob="0.75"/>
+			<entity name="FuriousRamsayZombieUtilityWorkerToxicFeralWandering" prob="0.75"/>
+			<entity name="FuriousRamsayZombieNurseToxicFeralWandering" prob="0.75"/>
+			<entity name="FuriousRamsayZombiePartyGirlToxicFeralWandering" prob="0.75"/>
+			<entity name="FuriousRamsayZombieSteveCrawlerToxicFeralWandering" prob="0.75"/>
+			<entity name="FuriousRamsayZombieSpiderToxicFeralWandering" prob="0.75"/>
+			<entity name="FuriousRamsayZombieFatCopToxicFeralWandering" prob="0.75"/>
+			<entity name="FuriousRamsayZombieFatHawaiianToxicFeralWandering" prob="0.75"/>
+			<entity name="FuriousRamsayZombieBikerToxicFeralWandering" prob="0.75"/>
+			<entity name="FuriousRamsayZombieSoldierToxicFeralWandering" prob="0.75"/>
+			<entity name="FuriousRamsayZombieMaleHazmatToxicFeralWandering" prob="0.75"/>
+			<entity name="FuriousRamsayZombieMoeToxicFeralWandering" prob="0.75"/>
+			<entity name="FuriousRamsayZombieFemaleFatToxicFeralWandering" prob="0.75"/>
+			<entity name="FuriousRamsayZombieWightToxicFeralWandering" prob="0.75"/>
+			<entity name="FuriousRamsayZombieBoeToxicRadiatedWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieJoeToxicRadiatedWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieJanitorToxicRadiatedWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieArleneToxicRadiatedWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieDarleneToxicRadiatedWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieMarleneToxicRadiatedWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieYoToxicRadiatedWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieSteveToxicRadiatedWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieBusinessManToxicRadiatedWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieAlexToxicRadiatedWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieSkateboarderToxicRadiatedWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieUtilityWorkerToxicRadiatedWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieSpiderToxicRadiatedWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieFatCopToxicRadiatedWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieBikerToxicRadiatedWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieSoldierToxicRadiatedWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieMoeToxicRadiatedWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieFemaleFatToxicRadiatedWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieWightToxicRadiatedWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieBoeToxicAllFoursWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieJoeToxicAllFoursWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieJanitorToxicAllFoursWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieArleneToxicAllFoursWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieDarleneToxicAllFoursWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieMarleneToxicAllFoursWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieYoToxicAllFoursWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieSteveToxicAllFoursWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieBusinessManToxicAllFoursWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieSkateboarderToxicAllFoursWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieUtilityWorkerToxicAllFoursWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieSpiderToxicAllFoursWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieFatCopToxicAllFoursWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieBikerToxicAllFoursWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieSoldierToxicAllFoursWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieMoeToxicAllFoursWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieFemaleFatToxicAllFoursWandering" prob="0.5"/>
+			<entity name="FuriousRamsayZombieWightToxicAllFoursWandering" prob="0.5"/>
+		</entitygroup>
+
+	</append>
+		
+</Config>	

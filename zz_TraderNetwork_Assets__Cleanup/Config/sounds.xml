@@ -1,0 +1,59 @@
+<Config>
+
+	<!-- CHANGE NOISE SCALE WHEN CROUCHED -->
+	<setattribute xpath="//SoundDataNode" name="muffled_when_crouched">1</setattribute>
+
+	<setattribute xpath="//SoundDataNode[contains(@name, 'step') and not (contains(@name, 'creak'))]/CrouchNoiseScale" name="value">0.5</setattribute>
+
+	<setattribute xpath="//SoundDataNode[contains(@name, '_swing')]/CrouchNoiseScale" name="value">0.1</setattribute>
+
+	<setattribute xpath="//SoundDataNode[@name='spear_throw']/CrouchNoiseScale" name="value">0.1</setattribute>
+	<setattribute xpath="//SoundDataNode[@name='swoosh']/CrouchNoiseScale" name="value">0.1</setattribute>
+	<setattribute xpath="//SoundDataNode[@name='SlowSwoosh']/CrouchNoiseScale" name="value">0.1</setattribute>
+
+	<setattribute xpath="//SoundDataNode[@name='torch_lp']/CrouchNoiseScale" name="value">0.25</setattribute>
+	<setattribute xpath="//SoundDataNode[@name='vomit_projectile_lp']/CrouchNoiseScale" name="value">0.25</setattribute>
+	<setattribute xpath="//SoundDataNode[@name='vomit_projectile']/CrouchNoiseScale" name="value">0.25</setattribute>
+
+	<setattribute xpath="//SoundDataNode[@name='levelupplayer']/CrouchNoiseScale" name="value">0</setattribute>
+	<setattribute xpath="//SoundDataNode[@name='quest_subtask_complete']/CrouchNoiseScale" name="value">0</setattribute>
+	<setattribute xpath="//SoundDataNode[@name='NeonSignLP']/CrouchNoiseScale" name="value">0</setattribute>
+	<setattribute xpath="//SoundDataNode[@name='Flag_Oneshots']/CrouchNoiseScale" name="value">0</setattribute>
+	<setattribute xpath="//SoundDataNode[@name='FlagLP']/CrouchNoiseScale" name="value">0</setattribute>
+	<setattribute xpath="//SoundDataNode[@name='flies_lp']/CrouchNoiseScale" name="value">0</setattribute>
+
+	<!-- ADJUST HEATMAP FOR MINING -->
+	<append xpath="//SoundDataNode[@name='metaldestroy1']">
+		<Noise ID="0" noise="20" time="3" muffled_when_crouched="1" heat_map_strength="1.42" heat_map_time="90"/>
+	</append>
+	<append xpath="//SoundDataNode[@name='metaldestroy2']">
+		<Noise ID="0" noise="20" time="3" muffled_when_crouched="1" heat_map_strength="1.42" heat_map_time="90"/>
+	</append>
+	<append xpath="//SoundDataNode[@name='metaldestroy3']">
+		<Noise ID="0" noise="20" time="3" muffled_when_crouched="1" heat_map_strength="1.42" heat_map_time="90"/>
+	</append>
+
+	<remove xpath="//SoundDataNode[@name='stonedestroy']/Noise"/>
+	<append xpath="//SoundDataNode[@name='stonedestroy']">
+		<Noise ID="0" noise="15" time="3" muffled_when_crouched="1" heat_map_strength="1.25" heat_map_time="90"/>
+	</append>
+	<append xpath="//SoundDataNode[@name='stonedestroy1']">
+		<Noise ID="0" noise="15" time="3" muffled_when_crouched="1" heat_map_strength="1.25" heat_map_time="90"/>
+	</append>
+	<append xpath="//SoundDataNode[@name='stonedestroy2']">
+		<Noise ID="0" noise="15" time="3" muffled_when_crouched="1" heat_map_strength="1.25" heat_map_time="90"/>
+	</append>
+	<append xpath="//SoundDataNode[@name='stonedestroy3']">
+		<Noise ID="0" noise="15" time="3" muffled_when_crouched="1" heat_map_strength="1.25" heat_map_time="90"/>
+	</append>
+
+	<!-- REMOVE FOUL LANGUAGE -->
+	<remove xpath="//SoundDataNode[@name='malehatealert']/AudioClip[@ClipName='Sounds/VO/Male_Hate/male_hate_alert_03']"/>
+	<remove xpath="//SoundDataNode[@name='malehatealert']/AudioClip[@ClipName='Sounds/VO/Male_Hate/male_hate_alert_04']"/>
+	<remove xpath="//SoundDataNode[@name='malehatealert']/AudioClip[@ClipName='Sounds/VO/Male_Hate/male_hate_alert_07']"/>
+	<remove xpath="//SoundDataNode[@name='malehateattack']/AudioClip[@ClipName='Sounds/VO/Male_Hate/male_hate_attack_02']"/>
+	<remove xpath="//SoundDataNode[@name='malehateattack']/AudioClip[@ClipName='Sounds/VO/Male_Hate/male_hate_attack_03']"/>
+	<remove xpath="//SoundDataNode[@name='malehatedeath']/AudioClip[@ClipName='Sounds/VO/Male_Hate/male_hate_death_12']"/>
+	<remove xpath="//SoundDataNode[@name='malehatesense']/AudioClip[@ClipName='Sounds/VO/Male_Hate/male_hate_sense_09']"/>
+	
+</Config>
