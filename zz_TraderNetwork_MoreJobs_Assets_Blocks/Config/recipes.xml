@@ -2170,16 +2170,16 @@
 
 		<!-- FURNACE RECIPES -->
 		<recipe name="resourceBrokenGlass" count="1" craft_area="FuriousRamsayFurnace" always_unlocked="true">
-			<ingredient name="resourceCrushedSand" count="2"/>
+			<ingredient name="resourceCrushedSand" count="1"/>
 		</recipe>
 
 		<recipe name="drinkJarEmpty" count="1" craft_area="FuriousRamsayFurnace" always_unlocked="true">
-			<ingredient name="resourceBrokenGlass" count="10"/>
+			<ingredient name="resourceCrushedSand" count="10"/>
 			<ingredient name="resourceClayLump" count="1"/>
 		</recipe>
 
 		<recipe name="FuriousRamsayInkBottleEmpty" count="1" craft_area="FuriousRamsayFurnace" always_unlocked="true">
-			<ingredient name="resourceBrokenGlass" count="10"/>
+			<ingredient name="resourceCrushedSand" count="10"/>
 			<ingredient name="resourceClayLump" count="1"/>
 		</recipe>
 

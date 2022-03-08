@@ -2618,7 +2618,8 @@
 			<property name="OnlySimpleRotations" value="true" />
 			<property name="IsTerrainDecoration" value="true" />
 			<property name="ParticleName" value="torch_wall" />
-			<property name="ParticleOffset" value="0.71,0.98,0.94" />
+			<!--<property name="ParticleOffset" value="0.71,0.98,0.94" />-->
+			<property name="ParticleOffset" value="0.94,0.98,0.32" />
 			<property name="ImposterDontBlock" value="true" />
 			<property name="Stacknumber" value="1" />
 			<property name="HeatMapStrength" value="6" />

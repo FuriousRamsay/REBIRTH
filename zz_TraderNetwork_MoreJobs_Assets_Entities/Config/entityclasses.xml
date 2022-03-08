@@ -26,6 +26,20 @@
 
 	<!-- DECOYS -->
 	<append xpath="/entity_classes">
+	
+		<entity_class name="FuriousRamsayChunkObserverEntity" extends="zombieTemplateMale">
+			<property name="IsChunkObserver" value="true"/>
+			<property name="SizeScale" value="1.08"/>
+			<property name="Tags" value="entity,zombie,walker"/>
+			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBoe.prefab"/>
+			<property name="AvatarController" value="AvatarZombie01Controller"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="RootMotion" value="true"/>
+			<property name="HasDeathAnim" value="true"/>
+			<property name="AITask-1" value=""/>
+			<property name="AITarget-1" value=""/>
+		</entity_class>
+	
 		<entity_class name="FuriousRamsaySpawnEntityDecoyTier1" extends="FuriousRamsayBlackShieldDecoyMaster">
 			<property name="HideInSpawnMenu" value="true"/>
 			<property name="Tags" value="entity,decoyTier1,survivor" />
@@ -278,6 +292,8 @@
 			</effect_group>
 			<effect_group name="NPCOrder">
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayGiveSpawnOrders"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsaySpawnChunkObserverTimer"/>
+				<triggered_effect trigger="onSelfEnteredGame" action="AddBuff" target="self" buff="FuriousRamsaySpawnChunkObserverTimer"/>
 			</effect_group>
 			<effect_group name="Quests">
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="NPCInteractedFlag" operation="set" value="1"/>

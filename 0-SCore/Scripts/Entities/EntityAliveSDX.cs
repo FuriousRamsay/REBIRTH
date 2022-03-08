@@ -862,7 +862,7 @@ public class EntityAliveSDX : EntityTrader
         }
     }
 
-    public override void OnUpdateLive()
+    /*public override void OnUpdateLive()
     {
         //CheckNoise();
         LeaderUpdate();
@@ -971,7 +971,7 @@ public class EntityAliveSDX : EntityTrader
         //        }
         //    }
         //}
-    }
+    }*/
     private float fallTime;
 
 
@@ -1096,7 +1096,7 @@ public class EntityAliveSDX : EntityTrader
         Buffs.AddBuff("buffNotifyTeamAttack");
     }
 
-    public override void OnUpdatePosition(float _partialTicks)
+    /*public override void OnUpdatePosition(float _partialTicks)
     {
         if (this.position.y <= 0)
         {
@@ -1110,7 +1110,7 @@ public class EntityAliveSDX : EntityTrader
 
         }
         base.OnUpdatePosition(_partialTicks);
-    }
+    }*/
 
     public override bool CanDamageEntity(int _sourceEntityId)
     {

@@ -1,10 +1,10 @@
 <Config>
 
-	<append xpath="/ui_display_info/trader_category_display" >		
+	<!--<append xpath="/ui_display_info/trader_category_display" >		
 		<trader_category name="Robotics" icon="ui_game_symbol_assemble" display_name="FuriousRamsayRoboticsLabel" />
 		<trader_category name="Challenges" icon="ui_game_symbol_climb" display_name="FuriousRamsayChallengesLabel" />
 		<trader_category name="Repair" icon="ui_game_symbol_tool_smithing" display_name="FuriousRamsayRepairLabel" />
-	</append>
+	</append>-->
 
 	<append xpath="/ui_display_info/item_display" >		
 

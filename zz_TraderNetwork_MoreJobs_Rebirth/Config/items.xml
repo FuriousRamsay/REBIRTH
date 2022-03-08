@@ -33,6 +33,9 @@
 
 	<!-- REMOVE ABILITY TO SCRAP SCHEMATICS -->
 	<setattribute xpath="/items/item[@name='schematicMaster']/property[@name='Material']" name="value">MNoScrapPaper</setattribute>
+	<append xpath="/items/item[@name='FuriousRamsayChallengeQuestMaster']">
+		<property name="Material" value="MNoScrapPaper"/>		
+	</append>
 
 	<!-- ADD SOUND TO EXISTING ITEM -->
 	<append xpath="/items/item[@name='FuriousRamsayBurningKnife']/effect_group[@name='FuriousRamsayBurningKnifeEffects']">
@@ -7490,7 +7493,7 @@
 			<!--<property name="CustomIconTint" value="209, 107, 122"/>-->
 			<property name="DescriptionKey" value="FuriousRamsayStrengthperkSexualTrexDesc"/>
 			<property name="Extends" value="FuriousRamsayChallengeQuestMaster"/>
-			<property name="EconomicValue" value="2000"/>
+			<property name="EconomicValue" value="1000"/>
 			<property name="Candrop" value="true"/>
 			<property name="SellableToTrader" value="false"/>
 			<property class="Action0">
@@ -7543,7 +7546,7 @@
 			<property name="Extends" value="FuriousRamsayChallengeQuestMaster"/>
 			<!--<property name="CustomIconTint" value="171, 87, 99"/>-->
 			<property name="DescriptionKey" value="FuriousRamsayStrengthperkMiner69rDesc"/>
-			<property name="EconomicValue" value="2000"/>
+			<property name="EconomicValue" value="1000"/>
 			<property name="Candrop" value="true"/>
 			<property name="SellableToTrader" value="false"/>
 			<property class="Action0">
@@ -7596,7 +7599,7 @@
 			<property name="Extends" value="FuriousRamsayChallengeQuestMaster"/>
 			<!--<property name="CustomIconTint" value="133, 68, 77"/>-->
 			<property name="DescriptionKey" value="FuriousRamsayStrengthperkMotherLodeDesc"/>
-			<property name="EconomicValue" value="1000"/>
+			<property name="EconomicValue" value="750"/>
 			<property name="Candrop" value="true"/>
 			<property name="SellableToTrader" value="false"/>
 			<property class="Action0">
@@ -7650,7 +7653,7 @@
 			<property name="Extends" value="FuriousRamsayChallengeQuestMaster"/>
 			<!--<property name="CustomIconTint" value="209, 209, 105"/>-->
 			<property name="DescriptionKey" value="FuriousRamsayDexterityperkRuleOneCardioDesc"/>
-			<property name="EconomicValue" value="1500"/>
+			<property name="EconomicValue" value="750"/>
 			<property name="Candrop" value="true"/>
 			<property name="SellableToTrader" value="false"/>
 			<property class="Action0">
@@ -7703,7 +7706,7 @@
 			<property name="Extends" value="FuriousRamsayChallengeQuestMaster"/>
 			<!--<property name="CustomIconTint" value="173, 173, 87"/>-->
 			<property name="DescriptionKey" value="FuriousRamsayDexterityperkParkourDesc"/>
-			<property name="EconomicValue" value="1500"/>
+			<property name="EconomicValue" value="750"/>
 			<property name="Candrop" value="true"/>
 			<property name="SellableToTrader" value="false"/>
 			<property class="Action0">
@@ -7756,7 +7759,7 @@
 			<property name="Extends" value="FuriousRamsayChallengeQuestMaster"/>
 			<!--<property name="CustomIconTint" value="133, 133, 68"/>-->
 			<property name="DescriptionKey" value="FuriousRamsayDexterityperkRunAndGunDesc"/>
-			<property name="EconomicValue" value="1500"/>
+			<property name="EconomicValue" value="750"/>
 			<property name="Candrop" value="true"/>
 			<property name="SellableToTrader" value="false"/>
 			<property class="Action0">
@@ -7810,7 +7813,7 @@
 			<property name="Extends" value="FuriousRamsayChallengeQuestMaster"/>
 			<!--<property name="CustomIconTint" value="118, 227, 129"/>-->
 			<property name="DescriptionKey" value="FuriousRamsayConstitutionperkPackMuleDesc"/>
-			<property name="EconomicValue" value="2000"/>
+			<property name="EconomicValue" value="1000"/>
 			<property name="Candrop" value="true"/>
 			<property name="SellableToTrader" value="false"/>
 			<property class="Action0">
@@ -7863,7 +7866,7 @@
 			<property name="Extends" value="FuriousRamsayChallengeQuestMaster"/>
 			<!--<property name="CustomIconTint" value="99, 191, 109"/>-->
 			<property name="DescriptionKey" value="FuriousRamsayConstitutionperkHealingFactorDesc"/>
-			<property name="EconomicValue" value="2000"/>
+			<property name="EconomicValue" value="1000"/>
 			<property name="Candrop" value="true"/>
 			<property name="SellableToTrader" value="false"/>
 			<property class="Action0">
@@ -7916,7 +7919,7 @@
 			<property name="Extends" value="FuriousRamsayChallengeQuestMaster"/>
 			<!--<property name="CustomIconTint" value="81, 156, 89"/>-->
 			<property name="DescriptionKey" value="FuriousRamsayConstitutionperkSlowMetabolismDesc"/>
-			<property name="EconomicValue" value="1500"/>
+			<property name="EconomicValue" value="750"/>
 			<property name="Candrop" value="true"/>
 			<property name="SellableToTrader" value="false"/>
 			<property class="Action0">
@@ -7970,7 +7973,7 @@
 			<property name="Extends" value="FuriousRamsayChallengeQuestMaster"/>
 			<!--<property name="CustomIconTint" value="140, 210, 237"/>-->
 			<property name="DescriptionKey" value="FuriousRamsayIntelligenceperkDeepCutsDesc"/>
-			<property name="EconomicValue" value="2000"/>
+			<property name="EconomicValue" value="1000"/>
 			<property name="Candrop" value="true"/>
 			<property name="SellableToTrader" value="false"/>
 			<property class="Action0">
@@ -8008,7 +8011,7 @@
 			<property name="Extends" value="FuriousRamsayChallengeQuestMaster"/>
 			<!--<property name="CustomIconTint" value="106, 128, 217"/>-->
 			<property name="DescriptionKey" value="FuriousRamsayIntelligenceperkLuckyLooterDesc"/>
-			<property name="EconomicValue" value="2000"/>
+			<property name="EconomicValue" value="1000"/>
 			<property name="Candrop" value="true"/>
 			<property name="SellableToTrader" value="false"/>
 			<property class="Action0">
@@ -8151,7 +8154,7 @@
 			<property name="Extends" value="FuriousRamsayChallengeQuestMaster"/>
 			<!--<property name="CustomIconTint" value="224, 128, 208"/>-->
 			<property name="DescriptionKey" value="FuriousRamsayCharismaperkDaringAdventurerDesc"/>
-			<property name="EconomicValue" value="2000"/>
+			<property name="EconomicValue" value="1000"/>
 			<property name="Candrop" value="true"/>
 			<property name="SellableToTrader" value="false"/>
 			<property class="Action0">
@@ -8224,7 +8227,7 @@
 			<property name="Extends" value="FuriousRamsayChallengeQuestMaster"/>
 			<!--<property name="CustomIconTint" value="153, 87, 142"/>-->
 			<property name="DescriptionKey" value="FuriousRamsayCharismaperkCharismaticNatureDesc"/>
-			<property name="EconomicValue" value="1000"/>
+			<property name="EconomicValue" value="750"/>
 			<property name="Candrop" value="true"/>
 			<property name="SellableToTrader" value="false"/>
 			<property class="Action0">

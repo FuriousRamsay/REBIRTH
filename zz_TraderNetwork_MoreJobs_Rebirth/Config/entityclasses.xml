@@ -458,6 +458,9 @@
 				<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="FuriousRamsayProcessStrengthAttribute"/>
 		</effect_group>
 		<effect_group name="FuriousRamsayStatusCheck">
+			<!-- Set up Chunk Observer Variable -->
+			<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="varFuriousRamsayChunkObserver" operation="set" value="0"/> 
+
 			<!-- Set up Starter Variables -->
 			<triggered_effect trigger="onSelfEnteredGame" action="AddBuff" target="self" buff="FuriousRamsayRefreshGeneticsVariables"/>
 			<triggered_effect trigger="onSelfEnteredGame" action="AddBuff" target="self" buff="FuriousRamsayRefreshPerkVariables"/>
@@ -682,8 +685,8 @@
 	</append>-->
 	
 	<!-- ADJUST UMA ENTITIES -->
-	<setattribute xpath="/entity_classes/entity_class[@name='FuriousRamsayUMATemplateMale']/property[@name='Class']" name="value">EntityAliveSDX, SCore</setattribute>
-	<setattribute xpath="/entity_classes/entity_class[@name='FuriousRamsayCloakedAndroidMaster']/property[@name='Class']" name="value">EntityAliveSDX, SCore</setattribute>
+	<setattribute xpath="/entity_classes/entity_class[@name='FuriousRamsayUMATemplateMale']/property[@name='Class']" name="value">EntityEnemySDX, SCore</setattribute>
+	<setattribute xpath="/entity_classes/entity_class[@name='FuriousRamsayCloakedAndroidMaster']/property[@name='Class']" name="value">EntityEnemySDX, SCore</setattribute>
 	<!--<setattribute xpath="/entity_classes/entity_class[@name='FuriousRamsayAllyNPCTier5']/property[@name='Class']" name="value">EntityAliveSDX, SCore</setattribute>-->
 
 	<setattribute xpath="/entity_classes/entity_class[@name='FuriousRamsayUMATemplateMale']/property[@name='TimeStayAfterDeath']" name="value">3</setattribute>
@@ -2788,7 +2791,7 @@
 
 		<!-- QUEST BOSS: THE HUNT -->
 		<entity_class name="FuriousRamsayHostileStagBoss" extends="FuriousRamsayHostileStag"> 
-			<property name="Class" value="EntityAliveSDX, SCore" /> 
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="AvatarController" value="AvatarAnimalController"/> 
 			<property name="Faction" value="aggressiveanimalsmedium"/>
 			<property name="MaxViewAngle" value="360"/>

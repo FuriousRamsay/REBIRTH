@@ -25,5 +25,18 @@
 		</action>
 
 	</append>
+
+	<append xpath="/gameevents">
+
+		<action_sequence name="FuriousRamsaySpawnChunkObserverEvent">
+			<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsayChunkObserverEntity"/>
+				<property name="min_distance" value="1" />
+				<property name="max_distance" value="1" />
+				<property name="spawn_count" value="1" />
+			</action>
+		</action_sequence>	
+
+	</append>
 	
 </Config>

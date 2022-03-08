@@ -176,7 +176,7 @@
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseBreakingDoorTier1" operation="set" value="0.005"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvageApplianceTier1" operation="set" value="0.005"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvagedCarTier1" operation="set" value="0.005"/>
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseLootedTier1" operation="set" value="0.0005"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseLootedTier1" operation="set" value="0.0001"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseReceivedDamageTier1" operation="set" value="0.0025"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsLowTier1" operation="set" value="0.005"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsMediumTier1" operation="set" value="0.0075"/>
@@ -208,7 +208,7 @@
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseBreakingDoorTier2" operation="set" value="0.004"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvageApplianceTier2" operation="set" value="0.004"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvagedCarTier2" operation="set" value="0.004"/>
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseLootedTier2" operation="set" value="0.0004"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseLootedTier2" operation="set" value="0.0001"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseReceivedDamageTier2" operation="set" value="0.00225"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsLowTier2" operation="set" value="0.005"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsMediumTier2" operation="set" value="0.0075"/>
@@ -240,7 +240,7 @@
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseBreakingDoorTier3" operation="set" value="0.003"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvageApplianceTier3" operation="set" value="0.003"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvagedCarTier3" operation="set" value="0.003"/>
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseLootedTier3" operation="set" value="0.0002"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseLootedTier3" operation="set" value="0.0001"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseReceivedDamageTier3" operation="set" value="0.002"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsLowTier3" operation="set" value="0.005"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsMediumTier3" operation="set" value="0.0075"/>
@@ -272,7 +272,7 @@
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseBreakingDoorTier4" operation="set" value="0.002"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvageApplianceTier4" operation="set" value="0.002"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvagedCarTier4" operation="set" value="0.002"/>
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseLootedTier4" operation="set" value="0.0002"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseLootedTier4" operation="set" value="0.0001"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseReceivedDamageTier4" operation="set" value="0.00175"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsLowTier4" operation="set" value="0.005"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsMediumTier4" operation="set" value="0.0075"/>
@@ -304,7 +304,7 @@
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseBreakingDoorTier5" operation="set" value="0.001"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvageApplianceTier5" operation="set" value="0.001"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsaySalvagedCarTier5" operation="set" value="0.001"/>
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseLootedTier5" operation="set" value="0.0002"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseLootedTier5" operation="set" value="0.0001"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseReceivedDamageTier5" operation="set" value="0.0015"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsLowTier5" operation="set" value="0.005"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayIncreaseUseDrugsMediumTier5" operation="set" value="0.0075"/>
