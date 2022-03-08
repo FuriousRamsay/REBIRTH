@@ -49,8 +49,8 @@
 	<setattribute xpath="/entity_classes/entity_class[@name='animalSnake']/property[@name='AITask-3']" name="data">class=EntityPlayer,15,EntityNPC,15,EntitySurvivor,15,EntityBandit,15,EntityAnimalStag,15</setattribute>
 	<setattribute xpath="/entity_classes/entity_class[@name='animalSnake']/property[@name='AITarget-4']" name="data">class=EntityPlayer,14,0,EntityNPC,14,0,EntityNPC,14,0,EntityZombie,14,0,EntitySurvivor,14,0,EntityBandit,14,0,EntityAnimalStag,14,0</setattribute>
 
-	<setattribute xpath="/entity_classes/entity_class[@name='animalCoyote']/property[@name='AITask-4']" name="data">class=EntityPlayer,10,EntityAnimalRabbit,8,EntityNPC,10,EntitySurvivor,10,EntityBandit,10,EntityAnimalStag,10</setattribute>
-	<setattribute xpath="/entity_classes/entity_class[@name='animalCoyote']/property[@name='AITarget-3']" name="data">class=EntityPlayer,15,10,EntityNPC,15,10,EntityAnimalRabbit,15,18,EntityZombie,15,10,EntitySurvivor,15,10,EntityBandit,15,10,EntityAnimalStag,15,10</setattribute>
+	<setattribute xpath="/entity_classes/entity_class[@name='animalCoyote']/property[@name='AITask-4']" name="data">class=EntityPlayer,10,EntityNPC,10,EntitySurvivor,10,EntityBandit,10,EntityAnimalStag,10</setattribute>
+	<setattribute xpath="/entity_classes/entity_class[@name='animalCoyote']/property[@name='AITarget-3']" name="data">class=EntityPlayer,15,10,EntityNPC,15,10,EntityZombie,15,10,EntitySurvivor,15,10,EntityBandit,15,10,EntityAnimalStag,15,10</setattribute>
 
 	<setattribute xpath="/entity_classes/entity_class[@name='animalWolf']/property[@name='AITask-4']" name="data">class=EntityPlayer,10,EntityAnimalStag,20,EntityNPC,10,EntityZombie,20,EntitySurvivor,10,EntityBandit,10</setattribute>
 	<setattribute xpath="/entity_classes/entity_class[@name='animalWolf']/property[@name='AITarget-3']" name="data">class=EntityPlayer,16,8,EntityNPC,16,8,EntityAnimalStag,16,0,EntityZombie,16,8,EntitySurvivor,16,8,EntityBandit,16,8</setattribute>

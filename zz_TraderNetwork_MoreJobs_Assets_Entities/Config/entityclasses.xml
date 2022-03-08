@@ -28,16 +28,34 @@
 	<append xpath="/entity_classes">
 	
 		<entity_class name="FuriousRamsayChunkObserverEntity" extends="zombieTemplateMale">
+			<property name="Class" value="EntityAliveSDX, SCore" /> 
 			<property name="IsChunkObserver" value="true"/>
-			<property name="SizeScale" value="1.08"/>
-			<property name="Tags" value="entity,zombie,walker"/>
-			<property name="Mesh" value="#Entities/Zombies?Prefabs/ZBoe.prefab"/>
-			<property name="AvatarController" value="AvatarZombie01Controller"/>
+			<property name="SizeScale" value="10.1"/>
+			<property name="Prefab" value="/Entities/Animals/Rabbit/RABBIT"/>
+			<property name="ReplaceMaterial0" value="#Other/Items?items/misc/material/beaker.mat"/>	
+			<property name="AvatarController" value="GameObjectAnimalAnimation"/>
+			<property name="LookAtAngle" value="0"/>
 			<property name="ModelType" value="Standard"/>
 			<property name="RootMotion" value="true"/>
 			<property name="HasDeathAnim" value="true"/>
 			<property name="AITask-1" value=""/>
 			<property name="AITarget-1" value=""/>
+			<property name="Parent" value="Animals"/>
+			<property name="IsEnemyEntity" value="false"/>
+
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="999999"/>
+				<passive_effect name="HealthLoss" operation="base_set" value="0"/>
+				<passive_effect name="HealthLoss" operation="perc_set" value="0"/>
+				<passive_effect name="HealthLoss" operation="perc_add" value="-1.2"/>
+				<passive_effect name="CarryCapacity" operation="base_set" value="45"/>
+				<passive_effect name="ElementalDamageResist" operation="base_add" value="200" tags="cold,heat,electrical"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="200"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="200" tags="coredamageresist"/>
+				<passive_effect name="ElementalDamageResist" operation="base_add" value="200" tags="heat,electrical"/>
+
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="varFuriousRamsayChunkObserverSpawned" operation="set" value="1"/>
+			</effect_group>
 		</entity_class>
 	
 		<entity_class name="FuriousRamsaySpawnEntityDecoyTier1" extends="FuriousRamsayBlackShieldDecoyMaster">
@@ -294,6 +312,7 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayGiveSpawnOrders"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsaySpawnChunkObserverTimer"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="AddBuff" target="self" buff="FuriousRamsaySpawnChunkObserverTimer"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="varFuriousRamsayChunkObserverSpawner" operation="set" value="1"/>
 			</effect_group>
 			<effect_group name="Quests">
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="NPCInteractedFlag" operation="set" value="1"/>

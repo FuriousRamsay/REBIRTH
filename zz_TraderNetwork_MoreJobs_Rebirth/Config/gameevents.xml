@@ -797,7 +797,7 @@ spideralert
 		</action_sequence>
 		<action_sequence name="FuriousRamsayImportantSoldierAxesWeapon3">
 			<action class="AddItems">
-				<property name="added_items" value="FuriousRamsayImportantSoldierAxesWeapon3,ItemsWeaponsAxe004_FR," />
+				<property name="added_items" value="FuriousRamsayImportantSoldierAxesWeapon3,ItemsWeaponsAxe004_FR" />
 				<property name="added_item_counts" value="1,1" />
 			</action>
 		</action_sequence>
