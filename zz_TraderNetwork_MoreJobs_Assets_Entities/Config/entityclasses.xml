@@ -30,7 +30,7 @@
 		<entity_class name="FuriousRamsayChunkObserverEntity" extends="zombieTemplateMale">
 			<property name="Class" value="EntityAliveSDX, SCore" /> 
 			<property name="IsChunkObserver" value="true"/>
-			<property name="SizeScale" value="10.1"/>
+			<property name="SizeScale" value="0.1"/>
 			<property name="Prefab" value="/Entities/Animals/Rabbit/RABBIT"/>
 			<property name="ReplaceMaterial0" value="#Other/Items?items/misc/material/beaker.mat"/>	
 			<property name="AvatarController" value="GameObjectAnimalAnimation"/>
@@ -42,6 +42,13 @@
 			<property name="AITarget-1" value=""/>
 			<property name="Parent" value="Animals"/>
 			<property name="IsEnemyEntity" value="false"/>
+
+			<property name="SoundRandom" value=""/>
+			<property name="SoundAlert" value=""/>
+			<property name="SoundAttack" value=""/>
+			<property name="SoundHurt" value=""/>
+			<property name="SoundDeath" value=""/>
+			<property name="SoundSense" value=""/>
 
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="999999"/>

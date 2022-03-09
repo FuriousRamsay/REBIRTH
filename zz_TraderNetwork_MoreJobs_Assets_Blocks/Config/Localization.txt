@@ -433,7 +433,7 @@ FuriousRamsayCalciumChloride,items,Items,Calcium Chloride
 FuriousRamsayCalciumChlorideDesc,items,Items,"Calcium Chloride is a key ingredient in making activated charcoal"
 
 FuriousRamsayImportantGeneticsLevels,items,Items,Important Note
-FuriousRamsayImportantGeneticsLevelsDesc,items,Items,"Leveling your Genetics will affect some of your skills:\n • [c27272]STRENGTH[-]: Increased Damage with Melee Weapons\n • [bdbf71]DEXTERITY[-]: Increased Max Stamina, Walk and Run Speed\n • [7abd71]CONSTITUTION[-]: Increased Max Health, Mobility and Carrying Capacity\n • [70a4ba]INTELLIGENCE[-]: Increased Damage with Tools\n • [179, 107, 167]CHARISMA[-]: Increased Sell Prices.\n\n - Briston"
+FuriousRamsayImportantGeneticsLevelsDesc,items,Items,"Leveling your Genetics will affect some of your skills:\n • [c27272]STRENGTH[-]: Increased Damage with Melee Weapons\n • [bdbf71]DEXTERITY[-]: Increased Max Stamina, Walk and Run Speed\n • [7abd71]CONSTITUTION[-]: Increased Max Health, Mobility and Carrying Capacity\n • [70a4ba]INTELLIGENCE[-]: Increased Damage with Tools\n • [b36ba7]CHARISMA[-]: Increased Sell Prices.\n\n - Briston"
 
 FuriousRamsayImportantAuraHunter,items,Items,Important Note
 FuriousRamsayImportantAuraHunterDesc,items,Items,"You have been granted the [53adbd]Ranged Burn Aura[-] ability.\n\nIt will become active when you wear your full set of class gear. You will also be able to craft this gear into a mod that can be worn in any head armor should you wish to use other armor.\n\nPlease note that you cannot both use this mod and use your class gear.\n\n - Briston"
