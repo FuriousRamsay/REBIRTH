@@ -213,11 +213,12 @@
                     <consideration class="PathBlockedSDX, SCore"  />
                     <consideration class="TargetType" type="Block"/>
                 </action> 
-				<action name="DoorBuster" weight="4">
+				<!-- <action name="DoorBuster" weight="4">
                     <task class="BreakBlock, SCore" action_index="0"/>
                     <consideration class="PathBlockedSDX, SCore"  />
                     <consideration class="TargetType" type="BlockDoorSecure"/>
-                </action>
+                </action> -->
+				
 			</ai_package>	
 	
 			<ai_package name="NPCRangedBasic" entity_filter="IsEnemy" > <!-- props to the team, especially Ramsey, for this upgraded code  -->

@@ -2,6 +2,36 @@
 		
 		<append xpath="/buffs">
 
+			<buff name="FuriousRamsayNPC3Attacks" hidden="true">
+				<effect_group name="FuriousRamsayAnimal3Attacks">
+					<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="varAttackIndex" operation="set" value="randomint(0,2)"/>
+					<triggered_effect trigger="onSelfAttackedOther" action="AnimatorSetInt" property="AttackIndex" value="0">
+						<requirement name="CVarCompare" cvar="varAttackIndex" operation="Equals" value="0"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfAttackedOther" action="AnimatorSetInt" property="AttackIndex" value="1">
+						<requirement name="CVarCompare" cvar="varAttackIndex" operation="Equals" value="1"/>
+					</triggered_effect>
+					<triggered_effect trigger="onSelfAttackedOther" action="AnimatorSetInt" property="AttackIndex" value="2">
+						<requirement name="CVarCompare" cvar="varAttackIndex" operation="Equals" value="2"/>
+					</triggered_effect>
+				</effect_group>
+			</buff>	
+
+			<buff name="FuriousRamsayNPCPain3Hits" hidden="true">
+				<effect_group name="FuriousRamsayAnimalPain3Hits">
+					<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" cvar="varPainIndex" operation="set" value="randomint(0,2)"/>
+					<triggered_effect trigger="onOtherDamagedSelf" action="AnimatorSetInt" property="PainIndex" value="0">
+						<requirement name="CVarCompare" cvar="varPainIndex" operation="Equals" value="0"/>
+					</triggered_effect>
+					<triggered_effect trigger="onOtherDamagedSelf" action="AnimatorSetInt" property="PainIndex" value="1">
+						<requirement name="CVarCompare" cvar="varPainIndex" operation="Equals" value="1"/>
+					</triggered_effect>
+					<triggered_effect trigger="onOtherDamagedSelf" action="AnimatorSetInt" property="PainIndex" value="2">
+						<requirement name="CVarCompare" cvar="varPainIndex" operation="Equals" value="2"/>
+					</triggered_effect>
+				</effect_group>
+			</buff>	
+
 			<buff name="FuriousRamsaySpawnChunkObserverTimer" hidden="true">
 				<stack_type value="replace"/>
 				<duration value="0"/>

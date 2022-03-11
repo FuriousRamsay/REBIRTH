@@ -1,6 +1,27 @@
 <configs>
 	<append xpath="/items">
 	
+		<item name="FuriousRamsayNPCKatana003"> 
+			<property name="Extends" value="meleeNPCMachete"/>
+			<property name="Meshfile" value="#@modfolder(zz_TraderNetwork_MoreJobs_Assets_Blocks):Resources/FR_Swords.unity3d?ItemsWeaponsKatana003_FR"/>
+			<property class="Action0">			
+				<property name="Sound_start" value="FuriousRamsayKatanaSwooshNPC"/>
+				<property name="DamageEntity" value="125"/>
+			</property>
+			<property class="Action1">
+				<property name="Sound_start" value="FuriousRamsayKatanaSwooshNPC"/>
+				<property name="DamageEntity" value="125"/>
+			</property>
+			<effect_group name="FuriousRamsayBurningDebuff" tiered="false">
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="self" buff="FuriousRamsayTempResistFire">
+					<requirement name="IsAlive" target="other"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="FuriousRamsayAddKatanaBurningDamage">
+					<requirement name="IsAlive" target="other"/>
+				</triggered_effect>
+			</effect_group>	
+		</item>
+
 		<item name="FuriousRamsayBossAxe"> 
 			<property name="Extends" value="meleeHandNPCMaster"/>
 			<property name="Canhold" value="true"/> 

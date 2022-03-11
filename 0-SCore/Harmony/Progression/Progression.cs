@@ -8,7 +8,7 @@ namespace Harmony.Progression
      * 
      * This class includes a Harmony patch to disable all XP from all events.
      */
-    /*public class SCoreProgression
+    public class SCoreProgression
     {
         private static readonly string AdvFeatureClass = "AdvancedProgression";
         private static readonly string Feature = "ZeroXP";
@@ -86,5 +86,5 @@ namespace Harmony.Progression
                 int level = __instance.Level;
             }
         }
-    }*/
+    }
 }

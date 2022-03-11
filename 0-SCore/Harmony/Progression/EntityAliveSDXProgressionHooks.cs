@@ -7,7 +7,7 @@ namespace Harmony.Progression
 {
 
     // This gives "human" tagged entityalives access to the progression and levelling system.
-    /*public class EntityAliveSDXProgressionHooks
+    public class EntityAliveSDXProgressionHooks
     {
         [HarmonyPatch(typeof(global::Progression))]
         [HarmonyPatch(MethodType.Constructor)]
@@ -57,5 +57,5 @@ namespace Harmony.Progression
                 CalcEventList(__instance, ref ___ProgressionValueQuickList, ref ___eventList);
             }
         }
-    }*/
+    }
 }

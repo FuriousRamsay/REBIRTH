@@ -24503,6 +24503,45 @@
 		
 			<property name="HandItem" value="FuriousRamsayMeleeHandMedicalDroid"/>
 		</entity_class>
+
+		<!-- MERCENARY TRADER -->
+		<entity_class name="FuriousRamsayKatana003Template" extends="npcMeleeTemplate">
+			<property name="HideInSpawnMenu" value="true"/> 
+			<property name="Tags" value="entity,male,npc,melee"/>
+			<property name="Faction" value="whiteriver"/>
+			<property name="WalkType" value="7"/>	
+			<property name="Names" value="Template" />
+			<property name="RightHandJointName" value="Machete" />
+			<property name="ItemsOnEnterGame.GameModeSurvival" value="FuriousRamsayNPCKatana003"/>
+			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="FuriousRamsayNPCKatana003"/>
+			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="FuriousRamsayNPCKatana003"/>
+			<effect_group name="WeaponType"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="MacheteUser"/>
+			</effect_group>
+		</entity_class>	
+
+		<entity_class name="FuriousRamsayMercenaryTrader_FR" extends="FuriousRamsayKatana003Template"> 
+			<property name="HideInSpawnMenu" value="false"/>
+			<property name="NavObject" value="FuriousRamsaySurvivalSpecialist" />
+			<property name="Tags" value="entity,male,npc,survivor,ranged,DRMid,FuriousRamsayMercenaryTrader_FR"/>
+			<property name="Names" value="Raël" />
+			<property name="Mesh" value="#@modfolder:Resources/FR_Assassins.unity3d?MercenaryMerchant_FR"/>		
+			<property name="NPCID" value="FuriousRamsaySurvivalSpecialistNPC"/> 
+			<property name="AIPackages" value="FuriousRamsayMeleeWanderingTrader, NPCMeleeBasic"/> 
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="2000"/>
+			</effect_group>
+			<effect_group name="Signal Hired NPCs to Support">
+				<!--<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" target="other" buff="buffNPCModAttacked"/>-->
+				<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" target="other" buff="buffNPCModAttacking"/>
+			</effect_group>
+			<effect_group name="NPCOrder">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayGiveSpawnOrders"/>
+			</effect_group>
+			<effect_group name="Quests">
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="NPCInteractedFlag" operation="set" value="1"/>
+			</effect_group>
+		</entity_class>
 		
 	</append>
 </configs>

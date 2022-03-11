@@ -326,6 +326,22 @@
 			<property name="ModelOffset" value="0,0,0"/>
         </block>
 
+		<block name="FuriousRamsaySpawnAssassinTrader_FR">
+			<property name="CreativeMode" value="Player"/>
+            <property name="Extends" value="SpawnCube"/>
+            <property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="DescriptionKey" value="FuriousRamsaySpawnTrainerChef_FRDesc"/>
+            <property name="Config" value="ec=FuriousRamsayAssassinTrader_FR;buff=buffOrderStay;pc=0;leader=true" />
+			<property name="CustomIcon" value="npc_chef"/>
+			<property name="EconomicValue" value="350"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="DisplayType" value="FuriousRamsayNPCDisplay"/>
+			<property name="MaxDamage" value="2000"/>
+			<property name="Model" value="#@modfolder:Resources/FR_WomenSurvivors.unity3d?TrainerChef_Preview_FR"/>
+			<property name="ModelOffset" value="0,0,0"/>
+        </block>
+
 	</append>
 	
 </Config>

@@ -945,6 +945,18 @@
 			<MaxVoices value="3"/>
 			<MaxRepeatRate value="0.01"/>
 		</SoundDataNode>
+		<SoundDataNode name="FuriousRamsayKatanaSwooshNPC">
+			<AudioSource name="Sounds/AudioSource_VO"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?FuriousRamsayKatanaSwooshNPC"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/>
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="3"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
 		<!-- AXE LIGHTNING -->
 		<SoundDataNode name="FuriousRamsayAxeLightning">
 			<AudioSource name="Sounds/AudioSource_Explosion"/>

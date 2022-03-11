@@ -215,7 +215,6 @@ public class EntityAliveSDX : EntityTrader
     // Over-ride for CopyProperties to allow it to read in StartingQuests.
     public override void CopyPropertiesFromEntityClass()
     {
-        //Log.Out("CopyPropertiesFromEntityClass");
         base.CopyPropertiesFromEntityClass();
         var _entityClass = EntityClass.list[entityClass];
 
@@ -299,7 +298,6 @@ public class EntityAliveSDX : EntityTrader
     /// </summary>
     public override void OnAddedToWorld()
     {
-        //Log.Out("OnAddedToWorld");
         if (isAlwaysAwake)
         {
             // Set the current order, defaults to "Wander"
@@ -468,7 +466,6 @@ public class EntityAliveSDX : EntityTrader
 
     public override void PostInit()
     {
-        //Log.Out("PostInit");
         base.PostInit();
 
         // disable god mode, since that's enabled by default in the NPC
@@ -520,7 +517,6 @@ public class EntityAliveSDX : EntityTrader
     // Reads the buff and quest information
     public override void Read(byte _version, BinaryReader _br)
     {
-        //Log.Out("Read");
         base.Read(_version, _br);
         _strMyName = _br.ReadString();
         questJournal = new QuestJournal();
@@ -547,8 +543,9 @@ public class EntityAliveSDX : EntityTrader
             //  fail safe to protect game saves
         }
 
-        //Progression.Read(_br, this);
+        Progression.Read(_br, this);
     }
+
 
     public void SetupAutoPathingBlocks()
     {
@@ -632,7 +629,7 @@ public class EntityAliveSDX : EntityTrader
             // fail safe to protect game saves
         }
 
-        //Progression.Write(_bw);
+        Progression.Write(_bw);
     }
 
     public void GiveQuest(string strQuest)

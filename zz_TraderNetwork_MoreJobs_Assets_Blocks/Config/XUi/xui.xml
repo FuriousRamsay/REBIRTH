@@ -201,6 +201,16 @@
 			<window name="windowNonPagingHeader"/>
 		</window_group>				
 
+		<window_group name="workstation_AmmoMachine_FR" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="FuriousRamsayWindowWorkbenchIronOven001_FRTools"/>
+			<window name="WorkbenchCircularMachine001_FRFuel" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>				
+
 		<window_group name="workstation_WorkbenchIronOven001_FR" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>

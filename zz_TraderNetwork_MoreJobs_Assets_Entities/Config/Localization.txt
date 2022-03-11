@@ -22,6 +22,7 @@ FuriousRamsayFarmerTrader_FR,entityclasses,Entity,"Billy Bob, 'The Farmer'"
 FuriousRamsayTraderHandyman_FR,entityclasses,Entity,"Gretta, 'The Handywoman'"
 FuriousRamsayBlackShieldTrader_FR,entityclasses,Entity,"Lorenzo, 'The Black Shield Trader'"
 
+FuriousRamsayMercenaryTrader_FR,entityclasses,Entity,"Raël, 'The Mercenary'"
 FuriousRamsayBristonStart_FR,entityclasses,Entity,"Briston, 'The Survivalist'"
 FuriousRamsayBriston_FR,entityclasses,Entity,"Briston, 'The Survivalist'"
 FuriousRamsayTrainerHunter_FR,entityclasses,Entity,"Olivia, 'The Huntress'"

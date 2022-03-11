@@ -2280,6 +2280,54 @@
 			<property name="SellableToTrader" value="false"/>
 		</block>
 
+		<block name="AmmoMachine_FR">
+			<property name="CustomIcon" value="FR_IronStove_icon"/>
+			<property name="MultiBlockDim" value="2,2,2"/>
+			<property name="Path" value="solid"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/FR_Industrial.unity3d?FuriousRamsayAmmoMachine" />
+			<property name="Class" value="Campfire"/>
+			<property name="UnlockedBy" value="FuriousRamsayPerkCraftingWorkbenchIronOven001_FR,FuriousRamsaySchematicWorkbenchIronOven001_FR"/>
+			<property name="ParticleName" value="chemistryStation"/>
+			<property name="ParticleOffset" value="-.65,.175,-.55"/>
+			<property name="Material" value="MmetalPickUp"/>
+			<property name="MaxDamage" value="750"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="CraftActionName" value="Start" />
+			<property name="CraftIcon" value="ui_game_symbol_check" />
+			<property name="OpenSound" value="FuriousRamsayIronOven"/>
+			<property name="CloseSound" value=""/>
+			<property name="CraftCompleteSound" value=""/>
+			<property name="HeatMapStrength" value="2"/>
+			<property name="HeatMapTime" value="5000"/>
+			<property name="HeatMapFrequency" value="1000"/>
+			<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>
+			<property class="Workstation">
+				<property name="Modules" value="tools,output,fuel,input"/>
+				<property name="CraftingAreaRecipes" value="WorkbenchIronOven001_FR"/>
+			</property>
+			<property name="WorkstationIcon" value="ui_game_symbol_FR_IronStove_icon"/>
+			<property name="TakeDelay" value="15"/>
+			<property class="RepairItems">
+				<property name="resourceForgedIron" value="10"/>
+			</property>
+			<drop event="Harvest" name="" count="0" tool_category="Disassemble" />
+			<drop event="Destroy" name="WorkbenchIronOven001_FR" count="1" tool_category="Disassemble" />
+			<drop event="Fall" name="WorkbenchIronOven001_FR" count="3" prob="0.5" stick_chance="1"/>
+			<property name="TakeDelay" value="15"/>
+			<property name="EconomicValue" value="2000"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+			<property name="SortOrder1" value="70i0"/>
+			<property name="SellableToTrader" value="false"/>
+		</block>
+
 		<block name="WorkbenchIronOven001_FR">
 			<property name="CustomIcon" value="FR_IronStove_icon"/>
 			<property name="MultiBlockDim" value="2,1,1"/>
