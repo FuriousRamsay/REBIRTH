@@ -1,0 +1,46 @@
+<Config>
+
+	<append xpath="/traders/trader_item_groups">
+
+		<trader_item_group name="FuriousRamsayMercenaryTraderPerk0" count="all">
+			<item name="FuriousRamsayMercenariesTier1"/>
+			<item name="FuriousRamsayMercenariesTier2"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayMercenaryTraderPerk3" count="all">
+			<item name="FuriousRamsayMercenariesTier3"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayMercenaryTraderPerk4" count="all">
+			<item name="FuriousRamsayMercenariesTier4"/>
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayMercenaryTraderPerk5" count="all">
+			<item name="FuriousRamsayMercenariesTier5"/>
+		</trader_item_group>
+
+	</append>
+
+	<append xpath="/traders">
+	
+		<trader_info id="93" full_reset="true" min_inventory="20" max_inventory="20" min_items_swapped="20" max_items_swapped="20" reset_interval="1" open_time="0:00" close_time="0:00">
+			<trader_items count="all">
+				<item group="FuriousRamsayMercenaryTraderPerk0"/>
+			</trader_items>
+
+			<tier_items level="3000,3999" count="all">
+				<item group="FuriousRamsayMercenaryTraderPerk3"/>
+			</tier_items>
+
+			<tier_items level="4000,4999" count="all">
+				<item group="FuriousRamsayMercenaryTraderPerk4"/>
+			</tier_items>
+
+			<tier_items level="5000,-1" count="all">
+				<item group="FuriousRamsayMercenaryTraderPerk5"/>
+			</tier_items>
+		</trader_info>
+		
+	</append>
+
+</Config>

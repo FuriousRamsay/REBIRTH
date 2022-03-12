@@ -24,6 +24,7 @@
 			<entity name="FuriousRamsayNoahPistolNoHire" prob=".005" />
 			<entity name="FuriousRamsayNoahAK47NoHire" prob=".005" />
 			<entity name="FuriousRamsayNoahPumpShotgunNoHire" prob=".005" />
+			<entity name="FuriousRamsayMercenaryTrader_FR" prob=".03" />
 			<!-- FEMALE NPCs -->
 			<entity name="FuriousRamsaySurvivorWoman001aClub" prob=".03" />
 			<entity name="FuriousRamsaySurvivorWoman001aBat" prob=".03" />
@@ -537,6 +538,8 @@
 	<setattribute xpath="/entitygroups/entitygroup[@name='WildGameDesert']/entity[@name='none']" name="prob">400</setattribute>
 
 	<insertBefore xpath="/entitygroups/entitygroup[@name='WildGameDesert']/entity[@name='none']">
+			<!-- TRADERS -->
+			<entity name="FuriousRamsayMercenaryTrader_FR" prob=".03" />
 			<!-- FEMALE NPCs -->
 			<entity name="FuriousRamsaySurvivorWoman003aPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorWoman003aPipeMachineGun" prob=".03" />
@@ -886,6 +889,8 @@
 	<setattribute xpath="/entitygroups/entitygroup[@name='WildGameSnow']/entity[@name='none']" name="prob">400</setattribute>
 
 	<insertBefore xpath="/entitygroups/entitygroup[@name='WildGameSnow']/entity[@name='none']">
+			<!-- TRADERS -->
+			<entity name="FuriousRamsayMercenaryTrader_FR" prob=".03" />
 			<!-- FEMALE NPCs -->
 			<entity name="FuriousRamsaySurvivorWoman004aPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorWoman004aPipeMachineGun" prob=".03" />
@@ -1136,6 +1141,8 @@
 	<setattribute xpath="/entitygroups/entitygroup[@name='WildGameWasteland']/entity[@name='none']" name="prob">400</setattribute>
 
 	<insertBefore xpath="/entitygroups/entitygroup[@name='WildGameWasteland']/entity[@name='none']">
+			<!-- TRADERS -->
+			<entity name="FuriousRamsayMercenaryTrader_FR" prob=".03" />
 			<!-- FEMALE NPCs -->
 			<entity name="FuriousRamsaySurvivorWoman002aPistol" prob=".03" />
 			<entity name="FuriousRamsaySurvivorWoman002aPumpShotgun" prob=".03" />

@@ -22,7 +22,15 @@ FuriousRamsayFarmerTrader_FR,entityclasses,Entity,"Billy Bob, 'The Farmer'"
 FuriousRamsayTraderHandyman_FR,entityclasses,Entity,"Gretta, 'The Handywoman'"
 FuriousRamsayBlackShieldTrader_FR,entityclasses,Entity,"Lorenzo, 'The Black Shield Trader'"
 
+FuriousRamsayMercenaryTier1_FR,entityclasses,Entity,"Mercenary - Tier 1"
+FuriousRamsayMercenaryTier2_FR,entityclasses,Entity,"Mercenary - Tier 2"
+FuriousRamsayMercenaryTier3_FR,entityclasses,Entity,"Mercenary - Tier 3"
+FuriousRamsayMercenaryTier4_FR,entityclasses,Entity,"Mercenary - Tier 4"
+FuriousRamsayMercenaryTier5_FR,entityclasses,Entity,"Mercenary - Tier 5"
+
 FuriousRamsayMercenaryTrader_FR,entityclasses,Entity,"Raël, 'The Mercenary'"
+FuriousRamsayTempMercenaryTrader_FR,entityclasses,Entity,"Raël, 'The Mercenary'"
+FuriousRamsayMercenary_FR,entityclasses,Entity,"Mercenary"
 FuriousRamsayBristonStart_FR,entityclasses,Entity,"Briston, 'The Survivalist'"
 FuriousRamsayBriston_FR,entityclasses,Entity,"Briston, 'The Survivalist'"
 FuriousRamsayTrainerHunter_FR,entityclasses,Entity,"Olivia, 'The Huntress'"
@@ -4246,3 +4254,14 @@ FuriousRamsayNoahPumpShotgunNoHire,entityclasses,Entity,Noah
 FuriousRamsayNoahAutoShotgunNoHire,entityclasses,Entity,Noah
 FuriousRamsayNoahWoodenBowNoHire,entityclasses,Entity,Noah
 FuriousRamsayNoahCrossBowNoHire,entityclasses,Entity,Noah
+
+FuriousRamsayMercenariesTier1,items,Items,"Mercenary Protection - Tier 1"
+FuriousRamsayMercenariesTier1Desc,items,Items,"[a7c4c3]Mercenary Protection - Tier 1[-]\n\nThis is a contract between you and the Mercenary guild. A group of [80bf91]2[-] Mercenaries will come to your aid when you most need it.\n\nLasts: 1 minute\n\nCooldown: 20 minutes\n\nRequirements:\n • Player Level [97db91]15[-]"
+FuriousRamsayMercenariesTier2,items,Items,"Mercenary Protection - Tier 2"
+FuriousRamsayMercenariesTier2Desc,items,Items,"[91c2c0]Mercenary Protection - Tier 2[-]\n\nThis is a contract between you and the Mercenary guild. A group of [80bf91]3[-] Mercenaries will come to your aid when you most need it.\n\nLasts: 1 minute\n\nCooldown: 20 minutes\n\nRequirements:\n • [a7c4c3]Mercenary Protection - Tier 1[-]\n • Player Level [97db91]30[-]"
+FuriousRamsayMercenariesTier3,items,Items,"Mercenary Protection - Tier 3"
+FuriousRamsayMercenariesTier3Desc,items,Items,"[7abfbc]Mercenary Protection - Tier 3[-]\n\nThis is a contract between you and the Mercenary guild. A group of [80bf91]4[-] Mercenaries will come to your aid when you most need it.\n\nLasts: 1 minute\n\nCooldown: 20 minutes\n\nRequirements:\n • [91c2c0]Mercenary Protection - Tier 2[-]\n • Player Level [97db91]45[-]"
+FuriousRamsayMercenariesTier4,items,Items,"Mercenary Protection - Tier 4"
+FuriousRamsayMercenariesTier4Desc,items,Items,"[62bdb9]Mercenary Protection - Tier 4[-]\n\nThis is a contract between you and the Mercenary guild. A group of [80bf91]5[-] Mercenaries will come to your aid when you most need it.\n\nLasts: 1 minute\n\nCooldown: 20 minutes\n\nRequirements:\n • [7abfbc]Mercenary Protection - Tier 3[-]\n • Player Level [97db91]60[-]"
+FuriousRamsayMercenariesTier5,items,Items,"Mercenary Protection - Tier 5"
+FuriousRamsayMercenariesTier5Desc,items,Items,"[3cbdb7]Mercenary Protection - Tier 5[-]\n\nThis is a contract between you and the Mercenary guild. A group of [80bf91]6[-] Mercenaries will come to your aid when you most need it.\n\nLasts: 1 minute\n\nCooldown: 20 minutes\n\nRequirements:\n • [62bdb9]Mercenary Protection - Tier 4[-]\n • Player Level [97db91]75[-]"

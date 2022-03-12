@@ -320,6 +320,8 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsaySpawnChunkObserverTimer"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="AddBuff" target="self" buff="FuriousRamsaySpawnChunkObserverTimer"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="varFuriousRamsayChunkObserverSpawner" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayCloseToLeaderTimer"/>
+				<triggered_effect trigger="onSelfEnteredGame" action="AddBuff" target="self" buff="FuriousRamsayCloseToLeaderTimer"/>
 			</effect_group>
 			<effect_group name="Quests">
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="NPCInteractedFlag" operation="set" value="1"/>
@@ -23832,7 +23834,7 @@
 		<!-- BOSS -->
 		<entity_class name="FuriousRamsayWerewolfBossTier1" extends="npcEmptyHandTemplate"> 
 			<property name="SizeScale" value="1.2"/>
-			<property name="Tags" value="entity,male,npc,melee,enemyrobot,FuriousRamsayPandemicMan002aMachete,bandit"/>
+			<property name="Tags" value="entity,male,npc,melee,enemyrobot,FuriousRamsayWerewolfBossTier1,bandit"/>
 			<property name="Names" value="Werewolf Alpha" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_Monsters.unity3d?Werewolf001_FR"/>
 			<property name="PhysicsBody" value="FuriousRamsayBody"/>
@@ -23890,7 +23892,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayWerewolfBossTier1Event" extends="npcEmptyHandTemplate"> 
 			<property name="SizeScale" value="1.2"/>
-			<property name="Tags" value="entity,male,npc,melee,enemyrobot,FuriousRamsayPandemicMan002aMachete,bandit"/>
+			<property name="Tags" value="entity,male,npc,melee,enemyrobot,FuriousRamsayWerewolfBossTier1Event,bandit"/>
 			<property name="Names" value="Werewolf Alpha" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_Monsters.unity3d?Werewolf001_FR"/>
 			<property name="PhysicsBody" value="FuriousRamsayBody"/>
@@ -23979,6 +23981,7 @@
 			<property name="Tags" value="entity,male,npc,melee,enemyrobot,FuriousRamsayPandemicMan002aMachete,bandit"/>
 			<property name="Names" value="Hazmat Leader" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_Pandemic.unity3d?PandemicMan002a_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 
 			<property name="ItemsOnEnterGame.GameModeSurvival" value="meleeNPCMachete"/>
 			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="meleeNPCMachete"/>
@@ -24012,6 +24015,7 @@
 			<property name="Tags" value="entity,male,npc,melee,enemyrobot,FuriousRamsayPandemicMan002aMachete,bandit"/>
 			<property name="Names" value="Hazmat Leader" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_Pandemic.unity3d?PandemicMan002a_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 
 			<property name="ItemsOnEnterGame.GameModeSurvival" value="meleeNPCMachete"/>
 			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="meleeNPCMachete"/>
@@ -24039,6 +24043,7 @@
 			<property name="Tags" value="entity,male,npc,melee,FuriousRamsayPandemicMan001aBat,Bandit"/>
 			<property name="Names" value="Male Hazmat Scientist" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_Pandemic.unity3d?PandemicMan001a_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotOrange" />
 			<property name="MoveSpeed" value="0.5"/> 
 			<property name="MoveSpeedAggro" value="1.5, 1.5"/>
@@ -24053,6 +24058,7 @@
 			<property name="Tags" value="entity,male,npc,melee,FuriousRamsayPandemicMan001aAxe,Bandit"/>
 			<property name="Names" value="Male Hazmat Scientist" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_Pandemic.unity3d?PandemicMan001a_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotOrange" />
 			<property name="MoveSpeed" value="0.5"/> 
 			<property name="MoveSpeedAggro" value="1.5, 1.5"/>
@@ -24067,6 +24073,7 @@
 			<property name="Tags" value="entity,male,npc,melee,FuriousRamsayPandemicWoman001aKnife,Bandit"/>
 			<property name="Names" value="Female Hazmat Scientist" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_Pandemic.unity3d?PandemicWoman001a_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotOrange" />
 			<property name="MoveSpeed" value="0.5"/> 
 			<property name="MoveSpeedAggro" value="1.5, 1.5"/>
@@ -24081,6 +24088,7 @@
 			<property name="Tags" value="entity,male,npc,melee,FuriousRamsayPandemicWoman001aSpear,Bandit"/>
 			<property name="Names" value="Female Hazmat Scientist" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_Pandemic.unity3d?PandemicWoman001a_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotOrange" />
 			<property name="MoveSpeed" value="0.5"/> 
 			<property name="MoveSpeedAggro" value="1.5, 1.5"/>
@@ -24113,6 +24121,7 @@
 			<property name="Tags" value="entity,male,npc,melee,enemyrobot,FuriousRamsayBanditCyborg001Axe,bandit"/>
 			<property name="Names" value="Bandit Cyborg" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_BanditDroids.unity3d?BanditCyborg001a_FR"/>
+			<property name="MaxViewAngle" value="360"/>
 
 			<property name="ItemsOnEnterGame.GameModeSurvival" value="meleeNPCAxe"/>
 			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="meleeNPCAxe"/>
@@ -24141,6 +24150,7 @@
 			<property name="Tags" value="entity,male,npc,melee,enemyrobot,FuriousRamsayBanditCyborg001Axe,bandit"/>
 			<property name="Names" value="Bandit Cyborg" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_BanditDroids.unity3d?BanditCyborg001a_FR"/>
+			<property name="MaxViewAngle" value="360"/>
 
 			<property name="ItemsOnEnterGame.GameModeSurvival" value="meleeNPCAxe"/>
 			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="meleeNPCAxe"/>
@@ -24163,6 +24173,7 @@
 			<property name="Tags" value="entity,male,npc,melee,FuriousRamsayBanditMan001aBat,bandit"/>
 			<property name="Names" value="Bandit" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_Bandits.unity3d?BanditMan001a_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotOrange" />
 			<property name="LootDropProb" value="0"/>
 			<effect_group name="FuriousRamsayVanishBuff">
@@ -24173,6 +24184,7 @@
 			<property name="Tags" value="entity,male,npc,melee,FuriousRamsayBanditMan001bAxe,bandit"/>
 			<property name="Names" value="Bandit" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_Bandits.unity3d?BanditMan001b_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotOrange" />
 			<property name="LootDropProb" value="0"/>
 			<effect_group name="FuriousRamsayVanishBuff">
@@ -24183,6 +24195,7 @@
 			<property name="Tags" value="entity,male,npc,melee,FuriousRamsayBanditMan002aClub,bandit"/>
 			<property name="Names" value="Bandit" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_Bandits.unity3d?BanditMan002a_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotOrange" />
 			<property name="LootDropProb" value="0"/>
 			<effect_group name="FuriousRamsayVanishBuff">
@@ -24193,6 +24206,7 @@
 			<property name="Tags" value="entity,male,npc,melee,FuriousRamsayBanditMan002bKnife,bandit"/>
 			<property name="Names" value="Bandit" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_Bandits.unity3d?BanditMan002b_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotOrange" />
 			<property name="LootDropProb" value="0"/>
 			<effect_group name="FuriousRamsayVanishBuff">
@@ -24203,6 +24217,7 @@
 			<property name="Tags" value="entity,male,npc,melee,FuriousRamsayBanditMan003aSpear,bandit"/>
 			<property name="Names" value="Bandit" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_Bandits.unity3d?BanditMan003a_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotOrange" />
 			<property name="LootDropProb" value="0"/>
 			<effect_group name="FuriousRamsayVanishBuff">
@@ -24213,6 +24228,7 @@
 			<property name="Tags" value="entity,male,npc,melee,FuriousRamsayBanditMan005aMachete,bandit"/>
 			<property name="Names" value="bandit" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_MenSurvivors4.unity3d?SurvivorMan014a_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotOrange" />
 			<property name="LootDropProb" value="0"/>
 			<effect_group name="FuriousRamsayVanishBuff">
@@ -24223,6 +24239,7 @@
 			<property name="Tags" value="entity,male,npc,melee,FuriousRamsayBanditMan005dBat,bandit"/>
 			<property name="Names" value="bandit" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_MenSurvivors4.unity3d?SurvivorMan014d_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotOrange" />
 			<property name="LootDropProb" value="0"/>
 			<effect_group name="FuriousRamsayVanishBuff">
@@ -24233,6 +24250,7 @@
 			<property name="Tags" value="entity,female,npc,melee,FuriousRamsayBanditWoman001dAxe,bandit"/>
 			<property name="Names" value="Bandit" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_Bandits.unity3d?BanditWoman001d_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotOrange" />
 			<property name="LootDropProb" value="0"/>
 			<effect_group name="FuriousRamsayVanishBuff">
@@ -24243,6 +24261,7 @@
 			<property name="Tags" value="entity,female,npc,melee,FuriousRamsayBanditWoman001gMachete,bandit"/>
 			<property name="Names" value="Bandit" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_Bandits.unity3d?BanditWoman001g_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotOrange" />
 			<property name="LootDropProb" value="0"/>
 			<effect_group name="FuriousRamsayVanishBuff">
@@ -24254,6 +24273,7 @@
 			<property name="Tags" value="entity,male,npc,ranged,FuriousRamsaySurvivorMan012aPipeShotgun,UMA2"/>
 			<property name="Names" value="Zion" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_MenSurvivors4.unity3d?SurvivorMan012a_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotGreen"/>
 			<effect_group name="FuriousRamsayVanishBuff">
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayVanishTimer"/>
@@ -24263,6 +24283,7 @@
 			<property name="Tags" value="entity,male,npc,melee,FuriousRamsaySurvivorMan010bBat,UMA2"/>
 			<property name="Names" value="Declan" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_MenSurvivors4.unity3d?SurvivorMan010b_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotGreen"/>
 			<effect_group name="FuriousRamsayVanishBuff">
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayVanishTimer"/>
@@ -24272,6 +24293,7 @@
 			<property name="Tags" value="entity,male,npc,melee,FuriousRamsaySurvivorMan009a1Knife,UMA2"/>
 			<property name="Names" value="Kai" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_MenSurvivors4.unity3d?SurvivorMan009a1_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotGreen"/>
 			<effect_group name="FuriousRamsayVanishBuff">
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayVanishTimer"/>
@@ -24281,6 +24303,7 @@
 			<property name="Tags" value="entity,male,npc,melee,FuriousRamsaySurvivorMan006aBat,UMA2"/>
 			<property name="Names" value="Landon" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_MenSurvivors3.unity3d?SurvivorMan006a_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotGreen"/>
 			<effect_group name="FuriousRamsayVanishBuff">
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayVanishTimer"/>
@@ -24290,6 +24313,7 @@
 			<property name="Tags" value="entity,male,npc,melee,FuriousRamsaySurvivorMan002f1Spear,UMA2"/>
 			<property name="Names" value="Dylan" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_MenSurvivors3.unity3d?SurvivorMan002f1_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotGreen"/>
 			<effect_group name="FuriousRamsayVanishBuff">
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayVanishTimer"/>
@@ -24299,6 +24323,7 @@
 			<property name="Tags" value="entity,male,npc,melee,FuriousRamsaySurvivorMan002cMachete,UMA2"/>
 			<property name="Names" value="Asher" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_MenSurvivors3.unity3d?SurvivorMan002c_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotGreen"/>
 			<effect_group name="FuriousRamsayVanishBuff">
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayVanishTimer"/>
@@ -24308,6 +24333,7 @@
 			<property name="Tags" value="entity,male,npc,ranged,FuriousRamsaySurvivorMan001g1PipeRifle,UMA2"/>
 			<property name="Names" value="Mason" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_MenSurvivors3.unity3d?SurvivorMan001g1_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotGreen"/>
 			<effect_group name="FuriousRamsayVanishBuff">
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayVanishTimer"/>
@@ -24317,6 +24343,7 @@
 			<property name="Tags" value="entity,male,npc,ranged,FuriousRamsaySurvivorMan001b2PipePistol,UMA2"/>
 			<property name="Names" value="Ethan" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_MenSurvivors3.unity3d?SurvivorMan001b2_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotGreen"/>
 			<effect_group name="FuriousRamsayVanishBuff">
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayVanishTimer"/>
@@ -24326,6 +24353,7 @@
 			<property name="Tags" value="entity,male,npc,melee,FuriousRamsaySurvivorMan000eAxe,UMA2"/>
 			<property name="Names" value="Logan" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_MenSurvivors2.unity3d?SurvivorMan000e_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotGreen"/>
 			<effect_group name="FuriousRamsayVanishBuff">
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayVanishTimer"/>
@@ -24335,6 +24363,7 @@
 			<property name="Tags" value="entity,male,npc,melee,FuriousRamsaySurvivorMan000b1Machete,UMA2"/>
 			<property name="Names" value="Samuel" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_MenSurvivors2.unity3d?SurvivorMan000b1_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotGreen"/>
 			<effect_group name="FuriousRamsayVanishBuff">
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayVanishTimer"/>
@@ -24344,6 +24373,7 @@
 			<property name="Tags" value="entity,female,npc,ranged,FuriousRamsaySurvivorWoman001gPipeShotgun,UMA2"/>
 			<property name="Names" value="Zoe" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_WomenSurvivors.unity3d?SurvivorWoman001g_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotGreen"/>
 			<effect_group name="FuriousRamsayVanishBuff">
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayVanishTimer"/>
@@ -24353,6 +24383,7 @@
 			<property name="Tags" value="entity,female,npc,ranged,FuriousRamsaySurvivorWoman001fPipePistol,UMA2"/>
 			<property name="Names" value="Emma" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_WomenSurvivors.unity3d?SurvivorWoman001f_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotGreen"/>
 			<effect_group name="FuriousRamsayVanishBuff">
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayVanishTimer"/>
@@ -24379,6 +24410,7 @@
 
 			<property name="NavObject" value="FuriousRamsayDotRed"/>
 
+			<property name="MaxViewAngle" value="360"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayMiniHordeBossTier1Loot"/>
 			<property name="TimeStayAfterDeath" value="5"/>
@@ -24398,6 +24430,7 @@
 		<entity_class name="FuriousRamsayMiniHordeBossTier1Event" extends="zombieBiker"> 
 			<property name="SizeScale" value="1.8"/>
 
+			<property name="MaxViewAngle" value="360"/>
             <effect_group name="Base Effects">
                 <passive_effect name="HealthMax" operation="base_set" value="800" />
                 <passive_effect name="HealthMax" operation="perc_set" value="1" />
@@ -24423,6 +24456,7 @@
 			<property name="AIPackages" value="FuriousRamsayPersonalTraderBasic, FuriousRamsayPersonalTraderRanged, NPCHired"/> 
 			<property name="HireCurrency" value="casinoCoin" />
 			<property name="HireCost" value="1" />
+			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="2000"/>
 			</effect_group>
@@ -24449,6 +24483,7 @@
 			<property name="AIPackages" value="FuriousRamsayPersonalTraderBasic, FuriousRamsayPersonalTraderRanged, NPCHired"/> 
 			<property name="HireCurrency" value="casinoCoin" />
 			<property name="HireCost" value="1" />
+			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="2000"/>
 			</effect_group>
@@ -24475,6 +24510,7 @@
 			<property name="AIPackages" value="FuriousRamsayPersonalTraderBasic, FuriousRamsayPersonalTraderRanged, NPCHired"/> 
 			<property name="HireCurrency" value="casinoCoin" />
 			<property name="HireCost" value="1" />
+			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="2000"/>
 			</effect_group>
@@ -24520,19 +24556,94 @@
 			</effect_group>
 		</entity_class>	
 
+		<entity_class name="FuriousRamsayKatana002TemplateTier1" extends="npcMeleeTemplate">
+			<property name="HideInSpawnMenu" value="true"/> 
+			<property name="Tags" value="entity,male,npc,melee"/>
+			<property name="Faction" value="whiteriver"/>
+			<property name="WalkType" value="7"/>	
+			<property name="Names" value="Template" />
+			<property name="RightHandJointName" value="Machete" />
+			<property name="ItemsOnEnterGame.GameModeSurvival" value="FuriousRamsayNPCKatana002Tier1"/>
+			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="FuriousRamsayNPCKatana002Tier1"/>
+			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="FuriousRamsayNPCKatana002Tier1"/>
+			<effect_group name="WeaponType"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="MacheteUser"/>
+			</effect_group>
+		</entity_class>	
+
+		<entity_class name="FuriousRamsayKatana002TemplateTier2" extends="npcMeleeTemplate">
+			<property name="HideInSpawnMenu" value="true"/> 
+			<property name="Tags" value="entity,male,npc,melee"/>
+			<property name="Faction" value="whiteriver"/>
+			<property name="WalkType" value="7"/>	
+			<property name="Names" value="Template" />
+			<property name="RightHandJointName" value="Machete" />
+			<property name="ItemsOnEnterGame.GameModeSurvival" value="FuriousRamsayNPCKatana002Tier2"/>
+			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="FuriousRamsayNPCKatana002Tier2"/>
+			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="FuriousRamsayNPCKatana002Tier2"/>
+			<effect_group name="WeaponType"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="MacheteUser"/>
+			</effect_group>
+		</entity_class>	
+
+		<entity_class name="FuriousRamsayKatana002TemplateTier3" extends="npcMeleeTemplate">
+			<property name="HideInSpawnMenu" value="true"/> 
+			<property name="Tags" value="entity,male,npc,melee"/>
+			<property name="Faction" value="whiteriver"/>
+			<property name="WalkType" value="7"/>	
+			<property name="Names" value="Template" />
+			<property name="RightHandJointName" value="Machete" />
+			<property name="ItemsOnEnterGame.GameModeSurvival" value="FuriousRamsayNPCKatana002Tier3"/>
+			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="FuriousRamsayNPCKatana002Tier3"/>
+			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="FuriousRamsayNPCKatana002Tier3"/>
+			<effect_group name="WeaponType"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="MacheteUser"/>
+			</effect_group>
+		</entity_class>	
+
+		<entity_class name="FuriousRamsayKatana002TemplateTier4" extends="npcMeleeTemplate">
+			<property name="HideInSpawnMenu" value="true"/> 
+			<property name="Tags" value="entity,male,npc,melee"/>
+			<property name="Faction" value="whiteriver"/>
+			<property name="WalkType" value="7"/>	
+			<property name="Names" value="Template" />
+			<property name="RightHandJointName" value="Machete" />
+			<property name="ItemsOnEnterGame.GameModeSurvival" value="FuriousRamsayNPCKatana002Tier4"/>
+			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="FuriousRamsayNPCKatana002Tier4"/>
+			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="FuriousRamsayNPCKatana002Tier4"/>
+			<effect_group name="WeaponType"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="MacheteUser"/>
+			</effect_group>
+		</entity_class>	
+
+		<entity_class name="FuriousRamsayKatana002TemplateTier5" extends="npcMeleeTemplate">
+			<property name="HideInSpawnMenu" value="true"/> 
+			<property name="Tags" value="entity,male,npc,melee"/>
+			<property name="Faction" value="whiteriver"/>
+			<property name="WalkType" value="7"/>	
+			<property name="Names" value="Template" />
+			<property name="RightHandJointName" value="Machete" />
+			<property name="ItemsOnEnterGame.GameModeSurvival" value="FuriousRamsayNPCKatana002Tier5"/>
+			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="FuriousRamsayNPCKatana002Tier5"/>
+			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="FuriousRamsayNPCKatana002Tier5"/>
+			<effect_group name="WeaponType"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="MacheteUser"/>
+			</effect_group>
+		</entity_class>	
+
 		<entity_class name="FuriousRamsayMercenaryTrader_FR" extends="FuriousRamsayKatana003Template"> 
 			<property name="HideInSpawnMenu" value="false"/>
-			<property name="NavObject" value="FuriousRamsaySurvivalSpecialist" />
+			<property name="NavObject" value="FuriousRamsayMercenaryTraderNav" />
 			<property name="Tags" value="entity,male,npc,survivor,ranged,DRMid,FuriousRamsayMercenaryTrader_FR"/>
 			<property name="Names" value="Raël" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_Assassins.unity3d?MercenaryMerchant_FR"/>		
-			<property name="NPCID" value="FuriousRamsaySurvivalSpecialistNPC"/> 
-			<property name="AIPackages" value="FuriousRamsayMeleeWanderingTrader, NPCMeleeBasic"/> 
+			<property name="NPCID" value="FuriousRamsayMercenaryTraderNPC"/> 
+			<property name="MaxViewAngle" value="360"/>
+			<property name="AIPackages" value="FuriousRamsayWanderingTrader, NPCMeleeBasic"/> 
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="2000"/>
 			</effect_group>
 			<effect_group name="Signal Hired NPCs to Support">
-				<!--<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" target="other" buff="buffNPCModAttacked"/>-->
 				<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" target="other" buff="buffNPCModAttacking"/>
 			</effect_group>
 			<effect_group name="NPCOrder">
@@ -24540,6 +24651,116 @@
 			</effect_group>
 			<effect_group name="Quests">
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="NPCInteractedFlag" operation="set" value="1"/>
+			</effect_group>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayTempMercenaryTrader_FR" extends="FuriousRamsayMercenaryTrader_FR"> 
+			<property name="HideInSpawnMenu" value="false"/>
+			<property name="NavObject" value="FuriousRamsayMercenaryTraderNav" />
+			<property name="TimeStayAfterDeath" value="0"/>
+			<property name="AIPackages" value="FuriousRamsayTempTrader, NPCMeleeBasic"/> 
+			<effect_group name="Despawn">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayDespawnTrader"/>
+			</effect_group>
+		</entity_class>
+		
+		<entity_class name="FuriousRamsayMercenaryTier1_FR" extends="FuriousRamsayKatana002TemplateTier1"> 
+			<property name="HideInSpawnMenu" value="false"/>
+			<property name="Tags" value="entity,male,npc,survivor,ranged,DRMid,FuriousRamsayMercenaryTier1_FR"/>
+			<property name="Names" value="Mercenary" />
+			<property name="Mesh" value="#@modfolder:Resources/FR_Assassins.unity3d?MercenaryTier1_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
+			<property name="AIPackages" value="FuriousRamsayMercenary, NPCMeleeBasic"/> 
+			<property name="TimeStayAfterDeath" value="0"/>
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="300"/>
+			</effect_group>
+			<effect_group name="Signal Hired NPCs to Support">
+				<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" target="other" buff="buffNPCModAttacking"/>
+			</effect_group>
+			<effect_group name="NPCOrder">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayGiveSpawnOrders"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayDespawnMercenary"/>
+			</effect_group>
+		</entity_class>
+		
+		<entity_class name="FuriousRamsayMercenaryTier2_FR" extends="FuriousRamsayKatana002TemplateTier2"> 
+			<property name="HideInSpawnMenu" value="false"/>
+			<property name="Tags" value="entity,male,npc,survivor,ranged,DRMid,FuriousRamsayMercenaryTier2_FR"/>
+			<property name="Names" value="Mercenary" />
+			<property name="Mesh" value="#@modfolder:Resources/FR_Assassins.unity3d?MercenaryTier2_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
+			<property name="AIPackages" value="FuriousRamsayMercenary, NPCMeleeBasic"/> 
+			<property name="TimeStayAfterDeath" value="0"/>
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="500"/>
+			</effect_group>
+			<effect_group name="Signal Hired NPCs to Support">
+				<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" target="other" buff="buffNPCModAttacking"/>
+			</effect_group>
+			<effect_group name="NPCOrder">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayGiveSpawnOrders"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayDespawnMercenary"/>
+			</effect_group>
+		</entity_class>
+		
+		<entity_class name="FuriousRamsayMercenaryTier3_FR" extends="FuriousRamsayKatana002TemplateTier3"> 
+			<property name="HideInSpawnMenu" value="false"/>
+			<property name="Tags" value="entity,male,npc,survivor,ranged,DRMid,FuriousRamsayMercenaryTier3_FR"/>
+			<property name="Names" value="Mercenary" />
+			<property name="Mesh" value="#@modfolder:Resources/FR_Assassins.unity3d?MercenaryTier3_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
+			<property name="AIPackages" value="FuriousRamsayMercenary, NPCMeleeBasic"/> 
+			<property name="TimeStayAfterDeath" value="0"/>
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="750"/>
+			</effect_group>
+			<effect_group name="Signal Hired NPCs to Support">
+				<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" target="other" buff="buffNPCModAttacking"/>
+			</effect_group>
+			<effect_group name="NPCOrder">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayGiveSpawnOrders"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayDespawnMercenary"/>
+			</effect_group>
+		</entity_class>
+		
+		<entity_class name="FuriousRamsayMercenaryTier4_FR" extends="FuriousRamsayKatana002TemplateTier4"> 
+			<property name="HideInSpawnMenu" value="false"/>
+			<property name="Tags" value="entity,male,npc,survivor,ranged,DRMid,FuriousRamsayMercenaryTier4_FR"/>
+			<property name="Names" value="Mercenary" />
+			<property name="Mesh" value="#@modfolder:Resources/FR_Assassins.unity3d?MercenaryTier4_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
+			<property name="AIPackages" value="FuriousRamsayMercenary, NPCMeleeBasic"/> 
+			<property name="TimeStayAfterDeath" value="0"/>
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="1000"/>
+			</effect_group>
+			<effect_group name="Signal Hired NPCs to Support">
+				<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" target="other" buff="buffNPCModAttacking"/>
+			</effect_group>
+			<effect_group name="NPCOrder">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayGiveSpawnOrders"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayDespawnMercenary"/>
+			</effect_group>
+		</entity_class>
+		
+		<entity_class name="FuriousRamsayMercenaryTier5_FR" extends="FuriousRamsayKatana002TemplateTier5"> 
+			<property name="HideInSpawnMenu" value="false"/>
+			<property name="Tags" value="entity,male,npc,survivor,ranged,DRMid,FuriousRamsayMercenaryTier5_FR"/>
+			<property name="Names" value="Mercenary" />
+			<property name="Mesh" value="#@modfolder:Resources/FR_Assassins.unity3d?MercenaryTier5_FR"/>		
+			<property name="MaxViewAngle" value="360"/>
+			<property name="AIPackages" value="FuriousRamsayMercenary, NPCMeleeBasic"/> 
+			<property name="TimeStayAfterDeath" value="0"/>
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="1500"/>
+			</effect_group>
+			<effect_group name="Signal Hired NPCs to Support">
+				<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" target="other" buff="buffNPCModAttacking"/>
+			</effect_group>
+			<effect_group name="NPCOrder">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayGiveSpawnOrders"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayDespawnMercenary"/>
 			</effect_group>
 		</entity_class>
 		

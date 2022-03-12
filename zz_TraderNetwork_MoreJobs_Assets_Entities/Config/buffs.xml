@@ -2,6 +2,264 @@
 		
 		<append xpath="/buffs">
 
+			<!-- MERCENARY BUFFS -->	
+			<buff name="FuriousRamsayDespawnMercenary" hidden="true">
+				<stack_type value="replace" />
+				<duration value="60"/>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffFinish" action="ModifyStats" stat="Health" operation="add" value="-99999"/>
+				</effect_group>
+			</buff>
+			<buff name="FuriousRamsayDespawnTrader" hidden="true">
+				<stack_type value="replace" />
+				<duration value="300"/>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffFinish" action="ModifyStats" stat="Health" operation="add" value="-99999"/>
+				</effect_group>
+			</buff>
+
+			<buff name="FuriousRamsayMercenariesBuffTier1" tooltip_key="FuriousRamsayMercenariesBuffTier1Tooltip" name_key="FuriousRamsayMercenariesBuffTier1Name" description_key="FuriousRamsayMercenariesBuffTier1Desc" icon="ui_game_symbol_FuriousRamsayContractTier1" hidden="false" remove_on_death="false">
+				<stack_type value="replace" />
+				<update_rate value="2"/>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="set" value="0"/>
+
+					<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="add" value="1"/>
+					<triggered_effect trigger="onOtherDamagedSelf" action="CallGameEvent" event="FuriousRamsaySpawnMercenariesTier1">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+					</triggered_effect>			
+					<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier1Cooldown">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+					</triggered_effect>
+					<triggered_effect trigger="onOtherDamagedSelf" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier1">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+					</triggered_effect>
+
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="add" value="1"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="set" value="0">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayHurtTimer" operation="GT" value="5" />
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="set" value="0">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="Equals" value="0" />
+					</triggered_effect>
+				</effect_group>
+			</buff>
+			<buff name="FuriousRamsayMercenariesBuffTier2" tooltip_key="FuriousRamsayMercenariesBuffTier2Tooltip" name_key="FuriousRamsayMercenariesBuffTier2Name" description_key="FuriousRamsayMercenariesBuffTier2Desc" icon="ui_game_symbol_FuriousRamsayContractTier2" hidden="false" remove_on_death="false">
+				<stack_type value="replace" />
+				<update_rate value="2"/>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="set" value="0"/>
+
+					<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="add" value="1"/>
+					<triggered_effect trigger="onOtherDamagedSelf" action="CallGameEvent" event="FuriousRamsaySpawnMercenariesTier2">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+					</triggered_effect>			
+					<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier2Cooldown">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+					</triggered_effect>
+					<triggered_effect trigger="onOtherDamagedSelf" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier2">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+					</triggered_effect>
+
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="add" value="1"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="set" value="0">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayHurtTimer" operation="GT" value="5" />
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="set" value="0">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="Equals" value="0" />
+					</triggered_effect>
+				</effect_group>
+			</buff>
+			<buff name="FuriousRamsayMercenariesBuffTier3" tooltip_key="FuriousRamsayMercenariesBuffTier3Tooltip" name_key="FuriousRamsayMercenariesBuffTier3Name" description_key="FuriousRamsayMercenariesBuffTier3Desc" icon="ui_game_symbol_FuriousRamsayContractTier3" hidden="false" remove_on_death="false">
+				<stack_type value="replace" />
+				<update_rate value="2"/>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="set" value="0"/>
+
+					<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="add" value="1"/>
+					<triggered_effect trigger="onOtherDamagedSelf" action="CallGameEvent" event="FuriousRamsaySpawnMercenariesTier3">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+					</triggered_effect>			
+					<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier3Cooldown">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+					</triggered_effect>
+					<triggered_effect trigger="onOtherDamagedSelf" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier3">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+					</triggered_effect>
+
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="add" value="1"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="set" value="0">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayHurtTimer" operation="GT" value="5" />
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="set" value="0">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="Equals" value="0" />
+					</triggered_effect>
+				</effect_group>
+			</buff>
+			<buff name="FuriousRamsayMercenariesBuffTier4" tooltip_key="FuriousRamsayMercenariesBuffTier4Tooltip" name_key="FuriousRamsayMercenariesBuffTier4Name" description_key="FuriousRamsayMercenariesBuffTier4Desc" icon="ui_game_symbol_FuriousRamsayContractTier4" hidden="false" remove_on_death="false">
+				<stack_type value="replace" />
+				<update_rate value="2"/>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="set" value="0"/>
+
+					<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="add" value="1"/>
+					<triggered_effect trigger="onOtherDamagedSelf" action="CallGameEvent" event="FuriousRamsaySpawnMercenariesTier4">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+					</triggered_effect>			
+					<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier4Cooldown">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+					</triggered_effect>
+					<triggered_effect trigger="onOtherDamagedSelf" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier4">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+					</triggered_effect>
+
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="add" value="1"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="set" value="0">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayHurtTimer" operation="GT" value="5" />
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="set" value="0">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="Equals" value="0" />
+					</triggered_effect>
+				</effect_group>
+			</buff>
+			<buff name="FuriousRamsayMercenariesBuffTier5" tooltip_key="FuriousRamsayMercenariesBuffTier5Tooltip" name_key="FuriousRamsayMercenariesBuffTier5Name" description_key="FuriousRamsayMercenariesBuffTier5Desc" icon="ui_game_symbol_FuriousRamsayContractTier5" hidden="false" remove_on_death="false">
+				<stack_type value="replace" />
+				<update_rate value="2"/>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="set" value="0"/>
+
+					<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="add" value="1"/>
+					<triggered_effect trigger="onOtherDamagedSelf" action="CallGameEvent" event="FuriousRamsaySpawnMercenariesTier5">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+					</triggered_effect>			
+					<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier5Cooldown">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+					</triggered_effect>
+					<triggered_effect trigger="onOtherDamagedSelf" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier5">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+					</triggered_effect>
+
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="add" value="1"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="set" value="0">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayHurtTimer" operation="GT" value="5" />
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="set" value="0">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="Equals" value="0" />
+					</triggered_effect>
+				</effect_group>
+			</buff>
+
+			<buff name="FuriousRamsayMercenariesBuffTier1Cooldown" tooltip_key="FuriousRamsayMercenariesBuffTier1CooldownTooltip" name_key="FuriousRamsayMercenariesBuffTier1CooldownName" description_key="FuriousRamsayMercenariesBuffTier1CooldownDesc" icon="ui_game_symbol_FuriousRamsayContractCooldownTier1" hidden="false" remove_on_death="false">
+				<stack_type value="replace" />
+				<duration value="1210"/>
+				<display_value value="varFuriousRamsayMercenariesCooldown" />
+				<display_value_format value="time" />
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="set" value="1200" >
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="add" value="-1" />
+				</effect_group>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier1">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier1Cooldown">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+					</triggered_effect>
+				</effect_group>
+			</buff>
+			<buff name="FuriousRamsayMercenariesBuffTier2Cooldown" tooltip_key="FuriousRamsayMercenariesBuffTier2CooldownTooltip" name_key="FuriousRamsayMercenariesBuffTier2CooldownName" description_key="FuriousRamsayMercenariesBuffTier2CooldownDesc" icon="ui_game_symbol_FuriousRamsayContractCooldownTier2" hidden="false" remove_on_death="false">
+				<stack_type value="replace" />
+				<duration value="1210"/>
+				<display_value value="varFuriousRamsayMercenariesCooldown" />
+				<display_value_format value="time" />
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="set" value="1200" >
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="add" value="-1" />
+				</effect_group>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier2">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier2Cooldown">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+					</triggered_effect>
+				</effect_group>
+			</buff>
+			<buff name="FuriousRamsayMercenariesBuffTier3Cooldown" tooltip_key="FuriousRamsayMercenariesBuffTier3CooldownTooltip" name_key="FuriousRamsayMercenariesBuffTier3CooldownName" description_key="FuriousRamsayMercenariesBuffTier3CooldownDesc" icon="ui_game_symbol_FuriousRamsayContractCooldownTier3" hidden="false" remove_on_death="false">
+				<stack_type value="replace" />
+				<duration value="1210"/>
+				<display_value value="varFuriousRamsayMercenariesCooldown" />
+				<display_value_format value="time" />
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="set" value="1200" >
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="add" value="-1" />
+				</effect_group>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier3">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier3Cooldown">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+					</triggered_effect>
+				</effect_group>
+			</buff>
+			<buff name="FuriousRamsayMercenariesBuffTier4Cooldown" tooltip_key="FuriousRamsayMercenariesBuffTier4CooldownTooltip" name_key="FuriousRamsayMercenariesBuffTier4CooldownName" description_key="FuriousRamsayMercenariesBuffTier4CooldownDesc" icon="ui_game_symbol_FuriousRamsayContractCooldownTier4" hidden="false" remove_on_death="false">
+				<stack_type value="replace" />
+				<duration value="1210"/>
+				<display_value value="varFuriousRamsayMercenariesCooldown" />
+				<display_value_format value="time" />
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="set" value="1200" >
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="add" value="-1" />
+				</effect_group>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier4">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier4Cooldown">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+					</triggered_effect>
+				</effect_group>
+			</buff>
+			<buff name="FuriousRamsayMercenariesBuffTier5Cooldown" tooltip_key="FuriousRamsayMercenariesBuffTier5CooldownTooltip" name_key="FuriousRamsayMercenariesBuffTier5CooldownName" description_key="FuriousRamsayMercenariesBuffTier5CooldownDesc" icon="ui_game_symbol_FuriousRamsayContractCooldownTier5" hidden="false" remove_on_death="false">
+				<stack_type value="replace" />
+				<duration value="1210"/>
+				<display_value value="varFuriousRamsayMercenariesCooldown" />
+				<display_value_format value="time" />
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="set" value="1200" >
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="add" value="-1" />
+				</effect_group>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier5">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier5Cooldown">
+						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+					</triggered_effect>
+				</effect_group>
+			</buff>
+
 			<buff name="FuriousRamsayNPC3Attacks" hidden="true">
 				<effect_group name="FuriousRamsayAnimal3Attacks">
 					<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="varAttackIndex" operation="set" value="randomint(0,2)"/>
@@ -31,6 +289,52 @@
 					</triggered_effect>
 				</effect_group>
 			</buff>	
+
+			<buff name="FuriousRamsayCloseToLeaderTimer" hidden="true">
+				<stack_type value="replace"/>
+				<duration value="0"/>
+				<update_rate value="5"/>
+				<effect_group name="FuriousRamsayCloseToLeaderTimer">
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="FuriousRamsayProcessBaseEvents">
+						<requirement name="CVarCompare" target="other" cvar="Leader" operation="Equals" value="@EntityID" />
+						<requirement name="PlayerLevel" target="other" operation="GT" value="15"/>
+						<requirement name="CVarCompare" target="self" cvar="varFuriousRamsayMercenaryTrader" operation="Equals" value="0" />
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" target="self" cvar="varFuriousRamsayMercenaryTrader" operation="set" value="1">
+						<requirement name="CVarCompare" target="other" cvar="Leader" operation="Equals" value="@EntityID" />
+						<requirement name="PlayerLevel" target="other" operation="GT" value="15"/>
+						<requirement name="CVarCompare" target="self" cvar="varFuriousRamsayMercenaryTrader" operation="Equals" value="0" />
+					</triggered_effect>
+				</effect_group>		
+			</buff>
+
+			<buff name="FuriousRamsayProcessBaseEvents" hidden="true">
+				<stack_type value="replace"/>
+				<duration value="1"/>
+				<effect_group name="FuriousRamsayProcessBaseEvents">
+					<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="FuriousRamsaySpawnTempMercenaryTrader" />
+					<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="FuriousRamsayTempMercenaryTraderDisplay" />
+				</effect_group>		
+			</buff>
+
+			<buff name="FuriousRamsayTempMercenaryTraderDisplay" tooltip_key="FuriousRamsayTempMercenaryTraderDisplayTooltip" name_key="FuriousRamsayTempMercenaryTraderDisplayName" description_key="FuriousRamsayTempMercenaryTraderDisplayDesc" icon="ui_game_symbol_npc_mercenarytrader" hidden="false" remove_on_death="false">
+				<stack_type value="replace" />
+				<duration value="310"/>
+				<display_value value=".varFuriousRamsayMercenaryTraderDisplay" />
+				<display_value_format value="time" />
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".varFuriousRamsayMercenaryTraderDisplay" operation="set" value="300" >
+						<requirement name="CVarCompare" cvar=".varFuriousRamsayMercenaryTraderDisplay" operation="LTE" value="0" />
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".varFuriousRamsayMercenaryTraderDisplay" operation="add" value="-1" />
+				</effect_group>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".varFuriousRamsayMercenaryTraderDisplay" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="FuriousRamsayTempMercenaryTraderDisplay">
+						<requirement name="CVarCompare" cvar=".varFuriousRamsayMercenaryTraderDisplay" operation="LTE" value="0" />
+					</triggered_effect>
+				</effect_group>
+			</buff>
 
 			<buff name="FuriousRamsaySpawnChunkObserverTimer" hidden="true">
 				<stack_type value="replace"/>

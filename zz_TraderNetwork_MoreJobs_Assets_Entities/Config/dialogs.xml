@@ -2,6 +2,19 @@
 
 	<append xpath="/dialogs">
 
+		<dialog id="FuriousRamsayWanderingTraders" startstatementid="start">
+			<statement id="start" text="dialog_trader_statement_start">
+				<response_entry id="shopResponse" />
+				<response_entry id="done" />
+			</statement>
+
+			<response id="shopResponse" text="dialog_trader_response_shop">
+				<action type="Trader" id="trade" />
+			</response>
+
+			<response id="done" text="dialog_trader_response_nevermind" />
+		</dialog>
+
 		<dialog id="FuriousRamsayPersonalTraders" startstatementid="start">
 			<statement id="start" text="dialog_trader_statement_start">
 				<response_entry id="FollowMe" />

@@ -2,6 +2,17 @@
 	<insertAfter xpath="/npc/npc_info[@id='NPCjunkDrone']" >
 
 		<npc_info
+			id="FuriousRamsayMercenaryTraderNPC"
+			name="Mercenary Trader"
+			name_key="npc_mercenarytrader"
+			faction="trader"
+			portrait="npc_mercenarytrader"
+			greeting_type="nearby"
+			stance="Like" voice_set=""
+			trader_id="93" dialog_id="FuriousRamsayWanderingTraders"/>
+			<!--quest_list="trader_quests_mercenarytrader" />-->
+
+		<npc_info
 			id="FuriousRamsaySurvivalSpecialistNPCStart"
 			name="Survival Specialist"
 			name_key="npc_survivalspecialist"

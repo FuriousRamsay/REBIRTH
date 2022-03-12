@@ -22,6 +22,61 @@
 			</effect_group>	
 		</item>
 
+		<item name="FuriousRamsayNPCKatana002Tier1"> 
+			<property name="Extends" value="meleeNPCMachete"/>
+			<property name="Meshfile" value="#@modfolder(zz_TraderNetwork_MoreJobs_Assets_Blocks):Resources/FR_Swords.unity3d?ItemsWeaponsKatana002_FR"/>
+			<property class="Action0">			
+				<property name="DamageEntity" value="50"/>
+			</property>
+			<property class="Action1">
+				<property name="DamageEntity" value="50"/>
+			</property>
+		</item>
+
+		<item name="FuriousRamsayNPCKatana002Tier2"> 
+			<property name="Extends" value="meleeNPCMachete"/>
+			<property name="Meshfile" value="#@modfolder(zz_TraderNetwork_MoreJobs_Assets_Blocks):Resources/FR_Swords.unity3d?ItemsWeaponsKatana002_FR"/>
+			<property class="Action0">			
+				<property name="DamageEntity" value="75"/>
+			</property>
+			<property class="Action1">
+				<property name="DamageEntity" value="75"/>
+			</property>
+		</item>
+
+		<item name="FuriousRamsayNPCKatana002Tier3"> 
+			<property name="Extends" value="meleeNPCMachete"/>
+			<property name="Meshfile" value="#@modfolder(zz_TraderNetwork_MoreJobs_Assets_Blocks):Resources/FR_Swords.unity3d?ItemsWeaponsKatana002_FR"/>
+			<property class="Action0">			
+				<property name="DamageEntity" value="100"/>
+			</property>
+			<property class="Action1">
+				<property name="DamageEntity" value="100"/>
+			</property>
+		</item>
+
+		<item name="FuriousRamsayNPCKatana002Tier4"> 
+			<property name="Extends" value="meleeNPCMachete"/>
+			<property name="Meshfile" value="#@modfolder(zz_TraderNetwork_MoreJobs_Assets_Blocks):Resources/FR_Swords.unity3d?ItemsWeaponsKatana002_FR"/>
+			<property class="Action0">			
+				<property name="DamageEntity" value="125"/>
+			</property>
+			<property class="Action1">
+				<property name="DamageEntity" value="125"/>
+			</property>
+		</item>
+
+		<item name="FuriousRamsayNPCKatana002Tier5"> 
+			<property name="Extends" value="meleeNPCMachete"/>
+			<property name="Meshfile" value="#@modfolder(zz_TraderNetwork_MoreJobs_Assets_Blocks):Resources/FR_Swords.unity3d?ItemsWeaponsKatana002_FR"/>
+			<property class="Action0">			
+				<property name="DamageEntity" value="150"/>
+			</property>
+			<property class="Action1">
+				<property name="DamageEntity" value="150"/>
+			</property>
+		</item>
+
 		<item name="FuriousRamsayBossAxe"> 
 			<property name="Extends" value="meleeHandNPCMaster"/>
 			<property name="Canhold" value="true"/> 
@@ -175,6 +230,122 @@
 			<property name="CreativeMode" value="None"/><property name="HoldType" value="45"/><property name="HoldingItemHidden" value="true"/><property name="CustomIcon" value="missingIcon"/><property name="CustomIconTint" value="90ff90"/><property name="Material" value="MresourceScrapIron"/><property name="Weight" value="1"/><property name="Stacknumber" value="1"/><property name="EconomicValue" value="1"/><property name="EconomicBundleSize" value="1000"/><property name="Group" value="Resources"/>
 			<property name="Meshfile" value="#@modfolder:Resources/FR_MenSurvivors4.unity3d?SurvivorMan008a_FR"/>		
 			<property name="DropMeshfile" value="#@modfolder:Resources/FR_MenSurvivors4.unity3d?SurvivorMan008a_FR"/>		
+		</item>
+
+		<item name="FuriousRamsayMercenaries">
+			<property name="CreativeMode" value="None"/><property name="HoldType" value="45"/><property name="HoldingItemHidden" value="true"/><property name="CustomIcon" value="missingIcon"/><property name="CustomIconTint" value="90ff90"/><property name="Material" value="MresourceScrapIron"/><property name="Weight" value="1"/><property name="Stacknumber" value="1"/><property name="EconomicValue" value="1"/><property name="EconomicBundleSize" value="1000"/><property name="Group" value="Resources"/>
+			<property name="Meshfile" value="#@modfolder:Resources/FR_Assassins.unity3d?MercenaryTier1_FR"/>
+			<property name="DropMeshfile" value="#@modfolder:Resources/FR_Assassins.unity3d?MercenaryTier1_FR"/>
+		</item>
+
+		<!-- MERCENARIES -->
+		<item name="FuriousRamsayMercenariesTier1">
+			<property name="CustomIcon" value="FuriousRamsayContract_mercenaryTier1"/>
+			<property name="DescriptionKey" value="FuriousRamsayMercenariesTier1Desc"/>
+			<property name="Extends" value="FuriousRamsayChallengeQuestMaster"/>
+			<property name="EconomicValue" value="500"/>
+			<property name="Candrop" value="true"/>
+			<property name="SellableToTrader" value="false"/>
+			<property class="Action0">
+				<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesTier" operation="Equals" value="0"/>
+				<requirement name="PlayerLevel" operation="GTE" value="15" />
+					<property name="Class" value="Eat"/>
+					<property name="UseAnimation" value="true"/>
+					<property name="Sound_start" value="read_mod"/>
+					<property name="Sound_in_head" value="true"/>
+			</property>
+			<effect_group name="FuriousRamsayMercenaries" tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="varFuriousRamsayMercenariesTier" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier1" />
+			</effect_group>
+		</item>
+
+		<item name="FuriousRamsayMercenariesTier2">
+			<property name="CustomIcon" value="FuriousRamsayContract_mercenaryTier2"/>
+			<property name="DescriptionKey" value="FuriousRamsayMercenariesTier2Desc"/>
+			<property name="Extends" value="FuriousRamsayChallengeQuestMaster"/>
+			<property name="EconomicValue" value="1000"/>
+			<property name="Candrop" value="true"/>
+			<property name="SellableToTrader" value="false"/>
+			<property class="Action0">
+				<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesTier" operation="Equals" value="1"/>
+				<requirement name="PlayerLevel" operation="GTE" value="30" />
+					<property name="Class" value="Eat"/>
+					<property name="UseAnimation" value="true"/>
+					<property name="Sound_start" value="read_mod"/>
+					<property name="Sound_in_head" value="true"/>
+			</property>
+			<effect_group name="FuriousRamsayMercenaries" tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="varFuriousRamsayMercenariesTier" operation="set" value="2"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier2" />
+			</effect_group>
+		</item>
+
+		<item name="FuriousRamsayMercenariesTier3">
+			<property name="CustomIcon" value="FuriousRamsayContract_mercenaryTier3"/>
+			<property name="DescriptionKey" value="FuriousRamsayMercenariesTier3Desc"/>
+			<property name="Extends" value="FuriousRamsayChallengeQuestMaster"/>
+			<property name="EconomicValue" value="1500"/>
+			<property name="Candrop" value="true"/>
+			<property name="SellableToTrader" value="false"/>
+			<property class="Action0">
+				<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesTier" operation="Equals" value="2"/>
+				<requirement name="PlayerLevel" operation="GTE" value="45" />
+					<property name="Class" value="Eat"/>
+					<property name="UseAnimation" value="true"/>
+					<property name="Sound_start" value="read_mod"/>
+					<property name="Sound_in_head" value="true"/>
+			</property>
+			<effect_group name="FuriousRamsayMercenaries" tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="varFuriousRamsayMercenariesTier" operation="set" value="3"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier2" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier3" />
+			</effect_group>
+		</item>
+
+		<item name="FuriousRamsayMercenariesTier4">
+			<property name="CustomIcon" value="FuriousRamsayContract_mercenaryTier4"/>
+			<property name="DescriptionKey" value="FuriousRamsayMercenariesTier4Desc"/>
+			<property name="Extends" value="FuriousRamsayChallengeQuestMaster"/>
+			<property name="EconomicValue" value="2000"/>
+			<property name="Candrop" value="true"/>
+			<property name="SellableToTrader" value="false"/>
+			<property class="Action0">
+				<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesTier" operation="Equals" value="3"/>
+				<requirement name="PlayerLevel" operation="GTE" value="60" />
+					<property name="Class" value="Eat"/>
+					<property name="UseAnimation" value="true"/>
+					<property name="Sound_start" value="read_mod"/>
+					<property name="Sound_in_head" value="true"/>
+			</property>
+			<effect_group name="FuriousRamsayMercenaries" tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="varFuriousRamsayMercenariesTier" operation="set" value="4"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier3" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier4" />
+			</effect_group>
+		</item>
+
+		<item name="FuriousRamsayMercenariesTier5">
+			<property name="CustomIcon" value="FuriousRamsayContract_mercenaryTier5"/>
+			<property name="DescriptionKey" value="FuriousRamsayMercenariesTier5Desc"/>
+			<property name="Extends" value="FuriousRamsayChallengeQuestMaster"/>
+			<property name="EconomicValue" value="2500"/>
+			<property name="Candrop" value="true"/>
+			<property name="SellableToTrader" value="false"/>
+			<property class="Action0">
+				<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesTier" operation="Equals" value="4"/>
+				<requirement name="PlayerLevel" operation="GTE" value="75" />
+					<property name="Class" value="Eat"/>
+					<property name="UseAnimation" value="true"/>
+					<property name="Sound_start" value="read_mod"/>
+					<property name="Sound_in_head" value="true"/>
+			</property>
+			<effect_group name="FuriousRamsayMercenaries" tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="varFuriousRamsayMercenariesTier" operation="set" value="5"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier4" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier5" />
+			</effect_group>
 		</item>
 
 	</append>	  

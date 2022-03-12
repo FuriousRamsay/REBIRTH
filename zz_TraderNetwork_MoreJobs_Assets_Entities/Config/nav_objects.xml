@@ -2,6 +2,35 @@
  
 	<append xpath="/nav_object_classes">
 	
+		<nav_object_class name="FuriousRamsayMercenaryTraderNav">
+			<map_settings>
+			  <property name="sprite_name" value="ui_game_symbol_talk"/>
+			  <property name="min_distance" value="0"/>
+			  <property name="max_distance" value="-1"/>
+			  <property name="color" value="99, 95, 85,255"/>
+			  <property name="has_pulse" value="true"/>
+			</map_settings>
+			<compass_settings>
+				<property name="sprite_name" value="ui_game_symbol_talk"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="-1"/>
+				<property name="max_scale_distance" value="32"/>
+				<property name="color" value="99, 95, 85,255"/>
+				<property name="has_pulse" value="true"/>
+				<property name="icon_clamped" value="false" />
+			</compass_settings>
+			<onscreen_settings>
+			  <property name="sprite_name" value="ui_game_symbol_talk"/>
+			  <property name="min_distance" value="0"/>
+			  <property name="max_distance" value="100"/>
+  			  <property name="max_scale_distance" value="25"/>
+			  <property name="color" value="99, 95, 85,255"/>
+			  <property name="has_pulse" value="true"/>
+			  <property name="text_type" value="Distance"/>
+			  <property name="offset" value="0,2.4,0" />
+			</onscreen_settings>
+		</nav_object_class>
+
 		<nav_object_class name="FuriousRamsaySurvivalSpecialist">
 			<map_settings>
 			  <property name="sprite_name" value="ui_game_symbol_talk"/>
