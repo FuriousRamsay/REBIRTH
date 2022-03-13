@@ -5,8 +5,8 @@
 		<action_sequence name="spawn_FuriousRamsay_Start">
 			<!-- PHASE 1 -->
 			<action class="AddItems">
-				<property name="added_items" value="ammo9mmBulletBall,bedroll,casinoCoin" />
-				<property name="added_item_counts" value="18,1,2000" />
+				<property name="added_items" value="ammo9mmBulletBall,bedroll,casinoCoin,drinkJarRedTea" />
+				<property name="added_item_counts" value="18,1,2000,1" />
 				<property name="phase" value="1" />
 			</action>
 			<action class="SpawnEntity">

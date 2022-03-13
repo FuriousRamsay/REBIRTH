@@ -326,6 +326,11 @@
 			<effect_group name="Quests">
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="NPCInteractedFlag" operation="set" value="1"/>
 			</effect_group>
+			<!--<effect_group name="DisableRangedMuzzleFlash">
+				<triggered_effect trigger="onSelfFirstSpawn" action="SetTransformActive" active="false" parent_transform="#HeldItemRoot" transform_path="Muzzle"/>
+				<triggered_effect trigger="onSelfEnteredGame" action="SetTransformActive" active="false" parent_transform="#HeldItemRoot" transform_path="Muzzle"/>
+				<triggered_effect trigger="onSelfEquipStart" action="SetTransformActive" active="false" parent_transform="#HeldItemRoot" transform_path="Muzzle"/>
+			</effect_group>-->
 		</entity_class>
 
 		<!-- TRAINERS -->

@@ -2280,7 +2280,7 @@
 			<property name="SellableToTrader" value="false"/>
 		</block>
 
-		<block name="AmmoMachine_FR">
+		<!--<block name="AmmoMachine_FR">
 			<property name="CustomIcon" value="FR_IronStove_icon"/>
 			<property name="MultiBlockDim" value="2,2,2"/>
 			<property name="Path" value="solid"/>
@@ -2326,7 +2326,7 @@
 			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
 			<property name="SortOrder1" value="70i0"/>
 			<property name="SellableToTrader" value="false"/>
-		</block>
+		</block>-->
 
 		<block name="WorkbenchIronOven001_FR">
 			<property name="CustomIcon" value="FR_IronStove_icon"/>

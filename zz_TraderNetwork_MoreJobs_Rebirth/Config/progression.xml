@@ -3053,6 +3053,8 @@
 			<!--<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,10" value="1" tags="gunRifleT3SniperRifle"/>-->
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,10" value="1" tags="modGunSoundSuppressorSilencer"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="6,10" value="1" tags="modGunScopeLarge"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,10" value="1" tags="FuriousRamsayRepairKitSniperRifle"/>
+
 
 			<effect_description level="1" desc_key="FuriousRamsayPerkSniperRifleRank1Desc" long_desc_key="FuriousRamsayPerkSniperRifleRank1LongDesc"/>
 			<effect_description level="2" desc_key="FuriousRamsayPerkSniperRifleRank2Desc" long_desc_key="FuriousRamsayPerkSniperRifleRank2LongDesc"/>
@@ -3255,6 +3257,7 @@
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="6,10" value="1" tags="modGunChoke,modGunDuckbill"/>
 			<!--<passive_effect name="RecipeTagUnlocked" operation="base_set" level="7,10" value="1" tags="gunShotgunT3AutoShotgun"/>-->
 			<passive_effect name="DismemberChance" operation="base_add" level="1,2,3,4,5,6,7,8,9,10" value=".05,.1,.15,.2,.25,.3,.35,.4,.45,.5" tags="FuriousRamsayShotguns"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,10" value="1" tags="FuriousRamsayRepairKitDoubleBarrelShotgun,FuriousRamsayRepairKitPumpShotgun,FuriousRamsayRepairKitAutoShotgun"/>
 
 			<effect_description level="1" desc_key="FuriousRamsayPerkShotgunRank1Desc" long_desc_key="FuriousRamsayPerkShotgunRank1LongDesc"/>
 			<effect_description level="2" desc_key="FuriousRamsayPerkShotgunRank2Desc" long_desc_key="FuriousRamsayPerkShotgunRank2LongDesc"/>
@@ -3381,6 +3384,7 @@
 			<!--<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,10" value="1" tags="gunMGT2TacticalAR"/>-->
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="6,10" value="1" tags="modGunMuzzleBrake"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="7,10" value="1" tags="modGunDrumMagazineExtender"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,10" value="1" tags="FuriousRamsayRepairKitAK47,FuriousRamsayRepairKitTacticalAR"/>
 
 			<effect_description level="1" desc_key="FuriousRamsayPerkAssaultRifleRank1Desc" long_desc_key="FuriousRamsayPerkAssaultRifleRank1LongDesc"/>
 			<effect_description level="2" desc_key="FuriousRamsayPerkAssaultRifleRank2Desc" long_desc_key="FuriousRamsayPerkAssaultRifleRank2LongDesc"/>
@@ -3552,6 +3556,7 @@
 			<!--<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,10" value="1" tags="gunRifleT2MarksmanRifle"/>-->
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,10" value="1" tags="modGunScopeMedium"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="6,10" value="1" tags="modGunBarrelExtender"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,10" value="1" tags="FuriousRamsayRepairKitMarksmanRifle"/>
 
 			<effect_description level="1" desc_key="FuriousRamsayPerkMarksmanRifleRank1Desc" long_desc_key="FuriousRamsayPerkMarksmanRifleRank1LongDesc"/>
 			<effect_description level="2" desc_key="FuriousRamsayPerkMarksmanRifleRank2Desc" long_desc_key="FuriousRamsayPerkMarksmanRifleRank2LongDesc"/>
@@ -3587,6 +3592,7 @@
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,10" value="1" tags="modGunRetractingStock"/>
 			<!--<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,10" value="1" tags="gunMGT3M60"/>-->
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="6,10" value="1" tags="modGunMuzzleBrake"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="6,10" value="1" tags="FuriousRamsayRepairKitM60"/>
 
 			<effect_description level="1" desc_key="FuriousRamsayPerkMachineGunRank1Desc" long_desc_key="FuriousRamsayPerkMachineGunRank1LongDesc"/>
 			<effect_description level="2" desc_key="FuriousRamsayPerkMachineGunRank2Desc" long_desc_key="FuriousRamsayPerkMachineGunRank2LongDesc"/>
@@ -3725,6 +3731,7 @@
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,10" value="1" tags="modGunBarrelExtender"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,10" value="1" tags="modGunScopeSmall"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="7,10" value="1" tags="modGunMeleeRadRemover"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,10" value="1" tags="FuriousRamsayRepairKitMagnum44"/>
 
 			<effect_description level="1" desc_key="FuriousRamsayPerkMagnumRank1Desc" long_desc_key="FuriousRamsayPerkMagnumRank1LongDesc"/>
 			<effect_description level="2" desc_key="FuriousRamsayPerkMagnumRank2Desc" long_desc_key="FuriousRamsayPerkMagnumRank2LongDesc"/>
@@ -3868,6 +3875,7 @@
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="6,10" value="1" tags="thrownDynamite,FuriousRamsayMadmanDecoyTier3"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="7,10" value="1" tags="thrownTimedCharge,FuriousRamsayMadmanDecoyTier4"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="8,10" value="1" tags="ammoRocketFrag,FuriousRamsayMadmanDecoyTier5"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,10" value="1" tags="FuriousRamsayRepairKitRocketLauncher"/>
 
 			<effect_description level="1" desc_key="FuriousRamsayPerkExplosivesRank1Desc" long_desc_key="FuriousRamsayPerkExplosivesRank1LongDesc"/>
 			<effect_description level="2" desc_key="FuriousRamsayPerkExplosivesRank2Desc" long_desc_key="FuriousRamsayPerkExplosivesRank2LongDesc"/>
@@ -3903,6 +3911,7 @@
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,10" value="1" tags="modGunForegrip"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="6,10" value="1" tags="modGunMuzzleBrake"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="7,10" value="1" tags="modGunCrippleEm"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,10" value="1" tags="FuriousRamsayRepairKitSMG5"/>
 
 			<effect_description level="1" desc_key="FuriousRamsayPerkSubmachineGunRank1Desc" long_desc_key="FuriousRamsayPerkSubmachineGunRank1LongDesc"/>
 			<effect_description level="2" desc_key="FuriousRamsayPerkSubmachineGunRank2Desc" long_desc_key="FuriousRamsayPerkSubmachineGunRank2LongDesc"/>
@@ -4077,6 +4086,7 @@
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,10" value="1" tags="modGunLaserSight"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="6,10" value="1" tags="modGunSoundSuppressorSilencer"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="7,10" value="1" tags="modGunTriggerGroupAutomatic"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,10" value="1" tags="FuriousRamsayRepairKitPistol"/>
 
 			<effect_description level="1" desc_key="FuriousRamsayPerkPistolRank1Desc" long_desc_key="FuriousRamsayPerkPistolRank1LongDesc"/>
 			<effect_description level="2" desc_key="FuriousRamsayPerkPistolRank2Desc" long_desc_key="FuriousRamsayPerkPistolRank2LongDesc"/>
@@ -4255,6 +4265,7 @@
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,10" value="1" tags="modGunBarrelExtender"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="6,10" value="1" tags="modGunScopeSmall"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="7,10" value="1" tags="modGunMeleeRadRemover"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,10" value="1" tags="FuriousRamsayRepairKitDesertVulture"/>
 
 			<effect_description level="1" desc_key="FuriousRamsayPerkDesertVultureRank1Desc" long_desc_key="FuriousRamsayPerkDesertVultureRank1LongDesc"/>
 			<effect_description level="2" desc_key="FuriousRamsayPerkDesertVultureRank2Desc" long_desc_key="FuriousRamsayPerkDesertVultureRank2LongDesc"/>

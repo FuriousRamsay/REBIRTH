@@ -742,15 +742,15 @@
 		<trader_item_group name="FuriousRamsaySuvivalistTrainerItemsTier3">
 			<!--<item name="cementMixer" count="1" prob="1"/>
 			<item name="workbench" count="1" prob="1"/>
-			<item name="forge" count="1" prob="1"/>-->
+			<item name="forge" count="1" prob="1"/>
 			<item name="FuriousRamsaySpawnBuilderTrainer" count="1" prob="1"/>
-			<item name="FuriousRamsaySpawnChefTrainer" count="1" prob="1"/>
+			<item name="FuriousRamsaySpawnChefTrainer" count="1" prob="1"/>-->
 		</trader_item_group>
 
 		<trader_item_group name="FuriousRamsaySuvivalistTrainerItemsTier4">
 			<!--<item name="cementMixer" count="1" prob="1"/>
 			<item name="workbench" count="1" prob="1"/>
-			<item name="forge" count="1" prob="1"/>-->
+			<item name="forge" count="1" prob="1"/>
 			<item name="FuriousRamsaySpawnBuilderTrainer" count="1" prob="1"/>
 			<item name="FuriousRamsaySpawnChefTrainer" count="1" prob="1"/>
 			<item name="FuriousRamsaySpawnHunterTrainer" count="1" prob="1"/>
@@ -759,13 +759,13 @@
 			<item name="FuriousRamsaySpawnSoldierTrainer" count="1" prob="1"/>
 			<item name="FuriousRamsaySpawnTechnogeekTrainer" count="1" prob="1"/>
 			<item name="FuriousRamsaySpawnMadmanTrainer" count="1" prob="1"/>
-			<item name="FuriousRamsaySpawnSurvivalSpecialist" count="1" prob="1"/>
+			<item name="FuriousRamsaySpawnSurvivalSpecialist" count="1" prob="1"/>-->
 		</trader_item_group>
 
 		<trader_item_group name="FuriousRamsaySuvivalistTrainerItemsTier5">
 			<!--<item name="cementMixer" count="1" prob="1"/>
 			<item name="workbench" count="1" prob="1"/>
-			<item name="forge" count="1" prob="1"/>-->
+			<item name="forge" count="1" prob="1"/>
 			<item name="FuriousRamsaySpawnBuilderTrainer" count="1" prob="1"/>
 			<item name="FuriousRamsaySpawnChefTrainer" count="1" prob="1"/>
 			<item name="FuriousRamsaySpawnHunterTrainer" count="1" prob="1"/>
@@ -774,7 +774,7 @@
 			<item name="FuriousRamsaySpawnSoldierTrainer" count="1" prob="1"/>
 			<item name="FuriousRamsaySpawnTechnogeekTrainer" count="1" prob="1"/>
 			<item name="FuriousRamsaySpawnMadmanTrainer" count="1" prob="1"/>
-			<item name="FuriousRamsaySpawnSurvivalSpecialist" count="1" prob="1"/>
+			<item name="FuriousRamsaySpawnSurvivalSpecialist" count="1" prob="1"/>-->
 		</trader_item_group>
 
 		<trader_item_group name="FuriousRamsayMedicalDroidMedecine">
