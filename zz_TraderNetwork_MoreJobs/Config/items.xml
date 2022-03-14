@@ -1949,17 +1949,17 @@
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayDogPet"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
 			</property>
 			<property class="Action1">
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayDogPet"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
 			</property>
 			<property name="EconomicValue" value="1250"/>
 			<effect_group name="FuriousRamsayPetMechanicalDog" tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionStart" action="CVarLogValue" cvar="varFuriousRamsayPetPlaced" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionStart" action="CVarLogValue" cvar="$varFuriousRamsayPetPlaced" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPlaceBlock" action="AddBuff" buff="FuriousRamsayPetPlaced"/>
 				<triggered_effect trigger="onSelfPlaceBlock" action="ShowToolbeltMessage" message="Attempting to assemble your pet Dog... Stay Clear"/>
 			</effect_group>
@@ -1972,16 +1972,16 @@
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayWolfPet"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
 			</property>
 			<property class="Action1">
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayWolfPet"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
 			</property>
 			<effect_group name="FuriousRamsayPetMechanicalWolf" tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionStart" action="CVarLogValue" cvar="varFuriousRamsayPetPlaced" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionStart" action="CVarLogValue" cvar="$varFuriousRamsayPetPlaced" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPlaceBlock" action="AddBuff" buff="FuriousRamsayPetPlaced"/>
 				<triggered_effect trigger="onSelfPlaceBlock" action="ShowToolbeltMessage" message="Attempting to assemble your pet Wolf... Stay Clear"/>
 			</effect_group>
@@ -1994,17 +1994,17 @@
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayLionPet"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
 			</property>
 			<property class="Action1">
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayLionPet"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
 			</property>
 			<property name="EconomicValue" value="1750"/>
 			<effect_group name="FuriousRamsayPetMechanicalLion" tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionStart" action="CVarLogValue" cvar="varFuriousRamsayPetPlaced" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionStart" action="CVarLogValue" cvar="$varFuriousRamsayPetPlaced" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPlaceBlock" action="AddBuff" buff="FuriousRamsayPetPlaced"/>
 				<triggered_effect trigger="onSelfPlaceBlock" action="ShowToolbeltMessage" message="Attempting to assemble your pet Lion... Stay Clear"/>
 			</effect_group>
@@ -2017,17 +2017,17 @@
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayBearPet"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
 			</property>
 			<property class="Action1">
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayBearPet"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
 			</property>
 			<property name="EconomicValue" value="2000"/>
 			<effect_group name="FuriousRamsayPetMechanicalBear" tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionStart" action="CVarLogValue" cvar="varFuriousRamsayPetPlaced" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionStart" action="CVarLogValue" cvar="$varFuriousRamsayPetPlaced" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPlaceBlock" action="AddBuff" buff="FuriousRamsayPetPlaced"/>
 				<triggered_effect trigger="onSelfPlaceBlock" action="ShowToolbeltMessage" message="Attempting to assemble your pet Bear... Stay Clear"/>
 			</effect_group>
@@ -2040,17 +2040,17 @@
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayCoyotePet"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
 			</property>
 			<property class="Action1">
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayCoyotePet"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
 			</property>
 			<property name="EconomicValue" value="1250"/>
 			<effect_group name="FuriousRamsayPetMechanicalCoyote" tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionStart" action="CVarLogValue" cvar="varFuriousRamsayPetPlaced" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionStart" action="CVarLogValue" cvar="$varFuriousRamsayPetPlaced" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPlaceBlock" action="AddBuff" buff="FuriousRamsayPetPlaced"/>
 				<triggered_effect trigger="onSelfPlaceBlock" action="ShowToolbeltMessage" message="Attempting to assemble your pet Coyote... Stay Clear"/>
 			</effect_group>
@@ -2063,17 +2063,17 @@
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayBoarPet"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
 			</property>
 			<property class="Action1">
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayBoarPet"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
 			</property>
 			<property name="EconomicValue" value="1250"/>
 			<effect_group name="FuriousRamsayPetMechanicalBoar" tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionStart" action="CVarLogValue" cvar="varFuriousRamsayPetPlaced" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionStart" action="CVarLogValue" cvar="$varFuriousRamsayPetPlaced" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPlaceBlock" action="AddBuff" buff="FuriousRamsayPetPlaced"/>
 				<triggered_effect trigger="onSelfPlaceBlock" action="ShowToolbeltMessage" message="Attempting to assemble your pet Coyote... Stay Clear"/>
 			</effect_group>
@@ -2086,17 +2086,17 @@
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayRabbitPet"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
 			</property>
 			<property class="Action1">
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayRabbitPet"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
 			</property>
 			<property name="EconomicValue" value="500"/>
 			<effect_group name="FuriousRamsayPetMechanicalRabbit" tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionStart" action="CVarLogValue" cvar="varFuriousRamsayPetPlaced" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionStart" action="CVarLogValue" cvar="$varFuriousRamsayPetPlaced" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPlaceBlock" action="AddBuff" buff="FuriousRamsayPetPlaced"/>
 				<triggered_effect trigger="onSelfPlaceBlock" action="ShowToolbeltMessage" message="Attempting to assemble your pet Rabbit... Stay Clear"/>
 			</effect_group>
@@ -2109,17 +2109,17 @@
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayChickenPet"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
 			</property>
 			<property class="Action1">
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayChickenPet"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPetPlaced" operation="Equals" value="0"/>
 			</property>
 			<property name="EconomicValue" value="500"/>
 			<effect_group name="FuriousRamsayPetMechanicalChicken" tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionStart" action="CVarLogValue" cvar="varFuriousRamsayPetPlaced" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionStart" action="CVarLogValue" cvar="$varFuriousRamsayPetPlaced" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPlaceBlock" action="AddBuff" buff="FuriousRamsayPetPlaced"/>
 				<triggered_effect trigger="onSelfPlaceBlock" action="ShowToolbeltMessage" message="Attempting to assemble your pet Chicken... Stay Clear"/>
 			</effect_group>
@@ -2154,13 +2154,13 @@
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayMadmanDecoyTier1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
 			</property>
 			<property class="Action1">
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayMadmanDecoyTier1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
 			</property>
 			<effect_group name="FuriousRamsayMadmanDecoy" tiered="false">
 				<triggered_effect trigger="onSelfPlaceBlock" action="ShowToolbeltMessage" message="Attempting to assemble the Decoy... Stay Clear"/>
@@ -2182,13 +2182,13 @@
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayMadmanDecoyTier2"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
 			</property>
 			<property class="Action1">
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayMadmanDecoyTier2"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
 			</property>
 			<effect_group name="FuriousRamsayMadmanDecoy" tiered="false">
 				<triggered_effect trigger="onSelfPlaceBlock" action="ShowToolbeltMessage" message="Attempting to assemble the Decoy... Stay Clear"/>
@@ -2210,13 +2210,13 @@
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayMadmanDecoyTier3"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
 			</property>
 			<property class="Action1">
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayMadmanDecoyTier3"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
 			</property>
 			<effect_group name="FuriousRamsayMadmanDecoy" tiered="false">
 				<triggered_effect trigger="onSelfPlaceBlock" action="ShowToolbeltMessage" message="Attempting to assemble the Decoy... Stay Clear"/>
@@ -2238,13 +2238,13 @@
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayMadmanDecoyTier4"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
 			</property>
 			<property class="Action1">
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayMadmanDecoyTier4"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
 			</property>
 			<effect_group name="FuriousRamsayMadmanDecoy" tiered="false">
 				<triggered_effect trigger="onSelfPlaceBlock" action="ShowToolbeltMessage" message="Attempting to assemble the Decoy... Stay Clear"/>
@@ -2266,13 +2266,13 @@
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayMadmanDecoyTier5"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
 			</property>
 			<property class="Action1">
 				<property name="Class" value="PlaceAsBlock"/>
 				<property name="Delay" value=".5"/>
 				<property name="Blockname" value="FuriousRamsayMadmanDecoyTier5"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
 			</property>
 			<effect_group name="FuriousRamsayMadmanDecoy" tiered="false">
 				<triggered_effect trigger="onSelfPlaceBlock" action="ShowToolbeltMessage" message="Attempting to assemble the Decoy... Stay Clear"/>
@@ -5116,7 +5116,7 @@
 			<property name="CustomIconTint" value="255, 150, 150"/>
 			<property name="DescriptionKey" value="FuriousRamsayScreamerSignalTier1SchematicDesc"/>
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FuriousRamsayScreamerSignalTier1" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$FuriousRamsayScreamerSignalTier1" operation="set" value="1"/>
 			</effect_group>
 		</item>
 
@@ -5127,7 +5127,7 @@
 			<property name="CustomIconTint" value="255, 125, 125"/>
 			<property name="DescriptionKey" value="FuriousRamsayScreamerSignalTier2SchematicDesc"/>
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FuriousRamsayScreamerSignalTier2" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$FuriousRamsayScreamerSignalTier2" operation="set" value="1"/>
 			</effect_group>
 		</item>
 
@@ -5138,7 +5138,7 @@
 			<property name="CustomIconTint" value="255, 100, 100"/>
 			<property name="DescriptionKey" value="FuriousRamsayScreamerSignalTier3SchematicDesc"/>
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FuriousRamsayScreamerSignalTier3" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$FuriousRamsayScreamerSignalTier3" operation="set" value="1"/>
 			</effect_group>
 		</item>
 
@@ -5149,7 +5149,7 @@
 			<property name="CustomIconTint" value="255, 75, 75"/>
 			<property name="DescriptionKey" value="FuriousRamsayScreamerSignalTier4SchematicDesc"/>
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FuriousRamsayScreamerSignalTier4" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$FuriousRamsayScreamerSignalTier4" operation="set" value="1"/>
 			</effect_group>
 		</item>
 
@@ -5160,7 +5160,7 @@
 			<property name="CustomIconTint" value="255, 50, 50"/>
 			<property name="DescriptionKey" value="FuriousRamsayScreamerSignalTier5SchematicDesc"/>
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FuriousRamsayScreamerSignalTier5" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$FuriousRamsayScreamerSignalTier5" operation="set" value="1"/>
 			</effect_group>
 		</item>
 

@@ -22,50 +22,50 @@
 			<property name="Group" value="Special Items,books"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatealert01">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="0"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatealert02">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatealert03">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="2"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="2"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatealert04">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="3"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="3"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatealert05">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="4"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="4"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatealert06">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="5"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="5"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatealert07">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="6"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="6"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatealert08">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="7"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="7"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatealert09">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="8"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="8"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatealert10">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="9"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="9"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatealert11">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="10"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="10"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatealert12">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="11"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="11"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatealert13">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="12"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAlert" operation="Equals" value="12"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="varFuriousRamsayPlaySoundMaleAlert" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="varFuriousRamsayPlaySoundMaleAlert" operation="set" value="0">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAlert" operation="GT" value="12"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$varFuriousRamsayPlaySoundMaleAlert" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$varFuriousRamsayPlaySoundMaleAlert" operation="set" value="0">
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAlert" operation="GT" value="12"/>
 				</triggered_effect>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="CVarLogValue" cvar="varFuriousRamsayPlaySoundMaleAlert"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="CVarLogValue" cvar="$varFuriousRamsayPlaySoundMaleAlert"/>
 			</effect_group>
 		</item>
 
@@ -89,44 +89,44 @@
 			<property name="Group" value="Special Items,books"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateattack01">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAttack" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAttack" operation="Equals" value="0"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateattack02">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAttack" operation="Equals" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAttack" operation="Equals" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateattack03">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAttack" operation="Equals" value="2"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAttack" operation="Equals" value="2"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateattack04">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAttack" operation="Equals" value="3"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAttack" operation="Equals" value="3"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateattack05">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAttack" operation="Equals" value="4"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAttack" operation="Equals" value="4"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateattack06">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAttack" operation="Equals" value="5"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAttack" operation="Equals" value="5"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateattack07">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAttack" operation="Equals" value="6"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAttack" operation="Equals" value="6"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateattack08">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAttack" operation="Equals" value="7"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAttack" operation="Equals" value="7"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateattack09">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAttack" operation="Equals" value="8"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAttack" operation="Equals" value="8"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateattack10">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAttack" operation="Equals" value="9"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAttack" operation="Equals" value="9"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateattack11">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAttack" operation="Equals" value="10"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAttack" operation="Equals" value="10"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="varFuriousRamsayPlaySoundMaleAttack" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="varFuriousRamsayPlaySoundMaleAttack" operation="set" value="0">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleAttack" operation="GT" value="10"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$varFuriousRamsayPlaySoundMaleAttack" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$varFuriousRamsayPlaySoundMaleAttack" operation="set" value="0">
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleAttack" operation="GT" value="10"/>
 				</triggered_effect>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="CVarLogValue" cvar="varFuriousRamsayPlaySoundMaleAttack"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="CVarLogValue" cvar="$varFuriousRamsayPlaySoundMaleAttack"/>
 			</effect_group>
 		</item>
 		
@@ -150,47 +150,47 @@
 			<property name="Group" value="Special Items,books"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatedeath01">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleDeath" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleDeath" operation="Equals" value="0"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatedeath02">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleDeath" operation="Equals" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleDeath" operation="Equals" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatedeath03">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleDeath" operation="Equals" value="2"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleDeath" operation="Equals" value="2"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatedeath04">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleDeath" operation="Equals" value="3"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleDeath" operation="Equals" value="3"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatedeath05">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleDeath" operation="Equals" value="4"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleDeath" operation="Equals" value="4"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatedeath06">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleDeath" operation="Equals" value="5"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleDeath" operation="Equals" value="5"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatedeath07">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleDeath" operation="Equals" value="6"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleDeath" operation="Equals" value="6"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatedeath08">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleDeath" operation="Equals" value="7"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleDeath" operation="Equals" value="7"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatedeath09">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleDeath" operation="Equals" value="8"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleDeath" operation="Equals" value="8"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatedeath10">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleDeath" operation="Equals" value="9"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleDeath" operation="Equals" value="9"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatedeath11">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleDeath" operation="Equals" value="10"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleDeath" operation="Equals" value="10"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatedeath12">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleDeath" operation="Equals" value="11"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleDeath" operation="Equals" value="11"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="varFuriousRamsayPlaySoundMaleDeath" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="varFuriousRamsayPlaySoundMaleDeath" operation="set" value="0">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleDeath" operation="GT" value="11"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$varFuriousRamsayPlaySoundMaleDeath" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$varFuriousRamsayPlaySoundMaleDeath" operation="set" value="0">
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleDeath" operation="GT" value="11"/>
 				</triggered_effect>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="CVarLogValue" cvar="varFuriousRamsayPlaySoundMaleDeath"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="CVarLogValue" cvar="$varFuriousRamsayPlaySoundMaleDeath"/>
 			</effect_group>
 		</item>
 
@@ -214,47 +214,47 @@
 			<property name="Group" value="Special Items,books"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatepain01">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMalePain" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMalePain" operation="Equals" value="0"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatepain02">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMalePain" operation="Equals" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMalePain" operation="Equals" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatepain03">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMalePain" operation="Equals" value="2"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMalePain" operation="Equals" value="2"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatepain04">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMalePain" operation="Equals" value="3"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMalePain" operation="Equals" value="3"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatepain05">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMalePain" operation="Equals" value="4"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMalePain" operation="Equals" value="4"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatepain06">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMalePain" operation="Equals" value="5"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMalePain" operation="Equals" value="5"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatepain07">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMalePain" operation="Equals" value="6"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMalePain" operation="Equals" value="6"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatepain08">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMalePain" operation="Equals" value="7"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMalePain" operation="Equals" value="7"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatepain09">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMalePain" operation="Equals" value="8"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMalePain" operation="Equals" value="8"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatepain10">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMalePain" operation="Equals" value="9"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMalePain" operation="Equals" value="9"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatepain11">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMalePain" operation="Equals" value="10"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMalePain" operation="Equals" value="10"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatepain12">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMalePain" operation="Equals" value="11"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMalePain" operation="Equals" value="11"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="varFuriousRamsayPlaySoundMalePain" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="varFuriousRamsayPlaySoundMalePain" operation="set" value="0">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMalePain" operation="GT" value="11"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$varFuriousRamsayPlaySoundMalePain" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$varFuriousRamsayPlaySoundMalePain" operation="set" value="0">
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMalePain" operation="GT" value="11"/>
 				</triggered_effect>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="CVarLogValue" cvar="varFuriousRamsayPlaySoundMalePain"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="CVarLogValue" cvar="$varFuriousRamsayPlaySoundMalePain"/>
 			</effect_group>
 		</item>
 
@@ -278,59 +278,59 @@
 			<property name="Group" value="Special Items,books"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateroam01">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="0"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateroam02">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateroam03">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="2"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="2"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateroam04">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="3"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="3"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateroam05">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="4"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="4"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateroam06">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="5"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="5"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateroam07">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="6"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="6"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateroam08">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="7"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="7"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateroam09">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="8"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="8"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateroam10">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="9"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="9"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateroam11">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="10"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="10"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateroam12">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="11"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="11"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateroam13">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="12"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="12"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateroam14">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="13"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="13"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateroam15">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="14"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="14"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehateroam16">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="15"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleRoam" operation="Equals" value="15"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="varFuriousRamsayPlaySoundMaleRoam" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="varFuriousRamsayPlaySoundMaleRoam" operation="set" value="0">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleRoam" operation="GT" value="15"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$varFuriousRamsayPlaySoundMaleRoam" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$varFuriousRamsayPlaySoundMaleRoam" operation="set" value="0">
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleRoam" operation="GT" value="15"/>
 				</triggered_effect>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="CVarLogValue" cvar="varFuriousRamsayPlaySoundMaleRoam"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="CVarLogValue" cvar="$varFuriousRamsayPlaySoundMaleRoam"/>
 			</effect_group>
 		</item>
 
@@ -354,44 +354,44 @@
 			<property name="Group" value="Special Items,books"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatesense01">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleSense" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleSense" operation="Equals" value="0"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatesense02">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleSense" operation="Equals" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleSense" operation="Equals" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatesense03">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleSense" operation="Equals" value="2"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleSense" operation="Equals" value="2"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatesense04">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleSense" operation="Equals" value="3"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleSense" operation="Equals" value="3"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatesense05">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleSense" operation="Equals" value="4"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleSense" operation="Equals" value="4"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatesense06">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleSense" operation="Equals" value="5"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleSense" operation="Equals" value="5"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatesense07">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleSense" operation="Equals" value="6"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleSense" operation="Equals" value="6"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatesense08">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleSense" operation="Equals" value="7"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleSense" operation="Equals" value="7"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatesense09">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleSense" operation="Equals" value="8"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleSense" operation="Equals" value="8"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatesense10">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleSense" operation="Equals" value="9"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleSense" operation="Equals" value="9"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="malehatesense11">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleSense" operation="Equals" value="10"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleSense" operation="Equals" value="10"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="CVarLogValue" cvar="varFuriousRamsayPlaySoundMaleSense"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="CVarLogValue" cvar="$varFuriousRamsayPlaySoundMaleSense"/>
 
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="varFuriousRamsayPlaySoundMaleSense" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="varFuriousRamsayPlaySoundMaleSense" operation="set" value="0">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayPlaySoundMaleSense" operation="GT" value="10"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$varFuriousRamsayPlaySoundMaleSense" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$varFuriousRamsayPlaySoundMaleSense" operation="set" value="0">
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayPlaySoundMaleSense" operation="GT" value="10"/>
 				</triggered_effect>
 			</effect_group>
 		</item>

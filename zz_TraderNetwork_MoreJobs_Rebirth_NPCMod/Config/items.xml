@@ -1,0 +1,24 @@
+<Config>
+
+	<set xpath="/items/item[@name='itemNPCModMode']/effect_group[@name='itemNPCModMode']">
+		<triggered_effect trigger="onSelfPrimaryActionStart" action="AddBuff" buff="buffNPCModModeChange1">
+			<requirement name="CVarCompare" cvar="$varNPCModMode" operation="Equals" value="0" />
+			<requirement name="CVarCompare" cvar="$varNPCModModeChange" operation="Equals" value="0" />
+		</triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionStart" action="AddBuff" buff="buffNPCModModeChange0">
+			<requirement name="CVarCompare" cvar="$varNPCModMode" operation="Equals" value="1" />
+			<requirement name="CVarCompare" cvar="$varNPCModModeChange" operation="Equals" value="0" />
+		</triggered_effect>
+		<triggered_effect trigger="onSelfSecondaryActionStart" action="AddBuff" buff="buffNPCModModeChange1">
+			<requirement name="CVarCompare" cvar="$varNPCModMode" operation="Equals" value="0" />
+			<requirement name="CVarCompare" cvar="$varNPCModModeChange" operation="Equals" value="0" />
+		</triggered_effect>
+		<triggered_effect trigger="onSelfSecondaryActionStart" action="AddBuff" buff="buffNPCModModeChange0">
+			<requirement name="CVarCompare" cvar="$varNPCModMode" operation="Equals" value="1" />
+			<requirement name="CVarCompare" cvar="$varNPCModModeChange" operation="Equals" value="0" />
+		</triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$varNPCModModeChange" operation="set" value="0"/>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="ModifyCVar" cvar="$varNPCModModeChange" operation="set" value="0"/>
+	</set>
+
+</Config>

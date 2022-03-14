@@ -362,69 +362,69 @@
 			<!-- SET FACTION CVARS : FuriousRamsay -->
             <effect_group name="SetFactionCVars">
                 <triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="respawn" operation="set" value="1"/>
-                <triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="varFactionBandit" operation="set" value="1">
+                <triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="$varFactionBandit" operation="set" value="1">
                     <requirement name="EntityTagCompare" target="self" tags="bandit,whisperer,mech"/>
                 </triggered_effect>
             </effect_group>  
 			<effect_group name="EntityDamageKillCount">
-			  <triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="varNumKills" operation="add" value="1"/>
+			  <triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="$varNumKills" operation="add" value="1"/>
 			</effect_group> 
 			
 			<!-- SET PASSIVE DAMAGE BUFFS/DEBUFFS -->
 			<!-- DAMAGE MODIFIER BASED ON NUMBER OF KILLS -->
 			<effect_group name="EntityDamageKillsLevel1">
-			  <requirement name="CVarCompare" cvar="varNumKills" operation="GT" value="0"/>
-			  <requirement name="CVarCompare" cvar="varNumKills" operation="LTE" value="20"/>
+			  <requirement name="CVarCompare" cvar="$varNumKills" operation="GT" value="0"/>
+			  <requirement name="CVarCompare" cvar="$varNumKills" operation="LTE" value="20"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="0.1"/>
 			</effect_group> 
 			<effect_group name="EntityDamageKillsLevel2">
-			  <requirement name="CVarCompare" cvar="varNumKills" operation="GT" value="20"/>
-			  <requirement name="CVarCompare" cvar="varNumKills" operation="LTE" value="50"/>
+			  <requirement name="CVarCompare" cvar="$varNumKills" operation="GT" value="20"/>
+			  <requirement name="CVarCompare" cvar="$varNumKills" operation="LTE" value="50"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="0.2"/>
 			</effect_group> 
 			<effect_group name="EntityDamageKillsLevel3">
-			  <requirement name="CVarCompare" cvar="varNumKills" operation="GT" value="50"/>
-			  <requirement name="CVarCompare" cvar="varNumKills" operation="LTE" value="100"/>
+			  <requirement name="CVarCompare" cvar="$varNumKills" operation="GT" value="50"/>
+			  <requirement name="CVarCompare" cvar="$varNumKills" operation="LTE" value="100"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="0.3"/>
 			</effect_group> 
 			<effect_group name="EntityDamageKillsLevel4">
-			  <requirement name="CVarCompare" cvar="varNumKills" operation="GT" value="100"/>
-			  <requirement name="CVarCompare" cvar="varNumKills" operation="LTE" value="200"/>
+			  <requirement name="CVarCompare" cvar="$varNumKills" operation="GT" value="100"/>
+			  <requirement name="CVarCompare" cvar="$varNumKills" operation="LTE" value="200"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="0.4"/>
 			</effect_group> 
 			<effect_group name="EntityDamageKillsLevel5">
-			  <requirement name="CVarCompare" cvar="varNumKills" operation="GT" value="200"/>
+			  <requirement name="CVarCompare" cvar="$varNumKills" operation="GT" value="200"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="0.5"/>
 			</effect_group> 
 			<!-- DAMAGE MODIFIER BASED ON TIME OF DAY -->
 			<effect_group name="EntityDamageAtNight">
-				<requirement name="CVarCompare" cvar="varFactionBandit" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFactionBandit" operation="Equals" value="1"/>
 				<requirement name="IsNight"/>
 					<passive_effect name="DamageModifier" operation="perc_add" value="-.2"/>
 			</effect_group>                     
 			<!-- DAMAGE MODIFIER BASED ON BIOME DIFFICULTY -->
 			<effect_group name="EntityDamageInBiomeForest">
-				<requirement name="CVarCompare" cvar="varFactionBandit" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFactionBandit" operation="Equals" value="1"/>
 				<requirement name="InBiome" biome="3"/>
 					<passive_effect name="DamageModifier" operation="perc_add" value="-.3"/>
 			</effect_group> 
 			<effect_group name="EntityDamageInBiomeDesert">
-				<requirement name="CVarCompare" cvar="varFactionBandit" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFactionBandit" operation="Equals" value="1"/>
 				<requirement name="InBiome" biome="5"/>
 					<passive_effect name="DamageModifier" operation="perc_add" value="-.1"/>
 			</effect_group> 
 			<effect_group name="EntityDamageInBiomeSnow">
-				<requirement name="CVarCompare" cvar="varFactionBandit" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFactionBandit" operation="Equals" value="1"/>
 				<requirement name="InBiome" biome="1"/>
 					<passive_effect name="DamageModifier" operation="perc_add" value=".25"/>
 			</effect_group> 
 			<effect_group name="EntityDamageInBiomeBurntForest">
-				<requirement name="CVarCompare" cvar="varFactionBandit" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFactionBandit" operation="Equals" value="1"/>
 				<requirement name="InBiome" biome="9"/>
 					<passive_effect name="DamageModifier" operation="perc_add" value="-.5"/>
 			</effect_group> 
 			<effect_group name="EntityDamageInBiomeWasteland">
-				<requirement name="CVarCompare" cvar="varFactionBandit" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFactionBandit" operation="Equals" value="1"/>
 				<requirement name="InBiome" biome="8"/>
 					<passive_effect name="DamageModifier" operation="perc_add" value="-.5"/>
 			</effect_group> 
@@ -1108,9 +1108,9 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="PipePistolUser"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffReload"/> 
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffBurst"/>				
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Magsize" operation="set" value="6"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Magsize" operation="set" value="6"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$roundsinmag" operation="set" value="6"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Burstsize" operation="set" value="3"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Burstsize" operation="set" value="3"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$burstrate" operation="set" value="3"/>
 			</effect_group>	
 			<!--<effect_group name="AddGunslingerProgression">
@@ -1165,9 +1165,9 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffBurst"/>
 			<!--<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="Gunslinger"/> -->
 			<!--<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="Gunslinger"/> -->
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Magsize" operation="set" value="14"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Magsize" operation="set" value="14"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$roundsinmag" operation="set" value="14"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Burstsize" operation="set" value="7"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Burstsize" operation="set" value="7"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$burstrate" operation="set" value="7"/>				
 			</effect_group>
 			<!--<effect_group name="AddGunslingerProgression">
@@ -1221,9 +1221,9 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="DPistolUser"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffReload"/> 
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffBurst"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Magsize" operation="set" value="8"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Magsize" operation="set" value="8"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$roundsinmag" operation="set" value="8"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Burstsize" operation="set" value="4"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Burstsize" operation="set" value="4"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$burstrate" operation="set" value="4"/>				
 			</effect_group>	
 			<!--<effect_group name="AddGunslingerProgression">
@@ -1278,11 +1278,11 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="SMGUser"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffReload"/> 
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffBurst"/> 
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Magsize" operation="set" value="30"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Magsize" operation="set" value="30"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$roundsinmag" operation="set" value="30"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Burstsize" operation="set" value="10"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Burstsize" operation="set" value="10"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$burstrate" operation="set" value="10"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="reloadDelay" operation="set" value="3"/><!--  test cvar  -->
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$reloadDelay" operation="set" value="3"/><!--  test cvar  -->
 			</effect_group>
 			<!--<effect_group name="AddGunslingerProgression">
 				<triggered_effect trigger="onSelfFirstSpawn" action="SetProgressionLevel" progression_name="perkGunslinger" level="1"/>
@@ -1336,9 +1336,9 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="M60User"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffReload"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffBurst"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Magsize" operation="set" value="50"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Magsize" operation="set" value="50"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$roundsinmag" operation="set" value="50"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Burstsize" operation="set" value="10"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Burstsize" operation="set" value="10"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$burstrate" operation="set" value="10"/>				
 			</effect_group>
 			<!--<effect_group name="AddMachineGunnerProgression">
@@ -1392,9 +1392,9 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="AK47User"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffReload"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffBurst"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Magsize" operation="set" value="30"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Magsize" operation="set" value="30"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$roundsinmag" operation="set" value="30"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Burstsize" operation="set" value="5"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Burstsize" operation="set" value="5"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$burstrate" operation="set" value="5"/>				
 			</effect_group>	
 			<!--<effect_group name="AddMachineGunnerProgression">
@@ -1447,9 +1447,9 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="PipeMGUser"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffReload"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffBurst"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Magsize" operation="set" value="20"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Magsize" operation="set" value="20"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$roundsinmag" operation="set" value="20"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Burstsize" operation="set" value="5"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Burstsize" operation="set" value="5"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$burstrate" operation="set" value="5"/>				
 			</effect_group>
 			<!--<effect_group name="AddMachineGunnerProgression">
@@ -1503,9 +1503,9 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="TRifleUser"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffReload"/> 
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffBurst"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Magsize" operation="set" value="30"/>	
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Magsize" operation="set" value="30"/>	
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$roundsinmag" operation="set" value="30"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Burstsize" operation="set" value="10"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Burstsize" operation="set" value="10"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$burstrate" operation="set" value="10"/>				
 			</effect_group>
 			<!--<effect_group name="AddMachineGunnerProgression">
@@ -1559,9 +1559,9 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="PipeRifleUser"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffReload"/> 
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffBurst"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Magsize" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Magsize" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$roundsinmag" operation="set" value="1"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Burstsize" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Burstsize" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$burstrate" operation="set" value="1"/>				
 			</effect_group>
 			<!--<effect_group name="AddDeadEyeProgression">
@@ -1614,9 +1614,9 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="HRifleUser"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffReload"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffBurst"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Magsize" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Magsize" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$roundsinmag" operation="set" value="1"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Burstsize" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Burstsize" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$burstrate" operation="set" value="1"/>							
 			</effect_group>
 			<!--<effect_group name="AddDeadEyeProgression">
@@ -1669,9 +1669,9 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="SRifleUser"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffReload"/> 
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffBurst"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Magsize" operation="set" value="12"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Magsize" operation="set" value="12"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$roundsinmag" operation="set" value="12"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Burstsize" operation="set" value="3"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Burstsize" operation="set" value="3"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$burstrate" operation="set" value="3"/>							
 			</effect_group>
 			<!--<effect_group name="AddDeadEyeProgression">
@@ -1724,9 +1724,9 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="PipeShotgunUser"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffReload"/> 
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffBurst"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Magsize" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Magsize" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$roundsinmag" operation="set" value="1"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Burstsize" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Burstsize" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$burstrate" operation="set" value="1"/>							
 			</effect_group>	
 			<!--<effect_group name="AddBoomstickProgression">
@@ -1779,9 +1779,9 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="PShotgunUser"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffReload"/> 
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffBurst"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Magsize" operation="set" value="8"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Magsize" operation="set" value="8"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$roundsinmag" operation="set" value="8"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Burstsize" operation="set" value="2"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Burstsize" operation="set" value="2"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$burstrate" operation="set" value="2"/>							
 			</effect_group>
 			<!--<effect_group name="AddBoomstickProgression">
@@ -1834,9 +1834,9 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="AShotgunUser"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffReload"/> 
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffBurst"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Magsize" operation="set" value="16"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Magsize" operation="set" value="16"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$roundsinmag" operation="set" value="16"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Burstsize" operation="set" value="4"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Burstsize" operation="set" value="4"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$burstrate" operation="set" value="4"/>							
 			</effect_group>
 			<!--<effect_group name="AddBoomstickProgression">
@@ -1889,9 +1889,9 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="LBowUser"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffReload"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffBurst"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Magsize" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Magsize" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$roundsinmag" operation="set" value="1"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Burstsize" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Burstsize" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$burstrate" operation="set" value="1"/>							
 			</effect_group>	
 			<!--<effect_group name="AddArcheryProgression">
@@ -1948,9 +1948,9 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="XBowUser"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffReload"/> 
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffBurst"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Magsize" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Magsize" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$roundsinmag" operation="set" value="1"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Burstsize" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Burstsize" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$burstrate" operation="set" value="1"/>							
 			</effect_group>	
 			<!--<effect_group name="AddArcheryProgression">
@@ -2006,9 +2006,9 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="RocketLUser"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffReload"/> 
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffBurst"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Magsize" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Magsize" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$roundsinmag" operation="set" value="1"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="Burstsize" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$Burstsize" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="$burstrate" operation="set" value="1"/>				
 			</effect_group>
 			<!--<effect_group name="AddDemolitionsExpertProgression">

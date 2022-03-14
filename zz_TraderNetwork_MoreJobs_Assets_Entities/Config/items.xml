@@ -247,7 +247,7 @@
 			<property name="Candrop" value="true"/>
 			<property name="SellableToTrader" value="false"/>
 			<property class="Action0">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesTier" operation="Equals" value="0"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenariesTier" operation="Equals" value="0"/>
 				<requirement name="PlayerLevel" operation="GTE" value="15" />
 					<property name="Class" value="Eat"/>
 					<property name="UseAnimation" value="true"/>
@@ -255,7 +255,7 @@
 					<property name="Sound_in_head" value="true"/>
 			</property>
 			<effect_group name="FuriousRamsayMercenaries" tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="varFuriousRamsayMercenariesTier" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$varFuriousRamsayMercenariesTier" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier1" />
 			</effect_group>
 		</item>
@@ -268,7 +268,7 @@
 			<property name="Candrop" value="true"/>
 			<property name="SellableToTrader" value="false"/>
 			<property class="Action0">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesTier" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenariesTier" operation="Equals" value="1"/>
 				<requirement name="PlayerLevel" operation="GTE" value="30" />
 					<property name="Class" value="Eat"/>
 					<property name="UseAnimation" value="true"/>
@@ -276,7 +276,7 @@
 					<property name="Sound_in_head" value="true"/>
 			</property>
 			<effect_group name="FuriousRamsayMercenaries" tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="varFuriousRamsayMercenariesTier" operation="set" value="2"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$varFuriousRamsayMercenariesTier" operation="set" value="2"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier1" />
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier2" />
 			</effect_group>
@@ -290,7 +290,7 @@
 			<property name="Candrop" value="true"/>
 			<property name="SellableToTrader" value="false"/>
 			<property class="Action0">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesTier" operation="Equals" value="2"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenariesTier" operation="Equals" value="2"/>
 				<requirement name="PlayerLevel" operation="GTE" value="45" />
 					<property name="Class" value="Eat"/>
 					<property name="UseAnimation" value="true"/>
@@ -298,7 +298,7 @@
 					<property name="Sound_in_head" value="true"/>
 			</property>
 			<effect_group name="FuriousRamsayMercenaries" tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="varFuriousRamsayMercenariesTier" operation="set" value="3"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$varFuriousRamsayMercenariesTier" operation="set" value="3"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier2" />
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier3" />
 			</effect_group>
@@ -312,7 +312,7 @@
 			<property name="Candrop" value="true"/>
 			<property name="SellableToTrader" value="false"/>
 			<property class="Action0">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesTier" operation="Equals" value="3"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenariesTier" operation="Equals" value="3"/>
 				<requirement name="PlayerLevel" operation="GTE" value="60" />
 					<property name="Class" value="Eat"/>
 					<property name="UseAnimation" value="true"/>
@@ -320,7 +320,7 @@
 					<property name="Sound_in_head" value="true"/>
 			</property>
 			<effect_group name="FuriousRamsayMercenaries" tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="varFuriousRamsayMercenariesTier" operation="set" value="4"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$varFuriousRamsayMercenariesTier" operation="set" value="4"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier3" />
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier4" />
 			</effect_group>
@@ -334,7 +334,7 @@
 			<property name="Candrop" value="true"/>
 			<property name="SellableToTrader" value="false"/>
 			<property class="Action0">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesTier" operation="Equals" value="4"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenariesTier" operation="Equals" value="4"/>
 				<requirement name="PlayerLevel" operation="GTE" value="75" />
 					<property name="Class" value="Eat"/>
 					<property name="UseAnimation" value="true"/>
@@ -342,7 +342,7 @@
 					<property name="Sound_in_head" value="true"/>
 			</property>
 			<effect_group name="FuriousRamsayMercenaries" tiered="false">
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="varFuriousRamsayMercenariesTier" operation="set" value="5"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$varFuriousRamsayMercenariesTier" operation="set" value="5"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier4" />
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier5" />
 			</effect_group>

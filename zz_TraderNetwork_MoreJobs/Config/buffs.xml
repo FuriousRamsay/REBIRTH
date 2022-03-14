@@ -2615,12 +2615,12 @@
 				<update_rate value="1"/>
 				<effect_group>
 					<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_onFire" local_offset="0,-.2,0" parent_transform="LOD0" shape_mesh="true"/>
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayAttachFireParticles" operation="set" value="1"/>
-					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayAttachFireParticles" operation="add" value="1">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayAttachFireParticles" operation="LT" value="12"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayAttachFireParticles" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$varFuriousRamsayAttachFireParticles" operation="add" value="1">
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayAttachFireParticles" operation="LT" value="12"/>
 					</triggered_effect>
 					<triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="p_onFire" local_offset="0,-.2,0" parent_transform="LOD0" shape_mesh="true">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayAttachFireParticles" operation="LT" value="10"/>
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayAttachFireParticles" operation="LT" value="10"/>
 					</triggered_effect>
 					<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_onFire"/>
 					<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_onFire"/>
@@ -2632,12 +2632,12 @@
 				<update_rate value="2"/>
 				<effect_group>
 					<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_electric_shock" parent_transform="Spine1" local_offset="0,-.2,0"/>
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayAttachShockParticles" operation="set" value="1"/>
-					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayAttachShockParticles" operation="add" value="1">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayAttachShockParticles" operation="LT" value="12"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayAttachShockParticles" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$varFuriousRamsayAttachShockParticles" operation="add" value="1">
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayAttachShockParticles" operation="LT" value="12"/>
 					</triggered_effect>
 					<triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="p_electric_shock" parent_transform="Spine1" local_offset="0,-.2,0">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayAttachShockParticles" operation="LT" value="10"/>
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayAttachShockParticles" operation="LT" value="10"/>
 					</triggered_effect>
 					<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
 					<triggered_effect trigger="onSelfBuffFinish" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
@@ -2650,12 +2650,12 @@
 				<update_rate value="2"/>
 				<effect_group>
 					<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="burntZombieSmoke" local_offset="0,-.2,0" parent_transform="LOD0" shape_mesh="true"/>
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayAttachSmokeParticles" operation="set" value="1"/>
-					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayAttachSmokeParticles" operation="add" value="1">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayAttachSmokeParticles" operation="LT" value="12"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayAttachSmokeParticles" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$varFuriousRamsayAttachSmokeParticles" operation="add" value="1">
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayAttachSmokeParticles" operation="LT" value="12"/>
 					</triggered_effect>
 					<triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="burntZombieSmoke" local_offset="0,-.2,0" parent_transform="LOD0" shape_mesh="true">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayAttachSmokeParticles" operation="LT" value="10"/>
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayAttachSmokeParticles" operation="LT" value="10"/>
 					</triggered_effect>
 					<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="burntZombieSmoke"/>
 					<triggered_effect trigger="onSelfBuffFinish" action="RemoveParticleEffectFromEntity" particle="burntZombieSmoke"/>
@@ -3864,7 +3864,7 @@
 				<stack_type value="replace"/>
 				<duration value="10800"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPetPlaced" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPetPlaced" operation="set" value="0"/>
 				</effect_group>
 			</buff>
 
@@ -3872,7 +3872,7 @@
 				<stack_type value="ignore"/>
 				<duration value="1"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" target="other" cvar="varFuriousRamsayPetPlaced" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfBuffFinish" action="ModifyCVar" target="other" cvar="$varFuriousRamsayPetPlaced" operation="set" value="1"/>
 				</effect_group>
 			</buff>
 
@@ -3880,7 +3880,7 @@
 				<stack_type value="ignore"/>
 				<duration value="1"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayPetPlaced" operation="set" value="1"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPetPlaced" operation="set" value="1"/>
 				</effect_group>
 			</buff>
 

@@ -61,7 +61,7 @@
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="200" tags="coredamageresist"/>
 				<passive_effect name="ElementalDamageResist" operation="base_add" value="200" tags="heat,electrical"/>
 
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="varFuriousRamsayChunkObserverSpawned" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="$varFuriousRamsayChunkObserverSpawned" operation="set" value="1"/>
 			</effect_group>
 		</entity_class>
 	
@@ -319,7 +319,7 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayGiveSpawnOrders"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsaySpawnChunkObserverTimer"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="AddBuff" target="self" buff="FuriousRamsaySpawnChunkObserverTimer"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="varFuriousRamsayChunkObserverSpawner" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="$varFuriousRamsayChunkObserverSpawner" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayCloseToLeaderTimer"/>
 				<triggered_effect trigger="onSelfEnteredGame" action="AddBuff" target="self" buff="FuriousRamsayCloseToLeaderTimer"/>
 			</effect_group>

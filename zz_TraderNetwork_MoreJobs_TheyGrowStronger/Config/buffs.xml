@@ -12,101 +12,101 @@
 			<effect_group name="FuriousRamsayVerifyTheyGrowStrongerDeaths">
 				<!-- PLAYER DEATHS TIER 1 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierDeaths01" target_tags="zombie">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierDeaths01"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierDeaths02"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths01"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths02"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierDeaths01Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths01Player" operation="Equals" value="0"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierDeaths01"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierDeaths02"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths01Player" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths01"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths02"/>
 				</triggered_effect>
 				<!-- PLAYER DEATHS TIER 2 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierDeaths02" target_tags="zombie">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierDeaths02"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierDeaths03"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths02"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths03"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierDeaths02Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths02Player" operation="Equals" value="0"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierDeaths02"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierDeaths03"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths02Player" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths02"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths03"/>
 				</triggered_effect>
 				<!-- PLAYER DEATHS TIER 3 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierDeaths03" target_tags="zombie">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierDeaths03"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierDeaths04"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths03"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths04"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierDeaths03Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths03Player" operation="Equals" value="0"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierDeaths03"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierDeaths04"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths03Player" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths03"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths04"/>
 				</triggered_effect>
 				<!-- PLAYER DEATHS TIER 4 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierDeaths04" target_tags="zombie">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierDeaths04"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierDeaths05"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths04"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths05"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierDeaths04Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths04Player" operation="Equals" value="0"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierDeaths04"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierDeaths05"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths04Player" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths04"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths05"/>
 				</triggered_effect>
 				<!-- PLAYER DEATHS TIER 5 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierDeaths05" target_tags="zombie">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierDeaths05"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierDeaths06"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths05"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths06"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierDeaths05Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths05Player" operation="Equals" value="0"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierDeaths05"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierDeaths06"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths05Player" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths05"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths06"/>
 				</triggered_effect>
 				<!-- PLAYER DEATHS TIER 6 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierDeaths06" target_tags="zombie">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierDeaths06"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierDeaths07"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths06"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths07"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierDeaths06Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths06Player" operation="Equals" value="0"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierDeaths06"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierDeaths07"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths06Player" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths06"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths07"/>
 				</triggered_effect>
 				<!-- PLAYER DEATHS TIER 7 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierDeaths07" target_tags="zombie">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierDeaths07"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierDeaths08"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths07"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths08"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierDeaths07Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths07Player" operation="Equals" value="0"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierDeaths07"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierDeaths08"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths07Player" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths07"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths08"/>
 				</triggered_effect>
 				<!-- PLAYER DEATHS TIER 8 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierDeaths08" target_tags="zombie">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierDeaths08"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierDeaths09"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths08"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths09"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierDeaths08Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths08Player" operation="Equals" value="0"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierDeaths08"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierDeaths09"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths08Player" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths08"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths09"/>
 				</triggered_effect>
 				<!-- PLAYER DEATHS TIER 9 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierDeaths09" target_tags="zombie">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierDeaths09"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierDeaths10"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths09"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths10"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierDeaths09Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths09Player" operation="Equals" value="0"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierDeaths09"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierDeaths10"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths09Player" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths09"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths10"/>
 				</triggered_effect>
 				<!-- PLAYER DEATHS TIER 10 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierDeaths10" target_tags="zombie">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierDeaths10"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths10"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierDeaths10Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths10Player" operation="Equals" value="0"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierDeaths10"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths10Player" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths10"/>
 				</triggered_effect>
 			</effect_group>
 		</buff>
@@ -117,101 +117,101 @@
 			<effect_group name="FuriousRamsayVerifyTheyGrowStrongerKills">
 				<!-- PLAYER KILLS TIER 1 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierKills01" target_tags="zombie">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierKills01"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierKills02"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills01"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills02"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills01Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKills01Player" operation="Equals" value="0"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierKills01"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierKills02"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKills01Player" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills01"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills02"/>
 				</triggered_effect>				
 				<!-- PLAYER KILLS TIER 2 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierKills02" target_tags="zombie">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierKills02"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierKills03"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills02"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills03"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills02Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKills02Player" operation="Equals" value="0"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierKills02"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierKills03"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKills02Player" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills02"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills03"/>
 				</triggered_effect>				
 				<!-- PLAYER KILLS TIER 3 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierKills03" target_tags="zombie">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierKills03"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierKills04"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills03"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills04"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills03Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKills03Player" operation="Equals" value="0"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierKills03"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierKills04"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKills03Player" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills03"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills04"/>
 				</triggered_effect>				
 				<!-- PLAYER KILLS TIER 4 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierKills04" target_tags="zombie">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierKills04"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierKills05"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills04"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills05"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills04Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKills04Player" operation="Equals" value="0"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierKills04"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierKills05"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKills04Player" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills04"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills05"/>
 				</triggered_effect>				
 				<!-- PLAYER KILLS TIER 5 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierKills05" target_tags="zombie">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierKills05"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierKills06"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills05"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills06"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills05Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKills05Player" operation="Equals" value="0"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierKills05"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierKills06"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKills05Player" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills05"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills06"/>
 				</triggered_effect>				
 				<!-- PLAYER KILLS TIER 6 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierKills06" target_tags="zombie">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierKills06"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierKills07"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills06"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills07"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills06Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKills06Player" operation="Equals" value="0"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierKills06"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierKills07"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKills06Player" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills06"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills07"/>
 				</triggered_effect>				
 				<!-- PLAYER KILLS TIER 7 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierKills07" target_tags="zombie">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierKills07"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierKills08"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills07"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills08"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills07Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKills07Player" operation="Equals" value="0"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierKills07"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierKills08"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKills07Player" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills07"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills08"/>
 				</triggered_effect>				
 				<!-- PLAYER KILLS TIER 8 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierKills08" target_tags="zombie">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierKills08"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierKills09"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills08"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills09"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills08Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKills08Player" operation="Equals" value="0"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierKills08"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierKills09"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKills08Player" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills08"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills09"/>
 				</triggered_effect>				
 				<!-- PLAYER KILLS TIER 9 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierKills09" target_tags="zombie">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierKills09"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierKills10"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills09"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills10"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills09Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKills09Player" operation="Equals" value="0"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierKills09"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierKills10"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKills09Player" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills09"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills10"/>
 				</triggered_effect>				
 				<!-- PLAYER KILLS TIER 10 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierKills10" target_tags="zombie">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierKills10"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills10"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills10Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKills10Player" operation="Equals" value="0"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierKills10"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKills10Player" operation="Equals" value="0"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills10"/>
 				</triggered_effect>				
 			</effect_group>
 		</buff>
@@ -222,101 +222,101 @@
 			<effect_group name="FuriousRamsayVerifyTheyGrowStrongerLevels">
 				<!-- PLAYER LEVELS TIER 1 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel01" target_tags="zombie">
-					<requirement name="PlayerLevel" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel01"/>
-					<requirement name="PlayerLevel" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel02"/>
+					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel01"/>
+					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel02"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel01Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevel01Player" operation="Equals" value="0"/>
-					<requirement name="PlayerLevel" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel01"/>
-					<requirement name="PlayerLevel" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel02"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevel01Player" operation="Equals" value="0"/>
+					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel01"/>
+					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel02"/>
 				</triggered_effect>						
 				<!-- PLAYER LEVELS TIER 2 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel02" target_tags="zombie">
-					<requirement name="PlayerLevel" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel02"/>
-					<requirement name="PlayerLevel" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel03"/>
+					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel02"/>
+					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel03"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel02Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevel02Player" operation="Equals" value="0"/>
-					<requirement name="PlayerLevel" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel02"/>
-					<requirement name="PlayerLevel" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel03"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevel02Player" operation="Equals" value="0"/>
+					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel02"/>
+					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel03"/>
 				</triggered_effect>						
 				<!-- PLAYER LEVELS TIER 3 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel03" target_tags="zombie">
-					<requirement name="PlayerLevel" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel03"/>
-					<requirement name="PlayerLevel" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel04"/>
+					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel03"/>
+					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel04"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel03Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevel03Player" operation="Equals" value="0"/>
-					<requirement name="PlayerLevel" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel03"/>
-					<requirement name="PlayerLevel" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel04"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevel03Player" operation="Equals" value="0"/>
+					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel03"/>
+					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel04"/>
 				</triggered_effect>						
 				<!-- PLAYER LEVELS TIER 4 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel04" target_tags="zombie">
-					<requirement name="PlayerLevel" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel04"/>
-					<requirement name="PlayerLevel" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel05"/>
+					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel04"/>
+					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel05"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel04Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevel04Player" operation="Equals" value="0"/>
-					<requirement name="PlayerLevel" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel04"/>
-					<requirement name="PlayerLevel" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel05"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevel04Player" operation="Equals" value="0"/>
+					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel04"/>
+					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel05"/>
 				</triggered_effect>						
 				<!-- PLAYER LEVELS TIER 5 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel05" target_tags="zombie">
-					<requirement name="PlayerLevel" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel05"/>
-					<requirement name="PlayerLevel" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel06"/>
+					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel05"/>
+					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel06"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel05Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevel05Player" operation="Equals" value="0"/>
-					<requirement name="PlayerLevel" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel05"/>
-					<requirement name="PlayerLevel" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel06"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevel05Player" operation="Equals" value="0"/>
+					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel05"/>
+					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel06"/>
 				</triggered_effect>						
 				<!-- PLAYER LEVELS TIER 6 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel06" target_tags="zombie">
-					<requirement name="PlayerLevel" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel06"/>
-					<requirement name="PlayerLevel" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel07"/>
+					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel06"/>
+					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel07"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel06Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevel06Player" operation="Equals" value="0"/>
-					<requirement name="PlayerLevel" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel06"/>
-					<requirement name="PlayerLevel" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel07"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevel06Player" operation="Equals" value="0"/>
+					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel06"/>
+					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel07"/>
 				</triggered_effect>						
 				<!-- PLAYER LEVELS TIER 7 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel07" target_tags="zombie">
-					<requirement name="PlayerLevel" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel07"/>
-					<requirement name="PlayerLevel" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel08"/>
+					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel07"/>
+					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel08"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel07Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevel07Player" operation="Equals" value="0"/>
-					<requirement name="PlayerLevel" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel07"/>
-					<requirement name="PlayerLevel" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel08"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevel07Player" operation="Equals" value="0"/>
+					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel07"/>
+					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel08"/>
 				</triggered_effect>						
 				<!-- PLAYER LEVELS TIER 8 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel08" target_tags="zombie">
-					<requirement name="PlayerLevel" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel08"/>
-					<requirement name="PlayerLevel" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel09"/>
+					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel08"/>
+					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel09"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel08Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevel08Player" operation="Equals" value="0"/>
-					<requirement name="PlayerLevel" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel08"/>
-					<requirement name="PlayerLevel" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel09"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevel08Player" operation="Equals" value="0"/>
+					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel08"/>
+					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel09"/>
 				</triggered_effect>						
 				<!-- PLAYER LEVELS TIER 9 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel09" target_tags="zombie">
-					<requirement name="PlayerLevel" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel09"/>
-					<requirement name="PlayerLevel" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel10"/>
+					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel09"/>
+					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel10"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel09Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevel09Player" operation="Equals" value="0"/>
-					<requirement name="PlayerLevel" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel09"/>
-					<requirement name="PlayerLevel" operation="LT" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel10"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevel09Player" operation="Equals" value="0"/>
+					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel09"/>
+					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel10"/>
 				</triggered_effect>						
 				<!-- PLAYER LEVELS TIER 10 -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel10" target_tags="zombie">
-					<requirement name="PlayerLevel" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel10"/>
+					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel10"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel10Player">
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevel10Player" operation="Equals" value="0"/>
-					<requirement name="PlayerLevel" operation="GTE" value="@varFuriousRamsayTheyGrowStrongerTierPlayerLevel10"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevel10Player" operation="Equals" value="0"/>
+					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel10"/>
 				</triggered_effect>						
 			</effect_group>
 		</buff>
@@ -341,7 +341,7 @@
 			<effect_group>
 				<triggered_effect trigger="onSelfBuffFinish" action="PlaySound" sound="FuriousRamsayDeath" play_in_head="true"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="[e6ab4e]Beware. Your demise will make them stronger[-]"/>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="add" value="1"/>
 			</effect_group>
 		</buff>
 
@@ -368,7 +368,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierKills01Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierKills01Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerPlaySoundNaturalSelection"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your environment has evolved through [b658c4]natural selection[-]"/>
 				<triggered_effect trigger="onSelfBuffStart" action="SetProgressionLevel" progression_name="FuriousRamsayPerkNaturalSelection" level="1"/>
@@ -379,7 +379,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierKills02Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierKills02Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerPlaySoundNaturalSelection"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your environment has further evolved through [b658c4]natural selection[-]"/>
 				<triggered_effect trigger="onSelfBuffStart" action="SetProgressionLevel" progression_name="FuriousRamsayPerkNaturalSelection" level="2"/>
@@ -390,7 +390,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierKills03Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierKills03Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerPlaySoundNaturalSelection"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your environment has further evolved through [b658c4]natural selection[-]"/>
 				<triggered_effect trigger="onSelfBuffStart" action="SetProgressionLevel" progression_name="FuriousRamsayPerkNaturalSelection" level="3"/>
@@ -401,7 +401,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierKills04Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierKills04Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerPlaySoundNaturalSelection"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your environment has further evolved through [b658c4]natural selection[-]"/>
 				<triggered_effect trigger="onSelfBuffStart" action="SetProgressionLevel" progression_name="FuriousRamsayPerkNaturalSelection" level="4"/>
@@ -412,7 +412,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierKills05Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierKills05Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerPlaySoundNaturalSelection"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your environment has further evolved through [b658c4]natural selection[-]"/>
 				<triggered_effect trigger="onSelfBuffStart" action="SetProgressionLevel" progression_name="FuriousRamsayPerkNaturalSelection" level="5"/>
@@ -423,7 +423,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierKills06Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierKills06Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerPlaySoundNaturalSelection"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your environment has further evolved through [b658c4]natural selection[-]"/>
 				<triggered_effect trigger="onSelfBuffStart" action="SetProgressionLevel" progression_name="FuriousRamsayPerkNaturalSelection" level="6"/>
@@ -434,7 +434,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierKills07Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierKills07Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerPlaySoundNaturalSelection"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your environment has further evolved through [b658c4]natural selection[-]"/>
 				<triggered_effect trigger="onSelfBuffStart" action="SetProgressionLevel" progression_name="FuriousRamsayPerkNaturalSelection" level="7"/>
@@ -445,7 +445,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierKills08Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierKills08Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerPlaySoundNaturalSelection"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your environment has further evolved through [b658c4]natural selection[-]"/>
 				<triggered_effect trigger="onSelfBuffStart" action="SetProgressionLevel" progression_name="FuriousRamsayPerkNaturalSelection" level="8"/>
@@ -456,7 +456,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierKills09Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierKills09Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerPlaySoundNaturalSelection"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your environment has further evolved through [b658c4]natural selection[-]"/>
 				<triggered_effect trigger="onSelfBuffStart" action="SetProgressionLevel" progression_name="FuriousRamsayPerkNaturalSelection" level="9"/>
@@ -467,7 +467,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierKills10Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierKills10Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerPlaySoundNaturalSelection"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your environment has further evolved through [b658c4]natural selection[-]"/>
 				<triggered_effect trigger="onSelfBuffStart" action="SetProgressionLevel" progression_name="FuriousRamsayPerkNaturalSelection" level="10"/>
@@ -480,7 +480,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths01Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths01Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="FuriousRamsayDownfall" play_in_head="true"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your ennemies benefit from your [c45858]downfall[-]"/>
 				<triggered_effect trigger="onSelfBuffStart" action="SetProgressionLevel" progression_name="FuriousRamsayPerkDownfall" level="1"/>
@@ -491,7 +491,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths02Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths02Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="FuriousRamsayDownfall" play_in_head="true"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your ennemies benefit from your [c45858]downfall[-]"/>
 				<triggered_effect trigger="onSelfBuffStart" action="SetProgressionLevel" progression_name="FuriousRamsayPerkDownfall" level="2"/>
@@ -502,7 +502,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths03Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths03Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="FuriousRamsayDownfall" play_in_head="true"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your ennemies benefit from your [c45858]downfall[-]"/>
 				<triggered_effect trigger="onSelfBuffStart" action="SetProgressionLevel" progression_name="FuriousRamsayPerkDownfall" level="3"/>
@@ -513,7 +513,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths04Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths04Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="FuriousRamsayDownfall" play_in_head="true"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your ennemies benefit from your [c45858]downfall[-]"/>
 				<triggered_effect trigger="onSelfBuffStart" action="SetProgressionLevel" progression_name="FuriousRamsayPerkDownfall" level="4"/>
@@ -524,7 +524,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths05Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths05Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="FuriousRamsayDownfall" play_in_head="true"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your ennemies benefit from your [c45858]downfall[-]"/>
 				<triggered_effect trigger="onSelfBuffStart" action="SetProgressionLevel" progression_name="FuriousRamsayPerkDownfall" level="5"/>
@@ -535,7 +535,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths06Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths06Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="FuriousRamsayDownfall" play_in_head="true"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your ennemies benefit from your [c45858]downfall[-]"/>
 				<triggered_effect trigger="onSelfBuffStart" action="SetProgressionLevel" progression_name="FuriousRamsayPerkDownfall" level="6"/>
@@ -546,7 +546,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths07Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths07Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="FuriousRamsayDownfall" play_in_head="true"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your ennemies benefit from your [c45858]downfall[-]"/>
 				<triggered_effect trigger="onSelfBuffStart" action="SetProgressionLevel" progression_name="FuriousRamsayPerkDownfall" level="7"/>
@@ -557,7 +557,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths08Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths08Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="FuriousRamsayDownfall" play_in_head="true"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your ennemies benefit from your [c45858]downfall[-]"/>
 				<triggered_effect trigger="onSelfBuffStart" action="SetProgressionLevel" progression_name="FuriousRamsayPerkDownfall" level="8"/>
@@ -568,7 +568,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths09Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths09Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="FuriousRamsayDownfall" play_in_head="true"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your ennemies benefit from your [c45858]downfall[-]"/>
 				<triggered_effect trigger="onSelfBuffStart" action="SetProgressionLevel" progression_name="FuriousRamsayPerkDownfall" level="9"/>
@@ -579,7 +579,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierDeaths10Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths10Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="FuriousRamsayDownfall" play_in_head="true"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your ennemies benefit from your [c45858]downfall[-]"/>
 				<triggered_effect trigger="onSelfBuffStart" action="SetProgressionLevel" progression_name="FuriousRamsayPerkDownfall" level="10"/>
@@ -605,10 +605,10 @@
 				
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierDeaths01PhysicalDamageResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentageDeathAdd"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- PHYSICAL DAMAGE RESIST -->
@@ -639,10 +639,10 @@
 				
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierDeaths02PhysicalDamageResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentageDeathAdd"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- PHYSICAL DAMAGE RESIST -->
@@ -673,10 +673,10 @@
 				
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierDeaths03PhysicalDamageResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentageDeathAdd"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- PHYSICAL DAMAGE RESIST -->
@@ -707,10 +707,10 @@
 				
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierDeaths04PhysicalDamageResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentageDeathAdd"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- PHYSICAL DAMAGE RESIST -->
@@ -741,10 +741,10 @@
 				
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierDeaths05PhysicalDamageResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentageDeathAdd"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- PHYSICAL DAMAGE RESIST -->
@@ -775,10 +775,10 @@
 				
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierDeaths06PhysicalDamageResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentageDeathAdd"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- PHYSICAL DAMAGE RESIST -->
@@ -809,10 +809,10 @@
 				
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierDeaths07PhysicalDamageResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentageDeathAdd"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- PHYSICAL DAMAGE RESIST -->
@@ -843,10 +843,10 @@
 				
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierDeaths08PhysicalDamageResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentageDeathAdd"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- PHYSICAL DAMAGE RESIST -->
@@ -877,10 +877,10 @@
 				
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierDeaths09PhysicalDamageResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentageDeathAdd"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- PHYSICAL DAMAGE RESIST -->
@@ -911,10 +911,10 @@
 				
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierDeaths10PhysicalDamageResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentageDeathAdd"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierDeathsProcessed" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- PHYSICAL DAMAGE RESIST -->
@@ -947,46 +947,46 @@
 				
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills01HealthMax">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayGrowStrongerHealthBoostTier01">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills01EntityDamage">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills01BlockDamage">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills01JumpStrength">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills01WalkSpeed">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills01RunSpeed">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills01Mobility">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills01MovementFactorMultiplier">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills01AttacksPerMinute">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- HEALTH MAX -->
@@ -1081,46 +1081,46 @@
 				
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills02HealthMax">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed02" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed02" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayGrowStrongerHealthBoostTier01">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed02" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed02" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills02EntityDamage">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed02" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed02" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills02BlockDamage">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed02" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed02" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills02JumpStrength">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed02" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed02" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills02WalkSpeed">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed02" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed02" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills02RunSpeed">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed02" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed02" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills02Mobility">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed02" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed02" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills02MovementFactorMultiplier">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed02" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed02" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills02AttacksPerMinute">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed02" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed02" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed02" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed02" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- HEALTH MAX -->
@@ -1215,46 +1215,46 @@
 				
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills03HealthMax">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed03" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed03" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayGrowStrongerHealthBoostTier01">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed03" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed03" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills03EntityDamage">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed03" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed03" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills03BlockDamage">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed03" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed03" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills03JumpStrength">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed03" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed03" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills03WalkSpeed">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed03" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed03" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills03RunSpeed">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed03" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed03" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills03Mobility">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed03" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed03" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills03MovementFactorMultiplier">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed03" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed03" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills03AttacksPerMinute">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed03" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed03" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed03" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed03" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- HEALTH MAX -->
@@ -1349,46 +1349,46 @@
 				
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills04HealthMax">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed04" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed04" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayGrowStrongerHealthBoostTier01">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed04" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed04" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills04EntityDamage">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed04" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed04" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills04BlockDamage">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed04" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed04" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills04JumpStrength">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed04" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed04" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills04WalkSpeed">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed04" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed04" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills04RunSpeed">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed04" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed04" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills04Mobility">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed04" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed04" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills04MovementFactorMultiplier">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed04" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed04" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills04AttacksPerMinute">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed04" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed04" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed04" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed04" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- HEALTH MAX -->
@@ -1483,46 +1483,46 @@
 				
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills05HealthMax">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed05" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed05" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayGrowStrongerHealthBoostTier01">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed05" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed05" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills05EntityDamage">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed05" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed05" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills05BlockDamage">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed05" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed05" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills05JumpStrength">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed05" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed05" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills05WalkSpeed">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed05" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed05" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills05RunSpeed">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed05" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed05" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills05Mobility">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed05" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed05" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills05MovementFactorMultiplier">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed05" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed05" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills05AttacksPerMinute">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed05" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed05" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed05" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed05" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- HEALTH MAX -->
@@ -1617,46 +1617,46 @@
 				
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills06HealthMax">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed06" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed06" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayGrowStrongerHealthBoostTier01">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed06" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed06" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills06EntityDamage">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed06" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed06" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills06BlockDamage">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed06" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed06" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills06JumpStrength">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed06" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed06" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills06WalkSpeed">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed06" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed06" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills06RunSpeed">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed06" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed06" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills06Mobility">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed06" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed06" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills06MovementFactorMultiplier">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed06" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed06" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills06AttacksPerMinute">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed06" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed06" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed06" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed06" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- HEALTH MAX -->
@@ -1751,46 +1751,46 @@
 				
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills07HealthMax">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed07" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed07" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayGrowStrongerHealthBoostTier01">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed07" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed07" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills07EntityDamage">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed07" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed07" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills07BlockDamage">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed07" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed07" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills07JumpStrength">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed07" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed07" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills07WalkSpeed">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed07" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed07" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills07RunSpeed">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed07" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed07" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills07Mobility">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed07" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed07" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills07MovementFactorMultiplier">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed07" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed07" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills07AttacksPerMinute">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed07" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed07" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed07" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed07" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- HEALTH MAX -->
@@ -1885,46 +1885,46 @@
 				
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills08HealthMax">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed08" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed08" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayGrowStrongerHealthBoostTier01">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed08" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed08" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills08EntityDamage">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed08" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed08" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills08BlockDamage">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed08" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed08" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills08JumpStrength">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed08" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed08" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills08WalkSpeed">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed08" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed08" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills08RunSpeed">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed08" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed08" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills08Mobility">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed08" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed08" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills08MovementFactorMultiplier">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed08" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed08" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills08AttacksPerMinute">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed08" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed08" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed08" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed08" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- HEALTH MAX -->
@@ -2019,46 +2019,46 @@
 				
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills09HealthMax">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed09" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed09" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayGrowStrongerHealthBoostTier01">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed09" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed09" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills09EntityDamage">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed09" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed09" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills09BlockDamage">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed09" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed09" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills09JumpStrength">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed09" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed09" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills09WalkSpeed">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed09" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed09" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills09RunSpeed">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed09" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed09" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills09Mobility">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed09" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed09" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills09MovementFactorMultiplier">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed09" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed09" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills09AttacksPerMinute">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed09" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed09" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed09" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed09" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- HEALTH MAX -->
@@ -2153,46 +2153,46 @@
 				
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills10HealthMax">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed10" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed10" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayGrowStrongerHealthBoostTier01">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed10" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed10" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills10EntityDamage">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed10" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed10" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills10BlockDamage">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed10" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed10" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills10JumpStrength">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed10" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed10" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills10WalkSpeed">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed10" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed10" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills10RunSpeed">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed10" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed10" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills10Mobility">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed10" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed10" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills10MovementFactorMultiplier">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed10" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed10" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills10AttacksPerMinute">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentage"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed10" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed10" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierKillsProcessed10" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierKillsProcessed10" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- HEALTH MAX -->
@@ -2275,7 +2275,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevel01Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevel01Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerPlaySoundAscension"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your ennemies have [bec257]ascended[-] and thirst for blood"/>
 				<triggered_effect trigger="onSelfBuffStart" action="SetProgressionLevel" progression_name="FuriousRamsayPerkAscension" level="1"/>
@@ -2286,7 +2286,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevel02Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevel02Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel01Player"/>		
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerPlaySoundAscension"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your ennemies have [bec257]ascended[-] and thirst for blood"/>
@@ -2298,7 +2298,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevel03Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevel03Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel02Player"/>		
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerPlaySoundAscension"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your ennemies have [bec257]ascended[-] and thirst for blood"/>
@@ -2310,7 +2310,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevel04Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevel04Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel03Player"/>		
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerPlaySoundAscension"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your ennemies have [bec257]ascended[-] and thirst for blood"/>
@@ -2322,7 +2322,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevel05Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevel05Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel04Player"/>		
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerPlaySoundAscension"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your ennemies have [bec257]ascended[-] and thirst for blood"/>
@@ -2334,7 +2334,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevel06Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevel06Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel05Player"/>		
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerPlaySoundAscension"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your ennemies have [bec257]ascended[-] and thirst for blood"/>
@@ -2346,7 +2346,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevel07Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevel07Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel06Player"/>		
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerPlaySoundAscension"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your ennemies have [bec257]ascended[-] and thirst for blood"/>
@@ -2358,7 +2358,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevel08Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevel08Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel07Player"/>		
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerPlaySoundAscension"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your ennemies have [bec257]ascended[-] and thirst for blood"/>
@@ -2370,7 +2370,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevel09Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevel09Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel08Player"/>		
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerPlaySoundAscension"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your ennemies have [bec257]ascended[-] and thirst for blood"/>
@@ -2382,7 +2382,7 @@
 			<stack_type value="ignore"/>
 			<duration value="1"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevel10Player" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevel10Player" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel09Player"/>		
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerPlaySoundAscension"/>
 				<triggered_effect trigger="onSelfBuffStart" action="ShowToolbeltMessage" message="Your ennemies have [bec257]ascended[-] and thirst for blood"/>
@@ -2408,18 +2408,18 @@
 				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPercentagePlayerLevel" operation="set" value="1.25"/>
 				<!--<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel01FireResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel01ShockResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>-->
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsaySpeedBurstTimerLevel01">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- FIRE IMMUNE -->
@@ -2475,18 +2475,18 @@
 				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel10"/>
 				<!--<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel02FireResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel02ShockResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>-->
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsaySpeedBurstTimerLevel02">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- FIRE IMMUNE -->
@@ -2543,18 +2543,18 @@
 
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel03FireResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 				<!--<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel03ShockResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>-->
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsaySpeedBurstTimerLevel03">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- FIRE IMMUNE -->
@@ -2611,18 +2611,18 @@
 
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel04FireResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 				<!--<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel04ShockResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>-->
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsaySpeedBurstTimerLevel04">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- FIRE IMMUNE -->
@@ -2679,18 +2679,18 @@
 
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel05FireResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 				<!--<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel05ShockResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>-->
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsaySpeedBurstTimerLevel05">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- FIRE IMMUNE -->
@@ -2747,18 +2747,18 @@
 
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel06FireResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel06ShockResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsaySpeedBurstTimerLevel06">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- FIRE IMMUNE -->
@@ -2815,18 +2815,18 @@
 
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel07FireResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel07ShockResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsaySpeedBurstTimerLevel07">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- FIRE IMMUNE -->
@@ -2883,18 +2883,18 @@
 
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel08FireResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel08ShockResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsaySpeedBurstTimerLevel08">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- FIRE IMMUNE -->
@@ -2951,18 +2951,18 @@
 
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel09FireResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel09ShockResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsaySpeedBurstTimerLevel09">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- FIRE IMMUNE -->
@@ -3019,18 +3019,18 @@
 
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel10FireResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel10ShockResist">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="FuriousRamsaySpeedBurstTimerLevel10">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$varFuriousRamsayPercentagePlayerLevel"/>
-					<requirement name="CVarCompare" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
+					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="LT" value="1"/>
 				</triggered_effect>
 
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerTierPlayerLevelProcessed" operation="set" value="1"/>
 			</effect_group>
 		</buff>
 		<!-- FIRE IMMUNE -->

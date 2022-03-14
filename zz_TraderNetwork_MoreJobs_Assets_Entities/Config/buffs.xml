@@ -22,26 +22,26 @@
 				<stack_type value="replace" />
 				<update_rate value="2"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="set" value="0"/>
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayMercenaries" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayHurtTimer" operation="set" value="0"/>
 
-					<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="add" value="1"/>
+					<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" cvar="$varFuriousRamsayMercenaries" operation="add" value="1"/>
 					<triggered_effect trigger="onOtherDamagedSelf" action="CallGameEvent" event="FuriousRamsaySpawnMercenariesTier1">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenaries" operation="GT" value="2" />
 					</triggered_effect>			
 					<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier1Cooldown">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenaries" operation="GT" value="2" />
 					</triggered_effect>
 					<triggered_effect trigger="onOtherDamagedSelf" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier1">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenaries" operation="GT" value="2" />
 					</triggered_effect>
 
-					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="add" value="1"/>
-					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="set" value="0">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayHurtTimer" operation="GT" value="5" />
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$varFuriousRamsayHurtTimer" operation="add" value="1"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$varFuriousRamsayMercenaries" operation="set" value="0">
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayHurtTimer" operation="GT" value="5" />
 					</triggered_effect>
-					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="set" value="0">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="Equals" value="0" />
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$varFuriousRamsayHurtTimer" operation="set" value="0">
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenaries" operation="Equals" value="0" />
 					</triggered_effect>
 				</effect_group>
 			</buff>
@@ -49,26 +49,26 @@
 				<stack_type value="replace" />
 				<update_rate value="2"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="set" value="0"/>
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayMercenaries" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayHurtTimer" operation="set" value="0"/>
 
-					<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="add" value="1"/>
+					<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" cvar="$varFuriousRamsayMercenaries" operation="add" value="1"/>
 					<triggered_effect trigger="onOtherDamagedSelf" action="CallGameEvent" event="FuriousRamsaySpawnMercenariesTier2">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenaries" operation="GT" value="2" />
 					</triggered_effect>			
 					<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier2Cooldown">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenaries" operation="GT" value="2" />
 					</triggered_effect>
 					<triggered_effect trigger="onOtherDamagedSelf" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier2">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenaries" operation="GT" value="2" />
 					</triggered_effect>
 
-					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="add" value="1"/>
-					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="set" value="0">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayHurtTimer" operation="GT" value="5" />
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$varFuriousRamsayHurtTimer" operation="add" value="1"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$varFuriousRamsayMercenaries" operation="set" value="0">
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayHurtTimer" operation="GT" value="5" />
 					</triggered_effect>
-					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="set" value="0">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="Equals" value="0" />
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$varFuriousRamsayHurtTimer" operation="set" value="0">
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenaries" operation="Equals" value="0" />
 					</triggered_effect>
 				</effect_group>
 			</buff>
@@ -76,26 +76,26 @@
 				<stack_type value="replace" />
 				<update_rate value="2"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="set" value="0"/>
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayMercenaries" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayHurtTimer" operation="set" value="0"/>
 
-					<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="add" value="1"/>
+					<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" cvar="$varFuriousRamsayMercenaries" operation="add" value="1"/>
 					<triggered_effect trigger="onOtherDamagedSelf" action="CallGameEvent" event="FuriousRamsaySpawnMercenariesTier3">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenaries" operation="GT" value="2" />
 					</triggered_effect>			
 					<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier3Cooldown">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenaries" operation="GT" value="2" />
 					</triggered_effect>
 					<triggered_effect trigger="onOtherDamagedSelf" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier3">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenaries" operation="GT" value="2" />
 					</triggered_effect>
 
-					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="add" value="1"/>
-					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="set" value="0">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayHurtTimer" operation="GT" value="5" />
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$varFuriousRamsayHurtTimer" operation="add" value="1"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$varFuriousRamsayMercenaries" operation="set" value="0">
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayHurtTimer" operation="GT" value="5" />
 					</triggered_effect>
-					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="set" value="0">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="Equals" value="0" />
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$varFuriousRamsayHurtTimer" operation="set" value="0">
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenaries" operation="Equals" value="0" />
 					</triggered_effect>
 				</effect_group>
 			</buff>
@@ -103,26 +103,26 @@
 				<stack_type value="replace" />
 				<update_rate value="2"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="set" value="0"/>
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayMercenaries" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayHurtTimer" operation="set" value="0"/>
 
-					<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="add" value="1"/>
+					<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" cvar="$varFuriousRamsayMercenaries" operation="add" value="1"/>
 					<triggered_effect trigger="onOtherDamagedSelf" action="CallGameEvent" event="FuriousRamsaySpawnMercenariesTier4">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenaries" operation="GT" value="2" />
 					</triggered_effect>			
 					<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier4Cooldown">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenaries" operation="GT" value="2" />
 					</triggered_effect>
 					<triggered_effect trigger="onOtherDamagedSelf" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier4">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenaries" operation="GT" value="2" />
 					</triggered_effect>
 
-					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="add" value="1"/>
-					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="set" value="0">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayHurtTimer" operation="GT" value="5" />
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$varFuriousRamsayHurtTimer" operation="add" value="1"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$varFuriousRamsayMercenaries" operation="set" value="0">
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayHurtTimer" operation="GT" value="5" />
 					</triggered_effect>
-					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="set" value="0">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="Equals" value="0" />
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$varFuriousRamsayHurtTimer" operation="set" value="0">
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenaries" operation="Equals" value="0" />
 					</triggered_effect>
 				</effect_group>
 			</buff>
@@ -130,26 +130,26 @@
 				<stack_type value="replace" />
 				<update_rate value="2"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="set" value="0"/>
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayMercenaries" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayHurtTimer" operation="set" value="0"/>
 
-					<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="add" value="1"/>
+					<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" cvar="$varFuriousRamsayMercenaries" operation="add" value="1"/>
 					<triggered_effect trigger="onOtherDamagedSelf" action="CallGameEvent" event="FuriousRamsaySpawnMercenariesTier5">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenaries" operation="GT" value="2" />
 					</triggered_effect>			
 					<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier5Cooldown">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenaries" operation="GT" value="2" />
 					</triggered_effect>
 					<triggered_effect trigger="onOtherDamagedSelf" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier5">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="GT" value="2" />
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenaries" operation="GT" value="2" />
 					</triggered_effect>
 
-					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="add" value="1"/>
-					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayMercenaries" operation="set" value="0">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayHurtTimer" operation="GT" value="5" />
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$varFuriousRamsayHurtTimer" operation="add" value="1"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$varFuriousRamsayMercenaries" operation="set" value="0">
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayHurtTimer" operation="GT" value="5" />
 					</triggered_effect>
-					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayHurtTimer" operation="set" value="0">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenaries" operation="Equals" value="0" />
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$varFuriousRamsayHurtTimer" operation="set" value="0">
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenaries" operation="Equals" value="0" />
 					</triggered_effect>
 				</effect_group>
 			</buff>
@@ -160,18 +160,18 @@
 				<display_value value="varFuriousRamsayMercenariesCooldown" />
 				<display_value_format value="time" />
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="set" value="1200" >
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayMercenariesCooldown" operation="set" value="1200" >
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
 					</triggered_effect>
-					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="add" value="-1" />
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$varFuriousRamsayMercenariesCooldown" operation="add" value="-1" />
 				</effect_group>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$varFuriousRamsayMercenariesCooldown" operation="set" value="0"/>
 					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier1">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
 					</triggered_effect>
 					<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier1Cooldown">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
 					</triggered_effect>
 				</effect_group>
 			</buff>
@@ -181,18 +181,18 @@
 				<display_value value="varFuriousRamsayMercenariesCooldown" />
 				<display_value_format value="time" />
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="set" value="1200" >
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayMercenariesCooldown" operation="set" value="1200" >
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
 					</triggered_effect>
-					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="add" value="-1" />
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$varFuriousRamsayMercenariesCooldown" operation="add" value="-1" />
 				</effect_group>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$varFuriousRamsayMercenariesCooldown" operation="set" value="0"/>
 					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier2">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
 					</triggered_effect>
 					<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier2Cooldown">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
 					</triggered_effect>
 				</effect_group>
 			</buff>
@@ -202,18 +202,18 @@
 				<display_value value="varFuriousRamsayMercenariesCooldown" />
 				<display_value_format value="time" />
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="set" value="1200" >
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayMercenariesCooldown" operation="set" value="1200" >
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
 					</triggered_effect>
-					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="add" value="-1" />
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$varFuriousRamsayMercenariesCooldown" operation="add" value="-1" />
 				</effect_group>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$varFuriousRamsayMercenariesCooldown" operation="set" value="0"/>
 					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier3">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
 					</triggered_effect>
 					<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier3Cooldown">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
 					</triggered_effect>
 				</effect_group>
 			</buff>
@@ -223,18 +223,18 @@
 				<display_value value="varFuriousRamsayMercenariesCooldown" />
 				<display_value_format value="time" />
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="set" value="1200" >
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayMercenariesCooldown" operation="set" value="1200" >
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
 					</triggered_effect>
-					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="add" value="-1" />
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$varFuriousRamsayMercenariesCooldown" operation="add" value="-1" />
 				</effect_group>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$varFuriousRamsayMercenariesCooldown" operation="set" value="0"/>
 					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier4">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
 					</triggered_effect>
 					<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier4Cooldown">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
 					</triggered_effect>
 				</effect_group>
 			</buff>
@@ -244,18 +244,18 @@
 				<display_value value="varFuriousRamsayMercenariesCooldown" />
 				<display_value_format value="time" />
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="set" value="1200" >
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayMercenariesCooldown" operation="set" value="1200" >
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
 					</triggered_effect>
-					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="add" value="-1" />
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$varFuriousRamsayMercenariesCooldown" operation="add" value="-1" />
 				</effect_group>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="varFuriousRamsayMercenariesCooldown" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$varFuriousRamsayMercenariesCooldown" operation="set" value="0"/>
 					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="FuriousRamsayMercenariesBuffTier5">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
 					</triggered_effect>
 					<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="FuriousRamsayMercenariesBuffTier5Cooldown">
-						<requirement name="CVarCompare" cvar="varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
+						<requirement name="CVarCompare" cvar="$varFuriousRamsayMercenariesCooldown" operation="LTE" value="0" />
 					</triggered_effect>
 				</effect_group>
 			</buff>
@@ -294,18 +294,18 @@
 				<stack_type value="replace"/>
 				<duration value="0"/>
 				<update_rate value="5"/>
-				<effect_group name="FuriousRamsayCloseToLeaderTimer">
+				<!--<effect_group name="FuriousRamsayCloseToLeaderTimer">
 					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="FuriousRamsayProcessBaseEvents">
 						<requirement name="CVarCompare" target="other" cvar="Leader" operation="Equals" value="@EntityID" />
 						<requirement name="PlayerLevel" target="other" operation="GT" value="15"/>
-						<requirement name="CVarCompare" target="self" cvar="varFuriousRamsayMercenaryTrader" operation="Equals" value="0" />
+						<requirement name="CVarCompare" target="self" cvar="$varFuriousRamsayMercenaryTrader" operation="Equals" value="0" />
 					</triggered_effect>
-					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" target="self" cvar="varFuriousRamsayMercenaryTrader" operation="set" value="1">
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" target="self" cvar="$varFuriousRamsayMercenaryTrader" operation="set" value="1">
 						<requirement name="CVarCompare" target="other" cvar="Leader" operation="Equals" value="@EntityID" />
 						<requirement name="PlayerLevel" target="other" operation="GT" value="15"/>
-						<requirement name="CVarCompare" target="self" cvar="varFuriousRamsayMercenaryTrader" operation="Equals" value="0" />
+						<requirement name="CVarCompare" target="self" cvar="$varFuriousRamsayMercenaryTrader" operation="Equals" value="0" />
 					</triggered_effect>
-				</effect_group>		
+				</effect_group>		-->
 			</buff>
 
 			<buff name="FuriousRamsayProcessBaseEvents" hidden="true">

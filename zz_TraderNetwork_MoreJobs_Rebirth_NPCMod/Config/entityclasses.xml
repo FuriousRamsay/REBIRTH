@@ -1,0 +1,47 @@
+<Config>
+
+<!--<property name="AIPackages" value="NPCBasicNoChat, NPCMeleeBasic"/>-->
+
+	<remove xpath="//entity_class[starts-with(@name, 'npc')]/property[@name='AIPackages']"/>
+	
+	<append xpath="/entity_classes/entity_class[@name='npcAdvancedEmptyHandTemplate' or
+												@name='npcAdvancedBatTemplate' or
+												@name='npcAdvancedAxeTemplate' or
+												@name='npcAdvancedClubTemplate' or
+												@name='npcAdvancedKnifeTemplate' or
+												@name='npcAdvancedSpearTemplate' or
+												@name='npcAdvancedMacheteTemplate'
+												]">
+		<property name="AIPackages" value="FuriousRamsayNPCBasic, NPCMelee, NPCHired"/> 
+	</append>
+
+	<append xpath="/entity_classes/entity_class[@name='npcAdvancedPipeShotgunTemplate' or
+												@name='npcAdvancedPShotgunTemplate' or
+												@name='npcAdvancedAShotgunTemplate'
+												]">
+		<property name="AIPackages" value="FuriousRamsayNPCBasic, FuriousRamsayNPCShortRanged, NPCHired"/> 
+	</append>
+
+	<append xpath="/entity_classes/entity_class[@name='npcAdvancedPipePistolTemplate' or
+												@name='npcAdvancedPipeMGTemplate' or
+												@name='npcAdvancedPipeRifleTemplate' or
+												@name='npcAdvancedPistolTemplate' or
+												@name='npcAdvancedDPistolTemplate' or
+												@name='npcAdvancedSMGTemplate' or
+												@name='npcAdvancedM60Template' or
+												@name='npcAdvancedAK47Template' or
+												@name='npcAdvancedTRifleTemplate' or
+												@name='npcAdvancedLBowTemplate' or
+												@name='npcAdvancedXBowTemplate'
+												]">
+		<property name="AIPackages" value="FuriousRamsayNPCBasic, FuriousRamsayNPCMediumRanged, NPCHired"/> 
+	</append>
+
+	<append xpath="/entity_classes/entity_class[@name='npcAdvancedHRifleTemplate' or
+												@name='npcAdvancedSRifleTemplate' or
+												@name='npcAdvancedRocketLTemplate'
+												]">
+		<property name="AIPackages" value="FuriousRamsayNPCBasic, FuriousRamsayNPCLongRanged, NPCHired"/> 
+	</append>
+
+</Config>

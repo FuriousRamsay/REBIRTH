@@ -1,7 +1,38 @@
 <Config>
 
-	<!--<append xpath="/buffs/buff[@name='buffNPCModSlowStatusCheck']/effect_group[@name='buffNPCModSlowStatusCheck']">
-		<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" target="self" cvar="_stunned" operation="set" value="0"/>
-	</append>-->
-	
+	<remove xpath="//buff[@name='buffNPCModModeChange2']"/>
+
+	<setattribute xpath="/buffs/buff[@name='buffNPCModModeChange1']/effect_group/triggered_effect[@action='PlaySound']" name="sound">NPCFullControlMode</setattribute>
+
+	<remove xpath="//buff[@name='buffNPCModVerifyCurrentActions']/effect_group/triggered_effect[@buff='buffNPCModHuntingModeDisplay']"/>
+	<remove xpath="//buff[@name='buffNPCModVerifyCurrentActions']/effect_group/triggered_effect[@buff='buffNPCModThreatControlMode']"/>
+	<remove xpath="//buff[@name='buffNPCModVerifyCurrentActions']/effect_group/triggered_effect[@buff='buffNPCModThreatControlModeDisplay']"/>
+	<remove xpath="//buff[@name='buffNPCModVerifyCurrentActions']/effect_group/triggered_effect[@buff='buffNPCModFullControlMode']"/>
+	<remove xpath="//buff[@name='buffNPCModVerifyCurrentActions']/effect_group/triggered_effect[@buff='buffNPCModFullControlModeDisplay']"/>
+
+	<append xpath="/buffs/buff[@name='buffNPCModVerifyCurrentActions']/effect_group[@name='buffNPCModVerifyCurrentActions']">
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="selfAOE" range="60" buff="buffNPCModFullControlMode">
+			<requirement name="CVarCompare" target="other" cvar="Leader" operation="Equals" value="@EntityID" />
+			<requirement name="CVarCompare" cvar="$varNPCModMode" operation="Equals" value="0" />
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="60" buff="buffNPCModFullControlMode">
+			<requirement name="CVarCompare" target="other" cvar="Leader" operation="Equals" value="@EntityID" />
+			<requirement name="CVarCompare" cvar="$varNPCModMode" operation="Equals" value="1" />
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffNPCModFullControlModeDisplay">
+			<requirement name="CVarCompare" cvar="$varNPCModMode" operation="Equals" value="0" />
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="buffNPCModHuntingModeDisplay">
+			<requirement name="CVarCompare" cvar="$varNPCModMode" operation="Equals" value="0" />
+			<requirement name="CVarCompare" cvar="EntityID" operation="GT" value="0" />				
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffNPCModHuntingModeDisplay">
+			<requirement name="CVarCompare" cvar="$varNPCModMode" operation="Equals" value="1" />
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="buffNPCModFullControlModeDisplay">
+			<requirement name="CVarCompare" cvar="$varNPCModMode" operation="Equals" value="1" />
+			<requirement name="CVarCompare" cvar="EntityID" operation="GT" value="0" />				
+		</triggered_effect>
+	</append> 
+
 </Config>

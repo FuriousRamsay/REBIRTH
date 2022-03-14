@@ -40,53 +40,53 @@
 				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayHunterRangedBurnAuraTimerLvl10"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel1" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeHunterClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkHunterRangedBurnAura" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeHunterClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkHunterRangedBurnAura" operation="Equals" value="1"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayHunterRangedBurnAuraTimerLvl1"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel2" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeHunterClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkHunterRangedBurnAura" operation="Equals" value="2"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeHunterClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkHunterRangedBurnAura" operation="Equals" value="2"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayHunterRangedBurnAuraTimerLvl2"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel3" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeHunterClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkHunterRangedBurnAura" operation="Equals" value="3"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeHunterClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkHunterRangedBurnAura" operation="Equals" value="3"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayHunterRangedBurnAuraTimerLvl3"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel4" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeHunterClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkHunterRangedBurnAura" operation="Equals" value="4"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeHunterClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkHunterRangedBurnAura" operation="Equals" value="4"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayHunterRangedBurnAuraTimerLvl4"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel5" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeHunterClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkHunterRangedBurnAura" operation="Equals" value="5"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeHunterClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkHunterRangedBurnAura" operation="Equals" value="5"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayHunterRangedBurnAuraTimerLvl5"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel6" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeHunterClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkHunterRangedBurnAura" operation="Equals" value="6"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeHunterClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkHunterRangedBurnAura" operation="Equals" value="6"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayHunterRangedBurnAuraTimerLvl6"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel7" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeHunterClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkHunterRangedBurnAura" operation="Equals" value="7"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeHunterClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkHunterRangedBurnAura" operation="Equals" value="7"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayHunterRangedBurnAuraTimerLvl7"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel8" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeHunterClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkHunterRangedBurnAura" operation="Equals" value="8"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeHunterClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkHunterRangedBurnAura" operation="Equals" value="8"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayHunterRangedBurnAuraTimerLvl8"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel9" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeHunterClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkHunterRangedBurnAura" operation="Equals" value="9"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeHunterClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkHunterRangedBurnAura" operation="Equals" value="9"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayHunterRangedBurnAuraTimerLvl9"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel10" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeHunterClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkHunterRangedBurnAura" operation="Equals" value="10"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeHunterClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkHunterRangedBurnAura" operation="Equals" value="10"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayHunterRangedBurnAuraTimerLvl10"/>
 			</effect_group>
 		</item_modifier>
@@ -112,53 +112,53 @@
 				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayThugRangedStunAuraTimerLvl10"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel1" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeThugClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkThugRangedStunAura" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeThugClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkThugRangedStunAura" operation="Equals" value="1"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayThugRangedStunAuraTimerLvl1"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel2" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeThugClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkThugRangedStunAura" operation="Equals" value="2"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeThugClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkThugRangedStunAura" operation="Equals" value="2"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayThugRangedStunAuraTimerLvl2"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel3" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeThugClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkThugRangedStunAura" operation="Equals" value="3"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeThugClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkThugRangedStunAura" operation="Equals" value="3"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayThugRangedStunAuraTimerLvl3"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel4" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeThugClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkThugRangedStunAura" operation="Equals" value="4"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeThugClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkThugRangedStunAura" operation="Equals" value="4"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayThugRangedStunAuraTimerLvl4"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel5" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeThugClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkThugRangedStunAura" operation="Equals" value="5"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeThugClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkThugRangedStunAura" operation="Equals" value="5"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayThugRangedStunAuraTimerLvl5"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel6" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeThugClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkThugRangedStunAura" operation="Equals" value="6"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeThugClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkThugRangedStunAura" operation="Equals" value="6"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayThugRangedStunAuraTimerLvl6"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel7" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeThugClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkThugRangedStunAura" operation="Equals" value="7"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeThugClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkThugRangedStunAura" operation="Equals" value="7"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayThugRangedStunAuraTimerLvl7"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel8" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeThugClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkThugRangedStunAura" operation="Equals" value="8"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeThugClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkThugRangedStunAura" operation="Equals" value="8"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayThugRangedStunAuraTimerLvl8"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel9" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeThugClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkThugRangedStunAura" operation="Equals" value="9"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeThugClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkThugRangedStunAura" operation="Equals" value="9"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayThugRangedStunAuraTimerLvl9"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel10" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeThugClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkThugRangedStunAura" operation="Equals" value="10"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeThugClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkThugRangedStunAura" operation="Equals" value="10"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayThugRangedStunAuraTimerLvl10"/>
 			</effect_group>
 		</item_modifier>
@@ -184,53 +184,53 @@
 				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayButcherRangedBleedAuraTimerLvl10"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel1" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeButcherClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkButcherRangedBleedAura" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeButcherClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkButcherRangedBleedAura" operation="Equals" value="1"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayButcherRangedBleedAuraTimerLvl1"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel2" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeButcherClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkButcherRangedBleedAura" operation="Equals" value="2"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeButcherClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkButcherRangedBleedAura" operation="Equals" value="2"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayButcherRangedBleedAuraTimerLvl2"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel3" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeButcherClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkButcherRangedBleedAura" operation="Equals" value="3"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeButcherClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkButcherRangedBleedAura" operation="Equals" value="3"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayButcherRangedBleedAuraTimerLvl3"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel4" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeButcherClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkButcherRangedBleedAura" operation="Equals" value="4"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeButcherClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkButcherRangedBleedAura" operation="Equals" value="4"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayButcherRangedBleedAuraTimerLvl4"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel5" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeButcherClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkButcherRangedBleedAura" operation="Equals" value="5"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeButcherClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkButcherRangedBleedAura" operation="Equals" value="5"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayButcherRangedBleedAuraTimerLvl5"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel6" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeButcherClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkButcherRangedBleedAura" operation="Equals" value="6"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeButcherClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkButcherRangedBleedAura" operation="Equals" value="6"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayButcherRangedBleedAuraTimerLvl6"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel7" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeButcherClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkButcherRangedBleedAura" operation="Equals" value="7"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeButcherClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkButcherRangedBleedAura" operation="Equals" value="7"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayButcherRangedBleedAuraTimerLvl7"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel8" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeButcherClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkButcherRangedBleedAura" operation="Equals" value="8"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeButcherClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkButcherRangedBleedAura" operation="Equals" value="8"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayButcherRangedBleedAuraTimerLvl8"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel9" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeButcherClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkButcherRangedBleedAura" operation="Equals" value="9"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeButcherClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkButcherRangedBleedAura" operation="Equals" value="9"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayButcherRangedBleedAuraTimerLvl9"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel10" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeButcherClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkButcherRangedBleedAura" operation="Equals" value="10"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeButcherClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkButcherRangedBleedAura" operation="Equals" value="10"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayButcherRangedBleedAuraTimerLvl10"/>
 			</effect_group>
 		</item_modifier>
@@ -256,53 +256,53 @@
 				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsaySoldierRangedDoubleDamageAuraTimerLvl10"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel1" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeSoldierClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkSoldierRangedDoubleDamageAura" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeSoldierClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkSoldierRangedDoubleDamageAura" operation="Equals" value="1"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsaySoldierRangedDoubleDamageAuraTimerLvl1"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel2" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeSoldierClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkSoldierRangedDoubleDamageAura" operation="Equals" value="2"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeSoldierClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkSoldierRangedDoubleDamageAura" operation="Equals" value="2"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsaySoldierRangedDoubleDamageAuraTimerLvl2"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel3" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeSoldierClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkSoldierRangedDoubleDamageAura" operation="Equals" value="3"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeSoldierClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkSoldierRangedDoubleDamageAura" operation="Equals" value="3"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsaySoldierRangedDoubleDamageAuraTimerLvl3"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel4" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeSoldierClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkSoldierRangedDoubleDamageAura" operation="Equals" value="4"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeSoldierClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkSoldierRangedDoubleDamageAura" operation="Equals" value="4"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsaySoldierRangedDoubleDamageAuraTimerLvl4"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel5" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeSoldierClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkSoldierRangedDoubleDamageAura" operation="Equals" value="5"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeSoldierClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkSoldierRangedDoubleDamageAura" operation="Equals" value="5"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsaySoldierRangedDoubleDamageAuraTimerLvl5"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel6" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeSoldierClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkSoldierRangedDoubleDamageAura" operation="Equals" value="6"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeSoldierClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkSoldierRangedDoubleDamageAura" operation="Equals" value="6"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsaySoldierRangedDoubleDamageAuraTimerLvl6"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel7" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeSoldierClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkSoldierRangedDoubleDamageAura" operation="Equals" value="7"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeSoldierClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkSoldierRangedDoubleDamageAura" operation="Equals" value="7"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsaySoldierRangedDoubleDamageAuraTimerLvl7"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel8" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeSoldierClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkSoldierRangedDoubleDamageAura" operation="Equals" value="8"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeSoldierClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkSoldierRangedDoubleDamageAura" operation="Equals" value="8"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsaySoldierRangedDoubleDamageAuraTimerLvl8"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel9" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeSoldierClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkSoldierRangedDoubleDamageAura" operation="Equals" value="9"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeSoldierClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkSoldierRangedDoubleDamageAura" operation="Equals" value="9"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsaySoldierRangedDoubleDamageAuraTimerLvl9"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel10" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeSoldierClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkSoldierRangedDoubleDamageAura" operation="Equals" value="10"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeSoldierClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkSoldierRangedDoubleDamageAura" operation="Equals" value="10"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsaySoldierRangedDoubleDamageAuraTimerLvl10"/>
 			</effect_group>
 		</item_modifier>
@@ -328,53 +328,53 @@
 				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayTechnogeekRangedShockAuraTimerLvl10"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel1" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeTechnogeekClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkTechnogeekRangedShockAura" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeTechnogeekClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkTechnogeekRangedShockAura" operation="Equals" value="1"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayTechnogeekRangedShockAuraTimerLvl1"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel2" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeTechnogeekClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkTechnogeekRangedShockAura" operation="Equals" value="2"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeTechnogeekClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkTechnogeekRangedShockAura" operation="Equals" value="2"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayTechnogeekRangedShockAuraTimerLvl2"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel3" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeTechnogeekClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkTechnogeekRangedShockAura" operation="Equals" value="3"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeTechnogeekClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkTechnogeekRangedShockAura" operation="Equals" value="3"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayTechnogeekRangedShockAuraTimerLvl3"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel4" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeTechnogeekClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkTechnogeekRangedShockAura" operation="Equals" value="4"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeTechnogeekClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkTechnogeekRangedShockAura" operation="Equals" value="4"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayTechnogeekRangedShockAuraTimerLvl4"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel5" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeTechnogeekClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkTechnogeekRangedShockAura" operation="Equals" value="5"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeTechnogeekClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkTechnogeekRangedShockAura" operation="Equals" value="5"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayTechnogeekRangedShockAuraTimerLvl5"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel6" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeTechnogeekClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkTechnogeekRangedShockAura" operation="Equals" value="6"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeTechnogeekClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkTechnogeekRangedShockAura" operation="Equals" value="6"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayTechnogeekRangedShockAuraTimerLvl6"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel7" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeTechnogeekClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkTechnogeekRangedShockAura" operation="Equals" value="7"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeTechnogeekClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkTechnogeekRangedShockAura" operation="Equals" value="7"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayTechnogeekRangedShockAuraTimerLvl7"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel8" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeTechnogeekClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkTechnogeekRangedShockAura" operation="Equals" value="8"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeTechnogeekClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkTechnogeekRangedShockAura" operation="Equals" value="8"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayTechnogeekRangedShockAuraTimerLvl8"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel9" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeTechnogeekClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkTechnogeekRangedShockAura" operation="Equals" value="9"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeTechnogeekClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkTechnogeekRangedShockAura" operation="Equals" value="9"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayTechnogeekRangedShockAuraTimerLvl9"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel10" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeTechnogeekClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkTechnogeekRangedShockAura" operation="Equals" value="10"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeTechnogeekClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkTechnogeekRangedShockAura" operation="Equals" value="10"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayTechnogeekRangedShockAuraTimerLvl10"/>
 			</effect_group>
 		</item_modifier>
@@ -400,53 +400,53 @@
 				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayMadmanRangedExplosionAuraTimerLvl10"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel1" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkMadmanRangedExplosionAura" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkMadmanRangedExplosionAura" operation="Equals" value="1"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayMadmanRangedExplosionAuraTimerLvl1"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel2" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkMadmanRangedExplosionAura" operation="Equals" value="2"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkMadmanRangedExplosionAura" operation="Equals" value="2"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayMadmanRangedExplosionAuraTimerLvl2"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel3" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkMadmanRangedExplosionAura" operation="Equals" value="3"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkMadmanRangedExplosionAura" operation="Equals" value="3"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayMadmanRangedExplosionAuraTimerLvl3"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel4" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkMadmanRangedExplosionAura" operation="Equals" value="4"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkMadmanRangedExplosionAura" operation="Equals" value="4"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayMadmanRangedExplosionAuraTimerLvl4"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel5" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkMadmanRangedExplosionAura" operation="Equals" value="5"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkMadmanRangedExplosionAura" operation="Equals" value="5"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayMadmanRangedExplosionAuraTimerLvl5"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel6" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkMadmanRangedExplosionAura" operation="Equals" value="6"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkMadmanRangedExplosionAura" operation="Equals" value="6"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayMadmanRangedExplosionAuraTimerLvl6"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel7" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkMadmanRangedExplosionAura" operation="Equals" value="7"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkMadmanRangedExplosionAura" operation="Equals" value="7"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayMadmanRangedExplosionAuraTimerLvl7"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel8" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkMadmanRangedExplosionAura" operation="Equals" value="8"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkMadmanRangedExplosionAura" operation="Equals" value="8"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayMadmanRangedExplosionAuraTimerLvl8"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel9" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkMadmanRangedExplosionAura" operation="Equals" value="9"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkMadmanRangedExplosionAura" operation="Equals" value="9"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayMadmanRangedExplosionAuraTimerLvl9"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel10" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkMadmanRangedExplosionAura" operation="Equals" value="10"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeMadmanClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkMadmanRangedExplosionAura" operation="Equals" value="10"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayMadmanRangedExplosionAuraTimerLvl10"/>
 			</effect_group>
 		</item_modifier>
@@ -472,53 +472,53 @@
 				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayBuilderRangedDismemberAuraTimerLvl10"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel1" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeBuilderClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkBuilderRangedDismemberAura" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeBuilderClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkBuilderRangedDismemberAura" operation="Equals" value="1"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayBuilderRangedDismemberAuraTimerLvl1"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel2" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeBuilderClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkBuilderRangedDismemberAura" operation="Equals" value="2"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeBuilderClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkBuilderRangedDismemberAura" operation="Equals" value="2"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayBuilderRangedDismemberAuraTimerLvl2"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel3" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeBuilderClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkBuilderRangedDismemberAura" operation="Equals" value="3"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeBuilderClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkBuilderRangedDismemberAura" operation="Equals" value="3"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayBuilderRangedDismemberAuraTimerLvl3"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel4" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeBuilderClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkBuilderRangedDismemberAura" operation="Equals" value="4"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeBuilderClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkBuilderRangedDismemberAura" operation="Equals" value="4"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayBuilderRangedDismemberAuraTimerLvl4"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel5" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeBuilderClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkBuilderRangedDismemberAura" operation="Equals" value="5"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeBuilderClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkBuilderRangedDismemberAura" operation="Equals" value="5"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayBuilderRangedDismemberAuraTimerLvl5"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel6" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeBuilderClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkBuilderRangedDismemberAura" operation="Equals" value="6"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeBuilderClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkBuilderRangedDismemberAura" operation="Equals" value="6"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayBuilderRangedDismemberAuraTimerLvl6"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel7" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeBuilderClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkBuilderRangedDismemberAura" operation="Equals" value="7"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeBuilderClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkBuilderRangedDismemberAura" operation="Equals" value="7"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayBuilderRangedDismemberAuraTimerLvl7"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel8" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeBuilderClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkBuilderRangedDismemberAura" operation="Equals" value="8"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeBuilderClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkBuilderRangedDismemberAura" operation="Equals" value="8"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayBuilderRangedDismemberAuraTimerLvl8"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel9" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeBuilderClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkBuilderRangedDismemberAura" operation="Equals" value="9"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeBuilderClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkBuilderRangedDismemberAura" operation="Equals" value="9"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayBuilderRangedDismemberAuraTimerLvl9"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel10" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeBuilderClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkBuilderRangedDismemberAura" operation="Equals" value="10"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeBuilderClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkBuilderRangedDismemberAura" operation="Equals" value="10"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayBuilderRangedDismemberAuraTimerLvl10"/>
 			</effect_group>
 		</item_modifier>
@@ -544,53 +544,53 @@
 				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayChefRangedKnockdownAuraTimerLvl10"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel1" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeChefClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkChefRangedKnockdownAura" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeChefClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkChefRangedKnockdownAura" operation="Equals" value="1"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayChefRangedKnockdownAuraTimerLvl1"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel2" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeChefClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkChefRangedKnockdownAura" operation="Equals" value="2"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeChefClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkChefRangedKnockdownAura" operation="Equals" value="2"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayChefRangedKnockdownAuraTimerLvl2"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel3" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeChefClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkChefRangedKnockdownAura" operation="Equals" value="3"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeChefClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkChefRangedKnockdownAura" operation="Equals" value="3"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayChefRangedKnockdownAuraTimerLvl3"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel4" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeChefClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkChefRangedKnockdownAura" operation="Equals" value="4"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeChefClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkChefRangedKnockdownAura" operation="Equals" value="4"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayChefRangedKnockdownAuraTimerLvl4"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel5" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeChefClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkChefRangedKnockdownAura" operation="Equals" value="5"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeChefClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkChefRangedKnockdownAura" operation="Equals" value="5"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayChefRangedKnockdownAuraTimerLvl5"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel6" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeChefClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkChefRangedKnockdownAura" operation="Equals" value="6"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeChefClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkChefRangedKnockdownAura" operation="Equals" value="6"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayChefRangedKnockdownAuraTimerLvl6"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel7" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeChefClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkChefRangedKnockdownAura" operation="Equals" value="7"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeChefClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkChefRangedKnockdownAura" operation="Equals" value="7"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayChefRangedKnockdownAuraTimerLvl7"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel8" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeChefClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkChefRangedKnockdownAura" operation="Equals" value="8"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeChefClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkChefRangedKnockdownAura" operation="Equals" value="8"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayChefRangedKnockdownAuraTimerLvl8"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel9" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeChefClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkChefRangedKnockdownAura" operation="Equals" value="9"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeChefClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkChefRangedKnockdownAura" operation="Equals" value="9"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayChefRangedKnockdownAuraTimerLvl9"/>
 			</effect_group>
 			<effect_group name="FuriousRamsayAuraLevel10" tiered="false">
-				<requirement name="CVarCompare" cvar="varFuriousRamsayAttributeChefClass" operation="Equals" value="1"/>
-				<requirement name="CVarCompare" cvar="varFuriousRamsayPerkChefRangedKnockdownAura" operation="Equals" value="10"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeChefClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkChefRangedKnockdownAura" operation="Equals" value="10"/>
 					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayChefRangedKnockdownAuraTimerLvl10"/>
 			</effect_group>
 		</item_modifier>

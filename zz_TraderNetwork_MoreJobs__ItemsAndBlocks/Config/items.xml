@@ -294,8 +294,8 @@
 				<property name="ScopeCameraOffset" value="0,-.005,0"/>
 			</property>
 			<effect_group name="FuriousRamsayAshBoomStick">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="varFuriousRamsayAshBoomStick" operation="set" value="1" />
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="varFuriousRamsayAshBoomStick" operation="set" value="0" />
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$varFuriousRamsayAshBoomStick" operation="set" value="1" />
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="$varFuriousRamsayAshBoomStick" operation="set" value="0" />
 				
 				<passive_effect name="RoundsPerMinute" operation="base_set" value="160" tags="perkBoomstick"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="6" tags="perkBoomstick"/>

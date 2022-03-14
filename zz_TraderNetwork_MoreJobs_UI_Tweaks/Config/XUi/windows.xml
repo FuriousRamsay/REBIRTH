@@ -30,7 +30,7 @@
 					<label depth="5" name="playerLevel" pos="23,-3" width="50" height="15" justify="left" color="[white]" text="{cvar($LastPlayerLevel)}" font_size="15"/>
 
 					<sprite depth="5" name="playerLevelIcon" width="15" height="15" pos="183,-3" sprite="ui_game_symbol_zombie" color="217, 178, 181" foregroundlayer="true"/>
-					<label depth="5" name="playerLevel" pos="205,-3" width="50" height="15" justify="left" color="[white]" text="{cvar(varFuriousRamsayTheyGrowStrongerKills)}" font_size="15"/>
+					<label depth="5" name="playerLevel" pos="205,-3" width="50" height="15" justify="left" color="[white]" text="{cvar($varFuriousRamsayTheyGrowStrongerKills)}" font_size="15"/>
 				</rect>
 
 				<rect pos="0,22" width="250" height="115">
