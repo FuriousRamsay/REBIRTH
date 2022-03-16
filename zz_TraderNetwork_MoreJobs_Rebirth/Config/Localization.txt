@@ -1716,7 +1716,7 @@ FuriousRamsayAttTechnogeekRank03LongDesc,progression,Attribute,"At [aceefc][U]LE
 FuriousRamsayAttTechnogeekRank04Desc,progression,Attribute,"Technogeek Level [46aba1]Level 4[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayAttributeTechnogeekExpPercLvl4:0)}%[-])"
 FuriousRamsayAttTechnogeekRank04LongDesc,progression,Attribute,"At [aceefc][U]LEVEL 4[/U][-], you:\n • Have an active Turret range of [ff595f]12m[-]\n • Can train in [75d181]Deployable Turrets[-]"
 FuriousRamsayAttTechnogeekRank05Desc,progression,Attribute,"Technogeek Level [46aba1]Level 5[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayAttributeTechnogeekExpPercLvl5:0)}%[-])"
-FuriousRamsayAttTechnogeekRank05LongDesc,progression,Attribute,"At [aceefc][U]LEVEL 5[/U][-], you:\n • Have an active Turret range of [ff595f]14m[-]\n • Can craft a [75d181]Stun Baton[-]"
+FuriousRamsayAttTechnogeekRank05LongDesc,progression,Attribute,"At [aceefc][U]LEVEL 5[/U][-], you:\n • Have an active Turret range of [ff595f]14m[-]"
 FuriousRamsayAttTechnogeekRank06Desc,progression,Attribute,"Technogeek Level [46aba1]Level 6[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayAttributeTechnogeekExpPercLvl6:0)}%[-])"
 FuriousRamsayAttTechnogeekRank06LongDesc,progression,Attribute,"At [aceefc][U]LEVEL 6[/U][-], you:\n • Have an active Turret range of [ff595f]16m[-]"
 FuriousRamsayAttTechnogeekRank07Desc,progression,Attribute,"Technogeek Level [46aba1]Level 7[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayAttributeTechnogeekExpPercLvl7:0)}%[-])"
@@ -2049,29 +2049,6 @@ FuriousRamsayPerkChoiceIsMineName,progression,perk,[d681c8]The Choice is Mine[-]
 FuriousRamsayPerkChoiceIsMineDesc,progression,perk,"Get additional reward choices from the traders"
 FuriousRamsayPerkChoiceIsMineRank1Desc,progression,perk,The Choice is Mine Level 1
 FuriousRamsayPerkChoiceIsMineRank1LongDesc,progression,perk,"At [aceefc][U]LEVEL 1[/U][-]:\n • Increase trader reward choices by [ff595f]3[-]"
-
-FuriousRamsayPerkHunterRangedBurnAuraName,progression,perk,Aura ([53adbd]Ranged Burn[-])
-FuriousRamsayPerkHunterRangedBurnAuraDesc,progression,perk,"Aura that increases you and your Allies' ability to burn enemies with ranged weapons"
-FuriousRamsayPerkHunterRangedBurnAuraRank1Desc,progression,perk,"Aura Level 1 ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayAttributeHunterExpPercLvl1:0)}%[-])"
-FuriousRamsayPerkHunterRangedBurnAuraRank1LongDesc,progression,perk,"At [aceefc][U]LEVEL 1[/U][-]:\n • Nearby allies have a [f6f792]4%[-] chance to burn enemies with ranged weapons\n • You have a [f6f792]2%[-] chance to burn enemies with ranged weapons"
-FuriousRamsayPerkHunterRangedBurnAuraRank2Desc,progression,perk,"Aura Level 2 ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayAttributeHunterExpPercLvl2:0)}%[-])"
-FuriousRamsayPerkHunterRangedBurnAuraRank2LongDesc,progression,perk,"At [aceefc][U]LEVEL 2[/U][-]:\n • Nearby allies have a [f6f792]8%[-] chance to burn enemies with ranged weapons\n • You have a [f6f792]4%[-] chance to burn enemies with ranged weapons"
-FuriousRamsayPerkHunterRangedBurnAuraRank3Desc,progression,perk,"Aura Level 3 ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayAttributeHunterExpPercLvl3:0)}%[-])"
-FuriousRamsayPerkHunterRangedBurnAuraRank3LongDesc,progression,perk,"At [aceefc][U]LEVEL 3[/U][-]:\n • Nearby allies have a [f6f792]12%[-] chance to burn enemies with ranged weapons\n • You have a [f6f792]6%[-] chance to burn enemies with ranged weapons"
-FuriousRamsayPerkHunterRangedBurnAuraRank4Desc,progression,perk,"Aura Level 4 ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayAttributeHunterExpPercLvl4:0)}%[-])"
-FuriousRamsayPerkHunterRangedBurnAuraRank4LongDesc,progression,perk,"At [aceefc][U]LEVEL 4[/U][-]:\n • Nearby allies have a [f6f792]16%[-] chance to burn enemies with ranged weapons\n • You have a [f6f792]8%[-] chance to burn enemies with ranged weapons"
-FuriousRamsayPerkHunterRangedBurnAuraRank5Desc,progression,perk,"Aura Level 5 ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayAttributeHunterExpPercLvl5:0)}%[-])"
-FuriousRamsayPerkHunterRangedBurnAuraRank5LongDesc,progression,perk,"At [aceefc][U]LEVEL 5[/U][-]:\n • Nearby allies have a [f6f792]20%[-] chance to burn enemies with ranged weapons\n • You have a [f6f792]10%[-] chance to burn enemies with ranged weapons"
-FuriousRamsayPerkHunterRangedBurnAuraRank6Desc,progression,perk,"Aura Level 6 ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayAttributeHunterExpPercLvl6:0)}%[-])"
-FuriousRamsayPerkHunterRangedBurnAuraRank6LongDesc,progression,perk,"At [aceefc][U]LEVEL 6[/U][-]:\n • Nearby allies have a [f6f792]24%[-] chance to burn enemies with ranged weapons\n • You have a [f6f792]12%[-] chance to burn enemies with ranged weapons"
-FuriousRamsayPerkHunterRangedBurnAuraRank7Desc,progression,perk,"Aura Level 7 ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayAttributeHunterExpPercLvl7:0)}%[-])"
-FuriousRamsayPerkHunterRangedBurnAuraRank7LongDesc,progression,perk,"At [aceefc][U]LEVEL 7[/U][-]:\n • Nearby allies have a [f6f792]28%[-] chance to burn enemies with ranged weapons\n • You have a [f6f792]14%[-] chance to burn enemies with ranged weapons"
-FuriousRamsayPerkHunterRangedBurnAuraRank8Desc,progression,perk,"Aura Level 8 ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayAttributeHunterExpPercLvl8:0)}%[-])"
-FuriousRamsayPerkHunterRangedBurnAuraRank8LongDesc,progression,perk,"At [aceefc][U]LEVEL 8[/U][-]:\n • Nearby allies have a [f6f792]32%[-] chance to burn enemies with ranged weapons\n • You have a [f6f792]16%[-] chance to burn enemies with ranged weapons"
-FuriousRamsayPerkHunterRangedBurnAuraRank9Desc,progression,perk,"Aura Level 9 ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayAttributeHunterExpPercLvl9:0)}%[-])"
-FuriousRamsayPerkHunterRangedBurnAuraRank9LongDesc,progression,perk,"At [aceefc][U]LEVEL 9[/U][-]:\n • Nearby allies have a [f6f792]36%[-] chance to burn enemies with ranged weapons\n • You have a [f6f792]18%[-] chance to burn enemies with ranged weapons"
-FuriousRamsayPerkHunterRangedBurnAuraRank10Desc,progression,perk,"Aura Level 10 ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayAttributeHunterExpPercLvl10:0)}%[-])"
-FuriousRamsayPerkHunterRangedBurnAuraRank10LongDesc,progression,perk,"At [aceefc][U]LEVEL 10[/U][-]:\n • Nearby allies have a [f6f792]40%[-] chance to burn enemies with ranged weapons\n • You have a [f6f792]20%[-] chance to burn enemies with ranged weapons"
 
 FuriousRamsayPerkHunterRangedBurnAuraName,progression,perk,Aura ([736fe3]Ranged Burn[-])
 FuriousRamsayPerkHunterRangedBurnAuraDesc,progression,perk,"Aura that increases you and your Allies' ability to burn enemies with ranged weapons"

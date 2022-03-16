@@ -1,5 +1,18 @@
 <Config>
 
+	<append xpath="/buffs/buff[@name='buffNPCStatusCheck']">
+		<effect_group name="NPCHealing">
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="IsHealing">
+				<requirement name="!HasBuff" buff="IsHealing"/>
+				<requirement name="StatComparePercCurrentToMax" stat="health" operation="LTE" value=".8"/>
+				<requirement name="CVarCompare" cvar="$NPCModHealingCooldown" operation="LTE" value="0"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$NPCModHealingCooldown" operation="add" value="-1">
+				<requirement name="CVarCompare" cvar="$NPCModHealingCooldown" operation="GT" value="0"/>
+			</triggered_effect>
+		</effect_group> 
+	</append> 
+
 	<remove xpath="//buff[@name='buffNPCModModeChange2']"/>
 
 	<setattribute xpath="/buffs/buff[@name='buffNPCModModeChange1']/effect_group/triggered_effect[@action='PlaySound']" name="sound">NPCFullControlMode</setattribute>
@@ -34,5 +47,20 @@
 			<requirement name="CVarCompare" cvar="EntityID" operation="GT" value="0" />				
 		</triggered_effect>
 	</append> 
+
+	<set xpath="//buff[@name='IsHealing']">
+		<stack_type value="ignore"/>
+		<duration value="3"/>
+		<update_rate value="1"/>
+		<effect_group name="IsHealing">
+			<triggered_effect trigger="onSelfBuffStart" action="AnimatorFireTrigger" property="Heal" />
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="healAbrasionMult" operation="set" value="3"/> 
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="medicalRegHealthAmount" operation="add" value="30"/> 
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="medRegHealthIncSpeed" operation="set" value="2"/>
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffInjuryBleeding"/>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffProcessConsumables"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$NPCModHealingCooldown" operation="set" value="30"/>
+		</effect_group>
+	</set>
 
 </Config>

@@ -837,6 +837,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManBat" extends="npcBatTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
@@ -847,6 +848,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManAxe" extends="npcAxeTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
@@ -857,6 +859,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManClub" extends="npcClubTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
@@ -867,6 +870,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManKnife" extends="npcKnifeTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
@@ -877,6 +881,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManSpear" extends="npcSpearTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
@@ -887,6 +892,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManMachete" extends="npcMacheteTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
@@ -897,6 +903,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManPipePistol" extends="npcPipePistolTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
@@ -907,6 +914,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileMediumRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManPipeMachineGun" extends="npcPipeMGTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
@@ -917,6 +925,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileMediumRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManPipeShotgun" extends="npcPipeShotgunTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
@@ -927,6 +936,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileShortRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManPipeRifle" extends="npcPipeRifleTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
@@ -937,6 +947,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileMediumRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManPistol" extends="npcPistolTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
@@ -947,6 +958,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileMediumRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManDesertVulture" extends="npcDPistolTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
@@ -957,6 +969,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileMediumRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManSMG5" extends="npcSMGTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
@@ -967,6 +980,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileMediumRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManM60" extends="npcM60Template">
 			<property name="HideInSpawnMenu" value="true"/>
@@ -977,6 +991,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileMediumRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManAK47" extends="npcAK47Template">
 			<property name="HideInSpawnMenu" value="true"/>
@@ -987,6 +1002,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileMediumRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManAssaultRifle" extends="npcTRifleTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
@@ -997,6 +1013,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileMediumRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManHuntingRifle" extends="npcHRifleTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1007,6 +1024,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileLongRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManSniperRifle" extends="npcSRifleTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1017,6 +1035,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileLongRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManPumpShotgun" extends="npcPShotgunTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1027,6 +1046,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileShortRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManAutoShotgun" extends="npcAShotgunTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1037,6 +1057,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileShortRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManWoodenBow" extends="npcLBowTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1047,6 +1068,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileMediumRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManCrossbow" extends="npcXBowTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1057,6 +1079,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileMediumRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManRocketLauncher" extends="npcRocketLTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1067,6 +1090,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileLongRangedBasic"/> 
 		</entity_class>
 
 		<!-- FEMALE BANDIT TEMPLATES -->
@@ -1091,6 +1115,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanAxe" extends="npcAxeTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1113,6 +1138,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanClub" extends="npcClubTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1135,6 +1161,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanKnife" extends="npcKnifeTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1157,6 +1184,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanSpear" extends="npcSpearTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1179,6 +1207,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanMachete" extends="npcMacheteTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1201,6 +1230,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanPipePistol" extends="npcPipePistolTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1223,6 +1253,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileMediumRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanPipeMachineGun" extends="npcPipeMGTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1245,6 +1276,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileMediumRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanPipeShotgun" extends="npcPipeShotgunTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1267,6 +1299,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileShortRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanPipeRifle" extends="npcPipeRifleTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1289,6 +1322,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileMediumRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanPistol" extends="npcPistolTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1311,6 +1345,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileMediumRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanDesertVulture" extends="npcDPistolTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1333,6 +1368,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileMediumRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanSMG5" extends="npcSMGTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1355,6 +1391,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileMediumRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanM60" extends="npcM60Template"> 
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1377,6 +1414,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileMediumRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanAK47" extends="npcAK47Template"> 
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1399,6 +1437,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileMediumRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanAssaultRifle" extends="npcTRifleTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1421,6 +1460,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileMediumRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanHuntingRifle" extends="npcHRifleTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1443,6 +1483,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileLongRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanSniperRifle" extends="npcSRifleTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1465,6 +1506,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileLongRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanPumpShotgun" extends="npcPShotgunTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1487,6 +1529,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileShortRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanAutoShotgun" extends="npcAShotgunTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1509,6 +1552,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileShortRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanWoodenBow" extends="npcLBowTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1531,6 +1575,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileMediumRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanCrossbow" extends="npcXBowTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1553,6 +1598,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileMediumRangedBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanRocketLauncher" extends="npcRocketLTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
@@ -1575,6 +1621,7 @@
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
 			</effect_group>
+			<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModHostileLongRangedBasic"/> 
 		</entity_class>
 	
 		<!-- NON-HIREABLE MALE SURVIVOR TEMPLATES -->

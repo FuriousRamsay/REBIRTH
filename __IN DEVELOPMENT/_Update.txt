@@ -1,0 +1,1764 @@
+<effect_group name="DecreaseAccuracy">
+				<triggered_effect trigger="onSelfDamagedOther" cvar="varAccuracy" action="ModifyCVar" operation="set" value="randomint(1,100)"/>
+				<triggered_effect trigger="onSelfKilledOther" cvar="varAccuracy" action="ModifyCVar" operation="set" value="randomint(1,100)"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-10">
+                    <requirement name="EntityTagCompare" target="self" tags="ranged"/>
+					<requirement name="CVarCompare" cvar="varAccuracy" operation="LT" value="1"/>
+				</passive_effect>
+			</effect_group>
+
+			<effect_group name="HitLocationHeadDamage">
+				<requirement name="HitLocation" body_parts="Head"/>
+					<triggered_effect trigger="onSelfDamagedOther" cvar="varHitLocationHead" action="ModifyCVar" operation="add" value="1"/>
+			</effect_group>
+			<effect_group name="HitLocationHeadKill">
+				<requirement name="HitLocation" body_parts="Head"/>
+					<triggered_effect trigger="onSelfKilledOther" cvar="varHitLocationHead" action="ModifyCVar" operation="add" value="1"/>
+			</effect_group>
+			<effect_group name="HitLocationNotHeadDamage">
+				<requirement name="!HitLocation" body_parts="Head"/>
+					<triggered_effect trigger="onSelfDamagedOther" cvar="varHitLocationNotHead" action="ModifyCVar" operation="add" value="1"/>
+			</effect_group>
+			<effect_group name="HitLocationNotHeadKill">
+				<requirement name="!HitLocation" body_parts="Head"/>
+					<triggered_effect trigger="onSelfKilledOther" cvar="varHitLocationNotHead" action="ModifyCVar" operation="add" value="1"/>
+			</effect_group>
+
+
+update [MTG].[dbo].[Cards] set actions = '<base><trigger><trigger>3</trigger><action>27</action><num>2</num><type>1</type><target>7</target></trigger></base>' where name = 'Scrounging Bandar'
+
+MOREJOBS:
+NOTE THAT THIS VERSION WILL RESET CHARACTERS GIVEN CHANGES TO QUESTS
+Adjusted damage and stamina cost of rusty melee weapons
+Fixed Protect Tier 2 - missing red t-shirt to craft the gravestone
+Added player level back in HUD
+Added Factions to all Entities
+Fixed Toxic Nurse particle effect
+
+TODO:
+Make overburden slots darker
+Change kamikaze behaviour
+Increase rad when close to toxic
+Increase base rad
+Cloaked shock android (no breaker.mat, used normal mesh for now)
+
+Add PartyGirlRadiated
+Add zombieTomClark(s)
+
+REBIRTH:
+(FOR TESTING ONLY) Rebirth Version A20.3Exp-2022-03-12-1505 (FOR TESTING ONLY)
+(SHOULD NOT RESET PROGRESSION)
+Fixed Full Control not preventing your hires from attacking
+Fixed Inability to unlock ranged weapon expertise Repair Kits
+Fixed many CVars being networked when not necessary
+Simplified all NPC AI packages to improve performance
+Removed Threat Control to help simplify the AI and performance
+Updated the Technogeek localization to remove crafting of the Stun Baton
+http://38.17.55.139/Rebirth-2022-03-15-1545.zip
+
+TODO:
+Test with Super Fast melee
+Wooden Bow repair kit in backpack for hunter
+Number of Zombies no longer showing in UI
+Haven't seen bandits?
+Wooden bow doesn't give xp or is it iron arrows?
+Reduce intelligence from digging
+Reduce Charisma and intelligence frmo quests
+Update Perk descriptions for requirements for things like daring adventurer
+Dog doesn't attack or defend?
+
+Check if drinking teas replaces buff rather than ignores
+
+NullReferenceException: Object reference not set to an instance of an object
+  at XUiC_QuestTurnInWindowGroup.OnClose () [0x00090] in <39cf8b713b17414c9e5ddfff01d6df19>:0 
+  at XUiC_QuestTurnInWindowGroup.TryNextComplete () [0x00039] in <39cf8b713b17414c9e5ddfff01d6df19>:0 
+  at XUiC_QuestTurnInRewardsWindow.BtnAccept_OnPress (XUiController _sender, System.Int32 _mouseButton) [0x000f0] in <39cf8b713b17414c9e5ddfff01d6df19>:0 
+  at XUiController.OnPressed (System.Int32 _mouseButton) [0x0000e] in <39cf8b713b17414c9e5ddfff01d6df19>:0 
+  at XUiController.Pressed (System.Int32 _mouseButton) [0x00000] in <39cf8b713b17414c9e5ddfff01d6df19>:0 
+  at XUiView.OnClick (UnityEngine.GameObject _go) [0x0003f] in <39cf8b713b17414c9e5ddfff01d6df19>:0 
+  at UIEventListener.OnClick () [0x0001c] in <39cf8b713b17414c9e5ddfff01d6df19>:0 
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+UICamera:Notify(GameObject, String, Object)
+UICamera:ProcessRelease(Boolean, Single)
+UICamera:ProcessTouch(Boolean, Boolean)
+UICamera:ProcessMouse()
+UICamera:ProcessEvents()
+UICamera:Update()
+
+More Sewit Kits in loot or craftable?
+Adjust the POI description, say it doesn't have to be in a POI
+Bleed bug (hit a dead zombie, inflict bleed on yourself)
+Joel AK-47 won't move
+FuriousRamsayBobM60 no name
+SurvivorMan001d1M60 no name
+Add small chance of high performance running shoes and jacket to zombie loot
+Make more generic repair kits
+How to make NPCs turn to you when spawned in and they aren't supposed to move
+What do do about the two penetration perks (aura and perk)
+Too many Mercenary spawns
+Rusty steel axe description
+Switch some CVar to $ (not networked)
+Flaming shouldn't give resource when wrenched
+Further reduce Biome NPC spawns. A quarter??
+NPCs not listening to full control, still going after targets
+Why does furnace schematic show as green but not completed?
+remove explosion effect on NPCs
+Make sure quests NPCs, die
+NPCs rfom events should disappear after 5 minutes
+Beer isn't showing water intake
+Got 6 Genetics boosts
+Some mercenaries deal fire/shock
+Is fire debuff too strong?
+Add localization for Mercenary buffs
+Mercenary Trader navobject isn't showing
+Clean up unused quest crafting items
+Just noticed a small UI Bug. My Hunter had Bow Level 0 with 95%Progress. I killed some Zs with my spear and leveled Hunter to Level 4. The progressbar of Bows resetted. I killed some Zs with Bow and got Level 1 BowL
+Have a Tier 4 Mercenary Trader
+Shock from shock motorcycle can get stuck. Unsticks when you shock another enemy
+check motorcycle stability (shock, burning)
+Progression requirements should be based on variables, not genetics
+Any reason why no sell price on custom spears? Other weapons?
+Make quests distance longer. 500-600m
+shock zombies cannot jump?
+Fire chains the particle effect but not the damage? Should at least be minimal damage
+
+VM_Wheels and the Crafting menu
+If someone picks up the destroyed tires and looks for the recipe, an error message appears in the console
+
+Rusty Steel PickAxe requires Ductape to repair?
+Reduce Explosion immune zombie hand item damage
+Reduce Explosion immune zombie knockdown chance
+Fire immune zombies seem to hesitate in horde
+If you change classes, you keep the old class aura
+
+Faction Wars/Hazard entities are acting a little strange, not moving much
+RELEASE
+
+Add Spawn Block Descriptions
+prevent perk books from leveling beyond max perk level
+Make certain loot more probable with higher tier different types of zombies
+NPCs/Dogs hunt chickens and rabbits
+Add more block to harvest:
+	- lockers
+	- racks
+	- large leather loot bag
+
+Re-do bound boxes on all models?
+
+Sounds don't always fire on special events?
+
+Change the XP items to give 10% of current level
+
+Bring players to other biomes with quests or other means
+
+craft sewing kits?
+
+  <item name="UndeadFactionSchematic">
+      <property name="Extends" value="schematicMaster" />
+      <property name="DescriptionKey" value="UndeadFactionSchematicDesc" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="schematicMaster" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ChangeFactionSDX, SCore" value="undead" />
+      </effect_group>
+    </item>
+
+Make NPCs respond to each other?
+Maybe have NPCs in specific biome spawn groups to not show up in POIs?
+
+Vehicle repair kits with VM
+Oil from cars with VM
+
+Look at making electric fence posts give you xp?
+companions contribute to your xp?
+
+Add generic repair kit back for other mods
+
+Random walktypes might not be good as crawler stand up when hit
+Update notes
+
+Look into using food spoilage
+
+verify temp shock protection to stun baton/shocker
+verify temp fire protection to plasma baton
+
+Article on reading perk books
+article on food
+article on end tier melee weapons
+
+Add loading screen images
+
+Add events with:
+- bandits vs zombies
+- bandits vs survivors
+- survivor vs zombies
+- bosses vs. zombies
+- survivors vs bosses
+
+Ability to look for certain items (like feathers, eggs, ore)
+Add localization for blocks that can be picked up
+Builder, powered turrets show-xxx percent
+Increase sound volume on gamevent spawn alerts
+
+increase damage bonuses to things like pistols
+make icons for global auras (icon-="replace")
+Working stiff, lots of hammers, nothing else?
+Builder upgrades faster, cheaper
+
+Wolves will run towards you then stop
+Some survivors at 200, some at 300?
+Setting down Briston on top of dinner_02 does not spawn him
+
+Global Achievements to become immune to radiation
+Add special loot to ferals and radiated?
+Move Hunstman to Hunter
+
+<property name="MakeTraderVulnerable" value="false" /> (SCore)
+
+research how to add sound effect to animation?
+
+	<action_sequence name="action_teleport_backpack" template="action_teleport_bedroll">
+		<variable name="special_type" value="Backpack" />
+	</action_sequence>
+
+Change Auger and Chainsaw schematic icons
+
+Add custom sounds to new zombies
+Check motorcycle stability
+Automatically give ability to craft certain things at certain levels
+Put mod back to original starter flow
+
+Add missing descriptions
+===========================
+Global achievements to do more damage in certain biomes
+
+
+Turn On/off sound for Circular Saw gives campfire sound
+
+First stone club should have stone sound when hitting other materials (not metal)
+
+Check if trader sells more unnecessary decos
+
+Change economic value for some items
+
+Sound for setting foes on fire
+Sound for stunning
+Sound for double damage
+Temporary elemental resistance when holding special weapons
+Change heatmap strength on custom sounds
+
+Knuckles (Bleed) - chainsaw
+Baton (Shock)
+
+Madman Knuckles
+Technogeek Batons
+
+leveling expertise with xp books levels faster than it should. Is it the same for normal xp?
+Weapons degrade less as class expertise levels
+block damage aura have x percentage chance for a one shot
+repair kits for new weapons?
+Add achievements to do more damage to bears, wolves, mountain lions
+builder jump hit ground with hammer knocks down in AoE
+soldier jumping attack achievement
+
+(MTG)Remove shuffle when you accept your hand
+(MTG)using the poison counter under life updates the damage window for opponent but not the poison counter under the player's name
+(MTG) where is Ixalan
+
+achievement for mining
+improve lab equipment loot (<lootgroup name="labEquipment">)
+
+Update Descriptions, especially for what item can be crafted where
+
+Advanced trainer after Tier 4 completion
+update UI to have bigger loot containers
+Add multiplier for genetics experience variables in configuration?
+
+Make Class Gear droppable
+Include ability to craft class gear if lost
+progress percentages aren't showing 100%
+
+Increase difficulty of quests based on schematic tier
+Add xp indicator for LBD
+
+Story: shoot them in the head!
+Story: Explain why picking a genetics pack doesn't matter much or might
+Story: when you pick your class, memory comes back, makes sense why you picked that class
+
+Flesh out early-game sub quests
+go through quests and mark objectives as optional when shared
+review morejobs requirement for killing specific entities to complete a quest
+Faction Wars, make special entities without the quest loot
+
+==================
+
+Check the vanilla perk books for things like never emcumbered at night
+
+Add map marker for vanilla vehicles, not just TTN ones
+stormbreaker shouldn't ragdoll players
+harvesting dire wolf gave -1 xp
+
+Check highlights dragging colors (gray) in some menus (Styles?)
+use variables for schematic lvl requirements?
+
+Add more scrap recipes to shredder
+
+==================================
+
+hide custom windows when you die
+Create MAX label for when you reach max level
+
+more experience with secondary attacks? (You can apply a buff on the attack and set a cvar.)
+zombies don't seem to hear us in mines
+How fast do crops grow??
+Wood chips/dust from circular saw (check UL)
+paper recipe using wood chips/dust and water (mortar) in a frying pan
+update UI to have bigger loot containers
+
+Download all purchased Assets
+==================
+
+New genetic trait that can only be affected by wearing items or mods within items that must be crafted from loot found on certain entities
+some mods can only be installed in certain items or clothing that are loot drop only
+Play music when night falls
+Chef can heal pets, mechanical allies
+Chef levels to give allies special buffs
+make brass purchasable at future trader
+
+Builder can use hammer to break down wood/metal and has 1 in x chance to break in a single blow (with levels). Same for safes
+
+Give tools/weapons special passives for some classes like steel axe swings much faster for soldier
+
+builder stamina not affected by use of shovel/pickaxe
+mechanic class. Stamina not affected by salvaging. Can make a bicycle early, other vehicles as he levels
+zombie with intermittent disappearing mesh
+parkour jumping with exoskeleton
+soldier throwing ae to the head, a lot of damage
+class that can spread disease (witch doctor). They have healing aura
+witch doctor get health steal aura
+
+mechanic aura (salvage more for 5 minutes), faster vehicles?
+
+Maybe have each action level genetic stats but in different ways?
+
+can you replace sand blocks with clay in forest?
+Less shale nodes
+Less ore spawns	
+
+Challenges to introduce you to each of the special zombie abilities
+Each challenge gives a reward that you will use to craft something
+Put challenges in mailboxes
+
+mutant rabbit/chickens didn't register as enemies for turrets in multiplayer
+items to temporarily increase perks
+make list of all lootable blocks
+
+Miner 69er and axes
+
+A20: verify loot trigger in multiplayer again (works in single player, server console but not client console)
+
+cloth from cotton at what station?
+
+swewing kits and cloth for cloth armor
+update block economic values
+review block upgrade costs
+review all recipes
+
+change class leveling sound
+Dark Blade is wrong side when
+
+Look into pet behaviour
+Look into pet prices (wher 1250 for dog in items and 100 at vending machine)
+
+Check how Khaine does his picking up of plants
+
+UPDATES:
+- remove vehicle crafting, schematics, etc
+- Re-work loot, focusing on entity drop chance more than POI loot
+- Clean-up Weapon and Tool Vanilla perk references
+- Add recipes for crafting specific repair kits
+- Add recipes for crafting weapon parts
+- Activate melee/higher tier tool crafting
+- Make Recipe book icons
+- Add block recipes (including Glass)
+- Create Mechanical Allies recipes (Chef)
+- Rework Crafting Groups (A20)
+- Add Descriptions to Schematics
+- Add tiers to Quest Names
+- Review TNN quests that should not be shared
+- Add Genetics Requirements for some items
+- Add descriptions for Genetics/knowledge attributes
+- Add Descriptions for Classes
+- Dysentery/Wellness System
+- Review Death Ailments (ex: cannot aim for X amount of time)
+- Add new melee weapons for each class
+- Add buff indicator when wearing full special armor sets
+- Add more audio to Briston
+- Add audio for Trainers
+- Add HUD indicator for Tier quest progression
+- Add Entities:
+   - Robots
+   - Cyborgs
+   - Replace Bandits
+   - Mutants
+   - Soldiers
+   - Replace Citizens
+- Rework Screamer system
+- Look into making food with special stats
+- Butcher gains more health from drugs
+- Builder uses less stamina when digging/mining with each level
+- Penalties for starving or being thirsty
+- Have Handyman trader sell building supplies like doors, hatches, etc
+- Builder jump land ragdoll. Activate variable using secondary attack when you hit an enemy, buff lasts x seconds and you can jump and land for aoe ragdoll damage
+- Soldier successive knuckle hits will increase movement speed
+- Add sub quests to equipment missions
+- Add training weapons when doing trainer quest (missing)
+- Add normal speed radiated zombie group to wasteland spawns
+
+TODO: Clean-up weapons/tools (rebirth folder)
+
+TODO: Add recipe for making parts
+
+TODO: Make recipe books
+
+TODO: add recipe for glass
+
+TODO: new icons for: training supplies box
+
+TODO: ORGANIZE REMAINDER SCHEMATICS by player level AND MAKE ICONS
+
+TODO: Add groups to crafting (Rebirth and TNN mods):	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+
+TODO: Add descriptions To schematics (<property name="DescriptionKey" value="FuriousRamsayArmorClothHatDesc"/>)
+
+TODO: Add tiers to quest names
+
+TODO: add which block is required for crafting in items descriptions
+
+TODO: Change loading pics
+
+TODO: Recipes for general crafting items
+
+TODO: Add tips to starter missions
+
+TODO: add the concept of genetic requirements for some items.
+
+TODO: description for Genetics/knowledge attribute
+
+TODO: Descriptions for classes
+
+TODO: work on food/health/wellness system
+
+TODO: Figure out research process
+
+TODO: Death brings issues like cannot aim for a while, reduced damage on melee, same ailments as before except level like radiation poisoning
+
+TODO: What to do about broken leg when you die (avoid death loops)
+
+TODO: Replace icon and model for chemistry station once completed
+
+TODO: Clean up new weapons
+
+TODO: Assign Crafting Tiers for each weapon/tool/armor tag
+
+TODO: Enemies loot more of a focus than POIs
+
+TODO: add in a buff indicator when wearing one of the armor sets
+
+TODO: figure out a way to play sounds after certain events (like putting an NPC down, completing a quest invisible entity?)
+
+TODO: Add jesus zombie. Kill him with a nailgun. Spawn in church POI
+
+TODO: Add sounds to Briston (part 2)
+
+TODO: Add sounds to cutom traders
+
+TODO: Add sounds to androids
+
+TODO: Add sounds to entities
+
+TODO: add progression to tier completions
+
+TODO: Tag all blocks (individually)
+
+TODO: collect all books, get bonus
+
+<!-- START: CHEF -->
+<!-- END: CHEF -->
+
+TODO: change screamer to bandit leader
+
+===================================================
+HAVE FX TRY
+===================================================
+TEST IN A20 TODO: Mod that makes ennemies stronger as you kill them
+TEST IN A20 TODO: Mod that makes ennemies stronger when you die
+
+TODO: Death mods in main mod.
+
+TODO: Make zombies stronger when close to each other
+
+TODO: Move class window at bottom and stats at top
+
+TODO: change recipe of things that should require nails
+
+TODO: harvest nails from doors, furniture
+
+TODO: loot more nails
+
+CHEF: food will have special stats
+
+TODO: pick up and place flashlight and lantern
+
+TODO: <property name="CreativeMode" value="Dev"/>
+
+TODO: Butcher gains more health from drugs
+
+TODO: Mechanics class
+
+TODO: Builder uses less stamina when digging/mining with each level
+
+TODO: Hunter sneak kills with bows augment sneak abilities (undetected and damage with bows)
+TODO: Hunter damage while throwing spears will scale as you use it
+
+TODO: Tracking for hunters
+
+TODO: Make spears a little stronger
+
+TODO: Increase perk levels when below 10
+
+TODO: Update trader inventories
+
+TODO: penalties for starving or being thirsty
+
+TODO: Hook up items to augment constitution when healing or eating good food
+
+TODO: Quests with invisible entity giving special debuffs (no ranged, impaired visibility, etc)
+
+TODO: Change recipes for basic stone tools
+
+TODO: Centralize Genetics XP Variables
+
+TODO: Electrical purchased from Briston
+
+TODO: Handyman trader sells building supplies like doors, hatches, etc
+
+TODO: Make player vending machine sold by Briston at Better Barter 3
+
+TODO: builder jump land ragdoll. Activate variable using secondary attack when you hit an enemy, buff lasts x seconds and you can jump and land for aoe ragdoll damage
+
+TODO: Madman, jump axe hit (mechanic like charged assault)
+
+TODO: Soldier successive knuckle hits will increase movement speed
+
+TODO: Rename auras to things like War Cry
+
+TODO: Damage auras using particles
+
+TODO: Reduce xp gain for upgrading and mining
+
+TODO: Make a list of all actions that work (test them)
+onSelfRespawn (add status effects)
+onSelfDied (penalties)
+
+onSelfPlaceBlock
+
+onSelfDamagedOther
+
+onProjectileImpact; trigger for projectiles like arrows, molotovs, rockets
+onSelfHealedSelf
+
+onSelfRepairBlock
+
+onSelfUpgradedBlock
+onSelfHarvestBlock
+onSelfHarvestOther
+
+TODO: Leveling up augments your genetics a little
+TODO: certain things level up your genetics: 
+looting intelligence
+readin, crafting knowledge
+jumping, running, etc dexterity
+healing constitution
+melee kills, mining strength
+buying charisma
+TODO: RE-TEST ALL MISSIONS
+
+TODO: look if you can use CVARS elsewhere than in buffs
+
+TODO: Penalty for killing citizen
+
+===========================
+
+TODO: Finish Thug Abilities. One per weapon?
+TODO: Figuer out how Trainer helps with the player progression
+TODO: Add 2 new Thug Achievements. One achievement unlocks the Jackal knife.
+
+TODO: Remove References to unused buffs/perks
+
+TODO: Lock weapon crafting under a non-lootable schematic
+
+FIX: Buy 1PT label when perk is unlocked
+TODO: Fix requirement description for ThechoiceIsMine (1 PT)
+TODO: Auras will incur a cost
+TODO: Ability to turn your aura off in the
+TODO: what to do when multiple people have the same aura
+
+TODO: Achievements for each class (default 1 level)
+
+TODO: Deployable turrets provide XP when held only
+
+TODO: Add ability to craft ammo and arrows to certain classes
+
+TODO: Verify that all classes have functional auras. Chef (Hunger - finish)
+
+TODO: Add trainers to faction wars
+TODO: Prevent ally bear explosion from affecting traders
+
+TODO: Adjust base damage for specialized weapons compared to when you aren't, much higher for some
+TODO: cannot loot more than quality 3
+TODO: cannot loot certain items, like steel clubs, steel spears
+TODO: cannot buy steel clubs, steel spears, etc
+
+TODO: Change items that affect attributes such as glasses
+
+TODO: Add shock and burn attack effect for Technogeek and chef trainers, bleed for chef, hunter, soldier and butcher trainers, 50% chance ragdoll for thug, 70% for builder
+
+TODO: see if entities can show up brighter when using night vision
+
+TODO: Trader gives buffs
+
+TODO: Add special sound for when reading class book
+TODO: Stats for headshot kills for specialitzed weapons
+TODO: Have the trainer offer quests that are really progression with ability to reset them (like admin menu without admin)
+TODO: Fix Screens to not show point requirements for perks
+TODO: Special Xbow with large magazine, super fast reload and rate of fire
+TODO: Can we make it always be nighttime?
+TODO: Add ailments for heat, cold weather
+TODO: Description of each mod for Nexus
+
+release
+ 
+CHECK: NREs on Arcane chest (only when you first place it on a new game?) Not always
+CHECK: fire damage from zombies when wearing armor
+TODO: Check Knife with grenade class
+
+CHECK: What if you start, log out and come back in. What happens to missions?
+
+release
+
+TODO: Faction war event Tiers2-5
+
+release
+
+TODO: check if there is something to do about ragdoll of UMA using blunt weapons
+TODO: Shotgun ammo for boom stick that always ragdolls)
+FIX: boom stick doesn't ragdoll bosses
+
+TODO: add throwable item to remove buffs like fire, shock, smoke and toxic (quest rewards)
+
+TODO: Add vehicle UI tweaks
+
+TODO: new block that does intermittent zaps
+
+TODO: Zombies that jump, aoe when lands
+				<triggered_effect trigger="onSelfLandJump" action="AddBuff" buff="FuriousRamsayXXX"/>
+
+TODO: check for zombie eating corpses
+
+Release
+
+TODO: mod to replace POI groups (by tier?)
+
+Once all new entities are done:
+TODO: Modify screamer groups with entities (no UMA)
+
+TODO: Farming Trader quests
+TODO: Handyman Trader quests
+
+TRIED: buffs cannot be given as a reward. IF so then set variables to prevent Faction War from being started if one is already underway.
+TRIED: Mechanical Vulture Ally? (Doesn't work right now)
+TRIED: if decoys keep spawning (they don't)
+TRIED: Look into knife options (throwable as stacks, throwable with ammo). Won't work as stacks, wepon no longer shows. Doesn't appear to work with ammo (to be tested further in A20).
+FIX: Multiplayer placeable mechanical ally (might not be possible given the SpawnTrader respawn issue)
+FIX: ally dog example in single player always spawns at same spot if using stacks
+TESTED: POI resets do not affect trader entities
+
+Main:
+//Added Spawnable Mechanical Allies in Multiplayer (based on Decoy mechanic), now purchasable from Player vending machines at trader POIs
+//Adjusted toolbelt notification when deploying mechanical allies in multiplayer to ensure players stay clear of the area they deploy them in to not affect the deployment process (could result in nothing happening)
+//Added ability to stack Mechanical Pets up to 25 in multiplayer.
+Added custom trader portraits
+Bandits, Skulls always drop bags
+
+Items and Blocks:
+
+I See and Hear You:
+
+Locate New Traders:
+
+Biome:
+
+
+Friendly Biome:
+
+Wandering Horde:
+
+UI Tweaks:
+Adjusted Sneak HUD colors
+Moved HUD to the left a bit
+
+Twitch Integration:
+
+DF Compatibility:
+TODO: Traders will offer ability to refresh jobs list in DF mod
+
+Zombies - Normal Speed:
+
+Rebirth:
+
+FuriousRamsaySchematicToolIronPickAxe
+FuriousRamsaySchematicToolSteelPickAxe
+FuriousRamsaySchematicToolIronShovel
+FuriousRamsaySchematicToolSteelShovel
+FuriousRamsaySchematicToolSalvageWrench
+FuriousRamsaySchematicToolIronHoe
+FuriousRamsaySchematicToolIcePick001
+
+FuriousRamsaySchematicWeaponIronFireaxe
+FuriousRamsaySchematicWeaponSteelAxe
+FuriousRamsaySchematicWeaponHuntingKnife
+FuriousRamsaySchematicWeaponMachete
+FuriousRamsaySchematicWeaponBaseballBat
+FuriousRamsaySchematicWeaponSteelClub
+FuriousRamsaySchematicWeaponStunBaton
+FuriousRamsaySchematicWeaponIronSpear
+FuriousRamsaySchematicWeaponSteelSpear
+FuriousRamsaySchematicWeaponIronSledgeHammer
+FuriousRamsaySchematicWeaponSteelSledgeHammer
+FuriousRamsaySchematicWeaponIronKnuckles
+FuriousRamsaySchematicWeaponSteelKnuckles
+FuriousRamsaySchematicWeaponJunkSledge
+FuriousRamsaySchematicWeaponSpikedClub001
+FuriousRamsaySchematicWeaponMedievalHammer001
+FuriousRamsaySchematicWeaponSciFiSword001
+FuriousRamsaySchematicWeaponCrowbar001
+FuriousRamsaySchematicWeaponCleaver001
+FuriousRamsaySchematicWeaponSledgeHammer001
+FuriousRamsaySchematicWeaponAxe001
+FuriousRamsaySchematicWeaponAxe002
+FuriousRamsaySchematicWeaponPistol
+FuriousRamsaySchematicWeaponSMG
+FuriousRamsaySchematicWeaponMagnum
+FuriousRamsaySchematicWeaponDesertVulture
+FuriousRamsaySchematicWeaponShotgunDoubleBarrel
+FuriousRamsaySchematicWeaponShotgunPump
+FuriousRamsaySchematicWeaponShotgunAuto
+FuriousRamsaySchematicWeaponRifleHunting
+FuriousRamsaySchematicWeaponRifleMarksman
+FuriousRamsaySchematicWeaponRifleSniper
+FuriousRamsaySchematicWeaponAK47
+FuriousRamsaySchematicWeaponTacticalAR
+FuriousRamsaySchematicWeaponM60
+FuriousRamsaySchematicWeaponRocketLauncher
+FuriousRamsaySchematicWeaponBowWooden
+FuriousRamsaySchematicWeaponBowCompound
+FuriousRamsaySchematicWeaponCrossbowIron
+FuriousRamsaySchematicWeaponCrossbowCompound
+FuriousRamsaySchematicWeaponJunkTurret
+FuriousRamsaySchematicWeaponCrossbow001
+
+FuriousRamsaySchematicArmorClothHat
+FuriousRamsaySchematicArmorClothJacket
+FuriousRamsaySchematicArmorClothGloves
+FuriousRamsaySchematicArmorClothPants
+FuriousRamsaySchematicArmorClothBoots
+FuriousRamsaySchematicArmorLeatherHood
+FuriousRamsaySchematicArmorLeatherChest
+FuriousRamsaySchematicArmorLeatherGloves
+FuriousRamsaySchematicArmorLeatherPants
+FuriousRamsaySchematicArmorLeatherBoots
+FuriousRamsaySchematicArmorMilitaryHelmet
+FuriousRamsaySchematicArmorMilitaryVest
+FuriousRamsaySchematicArmorMilitaryGloves
+FuriousRamsaySchematicArmorMilitaryLegs
+FuriousRamsaySchematicArmorMilitaryBoots
+FuriousRamsaySchematicArmorMilitaryStealthBoots
+FuriousRamsaySchematicArmorScrapHelmet
+FuriousRamsaySchematicArmorScrapChest
+FuriousRamsaySchematicArmorScrapGloves
+FuriousRamsaySchematicArmorScrapLegs
+FuriousRamsaySchematicArmorScrapBoots
+FuriousRamsaySchematicArmorIronHelmet
+FuriousRamsaySchematicArmorIronChest
+FuriousRamsaySchematicArmorIronGloves
+FuriousRamsaySchematicArmorIronLegs
+FuriousRamsaySchematicArmorIronBoots
+FuriousRamsaySchematicArmorSteelHelmet
+FuriousRamsaySchematicArmorSteelChest
+FuriousRamsaySchematicArmorSteelGloves
+FuriousRamsaySchematicArmorSteelLegs
+FuriousRamsaySchematicArmorSteelBoots
+
+		<!-- TOOL PARTS -->
+FuriousRamsayPartsStoneAxe
+FuriousRamsayPartsIronPickAxe
+FuriousRamsayPartsSteelPickAxe
+FuriousRamsayPartsStoneShovel
+FuriousRamsayPartsIronShovel
+FuriousRamsayPartsSteelShovel
+FuriousRamsayPartsSalvageWrench
+FuriousRamsayPartsIronHoe
+FuriousRamsayPartsIcePick001
+
+		<!-- WEAPON PARTS -->
+FuriousRamsayPartsIronFireaxe
+FuriousRamsayPartsSteelAxe
+FuriousRamsayPartsBoneKnife
+FuriousRamsayPartsHuntingKnife
+FuriousRamsayPartsMachete
+FuriousRamsayPartsWoodenClub
+FuriousRamsayPartsBaseballBat
+FuriousRamsayPartsSteelClub
+FuriousRamsayPartsStunBaton
+FuriousRamsayPartsStoneSpear
+FuriousRamsayPartsIronSpear
+FuriousRamsayPartsSteelSpear
+FuriousRamsayPartsStoneSledgeHammer
+FuriousRamsayPartsIronSledgeHammer
+FuriousRamsayPartsSteelSledgeHammer
+FuriousRamsayPartsLeatherKnuckles
+FuriousRamsayPartsIronKnuckles
+FuriousRamsayPartsSteelKnuckles
+FuriousRamsayPartsJunkSledge
+FuriousRamsayPartsSpikedClub001
+FuriousRamsayPartsMedievalHammer001
+FuriousRamsayPartsSciFiSword001
+FuriousRamsayPartsCrowbar001
+FuriousRamsayPartsCleaver001
+FuriousRamsayPartsSledgeHammer001
+FuriousRamsayPartsAxe001
+FuriousRamsayPartsAxe002
+FuriousRamsayPartsPistol
+FuriousRamsayPartsSMG
+FuriousRamsayPartsMagnum
+FuriousRamsayPartsDesertVulture
+FuriousRamsayPartsShotgunDoubleBarrel
+FuriousRamsayPartsShotgunPump
+FuriousRamsayPartsShotgunAuto
+FuriousRamsayPartsRifleHunting
+FuriousRamsayPartsRifleMarksman
+FuriousRamsayPartsRifleSniper
+FuriousRamsayPartsAK47
+FuriousRamsayPartsTacticalAR
+FuriousRamsayPartsM60
+FuriousRamsayPartsRocketLauncher
+FuriousRamsayPartsBowPrimitive
+FuriousRamsayPartsBowWooden
+FuriousRamsayPartsBowCompound
+FuriousRamsayPartsCrossbowIron
+FuriousRamsayPartsCrossbowCompound
+FuriousRamsayPartsJunkTurret
+FuriousRamsayPartsCrossbow001
+
+		<!-- ARMOR PARTS -->
+FuriousRamsayPartsClothHat
+FuriousRamsayPartsClothJacket
+FuriousRamsayPartsClothGloves
+FuriousRamsayPartsClothPants
+FuriousRamsayPartsClothBoots
+FuriousRamsayPartsLeatherHood
+FuriousRamsayPartsLeatherChest
+FuriousRamsayPartsLeatherGloves
+FuriousRamsayPartsLeatherPants
+FuriousRamsayPartsLeatherBoots
+FuriousRamsayPartsMilitaryHelmet
+FuriousRamsayPartsMilitaryVest
+FuriousRamsayPartsMilitaryGloves
+FuriousRamsayPartsMilitaryLegs
+FuriousRamsayPartsMilitaryBoots
+FuriousRamsayPartsMilitaryStealthBoots
+FuriousRamsayPartsScrapHelmet
+FuriousRamsayPartsScrapChest
+FuriousRamsayPartsScrapGloves
+FuriousRamsayPartsScrapLegs
+FuriousRamsayPartsScrapBoots
+FuriousRamsayPartsIronHelmet
+FuriousRamsayPartsIronChest
+FuriousRamsayPartsIronGloves
+FuriousRamsayPartsIronLegs
+FuriousRamsayPartsIronBoots
+FuriousRamsayPartsSteelHelmet
+FuriousRamsayPartsSteelChest
+FuriousRamsayPartsSteelGloves
+FuriousRamsayPartsSteelLegs
+FuriousRamsayPartsSteelBoots
+
+ItemsWeaponsSpikedClub001_FR
+ItemsWeaponsMedievalHammer001_FR
+ItemsWeaponsSciFiSword001_FR
+ItemsWeaponsCrowbar001_FR
+ItemsWeaponsCleaver001_FR
+ItemsWeaponsIcePick001_FR
+ItemsWeaponsSledgeHammer001_FR
+ItemsWeaponsAxe001_FR
+ItemsWeaponsAxe002_FR
+ItemsWeaponsCrossbow001_FR
+
+FuriousRamsayPerkCraftingWorkbenchToolbox001_FR
+FuriousRamsayPerkCraftingWorkbenchFurnace001_FR
+FuriousRamsayPerkCraftingWorkbenchAnvil001_FR
+FuriousRamsayPerkCraftingWorkbenchDistiller001_FR
+FuriousRamsayPerkCraftingWorkbenchCircularMachine001_FR
+FuriousRamsayPerkCraftingWorkbenchWoodWorking001_FR
+FuriousRamsayPerkCraftingWorkbenchGasStove001_FR
+FuriousRamsayPerkCraftingWorkbenchConcreteMixer001_FR
+FuriousRamsayPerkCraftingchemistryStation
+FuriousRamsayPerkCraftingWorkbenchShredder001_FR
+FuriousRamsayPerkCraftingWorkbenchResearchTable001_FR
+FuriousRamsayPerkCraftingWorkbenchMortalPestle001_FR
+FuriousRamsayPerkCraftingWorkbenchGenerator001_FR
+FuriousRamsayPerkCraftingToolIronPickAxe
+FuriousRamsayPerkCraftingToolSteelPickaxe
+FuriousRamsayPerkCraftingToolIcePick001
+FuriousRamsayPerkCraftingToolIronShovel
+FuriousRamsayPerkCraftingToolSteelShovel
+FuriousRamsayPerkCraftingToolSalvageWrench
+FuriousRamsayPerkCraftingToolIronHoe
+FuriousRamsayPerkCraftingToolAuger
+FuriousRamsayPerkCraftingMeleeWeaponIronFireaxe
+FuriousRamsayPerkCraftingMeleeWeaponSteelAxe
+FuriousRamsayPerkCraftingMeleeWeaponAxe001
+FuriousRamsayPerkCraftingMeleeWeaponAxe002
+FuriousRamsayPerkCraftingMeleeWeaponHuntingKnife
+FuriousRamsayPerkCraftingMeleeWeaponCleaver001
+FuriousRamsayPerkCraftingMeleeWeaponMachete
+FuriousRamsayPerkCraftingMeleeWeaponSciFiSword001
+FuriousRamsayPerkCraftingMeleeWeaponBaseballBat
+FuriousRamsayPerkCraftingMeleeWeaponSpikedClub001
+FuriousRamsayPerkCraftingMeleeWeaponSteelClub
+FuriousRamsayPerkCraftingMeleeWeaponCrowbar001
+FuriousRamsayPerkCraftingMeleeWeaponStunBaton
+FuriousRamsayPerkCraftingMeleeWeaponIronSpear
+FuriousRamsayPerkCraftingMeleeWeaponSteelSpear
+FuriousRamsayPerkCraftingMeleeWeaponIronSledgeHammer
+FuriousRamsayPerkCraftingMeleeWeaponSteelSledgeHammer
+FuriousRamsayPerkCraftingMeleeWeaponSledgeHammer001
+FuriousRamsayPerkCraftingMeleeWeaponMedievalHammer001
+FuriousRamsayPerkCraftingMeleeWeaponIronKnuckles
+FuriousRamsayPerkCraftingMeleeWeaponSteelKnuckles
+FuriousRamsayPerkCraftingRangedWeaponPistol
+FuriousRamsayPerkCraftingRangedWeaponSMG
+FuriousRamsayPerkCraftingRangedWeaponMagnum
+FuriousRamsayPerkCraftingRangedWeaponDesertVulture
+FuriousRamsayPerkCraftingRangedWeaponShotgunDoubleBarrel
+FuriousRamsayPerkCraftingRangedWeaponShotgunPump
+FuriousRamsayPerkCraftingRangedWeaponShotgunAuto
+FuriousRamsayPerkCraftingRangedWeaponRifleHunting
+FuriousRamsayPerkCraftingRangedWeaponRifleMarksman
+FuriousRamsayPerkCraftingRangedWeaponRifleSniper
+FuriousRamsayPerkCraftingRangedWeaponAK47
+FuriousRamsayPerkCraftingRangedWeaponTacticalAR
+FuriousRamsayPerkCraftingRangedWeaponM60
+FuriousRamsayPerkCraftingRangedWeaponRocketLauncher
+FuriousRamsayPerkCraftingRangedWeaponBowWooden
+FuriousRamsayPerkCraftingRangedWeaponBowCompound
+FuriousRamsayPerkCraftingRangedWeaponCrossbowIron
+FuriousRamsayPerkCraftingRangedWeaponCrossbowCompound
+FuriousRamsayPerkCraftingJunkSledge
+FuriousRamsayPerkCraftingJunkTurret
+FuriousRamsayPerkArmorCraftingClothHatArmor
+FuriousRamsayPerkArmorCraftingClothJacketArmor
+FuriousRamsayPerkArmorCraftingClothGlovesArmor
+FuriousRamsayPerkArmorCraftingClothPantsArmor
+FuriousRamsayPerkArmorCraftingClothBootsArmor
+FuriousRamsayPerkArmorCraftingLeatherHoodArmor
+FuriousRamsayPerkArmorCraftingLeatherChestArmor
+FuriousRamsayPerkArmorCraftingLeatherGlovesArmor
+FuriousRamsayPerkArmorCraftingLeatherPantsArmor
+FuriousRamsayPerkArmorCraftingLeatherBootsArmor
+FuriousRamsayPerkArmorCraftingScrapHelmetArmor
+FuriousRamsayPerkArmorCraftingScrapChestArmor
+FuriousRamsayPerkArmorCraftingScrapGlovesArmor
+FuriousRamsayPerkArmorCraftingScrapLegsArmor
+FuriousRamsayPerkArmorCraftingScrapBootsArmor
+FuriousRamsayPerkArmorCraftingIronHelmetArmor
+FuriousRamsayPerkArmorCraftingIronChestArmor
+FuriousRamsayPerkArmorCraftingIronGlovesArmor
+FuriousRamsayPerkArmorCraftingIronLegsArmor
+FuriousRamsayPerkArmorCraftingIronBootsArmor
+FuriousRamsayPerkArmorCraftingSteelHelmetArmor
+FuriousRamsayPerkArmorCraftingSteelChestArmor
+FuriousRamsayPerkArmorCraftingSteelGlovesArmor
+FuriousRamsayPerkArmorCraftingSteelLegsArmor
+FuriousRamsayPerkArmorCraftingSteelBootsArmor
+FuriousRamsayPerkArmorCraftingMilitaryHelmetArmor
+FuriousRamsayPerkArmorCraftingMilitaryVestArmor
+FuriousRamsayPerkArmorCraftingMilitaryGlovesArmor
+FuriousRamsayPerkArmorCraftingMilitaryLegsArmor
+FuriousRamsayPerkArmorCraftingMilitaryBootsArmor
+FuriousRamsayPerkArmorCraftingMilitaryStealthBootsArmor
+
+969595
+e0da69
+67db89
+65b3d6
+d261d4
+
+meleeWpnClubT1BaseballBatSchematic
+meleeWpnSledgeT1IronSledgehammerSchematic
+meleeWpnSledgeT3SteelSledgehammerSchematic
+meleeWpnBladeT1HuntingKnifeSchematic
+meleeWpnBladeT3MacheteSchematic
+meleeWpnBatonT2StunBatonSchematic
+meleeToolIronSetSchematic
+meleeToolSteelSetSchematic
+meleeToolSalvageT1WrenchSchematic
+meleeToolSalvageT2RatchetSchematic
+meleeToolSalvageT3ImpactDriverSchematic
+meleeToolFarmT1IronHoeSchematic
+meleeToolPickT3AugerSchematic
+meleeToolAxeT3ChainsawSchematic
+meleeWpnSpearT1IronSpearSchematic
+meleeWpnKnucklesT1IronKnucklesSchematic
+meleeWpnKnucklesT3SteelKnucklesSchematic
+gunBowT1WoodenBowSchematic
+gunBowT3CompoundBowSchematic
+gunBowT1IronCrossbowSchematic
+gunBowT3CompoundCrossbowSchematic
+gunHandgunT1PistolSchematic
+gunHandgunT2Magnum44Schematic
+gunHandgunT3DesertVultureSchematic
+gunShotgunT1DoubleBarrelSchematic
+gunShotgunT2PumpShotgunSchematic
+gunShotgunT3AutoShotgunSchematic
+gunHandgunT3SMG5Schematic
+gunMGT1AK47Schematic
+gunMGT2TacticalARSchematic
+gunMGT3M60Schematic
+gunRifleT1HuntingRifleSchematic
+gunRifleT2MarksmanRifleSchematic
+gunRifleT3SniperRifleSchematic
+gunExplosivesT3RocketLauncherSchematic
+gunBotT1JunkSledgeSchematic
+gunBotT2JunkTurretSchematic
+armorLeatherSetSchematic
+armorMilitarySetSchematic
+resourceMilitaryFiberSchematic
+armorIronSetSchematic
+armorSteelSetSchematic
+thrownAmmoPipeBombSchematic
+thrownGrenadeContactSchematic
+thrownGrenadeSchematic
+thrownDynamiteSchematic
+meleeToolRepairT3NailgunSchematic
+medicalFirstAidBandageSchematic
+medicalFirstAidKitSchematic
+medicalPlasterCastSchematic
+toolBellowsSchematic
+toolForgeCrucibleSchematic
+toolAnvilSchematic
+cementMixerSchematic
+workbenchSchematic
+forgeSchematic
+chemistryStationSchematic
+vehicleBicycleChassisSchematic
+vehicleBicycleHandlebarsSchematic
+vehicleMinibikeChassisSchematic
+vehicleMinibikeHandlebarsSchematic
+vehicleMotorcycleChassisSchematic
+vehicleMotorcycleHandlebarsSchematic
+vehicle4x4TruckChassisSchematic
+vehicle4x4TruckAccessoriesSchematic
+vehicleGyroCopterChassisSchematic
+vehicleGyroCopterAccessoriesSchematic
+generatorbankSchematic
+pressureplateSchematic
+poweredDoorsSchematic
+bladeTrapSchematic
+dartTrapSchematic
+shotgunTurretSchematic
+autoTurretSchematic
+electricfencepostSchematic
+motionsensorSchematic
+speakerSchematic
+spotlightPlayerSchematic
+switchSchematic
+batterybankSchematic
+electrictimerrelaySchematic
+modGunBarrelExtenderSchematic
+modGunMuzzleBrakeSchematic
+modGunSoundSuppressorSilencerSchematic
+modGunLaserSightSchematic
+modGunFlashlightSchematic
+modGunScopeSmallSchematic
+modGunScopeMediumSchematic
+modGunScopeLargeSchematic
+modGunReflexSightSchematic
+modGunTriggerGroupSemiSchematic
+modGunTriggerGroupBurst3Schematic
+modGunTriggerGroupAutomaticSchematic
+modGunBipodSchematic
+modGunForegripSchematic
+modGunRetractingStockSchematic
+modGunDuckbillSchematic
+modGunChokeSchematic
+modGunMagazineExtenderSchematic
+modShotgunSawedOffBarrelSchematic
+modGunCrippleEmSchematic
+modGunBowPolymerStringSchematic
+modGunBowArrowRestSchematic
+modGunMeleeTheHunterSchematic
+modGunMeleeRadRemoverSchematic
+modGunMeleeBlessedMetalSchematic
+modMeleeTemperedBladeSchematic
+modMeleeSerratedBladeSchematic
+modMeleeWeightedHeadSchematic
+modMeleeStructuralBraceSchematic
+modMeleeErgonomicGripSchematic
+modMeleeFortifyingGripSchematic
+modMeleeClubBarbedWireSchematic
+modMeleeClubMetalSpikesSchematic
+modMeleeClubMetalChainSchematic
+modMeleeGraveDiggerSchematic
+modMeleeBunkerBusterSchematic
+modMeleeIronBreakerSchematic
+modMeleeWoodSplitterSchematic
+modMeleeClubBurningShaftSchematic
+modArmorInsulatedLinerSchematic
+modArmorCoolingMeshSchematic
+modArmorImprovedFittingsSchematic
+modArmorCustomizedFittingsSchematic
+modArmorPlatingBasicSchematic
+modArmorPlatingReinforcedSchematic
+modArmorStoragePocketSchematic
+modArmorDoubleStoragePocketSchematic
+modArmorTripleStoragePocketSchematic
+modArmorMuffledConnectorsSchematic
+modArmorAdvancedMuffledConnectorsSchematic
+modArmorImpactBracingSchematic
+modArmorBandolierSchematic
+modArmorWaterPurifierSchematic
+modArmorHelmetLightSchematic
+modFuelTankSmallSchematic
+modFuelTankLargeSchematic
+schematicNoQualityRecipeMaster
+ammoGasCanSchematic
+resourceOilSchematic
+drugAntibioticsSchematic
+drugHerbalAntibioticsSchematic
+foodCanShamSchematic
+drinkJarBeerSchematic
+drinkJarCoffeeSchematic
+drinkJarGoldenRodTeaSchematic
+drinkJarGrandpasAwesomeSauceSchematic
+drinkJarGrandpasLearningElixirSchematic
+drinkJarGrandpasMoonshineSchematic
+drinkJarRedTeaSchematic
+drinkYuccaJuiceSmoothieSchematic
+foodBaconAndEggsSchematic
+foodBakedPotatoSchematic
+foodBlueberryPieSchematic
+foodPumpkinPieSchematic
+foodPumpkinCheesecakeSchematic
+foodPumpkinBreadSchematic
+foodGumboStewSchematic
+foodShepardsPieSchematic
+foodSpaghettiSchematic
+foodTunaFishGravyToastSchematic
+foodBoiledMeatSchematic
+foodChiliDogSchematic
+foodCornBreadSchematic
+foodCornOnTheCobSchematic
+foodFishTacosSchematic
+foodGrilledMeatSchematic
+foodHoboStewSchematic
+foodMeatStewSchematic
+foodShamChowderSchematic
+foodSteakAndPotatoSchematic
+foodVegetableStewSchematic
+plantedAloe1Schematic
+plantedBlueberry1Schematic
+plantedChrysanthemum1Schematic
+plantedCoffee1Schematic
+plantedCorn1Schematic
+plantedCotton1Schematic
+plantedGoldenrod1Schematic
+plantedGraceCorn1Schematic
+plantedHop1Schematic
+plantedMushroom1Schematic
+plantedPotato1Schematic
+plantedYucca1Schematic
+plantedPumpkin1Schematic
+
+FuriousRamsayStarterBackpackCharisma
+179, 107, 167
+FuriousRamsayStarterBackpackConstitution
+122, 189, 113
+FuriousRamsayStarterBackpackDexterity
+189, 191, 113
+FuriousRamsayStarterBackpackIntelligence
+112, 164, 186
+FuriousRamsayStarterBackpackStrength
+194, 114, 114
+
+[53adbd]HUNTER
+[e0e036]THUG
+[ff5b69]BUTCHER
+[76e381]SOLDIER
+[736fe3]TECHNOGEEK
+[e8a276]MADMAN
+[c256fc]BUILDER
+[878787]SOUS-CHEF
+
+[83, 173, 189]HUNTER
+[224, 224, 54]THUG
+[255, 91, 105]BUTCHER
+[118, 227, 129]SOLDIER
+[115, 111, 227]TECHNOGEEK
+[232, 162, 118]MADMAN
+[194, 86, 252]BUILDER
+[135, 135, 135]SOUS-CHEF
+
+meleeToolAxeT1IronFireaxe
+meleeWpnBladeT1HuntingKnife
+meleeWpnBladeT3Machete
+meleeWpnClubT1BaseballBat
+meleeWpnSpearT1IronSpear
+meleeWpnSledgeT1IronSledgehammer
+meleeWpnKnucklesT1IronKnuckles
+gunBowT1WoodenBow
+meleeWpnBatonT2StunBaton
+meleeToolAxeT2SteelAxe
+meleeToolPickT2SteelPickaxe
+meleeToolShovelT2SteelShovel
+meleeToolAxeT3Chainsaw
+meleeToolPickT3Auger
+meleeToolSalvageT2Ratchet
+meleeToolSalvageT3ImpactDriver
+meleeWpnClubT3SteelClub
+meleeWpnSpearT3SteelSpear
+meleeWpnSledgeT3SteelSledgehammer
+meleeWpnKnucklesT3SteelKnuckles
+gunBowT3CompoundBow
+gunBowT3CompoundCrossbow
+gunBotT1JunkSledge
+gunBotT2JunkTurret
+gunBowT1IronCrossbow
+
+meleeWpnBladeT0BoneKnife
+meleeWpnClubT0WoodenClub
+meleeWpnClubT1BaseballBat
+meleeWpnClubT3SteelClub
+meleeWpnSpearT1IronSpear
+meleeWpnSpearT3SteelSpear
+meleeWpnKnucklesT3SteelKnuckles
+meleeToolPickT2SteelPickaxe
+meleeToolShovelT1IronShovel
+meleeToolShovelT2SteelShovel
+meleeToolAxeT1IronFireaxe
+meleeWpnBladeT1HuntingKnife
+meleeWpnBladeT3Machete
+meleeWpnBatonT2StunBaton
+meleeWpnSpearT0StoneSpear
+meleeWpnSledgeT0StoneSledgehammer
+meleeWpnSledgeT1IronSledgehammer
+meleeWpnSledgeT3SteelSledgehammer
+meleeWpnKnucklesT0LeatherKnuckles
+meleeWpnKnucklesT1IronKnuckles
+meleeToolRepairT0StoneAxe
+meleeToolPickT1IronPickaxe
+meleeToolShovelT0StoneShovel
+meleeToolSalvageT1Wrench
+meleeToolFarmT1IronHoe
+
+
+===========RECIPES===========
+
+REMOVE:
+ammoGasCan
+oilBarrel
+resourceGlue
+resourceGunPowder
+treePlant02
+foodCornMeal
+decoPumpkinJackOLantern
+ammoBlunderbuss
+sandbagBlockVariantHelper
+resourceCoal
+resourceMilitaryFiber
+armorClothBoots
+armorClothGloves
+armorClothHat
+armorClothJacket
+armorClothPants
+armorIronBoots
+armorIronChest
+armorIronGloves
+armorIronHelmet
+armorIronLegs
+armorLeatherBoots
+armorLeatherChest
+armorLeatherGloves
+armorLeatherHood
+armorLeatherPants
+armorMilitaryBoots
+armorMilitaryStealthBoots
+armorMilitaryGloves
+armorMilitaryHelmet
+armorMilitaryLegs
+armorMilitaryVest
+armorFirefightersHelmet
+armorMiningHelmet
+armorScrapBoots
+armorScrapChest
+armorScrapGloves
+armorScrapHelmet
+armorScrapLegs
+armorSteelBoots
+armorSteelChest
+armorSteelGloves
+armorSteelHelmet
+armorSteelLegs
+gunHandgunT1Pistol
+gunHandgunT2Magnum44
+gunHandgunT3DesertVulture
+gunMGT1AK47
+gunMGT2TacticalAR
+gunMGT3M60
+gunRifleT1HuntingRifle
+gunRifleT2MarksmanRifle
+gunRifleT3SniperRifle
+gunShotgunT1DoubleBarrel
+gunShotgunT2PumpShotgun
+gunShotgunT3AutoShotgun
+gunExplosivesT3RocketLauncher
+gunHandgunT3SMG5
+
+HAND:
+meleeToolTorch
+FuriousRamsayZombieBodyBagPileTier1
+FuriousRamsayZombieBodyBagPileTier2
+FuriousRamsayZombieBodyBagPileTier3
+FuriousRamsayZombieBodyBagPileTier4
+FuriousRamsayZombieBodyBagPileTier5
+FuriousRamsayBanditGravestoneStarter
+FuriousRamsayBanditGravestoneTier1
+FuriousRamsayBanditGravestoneTier2
+FuriousRamsayBanditGravestoneTier3
+FuriousRamsayHazmatMarkerStarter
+FuriousRamsayHazmatMarkerTier1
+FuriousRamsayHazmatMarkerTier2
+FuriousRamsayHazmatMarkerTier3
+FuriousRamsayHazmatMarkerTier4
+FuriousRamsayHazmatMarkerTier5
+campfire
+gunBowT0PrimitiveBow
+medicalSplint" count="1">
+
+TOOLBOX:
+meleeToolPaintTool" count="1">
+meleeToolFarmT1IronHoe" count="1" tags="learnable,perkLivingOffTheLand">
+resourceDuctTape" count="1">
+medicalBandage" count="1">
+medicalFirstAidBandage" count="1" tags="learnable">
+medicalFirstAidKit" count="1" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
+medicalPlasterCast" count="1" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
+
+MORTAR PESTLE:
+(add) foodCornMeal" count="1" craft_area="WorkbenchMortarPestle001_FR"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"-->
+plantedAloe1" count="1" craft_time="1" tags="learnable">
+plantedBlueberry1" count="1" craft_time="1" tags="learnable">
+plantedChrysanthemum1" count="1" craft_time="1" tags="learnable">
+plantedCoffee1" count="1" craft_time="1" tags="learnable">
+plantedCorn1" count="1" craft_time="1" tags="learnable">
+plantedCotton1" count="1" craft_time="1" tags="learnable">
+plantedGoldenrod1" count="1" craft_time="1" tags="learnable">
+plantedGraceCorn1" count="1" craft_time="1" tags="learnable">
+plantedHop1" count="1" craft_time="1" tags="learnable">
+plantedMushroom1" count="1" craft_time="2" tags="learnable">
+plantedPotato1" count="1" craft_time="1" tags="learnable">
+plantedYucca1" count="1" craft_time="1" tags="learnable">
+plantedPumpkin1" count="1" craft_time="1" tags="learnable">
+medicalAloeCream" count="1">
+
+CAMPFIRE:
+drinkJarBoiledWater" count="1" craft_area="campfire" craft_time="40" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+foodBaconAndEggs" count="1" craft_area="campfire" craft_tool="toolCookingPot" always_unlocked="true"><!--Attribute "always_unlocked" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"--><!--Attribute "tags" removed by: "zz_Trader Network_MoreJobs_Rebirth"-->
+foodBakedPotato" count="1" craft_area="campfire" always_unlocked="true"><!--Attribute "always_unlocked" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"--><!--Attribute "tags" removed by: "zz_Trader Network_MoreJobs_Rebirth"-->
+foodBoiledMeat" count="1" craft_area="campfire" craft_tool="toolCookingPot" always_unlocked="true"><!--Attribute "always_unlocked" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"--><!--Attribute "tags" removed by: "zz_Trader Network_MoreJobs_Rebirth"-->
+foodCornOnTheCob" count="1" craft_area="campfire" craft_tool="toolCookingPot" always_unlocked="true"><!--Attribute "always_unlocked" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"--><!--Attribute "tags" removed by: "zz_Trader Network_MoreJobs_Rebirth"-->
+foodEggBoiled" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+foodGrilledMeat" count="1" craft_area="campfire" craft_tool="toolCookingGrill" always_unlocked="true"><!--Attribute "always_unlocked" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"--><!--Attribute "tags" removed by: "zz_Trader Network_MoreJobs_Rebirth"-->
+
+GAS STOVE:
+drinkJarBoiledWater" count="1" craft_area="campfire" craft_time="40" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+drinkJarCoffee" count="1" craft_area="campfire" craft_tool="toolCookingPot" always_unlocked="true"><!--Attribute "always_unlocked" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"--><!--Attribute "tags" removed by: "zz_Trader Network_MoreJobs_Rebirth"-->
+drinkJarGoldenRodTea" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+drinkJarRedTea" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+drinkJarRiverWater" count="1" craft_area="campfire" tags="perkMasterChef">
+drinkJarYuccaJuice" count="1" craft_area="campfire" tags="perkMasterChef">
+foodChiliDog" count="1" craft_area="WorkbenchGasStove001_FR" craft_tool="toolCookingPot" tags="perkMasterChef,learnable"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"-->
+foodHoboStew" count="1" craft_time="65" craft_area="WorkbenchGasStove001_FR" craft_tool="toolCookingPot" tags="perkMasterChef,learnable"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"-->
+foodMeatStew" count="1" craft_area="WorkbenchGasStove001_FR" craft_tool="toolCookingPot" tags="perkMasterChef,learnable"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"-->
+foodGumboStew" count="1" craft_area="WorkbenchGasStove001_FR" craft_tool="toolCookingPot" tags="perkMasterChef,learnable"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"-->
+foodShepardsPie" count="1" craft_area="WorkbenchIronOven001_FR" craft_tool="FuriousRamsayBakingPan" tags="perkMasterChef,learnable"><!--Attribute "craft_tool" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"--><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"-->
+foodSpaghetti" count="1" craft_area="WorkbenchGasStove001_FR" craft_tool="toolCookingPot" always_unlocked="true"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"--><!--Attribute "always_unlocked" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"--><!--Attribute "tags" removed by: "zz_Trader Network_MoreJobs_Rebirth"-->
+foodTunaFishGravyToast" count="1" craft_area="WorkbenchGasStove001_FR" craft_tool="toolCookingPot" tags="perkMasterChef,learnable"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"-->
+foodShamChowder" count="1" craft_area="WorkbenchGasStove001_FR" craft_tool="toolCookingPot" tags="perkMasterChef,learnable"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"-->
+foodSteakAndPotato" count="1" craft_area="WorkbenchGasStove001_FR" craft_tool="toolCookingPot" always_unlocked="true"><!--Attribute "craft_tool" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"--><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"--><!--Attribute "always_unlocked" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"--><!--Attribute "tags" removed by: "zz_Trader Network_MoreJobs_Rebirth"-->
+foodVegetableStew" count="1" craft_area="WorkbenchGasStove001_FR" craft_tool="toolCookingPot" tags="perkMasterChef,learnable"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"-->
+
+IRON OVEN:
+foodShepardsPie" count="1" craft_area="WorkbenchIronOven001_FR" craft_tool="FuriousRamsayBakingPan" tags="perkMasterChef,learnable"><!--Attribute "craft_tool" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"--><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"-->
+foodFishTacos" count="1" craft_area="WorkbenchIronOven001_FR" craft_tool="FuriousRamsayBakingPan" tags="perkMasterChef,learnable"><!--Attribute "craft_tool" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"--><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"-->
+foodBlueberryPie" count="1" craft_area="WorkbenchIronOven001_FR" craft_tool="FuriousRamsayBakingPan" tags="perkMasterChef,learnable"><!--Attribute "craft_tool" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"--><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"-->
+foodPumpkinPie" count="1" craft_area="WorkbenchIronOven001_FR" craft_tool="FuriousRamsayBakingPan" tags="perkMasterChef,learnable"><!--Attribute "craft_tool" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"--><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"-->
+foodPumpkinCheesecake" count="1" craft_area="WorkbenchIronOven001_FR" craft_tool="FuriousRamsayBakingPan" tags="perkMasterChef,learnable"><!--Attribute "craft_tool" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"--><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"-->
+foodPumpkinBread" count="1" craft_area="WorkbenchIronOven001_FR" craft_tool="FuriousRamsayBakingPan" tags="perkMasterChef,learnable"><!--Attribute "craft_tool" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"--><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"-->
+foodCornBread" count="1" craft_area="WorkbenchIronOven001_FR" craft_tool="FuriousRamsayBakingPan" tags="perkMasterChef,learnable"><!--Attribute "craft_tool" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"--><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_MoreJobs_Rebirth"-->
+
+CONCRETE MIXER:
+resourceConcreteMix" count="1" craft_area="cementMixer" tags="cementMixerCrafting">
+	" count="1" craft_area="cementMixer" tags="cementMixerCrafting">
+terrAsphalt" count="1" craft_area="cementMixer" tags="cementMixerCrafting">
+flagstoneBlockVariantHelper" count="1">
+pouredConcreteBlockVariantHelper" count="1" craft_area="cementMixer" tags="cementMixerCrafting">
+terrStone" count="1" craft_area="cementMixer" tags="cementMixerCrafting">
+terrDirt" count="1" craft_time="3">
+terrTopSoil" count="1" craft_time="3">
+
+DISTILLER:
+drinkJarBeer" count="1" craft_area="chemistryStation" tags="perkMasterChef,learnable,chemStationCrafting">
+
+CHEMISTRY STATION:
+resourceOil" count="1" craft_area="chemistryStation" tags="perkGreaseMonkey,learnable,chemStationCrafting">
+FuriousRamsayDrugPrussianBluePowder" craft_area="chemistryStation" craft_time="3" always_unlocked="true"><!--Element appended by: "zz_Trader Network_MoreJobs"-->
+ammoGasCan (re-add)
+resourceGlue (re-add)
+resourceGunPowder (re-add)
+
+FORGE:
+bucketEmpty" count="1">
+resourceLockPick" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+resourceForgedIron" count="1" craft_area="WorkbenchAnvil001_FR" tags="perkAdvancedEngineering"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_Assets_Blocks"--><!--Attribute "material_based" removed by: "zz_Trader Network_Assets_Blocks"-->
+resourceForgedSteel" count="1" craft_area="WorkbenchAnvil001_FR" tags="perkAdvancedEngineering"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_Assets_Blocks"--><!--Attribute "craft_tool" removed by: "zz_Trader Network_Assets_Blocks"--><!--Attribute "material_based" removed by: "zz_Trader Network_Assets_Blocks"-->
+resourceMetalPipe" count="1" craft_area="WorkbenchAnvil001_FR" tags="perkAdvancedEngineering"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_Assets_Blocks"--><!--Attribute "material_based" removed by: "zz_Trader Network_Assets_Blocks"-->
+resourceMetalPipe" count="1" craft_area="WorkbenchAnvil001_FR"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_Assets_Blocks"-->
+scrapIronFrameBlockVariantHelper" count="1" craft_area="WorkbenchAnvil001_FR" tags="perkAdvancedEngineering"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_Assets_Blocks"--><!--Attribute "material_based" removed by: "zz_Trader Network_Assets_Blocks"-->
+keystoneBlock" count="1" craft_time="30" craft_area="WorkbenchToolbox001_FR"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_Assets_Blocks"-->
+
+WORKBENCH:
+FuriousRamsayFireArmorRepairKit" time="1" always_unlocked="true"><!--Element appended by: "zz_Trader Network_MoreJobs"-->
+FuriousRamsayFireArmorRepairKit" time="1" always_unlocked="true"><!--Element appended by: "zz_Trader Network_MoreJobs"-->
+FuriousRamsayFireArmorRepairKit" time="1" always_unlocked="true"><!--Element appended by: "zz_Trader Network_MoreJobs"-->
+FuriousRamsayShockArmorRepairKit" time="1" always_unlocked="true"><!--Element appended by: "zz_Trader Network_MoreJobs"-->
+FuriousRamsayShockArmorRepairKit" time="1" always_unlocked="true"><!--Element appended by: "zz_Trader Network_MoreJobs"-->
+FuriousRamsayShockArmorRepairKit" time="1" always_unlocked="true"><!--Element appended by: "zz_Trader Network_MoreJobs"-->
+FuriousRamsaySmokeArmorRepairKit" time="1" always_unlocked="true"><!--Element appended by: "zz_Trader Network_MoreJobs"-->
+FuriousRamsaySmokeArmorRepairKit" time="1" always_unlocked="true"><!--Element appended by: "zz_Trader Network_MoreJobs"-->
+FuriousRamsayFireShockArmorRepairKit" time="1" always_unlocked="true"><!--Element appended by: "zz_Trader Network_MoreJobs"-->
+FuriousRamsayFireShockArmorRepairKit" time="1" always_unlocked="true"><!--Element appended by: "zz_Trader Network_MoreJobs"-->
+FuriousRamsayFireShockSmokeArmorRepairKit" time="1" always_unlocked="true"><!--Element appended by: "zz_Trader Network_MoreJobs"-->
+meleeToolPickT1IronPickaxe" count="1" tags="learnable"><!--Attribute "tags" added/overwritten by: "zz_Trader Network_Assets_Blocks"-->
+meleeToolShovelT1IronShovel" count="1" tags="learnable,perkMiner69r">
+ammo9mmBulletBall" count="1" craft_area="workbench" tags="workbenchCrafting">
+ammo9mmBulletHP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+ammo9mmBulletAP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+ammo44MagnumBulletBall" count="1" craft_area="workbench" tags="workbenchCrafting">
+ammo44MagnumBulletHP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+ammo44MagnumBulletAP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+ammo762mmBulletBall" count="1" craft_area="workbench" tags="workbenchCrafting">
+ammo762mmBulletHP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+ammo762mmBulletAP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+ammoShotgunShell" count="1" craft_area="workbench" tags="workbenchCrafting">
+ammoShotgunSlug" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+ammoShotgunBreachingSlug" count="1" craft_time="9" craft_area="workbench" tags="learnable,workbenchCrafting">
+ammoJunkTurretRegular" count="1">
+ammoJunkTurretShell" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+ammoJunkTurretAP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+ammoArrowFlaming" count="1" craft_time="12" craft_area="workbench" tags="learnable,workbenchCrafting">
+ammoArrowExploding" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+ammoArrowIron" count="1">
+ammoArrowSteelAP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+ammoArrowStone" count="1">
+ammoCrossbowBoltFlaming" count="1" craft_time="14" craft_area="workbench" tags="learnable,workbenchCrafting">
+ammoCrossbowBoltExploding" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+ammoCrossbowBoltIron" count="1">
+ammoCrossbowBoltSteelAP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+ammoCrossbowBoltStone" count="1">
+ammoDartIron" count="1" craft_area="WorkbenchAnvil001_FR" tags="perkAdvancedEngineering"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_Assets_Blocks"--><!--Attribute "material_based" removed by: "zz_Trader Network_Assets_Blocks"-->
+ammoRocketFrag" count="1" craft_time="40" craft_area="workbench" tags="learnable,workbenchCrafting">
+ammoRocketHE" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+autoTurret" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable"> <!-- trap -->
+barbedFence" count="1"> <!-- trap -->
+carBattery" count="1" craft_area="chemistryStation" tags="learnable,perkGreaseMonkey,chemStationCrafting">
+batterybank" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+bladeTrap" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable"> <!-- trap -->
+cementMixer" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+cntSecureStorageChest" count="1" craft_area="workbench" always_unlocked="true"><!--Attribute "always_unlocked" added/overwritten by: "zz_Trader Network_Assets_Blocks"--><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_Assets_Blocks"-->
+woodSignBlockVariantHelper" count="1">
+dartTrap" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable"> <!-- trap -->
+electricfencepost" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+electrictimerrelay" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+electricwirerelay" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+garageDoorMetal_v1" count="1" craft_area="workbench" tags="workbenchCrafting">
+garageDoorMetal_v1Powered" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+garageDoorHousePlayer" count="1" craft_area="workbench" tags="workbenchCrafting">
+garageDoorIndustrial_Powered" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+metalReinforcedWoodDrawBridge" count="1" craft_area="workbench">
+metalReinforcedWoodDrawBridgePowered" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+generatorbank" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+ironBars" count="1" craft_area="WorkbenchAnvil001_FR" tags="perkAdvancedEngineering"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_Assets_Blocks"--><!--Attribute "material_based" removed by: "zz_Trader Network_Assets_Blocks"-->
+ironBarsCentered" count="1" craft_area="WorkbenchAnvil001_FR" tags="perkAdvancedEngineering"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_Assets_Blocks"--><!--Attribute "material_based" removed by: "zz_Trader Network_Assets_Blocks"-->
+ironDoor1_v1" count="1">
+ladderMetal" count="1">
+ladderSteel" count="1" craft_area="workbench" tags="workbenchCrafting">
+ladderWood" count="1">
+looseBoardsTrapBlock1x1" count="1"> <!-- trap -->
+looseBoardsTrapBlock3x3" count="1"> <!-- trap -->
+looseBoardsTrapPlate1x1" count="1"> <!-- trap -->
+metalSignLetterNumberBlockVariantHelper" count="1" craft_area="WorkbenchAnvil001_FR" tags="perkAdvancedEngineering"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_Assets_Blocks"--><!--Attribute "material_based" removed by: "zz_Trader Network_Assets_Blocks"-->
+motionsensor" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+pressureplate" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+pressureplateLong" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+resourceArrowHeadIron" count="1" craft_area="WorkbenchAnvil001_FR" tags="perkAdvancedEngineering"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_Assets_Blocks"--><!--Attribute "material_based" removed by: "zz_Trader Network_Assets_Blocks"-->
+resourceArrowHeadSteelAP" count="1" craft_area="WorkbenchAnvil001_FR" craft_tool="toolForgeCrucible" tags="perkAdvancedEngineering"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_Assets_Blocks"--><!--Attribute "material_based" removed by: "zz_Trader Network_Assets_Blocks"-->
+resourceBuckshot" count="1" craft_area="WorkbenchAnvil001_FR" tags="perkAdvancedEngineering"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_Assets_Blocks"--><!--Attribute "material_based" removed by: "zz_Trader Network_Assets_Blocks"-->
+resourceBulletCasing" count="1" craft_area="WorkbenchAnvil001_FR" tags="perkAdvancedEngineering"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_Assets_Blocks"--><!--Attribute "material_based" removed by: "zz_Trader Network_Assets_Blocks"-->
+resourceBulletTip" count="1" craft_area="WorkbenchAnvil001_FR" tags="perkAdvancedEngineering"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_Assets_Blocks"--><!--Attribute "material_based" removed by: "zz_Trader Network_Assets_Blocks"-->
+resourceRocketCasing" count="1" craft_area="WorkbenchAnvil001_FR" tags="perkAdvancedEngineering,learnable"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_Assets_Blocks"--><!--Attribute "material_based" removed by: "zz_Trader Network_Assets_Blocks"-->
+resourceRocketTip" count="1" craft_area="WorkbenchAnvil001_FR" tags="perkAdvancedEngineering,learnable"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_Assets_Blocks"--><!--Attribute "material_based" removed by: "zz_Trader Network_Assets_Blocks"-->
+scrapHatch_v1" count="1">
+scrapIronSheet" count="1" craft_area="WorkbenchAnvil001_FR" tags="perkAdvancedEngineering"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_Assets_Blocks"--><!--Attribute "material_based" removed by: "zz_Trader Network_Assets_Blocks"-->
+scrapIronStairs25" count="1" craft_area="WorkbenchAnvil001_FR" tags="perkAdvancedEngineering"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_Assets_Blocks"--><!--Attribute "material_based" removed by: "zz_Trader Network_Assets_Blocks"-->
+scrapIronStairsFilledRailingLeft" count="1" craft_area="WorkbenchAnvil001_FR" tags="perkAdvancedEngineering"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_Assets_Blocks"--><!--Attribute "material_based" removed by: "zz_Trader Network_Assets_Blocks"-->
+scrapIronStairsFilledRailingRight" count="1" craft_area="WorkbenchAnvil001_FR" tags="perkAdvancedEngineering"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_Assets_Blocks"--><!--Attribute "material_based" removed by: "zz_Trader Network_Assets_Blocks"-->
+scrapIronArrowSlitHalf" count="1" craft_area="WorkbenchAnvil001_FR" tags="perkAdvancedEngineering"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_Assets_Blocks"--><!--Attribute "material_based" removed by: "zz_Trader Network_Assets_Blocks"-->
+scrapIronCTRpole" count="1" craft_area="WorkbenchAnvil001_FR" tags="perkAdvancedEngineering"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_Assets_Blocks"--><!--Attribute "material_based" removed by: "zz_Trader Network_Assets_Blocks"-->
+secureDoorWooden" count="1">
+shotgunTurret" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable"> <!-- trap -->
+speaker" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+spotlightPlayer" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+switch" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+thrownAmmoMolotovCocktail" count="1" craft_time="12">
+thrownAmmoPipeBomb" count="1" craft_time="12" craft_area="workbench" tags="learnable,workbenchCrafting">
+thrownGrenade" count="1" craft_time="16" craft_area="workbench" tags="learnable,workbenchCrafting">
+thrownGrenadeContact" count="1" craft_time="20" craft_area="workbench" tags="learnable,workbenchCrafting">
+thrownTimedCharge" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+thrownDynamite" count="1" craft_time="15" craft_area="workbench" tags="learnable,workbenchCrafting">
+trapSpikesIronDmg0" count="1">
+trapSpikesWoodDmg0" count="1">
+tripwirepost" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+vaultDoor01" count="1" craft_area="workbench" tags="workbenchCrafting">
+vaultHatch_v1" count="1" craft_area="workbench" tags="workbenchCrafting">
+vaultHatch_v3_Powered" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+vaultDoor03_Powered" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+vehicle4x4TruckAccessories" count="1" craft_time="210" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+vehicle4x4TruckChassis" count="1" craft_time="210" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+vehicle4x4TruckPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+vehicleBicycleChassis" count="1" craft_time="30" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+vehicleBicycleHandlebars" count="1" craft_time="30" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+vehicleBicyclePlaceable" count="1" craft_time="30" tags="workbenchCrafting">
+vehicleGyroCopterAccessories" count="1" craft_time="270" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+vehicleGyroCopterChassis" count="1" craft_time="270" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+vehicleGyrocopterPlaceable" count="1" craft_time="270" craft_area="workbench" tags="workbenchCrafting">
+vehicleMinibikeChassis" count="1" craft_time="90" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+vehicleMinibikeHandlebars" count="1" craft_time="90" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+vehicleMinibikePlaceable" count="1" craft_time="90" craft_area="workbench" tags="workbenchCrafting">
+vehicleMotorcycleChassis" count="1" craft_time="150" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+vehicleMotorcycleHandlebars" count="1" craft_time="150" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+vehicleMotorcyclePlaceable" count="1" craft_time="150" craft_area="workbench" tags="workbenchCrafting">
+vehicleWheels" count="1" tags="perkGreaseMonkey,learnable">
+woodBars" count="1">
+woodBarsCentered" count="1">
+woodCatwalkBlockVariantHelper" count="1">
+woodFenceRailingTrellisSheetBlockVariantHelper" count="1">
+woodHatch1_v1" count="1">
+woodLogPillar100" count="1">
+metalFenceRailingTrellisSheetBlockVariantHelper" count="1" craft_area="WorkbenchAnvil001_FR" tags="perkAdvancedEngineering"><!--Attribute "craft_area" added/overwritten by: "zz_Trader Network_Assets_Blocks"--><!--Attribute "material_based" removed by: "zz_Trader Network_Assets_Blocks"-->
+FuriousRamsayBurningTrap" craft_time="60" craft_area="campfire" always_unlocked="true"><!--Element appended by: "zz_Trader Network_MoreJobs_Items and Blocks"-->
+FuriousRamsayScreamerSignalTier1" craft_time="300" tags="learnable"><!--Element appended by: "zz_Trader Network_MoreJobs_Items and Blocks"-->
+FuriousRamsayScreamerSignalTier2" craft_time="300" tags="learnable"><!--Element appended by: "zz_Trader Network_MoreJobs_Items and Blocks"-->
+FuriousRamsayScreamerSignalTier3" craft_time="300" tags="learnable"><!--Element appended by: "zz_Trader Network_MoreJobs_Items and Blocks"-->
+FuriousRamsayScreamerSignalTier4" craft_time="300" tags="learnable"><!--Element appended by: "zz_Trader Network_MoreJobs_Items and Blocks"-->
+FuriousRamsayScreamerSignalTier5" craft_time="300" tags="learnable"><!--Element appended by: "zz_Trader Network_MoreJobs_Items and Blocks"-->
+
+modGunBarrelExtender
+modGunMuzzleBrakement
+modGunFlashSuppressor
+modGunSoundSuppressorSilencer
+modGunLaserSight
+modGunFlashlight
+modGunScopeSmall
+modGunScopeMedium
+modGunScopeLarge
+modGunReflexSight
+modGunTriggerGroupSemi
+modGunTriggerGroupBurst3
+modGunTriggerGroupAutomatic
+modGunBipod
+modGunForegrip
+modGunRetractingStock
+modGunFoldingStock
+modShotgunSawedOffBarrel
+modGunDuckbill
+modGunChoke
+modGunMagazineExtender
+modGunDrumMagazineExtender
+modGunShotgunTubeExtenderMagazine
+modGunButtkick3000
+modGunButtkick4000
+modMeleeGunToolDecapitizer
+modGunMeleeFeelTheHeat
+modGunCrippleEm
+modGunBowPolymerString
+modGunBowArrowRest
+modGunMeleeTheHunter
+modGunMeleeRadRemover
+modGunMeleeBlessedMetal
+modGunMeleeNamePlate
+modGunMeleeNiCdBattery
+modGunMeleeFlammableOil
+modGunMeleeLiquidNitrogen
+modMeleeTemperedBlade
+modMeleeSerratedBlade
+modMeleeWeightedHead
+modMeleeStructuralBrace
+modMeleeErgonomicGrip
+modMeleeFortifyingGrip
+modMeleeClubBarbedWire
+modMeleeClubMetalSpikes
+modMeleeClubMetalChain
+modMeleeClubBurningShaft
+modMeleeFiremansAxeMod
+modMeleeGraveDigger
+modMeleeBunkerBuster
+modMeleeIronBreaker
+modMeleeWoodSplitter
+modMeleeDiamondTip
+modMeleeStunBatonRepulsor
+modFuelTankSmall
+modFuelTankLarge
+modArmorBandolier
+modYoureFired
+modRadiationReady
+modArmorInsulatedLiner
+modArmorCoolingMesh
+modArmorImprovedFittings
+modArmorCustomizedFittings
+modArmorPlatingBasic
+modArmorPlatingReinforced
+modArmorStoragePocket
+modArmorDoubleStoragePocket
+modArmorTripleStoragePocket
+modArmorMuffledConnectors
+modArmorAdvancedMuffledConnectors
+modArmorImpactBracing
+modArmorWaterPurifier
+modArmorJumpJets
+modArmorHelmetLight
+modClothingStoragePocket
+modClothingCargoStoragePocket
+
+TREES:
+treePlainsTree2
+treeDeadTree01
+treeDeadTree02
+treeBurntMaple01
+treePlantedWinterPine6m
+treeWinterEverGreen
+treePlantedMountainPine12m
+treeJuniper4m
+treeOakSml01
+treePlantedOak08m
+treeMountainPine12m
+treePlantedWinterPine13m
+treeWinterPine13m
+treeMountainPine19m
+treePlantedOak16m
+treeOakMed01
+treePlantedMountainPine19m
+treePlantedWinterPine19m
+treeWinterPine19m
+treeMountainPine31m
+treeMountainPine27m
+treePlantedOak27m
+treeOakMed02
+treeMountainPineDry21m
+treePineBurntMed
+treePineBurntFullMed
+treePlantedMountainPine27m
+treeBurntMaple02
+treeMountainPine41m
+treePlantedOak41m
+treeOakLrg01
+treeMountainPine48m
+treePineBurntLrg
+treeFirLrg01
+treePlantedMountainPine41m
+treeWinterPine28m
+treePlantedWinterPine28m
+treeBurntMaple03
+
+ZOMBIES:
+FERALS
+zombieArleneFeral
+zombieMarleneFeral
+zombiePartyGirlFeral
+zombieNurseFeral
+zombieJoeFeral
+zombieSteveFeral
+zombieTomClarkFeral
+zombieBusinessManFeral
+zombieBurntFeral
+zombieSpiderFeral
+zombieBoeFeral
+zombieJanitorFeral
+zombieMoeFeral
+zombieLabFeral
+zombieDarleneFeral
+zombieYoFeral
+zombieUtilityWorkerFeral
+zombieBikerFeral
+zombieLumberjackFeral
+zombieFemaleFatFeral
+zombieFatHawaiianFeral
+zombieMaleHazmatFeral
+zombieFatCopFeral
+zombieSkateboarderFeral
+zombieSoldierFeral
+zombieWightFeral
+zombieScreamerFeral
+zombieMutatedFeral
+zombieSteveCrawlerFeral
+
+RADIATED
+zombieArleneRadiated
+zombieMarleneRadiated
+zombiePartyGirlRadiated
+zombieNurseRadiated
+zombieJoeRadiated
+zombieSteveRadiated
+zombieTomClarkRadiated
+zombieBusinessManRadiated
+zombieBurntRadiated
+zombieSpiderRadiated
+zombieBoeRadiated
+zombieJanitorRadiated
+zombieMoeRadiated
+zombieLabRadiated
+zombieDarleneRadiated
+zombieYoRadiated
+zombieUtilityWorkerRadiated
+zombieBikerRadiated
+zombieLumberjackRadiated
+zombieFemaleFatRadiated
+zombieFatHawaiianRadiated
+zombieMaleHazmatRadiated
+zombieFatCopRadiated
+zombieSkateboarderRadiated
+zombieSoldierRadiated
+zombieWightRadiated
+zombieScreamerRadiated
+zombieMutatedRadiated

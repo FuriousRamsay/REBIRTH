@@ -1,9 +1,52 @@
 <Config>
 
-<!--<property name="AIPackages" value="NPCBasicNoChat, NPCMeleeBasic"/>-->
+	<setattribute xpath="//entity_class[@name='npcMeleeTemplate']/effect_group[@name='Base Effects']/passive_effect[@name='BuffResistance' and @value='5']" name="tags">buffBurningEnvironment,buffFatiguedTrigger,buffLaceration,buffInfectionCatch,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLegBroken,buffLegSprained,buffArmSprained,buffArmBroken,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger</setattribute>
+	<setattribute xpath="//entity_class[@name='npcMeleeTemplate']/effect_group[@name='Base Effects']/passive_effect[@name='BuffResistance' and @value='1']" name="tags">buffInjuryBleeding,buffInjuryBleedingZombie,buffPlayerFallingDamage</setattribute>
 
 	<remove xpath="//entity_class[starts-with(@name, 'npc')]/property[@name='AIPackages']"/>
 	
+	<!-- BASIC TEMPLATES -->
+	<append xpath="/entity_classes/entity_class[@name='npcEmptyHandTemplate' or
+												@name='npcBatTemplate' or
+												@name='npcAxeTemplate' or
+												@name='npcClubTemplate' or
+												@name='npcKnifeTemplate' or
+												@name='npcSpearTemplate' or
+												@name='npcMacheteTemplate'
+												]">
+		<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModNPCMeleeBasic"/> 
+	</append>
+
+	<append xpath="/entity_classes/entity_class[@name='npcPipeShotgunTemplate' or
+												@name='npcPShotgunTemplate' or
+												@name='npcAShotgunTemplate'
+												]">
+		<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModNPCShortRangedBasic"/> 
+	</append>
+
+	<append xpath="/entity_classes/entity_class[@name='npcPipePistolTemplate' or
+												@name='npcPipeMGTemplate' or
+												@name='npcPipeRifleTemplate' or
+												@name='npcPistolTemplate' or
+												@name='npcDPistolTemplate' or
+												@name='npcSMGTemplate' or
+												@name='npcM60Template' or
+												@name='npcAK47Template' or
+												@name='npcTRifleTemplate' or
+												@name='npcLBowTemplate' or
+												@name='npcXBowTemplate'
+												]">
+		<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModNPCMediumRangedBasic"/> 
+	</append>
+
+	<append xpath="/entity_classes/entity_class[@name='npcHRifleTemplate' or
+												@name='npcSRifleTemplate' or
+												@name='npcRocketLTemplate'
+												]">
+		<property name="AIPackages" value="NPCModBasicRangedNoChat, NPCModNPCLongRangedBasic"/> 
+	</append>
+
+	<!-- ADVANCED TEMPLATES -->
 	<append xpath="/entity_classes/entity_class[@name='npcAdvancedEmptyHandTemplate' or
 												@name='npcAdvancedBatTemplate' or
 												@name='npcAdvancedAxeTemplate' or
@@ -12,14 +55,14 @@
 												@name='npcAdvancedSpearTemplate' or
 												@name='npcAdvancedMacheteTemplate'
 												]">
-		<property name="AIPackages" value="FuriousRamsayNPCBasic, NPCMelee, NPCHired"/> 
+		<property name="AIPackages" value="NPCModBasicMelee, NPCModNPCMelee, NPCHired"/> 
 	</append>
 
 	<append xpath="/entity_classes/entity_class[@name='npcAdvancedPipeShotgunTemplate' or
 												@name='npcAdvancedPShotgunTemplate' or
 												@name='npcAdvancedAShotgunTemplate'
 												]">
-		<property name="AIPackages" value="FuriousRamsayNPCBasic, FuriousRamsayNPCShortRanged, NPCHired"/> 
+		<property name="AIPackages" value="NPCModBasicRanged, NPCModNPCShortRanged, NPCHired"/> 
 	</append>
 
 	<append xpath="/entity_classes/entity_class[@name='npcAdvancedPipePistolTemplate' or
@@ -34,14 +77,14 @@
 												@name='npcAdvancedLBowTemplate' or
 												@name='npcAdvancedXBowTemplate'
 												]">
-		<property name="AIPackages" value="FuriousRamsayNPCBasic, FuriousRamsayNPCMediumRanged, NPCHired"/> 
+		<property name="AIPackages" value="NPCModBasicRanged, NPCModNPCMediumRanged, NPCHired"/> 
 	</append>
 
 	<append xpath="/entity_classes/entity_class[@name='npcAdvancedHRifleTemplate' or
 												@name='npcAdvancedSRifleTemplate' or
 												@name='npcAdvancedRocketLTemplate'
 												]">
-		<property name="AIPackages" value="FuriousRamsayNPCBasic, FuriousRamsayNPCLongRanged, NPCHired"/> 
+		<property name="AIPackages" value="NPCModBasicRanged, NPCModNPCLongRanged, NPCHired"/> 
 	</append>
 
 </Config>
