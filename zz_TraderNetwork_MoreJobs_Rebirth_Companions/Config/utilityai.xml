@@ -43,6 +43,11 @@
 
 
 			<ai_package name="FuriousRamsayNPCMeleeCompanion" entity_filter="IsEnemy"> 
+				<action name="LeaderFollowControl" weight="10" >
+					<consideration class="SelfHasBuff, SCore" buffs="buffNPCModStopAttacking"/>
+					<task class="FollowSDX, SCore" OnStartAddBuffs="NPCpegasus" OnStopRemoveBuffs="NPCpegasus"/>
+					<consideration class="HasOrder, SCore" order="Follow"/>
+				</action>
 				<!-- CONTROL ACTIONS - PLAYER IS BEING ATTACKED OR IS ATTACKING A TARGET -->
 				<action name="MoveToEnemyRunMeleeControlAttacked" weight="4">
 					<consideration class="TargetHasBuff, SCore" buffs="buffNPCModAttacking"/>

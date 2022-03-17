@@ -1855,10 +1855,7 @@
 		<drop event="Destroy" name="FuriousRamsayCollapsedFurnace" count="1" tool_category="Disassemble" />
 		<drop event="Fall" name="FuriousRamsayCollapsedFurnace" count="1" prob="0.5" stick_chance="1"/>
 		<property class="RepairItems">
-			<property name="resourceScrapIron" value="4"/>
-			<property name="FuriousRamsayWoodPlank" value="1"/>
-			<property name="resourceNail" value="2"/>
-			<property name="FuriousRamsayScrews" value="3"/>
+			<property name="resourceScrapIron" value="10"/>
 		</property>
 	</append>
 	<remove xpath="/blocks/block[@name='cntCollapsedForge']"/>
@@ -1882,11 +1879,7 @@
 		<drop event="Destroy" name="FuriousRamsayCollapsedWorkbench" count="1" tool_category="Disassemble" />
 		<drop event="Fall" name="FuriousRamsayCollapsedWorkbench" count="1" prob="0.5" stick_chance="1"/>
 		<property class="RepairItems">
-			<property name="FuriousRamsayWoodPlank" value="4"/>
-			<property name="resourceScrapIron" value="5"/>
-			<property name="resourceCloth" value="3"/>
-			<property name="resourceNail" value="5"/>
-			<property name="FuriousRamsayScrews" value="4"/>
+			<property name="FuriousRamsayWoodPlank" value="2"/>
 		</property>
 	</append>
 	<remove xpath="/blocks/block[@name='cntCollapsedWorkbench']"/>
@@ -1909,9 +1902,7 @@
 		<drop event="Destroy" name="FuriousRamsayCollapsedCementMixer" count="1" tool_category="Disassemble" />
 		<drop event="Fall" name="FuriousRamsayCollapsedCementMixer" count="1" prob="0.5" stick_chance="1"/>
 		<property class="RepairItems">
-			<property name="resourceForgedSteel" value="10"/>
-			<property name="resourceSpring" value="2"/>
-			<property name="resourceMechanicalParts" value="3"/>
+			<property name="resourceForgedSteel" value="2"/>
 		</property>
 	</append>
 	<append xpath="/blocks/block[@name='cementMixer']/property[@class='Workstation']">
@@ -1937,9 +1928,7 @@
 		<drop event="Destroy" name="FuriousRamsayCollapsedChemistryStation" count="1" tool_category="Disassemble" />
 		<drop event="Fall" name="FuriousRamsayCollapsedChemistryStation" count="1" prob="0.5" stick_chance="1"/>
 		<property class="RepairItems">
-			<property name="FuriousRamsayLargeRock" value="2"/>
-			<property name="FuriousRamsayWoodPlank" value="1"/>
-			<property name="FuriousRamsayScrews" value="3"/>
+			<property name="FuriousRamsayWoodPlank" value="2"/>
 		</property>
 	</append>
 	<append xpath="/blocks/block[@name='chemistryStation']/property[@class='Workstation']">
@@ -1966,9 +1955,7 @@
 		<drop event="Destroy" name="FuriousRamsayCollapsedGeneratorBank" count="1" tool_category="Disassemble" />
 		<drop event="Fall" name="FuriousRamsayCollapsedGeneratorBank" count="1" prob="0.5" stick_chance="1"/>
 		<property class="RepairItems">
-			<property name="resourceForgedIron" value="7"/>
-			<property name="resourceMechanicalParts" value="10"/>
-			<property name="resourceElectricParts" value="8"/>
+			<property name="resourceForgedIron" value="2"/>
 		</property>
 	</append>
 	<remove xpath="/blocks/block[@name='cntCollapsedGeneratorbank']"/>
@@ -1991,9 +1978,7 @@
 		<drop event="Destroy" name="FuriousRamsayCollapsedSolarBank" count="1" tool_category="Disassemble" />
 		<drop event="Fall" name="FuriousRamsayCollapsedSolarBank" count="1" prob="0.5" stick_chance="1"/>
 		<property class="RepairItems">
-			<property name="resourceScrapPolymers" value="10"/>
-			<property name="resourceElectricParts" value="12"/>
-			<property name="resourceForgedSteel" value="15"/>
+			<property name="resourceForgedSteel" value="3"/>
 		</property>
 	</append>
 	<remove xpath="/blocks/block[@name='cntCollapsedSolarbank']"/>
@@ -2016,9 +2001,7 @@
 		<drop event="Destroy" name="FuriousRamsayCollapsedBatteryBank" count="1" tool_category="Disassemble" />
 		<drop event="Fall" name="FuriousRamsayCollapsedBatteryBank" count="1" prob="0.5" stick_chance="1"/>
 		<property class="RepairItems">
-			<property name="resourceForgedIron" value="10"/>
-			<property name="resourceElectricParts" value="3"/>
-			<property name="resourceScrapPolymers" value="3"/>
+			<property name="resourceForgedIron" value="3"/>
 		</property>
 	</append>
 	<remove xpath="/blocks/block[@name='cntCollapsedBatterybank']"/>
@@ -2172,7 +2155,6 @@
 			<property name="CraftCompleteSound" value=""/>
 			<property class="RepairItems">
 				<property name="resourceWood" value="5"/>
-				<property name="resourceNail" value="3"/>
 			</property>
 			<drop event="Harvest" name="" count="0" tool_category="Disassemble" />
 			<drop event="Destroy" name="WorkbenchToolbox001_FR" count="1"/>
@@ -2219,8 +2201,6 @@
 			<property name="CraftCompleteSound" value=""/>
 			<property class="RepairItems">
 				<property name="resourceScrapIron" value="10"/>
-				<property name="resourceMetalPipe" value="2"/>
-				<property name="FuriousRamsayScrews" value="3"/>
 			</property>
 			<drop event="Harvest" name="" count="0" tool_category="Disassemble" />
 			<drop event="Destroy" name="FuriousRamsayCollapsedCircularMachine" count="1" tool_category="Disassemble" />
@@ -2265,9 +2245,7 @@
 			<property name="WorkstationIcon" value="ui_game_symbol_FR_GasStove_icon"/>
 			<property name="TakeDelay" value="15"/>
 			<property class="RepairItems">
-				<property name="resourceMetalPipe" value="2"/>
-				<property name="resourceScrapIron" value="5"/>
-				<property name="FuriousRamsayScrews" value="2"/>
+				<property name="resourceMetalPipe" value="5"/>
 			</property>
 			<drop event="Harvest" name="" count="0" tool_category="Disassemble" />
 			<drop event="Destroy" name="FuriousRamsayCollapsedGasStove" count="1" tool_category="Disassemble" />
@@ -2409,9 +2387,7 @@
 			<property name="CraftCompleteSound" value=""/>
 			<property name="TakeDelay" value="15"/>
 			<property class="RepairItems">
-				<property name="resourceMetalPipe" value="2"/>
-				<property name="resourceScrapIron" value="5"/>
-				<property name="FuriousRamsayScrews" value="3"/>
+				<property name="resourceScrapIron" value="10"/>
 			</property>
 			<drop event="Harvest" name="" count="0" tool_category="Disassemble" />
 			<drop event="Destroy" name="FuriousRamsayCollapsedDistiller" count="1" tool_category="Disassemble" />
@@ -2458,9 +2434,6 @@
 			<property name="TakeDelay" value="15"/>
 			<property class="RepairItems">
 				<property name="resourceForgedIron" value="5"/>
-				<property name="resourceElectronicParts" value="2"/>
-				<property name="resourceMechanicalParts" value="5"/>
-				<property name="FuriousRamsayScrews" value="5"/>
 			</property>
 			<drop event="Harvest" name="" count="0" tool_category="Disassemble" />
 			<drop event="Destroy" name="FuriousRamsayCollapsedShredder" count="1" tool_category="Disassemble" />
@@ -2504,11 +2477,7 @@
 			<property name="CraftCompleteSound" value=""/>
 			<property name="TakeDelay" value="15"/>
 			<property class="RepairItems">
-				<property name="resourceMetalPipe" value="2"/>
-				<property name="resourceScrapIron" value="5"/>
-				<property name="FuriousRamsayWoodPlank" value="1"/>
-				<property name="resourceScrapPolymers" value="3"/>
-				<property name="FuriousRamsayScrews" value="4"/>
+				<property name="resourceScrapIron" value="10"/>
 			</property>
 			<drop event="Harvest" name="" count="0" tool_category="Disassemble" />
 			<drop event="Destroy" name="WorkbenchResearchTable001_FR" count="1" tool_category="Disassemble" />
@@ -2642,11 +2611,7 @@
 			<drop event="Destroy" name="workbench" count="1" tool_category="Disassemble"/>
 			<drop event="Fall" name="workbench" count="1" prob="0.5" stick_chance="1"/>
 			<property class="RepairItems">
-				<property name="FuriousRamsayWoodPlank" value="4" />
-				<property name="resourceScrapIron" value="5" />
-				<property name="resourceCloth" value="3" />
-				<property name="resourceNail" value="5" />
-				<property name="FuriousRamsayScrews" value="4" />
+				<property name="FuriousRamsayWoodPlank" value="2" />
 			</property>
 		</block>		
 
@@ -2698,10 +2663,7 @@
 			<drop event="Destroy" name="FuriousRamsayFurnace" count="1" tool_category="Disassemble"/>
 			<drop event="Fall" name="FuriousRamsayFurnace" count="1" prob="0.5" stick_chance="1"/>
 			<property class="RepairItems">
-				<property name="resourceScrapIron" value="4" />
-				<property name="FuriousRamsayWoodPlank" value="1" />
-				<property name="resourceNail" value="2" />
-				<property name="FuriousRamsayScrews" value="3" />
+				<property name="resourceScrapIron" value="10" />
 			</property>
 		</block>
 		
@@ -2734,8 +2696,7 @@
 			<property name="CraftCompleteSound" value=""/>
 			<property name="TakeDelay" value="15"/>
 			<property class="RepairItems">
-				<property name="resourceForgedIron" value="2"/>
-				<property name="FuriousRamsayWoodLog" value="1"/>
+				<property name="resourceForgedIron" value="10"/>
 			</property>
 			<drop event="Harvest" name="" count="0" tool_category="Disassemble" />
 			<drop event="Destroy" name="FuriousRamsayCollapsedForge" count="1" tool_category="Disassemble" />
@@ -2793,9 +2754,7 @@
 			<drop event="Destroy" name="FuriousRamsayCementMixer" count="1" tool_category="Disassemble"/>
 			<drop event="Fall" name="FuriousRamsayCementMixer" count="1" prob="0.5" stick_chance="1"/>
 			<property class="RepairItems">
-				<property name="resourceForgedSteel" value="10" />
-				<property name="resourceSpring" value="2" />
-				<property name="resourceMechanicalParts" value="3" />
+				<property name="resourceForgedSteel" value="2" />
 			</property>
 		</block>
 
@@ -2848,9 +2807,7 @@
 			<drop event="Destroy" name="FuriousRamsayChemistryStation" count="1" tool_category="Disassemble"/>
 			<drop event="Fall" name="FuriousRamsayChemistryStation" count="1" prob="0.5" stick_chance="1"/>
 			<property class="RepairItems">
-				<property name="FuriousRamsayLargeRock" value="2" />
-				<property name="FuriousRamsayWoodPlank" value="1" />
-				<property name="FuriousRamsayScrews" value="3" />
+				<property name="FuriousRamsayWoodPlank" value="2" />
 			</property>
 		</block>
 
@@ -2885,9 +2842,7 @@
 			<drop event="Destroy" name="FuriousRamsayGeneratorBank" count="1" tool_category="Disassemble"/>
 			<drop event="Fall" name="FuriousRamsayGeneratorBank" count="1" prob="0.5" stick_chance="1"/>
 			<property class="RepairItems">
-				<property name="resourceForgedIron" value="7" />
-				<property name="resourceMechanicalParts" value="10" />
-				<property name="resourceElectricParts" value="8" />
+				<property name="resourceForgedIron" value="5" />
 			</property>
 		</block>
 
@@ -2923,9 +2878,7 @@
 			<drop event="Destroy" name="FuriousRamsaySolarBank" count="1" tool_category="Disassemble"/>
 			<drop event="Fall" name="FuriousRamsaySolarBank" count="1" prob="0.5" stick_chance="1"/>
 			<property class="RepairItems">
-				<property name="resourceScrapPolymers" value="10" />
-				<property name="resourceElectricParts" value="12" />
-				<property name="resourceForgedSteel" value="15" />
+				<property name="resourceForgedSteel" value="2" />
 			</property>
 		</block>
 
@@ -2961,9 +2914,7 @@
 			<drop event="Destroy" name="FuriousRamsayBatteryBank" count="1" tool_category="Disassemble"/>
 			<drop event="Fall" name="FuriousRamsayBatteryBank" count="1" prob="0.5" stick_chance="1"/>
 			<property class="RepairItems">
-				<property name="resourceForgedIron" value="10" />
-				<property name="resourceElectricParts" value="3" />
-				<property name="resourceScrapPolymers" value="3" />
+				<property name="resourceForgedIron" value="5" />
 			</property>
 		</block>
 

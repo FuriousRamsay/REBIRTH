@@ -1,5 +1,10 @@
 <Config>
 	
+	<setattribute xpath="/items/item[@name='resourceCrushedSand']/property[@name='EconomicValue']" name="value">100</setattribute>
+	<setattribute xpath="/items/item[@name='resourceClayLump']/property[@name='EconomicValue']" name="value">250</setattribute>
+	<setattribute xpath="/items/item[@name='resourcePotassiumNitratePowder']/property[@name='EconomicValue']" name="value">30</setattribute>
+	<setattribute xpath="/items/item[@name='resourceCoal']/property[@name='EconomicValue']" name="value">30</setattribute>
+
 	<!-- REMOVE DECOY ITEMS -->
 	<remove xpath="/items/item[@name='FuriousRamsayMadmanDecoyTier1']"/>
 	<remove xpath="/items/item[@name='FuriousRamsayMadmanDecoyTier2']"/>
@@ -234,6 +239,7 @@
 	<setattribute xpath="/items/item[@name='drinkJarCoffee']/effect_group[@name='Drink Tier 1']/display_value[@name='dStaminaRegen']" name="value">0.55</setattribute>
 	<append xpath="/items/item[@name='drinkJarCoffee']">
 		<effect_group name="FuriousRamsayStaminaBoostCoffee" tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$CoffeeStaminaBoostDisplay" operation="set" value="600" />
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="FuriousRamsayStaminaBoostCoffee" />
 		</effect_group>
 	</append>
@@ -244,6 +250,7 @@
 		<effect_group name="FuriousRamsayMobilityBoostRedTea" tiered="false">
 			<display_value name="dCarryCapacity" value="10"/>
 			<display_value name="dRunSpeed" value=".5" />
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$RedTeaMobilityBoostDisplay" operation="set" value="300" />
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="FuriousRamsayMobilityBoostRedTea" />
 		</effect_group>
 	</append>
@@ -252,6 +259,7 @@
 		<effect_group name="FuriousRamsayBlockDamageBoostGoldenRodTea" tiered="false">
 			<display_value name="dMining" value="1.4" />
 			<display_value name="dDuration" value="600" />
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$GoldenRodTeaBlockDamageBoostDisplay" operation="set" value="600" />
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="FuriousRamsayBlockDamageBoostGoldenRodTea" />
 		</effect_group>
 	</append>
@@ -261,6 +269,7 @@
 			<display_value name="dDigging" value="1.05" />
 			<display_value name="dChopping" value="1.05" />
 			<display_value name="dDuration" value="600" />
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$YuccaJuiceEarthDamageBoostDisplay" operation="set" value="600" />
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="FuriousRamsayEarthDamageBoostYuccaJuice" />
 		</effect_group>
 	</append>
@@ -295,7 +304,7 @@
 			<property name="CustomIconTint" value="FFFFFF" />
 			<property name="ItemTypeIcon" value="bundle" />
 			<property name="DescriptionKey" value="FuriousRamsaySeedBundleDesc" />
-			<property name="EconomicValue" value="100"/>
+			<property name="EconomicValue" value="400"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="Stacknumber" value="50"/>
 			<property class="Action0">

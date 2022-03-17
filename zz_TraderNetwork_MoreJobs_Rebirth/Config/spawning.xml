@@ -10,7 +10,7 @@
 		<spawn maxcount="3" respawndelay="0.3" time="Day" entitygroup="ZombiesForestDowntown" tags="downtown" />
 		<spawn maxcount="3" respawndelay="0.1" time="Night" entitygroup="ZombiesForestDowntownNight" tags="downtown" />
 
-		<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="WildGameForest" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="WildGameForest" spawnDeadChance="0" />
 		<spawn maxcount="1" respawndelay="1.1" time="Night" entitygroup="EnemyAnimalsForest" spawnDeadChance="0" />
 	</set>
 
@@ -24,7 +24,7 @@
 		<spawn maxcount="3" respawndelay="0.15" time="Day" entitygroup="ZombiesDowntown" tags="downtown" />
 		<spawn maxcount="4" respawndelay="0.1" time="Night" entitygroup="ZombiesDowntown" tags="downtown" />
 
-		<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="WildGameForest" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="WildGameForest" spawnDeadChance="0" />
 		<spawn maxcount="1" respawndelay="1.1" time="Night" entitygroup="EnemyAnimalsBurntForest" spawnDeadChance="0" />
 	</set>
 
@@ -39,7 +39,7 @@
 		<spawn maxcount="3" respawndelay="0.2" time="Day" entitygroup="ZombiesDowntown" tags="downtown" />
 		<spawn maxcount="4" respawndelay="0.09" time="Night" entitygroup="ZombiesDowntown" tags="downtown" />
 		
-		<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="WildGameDesert" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="WildGameDesert" spawnDeadChance="0" />
 		<spawn maxcount="1" respawndelay="3.5" time="Any" entitygroup="EnemyAnimalsDesert" spawnDeadChance="0" />
 	</set>
 
@@ -53,7 +53,7 @@
 		<spawn maxcount="4" respawndelay="0.07" time="Day" entitygroup="ZombiesDowntown" tags="downtown" />
 		<spawn maxcount="4" respawndelay="0.04" time="Night" entitygroup="ZombiesDowntown" tags="downtown" />
 
-		<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="WildGameSnow" spawnDeadChance="0" />
+		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="WildGameSnow" spawnDeadChance="0" />
 		<spawn maxcount="1" respawndelay="3.1" time="Any" entitygroup="EnemyAnimalsSnow" spawnDeadChance="0" />
 	</set>
 
@@ -67,8 +67,8 @@
 		<spawn maxcount="4" respawndelay="0.0167" time="Day" entitygroup="ZombiesWastelandDowntown" tags="downtown" />
 		<spawn maxcount="4" respawndelay="0.002" time="Night" entitygroup="ZombiesWastelandDowntown" tags="downtown" />
 
+		<spawn maxcount="1" respawndelay="1" time="Day" entitygroup="WildGameWasteland" spawnDeadChance="0" />
 		<spawn maxcount="1" respawndelay="0.3" time="Any" entitygroup="EnemyAnimalsWasteland" spawnDeadChance="0" />
-		<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="WildGameWasteland" spawnDeadChance="0" />
 	</set>
 
 </Config>

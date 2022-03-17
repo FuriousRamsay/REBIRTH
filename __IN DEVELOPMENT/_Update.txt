@@ -46,7 +46,7 @@ Add PartyGirlRadiated
 Add zombieTomClark(s)
 
 REBIRTH:
-(FOR TESTING ONLY) Rebirth Version A20.3Exp-2022-03-12-1505 (FOR TESTING ONLY)
+(FOR TESTING ONLY) Rebirth Version A20.3Exp-2022-03-17-1505 (FOR TESTING ONLY)
 (SHOULD NOT RESET PROGRESSION)
 Fixed Full Control not preventing your hires from attacking
 Fixed Inability to unlock ranged weapon expertise Repair Kits
@@ -54,20 +54,42 @@ Fixed many CVars being networked when not necessary
 Simplified all NPC AI packages to improve performance
 Removed Threat Control to help simplify the AI and performance
 Updated the Technogeek localization to remove crafting of the Stun Baton
+Reduced Intelligence experience gained from mining/digging
+Fixed Panther companion sounds
+Boosts given from drinks will now continue if a player logs off and back on
+Fixed drink buffs not resetting when still active and you drink another
+Fixed requirement Descriptions for Perks (Healing Factor, Deep Cuts, Lucky Looter, Lock Picking, Treasure Hunter, Daring Adventurer, Better Barter, Charismatic Nature)
+Fixed Companions not switching to follow the player when the halt order (Stop) is issued
+Removed Companion description related to having to feed your companion in order for it to follow you
+NPCs spawned in biomes will no longer stick around once you leave a chunk where they have spawned, unless you hire them
+Simplified and fixed repair requirements for crafting stations
+Yucca juice will now only affect damage dealt when weilding a shovel, axe or 
+Goldenrod Tea will now only affect damage dealt when weilding a mining tool
+Added more sewing kits to loot
+Fixed class armor perks not providing the bonuses to mobility
+Fixed Global Aura perk descriptions showing wrong zombie type
+Increased the price of Seed Bundles
+Farmer Trader now sells Sand/Clay/Nitrate/Coal
+Adjust Economic value of Sand/Clay/Nitrate/Coal
 http://38.17.55.139/Rebirth-2022-03-15-1545.zip
 
 TODO:
-Test with Super Fast melee
-Wooden Bow repair kit in backpack for hunter
-Number of Zombies no longer showing in UI
-Haven't seen bandits?
-Wooden bow doesn't give xp or is it iron arrows?
-Reduce intelligence from digging
-Reduce Charisma and intelligence frmo quests
-Update Perk descriptions for requirements for things like daring adventurer
-Dog doesn't attack or defend?
-
-Check if drinking teas replaces buff rather than ignores
+Beer isn't showing water intake
+Joel AK-47 won't move
+FuriousRamsayBobM60 no name
+SurvivorMan001d1M60 no name
+Add small chance of high performance running shoes and jacket to zombie loot
+Rusty steel axe description
+Flaming barrel shouldn't give resource when wrenched
+Add localization for Mercenary buffs
+Rusty Steel PickAxe requires Ductape to repair?
+Just noticed a small UI Bug. My Hunter had Bow Level 0 with 95%Progress. I killed some Zs with my spear and leveled Hunter to Level 4. The progressbar of Bows resetted. I killed some Zs with Bow and got Level 1 BowL
+Reduce Explosion immune zombie hand item damage
+Reduce Explosion immune zombie knockdown chance
+Add schematics for armor crafting
+Make more generic repair kits
+Too many Mercenary spawns
+Any reason why no sell price on custom spears? Other weapons?
 
 NullReferenceException: Object reference not set to an instance of an object
   at XUiC_QuestTurnInWindowGroup.OnClose () [0x00090] in <39cf8b713b17414c9e5ddfff01d6df19>:0 
@@ -85,53 +107,30 @@ UICamera:ProcessMouse()
 UICamera:ProcessEvents()
 UICamera:Update()
 
-More Sewit Kits in loot or craftable?
+Completion of some knowledge give you a special reward?
+Make a quest for VM workstation in optional modlet
 Adjust the POI description, say it doesn't have to be in a POI
-Bleed bug (hit a dead zombie, inflict bleed on yourself)
-Joel AK-47 won't move
-FuriousRamsayBobM60 no name
-SurvivorMan001d1M60 no name
-Add small chance of high performance running shoes and jacket to zombie loot
-Make more generic repair kits
 How to make NPCs turn to you when spawned in and they aren't supposed to move
 What do do about the two penetration perks (aura and perk)
-Too many Mercenary spawns
-Rusty steel axe description
-Switch some CVar to $ (not networked)
-Flaming shouldn't give resource when wrenched
-Further reduce Biome NPC spawns. A quarter??
-NPCs not listening to full control, still going after targets
 Why does furnace schematic show as green but not completed?
 remove explosion effect on NPCs
-Make sure quests NPCs, die
-NPCs rfom events should disappear after 5 minutes
-Beer isn't showing water intake
 Got 6 Genetics boosts
 Some mercenaries deal fire/shock
 Is fire debuff too strong?
-Add localization for Mercenary buffs
 Mercenary Trader navobject isn't showing
 Clean up unused quest crafting items
-Just noticed a small UI Bug. My Hunter had Bow Level 0 with 95%Progress. I killed some Zs with my spear and leveled Hunter to Level 4. The progressbar of Bows resetted. I killed some Zs with Bow and got Level 1 BowL
-Have a Tier 4 Mercenary Trader
 Shock from shock motorcycle can get stuck. Unsticks when you shock another enemy
 check motorcycle stability (shock, burning)
 Progression requirements should be based on variables, not genetics
-Any reason why no sell price on custom spears? Other weapons?
 Make quests distance longer. 500-600m
 shock zombies cannot jump?
 Fire chains the particle effect but not the damage? Should at least be minimal damage
-
+Test with Super Fast melee
 VM_Wheels and the Crafting menu
 If someone picks up the destroyed tires and looks for the recipe, an error message appears in the console
-
-Rusty Steel PickAxe requires Ductape to repair?
-Reduce Explosion immune zombie hand item damage
-Reduce Explosion immune zombie knockdown chance
 Fire immune zombies seem to hesitate in horde
 If you change classes, you keep the old class aura
 
-Faction Wars/Hazard entities are acting a little strange, not moving much
 RELEASE
 
 Add Spawn Block Descriptions

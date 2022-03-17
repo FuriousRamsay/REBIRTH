@@ -142,7 +142,7 @@
 	<remove xpath="/lootcontainers/lootgroup/item[@name='drinkJarEmpty']"/>
 	<remove xpath="/lootcontainers/lootgroup[@name='seeds']"/>
 
-	<remove xpath="/lootcontainers/lootgroup[@name='groupCraftingUncommon']/item[@name='resourceSewingKit']"/>
+	<!--<remove xpath="/lootcontainers/lootgroup[@name='groupCraftingUncommon']/item[@name='resourceSewingKit']"/>-->
 
 	<remove xpath="/lootcontainers/lootgroup/item[@name='gunBowT0PrimitiveBow']"/>
 

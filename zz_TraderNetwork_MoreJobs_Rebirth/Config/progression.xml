@@ -1032,23 +1032,23 @@
 	<perk name="perkHealingFactor" max_level="5" base_skill_point_cost="0" parent="FuriousRamsaySkillConstitution" name_key="perkHealingFactorName" desc_key="perkHealingFactorDesc" icon="FR_HealingFactor_icon">
 		<level_requirements level="1">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeConstitutionReq" operation="GTE" value="1" desc_key="FuriousRamsayReqConstitutionLevel01"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="2" desc_key="FuriousRamsayReqGeneticsLevel01"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="2" desc_key="FuriousRamsayReqGeneticsLevel02"/>
 		</level_requirements>
 		<level_requirements level="2">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeConstitutionReq" operation="GTE" value="2" desc_key="FuriousRamsayReqConstitutionLevel02"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="4" desc_key="FuriousRamsayReqGeneticsLevel02"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="4" desc_key="FuriousRamsayReqGeneticsLevel04"/>
 		</level_requirements>
 		<level_requirements level="3">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeConstitutionReq" operation="GTE" value="3" desc_key="FuriousRamsayReqConstitutionLevel03"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="6" desc_key="FuriousRamsayReqGeneticsLevel03"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="6" desc_key="FuriousRamsayReqGeneticsLevel06"/>
 		</level_requirements>
 		<level_requirements level="4">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeConstitutionReq" operation="GTE" value="4" desc_key="FuriousRamsayReqConstitutionLevel04"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="8" desc_key="FuriousRamsayReqGeneticsLevel04"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="8" desc_key="FuriousRamsayReqGeneticsLevel08"/>
 		</level_requirements>
 		<level_requirements level="5">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeConstitutionReq" operation="GTE" value="5" desc_key="FuriousRamsayReqConstitutionLevel05"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="10" desc_key="FuriousRamsayReqGeneticsLevel05"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="10" desc_key="FuriousRamsayReqGeneticsLevel10"/>
 		</level_requirements>
 
 		<effect_group>
@@ -1074,23 +1074,23 @@
 	<perk name="perkSlowMetabolism" max_level="5" base_skill_point_cost="0" parent="FuriousRamsaySkillConstitution" name_key="perkSlowMetabolismName" desc_key="perkSlowMetabolismDesc" icon="FR_SlowMetabolism_icon">
 		<level_requirements level="1">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeConstitutionReq" operation="GTE" value="1" desc_key="FuriousRamsayReqConstitutionLevel01"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="1" desc_key="FuriousRamsayReqGeneticsLevel02"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="2" desc_key="FuriousRamsayReqGeneticsLevel02"/>
 		</level_requirements>
 		<level_requirements level="2">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeConstitutionReq" operation="GTE" value="2" desc_key="FuriousRamsayReqConstitutionLevel02"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="2" desc_key="FuriousRamsayReqGeneticsLevel04"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="4" desc_key="FuriousRamsayReqGeneticsLevel04"/>
 		</level_requirements>
 		<level_requirements level="3">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeConstitutionReq" operation="GTE" value="3" desc_key="FuriousRamsayReqConstitutionLevel03"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="3" desc_key="FuriousRamsayReqGeneticsLevel06"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="6" desc_key="FuriousRamsayReqGeneticsLevel06"/>
 		</level_requirements>
 		<level_requirements level="4">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeConstitutionReq" operation="GTE" value="4" desc_key="FuriousRamsayReqConstitutionLevel04"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="4" desc_key="FuriousRamsayReqGeneticsLevel08"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="8" desc_key="FuriousRamsayReqGeneticsLevel08"/>
 		</level_requirements>
 		<level_requirements level="5">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeConstitutionReq" operation="GTE" value="5" desc_key="FuriousRamsayReqConstitutionLevel05"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="5" desc_key="FuriousRamsayReqGeneticsLevel10"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="10" desc_key="FuriousRamsayReqGeneticsLevel10"/>
 		</level_requirements>
 		
 		<effect_group>
@@ -1114,23 +1114,23 @@
 	<perk name="perkDeepCuts" parent="FuriousRamsaySkillIntelligence" name_key="perkDeepCutsName" desc_key="perkDeepCutsDesc" icon="FR_DeepCuts_icon">
 		<level_requirements level="1">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeIntelligenceReq" operation="GTE" value="1" desc_key="FuriousRamsayReqIntelligenceLevel01"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="2" desc_key="FuriousRamsayReqGeneticsLevel01"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="2" desc_key="FuriousRamsayReqGeneticsLevel02"/>
 		</level_requirements>
 		<level_requirements level="2">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeIntelligenceReq" operation="GTE" value="2" desc_key="FuriousRamsayReqIntelligenceLevel02"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="4" desc_key="FuriousRamsayReqGeneticsLevel02"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="4" desc_key="FuriousRamsayReqGeneticsLevel04"/>
 		</level_requirements>
 		<level_requirements level="3">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeIntelligenceReq" operation="GTE" value="3" desc_key="FuriousRamsayReqIntelligenceLevel03"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="6" desc_key="FuriousRamsayReqGeneticsLevel03"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="6" desc_key="FuriousRamsayReqGeneticsLevel06"/>
 		</level_requirements>
 		<level_requirements level="4">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeIntelligenceReq" operation="GTE" value="4" desc_key="FuriousRamsayReqIntelligenceLevel04"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="8" desc_key="FuriousRamsayReqGeneticsLevel04"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="8" desc_key="FuriousRamsayReqGeneticsLevel08"/>
 		</level_requirements>
 		<level_requirements level="5">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeIntelligenceReq" operation="GTE" value="5" desc_key="FuriousRamsayReqIntelligenceLevel05"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="10" desc_key="FuriousRamsayReqGeneticsLevel05"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="10" desc_key="FuriousRamsayReqGeneticsLevel10"/>
 		</level_requirements>
 
 		<effect_group>
@@ -1281,23 +1281,23 @@
 	<perk name="perkLuckyLooter" max_level="5" base_skill_point_cost="0" parent="FuriousRamsaySkillIntelligence" name_key="perkLuckyLooterName" desc_key="perkLuckyLooterDesc" icon="FR_LuckyLooter_icon">
 		<level_requirements level="1">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeIntelligenceReq" operation="GTE" value="1" desc_key="FuriousRamsayReqIntelligenceLevel01"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="2" desc_key="FuriousRamsayReqGeneticsLevel01"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="2" desc_key="FuriousRamsayReqGeneticsLevel02"/>
 		</level_requirements>
 		<level_requirements level="2">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeIntelligenceReq" operation="GTE" value="2" desc_key="FuriousRamsayReqIntelligenceLevel02"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="4" desc_key="FuriousRamsayReqGeneticsLevel02"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="4" desc_key="FuriousRamsayReqGeneticsLevel04"/>
 		</level_requirements>
 		<level_requirements level="3">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeIntelligenceReq" operation="GTE" value="3" desc_key="FuriousRamsayReqIntelligenceLevel03"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="6" desc_key="FuriousRamsayReqGeneticsLevel03"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="6" desc_key="FuriousRamsayReqGeneticsLevel06"/>
 		</level_requirements>
 		<level_requirements level="4">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeIntelligenceReq" operation="GTE" value="4" desc_key="FuriousRamsayReqIntelligenceLevel04"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="8" desc_key="FuriousRamsayReqGeneticsLevel04"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="8" desc_key="FuriousRamsayReqGeneticsLevel08"/>
 		</level_requirements>
 		<level_requirements level="5">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeIntelligenceReq" operation="GTE" value="5" desc_key="FuriousRamsayReqIntelligenceLevel05"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="10" desc_key="FuriousRamsayReqGeneticsLevel05"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="10" desc_key="FuriousRamsayReqGeneticsLevel10"/>
 		</level_requirements>
 		
 		<effect_group>
@@ -1315,15 +1315,15 @@
 	<perk name="perkLockPicking" max_level="3" base_skill_point_cost="0" parent="FuriousRamsaySkillIntelligence" name_key="perkLockPickingName" desc_key="perkLockPickingDesc" icon="FR_LockPicker_icon">
 		<level_requirements level="1">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeIntelligenceReq" operation="GTE" value="1" desc_key="FuriousRamsayReqIntelligenceLevel01"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="2" desc_key="FuriousRamsayReqGeneticsLevel01"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="2" desc_key="FuriousRamsayReqGeneticsLevel02"/>
 		</level_requirements>
 		<level_requirements level="2">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeIntelligenceReq" operation="GTE" value="2" desc_key="FuriousRamsayReqIntelligenceLevel02"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="4" desc_key="FuriousRamsayReqGeneticsLevel02"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="4" desc_key="FuriousRamsayReqGeneticsLevel04"/>
 		</level_requirements>
 		<level_requirements level="3">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeIntelligenceReq" operation="GTE" value="3" desc_key="FuriousRamsayReqIntelligenceLevel03"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="6" desc_key="FuriousRamsayReqGeneticsLevel03"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="6" desc_key="FuriousRamsayReqGeneticsLevel06"/>
 		</level_requirements>
 
 		<effect_group>
@@ -1340,15 +1340,15 @@
 	<perk name="perkTreasureHunter" max_level="3" base_skill_point_cost="0" parent="FuriousRamsaySkillIntelligence" name_key="perkTreasureHunterName" desc_key="perkTreasureHunterDesc" icon="FR_TreasureHunter_icon">
 		<level_requirements level="1">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeIntelligenceReq" operation="GTE" value="1" desc_key="FuriousRamsayReqIntelligenceLevel01"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="2" desc_key="FuriousRamsayReqGeneticsLevel01"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="2" desc_key="FuriousRamsayReqGeneticsLevel02"/>
 		</level_requirements>
 		<level_requirements level="2">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeIntelligenceReq" operation="GTE" value="2" desc_key="FuriousRamsayReqIntelligenceLevel02"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="4" desc_key="FuriousRamsayReqGeneticsLevel02"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="4" desc_key="FuriousRamsayReqGeneticsLevel04"/>
 		</level_requirements>
 		<level_requirements level="3">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeIntelligenceReq" operation="GTE" value="3" desc_key="FuriousRamsayReqIntelligenceLevel03"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="6" desc_key="FuriousRamsayReqGeneticsLevel03"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="6" desc_key="FuriousRamsayReqGeneticsLevel06"/>
 		</level_requirements>
 
 		<effect_group>
@@ -2466,19 +2466,19 @@
 	<perk name="perkDaringAdventurer" max_level="4" base_skill_point_cost="0" parent="FuriousRamsaySkillCharisma" name_key="perkDaringAdventurerName" desc_key="perkDaringAdventurerDesc" icon="FR_DaringAdventurer_icon">
 		<level_requirements level="1">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeCharismaReq" operation="GTE" value="1" desc_key="FuriousRamsayReqCharismaLevel01"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="2" desc_key="FuriousRamsayReqGeneticsLevel01"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="2" desc_key="FuriousRamsayReqGeneticsLevel02"/>
 		</level_requirements>
 		<level_requirements level="2">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeCharismaReq" operation="GTE" value="2" desc_key="FuriousRamsayReqCharismaLevel02"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="4" desc_key="FuriousRamsayReqGeneticsLevel02"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="4" desc_key="FuriousRamsayReqGeneticsLevel04"/>
 		</level_requirements>
 		<level_requirements level="3">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeCharismaReq" operation="GTE" value="3" desc_key="FuriousRamsayReqCharismaLevel03"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="6" desc_key="FuriousRamsayReqGeneticsLevel03"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="6" desc_key="FuriousRamsayReqGeneticsLevel06"/>
 		</level_requirements>
 		<level_requirements level="4">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeCharismaReq" operation="GTE" value="4" desc_key="FuriousRamsayReqCharismaLevel04"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="8" desc_key="FuriousRamsayReqGeneticsLevel04"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="8" desc_key="FuriousRamsayReqGeneticsLevel08"/>
 		</level_requirements>
 
 		<effect_group>
@@ -2494,23 +2494,23 @@
 	<perk name="perkBetterBarter" max_level="5" base_skill_point_cost="0" parent="FuriousRamsaySkillCharisma" name_key="perkBetterBarterName" desc_key="perkBetterBarterDesc" icon="FR_BetterBarter_icon">
 		<level_requirements level="1">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeCharismaReq" operation="GTE" value="1" desc_key="FuriousRamsayReqCharismaLevel01"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="2" desc_key="FuriousRamsayReqGeneticsLevel01"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="2" desc_key="FuriousRamsayReqGeneticsLevel02"/>
 		</level_requirements>
 		<level_requirements level="2">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeCharismaReq" operation="GTE" value="2" desc_key="FuriousRamsayReqCharismaLevel02"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="4" desc_key="FuriousRamsayReqGeneticsLevel02"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="4" desc_key="FuriousRamsayReqGeneticsLevel04"/>
 		</level_requirements>
 		<level_requirements level="3">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeCharismaReq" operation="GTE" value="3" desc_key="FuriousRamsayReqCharismaLevel03"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="6" desc_key="FuriousRamsayReqGeneticsLevel03"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="6" desc_key="FuriousRamsayReqGeneticsLevel06"/>
 		</level_requirements>
 		<level_requirements level="4">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeCharismaReq" operation="GTE" value="4" desc_key="FuriousRamsayReqCharismaLevel04"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="8" desc_key="FuriousRamsayReqGeneticsLevel04"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="8" desc_key="FuriousRamsayReqGeneticsLevel08"/>
 		</level_requirements>
 		<level_requirements level="5">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeCharismaReq" operation="GTE" value="5" desc_key="FuriousRamsayReqCharismaLevel05"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="10" desc_key="FuriousRamsayReqGeneticsLevel05"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="10" desc_key="FuriousRamsayReqGeneticsLevel10"/>
 		</level_requirements>
 
 		<effect_group>
@@ -2529,19 +2529,19 @@
 	<perk name="perkCharismaticNature" max_level="4" base_skill_point_cost="0" parent="FuriousRamsaySkillCharisma" name_key="perkCharismaticNatureName" desc_key="perkCharismaticNatureDesc" icon="FR_CharismaticNature_icon">
 		<level_requirements level="1">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeCharismaReq" operation="GTE" value="1" desc_key="FuriousRamsayReqCharismaLevel01"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="1" desc_key="FuriousRamsayReqGeneticsLevel01"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="2" desc_key="FuriousRamsayReqGeneticsLevel02"/>
 		</level_requirements>
 		<level_requirements level="2">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeCharismaReq" operation="GTE" value="2" desc_key="FuriousRamsayReqCharismaLevel02"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="2" desc_key="FuriousRamsayReqGeneticsLevel02"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="4" desc_key="FuriousRamsayReqGeneticsLevel04"/>
 		</level_requirements>
 		<level_requirements level="3">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeCharismaReq" operation="GTE" value="3" desc_key="FuriousRamsayReqCharismaLevel03"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="3" desc_key="FuriousRamsayReqGeneticsLevel03"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="6" desc_key="FuriousRamsayReqGeneticsLevel06"/>
 		</level_requirements>
 		<level_requirements level="4">
 			<!--<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeCharismaReq" operation="GTE" value="4" desc_key="FuriousRamsayReqCharismaLevel04"/>-->
-			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="4" desc_key="FuriousRamsayReqGeneticsLevel04"/>
+			<requirement name="ProgressionLevel" progression_name="attfortitude" operation="GTE" value="8" desc_key="FuriousRamsayReqGeneticsLevel08"/>
 		</level_requirements>
 
 		<effect_group>

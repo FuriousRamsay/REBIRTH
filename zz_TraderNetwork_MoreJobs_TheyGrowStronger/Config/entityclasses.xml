@@ -12,7 +12,7 @@
 		</effect_group>				
 		<effect_group name="FuriousRamsayTheyGrowStronger">
 			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
-				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="varFuriousRamsayTheyGrowStrongerKills" operation="add" value="@$varFuriousRamsayTheyGrowStrongerIncrement"/>
+				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="add" value="@$varFuriousRamsayTheyGrowStrongerIncrement"/>
 		</effect_group>
 	</append>
 

@@ -23,9 +23,9 @@
 
 			<property name="SoundRandom" value=""/>
 			<property name="SoundAlert" value=""/>
-			<property name="SoundHurt" value="wolfpain"/>
-			<property name="SoundDeath" value="wolfdeath"/>
-			<property name="SoundAttack" value="wolfattack"/>
+			<property name="SoundHurt" value="mlionpain"/>
+			<property name="SoundDeath" value="mliondeath"/>
+			<property name="SoundAttack" value="mlionattack"/>
 			<property name="SoundSense" value=""/>
 			<property name="SoundGiveUp" value=""/>
 
@@ -80,9 +80,9 @@
 
 			<property name="SoundRandom" value=""/>
 			<property name="SoundAlert" value=""/>
-			<property name="SoundHurt" value="wolfpain"/>
-			<property name="SoundDeath" value="wolfdeath"/>
-			<property name="SoundAttack" value="wolfattack"/>
+			<property name="SoundHurt" value="mlionpain"/>
+			<property name="SoundDeath" value="mliondeath"/>
+			<property name="SoundAttack" value="mlionattack"/>
 			<property name="SoundSense" value=""/>
 			<property name="SoundGiveUp" value=""/>
 

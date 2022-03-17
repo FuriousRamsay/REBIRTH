@@ -103,6 +103,10 @@
 	<insertBefore xpath="/traders/trader_item_groups/trader_item_group[@name='FuriousRamsayFarmerTraderCans1']">
 		<trader_item_group name="FuriousRamsayFarmerSeeds">
 			<item name="FuriousRamsaySeedBundle" count="2,4"/>
+			<item name="resourceCrushedSand" count="50,500"/>
+			<item name="resourceClayLump" count="50,500"/>
+			<item name="resourcePotassiumNitratePowder" count="50,500"/>
+			<item name="resourceCoal" count="50,500"/>
 		</trader_item_group>
 	</insertBefore>
 
