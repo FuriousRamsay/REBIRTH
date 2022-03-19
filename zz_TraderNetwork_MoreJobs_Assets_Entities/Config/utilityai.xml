@@ -30,30 +30,6 @@
                     <task class="IdleSDX, SCore" OnStartRemoveBuffs="RandomIdle" /> 
                         <consideration class="EnemyNear, SCore" distance="20" /><!-- True if no enemies are near, so safe to chat  -->
                         <consideration class="TargetDistance" flip_x="true" min="1" max="4.5" curve="threshold" /><!-- Forces a fixed true range between 1 and 4 blocks -->
-				</action> 				
-				<action name="HealSelf" weight="6" entity_filter="IsSelf">
-					<task class="HealSDX, SCore" OnStartAddBuffs="IsHealing" OnStopAddBuffs="buffProcessConsumables"/>
-					<consideration class="SelfHealthSDX, SCore" min="0.01" max="0.60"/>
-					<!--NEW-->
-					<consideration class="EnemyNotNear, SCore" distance="5"/> 
-					<consideration class="SelfNotHasBuff, SCore" buffs="IsHealing"/>
-					<consideration class="SelfNotHasBuff, SCore" buffs="buffHealHealth,buffProcessConsumables,buffReload2,buffReloadDelay,buffReload3,buffHitStun"/>
-				</action>
-				<action name="MendLegSelf" weight="5" entity_filter="IsSelf">
-					<task class="HealSDX, SCore" run="true" OnStartAddBuffs="IsHealing" OnStopAddBuffs="buffLegSplinted"/>
-					<consideration class="SelfHasBuff, SCore" buffs="buffLegBroken,buffLegSprained"/>
-					<!--NEW-->
-					<consideration class="EnemyNotNear, SCore" distance="5"/>
-					<consideration class="SelfNotHasBuff, SCore" buffs="IsHealing"/>
-					<consideration class="SelfNotHasBuff, SCore" buffs="buffHealHealth,buffProcessConsumables,buffReload2,buffReloadDelay,buffReload3,buffHitStun"/>
-				</action>	
-				<action name="MendArmSelf" weight="5" entity_filter="IsSelf">
-					<task class="HealSDX, SCore" OnStartAddBuffs="IsHealing" OnStopAddBuffs="buffArmSplinted"/>
-					<consideration class="SelfHasBuff, SCore" buffs="buffArmSprained,buffArmBroken"/>
-					<!--NEW-->
-					<consideration class="EnemyNotNear, SCore" distance="5"/>
-					<consideration class="SelfNotHasBuff, SCore" buffs="IsHealing"/>
-					<consideration class="SelfNotHasBuff, SCore" buffs="buffHealHealth,buffProcessConsumables,buffReload2,buffReloadDelay,buffReload3,buffHitStun"/>					
 				</action>
 			</ai_package>
 
@@ -62,30 +38,6 @@
 					<task class="WanderSDX, SCore"/>
 					<task class="IdleSDX, SCore" OnStartAddBuffs="RandomWanderIdle" OnStopRemoveBuffs="RandomWanderIdle" timeout="50" /><!-- fires an Idle buff on start, removes same on exit  -->
 					<consideration class="HasOrder, SCore" order="None, Wander"/> <!-- blocks the action when it has an order not listed  -->
-				</action>
-				<action name="HealSelf" weight="6" entity_filter="IsSelf">
-					<task class="HealSDX, SCore" OnStartAddBuffs="IsHealing" OnStopAddBuffs="buffProcessConsumables"/>
-					<consideration class="SelfHealthSDX, SCore" min="0.01" max="0.60"/>
-					<!--NEW-->
-					<consideration class="EnemyNotNear, SCore" distance="5"/> 
-					<consideration class="SelfNotHasBuff, SCore" buffs="IsHealing"/>
-					<consideration class="SelfNotHasBuff, SCore" buffs="buffHealHealth,buffProcessConsumables,buffReload2,buffReloadDelay,buffReload3,buffHitStun"/>
-				</action>
-				<action name="MendLegSelf" weight="5" entity_filter="IsSelf">
-					<task class="HealSDX, SCore" run="true" OnStartAddBuffs="IsHealing" OnStopAddBuffs="buffLegSplinted"/>
-					<consideration class="SelfHasBuff, SCore" buffs="buffLegBroken,buffLegSprained"/>
-					<!--NEW-->
-					<consideration class="EnemyNotNear, SCore" distance="5"/>
-					<consideration class="SelfNotHasBuff, SCore" buffs="IsHealing"/>
-					<consideration class="SelfNotHasBuff, SCore" buffs="buffHealHealth,buffProcessConsumables,buffReload2,buffReloadDelay,buffReload3,buffHitStun"/>
-				</action>	
-				<action name="MendArmSelf" weight="5" entity_filter="IsSelf">
-					<task class="HealSDX, SCore" OnStartAddBuffs="IsHealing" OnStopAddBuffs="buffArmSplinted"/>
-					<consideration class="SelfHasBuff, SCore" buffs="buffArmSprained,buffArmBroken"/>
-					<!--NEW-->
-					<consideration class="EnemyNotNear, SCore" distance="5"/>
-					<consideration class="SelfNotHasBuff, SCore" buffs="IsHealing"/>
-					<consideration class="SelfNotHasBuff, SCore" buffs="buffHealHealth,buffProcessConsumables,buffReload2,buffReloadDelay,buffReload3,buffHitStun"/>					
 				</action>
 			</ai_package>
 
@@ -110,30 +62,6 @@
                     <consideration class="EnemyNotNear, SCore" />
                     <consideration class="HasOrder, SCore" order="Stay"/>
                 </action> 
-				<action name="HealSelf" weight="6" entity_filter="IsSelf">
-					<task class="HealSDX, SCore" OnStartAddBuffs="IsHealing" OnStopAddBuffs="buffProcessConsumables"/>
-					<consideration class="SelfHealthSDX, SCore" min="0.01" max="0.60"/>
-					<!--NEW-->
-					<consideration class="EnemyNotNear, SCore" distance="5"/> 
-					<consideration class="SelfNotHasBuff, SCore" buffs="IsHealing"/>
-					<consideration class="SelfNotHasBuff, SCore" buffs="buffHealHealth,buffProcessConsumables,buffReload2,buffReloadDelay,buffReload3,buffHitStun"/>
-				</action>
-				<action name="MendLegSelf" weight="5" entity_filter="IsSelf">
-					<task class="HealSDX, SCore" run="true" OnStartAddBuffs="IsHealing" OnStopAddBuffs="buffLegSplinted"/>
-					<consideration class="SelfHasBuff, SCore" buffs="buffLegBroken,buffLegSprained"/>
-					<!--NEW-->
-					<consideration class="EnemyNotNear, SCore" distance="5"/>
-					<consideration class="SelfNotHasBuff, SCore" buffs="IsHealing"/>
-					<consideration class="SelfNotHasBuff, SCore" buffs="buffHealHealth,buffProcessConsumables,buffReload2,buffReloadDelay,buffReload3,buffHitStun"/>
-				</action>	
-				<action name="MendArmSelf" weight="5" entity_filter="IsSelf">
-					<task class="HealSDX, SCore" OnStartAddBuffs="IsHealing" OnStopAddBuffs="buffArmSplinted"/>
-					<consideration class="SelfHasBuff, SCore" buffs="buffArmSprained,buffArmBroken"/>
-					<!--NEW-->
-					<consideration class="EnemyNotNear, SCore" distance="5"/>
-					<consideration class="SelfNotHasBuff, SCore" buffs="IsHealing"/>
-					<consideration class="SelfNotHasBuff, SCore" buffs="buffHealHealth,buffProcessConsumables,buffReload2,buffReloadDelay,buffReload3,buffHitStun"/>					
-				</action>
 			</ai_package>
 
 			<ai_package name="FuriousRamsayPersonalTraderRanged" entity_filter="IsEnemy"> 
@@ -145,41 +73,24 @@
 					<consideration class="InWeaponRange, SCore" action_index="1" />
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffBurstDelay,IsHealing,buffReload2,buffReloadDelay,buffReload3,RandomIdle,buffHitStun" />
 				</action>
-				<!--<action name="NPCRangedAttack" weight="5">
+				<action name="NPCRangedAttackStay" weight="7">
 					<task class="AttackTargetEntitySDX, SCore" action_index="1" />
-					<consideration class="FailOnDistanceToLeader, Score" max_distance="30" />
+					<consideration class="HasOrder, SCore" order="Stay"/>
 					<consideration class="CanSeeTarget, SCore" />
 					<consideration class="InWeaponRange, SCore" action_index="1" />
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffBurstDelay,IsHealing,buffReload2,buffReloadDelay,buffReload3,RandomIdle,buffHitStun" />
-					<consideration class="HasOrder, SCore" order="Stay" />
-				</action>-->
-				<!-- CONTROL ACTIONS - PLAYER IS BEING ATTACKED OR GAVE ATTACK COMMAND -->
-				<action name="MoveToEnemyShortRangedControlNPCAttacked" weight="4">
-					<task class="MoveToAttackTargetSDX, SCore" run="true" action_index="1" />
-					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModStopAttacking"/>
-					<consideration class="TargetHasBuff, SCore" buffs="buffNPCModAttacked"/>
-					<consideration class="TargetDistance" min="15" max="20" curve="threshold" />
-					<consideration class="SelfHasBuff, SCore" buffs="PipeShotgunUser,PShotgunUser,AShotgunUser" />
-					<consideration class="FailOnDistanceToLeader, Score" max_distance="30" />
-					<consideration class="CanSeeTarget, SCore" />
-					<consideration class="NotHasOrder, SCore" order="Stay" />
 				</action>
-				<action name="MoveToEnemyMediumRangedControlNPCAttacked" weight="4">
+				<action name="LeaderFollowControl" weight="10" >
+					<consideration class="SelfHasBuff, SCore" buffs="buffNPCModStopAttacking"/>
+					<task class="FollowSDX, SCore" OnStartAddBuffs="NPCpegasus" OnStopRemoveBuffs="NPCpegasus"/>
+					<consideration class="HasOrder, SCore" order="Follow"/>
+				</action>
+				<!-- CONTROL ACTIONS - PLAYER IS BEING ATTACKED OR GAVE ATTACK COMMAND -->
+				<action name="MoveToEnemyRangedControlNPCAttacked" weight="4">
 					<task class="MoveToAttackTargetSDX, SCore" run="true" action_index="1" />
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModStopAttacking"/>
 					<consideration class="TargetHasBuff, SCore" buffs="buffNPCModAttacked"/>
 					<consideration class="TargetDistance" min="20" max="25" curve="threshold" />
-					<consideration class="SelfNotHasBuff, SCore" buffs="PipeShotgunUser,PShotgunUser,AShotgunUser,SRifleUser,HRifleUser" />
-					<consideration class="FailOnDistanceToLeader, Score" max_distance="30" />
-					<consideration class="CanSeeTarget, SCore" />
-					<consideration class="NotHasOrder, SCore" order="Stay" />
-				</action>
-				<action name="MoveToEnemyLongRangedControlNPCAttacked" weight="4">
-					<task class="MoveToAttackTargetSDX, SCore" run="true" action_index="1" />
-					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModStopAttacking"/>
-					<consideration class="TargetHasBuff, SCore" buffs="buffNPCModAttacked"/>
-					<consideration class="TargetDistance" min="25" max="30" curve="threshold" />
-					<consideration class="SelfHasBuff, SCore" buffs="SRifleUser,HRifleUser" />
 					<consideration class="FailOnDistanceToLeader, Score" max_distance="30" />
 					<consideration class="CanSeeTarget, SCore" />
 					<consideration class="NotHasOrder, SCore" order="Stay" />
@@ -202,31 +113,10 @@
 					<consideration class="InWeaponRange, SCore" action_index="1" />
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffBurstDelay,IsHealing,buffReload2,buffReloadDelay,buffReload3,RandomIdle,buffHitStun" />
 				</action>
-				<action name="BackupShortRangedControlNPCAttacked" weight="3">
-					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="10"/>
-					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModStopAttacking"/>
-					<consideration class="TargetHasBuff, SCore" buffs="buffNPCModAttacked"/>
-					<consideration class="SelfHasBuff, SCore" buffs="PipeShotgunUser,PShotgunUser,AShotgunUser" />
-					<consideration class="InWeaponRange, SCore" action_index="1" />
-					<consideration class="FailOnDistanceToLeader, Score" max_distance="30"/>
-					<consideration class="CanSeeTarget, SCore"/>
-					<consideration class="NotHasOrder, SCore" order="Stay"/>
-				</action>
-				<action name="BackupMediumRangedControlNPCAttacked" weight="3">
+				<action name="BackupRangedControlNPCAttacked" weight="3">
 					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="15"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModStopAttacking"/>
 					<consideration class="TargetHasBuff, SCore" buffs="buffNPCModAttacked"/>
-					<consideration class="SelfNotHasBuff, SCore" buffs="PipeShotgunUser,PShotgunUser,AShotgunUser,SRifleUser,HRifleUser" />
-					<consideration class="InWeaponRange, SCore" action_index="1" />
-					<consideration class="FailOnDistanceToLeader, Score" max_distance="30"/>
-					<consideration class="CanSeeTarget, SCore"/>
-					<consideration class="NotHasOrder, SCore" order="Stay"/>
-				</action>
-				<action name="BackupLongRangedControlNPCAttacked" weight="3">
-					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="20"/>
-					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModStopAttacking"/>
-					<consideration class="TargetHasBuff, SCore" buffs="buffNPCModAttacked"/>
-					<consideration class="SelfHasBuff, SCore" buffs="SRifleUser,HRifleUser" />
 					<consideration class="InWeaponRange, SCore" action_index="1" />
 					<consideration class="FailOnDistanceToLeader, Score" max_distance="30"/>
 					<consideration class="CanSeeTarget, SCore"/>

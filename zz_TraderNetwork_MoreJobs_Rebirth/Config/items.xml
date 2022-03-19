@@ -1,5 +1,16 @@
 <Config>
 	
+	<setattribute xpath="/items/item[@name='FuriousRamsayMeleeHandSmokeZombie']/effect_group[@name='FuriousRamsayMeleeHandSmokeZombie']/requirement[@name='RandomRoll']" name="value">10</setattribute>
+
+	<append xpath="/items/item[@name='FuriousRamsayMeleeHandSmokeZombie']">
+		<property class="Action0">
+			<property name="Delay" value="0.8"/>
+			<property name="Range" value="1.65"/>
+			<property name="DamageEntity" value="15"/>
+			<property name="DamageBlock" value="60"/>
+		</property>
+	</append>
+
 	<setattribute xpath="/items/item[@name='resourceCrushedSand']/property[@name='EconomicValue']" name="value">100</setattribute>
 	<setattribute xpath="/items/item[@name='resourceClayLump']/property[@name='EconomicValue']" name="value">250</setattribute>
 	<setattribute xpath="/items/item[@name='resourcePotassiumNitratePowder']/property[@name='EconomicValue']" name="value">30</setattribute>

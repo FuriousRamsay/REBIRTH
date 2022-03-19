@@ -5470,7 +5470,7 @@
 			<property name="SoundDestroy" value="wooddestroy1"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="EconomicValue" value="700"/>
-			<property name="SellableToTrader" value="false"/>
+			<property name="SellableToTrader" value="true"/>
 			<property name="FuelValue" value="50"/>
 			<property name="ShowQuality" value="true"/>
 			<property name="RepairTools" value="FuriousRamsayRepairKitJunkBaton001_FR"/>
@@ -5559,7 +5559,7 @@
 			<property name="SoundDestroy" value="wooddestroy1"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="EconomicValue" value="6000"/>
-			<property name="SellableToTrader" value="false"/>
+			<property name="SellableToTrader" value="true"/>
 			<property name="FuelValue" value="50"/>
 			<property name="ShowQuality" value="true"/>
 			<property name="RepairTools" value="FuriousRamsayRepairKitBaton001_FR"/>
@@ -5656,7 +5656,7 @@
 			<property name="SoundDestroy" value="wooddestroy1"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="EconomicValue" value="6000"/>
-			<property name="SellableToTrader" value="false"/>
+			<property name="SellableToTrader" value="true"/>
 			<property name="FuelValue" value="50"/>
 			<property name="ShowQuality" value="true"/>
 			<property name="RepairTools" value="FuriousRamsayRepairKitBaton002_FR"/>
@@ -7323,7 +7323,7 @@
 			<property name="FuelValue" value="75"/>
 			<property name="EconomicValue" value="3000"/>
 			<property name="EconomicBundleSize" value="1"/>
-			<property name="SellableToTrader" value="false"/>
+			<property name="SellableToTrader" value="true"/>
 			<property name="IsSticky" value="true"/>
 			<property name="StickyOffset" value=".7"/>
 			<property name="StickyColliderUp" value="1"/>
@@ -7434,7 +7434,7 @@
 			<property name="FuelValue" value="75"/>
 			<property name="EconomicValue" value="3000"/>
 			<property name="EconomicBundleSize" value="1"/>
-			<property name="SellableToTrader" value="false"/>
+			<property name="SellableToTrader" value="true"/>
 			<property name="IsSticky" value="true"/>
 			<property name="StickyOffset" value=".7"/>
 			<property name="StickyColliderUp" value="1"/>
@@ -7532,7 +7532,7 @@
 			<property name="FuelValue" value="75"/>
 			<property name="EconomicValue" value="700"/>
 			<property name="EconomicBundleSize" value="1"/>
-			<property name="SellableToTrader" value="false"/>
+			<property name="SellableToTrader" value="true"/>
 			<property name="IsSticky" value="true"/>
 			<property name="StickyOffset" value=".7"/>
 			<property name="StickyColliderUp" value="1"/>
@@ -7630,7 +7630,7 @@
 			<property name="FuelValue" value="75"/>
 			<property name="EconomicValue" value="6000"/>
 			<property name="EconomicBundleSize" value="1"/>
-			<property name="SellableToTrader" value="false"/>
+			<property name="SellableToTrader" value="true"/>
 			<property name="IsSticky" value="true"/>
 			<property name="StickyOffset" value=".7"/>
 			<property name="StickyColliderUp" value="1"/>
@@ -7728,7 +7728,7 @@
 			<property name="FuelValue" value="75"/>
 			<property name="EconomicValue" value="6000"/>
 			<property name="EconomicBundleSize" value="1"/>
-			<property name="SellableToTrader" value="false"/>
+			<property name="SellableToTrader" value="true"/>
 			<property name="IsSticky" value="true"/>
 			<property name="StickyOffset" value=".7"/>
 			<property name="StickyColliderUp" value="1"/>
@@ -7826,7 +7826,7 @@
 			<property name="FuelValue" value="75"/>
 			<property name="EconomicValue" value="10000"/>
 			<property name="EconomicBundleSize" value="1"/>
-			<property name="SellableToTrader" value="false"/>
+			<property name="SellableToTrader" value="true"/>
 			<property name="IsSticky" value="true"/>
 			<property name="StickyOffset" value=".7"/>
 			<property name="StickyColliderUp" value="1"/>
@@ -9473,7 +9473,7 @@
 
 			<property name="EconomicValue" value="250"/>
 			<property name="EconomicBundleSize" value="1"/>
-			<property name="SellableToTrader" value="false"/>
+			<property name="SellableToTrader" value="true"/>
 	
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="15000"/>

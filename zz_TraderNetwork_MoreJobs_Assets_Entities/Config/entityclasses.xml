@@ -18,6 +18,11 @@
 		<effect_group name="SupportFromHiredNPCs">
 			<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" target="other" buff="buffNPCModAttacked"/>
 		</effect_group>
+		<effect_group name="TempModeChange">
+			<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$varNPCModMode" operation="set" value="1">
+				<requirement name="CVarCompare" cvar="$varNPCModMode" operation="Equals" value="2" />
+			</triggered_effect>
+		</effect_group>
 	</append>
 
 	<append xpath="/entity_classes/entity_class[@name='npcMeleeTemplate']">

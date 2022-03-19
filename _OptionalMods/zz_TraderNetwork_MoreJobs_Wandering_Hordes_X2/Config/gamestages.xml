@@ -17,7 +17,7 @@
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='07']/spawn/@num">16</set>
 
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='08']/spawn/@num">16</set>
-	<setattribute xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='08']/spawn" name="group">FuriousRamsayWanderingHordeStage08</setattribute>
+	<!--<setattribute xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='08']/spawn" name="group">FuriousRamsayWanderingHordeStage08</setattribute>-->
 
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='09']/spawn/@num">12</set>
 
@@ -72,7 +72,7 @@
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='33']/spawn/@num">12</set>
 
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='34']/spawn/@num">16</set>
-	<setattribute xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='34']/spawn" name="group">FuriousRamsayWanderingHordeStage34</setattribute>
+	<!--<setattribute xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='34']/spawn" name="group">FuriousRamsayWanderingHordeStage34</setattribute>-->
 
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='35']/spawn/@num">18</set>
 
@@ -88,7 +88,7 @@
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='40']/spawn/@num">18</set>
 
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='41']/spawn/@num">16</set>
-	<setattribute xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='41']/spawn" name="group">FuriousRamsayWanderingHordeStage41</setattribute>
+	<!--<setattribute xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='41']/spawn" name="group">FuriousRamsayWanderingHordeStage41</setattribute>-->
 
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='42']/spawn/@num">22</set>
 

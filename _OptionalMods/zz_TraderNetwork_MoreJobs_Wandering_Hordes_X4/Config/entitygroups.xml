@@ -2,7 +2,7 @@
 
 	<append xpath="/entitygroups">
 
-		<entitygroup name="FuriousRamsayWanderingHordeStage08">
+		<!--<entitygroup name="FuriousRamsayWanderingHordeStage08">
 			<entity name="FuriousRamsayUMAAidenZombieWandering" prob="1"/>
 			<entity name="FuriousRamsayUMAHodorZombieWandering" prob="1"/>
 			<entity name="FuriousRamsayUMARichieZombieWandering" prob="1"/>
@@ -12,7 +12,7 @@
 			<entity name="FuriousRamsayUMARoxyZombieWandering" prob="1"/>
 			<entity name="FuriousRamsayUMAGabrielleZombieWandering" prob="1"/>
 			<entity name="FuriousRamsayUMAClintZombieWandering" prob="1"/>
-		</entitygroup>
+		</entitygroup>-->
 
 		<entitygroup name="FuriousRamsayWanderingHordeStage12">
 			<entity name="FuriousRamsayBlackDecoyFireZombieBoeWandering" prob="1"/>
@@ -42,7 +42,7 @@
 			<entity name="FuriousRamsayTrainerTier2Wandering" prob="0.15"/>
 		</entitygroup>
 
-		<entitygroup name="FuriousRamsayWanderingHordeStage34">
+		<!--<entitygroup name="FuriousRamsayWanderingHordeStage34">
 			<entity name="FuriousRamsayUMAAidenZombieFeralWandering" prob="1"/>
 			<entity name="FuriousRamsayUMAHodorZombieFeralWandering" prob="1"/>
 			<entity name="FuriousRamsayUMARichieZombieFeralWandering" prob="1"/>
@@ -52,7 +52,7 @@
 			<entity name="FuriousRamsayUMARoxyZombieFeralWandering" prob="1"/>
 			<entity name="FuriousRamsayUMAGabrielleZombieFeralWandering" prob="1"/>
 			<entity name="FuriousRamsayUMAClintZombieFeralWandering" prob="1"/>
-		</entitygroup>
+		</entitygroup>-->
 
 		<entitygroup name="FuriousRamsayWanderingHordeStage38">
 			<entity name="FuriousRamsayBlackDecoyFireShockZombieSkateboarderWandering" prob="1"/>
@@ -81,7 +81,7 @@
 			<entity name="FuriousRamsayTrainerTier3Wandering" prob="0.15"/>
 		</entitygroup>
 
-		<entitygroup name="FuriousRamsayWanderingHordeStage41">
+		<!--<entitygroup name="FuriousRamsayWanderingHordeStage41">
 			<entity name="FuriousRamsayUMAAidenZombieRageWandering" prob="1"/>
 			<entity name="FuriousRamsayUMAHodorZombieRageWandering" prob="1"/>
 			<entity name="FuriousRamsayUMARichieZombieRageWandering" prob="1"/>
@@ -91,7 +91,7 @@
 			<entity name="FuriousRamsayUMARoxyZombieRageWandering" prob="1"/>
 			<entity name="FuriousRamsayUMAClintZombieRageWandering" prob="1"/>
 			<entity name="FuriousRamsayUMAGabrielleZombieRageWandering" prob="1"/>
-		</entitygroup>
+		</entitygroup>-->
 
 		<entitygroup name="FuriousRamsayWanderingHordeStage44">
 			<entity name="FuriousRamsayBlackDecoySmokeZombieNurseFeralWandering" prob="1"/>

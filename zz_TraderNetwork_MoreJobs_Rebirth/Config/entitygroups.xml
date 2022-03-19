@@ -434,9 +434,9 @@
 		<entity name="FuriousRamsayUMARoxyEnemyBiome" prob="0.25"/>
 		<entity name="FuriousRamsayUMAGabrielleEnemyBiome" prob="0.15"/>
 		<entity name="FuriousRamsayUMAClintEnemyBiome" prob="0.25"/>
-		<entity name="FuriousRamsaySkullsClubTier2Biome" prob="0.15"/>
+		<!--<entity name="FuriousRamsaySkullsClubTier2Biome" prob="0.15"/>
 		<entity name="FuriousRamsaySkullsHammerTier2Biome" prob="0.15"/>
-		<entity name="FuriousRamsaySkullsAxeTier2Biome" prob="0.15"/>
+		<entity name="FuriousRamsaySkullsAxeTier2Biome" prob="0.15"/>-->
 	</append>
 
 	<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']">

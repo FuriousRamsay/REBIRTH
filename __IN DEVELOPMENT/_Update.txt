@@ -46,7 +46,7 @@ Add PartyGirlRadiated
 Add zombieTomClark(s)
 
 REBIRTH:
-(FOR TESTING ONLY) Rebirth Version A20.3Exp-2022-03-17-1505 (FOR TESTING ONLY)
+(FOR TESTING ONLY) Rebirth Version A20.3Exp-2022-03-18-1505 (FOR TESTING ONLY)
 (SHOULD NOT RESET PROGRESSION)
 Fixed Full Control not preventing your hires from attacking
 Fixed Inability to unlock ranged weapon expertise Repair Kits
@@ -71,25 +71,33 @@ Fixed Global Aura perk descriptions showing wrong zombie type
 Increased the price of Seed Bundles
 Farmer Trader now sells Sand/Clay/Nitrate/Coal
 Adjust Economic value of Sand/Clay/Nitrate/Coal
-http://38.17.55.139/Rebirth-2022-03-15-1545.zip
+Reduced normal Explosion Immune Zombie chance to ragdoll on hit from 50% down to 10%
+Reduced normal Explosiob zombie reach and entity damage
+Significantly reduce tne variations of NPC spawns in biomes to help with performance
+Custom Spears can now be sold to traders
+Removed UMA Skulls and Zombies from Biome spawns and wandering hordes
+Briston, Trainers and Custom Traders will now attack when not following you
+http://38.17.55.139/Rebirth-2022-03-18-1545.zip
 
 TODO:
+Remove Persist CVar every so often
+Briston and trainers can shoot in stay
+Streamline Repair Kits
+
+Check out gas price as handyman
+weapon descriptions
+Steel spikes
+Upgrade iron bars (corner) to steel
 Beer isn't showing water intake
-Joel AK-47 won't move
-FuriousRamsayBobM60 no name
-SurvivorMan001d1M60 no name
 Add small chance of high performance running shoes and jacket to zombie loot
 Rusty steel axe description
 Flaming barrel shouldn't give resource when wrenched
 Add localization for Mercenary buffs
 Rusty Steel PickAxe requires Ductape to repair?
 Just noticed a small UI Bug. My Hunter had Bow Level 0 with 95%Progress. I killed some Zs with my spear and leveled Hunter to Level 4. The progressbar of Bows resetted. I killed some Zs with Bow and got Level 1 BowL
-Reduce Explosion immune zombie hand item damage
-Reduce Explosion immune zombie knockdown chance
 Add schematics for armor crafting
 Make more generic repair kits
-Too many Mercenary spawns
-Any reason why no sell price on custom spears? Other weapons?
+Too many Mercenary trader spawns (keeps repeating)
 
 NullReferenceException: Object reference not set to an instance of an object
   at XUiC_QuestTurnInWindowGroup.OnClose () [0x00090] in <39cf8b713b17414c9e5ddfff01d6df19>:0 
