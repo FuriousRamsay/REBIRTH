@@ -1,5 +1,8 @@
 <Config>
 
+	<!-- CHANGE TOOLTIP POSITION -->
+	<setattribute xpath="/windows/window[@name='toolTipPopups']" name="pos">-5,330</setattribute>
+
 	<!-- REMOVE QUALITY LABEL -->
 	<remove xpath="/windows/window[@name='windowTrader']/panel[@name='content']/rect[@name='tableHeader']/rect/sprite[@sprite='ui_game_symbol_diamond']"/>
 	<remove xpath="/windows/window[@name='windowTrader']/panel[@name='content']/rect[@name='tableHeader']/rect/label[@text_key='xuiQuality']"/>
@@ -61,10 +64,10 @@
 	<append xpath="/windows">
 
 	<window name="FuriousRamsayWindowClassInfo" visible="{toolbeltvisible}">
-			<rect name="FuriousRamsayClassInfo" controller="HUDStatBar" pos="268,110" width="257">
+			<rect name="FuriousRamsayClassInfo" controller="HUDStatBar" pos="30,180" width="257">
 
-				<rect name="FuriousRamsayClassInfoContainer" width="257" depth="2" pos="0,45" height="140"> <!-- 140 -->
-					<filledsprite depth="3" name="FRbackground" pos="0,0" color="0,0,0,210" height="140" width="257" globalopacity="false" type="filled" fill="1" />
+				<rect name="FuriousRamsayClassInfoContainer" width="257" depth="2" pos="0,45" height="120"> <!-- 140 -->
+					<filledsprite depth="3" name="FRbackground" pos="0,0" color="0,0,0,210" height="120" width="257" globalopacity="false" type="filled" fill="1" />
 					<sprite depth="4" sprite="menu_empty" name="border" color="255,255,255" globalopacity="false" type="sliced" fillcenter="false"/>
 
 					<rect name="FuriousRamsayClassNotSelected" width="237" depth="2" pos="10,15" height="25" globalopacity="false">

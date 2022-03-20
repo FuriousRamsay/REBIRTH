@@ -46,7 +46,7 @@ Add PartyGirlRadiated
 Add zombieTomClark(s)
 
 REBIRTH:
-(FOR TESTING ONLY) Rebirth Version A20.3Exp-2022-03-18-1505 (FOR TESTING ONLY)
+(FOR TESTING ONLY) Rebirth Version A20.3Exp-2022-03-20-1505 (FOR TESTING ONLY)
 (WILL REQUIRE A NEW PLAYTHROUGH)
 Fixed Full Control not preventing your hires from attacking
 Fixed Inability to unlock ranged weapon expertise Repair Kits
@@ -91,12 +91,22 @@ Fixed Starter Toxic quest not autocompleting
 Reduced number of Survivors in Ghost Starter mission
 Removed zombies in Hazard Starter mission
 Fixed Smoke particle sticking to NPCs
-http://38.17.55.139/Rebirth-2022-03-18-2115.zip
+Fixed some instances of receiving duplicate rewards
+Fixed first Spawn alert not working on dedicated servers
+Move NPC verification check when you enter the game rather than every 10 seconds to help with performance
+Reduced regular zombie attack range
+Darkened the open inventory slots to better distinguish them from 
+Included SMX HUD
+http://38.17.55.139/Rebirth-2022-03-20-2115.zip
 
 TODO:
-Test new Add Items (gameevents) on dedi
-Try giving quests rather than items
 Streamline Repair Kits
+
+Update Sorcery modelet
+
+Add birds and bird noises
+How does wow does looting exp
+Add special missions to unlock??? Like kill x zombies
 
 Add schematics for armor crafting
 Too many Mercenary trader spawns (keeps repeating)

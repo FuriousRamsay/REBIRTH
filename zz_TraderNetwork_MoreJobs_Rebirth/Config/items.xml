@@ -1,5 +1,8 @@
 <Config>
 	
+	<!-- REDUCE THE MELEE RANGE OF REGULAR ZOMBIES -->
+	<setattribute xpath="/items/item[@name='meleeHandMaster']/property[@class='Action0']/property[@name='Range']" name="value">1.6</setattribute>
+
 	<!-- CHANGE NORMAL EXPLOSION IMMUNE ZOMBIE RAGDOLL CHANCE AND ENTITY DAMAGE -->
 	<setattribute xpath="/items/item[@name='FuriousRamsayMeleeHandSmokeZombie']/effect_group[@name='FuriousRamsayMeleeHandSmokeZombie']/requirement[@name='RandomRoll']" name="value">15</setattribute>
 	<append xpath="/items/item[@name='FuriousRamsayMeleeHandSmokeZombie']">

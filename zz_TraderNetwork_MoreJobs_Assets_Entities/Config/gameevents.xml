@@ -3,18 +3,25 @@
 	<append xpath="/gameevents/action_sequence[@name='spawn_FuriousRamsay_Start']">
 
 		<action class="SpawnEntity">
-			<property name="entity_names" value="FuriousRamsaySurvivorMan008aStart"/>
-			<property name="min_distance" value="12" />
-			<property name="max_distance" value="12" />
+			<property name="entity_names" value="FuriousRamsaySurvivorMan008aBat,FuriousRamsaySurvivorMan001aBat,FuriousRamsaySurvivorMan001bBat,FuriousRamsaySurvivorMan001cBat,FuriousRamsaySurvivorMan001dBat,FuriousRamsaySurvivorMan001eBat,FuriousRamsaySurvivorMan001fBat,FuriousRamsaySurvivorMan001gBat,FuriousRamsaySurvivorMan001aAxe,FuriousRamsaySurvivorMan001bAxe,FuriousRamsaySurvivorMan001cAxe,FuriousRamsaySurvivorMan001dAxe,FuriousRamsaySurvivorMan001eAxe,FuriousRamsaySurvivorMan001fAxe,FuriousRamsaySurvivorMan001gAxe,FuriousRamsaySurvivorMan001aMachete,FuriousRamsaySurvivorMan001bMachete,FuriousRamsaySurvivorMan001cMachete,FuriousRamsaySurvivorMan001dMachete,FuriousRamsaySurvivorMan001eMachete,FuriousRamsaySurvivorMan001fMachete,FuriousRamsaySurvivorMan001gMachete"/>
+			<property name="min_distance" value="5" />
+			<property name="max_distance" value="5" />
 			<property name="spawn_count" value="1" />
-			<property name="phase" value="2" />
+			<property name="phase" value="1" />
 		</action>
 		<action class="SpawnEntity">
 			<property name="entity_names" value="FuriousRamsaySurvivorMan001aPipeRifle,FuriousRamsaySurvivorMan001bPipeRifle,FuriousRamsaySurvivorMan001cPipeRifle,FuriousRamsaySurvivorMan001dPipeRifle,FuriousRamsaySurvivorMan001ePipeRifle,FuriousRamsaySurvivorMan001fPipeRifle,FuriousRamsaySurvivorMan001gPipeRifle,FuriousRamsaySurvivorWoman001aPipeRifle,FuriousRamsaySurvivorWoman001bPipeRifle,FuriousRamsaySurvivorWoman001cPipeRifle,FuriousRamsaySurvivorWoman001dPipeRifle,FuriousRamsaySurvivorWoman001ePipeRifle,FuriousRamsaySurvivorWoman001fPipeRifle,FuriousRamsaySurvivorWoman001gPipeRifle"/>
 			<property name="min_distance" value="5" />
 			<property name="max_distance" value="5" />
 			<property name="spawn_count" value="1" />
-			<property name="phase" value="2" />
+			<property name="phase" value="1" />
+		</action>
+		<action class="SpawnEntity">
+			<property name="entity_names" value="FuriousRamsaySurvivorMan001aPipeShotgun,FuriousRamsaySurvivorMan001bPipeShotgun,FuriousRamsaySurvivorMan001cPipeShotgun,FuriousRamsaySurvivorMan001dPipeShotgun,FuriousRamsaySurvivorMan001ePipeShotgun,FuriousRamsaySurvivorMan001fPipeShotgun,FuriousRamsaySurvivorMan001gPipeShotgun,FuriousRamsaySurvivorWoman001aPipeShotgun,FuriousRamsaySurvivorWoman001bPipeShotgun,FuriousRamsaySurvivorWoman001cPipeShotgun,FuriousRamsaySurvivorWoman001dPipeShotgun,FuriousRamsaySurvivorWoman001ePipeShotgun,FuriousRamsaySurvivorWoman001fPipeShotgun,FuriousRamsaySurvivorWoman001gPipeShotgun"/>
+			<property name="min_distance" value="5" />
+			<property name="max_distance" value="5" />
+			<property name="spawn_count" value="1" />
+			<property name="phase" value="1" />
 		</action>
 		<!--<action class="SpawnEntity">
 			<property name="entity_names" value="FuriousRamsaySurvivorWoman001aPipePistol,FuriousRamsaySurvivorWoman001bPipePistol,FuriousRamsaySurvivorWoman001cPipePistol,FuriousRamsaySurvivorWoman001dPipePistol,FuriousRamsaySurvivorWoman001ePipePistol,FuriousRamsaySurvivorWoman001fPipePistol,FuriousRamsaySurvivorWoman001gPipePistol"/>

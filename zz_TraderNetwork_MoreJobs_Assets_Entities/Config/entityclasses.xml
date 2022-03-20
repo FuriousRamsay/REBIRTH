@@ -11705,7 +11705,7 @@
 		</entity_class>
 
 	<!-- STARTER -->
-		<entity_class name="FuriousRamsaySurvivorMan008aStart" extends="FuriousRamsaySurvivorManBat"> 
+		<!--<entity_class name="FuriousRamsaySurvivorMan008aStart" extends="FuriousRamsaySurvivorManBat"> 
 			<property name="Tags" value="entity,male,npc,survivor,melee,FuriousRamsaySurvivorMan008aBat,DRMid"/>
 			<property name="Names" value="William,Kylian,Turner,Wes,Keenan,Jaxen,Marlon,Maxton,Davian,Vance,Jad,Xzavier,Colter,Abner,Cillian,Foster,Terrance,Hakeem,Damir,Dangelo,Canaan,Jeremias,Riggs" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_MenSurvivors4.unity3d?SurvivorMan008a_FR"/>		
@@ -11715,7 +11715,7 @@
 				</triggered_effect>
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="varPlayerFirstSpawnSound" operation="set" value="1"/>
 			</effect_group>			
-		</entity_class>
+		</entity_class>-->
 
 	<!-- WILLIAM -->
 		<!-- MELEE -->

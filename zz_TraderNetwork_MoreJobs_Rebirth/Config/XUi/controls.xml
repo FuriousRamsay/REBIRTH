@@ -1,5 +1,9 @@
 <Config>
-	
+
+	<!-- CATEGORIES -->
+	<setattribute xpath="/controls/smxui_toolbelt_item_stack[@controller='ItemStack']/rect/sprite[@name='durabilityBackground']" name="height">10</setattribute>
+	<setattribute xpath="/controls/smxui_toolbelt_item_stack[@controller='ItemStack']/rect/sprite[@name='durability']" name="height">10</setattribute>
+
 	<!-- CATEGORIES -->
 	<set xpath="/controls/category_icon/button/@size">25,25</set>
 
@@ -11,10 +15,10 @@
 	<set xpath="/controls/skill_attribute_level/panel/@color_bg_bought">139,161,133,255</set>
 
 	<remove xpath="/controls/skill_entry/panel/label[@text='{grouppointcost}']"/>
-	<set xpath="/controls/skill_entry/panel/@hover_color">80,80,80,320</set>
+	<set xpath="/controls/skill_entry/panel/@hover_color">80,80,80,255</set>
 
 	<!-- OTHER -->
-	<set xpath="/controls/item_stack/rect/sprite[@name='backgroundMain']/@color">80,80,80,320</set>
+	<set xpath="/controls/item_stack/rect/sprite[@name='backgroundMain']/@color">80,80,80,255</set>
 
 	<remove xpath="/controls/trader_item/rect/sprite[@name='durabilityBar']"/>
 	<remove xpath="/controls/trader_item/rect/sprite[@name='durabilityBackground']"/>
@@ -31,7 +35,7 @@
 		<item_stack_output controller="ItemStack" style="itemStackOutput, hover" on_scroll="false" allow_dropping="true" prefix_id="false" show_favorites="false">
 			<rect controller="${controller}" style="itemStack, hover" collider_scale="1.0" on_scroll="${on_scroll}" allow_dropping="${allow_dropping}" prefix_id="${prefix_id}" show_favorites="${show_favorites}" tooltip="{tooltip}" >
 
-				<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="58" height="58" color="80,80,80,320" type="sliced" fillcenter="false"/>
+				<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="58" height="58" color="80,80,80,255" type="sliced" fillcenter="false"/>
 				<sprite depth="3" name="background" sprite="menu_empty3px" width="54" height="54" color="[darkGrey]" type="sliced" globalopacity="true" fillcenter="false" />
 				<sprite depth="2" name="highlightOverlay" width="54" height="54" color="[darkGrey]" pos="0,0" type="sliced" globalopacity="true" />
 

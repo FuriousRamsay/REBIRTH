@@ -1,8 +1,14 @@
 <Config>
 
-	<set xpath="/styles/global/style_entry[@name='darkGrey']/@value">30,30,30,320</set>
-	<set xpath="/styles/global/style_entry[@name='mediumGrey']/@value">30,30,30,320</set>
-	<set xpath="/styles/style[@name='paging.window.background']/style_entry[@name='color']/@value">0, 0, 0,320</set>
+	<set xpath="/styles/global/style_entry[@name='darkGrey']/@value">35,35,35,255</set>
+	<set xpath="/styles/global/style_entry[@name='mediumGrey']/@value">20,20,20,255</set>
+	<set xpath="/styles/global/style_entry[@name='lightGrey']/@value">128,128,128,255</set>
+	
+	<set xpath="/styles/global/style_entry[@name='mediumGrey_half_alpha']/@value">96,96,96,255</set>
+	<set xpath="/styles/global/style_entry[@name='darkGrey_half_alpha']/@value">64,64,64,255</set>
+	<set xpath="/styles/global/style_entry[@name='black_half_alpha']/@value">0,0,0,255</set>
+
+	<set xpath="/styles/style[@name='paging.window.background']/style_entry[@name='color']/@value">0, 0, 0,255</set>
 
 	<append xpath="/styles">
 		<style name="itemStackOutput">
