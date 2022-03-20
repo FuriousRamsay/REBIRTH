@@ -688,18 +688,39 @@
 	</append>-->
 	
 	<!-- ADJUST UMA ENTITIES -->
-	<setattribute xpath="/entity_classes/entity_class[@name='FuriousRamsayUMATemplateMale']/property[@name='Class']" name="value">EntityEnemySDX, SCore</setattribute>
-	<setattribute xpath="/entity_classes/entity_class[@name='FuriousRamsayCloakedAndroidMaster']/property[@name='Class']" name="value">EntityEnemySDX, SCore</setattribute>
 	<!--<setattribute xpath="/entity_classes/entity_class[@name='FuriousRamsayAllyNPCTier5']/property[@name='Class']" name="value">EntityAliveSDX, SCore</setattribute>-->
 
+	<!--<remove xpath="/entity_classes/entity_class[@name='FuriousRamsayUMATemplateMale']/property[starts-with(@name, 'AITask-')]" />
+	<remove xpath="/entity_classes/entity_class[@name='FuriousRamsayUMATemplateMale']/property[starts-with(@name, 'AITarget-')]" />
+
+	<append xpath="/entity_classes/entity_class[@name='FuriousRamsayUMATemplateMale']">
+		<property name="AITask-1" value="BreakBlock" />
+		<property name="AITask-2" value="DestroyArea" />
+		<property name="AITask-4" value="ApproachAndAttackTarget" data="class=EntityPlayer,120,EntityNPC,120,EntityZombie,60" />
+		<property name="AITask-5" value="Wander" />
+		<property name="AITask-6" value="" />
+		<property name="AITarget-1" value="SetNearestEntityAsTarget" data="class=EntityPlayer,0,0,EntityNPC,0,0,EntityZombie,0,0" />
+		<property name="AITarget-2" value="BlockingTargetTask" />
+		<property name="AITarget-3" value="SetAsTargetIfHurt" />
+		<property name="AITarget-4" value="" />
+	</append>-->
+	
+	<!--<setattribute xpath="/entity_classes/entity_class[@name='FuriousRamsayUMATemplateMale']/property[@name='Class']" name="value">EntityEnemySDX, SCore</setattribute>
 	<setattribute xpath="/entity_classes/entity_class[@name='FuriousRamsayUMATemplateMale']/property[@name='TimeStayAfterDeath']" name="value">3</setattribute>
-		
+	<remove xpath="/entity_classes/entity_class[@name='FuriousRamsayUMATemplateMale']/effect_group/passive_effect[@name='JumpStrength']" />
 	<append xpath="/entity_classes/entity_class[@name='FuriousRamsayUMATemplateMale']">
 		<property name="AIPackages" value="NPCBasic, NPCMeleeBasic2"/>  
-	</append>
-	<append xpath="/entity_classes/entity_class[@name='FuriousRamsayCloakedAndroidMaster']">
+	</append>-->
+
+	<remove xpath="/entity_classes/entity_class[@name='FuriousRamsayCloakedAndroidMaster']/property[@name='Class']" />
+	<setattribute xpath="/entity_classes/entity_class[@name='FuriousRamsayEnemyAndroid']/property[@name='AITask-1']" name="data">class=EntityPlayer,15,EntityNPC,15</setattribute>
+	<setattribute xpath="/entity_classes/entity_class[@name='FuriousRamsayEnemyAndroid']/property[@name='AITarget-1']" name="data">class=EntityPlayer,0,0,EntityNPC,0,0</setattribute>
+
+	<!--<setattribute xpath="/entity_classes/entity_class[@name='FuriousRamsayCloakedAndroidMaster']/property[@name='Class']" name="value">EntityEnemySDX, SCore</setattribute>-->
+	<!--<remove xpath="/entity_classes/entity_class[@name='FuriousRamsayCloakedAndroidMaster']/effect_group/passive_effect[@name='JumpStrength']" />-->
+	<!--<append xpath="/entity_classes/entity_class[@name='FuriousRamsayCloakedAndroidMaster']">
 		<property name="AIPackages" value="NPCBasic, NPCMeleeBasic2"/>  
-	</append>
+	</append>-->
 
 	<!--<setattribute xpath="/entity_classes/entity_class[@name='FuriousRamsayAllyNPCTier5']" name="extends">npcAdvancedAK47Template</setattribute>
 	<set xpath="/entity_classes/entity_class[@name='FuriousRamsayAllyNPCTier5']">
@@ -734,11 +755,6 @@
 			<passive_effect name="StaminaChangeOT" operation="base_add" value="10"/>
 		</effect_group>		
 	</set>-->
-
-	<!-- REMOVE JUMP/LAND ANIMATION BUG FIX -->
-	<remove xpath="/entity_classes/entity_class[@name='FuriousRamsayUMATemplateMale']/effect_group/passive_effect[@name='JumpStrength']" />
-	<remove xpath="/entity_classes/entity_class[@name='FuriousRamsayCloakedAndroidMaster']/effect_group/passive_effect[@name='JumpStrength']" />
-	<!--<remove xpath="/entity_classes/entity_class[@name='FuriousRamsayAllyNPCTier5']/effect_group/passive_effect[@name='JumpStrength']" />-->
 
 	<!--<setattribute xpath="/entity_classes/entity_class[@name='FuriousRamsayAllyDogTier1']/property[@name='Class']" name="value">EntityAliveSDX, SCore</setattribute>
 	<setattribute xpath="/entity_classes/entity_class[@name='FuriousRamsayAllyWolfTier2']/property[@name='Class']" name="value">EntityAliveSDX, SCore</setattribute>

@@ -33,7 +33,7 @@
 	<append xpath="/entity_classes">
 	
 		<entity_class name="FuriousRamsayChunkObserverEntity" extends="zombieTemplateMale">
-			<property name="Class" value="EntityAliveSDX, SCore" /> 
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="IsChunkObserver" value="true"/>
 			<property name="SizeScale" value="0.1"/>
 			<property name="Prefab" value="/Entities/Animals/Rabbit/RABBIT"/>
@@ -835,6 +835,7 @@
 		<!-- MALE BANDIT TEMPLATES -->
 		<entity_class name="FuriousRamsayBanditManHand" extends="npcEmptyHandTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayBanditLootBat"/>
@@ -846,6 +847,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManBat" extends="npcBatTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayBanditLootBat"/>
@@ -857,6 +859,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManAxe" extends="npcAxeTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayBanditLootAxe"/>
@@ -868,6 +871,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManClub" extends="npcClubTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayBanditLootClub"/>
@@ -879,6 +883,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManKnife" extends="npcKnifeTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayBanditLootKnife"/>
@@ -890,6 +895,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManSpear" extends="npcSpearTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayBanditLootSpear"/>
@@ -901,6 +907,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManMachete" extends="npcMacheteTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayBanditLootMachete"/>
@@ -912,6 +919,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManPipePistol" extends="npcPipePistolTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayBanditLootPipePistol"/>
@@ -923,6 +931,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManPipeMachineGun" extends="npcPipeMGTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayBanditLootPipeMachineGun"/>
@@ -934,6 +943,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManPipeShotgun" extends="npcPipeShotgunTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayBanditLootPipeShotgun"/>
@@ -945,6 +955,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManPipeRifle" extends="npcPipeRifleTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayBanditLootPipeRifle"/>
@@ -956,6 +967,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManPistol" extends="npcPistolTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayBanditLootPistol"/>
@@ -967,6 +979,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManDesertVulture" extends="npcDPistolTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayBanditLootDesertVulture"/>
@@ -978,6 +991,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManSMG5" extends="npcSMGTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayBanditLootSMG5"/>
@@ -989,6 +1003,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManM60" extends="npcM60Template">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayBanditLootM60"/>
@@ -1000,6 +1015,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManAK47" extends="npcAK47Template">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayBanditLootAK47"/>
@@ -1011,6 +1027,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManAssaultRifle" extends="npcTRifleTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayBanditLootAssaultRifle"/>
@@ -1022,6 +1039,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManHuntingRifle" extends="npcHRifleTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayBanditLootHuntingRifle"/>
@@ -1033,6 +1051,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManSniperRifle" extends="npcSRifleTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayBanditLootSniperRifle"/>
@@ -1044,6 +1063,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManPumpShotgun" extends="npcPShotgunTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayBanditLootPumpShotgun"/>
@@ -1055,6 +1075,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManAutoShotgun" extends="npcAShotgunTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayBanditLootAutoShotgun"/>
@@ -1066,6 +1087,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManWoodenBow" extends="npcLBowTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayBanditLootWoodenBow"/>
@@ -1077,6 +1099,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManCrossbow" extends="npcXBowTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayBanditLootCrossbow"/>
@@ -1088,6 +1111,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManRocketLauncher" extends="npcRocketLTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayBanditLootRocketLauncher"/>
@@ -1101,6 +1125,7 @@
 		<!-- FEMALE BANDIT TEMPLATES -->
 		<entity_class name="FuriousRamsayBanditWomanBat" extends="npcBatTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1124,6 +1149,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanAxe" extends="npcAxeTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1147,6 +1173,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanClub" extends="npcClubTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1170,6 +1197,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanKnife" extends="npcKnifeTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1193,6 +1221,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanSpear" extends="npcSpearTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1216,6 +1245,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanMachete" extends="npcMacheteTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1239,6 +1269,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanPipePistol" extends="npcPipePistolTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1262,6 +1293,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanPipeMachineGun" extends="npcPipeMGTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1285,6 +1317,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanPipeShotgun" extends="npcPipeShotgunTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1308,6 +1341,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanPipeRifle" extends="npcPipeRifleTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1331,6 +1365,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanPistol" extends="npcPistolTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1354,6 +1389,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanDesertVulture" extends="npcDPistolTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1377,6 +1413,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanSMG5" extends="npcSMGTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1400,6 +1437,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanM60" extends="npcM60Template"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1423,6 +1461,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanAK47" extends="npcAK47Template"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1446,6 +1485,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanAssaultRifle" extends="npcTRifleTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1469,6 +1509,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanHuntingRifle" extends="npcHRifleTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1492,6 +1533,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanSniperRifle" extends="npcSRifleTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1515,6 +1557,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanPumpShotgun" extends="npcPShotgunTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1538,6 +1581,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanAutoShotgun" extends="npcAShotgunTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1561,6 +1605,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanWoodenBow" extends="npcLBowTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1584,6 +1629,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanCrossbow" extends="npcXBowTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1607,6 +1653,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditWomanRocketLauncher" extends="npcRocketLTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Faction" value="bandits"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1632,6 +1679,7 @@
 		<!-- NON-HIREABLE MALE SURVIVOR TEMPLATES -->
 		<entity_class name="FuriousRamsaySurvivorManHandNoHire" extends="npcEmptyHandTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10" />
@@ -1639,6 +1687,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManBatNoHire" extends="npcBatTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10" />
@@ -1646,6 +1695,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManAxeNoHire" extends="npcAxeTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10" />
@@ -1653,6 +1703,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManClubNoHire" extends="npcClubTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10" />
@@ -1660,6 +1711,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManKnifeNoHire" extends="npcKnifeTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10" />
@@ -1667,6 +1719,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManSpearNoHire" extends="npcSpearTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10" />
@@ -1674,6 +1727,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManMacheteNoHire" extends="npcMacheteTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10" />
@@ -1681,42 +1735,52 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManPipePistolNoHire" extends="npcPipePistolTemplate">
 			<property name="HideInSpawnMenu" value="true"/>		
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManPipeMachineGunNoHire" extends="npcPipeMGTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManPipeShotgunNoHire" extends="npcPipeShotgunTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManPipeRifleNoHire" extends="npcPipeRifleTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManPistolNoHire" extends="npcPistolTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManDesertVultureNoHire" extends="npcDPistolTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManSMG5NoHire" extends="npcSMGTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManM60NoHire" extends="npcM60Template">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManAK47NoHire" extends="npcAK47Template">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManAssaultRifleNoHire" extends="npcTRifleTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
@@ -1724,6 +1788,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManHuntingRifleNoHire" extends="npcHRifleTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
@@ -1731,6 +1796,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManSniperRifleNoHire" extends="npcSRifleTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
@@ -1738,6 +1804,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManPumpShotgunNoHire" extends="npcPShotgunTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
@@ -1745,6 +1812,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManAutoShotgunNoHire" extends="npcAShotgunTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
@@ -1752,6 +1820,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManWoodenBowNoHire" extends="npcLBowTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
@@ -1759,6 +1828,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManCrossbowNoHire" extends="npcXBowTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
@@ -1768,6 +1838,7 @@
 		<!-- NON-HIREABLE FEMALE SURVIVOR TEMPLATES -->
 		<entity_class name="FuriousRamsaySurvivorWomanBatNoHire" extends="npcBatTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1787,6 +1858,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanAxeNoHire" extends="npcAxeTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1806,6 +1878,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanClubNoHire" extends="npcClubTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1825,6 +1898,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanKnifeNoHire" extends="npcKnifeTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1844,6 +1918,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanSpearNoHire" extends="npcSpearTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1863,6 +1938,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanMacheteNoHire" extends="npcMacheteTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1882,6 +1958,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanPipePistolNoHire" extends="npcPipePistolTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1901,6 +1978,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanPipeMachineGunNoHire" extends="npcPipeMGTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1920,6 +1998,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanPipeShotgunNoHire" extends="npcPipeShotgunTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1939,6 +2018,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanPipeRifleNoHire" extends="npcPipeRifleTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1958,6 +2038,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanPistolNoHire" extends="npcPistolTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1977,6 +2058,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanDesertVultureNoHire" extends="npcDPistolTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -1996,6 +2078,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanSMG5NoHire" extends="npcSMGTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -2015,6 +2098,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanM60NoHire" extends="npcM60Template"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -2034,6 +2118,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanAK47NoHire" extends="npcAK47Template"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -2053,6 +2138,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanAssaultRifleNoHire" extends="npcTRifleTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -2072,6 +2158,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanHuntingRifleNoHire" extends="npcHRifleTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -2091,6 +2178,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanSniperRifleNoHire" extends="npcSRifleTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -2110,6 +2198,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanPumpShotgunNoHire" extends="npcPShotgunTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -2129,6 +2218,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanAutoShotgunNoHire" extends="npcAShotgunTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -2148,6 +2238,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanWoodenBowNoHire" extends="npcLBowTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -2167,6 +2258,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanCrossbowNoHire" extends="npcXBowTemplate"> 
 			<property name="HideInSpawnMenu" value="true"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="MaxViewAngle" value="360"/>
 			<property name="SizeScale" value="0.9"/>
 			<property name="SoundHurt" value="Player_Female/player2painlg"/>
@@ -2191,6 +2283,7 @@
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManBat" extends="npcAdvancedBatTemplate">
@@ -2198,6 +2291,7 @@
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManAxe" extends="npcAdvancedAxeTemplate">
@@ -2205,6 +2299,7 @@
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManClub" extends="npcAdvancedClubTemplate">
@@ -2212,6 +2307,7 @@
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManKnife" extends="npcAdvancedKnifeTemplate">
@@ -2219,6 +2315,7 @@
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManSpear" extends="npcAdvancedSpearTemplate">
@@ -2226,6 +2323,7 @@
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManMachete" extends="npcAdvancedMacheteTemplate">
@@ -2233,6 +2331,7 @@
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManPipePistol" extends="npcAdvancedPipePistolTemplate">
@@ -2240,6 +2339,7 @@
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManPipeMachineGun" extends="npcAdvancedPipeMGTemplate">
@@ -2247,6 +2347,7 @@
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManPipeShotgun" extends="npcAdvancedPipeShotgunTemplate">
@@ -2254,6 +2355,7 @@
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManPipeRifle" extends="npcAdvancedPipeRifleTemplate">
@@ -2261,6 +2363,7 @@
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManPistol" extends="npcAdvancedPistolTemplate">
@@ -2268,6 +2371,7 @@
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManDesertVulture" extends="npcAdvancedDPistolTemplate">
@@ -2275,6 +2379,7 @@
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManSMG5" extends="npcAdvancedSMGTemplate">
@@ -2282,6 +2387,7 @@
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManM60" extends="npcAdvancedM60Template">
@@ -2289,6 +2395,7 @@
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManAK47" extends="npcAdvancedAK47Template">
@@ -2296,6 +2403,7 @@
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManAssaultRifle" extends="npcAdvancedTRifleTemplate">
@@ -2303,6 +2411,7 @@
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManHuntingRifle" extends="npcAdvancedHRifleTemplate">
@@ -2310,6 +2419,7 @@
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManSniperRifle" extends="npcAdvancedSRifleTemplate">
@@ -2317,6 +2427,7 @@
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManPumpShotgun" extends="npcAdvancedPShotgunTemplate">
@@ -2324,6 +2435,7 @@
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManAutoShotgun" extends="npcAdvancedAShotgunTemplate">
@@ -2331,6 +2443,7 @@
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManWoodenBow" extends="npcAdvancedLBowTemplate">
@@ -2338,6 +2451,7 @@
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorManCrossbow" extends="npcAdvancedXBowTemplate">
@@ -2345,6 +2459,7 @@
 			<property name="MaxViewAngle" value="360"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 
@@ -2366,6 +2481,7 @@
 			<property name="SoundSense" value="Player_Female/player2stamina"/>	
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanAxe" extends="npcAdvancedAxeTemplate"> 
@@ -2385,6 +2501,7 @@
 			<property name="SoundSense" value="Player_Female/player2stamina"/>	
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanClub" extends="npcAdvancedClubTemplate"> 
@@ -2404,6 +2521,7 @@
 			<property name="SoundSense" value="Player_Female/player2stamina"/>	
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanKnife" extends="npcAdvancedKnifeTemplate"> 
@@ -2423,6 +2541,7 @@
 			<property name="SoundSense" value="Player_Female/player2stamina"/>	
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanSpear" extends="npcAdvancedSpearTemplate"> 
@@ -2442,6 +2561,7 @@
 			<property name="SoundSense" value="Player_Female/player2stamina"/>	
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanMachete" extends="npcAdvancedMacheteTemplate"> 
@@ -2461,6 +2581,7 @@
 			<property name="SoundSense" value="Player_Female/player2stamina"/>	
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanPipePistol" extends="npcAdvancedPipePistolTemplate"> 
@@ -2480,6 +2601,7 @@
 			<property name="SoundSense" value="Player_Female/player2stamina"/>	
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanPipeMachineGun" extends="npcAdvancedPipeMGTemplate"> 
@@ -2499,6 +2621,7 @@
 			<property name="SoundSense" value="Player_Female/player2stamina"/>	
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanPipeShotgun" extends="npcAdvancedPipeShotgunTemplate"> 
@@ -2518,6 +2641,7 @@
 			<property name="SoundSense" value="Player_Female/player2stamina"/>	
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanPipeRifle" extends="npcAdvancedPipeRifleTemplate"> 
@@ -2537,6 +2661,7 @@
 			<property name="SoundSense" value="Player_Female/player2stamina"/>	
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanPistol" extends="npcAdvancedPistolTemplate"> 
@@ -2556,6 +2681,7 @@
 			<property name="SoundSense" value="Player_Female/player2stamina"/>	
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanDesertVulture" extends="npcAdvancedDPistolTemplate"> 
@@ -2575,6 +2701,7 @@
 			<property name="SoundSense" value="Player_Female/player2stamina"/>	
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanSMG5" extends="npcAdvancedSMGTemplate"> 
@@ -2594,6 +2721,7 @@
 			<property name="SoundSense" value="Player_Female/player2stamina"/>	
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanM60" extends="npcAdvancedM60Template"> 
@@ -2613,6 +2741,7 @@
 			<property name="SoundSense" value="Player_Female/player2stamina"/>	
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanAK47" extends="npcAdvancedAK47Template"> 
@@ -2632,6 +2761,7 @@
 			<property name="SoundSense" value="Player_Female/player2stamina"/>	
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanAssaultRifle" extends="npcAdvancedTRifleTemplate"> 
@@ -2651,6 +2781,7 @@
 			<property name="SoundSense" value="Player_Female/player2stamina"/>	
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanHuntingRifle" extends="npcAdvancedHRifleTemplate"> 
@@ -2670,6 +2801,7 @@
 			<property name="SoundSense" value="Player_Female/player2stamina"/>	
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanSniperRifle" extends="npcAdvancedSRifleTemplate"> 
@@ -2689,6 +2821,7 @@
 			<property name="SoundSense" value="Player_Female/player2stamina"/>	
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanPumpShotgun" extends="npcAdvancedPShotgunTemplate"> 
@@ -2708,6 +2841,7 @@
 			<property name="SoundSense" value="Player_Female/player2stamina"/>	
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanAutoShotgun" extends="npcAdvancedAShotgunTemplate"> 
@@ -2727,6 +2861,7 @@
 			<property name="SoundSense" value="Player_Female/player2stamina"/>	
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanWoodenBow" extends="npcAdvancedLBowTemplate"> 
@@ -2746,6 +2881,7 @@
 			<property name="SoundSense" value="Player_Female/player2stamina"/>	
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsaySurvivorWomanCrossbow" extends="npcAdvancedXBowTemplate"> 
@@ -2765,6 +2901,7 @@
 			<property name="SoundSense" value="Player_Female/player2stamina"/>	
 			<effect_group name="Base Effects">
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayNPCCleanup"/> 
 			</effect_group>
 		</entity_class>
 
@@ -23891,6 +24028,7 @@
 		<!-- BOSS -->
 		<entity_class name="FuriousRamsayWerewolfBossTier1" extends="npcEmptyHandTemplate"> 
 			<property name="SizeScale" value="1.2"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Tags" value="entity,male,npc,melee,enemyrobot,FuriousRamsayWerewolfBossTier1,bandit"/>
 			<property name="Names" value="Werewolf Alpha" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_Monsters.unity3d?Werewolf001_FR"/>
@@ -23949,6 +24087,7 @@
 		</entity_class>
 		<entity_class name="FuriousRamsayWerewolfBossTier1Event" extends="npcEmptyHandTemplate"> 
 			<property name="SizeScale" value="1.2"/>
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Tags" value="entity,male,npc,melee,enemyrobot,FuriousRamsayWerewolfBossTier1Event,bandit"/>
 			<property name="Names" value="Werewolf Alpha" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_Monsters.unity3d?Werewolf001_FR"/>
@@ -24045,7 +24184,7 @@
 			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="meleeNPCMachete"/>
 
 			<property name="MoveSpeed" value="0.5"/> 
-			<property name="MoveSpeedAggro" value="1.5, 1.5"/>
+			<property name="MoveSpeedAggro" value="2"/>
 			<property name="MoveSpeedPanic" value="1.5"/>
 			<property name="MoveSpeedRand" value="-.2, .25"/>
 
@@ -24066,6 +24205,7 @@
 				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="HealthRegenAmount" operation="set" value="1"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="FuriousRamsayRegenHealth"/>
             </effect_group>
+			<property name="AIPackages" value="FuriousRamsayNPCHostileEvent"/> 			
 		</entity_class>
 		<entity_class name="FuriousRamsayPandemicMan002aMacheteBossTier1Event" extends="FuriousRamsayBanditManMachete"> 
 			<property name="SizeScale" value="1.2"/>
@@ -24078,8 +24218,8 @@
 			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="meleeNPCMachete"/>
 			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="meleeNPCMachete"/>
 
-			<property name="MoveSpeed" value="0.5"/> 
-			<property name="MoveSpeedAggro" value="1.5, 1.5"/>
+			<property name="MoveSpeed" value="1.5"/> 
+			<property name="MoveSpeedAggro" value="2"/>
 			<property name="MoveSpeedPanic" value="1.5"/>
 			<property name="MoveSpeedRand" value="-.2, .25"/>
 
@@ -24094,6 +24234,7 @@
 				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="HealthRegenAmount" operation="set" value="1"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="FuriousRamsayRegenHealth"/>
             </effect_group>
+			<property name="AIPackages" value="FuriousRamsayNPCHostileEvent"/> 			
 		</entity_class>
 		<!-- COMMON -->
 		<entity_class name="FuriousRamsayPandemicMan001aBatTier1NoHire" extends="FuriousRamsayBanditManBat"> 
@@ -24102,14 +24243,15 @@
 			<property name="Mesh" value="#@modfolder:Resources/FR_Pandemic.unity3d?PandemicMan001a_FR"/>		
 			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotOrange" />
-			<property name="MoveSpeed" value="0.5"/> 
-			<property name="MoveSpeedAggro" value="1.5, 1.5"/>
+			<property name="MoveSpeed" value="1.5"/> 
+			<property name="MoveSpeedAggro" value="2"/>
 			<property name="MoveSpeedPanic" value="1.5"/>
 			<property name="MoveSpeedRand" value="-.2, .25"/>
 			<property name="LootDropProb" value="0"/>
 			<effect_group name="FuriousRamsayVanishBuff">
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayVanishTimer"/>
 			</effect_group>
+			<property name="AIPackages" value="FuriousRamsayNPCHostileEvent"/> 			
 		</entity_class>
 		<entity_class name="FuriousRamsayPandemicMan001aAxeTier1NoHire" extends="FuriousRamsayBanditManAxe"> 
 			<property name="Tags" value="entity,male,npc,melee,FuriousRamsayPandemicMan001aAxe,Bandit"/>
@@ -24117,14 +24259,15 @@
 			<property name="Mesh" value="#@modfolder:Resources/FR_Pandemic.unity3d?PandemicMan001a_FR"/>		
 			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotOrange" />
-			<property name="MoveSpeed" value="0.5"/> 
-			<property name="MoveSpeedAggro" value="1.5, 1.5"/>
+			<property name="MoveSpeed" value="1.5"/> 
+			<property name="MoveSpeedAggro" value="2"/>
 			<property name="MoveSpeedPanic" value="1.5"/>
 			<property name="MoveSpeedRand" value="-.2, .25"/>
 			<property name="LootDropProb" value="0"/>
 			<effect_group name="FuriousRamsayVanishBuff">
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayVanishTimer"/>
 			</effect_group>
+			<property name="AIPackages" value="FuriousRamsayNPCHostileEvent"/> 			
 		</entity_class>
 		<entity_class name="FuriousRamsayPandemicWoman001aKnifeTier1NoHire" extends="FuriousRamsayBanditWomanKnife"> 
 			<property name="Tags" value="entity,male,npc,melee,FuriousRamsayPandemicWoman001aKnife,Bandit"/>
@@ -24132,14 +24275,15 @@
 			<property name="Mesh" value="#@modfolder:Resources/FR_Pandemic.unity3d?PandemicWoman001a_FR"/>		
 			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotOrange" />
-			<property name="MoveSpeed" value="0.5"/> 
-			<property name="MoveSpeedAggro" value="1.5, 1.5"/>
+			<property name="MoveSpeed" value="1.5"/> 
+			<property name="MoveSpeedAggro" value="2"/>
 			<property name="MoveSpeedPanic" value="1.5"/>
 			<property name="MoveSpeedRand" value="-.2, .25"/>
 			<property name="LootDropProb" value="0"/>
 			<effect_group name="FuriousRamsayVanishBuff">
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayVanishTimer"/>
 			</effect_group>
+			<property name="AIPackages" value="FuriousRamsayNPCHostileEvent"/> 			
 		</entity_class>
 		<entity_class name="FuriousRamsayPandemicWoman001aSpearTier1NoHire" extends="FuriousRamsayBanditWomanSpear"> 
 			<property name="Tags" value="entity,male,npc,melee,FuriousRamsayPandemicWoman001aSpear,Bandit"/>
@@ -24147,14 +24291,15 @@
 			<property name="Mesh" value="#@modfolder:Resources/FR_Pandemic.unity3d?PandemicWoman001a_FR"/>		
 			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotOrange" />
-			<property name="MoveSpeed" value="0.5"/> 
-			<property name="MoveSpeedAggro" value="1.5, 1.5"/>
+			<property name="MoveSpeed" value="1.5"/> 
+			<property name="MoveSpeedAggro" value="2"/>
 			<property name="MoveSpeedPanic" value="1.5"/>
 			<property name="MoveSpeedRand" value="-.2, .25"/>
 			<property name="LootDropProb" value="0"/>
 			<effect_group name="FuriousRamsayVanishBuff">
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayVanishTimer"/>
 			</effect_group>
+			<property name="AIPackages" value="FuriousRamsayNPCHostileEvent"/> 			
 		</entity_class>
 
 	<!-- FACTION WAR ENTITIES -->
@@ -24615,6 +24760,7 @@
 
 		<entity_class name="FuriousRamsayKatana002TemplateTier1" extends="npcMeleeTemplate">
 			<property name="HideInSpawnMenu" value="true"/> 
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Tags" value="entity,male,npc,melee"/>
 			<property name="Faction" value="whiteriver"/>
 			<property name="WalkType" value="7"/>	
@@ -24630,6 +24776,7 @@
 
 		<entity_class name="FuriousRamsayKatana002TemplateTier2" extends="npcMeleeTemplate">
 			<property name="HideInSpawnMenu" value="true"/> 
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Tags" value="entity,male,npc,melee"/>
 			<property name="Faction" value="whiteriver"/>
 			<property name="WalkType" value="7"/>	
@@ -24645,6 +24792,7 @@
 
 		<entity_class name="FuriousRamsayKatana002TemplateTier3" extends="npcMeleeTemplate">
 			<property name="HideInSpawnMenu" value="true"/> 
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Tags" value="entity,male,npc,melee"/>
 			<property name="Faction" value="whiteriver"/>
 			<property name="WalkType" value="7"/>	
@@ -24660,6 +24808,7 @@
 
 		<entity_class name="FuriousRamsayKatana002TemplateTier4" extends="npcMeleeTemplate">
 			<property name="HideInSpawnMenu" value="true"/> 
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Tags" value="entity,male,npc,melee"/>
 			<property name="Faction" value="whiteriver"/>
 			<property name="WalkType" value="7"/>	
@@ -24675,6 +24824,7 @@
 
 		<entity_class name="FuriousRamsayKatana002TemplateTier5" extends="npcMeleeTemplate">
 			<property name="HideInSpawnMenu" value="true"/> 
+			<property name="Class" value="EntityEnemySDX, SCore" /> 
 			<property name="Tags" value="entity,male,npc,melee"/>
 			<property name="Faction" value="whiteriver"/>
 			<property name="WalkType" value="7"/>	

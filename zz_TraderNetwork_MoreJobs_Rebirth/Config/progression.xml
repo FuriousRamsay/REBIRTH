@@ -771,7 +771,7 @@
 		</level_requirements>
 		
 		<effect_group>
-			<passive_effect name="HarvestCount" operation="perc_add" level="1,2,3,4,5,6,7,8,9,10" value=".1,.2,.3,.45,.6,.75,.95,1.15,1.45,1.75" tags="oreWoodHarvest"/>
+			<passive_effect name="HarvestCount" operation="perc_add" level="1,2,3,4,5,6,7,8,9,10" value=".1,.2,.3,.4,.5,.6,.7,.8,.9,1" tags="oreWoodHarvest"/>
 			<passive_effect name="PlayerExpGain" operation="perc_add" level="1,2,3,4,5,6,7,8,9,10" value="-.05,-.1,-.15,-.2,-.25,-.3,-.35,-.4,-.45,-.5" tags="Harvesting">
 				<requirement name="HoldingItemHasTags" tags="perkMiner69r"/>
 			</passive_effect>

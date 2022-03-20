@@ -9,6 +9,10 @@
 		<display_entry name="PerkLevel" tags="perkLuckyLooter" title_key="FuriousRamsayStatPerkLuckyLooter" display_leading_plus="true"/>
 	</append>
 
+	<insertBefore xpath="//item_display_info[@display_type='waterBeer']/display_entry[@name='dStaminaRegen']" >		
+		<display_entry name="$waterAmountAdd" title_key="statWaterAmount" />
+	</insertBefore>
+
 	<remove xpath="/ui_display_info/item_display/item_display_info[@display_type='FuriousRamsayBanditClothingAviatorGoggles']"/>
 	<remove xpath="/ui_display_info/item_display/item_display_info[@display_type='FuriousRamsayBanditClothingSkiGoggles']"/>
 

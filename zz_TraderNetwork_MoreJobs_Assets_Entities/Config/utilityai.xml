@@ -124,6 +124,24 @@
 				</action>
 			</ai_package>	
 
+			<!-- EVENT AI -->
+			<ai_package name="FuriousRamsayNPCHostileEvent" entity_filter="IsEnemy"> 
+				<action name="Wander" weight="1" entity_filter="IsSelf">
+					<task class="WanderSDX, SCore"/>
+					<task class="IdleSDX, SCore" OnStartAddBuffs="RandomWanderIdle" OnStopRemoveBuffs="RandomWanderIdle" timeout="50" />
+					<consideration class="HasOrder, SCore" order="None, Wander"/>
+				</action>
+				<action name="MoveToEnemyRunMeleeControlAttacked" weight="4">
+					<task class="MoveToTargetSDX, SCore" run="true" action_index="1" />
+					<consideration class="NotInWeaponRange, SCore" action_index="0" /> 
+					<consideration class="CanSeeTarget, SCore"/>
+				</action>
+				<action name="MeleeAttackEntityControlAttacked" weight="5">
+					<task class="AttackTargetEntitySDX, SCore" action_index="0"/>
+					<consideration class="InWeaponRange, SCore" action_index="0" />
+					<consideration class="CanSeeTarget, SCore"/>
+				</action>
+			</ai_package>	
 		</append>
 		
 </Config>

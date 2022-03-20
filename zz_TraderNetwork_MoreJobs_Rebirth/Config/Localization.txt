@@ -1870,19 +1870,19 @@ perkMotherLodeRank2LongDesc,progression,perk,"At [aceefc][U]LEVEL 2[/U][-]:\n �
 perkMotherLodeRank3Desc,progression,perk,Mother Lode Level 3
 perkMotherLodeRank3LongDesc,progression,perk,"At [aceefc][U]LEVEL 3[/U][-]:\n • Harvest [ff595f]30%[-] more from natural resources with Tools"
 perkMotherLodeRank4Desc,progression,perk,Mother Lode Level 4
-perkMotherLodeRank4LongDesc,progression,perk,"At [aceefc][U]LEVEL 4[/U][-]:\n • Harvest [ff595f]45%[-] more from natural resources with Tools\n • [5ecc7b]2x[-] Chance to mine gems"
+perkMotherLodeRank4LongDesc,progression,perk,"At [aceefc][U]LEVEL 4[/U][-]:\n • Harvest [ff595f]40%[-] more from natural resources with Tools\n • [5ecc7b]2x[-] Chance to mine gems"
 perkMotherLodeRank5Desc,progression,perk,Mother Lode Level 5
-perkMotherLodeRank5LongDesc,progression,perk,"At [aceefc][U]LEVEL 5[/U][-]:\n • Harvest [ff595f]60%[-] more from natural resources with Tools"
+perkMotherLodeRank5LongDesc,progression,perk,"At [aceefc][U]LEVEL 5[/U][-]:\n • Harvest [ff595f]50%[-] more from natural resources with Tools"
 perkMotherLodeRank6Desc,progression,perk,Mother Lode Level 6
-perkMotherLodeRank6LongDesc,progression,perk,"At [aceefc][U]LEVEL 6[/U][-]:\n • Harvest [ff595f]75%[-] more from natural resources with Tools\n • [5ecc7b]3x[-] Chance to mine gems"
+perkMotherLodeRank6LongDesc,progression,perk,"At [aceefc][U]LEVEL 6[/U][-]:\n • Harvest [ff595f]60%[-] more from natural resources with Tools\n • [5ecc7b]3x[-] Chance to mine gems"
 perkMotherLodeRank7Desc,progression,perk,Mother Lode Level 7
-perkMotherLodeRank7LongDesc,progression,perk,"At [aceefc][U]LEVEL 7[/U][-]:\n • Harvest [ff595f]95%[-] more from natural resources with Tools"
+perkMotherLodeRank7LongDesc,progression,perk,"At [aceefc][U]LEVEL 7[/U][-]:\n • Harvest [ff595f]70%[-] more from natural resources with Tools"
 perkMotherLodeRank8Desc,progression,perk,Mother Lode Level 8
-perkMotherLodeRank8LongDesc,progression,perk,"At [aceefc][U]LEVEL 8[/U][-]:\n • Harvest [ff595f]115%[-] more from natural resources with Tools\n • [5ecc7b]4x[-] Chance to mine gems"
+perkMotherLodeRank8LongDesc,progression,perk,"At [aceefc][U]LEVEL 8[/U][-]:\n • Harvest [ff595f]80%[-] more from natural resources with Tools\n • [5ecc7b]4x[-] Chance to mine gems"
 perkMotherLodeRank9Desc,progression,perk,Mother Lode Level 9
-perkMotherLodeRank9LongDesc,progression,perk,"At [aceefc][U]LEVEL 9[/U][-]:\n • Harvest [ff595f]145%[-] more from natural resources with Tools"
+perkMotherLodeRank9LongDesc,progression,perk,"At [aceefc][U]LEVEL 9[/U][-]:\n • Harvest [ff595f]90%[-] more from natural resources with Tools"
 perkMotherLodeRank10Desc,progression,perk,Mother Lode Level 10
-perkMotherLodeRank10LongDesc,progression,perk,"At [aceefc][U]LEVEL 10[/U][-]:\n • Harvest [ff595f]175%[-] more from natural resources with Tools\n • [5ecc7b]5x[-] Chance to mine gems"
+perkMotherLodeRank10LongDesc,progression,perk,"At [aceefc][U]LEVEL 10[/U][-]:\n • Harvest [ff595f]100%[-] more from natural resources with Tools\n • [5ecc7b]5x[-] Chance to mine gems"
 
 perkSexualTrexName,progression,perk,Sexual T-Rex
 perkSexualTrexRank1Desc,progression,perk,Sexual T-Rex Level 1
@@ -3047,9 +3047,9 @@ FuriousRamsayPillCharisma,items,Quest,DNA Boost (Charisma)
 FuriousRamsayPillCharismaDesc,items,Quest,"This boost will alter your genetic makeup, increasing your negotiation abilities"
 
 quest_FuriousRamsayLocateShelter_subtitle,Quests,Quests,Secure a New Home
-quest_FuriousRamsayLocateShelter_description,Quests,Quests,"The Trader wants me to secure a home for myself and he will set up there for my training."
+quest_FuriousRamsayLocateShelter_description,Quests,Quests,"The Trader wants me to secure an area for myself and he will set up there for my training."
 quest_FuriousRamsayLocateShelter_title,Quests,Quests,Secure a New Home
-quest_FuriousRamsayLocateShelter_offer,Quests,Quests,"If you are ok with the area you are in and one of the nearby POIS, clear it from those zombies and we can set up there.\n\nI'll make myself available to you whenever you feel like you need training of any sort.\n\n - Briston"
+quest_FuriousRamsayLocateShelter_offer,Quests,Quests,"I would suggest you clear a POI, but it isn't necessary. If you are ok with the area you are in, we can set up here.\n\nI'll make myself available to you whenever you feel like you need training of any sort.\n\n - Briston"
 quest_FuriousRamsayLocateShelter_response,Quests,Quests,Secure a New Home ([DECEA3]{poi.distance} {poi.direction}[-])
 quest_FuriousRamsayLocateShelter_statement,Quests,Quests,Secure a New Home
 

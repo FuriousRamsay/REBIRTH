@@ -2,6 +2,15 @@
 		
 		<append xpath="/buffs">
 
+			<buff name="FuriousRamsayNPCCleanup" hidden="true" remove_on_death="false">
+				<stack_type value="replace"/>
+				<update_rate value="10"/>
+				<effect_group name="FuriousRamsayNPCCleanup">
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="Persist" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffUpdate" action="RemoveParticleEffectFromEntity" particle="burntZombieSmoke"/>
+				</effect_group>
+			</buff>
+
 			<!-- MERCENARY BUFFS -->	
 			<buff name="FuriousRamsayDespawnMercenary" hidden="true">
 				<stack_type value="replace" />

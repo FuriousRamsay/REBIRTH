@@ -82,93 +82,93 @@
 	<remove xpath="/blocks/block/drop[@tag='artOfMiningLuckyStrikeHarvest']"/>
 
 	<append xpath="/blocks/block[@name='terrOreIron']">
-		<drop event="Harvest" name="resourceRawDiamond" prob=".005" count="1" tag="FuriousRamsayGemsLVL1" />
-		<drop event="Harvest" name="resourceGoldNugget" prob=".007" count="1" tag="FuriousRamsayGemsLVL1" />
-		<drop event="Harvest" name="resourceSilverNugget" prob=".01" count="1" tag="FuriousRamsayGemsLVL1" />
-		<drop event="Harvest" name="resourceRawDiamond" prob=".01" count="1" tag="FuriousRamsayGemsLVL2" />
-		<drop event="Harvest" name="resourceGoldNugget" prob=".014" count="1" tag="FuriousRamsayGemsLVL2" />
-		<drop event="Harvest" name="resourceSilverNugget" prob=".02" count="1" tag="FuriousRamsayGemsLVL2" />
-		<drop event="Harvest" name="resourceRawDiamond" prob=".015" count="1" tag="FuriousRamsayGemsLVL3" />
-		<drop event="Harvest" name="resourceGoldNugget" prob=".021" count="1" tag="FuriousRamsayGemsLVL3" />
-		<drop event="Harvest" name="resourceSilverNugget" prob=".03" count="1" tag="FuriousRamsayGemsLVL3" />
-		<drop event="Harvest" name="resourceRawDiamond" prob=".02" count="1" tag="FuriousRamsayGemsLVL4" />
-		<drop event="Harvest" name="resourceGoldNugget" prob=".028" count="1" tag="FuriousRamsayGemsLVL4" />
-		<drop event="Harvest" name="resourceSilverNugget" prob=".04" count="1" tag="FuriousRamsayGemsLVL4" />
-		<drop event="Harvest" name="resourceRawDiamond" prob=".025" count="1" tag="FuriousRamsayGemsLVL5" />
-		<drop event="Harvest" name="resourceGoldNugget" prob=".035" count="1" tag="FuriousRamsayGemsLVL5" />
-		<drop event="Harvest" name="resourceSilverNugget" prob=".05" count="1" tag="FuriousRamsayGemsLVL5" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".0005" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".0007" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".001" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".001" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".0014" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".002" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".0015" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".0021" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".003" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".002" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".0028" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".004" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".0025" count="1" tag="FuriousRamsayGemsLVL5" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".0035" count="1" tag="FuriousRamsayGemsLVL5" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".005" count="1" tag="FuriousRamsayGemsLVL5" />
 	</append>
 
 	<append xpath="/blocks/block[@name='terrOreLead']">
-		<drop event="Harvest" name="resourceRawDiamond" prob=".005" count="1" tag="FuriousRamsayGemsLVL1" />
-		<drop event="Harvest" name="resourceGoldNugget" prob=".007" count="1" tag="FuriousRamsayGemsLVL1" />
-		<drop event="Harvest" name="resourceSilverNugget" prob=".02" count="1" tag="FuriousRamsayGemsLVL1" />
-		<drop event="Harvest" name="resourceRawDiamond" prob=".01" count="1" tag="FuriousRamsayGemsLVL2" />
-		<drop event="Harvest" name="resourceGoldNugget" prob=".014" count="1" tag="FuriousRamsayGemsLVL2" />
-		<drop event="Harvest" name="resourceSilverNugget" prob=".04" count="1" tag="FuriousRamsayGemsLVL2" />
-		<drop event="Harvest" name="resourceRawDiamond" prob=".015" count="1" tag="FuriousRamsayGemsLVL3" />
-		<drop event="Harvest" name="resourceGoldNugget" prob=".021" count="1" tag="FuriousRamsayGemsLVL3" />
-		<drop event="Harvest" name="resourceSilverNugget" prob=".06" count="1" tag="FuriousRamsayGemsLVL3" />
-		<drop event="Harvest" name="resourceRawDiamond" prob=".02" count="1" tag="FuriousRamsayGemsLVL4" />
-		<drop event="Harvest" name="resourceGoldNugget" prob=".028" count="1" tag="FuriousRamsayGemsLVL4" />
-		<drop event="Harvest" name="resourceSilverNugget" prob=".08" count="1" tag="FuriousRamsayGemsLVL4" />
-		<drop event="Harvest" name="resourceRawDiamond" prob=".025" count="1" tag="FuriousRamsayGemsLVL5" />
-		<drop event="Harvest" name="resourceGoldNugget" prob=".035" count="1" tag="FuriousRamsayGemsLVL5" />
-		<drop event="Harvest" name="resourceSilverNugget" prob=".1" count="1" tag="FuriousRamsayGemsLVL5" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".0005" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".0007" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".002" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".001" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".0014" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".004" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".0015" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".0021" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".006" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".002" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".0028" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".008" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".0025" count="1" tag="FuriousRamsayGemsLVL5" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".0035" count="1" tag="FuriousRamsayGemsLVL5" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".01" count="1" tag="FuriousRamsayGemsLVL5" />
 	</append>
 
 	<append xpath="/blocks/block[@name='terrOreCoal']">
-		<drop event="Harvest" name="resourceRawDiamond" prob=".01" count="1" tag="FuriousRamsayGemsLVL1" />
-		<drop event="Harvest" name="resourceGoldNugget" prob=".007" count="1" tag="FuriousRamsayGemsLVL1" />
-		<drop event="Harvest" name="resourceSilverNugget" prob=".01" count="1" tag="FuriousRamsayGemsLVL1" />
-		<drop event="Harvest" name="resourceRawDiamond" prob=".02" count="1" tag="FuriousRamsayGemsLVL2" />
-		<drop event="Harvest" name="resourceGoldNugget" prob=".014" count="1" tag="FuriousRamsayGemsLVL2" />
-		<drop event="Harvest" name="resourceSilverNugget" prob=".02" count="1" tag="FuriousRamsayGemsLVL2" />
-		<drop event="Harvest" name="resourceRawDiamond" prob=".03" count="1" tag="FuriousRamsayGemsLVL3" />
-		<drop event="Harvest" name="resourceGoldNugget" prob=".021" count="1" tag="FuriousRamsayGemsLVL3" />
-		<drop event="Harvest" name="resourceSilverNugget" prob=".03" count="1" tag="FuriousRamsayGemsLVL3" />
-		<drop event="Harvest" name="resourceRawDiamond" prob=".04" count="1" tag="FuriousRamsayGemsLVL4" />
-		<drop event="Harvest" name="resourceGoldNugget" prob=".028" count="1" tag="FuriousRamsayGemsLVL4" />
-		<drop event="Harvest" name="resourceSilverNugget" prob=".04" count="1" tag="FuriousRamsayGemsLVL4" />
-		<drop event="Harvest" name="resourceRawDiamond" prob=".05" count="1" tag="FuriousRamsayGemsLVL5" />
-		<drop event="Harvest" name="resourceGoldNugget" prob=".035" count="1" tag="FuriousRamsayGemsLVL5" />
-		<drop event="Harvest" name="resourceSilverNugget" prob=".05" count="1" tag="FuriousRamsayGemsLVL5" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".001" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".0007" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".001" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".002" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".0014" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".002" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".003" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".0021" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".003" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".004" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".0028" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".004" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".005" count="1" tag="FuriousRamsayGemsLVL5" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".0035" count="1" tag="FuriousRamsayGemsLVL5" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".005" count="1" tag="FuriousRamsayGemsLVL5" />
 	</append>
 
 	<append xpath="/blocks/block[@name='terrOrePotassiumNitrate']">
-		<drop event="Harvest" name="resourceRawDiamond" prob=".005" count="1" tag="FuriousRamsayGemsLVL1" />
-		<drop event="Harvest" name="resourceGoldNugget" prob=".014" count="1" tag="FuriousRamsayGemsLVL1" />
-		<drop event="Harvest" name="resourceSilverNugget" prob=".01" count="1" tag="FuriousRamsayGemsLVL1" />
-		<drop event="Harvest" name="resourceRawDiamond" prob=".01" count="1" tag="FuriousRamsayGemsLVL2" />
-		<drop event="Harvest" name="resourceGoldNugget" prob=".028" count="1" tag="FuriousRamsayGemsLVL2" />
-		<drop event="Harvest" name="resourceSilverNugget" prob=".02" count="1" tag="FuriousRamsayGemsLVL2" />
-		<drop event="Harvest" name="resourceRawDiamond" prob=".015" count="1" tag="FuriousRamsayGemsLVL3" />
-		<drop event="Harvest" name="resourceGoldNugget" prob=".042" count="1" tag="FuriousRamsayGemsLVL3" />
-		<drop event="Harvest" name="resourceSilverNugget" prob=".03" count="1" tag="FuriousRamsayGemsLVL3" />
-		<drop event="Harvest" name="resourceRawDiamond" prob=".02" count="1" tag="FuriousRamsayGemsLVL4" />
-		<drop event="Harvest" name="resourceGoldNugget" prob=".060" count="1" tag="FuriousRamsayGemsLVL4" />
-		<drop event="Harvest" name="resourceSilverNugget" prob=".04" count="1" tag="FuriousRamsayGemsLVL4" />
-		<drop event="Harvest" name="resourceRawDiamond" prob=".025" count="1" tag="FuriousRamsayGemsLVL5" />
-		<drop event="Harvest" name="resourceGoldNugget" prob=".078" count="1" tag="FuriousRamsayGemsLVL5" />
-		<drop event="Harvest" name="resourceSilverNugget" prob=".05" count="1" tag="FuriousRamsayGemsLVL5" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".0005" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".0014" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".001" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".001" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".0028" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".002" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".0015" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".0042" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".003" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".002" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".0060" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".004" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".0025" count="1" tag="FuriousRamsayGemsLVL5" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".0078" count="1" tag="FuriousRamsayGemsLVL5" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".005" count="1" tag="FuriousRamsayGemsLVL5" />
 	</append>
 
 	<append xpath="/blocks/block[@name='terrOreOilDeposit']">
-		<drop event="Harvest" name="resourceRawDiamond" prob=".005" count="1" tag="FuriousRamsayGemsLVL1" />
-		<drop event="Harvest" name="resourceGoldNugget" prob=".014" count="1" tag="FuriousRamsayGemsLVL1" />
-		<drop event="Harvest" name="resourceSilverNugget" prob=".01" count="1" tag="FuriousRamsayGemsLVL1" />
-		<drop event="Harvest" name="resourceRawDiamond" prob=".01" count="1" tag="FuriousRamsayGemsLVL2" />
-		<drop event="Harvest" name="resourceGoldNugget" prob=".028" count="1" tag="FuriousRamsayGemsLVL2" />
-		<drop event="Harvest" name="resourceSilverNugget" prob=".02" count="1" tag="FuriousRamsayGemsLVL2" />
-		<drop event="Harvest" name="resourceRawDiamond" prob=".015" count="1" tag="FuriousRamsayGemsLVL3" />
-		<drop event="Harvest" name="resourceGoldNugget" prob=".042" count="1" tag="FuriousRamsayGemsLVL3" />
-		<drop event="Harvest" name="resourceSilverNugget" prob=".03" count="1" tag="FuriousRamsayGemsLVL3" />
-		<drop event="Harvest" name="resourceRawDiamond" prob=".02" count="1" tag="FuriousRamsayGemsLVL4" />
-		<drop event="Harvest" name="resourceGoldNugget" prob=".06" count="1" tag="FuriousRamsayGemsLVL4" />
-		<drop event="Harvest" name="resourceSilverNugget" prob=".04" count="1" tag="FuriousRamsayGemsLVL4" />
-		<drop event="Harvest" name="resourceRawDiamond" prob=".025" count="1" tag="FuriousRamsayGemsLVL5" />
-		<drop event="Harvest" name="resourceGoldNugget" prob=".078" count="1" tag="FuriousRamsayGemsLVL5" />
-		<drop event="Harvest" name="resourceSilverNugget" prob=".05" count="1" tag="FuriousRamsayGemsLVL5" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".0005" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".0014" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".001" count="1" tag="FuriousRamsayGemsLVL1" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".001" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".0028" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".002" count="1" tag="FuriousRamsayGemsLVL2" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".0015" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".0042" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".003" count="1" tag="FuriousRamsayGemsLVL3" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".002" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".006" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".004" count="1" tag="FuriousRamsayGemsLVL4" />
+		<drop event="Harvest" name="resourceRawDiamond" prob=".0025" count="1" tag="FuriousRamsayGemsLVL5" />
+		<drop event="Harvest" name="resourceGoldNugget" prob=".0078" count="1" tag="FuriousRamsayGemsLVL5" />
+		<drop event="Harvest" name="resourceSilverNugget" prob=".005" count="1" tag="FuriousRamsayGemsLVL5" />
 	</append>
 
 	<!-- CHANGE MECHANICAL ALLY ICONS -->

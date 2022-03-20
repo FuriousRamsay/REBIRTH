@@ -1,7 +1,7 @@
 <Config>
 	
-	<setattribute xpath="/items/item[@name='FuriousRamsayMeleeHandSmokeZombie']/effect_group[@name='FuriousRamsayMeleeHandSmokeZombie']/requirement[@name='RandomRoll']" name="value">10</setattribute>
-
+	<!-- CHANGE NORMAL EXPLOSION IMMUNE ZOMBIE RAGDOLL CHANCE AND ENTITY DAMAGE -->
+	<setattribute xpath="/items/item[@name='FuriousRamsayMeleeHandSmokeZombie']/effect_group[@name='FuriousRamsayMeleeHandSmokeZombie']/requirement[@name='RandomRoll']" name="value">15</setattribute>
 	<append xpath="/items/item[@name='FuriousRamsayMeleeHandSmokeZombie']">
 		<property class="Action0">
 			<property name="Delay" value="0.8"/>
@@ -31906,7 +31906,7 @@
 			</property>
 		</item>
 
-		<item name="qc_FuriousRamsayStarterSkulls">
+		<!--<item name="qc_FuriousRamsayStarterSkulls">
 			<property name="DescriptionKey" value="qc_FuriousRamsayStarterSkullsDesc"/>
 			<property name="Extends" value="FuriousRamsayClassBookMaster"/>
 			<property name="CustomIcon" value="FuriousRamsayStarter_IronOven_icon"/>
@@ -31924,7 +31924,7 @@
 				<property name="UseAnimation" value="false"/>
 				<property name="QuestGiven" value="challenge_FuriousRamsayStarterSkullsClearFetch"/>
 			</property>
-		</item>
+		</item>-->
 
 		<item name="qc_FuriousRamsayStarterFarming">
 			<property name="DescriptionKey" value="qc_FuriousRamsayStarterFarmingDesc"/>

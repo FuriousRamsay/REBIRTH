@@ -6,14 +6,14 @@
 			<!-- PHASE 1 -->
 			<action class="AddItems">
 				<property name="added_items" value="ammo9mmBulletBall,bedroll,casinoCoin,drinkJarRedTea" />
-				<property name="added_item_counts" value="18,1,2000,1" />
+				<property name="added_item_counts" value="18,1,1000,1" />
 				<property name="phase" value="1" />
 			</action>
 			<action class="SpawnEntity">
 				<property name="entity_names" value="zombieBoe,zombieJoe,zombieArlene,zombieDarlene,zombieMarlene,zombieYo,zombieSteve,zombieBusinessMan"/>
 				<property name="min_distance" value="30" />
 				<property name="max_distance" value="35" />
-				<property name="spawn_count" value="12" />
+				<property name="spawn_count" value="16" />
 				<property name="phase" value="1" />
 			</action>
 		</action_sequence>

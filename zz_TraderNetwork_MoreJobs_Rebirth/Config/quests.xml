@@ -1031,7 +1031,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1065,7 +1065,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1099,7 +1099,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1133,7 +1133,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1167,7 +1167,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1202,7 +1202,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1236,7 +1236,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1270,7 +1270,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1304,7 +1304,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1338,7 +1338,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1373,7 +1373,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1407,7 +1407,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1441,7 +1441,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1475,7 +1475,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1509,7 +1509,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1544,7 +1544,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1578,7 +1578,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1612,7 +1612,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1646,7 +1646,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1680,7 +1680,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1715,7 +1715,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1749,7 +1749,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1783,7 +1783,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1817,7 +1817,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1851,7 +1851,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1886,7 +1886,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1920,7 +1920,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1954,7 +1954,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -1988,7 +1988,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2022,7 +2022,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2057,7 +2057,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2091,7 +2091,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2125,7 +2125,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2159,7 +2159,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2193,7 +2193,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2228,7 +2228,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2262,7 +2262,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2296,7 +2296,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2330,7 +2330,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2364,7 +2364,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="120-150" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2404,7 +2404,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2442,7 +2442,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2480,7 +2480,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2518,7 +2518,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2556,7 +2556,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2595,7 +2595,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2633,7 +2633,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2671,7 +2671,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2709,7 +2709,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2747,7 +2747,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2786,7 +2786,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2824,7 +2824,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2862,7 +2862,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2900,7 +2900,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2938,7 +2938,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -2977,7 +2977,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -3015,7 +3015,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -3053,7 +3053,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -3091,7 +3091,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -3129,7 +3129,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -3168,7 +3168,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -3206,7 +3206,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -3244,7 +3244,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -3282,7 +3282,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -3320,7 +3320,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -3359,7 +3359,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -3397,7 +3397,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -3435,7 +3435,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -3473,7 +3473,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -3511,7 +3511,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -3550,7 +3550,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -3588,7 +3588,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -3626,7 +3626,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -3664,7 +3664,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -3702,7 +3702,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -3741,7 +3741,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -3779,7 +3779,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -3817,7 +3817,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -3855,7 +3855,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -3893,7 +3893,7 @@
 				<property name="delay" value="0.25"/>
 			</action>
 
-			<objective type="RandomGoto" value="90-100" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -5550,7 +5550,7 @@
 
 			<objective type="RandomGotoNPC" phase="1">
 				<property name="completion_distance" value="20"/>
-				<property name="distance" value="150-200"/>
+				<property name="distance" value="700-800"/>
 				<property name="nav_object" value="quest" />
 			</objective>
 
@@ -5641,7 +5641,7 @@
 
 			<objective type="RandomGotoNPC" phase="1">
 				<property name="completion_distance" value="20"/>
-				<property name="distance" value="150-200"/>
+				<property name="distance" value="700-800"/>
 				<property name="nav_object" value="quest" />
 			</objective>
 
@@ -5733,7 +5733,7 @@
 
 			<objective type="RandomGotoNPC" phase="1">
 				<property name="completion_distance" value="20"/>
-				<property name="distance" value="150-200"/>
+				<property name="distance" value="700-800"/>
 				<property name="nav_object" value="quest" />
 			</objective>
 
@@ -5824,7 +5824,7 @@
 
 			<objective type="RandomGotoNPC" phase="1">
 				<property name="completion_distance" value="20"/>
-				<property name="distance" value="150-200"/>
+				<property name="distance" value="700-800"/>
 				<property name="nav_object" value="quest" />
 			</objective>
 
@@ -5915,7 +5915,7 @@
 
 			<objective type="RandomGotoNPC" phase="1">
 				<property name="completion_distance" value="20"/>
-				<property name="distance" value="150-200"/>
+				<property name="distance" value="700-800"/>
 				<property name="nav_object" value="quest" />
 			</objective>
 
@@ -5977,7 +5977,7 @@
 
 			<objective type="RandomGotoNPC" phase="1">
 				<property name="completion_distance" value="20"/>
-				<property name="distance" value="150-200"/>
+				<property name="distance" value="700-800"/>
 				<property name="nav_object" value="quest" />
 			</objective>
 
@@ -6306,7 +6306,7 @@
 			<action type="GameEvent" id="spawn_QuestStarterGhostsStart" phase="1"/>
 
 			<objective type="FetchKeep" id="meleeWpnSledgeT0StoneSledgehammer" value="1" phase="1" optional="true"/>
-			<objective type="RandomGoto" value="250-300" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="30"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -6372,7 +6372,7 @@
 			<action type="GameEvent" id="spawn_QuestStarterHuntStart" phase="1"/>
 
 			<objective type="FetchKeep" id="drinkJarRedTea" value="1" phase="1" optional="true"/>
-			<objective type="RandomGoto" value="250-300" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="30"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -6497,7 +6497,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="200-300" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -6527,14 +6527,14 @@
 			<property name="offer_key" value="challenge_FuriousRamsayStarterToxic_offer"/>
 			<property name="return_to_quest_giver" value="true" />
 			
-			<property name="completiontype" value="TurnIn"/>
+			<property name="completiontype" value="AutoComplete"/>
 
 			<action type="TrackQuest"/>
 
 			<action type="GameEvent" id="spawn_QuestStarterToxicStart" phase="1"/>
 
 			<objective type="FetchKeep" id="FuriousRamsayDrinkPerussianBlue" value="1" phase="1" optional="true"/>
-			<objective type="RandomGoto" value="200-400" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -6571,7 +6571,7 @@
 			<action type="GameEvent" id="spawn_QuestStarterToxicStart" phase="1"/>
 
 			<objective type="FetchKeep" id="FuriousRamsayDrinkPerussianBlue" value="1" phase="1" optional="true"/>
-			<objective type="RandomGoto" value="200-400" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -6634,7 +6634,7 @@
 			<objective type="FetchKeep" id="drinkJarYuccaJuice" value="1" phase="1"/>
 			<objective type="RandomGotoNPC" phase="1">
 				<property name="completion_distance" value="20"/>
-				<property name="distance" value="200-250"/>
+				<property name="distance" value="700-800"/>
 				<property name="nav_object" value="quest" />
 			</objective>
 
@@ -6696,7 +6696,7 @@
 
 			<property name="completiontype" value="AutoComplete"/>
 
-			<objective type="RandomGoto" value="200-250" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -6732,7 +6732,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="200-250" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="25"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -6774,7 +6774,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="RandomGoto" value="200-300" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>
@@ -6866,7 +6866,7 @@
 
 			<reward type="Item" id="FuriousRamsayDecoyBackpackTier1" stage="start"/>
 
-			<objective type="RandomGoto" value="200-300" phase="1">
+			<objective type="RandomGoto" value="700-800" phase="1">
 				<property name="completion_distance" value="50"/>
 				<property name="nav_object" value="quest" />
 			</objective>

@@ -47,7 +47,7 @@ Add zombieTomClark(s)
 
 REBIRTH:
 (FOR TESTING ONLY) Rebirth Version A20.3Exp-2022-03-18-1505 (FOR TESTING ONLY)
-(SHOULD NOT RESET PROGRESSION)
+(WILL REQUIRE A NEW PLAYTHROUGH)
 Fixed Full Control not preventing your hires from attacking
 Fixed Inability to unlock ranged weapon expertise Repair Kits
 Fixed many CVars being networked when not necessary
@@ -71,33 +71,43 @@ Fixed Global Aura perk descriptions showing wrong zombie type
 Increased the price of Seed Bundles
 Farmer Trader now sells Sand/Clay/Nitrate/Coal
 Adjust Economic value of Sand/Clay/Nitrate/Coal
-Reduced normal Explosion Immune Zombie chance to ragdoll on hit from 50% down to 10%
+Reduced normal Explosion Immune Zombie chance to ragdoll on hit from 50% down to 15%
 Reduced normal Explosiob zombie reach and entity damage
-Significantly reduce tne variations of NPC spawns in biomes to help with performance
+Significantly reduced the variations of NPC spawns in biomes to help with performance
 Custom Spears can now be sold to traders
-Removed UMA Skulls and Zombies from Biome spawns and wandering hordes
-Briston, Trainers and Custom Traders will now attack when not following you
-http://38.17.55.139/Rebirth-2022-03-18-1545.zip
+Briston, Trainers and Custom Traders will now attack when not following you (In Stay mode)
+Reduced base chance to harvest rare gems/metals
+Reduced mining harvest bonus from Mother Lode
+Removed Survivor spawning from events
+Changed Starter mission distance in the event they are started when in a large city
+Added Water intake amount display to Beer
+Added a number of new items in zombie loot
+Desert Androids will no longer attack zombies, will focus on players/NPCs
+Removed UMA Skulls, Bandits and Zombies from Biome spawns and wandering hordes
+Added Custom Bandits with increasing difficulty based on the biome (weapon types)
+Removed pipe pistol NPC from start sequence
+Reduced start cash to 1000 down from 2000
+Fixed Starter Toxic quest not autocompleting
+Reduced number of Survivors in Ghost Starter mission
+Removed zombies in Hazard Starter mission
+Fixed Smoke particle sticking to NPCs
+http://38.17.55.139/Rebirth-2022-03-18-2115.zip
 
 TODO:
-Remove Persist CVar every so often
-Briston and trainers can shoot in stay
+Test new Add Items (gameevents) on dedi
+Try giving quests rather than items
 Streamline Repair Kits
 
-Check out gas price as handyman
+Add schematics for armor crafting
+Too many Mercenary trader spawns (keeps repeating)
+
 weapon descriptions
 Steel spikes
 Upgrade iron bars (corner) to steel
-Beer isn't showing water intake
-Add small chance of high performance running shoes and jacket to zombie loot
+
 Rusty steel axe description
-Flaming barrel shouldn't give resource when wrenched
 Add localization for Mercenary buffs
-Rusty Steel PickAxe requires Ductape to repair?
 Just noticed a small UI Bug. My Hunter had Bow Level 0 with 95%Progress. I killed some Zs with my spear and leveled Hunter to Level 4. The progressbar of Bows resetted. I killed some Zs with Bow and got Level 1 BowL
-Add schematics for armor crafting
-Make more generic repair kits
-Too many Mercenary trader spawns (keeps repeating)
 
 NullReferenceException: Object reference not set to an instance of an object
   at XUiC_QuestTurnInWindowGroup.OnClose () [0x00090] in <39cf8b713b17414c9e5ddfff01d6df19>:0 
@@ -117,11 +127,8 @@ UICamera:Update()
 
 Completion of some knowledge give you a special reward?
 Make a quest for VM workstation in optional modlet
-Adjust the POI description, say it doesn't have to be in a POI
 How to make NPCs turn to you when spawned in and they aren't supposed to move
 What do do about the two penetration perks (aura and perk)
-Why does furnace schematic show as green but not completed?
-remove explosion effect on NPCs
 Got 6 Genetics boosts
 Some mercenaries deal fire/shock
 Is fire debuff too strong?
@@ -130,8 +137,7 @@ Clean up unused quest crafting items
 Shock from shock motorcycle can get stuck. Unsticks when you shock another enemy
 check motorcycle stability (shock, burning)
 Progression requirements should be based on variables, not genetics
-Make quests distance longer. 500-600m
-shock zombies cannot jump?
+Shock zombies cannot jump?
 Fire chains the particle effect but not the damage? Should at least be minimal damage
 Test with Super Fast melee
 VM_Wheels and the Crafting menu
@@ -158,8 +164,6 @@ Change the XP items to give 10% of current level
 
 Bring players to other biomes with quests or other means
 
-craft sewing kits?
-
   <item name="UndeadFactionSchematic">
       <property name="Extends" value="schematicMaster" />
       <property name="DescriptionKey" value="UndeadFactionSchematicDesc" />
@@ -177,7 +181,6 @@ Vehicle repair kits with VM
 Oil from cars with VM
 
 Look at making electric fence posts give you xp?
-companions contribute to your xp?
 
 Add generic repair kit back for other mods
 

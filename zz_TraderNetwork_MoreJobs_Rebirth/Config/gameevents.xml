@@ -227,12 +227,6 @@ spideralert
 			<variable name="entityCount" value="12" />
 			<variable name="beltTooltip" value="[f2b3b6]You hear death's whisper[-]" />
 		</action_sequence>
-		<!-- TIER 1 ZOMBIE HORDE C -->
-		<action_sequence name="spawn_FuriousRamsay_Event_Horde_Zombie_Tier1C" template="spawn_FuriousRamsay_Event_Horde">
-			<variable name="entityNames" value="FuriousRamsayUMAAidenZombieWandering,FuriousRamsayUMAHodorZombieWandering,FuriousRamsayUMARichieZombieWandering,FuriousRamsayUMAWillieZombieWandering,FuriousRamsayUMAKimZombieWandering,FuriousRamsayUMACharlotteZombieWandering,FuriousRamsayUMARoxyZombieWandering,FuriousRamsayUMAGabrielleZombieWandering,FuriousRamsayUMAClintZombieWandering" />
-			<variable name="entityCount" value="12" />
-			<variable name="beltTooltip" value="[f2b3b6]You hear death's whisper[-]" />
-		</action_sequence>
 		<!-- TIER 1 ZOMBIE HORDE FIRE -->
 		<action_sequence name="spawn_FuriousRamsay_Event_Horde_Zombie_Tier1Fire" template="spawn_FuriousRamsay_Event_Horde">
 			<variable name="entityNames" value="FuriousRamsayBlackDecoyFireZombieBoeWandering,FuriousRamsayBlackDecoyFireZombieJoeWandering,FuriousRamsayBlackDecoyFireZombieJanitorWandering,,FuriousRamsayBlackDecoyFireZombieArleneWandering,FuriousRamsayBlackDecoyFireZombieLabWandering,FuriousRamsayBlackDecoyFireZombieDarleneWandering,FuriousRamsayBlackDecoyFireZombieMarleneWandering,FuriousRamsayBlackDecoyFireZombieYoWandering,uriousRamsayBlackDecoyFireZombieSteveWandering,FuriousRamsayBlackDecoyFireZombieBusinessManWandering" />
@@ -301,7 +295,7 @@ spideralert
 				<property name="entity_names" value="FuriousRamsaySurvivorMan010bBatTier1NoHire,FuriousRamsaySurvivorMan009a1KnifeTier1NoHire,FuriousRamsaySurvivorMan006aBatTier1NoHire,FuriousRamsaySurvivorMan002f1SpearTier1NoHire,FuriousRamsaySurvivorMan002cMacheteTier1NoHire,FuriousRamsaySurvivorMan000eAxeTier1NoHire,FuriousRamsaySurvivorMan000b1MacheteTier1NoHire"/>
 				<property name="min_distance" value="5" />
 				<property name="max_distance" value="10" />
-				<property name="spawn_count" value="3" />
+				<property name="spawn_count" value="1" />
 				<property name="phase" value="1" />
 			</action>
 		</action_sequence>
@@ -476,18 +470,18 @@ spideralert
 	<!-- QUEST: HAZARD -->
 		<action_sequence name="spawn_FuriousRamsay_Hazard_Tier1">
 			<action class="CallGameEvent">
-				<property name="game_events" value="spawn_FuriousRamsay_HazardZombies_Tier1" />
+				<property name="game_events" value="spawn_FuriousRamsay_HazmatLeaderTier1" />
 				<property name="phase" value="1" />
 			</action>
-			<action class="CallGameEvent">
-				<property name="game_events" value="spawn_FuriousRamsay_HazmatLeaderTier1" />
-				<property name="phase" value="2" />
-			</action>
+			<!--<action class="CallGameEvent">
+				<property name="game_events" value="spawn_FuriousRamsay_HazardZombies_Tier1" />
+				<property name="phase" value="1" />
+			</action>-->
 		</action_sequence>
 		<!-- BOSS -->
 		<action_sequence name="spawn_FuriousRamsay_HazmatLeaderTier1" template="vote_horde_standard">
 			<variable name="alertsound" value="malehatesense05" />
-			<variable name="zombiecount" value="3" />
+			<variable name="zombiecount" value="5" />
 			<variable name="zombiename" value="FuriousRamsayPandemicMan001aBatTier1NoHire,FuriousRamsayPandemicMan001aAxeTier1NoHire,FuriousRamsayPandemicWoman001aKnifeTier1NoHire,FuriousRamsayPandemicWoman001aSpearTier1NoHire" />
 			<variable name="minionbuff" value="" />
 			<variable name="bossname" value="FuriousRamsayPandemicMan002aMacheteBossTier1" />
@@ -504,7 +498,7 @@ spideralert
 				<property name="entity_names" value="zombieBoe,zombieJoe,zombieArlene,zombieDarlene,zombieMarlene,zombieYo,zombieSteve,zombieBusinessMan"/>
 				<property name="min_distance" value="10" />
 				<property name="max_distance" value="15" />
-				<property name="spawn_count" value="10" />
+				<property name="spawn_count" value="4" />
 				<property name="phase" value="1" />
 			</action>
 		</action_sequence>

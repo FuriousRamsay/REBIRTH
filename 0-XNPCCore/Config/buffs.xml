@@ -43,6 +43,7 @@
 
 	<!-- main player control buff -->
 	<append xpath="/buffs">
+	
 		<buff name="buffNPCModSlowStatusCheck" hidden="true" remove_on_death="false">
             <stack_type value="replace"/>
             <update_rate value="10"/>
