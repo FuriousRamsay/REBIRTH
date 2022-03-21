@@ -1,5 +1,7 @@
 <Config>
     
+	<removeattribute xpath="/recipes/recipe[@name='resourceMilitaryFiber']/@tags"/>
+
 	<setattribute xpath="/recipes/recipe[@name='FuriousRamsayFireArmorRepairKit' or
 											@name='FuriousRamsayShockArmorRepairKit' or
 											@name='FuriousRamsaySmokeArmorRepairKit' or
@@ -94,11 +96,11 @@
 			<ingredient name="FuriousRamsayStarterArmorBootsChef" count="1" />
 		</recipe>
 
-		<recipe name="resourceRepairKit" count="1" craft_area="workbench" craft_time="60" craft_tool="FuriousRamsayScrewdriver" always_unlocked="true">
+		<!--<recipe name="resourceRepairKit" count="1" craft_area="workbench" craft_time="60" craft_tool="FuriousRamsayScrewdriver" always_unlocked="true">
 			<ingredient name="resourceForgedIron" count="10" />
 			<ingredient name="resourceForgedSteel" count="5" />
 			<ingredient name="resourceDuctTape" count="1" />
-		</recipe>
+		</recipe>-->
 		
 		<recipe name="FuriousRamsayArmorHelmetLight" count="1" craft_area="workbench" craft_time="30" craft_tool="FuriousRamsayScrewdriver" always_unlocked="true">
 			<ingredient name="meleeToolFlashlight02" count="1" />

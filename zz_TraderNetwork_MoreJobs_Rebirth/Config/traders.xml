@@ -408,83 +408,15 @@
 		</trader_item_group>
 
 		<trader_item_group name="FuriousRamsayRepairKits">
-			<item name="FuriousRamsayRepairKitDoubleBarrelShotgun" count="0,3" prob="1"/>
-			<item name="FuriousRamsayRepairKitHuntingRifle" count="0,3" prob="1"/>
-			<item name="FuriousRamsayRepairKitJunkSledge" count="0,3" prob="1"/>
-			<item name="FuriousRamsayRepairKitPistol" count="0,3" prob="1"/>
-			<item name="FuriousRamsayRepairKitWoodenBow" count="0,3" prob="1"/>
-			<item name="FuriousRamsayRepairKitIronCrossbow" count="0,3" prob="1"/>
-			<item name="FuriousRamsayRepairKitPumpShotgun" count="0,2" prob="0.65"/>
-			<item name="FuriousRamsayRepairKitSMG5" count="0,2" prob="0.65"/>
-			<item name="FuriousRamsayRepairKitAK47" count="0,2" prob="0.65"/>
-			<item name="FuriousRamsayRepairKitMarksmanRifle" count="0,2" prob="0.65"/>
-			<item name="FuriousRamsayRepairKitJunkTurret" count="0,2" prob="0.65"/>
-			<item name="FuriousRamsayRepairKitMagnum44" count="0,2" prob="0.65"/>
-			<item name="FuriousRamsayRepairKitCompoundBow" count="0,2" prob="0.65"/>
-			<item name="FuriousRamsayRepairKitCompoundCrossbow" count="0,2" prob="0.65"/>
-			<item name="FuriousRamsayRepairKitAutoShotgun" count="0,1" prob="0.35"/>
-			<item name="FuriousRamsayRepairKitTacticalAR" count="0,1" prob="0.35"/>
-			<item name="FuriousRamsayRepairKitM60" count="0,1" prob="0.35"/>
-			<item name="FuriousRamsayRepairKitSniperRifle" count="0,1" prob="0.35"/>
-			<item name="FuriousRamsayRepairKitRocketLauncher" count="0,1" prob="0.35"/>
-			<item name="FuriousRamsayRepairKitDesertVulture" count="0,1" prob="0.35"/>
-			<item name="FuriousRamsayRepairKitSteelClub" count="0,1" prob="0.45"/>
-			<item name="FuriousRamsayRepairKitSteelSpear" count="0,1" prob="0.45"/>
-			<item name="FuriousRamsayRepairKitSteelKnuckles" count="0,1" prob="0.45"/>
-			<item name="FuriousRamsayRepairKitSteelSledgehammer" count="0,1" prob="0.45"/>
-			<item name="FuriousRamsayRepairKitSteelAxe" count="0,1" prob="0.45"/>
-			<item name="FuriousRamsayRepairKitKnife002_FR" count="0,1" prob="0.45"/>
-			<item name="FuriousRamsayRepairKitCleaver001_FR" count="0,1" prob="0.45"/>
-			<item name="FuriousRamsayRepairKitKatana002_FR" count="0,1" prob="0.45"/>
-			<item name="FuriousRamsayRepairKitKatana002_FR" count="0,1" prob="0.45"/>
-			<item name="FuriousRamsayRepairKitKatana002_FR" count="0,1" prob="0.45"/>
-			<item name="FuriousRamsayRepairKitAxe005_FR" count="0,1" prob="0.45"/>
-			<item name="FuriousRamsayRepairKitSledgeHammer001_FR" count="0,1" prob="0.45"/>
-			<item name="FuriousRamsayRepairKitHammer003_FR" count="0,1" prob="0.45"/>
-			<item name="FuriousRamsayRepairKitSpear003_FR" count="0,1" prob="0.45"/>
-			<item name="FuriousRamsayRepairKitClub005_FR" count="0,1" prob="0.45"/>
-			<item name="FuriousRamsayRepairKitClub001_FR" count="0,1" prob="0.45"/>
-			<item name="FuriousRamsayRepairKitJunkBaton001_FR" count="0,1" prob="0.45"/>
-			<item name="FuriousRamsayRepairKitStunBaton" count="0,1" prob="0.35"/>
-			<item name="FuriousRamsayRepairKitKnife001_FR" count="0,1" prob="0.35"/>
-			<item name="FuriousRamsayRepairKitKnife003_FR" count="0,1" prob="0.35"/>
-			<item name="FuriousRamsayRepairKitSciFiSword001_FR" count="0,1" prob="0.35"/>
-			<item name="FuriousRamsayRepairKitSciFiSword003_FR" count="0,1" prob="0.35"/>
-			<item name="FuriousRamsayRepairKitAxe001_FR" count="0,1" prob="0.35"/>
-			<item name="FuriousRamsayRepairKitAxe002_FR" count="0,1" prob="0.35"/>
-			<item name="FuriousRamsayRepairKitAxe003_FR" count="0,1" prob="0.35"/>
-			<item name="FuriousRamsayRepairKitSledgeHammer002_FR" count="0,1" prob="0.35"/>
-			<item name="FuriousRamsayRepairKitHammer001_FR" count="0,1" prob="0.35"/>
-			<item name="FuriousRamsayRepairKitHammer002_FR" count="0,1" prob="0.35"/>
-			<item name="FuriousRamsayRepairKitSpear001_FR" count="0,1" prob="0.35"/>
-			<item name="FuriousRamsayRepairKitSpear002_FR" count="0,1" prob="0.35"/>
-			<item name="FuriousRamsayRepairKitClub002_FR" count="0,1" prob="0.35"/>
-			<item name="FuriousRamsayRepairKitClub009_FR" count="0,1" prob="0.35"/>
-			<item name="FuriousRamsayRepairKitClub010_FR" count="0,1" prob="0.35"/>
-			<item name="FuriousRamsayRepairKitKnuckles002_FR" count="0,1" prob="0.35"/>
-			<item name="FuriousRamsayRepairKitSpear004_FR" count="0,1" prob="0.25"/>
-			<item name="FuriousRamsayRepairKitSpear005_FR" count="0,1" prob="0.25"/>
-			<item name="FuriousRamsayRepairKitClub004_FR" count="0,1" prob="0.25"/>
-			<item name="FuriousRamsayRepairKitClub006_FR" count="0,1" prob="0.25"/>
-			<item name="FuriousRamsayRepairKitClub008_FR" count="0,1" prob="0.25"/>
-			<item name="FuriousRamsayRepairKitKnuckles001_FR" count="0,1" prob="0.25"/>
-			<item name="FuriousRamsayRepairKitBaton001_FR" count="0,1" prob="0.25"/>
+			<item name="FuriousRamsayRepairKit" count="0,3" prob="1"/>
+			<item name="FuriousRamsayGunRepairKit" count="0,3" prob="0.5"/>
+			<item name="FuriousRamsayElectricalRepairKit" count="0,3" prob="0.2"/>
+			<item name="resourceRepairKit" count="0,3" prob=".15"/>
 		</trader_item_group>
 
 		<trader_item_group name="FuriousRamsayRepairKitsBasics">
-			<item name="FuriousRamsayRepairKitJunkDrone" count="0,1" prob="0.5"/>
-			<item name="FuriousRamsayRepairKitImpactNailgun" count="0,1" prob="0.65"/>		
-			<item name="FuriousRamsayRepairKitImpactDriver" count="0,2" prob="0.65"/>
-			<item name="FuriousRamsayRepairKitSteelPickAxe" count="0,2" prob="1"/>
-			<item name="FuriousRamsayRepairKitSteelShovel" count="0,2" prob="1"/>
-			<item name="FuriousRamsayRepairKitChainsaw" count="0,1" prob="0.25"/>
-			<item name="FuriousRamsayRepairKitAuger" count="0,1" prob="0.25"/>
-			<item name="FuriousRamsayRepairKitarmorCloth" count="0,3" prob="1"/>
-			<item name="FuriousRamsayRepairKitarmorLeather" count="0,3" prob="0.85"/>
-			<item name="FuriousRamsayRepairKitarmorScrap" count="0,2" prob="0.65"/>
-			<item name="FuriousRamsayRepairKitarmorIron" count="0,2" prob="0.45"/>
-			<item name="FuriousRamsayRepairKitarmorSteel" count="0,1" prob="0.25"/>
-			<item name="FuriousRamsayRepairKitarmorMilitary" count="0,1" prob="0.25"/>
+			<item name="FuriousRamsayRepairKit" count="0,1" prob="0.7"/>
+			<item name="FuriousRamsayGunRepairKit" count="0,1" prob="0.4"/>		
 		</trader_item_group>
 
 		<trader_item_group name="FuriousRamsayTraderJoelItems">
@@ -1028,7 +960,7 @@
 		</trader_info>
 
 		<!-- MEDICAL DROID -->
-		<trader_info id="79" full_reset="true" override_buy_markup="2" min_inventory="13" max_inventory="13" min_items_swapped="13" max_items_swapped="13" reset_interval="1" open_time="0:00" close_time="0:00">
+		<trader_info id="79" full_reset="true" min_inventory="13" max_inventory="13" min_items_swapped="13" max_items_swapped="13" reset_interval="1" open_time="0:00" close_time="0:00">
 			<trader_items count="all">
 				<item group="FuriousRamsayMedicalDroidMedecine"/>
 			</trader_items>
@@ -1045,5 +977,7 @@
 	<append xpath="/traders/trader_info[@id='5']/trader_items">
 		<item group="FuriousRamsayRepairKits" count="35"/>
 	</append>
+
+	<removeattribute xpath="//trader_info/@override_buy_markup" />
 
 </Config>

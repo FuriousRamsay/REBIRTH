@@ -1,327 +1,30 @@
 <Config>
 
-	<!-- ADD VANILLA RANGED WEAPON REPAIR KIT RECIPES -->
+	<!-- ADD REPAIR KIT RECIPES -->
 	<append xpath="/recipes">
-		<!-- TIER 2 -->
-		<recipe name="FuriousRamsayRepairKitWoodenBow" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="FuriousRamsayTreeBranch" count="4"/>
-			<ingredient name="resourceDuctTape" count="1"/>
+		<recipe name="resourceRepairKit" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver">
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="15"/>
+			<ingredient name="vehicleWheels" count="1"/>
+			<ingredient name="resourceOil" count="2"/>
+			<ingredient name="resourceAcid" count="1"/>
 		</recipe>
-		<recipe name="FuriousRamsayRepairKitIronCrossbow" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="1"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitDoubleBarrelShotgun" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitHuntingRifle" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<!-- TIER 3 -->
-		<recipe name="FuriousRamsayRepairKitCompoundBow" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="FuriousRamsayTreeBranch" count="4"/>
+		<recipe name="FuriousRamsayGunRepairKit" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver">
 			<ingredient name="resourceForgedSteel" count="2"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitCompoundCrossbow" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
 			<ingredient name="resourceForgedIron" count="1"/>
-			<ingredient name="resourceForgedSteel" count="2"/>
-			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="3"/>
+			<ingredient name="resourceSpring" count="2"/>
+			<ingredient name="resourceLeather" count="2"/>
 		</recipe>
-		<recipe name="FuriousRamsayRepairKitPumpShotgun" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="2"/>
-			<ingredient name="resourceForgedSteel" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitAK47" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="2"/>
-			<ingredient name="resourceForgedSteel" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitMarksmanRifle" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="2"/>
-			<ingredient name="resourceForgedSteel" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitJunkSledge" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="2"/>
-			<ingredient name="resourceForgedSteel" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitMagnum44" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="2"/>
-			<ingredient name="resourceForgedSteel" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitPistol" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="2"/>
-			<ingredient name="resourceForgedSteel" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<!-- TIER 4 -->
-		<recipe name="FuriousRamsayRepairKitSniperRifle" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedSteel" count="10"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitTacticalAR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedSteel" count="10"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitAutoShotgun" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedSteel" count="10"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitM60" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedSteel" count="10"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitJunkTurret" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedSteel" count="10"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitRocketLauncher" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedSteel" count="10"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitSMG5" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedSteel" count="10"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitDesertVulture" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedSteel" count="10"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-
-	<!-- ADD CUSTOM WEAPON REPAIR KIT RECIPES -->
-		<!-- TIER 2 -->
-		<recipe name="FuriousRamsayRepairKitSteelClub" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
+		<recipe name="FuriousRamsayElectricalRepairKit" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver">
+			<ingredient name="resourceElectricParts" count="5"/>
 			<ingredient name="resourceForgedIron" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="2"/>
 		</recipe>
-		<recipe name="FuriousRamsayRepairKitSteelSpear" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="3"/>
+		<recipe name="FuriousRamsayRepairKit" count="1" craft_area="workbench">
 			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitSteelKnuckles" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitSteelSledgehammer" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitSteelAxe" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitKnife002_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitCleaver001_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitKatana001_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitKatana002_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitAxe005_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitSledgeHammer001_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitHammer003_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitSpear003_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitClub005_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitClub001_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitJunkBaton001_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<!-- TIER 3 -->
-		<recipe name="FuriousRamsayRepairKitStunBaton" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
 			<ingredient name="resourceForgedIron" count="2"/>
-			<ingredient name="resourceForgedSteel" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitKnife001_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="2"/>
-			<ingredient name="resourceForgedSteel" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitKnife003_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="2"/>
-			<ingredient name="resourceForgedSteel" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitSciFiSword001_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="2"/>
-			<ingredient name="resourceForgedSteel" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitSciFiSword003_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="2"/>
-			<ingredient name="resourceForgedSteel" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitAxe001_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="2"/>
-			<ingredient name="resourceForgedSteel" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitAxe002_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="2"/>
-			<ingredient name="resourceForgedSteel" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitAxe003_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="2"/>
-			<ingredient name="resourceForgedSteel" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitSledgeHammer002_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="2"/>
-			<ingredient name="resourceForgedSteel" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitHammer001_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="2"/>
-			<ingredient name="resourceForgedSteel" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitHammer002_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="2"/>
-			<ingredient name="resourceForgedSteel" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitSpear001_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="2"/>
-			<ingredient name="resourceForgedSteel" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitSpear002_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="2"/>
-			<ingredient name="resourceForgedSteel" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitClub002_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="2"/>
-			<ingredient name="resourceForgedSteel" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitClub009_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="2"/>
-			<ingredient name="resourceForgedSteel" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitClub010_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="2"/>
-			<ingredient name="resourceForgedSteel" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitKnuckles002_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceForgedIron" count="2"/>
-			<ingredient name="resourceForgedSteel" count="3"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<!-- TIER 4 -->
-		<recipe name="FuriousRamsayRepairKitSpear004_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceSilverNugget" count="1"/>
-			<ingredient name="resourceForgedSteel" count="5"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitSpear005_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceSilverNugget" count="1"/>
-			<ingredient name="resourceForgedSteel" count="5"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitClub004_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceSilverNugget" count="1"/>
-			<ingredient name="resourceForgedSteel" count="5"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitClub006_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceSilverNugget" count="1"/>
-			<ingredient name="resourceForgedSteel" count="5"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitClub008_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceSilverNugget" count="1"/>
-			<ingredient name="resourceForgedSteel" count="5"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitKnuckles001_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceSilverNugget" count="1"/>
-			<ingredient name="resourceForgedSteel" count="5"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitBaton001_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceSilverNugget" count="1"/>
-			<ingredient name="resourceForgedSteel" count="5"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<!-- TIER 5 -->
-		<recipe name="FuriousRamsayRepairKitBurningKnife" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceGoldNugget" count="1"/>
-			<ingredient name="resourceForgedSteel" count="10"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitKatana003_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceGoldNugget" count="1"/>
-			<ingredient name="resourceForgedSteel" count="10"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitAxe004_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceGoldNugget" count="1"/>
-			<ingredient name="resourceForgedSteel" count="10"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitSledgeHammer003_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceGoldNugget" count="1"/>
-			<ingredient name="resourceForgedSteel" count="10"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitSpear006_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceGoldNugget" count="1"/>
-			<ingredient name="resourceForgedSteel" count="10"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitClub003_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceGoldNugget" count="1"/>
-			<ingredient name="resourceForgedSteel" count="10"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitKnuckles003_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceGoldNugget" count="1"/>
-			<ingredient name="resourceForgedSteel" count="10"/>
-			<ingredient name="resourceDuctTape" count="1"/>
-		</recipe>
-		<recipe name="FuriousRamsayRepairKitBaton002_FR" count="1" craft_area="workbench" craft_tool="FuriousRamsayScrewdriver" tags="learnable">
-			<ingredient name="resourceGoldNugget" count="1"/>
-			<ingredient name="resourceForgedSteel" count="10"/>
-			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="2"/>
 		</recipe>
 	</append>
 
@@ -1328,6 +1031,7 @@
 			<ingredient name="resourceNail" count="20"/>
 			<ingredient name="resourceScrapIron" count="5"/>
 			<ingredient name="FuriousRamsayWoodPlank" count="6"/>
+			<ingredient name="modDyeBlack" count="3"/>
 		</recipe>
 		<!-- PRIMITIVE CLUB -->
 		<recipe name="FuriousRamsayStarterClub" count="1" craft_time="10" always_unlocked="true">

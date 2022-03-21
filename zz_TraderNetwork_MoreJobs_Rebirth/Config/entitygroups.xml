@@ -424,7 +424,7 @@
 
 	<remove xpath="/entitygroups/entitygroup[@name='WildGameForest']/entity[@name='animalWolf']"/>
 
-	<!--<append xpath="/entitygroups/entitygroup[@name='ZombiesAll']">
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesAll']">
 		<entity name="FuriousRamsayUMAAidenEnemyBiome" prob="0.25"/>
 		<entity name="FuriousRamsayUMAHodorEnemyBiome" prob="0.25"/>
 		<entity name="FuriousRamsayUMARichieEnemyBiome" prob="0.25"/>
@@ -434,10 +434,10 @@
 		<entity name="FuriousRamsayUMARoxyEnemyBiome" prob="0.25"/>
 		<entity name="FuriousRamsayUMAGabrielleEnemyBiome" prob="0.15"/>
 		<entity name="FuriousRamsayUMAClintEnemyBiome" prob="0.25"/>
-		<entity name="FuriousRamsaySkullsClubTier2Biome" prob="0.15"/>
+		<!--<entity name="FuriousRamsaySkullsClubTier2Biome" prob="0.15"/>
 		<entity name="FuriousRamsaySkullsHammerTier2Biome" prob="0.15"/>
-		<entity name="FuriousRamsaySkullsAxeTier2Biome" prob="0.15"/>
-	</append>-->
+		<entity name="FuriousRamsaySkullsAxeTier2Biome" prob="0.15"/>-->
+	</append>
 
 	<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']">
 		<entity name="FuriousRamsayBlackDecoyFireZombieBoe"/>

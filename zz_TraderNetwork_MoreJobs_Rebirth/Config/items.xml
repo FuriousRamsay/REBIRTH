@@ -2623,7 +2623,7 @@
 	<remove xpath="/items/item[@name='gunBotT3JunkDrone']/property[@name='RepairTools']"/>
 	<remove xpath="/items/item[@name='gunBotT3JunkDrone']/effect_group"/>
 	<append xpath="/items/item[@name='gunBotT3JunkDrone']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitJunkDrone"/>
+		<property name="RepairTools" value="FuriousRamsayElectricalRepairKit"/>
 		<effect_group name="gunBotT3JunkDrone">
 			<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
 			<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
@@ -6075,18 +6075,6 @@
 	<setattribute xpath="/items/item[@name='foodShepardsPie']/effect_group/triggered_effect[@cvar='$foodAmountAdd']" name="value">30</setattribute>
 	<setattribute xpath="/items/item[@name='foodShepardsPie']/effect_group/triggered_effect[@cvar='foodHealthAmount']" name="value">3</setattribute>
 
-	<!-- CUSTOM REPAIR KITS FOR IRON TOOLS -->
-	<!--<setattribute xpath="/items/item[@name='meleeToolPickT1IronPickaxe']/property[@name='RepairTools']" name="value">FuriousRamsayScrapRepairKit</setattribute>
-	<setattribute xpath="/items/item[@name='meleeToolShovelT1IronShovel']/property[@name='RepairTools']" name="value">FuriousRamsayScrapRepairKit</setattribute>
-	<setattribute xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@name='RepairTools']" name="value">FuriousRamsayScrapRepairKit</setattribute>
-	<setattribute xpath="/items/item[@name='meleeToolAxeT1IronFireaxe']/property[@name='RepairTools']" name="value">FuriousRamsayScrapRepairKit</setattribute>
-	<setattribute xpath="/items/item[@name='meleeWpnClubT1BaseballBat']/property[@name='RepairTools']" name="value">FuriousRamsayScrapRepairKit</setattribute>
-	<setattribute xpath="/items/item[@name='meleeWpnSledgeT1IronSledgehammer']/property[@name='RepairTools']" name="value">FuriousRamsayScrapRepairKit</setattribute>
-	<setattribute xpath="/items/item[@name='meleeWpnBladeT3Machete']/property[@name='RepairTools']" name="value">FuriousRamsayScrapRepairKit</setattribute>
-	<setattribute xpath="/items/item[@name='gunBowT1WoodenBow']/property[@name='RepairTools']" name="value">FuriousRamsayScrapRepairKit</setattribute>
-	<setattribute xpath="/items/item[@name='meleeWpnSpearT1IronSpear']/property[@name='RepairTools']" name="value">FuriousRamsayScrapRepairKit</setattribute>
-	<setattribute xpath="/items/item[@name='meleeWpnKnucklesT1IronKnuckles']/property[@name='RepairTools']" name="value">FuriousRamsayScrapRepairKit</setattribute>-->
-
 	<!-- ADD CONSTITUTION XP TO DRUGS -->
 	<append xpath="/items/item[@name='medicalBandage']">
 		<effect_group name="FuriousRamsayIncreaseConstitutionXP" tiered="false">
@@ -6840,24 +6828,6 @@
 				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayRefreshPerkVariables" />					
 				<triggered_effect trigger="onSelfEquipStop" action="AddBuff" buff="FuriousRamsayRefreshPerkVariables" />					
 			</effect_group>
-		</item>
-
-		<item name="FuriousRamsayScrapRepairKit">
-			<property name="CustomIcon" value="cntToolBoxOpen"/>
-			<property name="CreativeMode" value="None"/>
-			<!--<property name="CustomIconTint" value="177, 98, 227"/>-->
-			<property name="HoldType" value="45"/>
-			<property name="Tags" value="junk"/>
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="Mmetal"/>
-			<property name="Stacknumber" value="25"/>
-			<property name="EconomicValue" value="100"/>
-			<property name="SellableToTrader" value="false"/>
-			<property name="RepairTime" value="3"/>
-			<property name="Weight" value="10"/>
-			<property name="RepairAmount" value="32000"/>
-			<property name="Group" value="Resources"/>
 		</item>
 
 		<item name="FuriousRamsayGeneticsPerkTrainingMaster">

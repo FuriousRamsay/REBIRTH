@@ -46,7 +46,7 @@ Add PartyGirlRadiated
 Add zombieTomClark(s)
 
 REBIRTH:
-(FOR TESTING ONLY) Rebirth Version A20.3Exp-2022-03-20-1505 (FOR TESTING ONLY)
+(FOR TESTING ONLY) Rebirth Version A20.3Exp-2022-03-20-2100 (FOR TESTING ONLY)
 (WILL REQUIRE A NEW PLAYTHROUGH)
 Fixed Full Control not preventing your hires from attacking
 Fixed Inability to unlock ranged weapon expertise Repair Kits
@@ -83,10 +83,10 @@ Changed Starter mission distance in the event they are started when in a large c
 Added Water intake amount display to Beer
 Added a number of new items in zombie loot
 Desert Androids will no longer attack zombies, will focus on players/NPCs
-Removed UMA Skulls, Bandits and Zombies from Biome spawns and wandering hordes
+Removed UMA Skulls and Zombies from Biome spawns and wandering hordes
 Added Custom Bandits with increasing difficulty based on the biome (weapon types)
 Removed pipe pistol NPC from start sequence
-Reduced start cash to 1000 down from 2000
+Reduced start cash to 1250 down from 2000
 Fixed Starter Toxic quest not autocompleting
 Reduced number of Survivors in Ghost Starter mission
 Removed zombies in Hazard Starter mission
@@ -96,13 +96,20 @@ Fixed first Spawn alert not working on dedicated servers
 Move NPC verification check when you enter the game rather than every 10 seconds to help with performance
 Reduced regular zombie attack range
 Darkened the open inventory slots to better distinguish them from 
-Included SMX HUD
-http://38.17.55.139/Rebirth-2022-03-20-2115.zip
+Removed Trader Network HUD
+Added SMX HUD
+Streamlined Repair Kits
+Military Fiber Recipe now unlocked by default
+Added Black Dye to Writable Storage Container recipe
+http://38.17.55.139/Rebirth-2022-03-20-2100.zip
 
 TODO:
-Streamline Repair Kits
+Speed up NPCs when they follow you, more in vehicles
+Add Music to Menu
+Zombies have more life at night?
+Update descriptions
 
-Update Sorcery modelet
+Update Sorcery modlet
 
 Add birds and bird noises
 How does wow does looting exp

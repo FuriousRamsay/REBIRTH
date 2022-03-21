@@ -619,8 +619,8 @@ spideralert
 		<!-- SNIPER RIFLE -->
 		<action_sequence name="FuriousRamsayAddItemSniperRifle">
 			<action class="AddItems">
-				<property name="added_items" value="gunRifleT3SniperRifle,FuriousRamsayRepairKitSniperRifle,FuriousRamsayImportantSniperRifle" />
-				<property name="added_item_counts" value="1,1,1" />
+				<property name="added_items" value="gunRifleT3SniperRifle,FuriousRamsayImportantSniperRifle" />
+				<property name="added_item_counts" value="1,1" />
 				<property name="phase" value="1" />
 			</action>
 		</action_sequence>
@@ -628,8 +628,8 @@ spideralert
 		<!-- SHOTGUN -->
 		<action_sequence name="FuriousRamsayAddItemShotgun">
 			<action class="AddItems">
-				<property name="added_items" value="gunShotgunT2PumpShotgun,FuriousRamsayRepairKitPumpShotgun,FuriousRamsayImportantShotgun" />
-				<property name="added_item_counts" value="1,1,1" />
+				<property name="added_items" value="gunShotgunT2PumpShotgun,FuriousRamsayImportantShotgun" />
+				<property name="added_item_counts" value="1,1" />
 				<property name="phase" value="1" />
 			</action>
 		</action_sequence>
@@ -637,8 +637,8 @@ spideralert
 		<!-- ASSAULT RIFLE -->
 		<action_sequence name="FuriousRamsayAddItemAssaultRifle">
 			<action class="AddItems">
-				<property name="added_items" value="gunMGT1AK47,FuriousRamsayRepairKitAK47,FuriousRamsayImportantAssaultRifle" />
-				<property name="added_item_counts" value="1,1,1" />
+				<property name="added_items" value="gunMGT1AK47,FuriousRamsayImportantAssaultRifle" />
+				<property name="added_item_counts" value="1,1" />
 				<property name="phase" value="1" />
 			</action>
 		</action_sequence>
@@ -646,16 +646,16 @@ spideralert
 		<!-- MARKSMAN RIFLE -->
 		<action_sequence name="FuriousRamsayAddItemMarksmanRifle">
 			<action class="AddItems">
-				<property name="added_items" value="gunRifleT2LeverActionRifle,FuriousRamsayRepairKitMarksmanRifle,FuriousRamsayImportantMarksmanRifle" />
-				<property name="added_item_counts" value="1,1,1" />
+				<property name="added_items" value="gunRifleT2LeverActionRifle,FuriousRamsayImportantMarksmanRifle" />
+				<property name="added_item_counts" value="1,1" />
 				<property name="phase" value="1" />
 			</action>
 		</action_sequence>
 		<!-- MACHINE GUN -->
 		<action_sequence name="FuriousRamsayAddItemMachineGun">
 			<action class="AddItems">
-				<property name="added_items" value="gunMGT3M60,FuriousRamsayRepairKitM60,FuriousRamsayImportantMachineGun" />
-				<property name="added_item_counts" value="1,1,1" />
+				<property name="added_items" value="gunMGT3M60,FuriousRamsayImportantMachineGun" />
+				<property name="added_item_counts" value="1,1" />
 				<property name="phase" value="1" />
 			</action>
 		</action_sequence>
@@ -663,31 +663,31 @@ spideralert
 		<!-- MAGNUM -->
 		<action_sequence name="FuriousRamsayAddItemMagnum">
 			<action class="AddItems">
-				<property name="added_items" value="gunHandgunT2Magnum44,FuriousRamsayRepairKitMagnum44,FuriousRamsayImportantMagnum" />
-				<property name="added_item_counts" value="1,1,1" />
+				<property name="added_items" value="gunHandgunT2Magnum44,FuriousRamsayImportantMagnum" />
+				<property name="added_item_counts" value="1,1" />
 			</action>
 		</action_sequence>
 		<!-- DEPLOYABLE TURRET -->
 		<action_sequence name="FuriousRamsayAddItemDeployableTurret">
 			<action class="AddItems">
-				<property name="added_items" value="gunBotT2JunkTurret,FuriousRamsayRepairKitJunkTurret,FuriousRamsayImportantDeployableTurret" />
-				<property name="added_item_counts" value="1,1,1" />
+				<property name="added_items" value="gunBotT2JunkTurret,FuriousRamsayImportantDeployableTurret" />
+				<property name="added_item_counts" value="1,1" />
 			</action>
 		</action_sequence>
 	<!-- MADMAN -->
 		<!-- SUBMACHINE GUN -->
 		<action_sequence name="FuriousRamsayAddItemSubmachineGun">
 			<action class="AddItems">
-				<property name="added_items" value="gunHandgunT3SMG5,FuriousRamsayRepairKitSMG5,FuriousRamsayImportantSubmachineGun" />
-				<property name="added_item_counts" value="1,1,1" />
+				<property name="added_items" value="gunHandgunT3SMG5,FuriousRamsayImportantSubmachineGun" />
+				<property name="added_item_counts" value="1,1" />
 			</action>
 		</action_sequence>
 	<!-- BUILDER -->
 		<!-- PISTOL -->
 		<action_sequence name="FuriousRamsayAddItemPistol">
 			<action class="AddItems">
-				<property name="added_items" value="gunHandgunT1Pistol,FuriousRamsayRepairKitPistol,FuriousRamsayImportantPistol" />
-				<property name="added_item_counts" value="1,1,1" />
+				<property name="added_items" value="gunHandgunT1Pistol,FuriousRamsayImportantPistol" />
+				<property name="added_item_counts" value="1,1" />
 			</action>
 		</action_sequence>
 		<!-- POWERED TURRET -->
@@ -701,8 +701,8 @@ spideralert
 		<!-- DESERT VULTURE -->
 		<action_sequence name="FuriousRamsayAddItemDesertVulture">
 			<action class="AddItems">
-				<property name="added_items" value="gunHandgunT3DesertVulture,FuriousRamsayRepairKitDesertVulture,FuriousRamsayImportantDesertVulture" />
-				<property name="added_item_counts" value="1,1,1" />
+				<property name="added_items" value="gunHandgunT3DesertVulture,FuriousRamsayImportantDesertVulture" />
+				<property name="added_item_counts" value="1,1" />
 			</action>
 		</action_sequence>
 

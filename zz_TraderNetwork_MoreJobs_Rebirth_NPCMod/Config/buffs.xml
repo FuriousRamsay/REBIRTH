@@ -1,5 +1,14 @@
 <Config>
 
+	<!--<append xpath="/buffs/buff[@name='NPCpegasus']/effect_group/passive_effect[@name='RunSpeed']">
+		<requirement name="CVarCompare" cvar="onMission" operation="Equals" value="0"/>
+	</append> 
+	<append xpath="/buffs/buff[@name='NPCpegasus']/effect_group">
+		<passive_effect name="RunSpeed" operation="base_set" value="50">
+			<requirement name="CVarCompare" cvar="onMission" operation="Equals" value="1"/>
+		</passive_effect>
+	</append>-->
+
 	<append xpath="/buffs/buff[@name='buffNPCStatusCheck']">
 		<effect_group name="NPCHealing">
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="IsHealing">

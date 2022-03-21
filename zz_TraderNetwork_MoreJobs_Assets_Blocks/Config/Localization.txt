@@ -154,7 +154,6 @@ FuriousRamsayClassXPPistolDesc,items,Items,"Use this to boost your Pistol Expert
 FuriousRamsayClassXPKnifeDesc,items,Items,"Use this to boost your Knife Expertise XP."
 FuriousRamsayClassXPDesertVultureDesc,items,Items,"Use this to boost your Desert Vulture Expertise XP."
 
-
 FuriousRamsayDNAInjector,items,Items,DNA Boost Injector
 FuriousRamsayDNAInjectorDesc,items,Items,"Use this device to inject yourself with any DNA Boost."
 FuriousRamsayDNAInjectorCharisma,items,Items,Injection (Charisma)
@@ -191,199 +190,6 @@ FuriousRamsayLearnSteelArmor,items,Items,Steel Armor Crafting Basic
 FuriousRamsayLearnSteelArmorDesc,items,Items,"Steel Armor Crafting Basics\n\nRequires Player Level: [ff595f]70[-]"
 FuriousRamsayLearnMilitaryArmor,items,Items,Military Armor Crafting Basic
 FuriousRamsayLearnMilitaryArmorDesc,items,Items,"Military Armor Crafting Basics\n\nRequires Player Level: [ff595f]70[-]"
-
-FuriousRamsayRepairKitJunkDrone,items,Items,"Junk Drone Repair Kit"
-FuriousRamsayRepairKitImpactNailgun,items,Items,"Nail Gun Repair Kit"
-FuriousRamsayRepairKitImpactDriver,items,Items,"Impact Driver Repair Kit"
-FuriousRamsayRepairKitSteelPickAxe,items,Items,"Steel Pickaxe Repair Kit"
-FuriousRamsayRepairKitSteelShovel,items,Items,"Steel Shovel Repair Kit"
-FuriousRamsayRepairKitChainsaw,items,Items,"Chainsaw Repair Kit"
-FuriousRamsayRepairKitAuger,items,Items,"Auger Repair Kit"
-FuriousRamsayRepairKitJunkDroneDesc,items,Items,"This is a repair kit for the following tool:\n\n • [a9d9d3]Junk Drone[-]"
-FuriousRamsayRepairKitImpactNailgunDesc,items,Items,"This is a repair kit for the following tool:\n\n • [a9d9d3]Nail Gun[-]"
-FuriousRamsayRepairKitImpactDriverDesc,items,Items,"This is a repair kit for the following tool:\n\n • [a9d9d3]Impact Driver[-]"
-FuriousRamsayRepairKitSteelPickAxeDesc,items,Items,"This is a repair kit for the following tool:\n\n • [a9d9d3]Steel Pickaxe[-]"
-FuriousRamsayRepairKitSteelShovelDesc,items,Items,"This is a repair kit for the following tool:\n\n • [a9d9d3]Steel Shovel[-]"
-FuriousRamsayRepairKitChainsawDesc,items,Items,"This is a repair kit for the following tool:\n\n • [a9d9d3]Chainsaw[-]"
-FuriousRamsayRepairKitAugerDesc,items,Items,"This is a repair kit for the following tool:\n\n • [a9d9d3]Auger[-]"
-
-FuriousRamsayRepairKitSteelClub,items,Items,"Steel Club Repair Kit"
-FuriousRamsayRepairKitSteelSpear,items,Items,"Steel Spear Repair Kit"
-FuriousRamsayRepairKitSteelKnuckles,items,Items,"Steel Knuckles Repair Kit"
-FuriousRamsayRepairKitSteelSledgehammer,items,Items,"Steel Sledgehammer Repair Kit"
-FuriousRamsayRepairKitSteelAxe,items,Items,"Steel Axe Repair Kit"
-FuriousRamsayRepairKitKnife002_FR,items,Items,"Marine Force Sawback Bowie Repair Kit"
-FuriousRamsayRepairKitCleaver001_FR,items,Items,"Cleaver Repair Kit"
-FuriousRamsayRepairKitKatana001_FR,items,Items,"Shinji Katana Repair Kit"
-FuriousRamsayRepairKitKatana002_FR,items,Items,"Modern Wakisashi Repair Kit"
-FuriousRamsayRepairKitAxe005_FR,items,Items,"Viking Axe Repair Kit"
-FuriousRamsayRepairKitSledgeHammer001_FR,items,Items,"Crippling Sledgehammer Repair Kit"
-FuriousRamsayRepairKitHammer003_FR,items,Items,"Spike Hammer Repair Kit"
-FuriousRamsayRepairKitSpear003_FR,items,Items,"Yanyue Dao Spear Repair Kit"
-FuriousRamsayRepairKitClub005_FR,items,Items,"Heavy Iron Flanged Mace Repair Kit"
-FuriousRamsayRepairKitClub001_FR,items,Items,"Samurai Club Repair Kit"
-FuriousRamsayRepairKitJunkBaton001_FR,items,Items,"Blade Baton Repair Kit"
-FuriousRamsayRepairKitStunBaton,items,Items,"Stun Baton Repair Kit"
-FuriousRamsayRepairKitKnife001_FR,items,Items,"Military Kukri Repair Kit"
-FuriousRamsayRepairKitKnife003_FR,items,Items,"Honshu Boshin Combat Kukri Repair Kit"
-FuriousRamsayRepairKitSciFiSword001_FR,items,Items,"Titanium Long Dark Blade Repair Kit"
-FuriousRamsayRepairKitSciFiSword003_FR,items,Items,"Titanium Frost Blade Repair Kit"
-FuriousRamsayRepairKitAxe001_FR,items,Items,"Titanium Tactical Axe Repair Kit"
-FuriousRamsayRepairKitAxe002_FR,items,Items,"Titanium Bearded Battle Axe Repair Kit"
-FuriousRamsayRepairKitAxe003_FR,items,Items,"Titanium War Axe Repair Kit"
-FuriousRamsayRepairKitSledgeHammer002_FR,items,Items,"Battle Sledgehammer Repair Kit"
-FuriousRamsayRepairKitHammer001_FR,items,Items,"Titanium Combat Hammer Repair Kit"
-FuriousRamsayRepairKitHammer002_FR,items,Items,"The Two-Headed Eagle Repair Kit"
-FuriousRamsayRepairKitSpear001_FR,items,Items,"Tai Chi Spear Repair Kit"
-FuriousRamsayRepairKitSpear002_FR,items,Items,"Roman Spear Repair Kit"
-FuriousRamsayRepairKitClub002_FR,items,Items,"Heavy Morningstar Mace Repair Kit"
-FuriousRamsayRepairKitClub009_FR,items,Items,"Steel Spike Mace Repair Kit"
-FuriousRamsayRepairKitClub010_FR,items,Items,"Steel Flanged Mace Repair Kit"
-FuriousRamsayRepairKitKnuckles002_FR,items,Items,"Blade Knuckles Repair Kit"
-FuriousRamsayRepairKitSpear004_FR,items,Items,"Alliance Spear Repair Kit"
-FuriousRamsayRepairKitSpear005_FR,items,Items,"Dragon Spear Repair Kit"
-FuriousRamsayRepairKitClub004_FR,items,Items,"Titanium Spike Mace Repair Kit"
-FuriousRamsayRepairKitClub006_FR,items,Items,"Goth Titanium Mace Repair Kit"
-FuriousRamsayRepairKitClub008_FR,items,Items,"Heavy Titanium Flanged Mace Repair Kit"
-FuriousRamsayRepairKitKnuckles001_FR,items,Items,"Spike Knuckles Repair Kit"
-FuriousRamsayRepairKitBaton001_FR,items,Items,"Plasma Baton Repair Kit"
-FuriousRamsayRepairKitBurningKnife,items,Items,"The Jackal Repair Kit"
-FuriousRamsayRepairKitKatana003_FR,items,Items,"Powered Shinji Katana Repair Kit"
-FuriousRamsayRepairKitAxe004_FR,items,Items,"Stormbreaker Repair Kit"
-FuriousRamsayRepairKitSledgeHammer003_FR,items,Items,"Doomsday Repair Kit"
-FuriousRamsayRepairKitSpear006_FR,items,Items,"Leonidas' Spear Repair Kit"
-FuriousRamsayRepairKitClub003_FR,items,Items,"The Savage Repair Kit"
-FuriousRamsayRepairKitKnuckles003_FR,items,Items,"The Gusher Repair Kit"
-FuriousRamsayRepairKitBaton002_FR,items,Items,"The Shocker Repair Kit"
-
-FuriousRamsayRepairKitSteelClubDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Steel Club[-]"
-FuriousRamsayRepairKitSteelSpearDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Steel Spear[-]"
-FuriousRamsayRepairKitSteelKnucklesDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Steel Knuckles[-]"
-FuriousRamsayRepairKitSteelSledgehammerDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Steel Sledgehammer[-]"
-FuriousRamsayRepairKitSteelAxeDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Steel Axe[-]"
-FuriousRamsayRepairKitKnife002_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Marine Force Sawback Bowie[-]"
-FuriousRamsayRepairKitCleaver001_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Cleaver[-]"
-FuriousRamsayRepairKitKatana001_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Shinji Katana[-]"
-FuriousRamsayRepairKitKatana002_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Modern Wakisashi[-]"
-FuriousRamsayRepairKitAxe005_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Viking Axe[-]"
-FuriousRamsayRepairKitSledgeHammer001_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Crippling Sledgehammer[-]"
-FuriousRamsayRepairKitHammer003_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Spike Hammer[-]"
-FuriousRamsayRepairKitSpear003_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Yanyue Dao Spear[-]"
-FuriousRamsayRepairKitClub005_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Heavy Iron Flanged Mace[-]"
-FuriousRamsayRepairKitClub001_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Samurai Club[-]"
-FuriousRamsayRepairKitJunkBaton001_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Blade Baton[-]"
-FuriousRamsayRepairKitStunBatonDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Stun Baton[-]"
-FuriousRamsayRepairKitKnife001_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Military Kukri[-]"
-FuriousRamsayRepairKitKnife003_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Honshu Boshin Combat Kukri[-]"
-FuriousRamsayRepairKitSciFiSword001_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Titanium Long Dark Blade[-]"
-FuriousRamsayRepairKitSciFiSword003_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Titanium Frost Blade[-]"
-FuriousRamsayRepairKitAxe001_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Titanium Tactical Axe[-]"
-FuriousRamsayRepairKitAxe002_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Titanium Bearded Battle Axe[-]"
-FuriousRamsayRepairKitAxe003_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Titanium War Axe[-]"
-FuriousRamsayRepairKitSledgeHammer002_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Battle Sledgehammer[-]"
-FuriousRamsayRepairKitHammer001_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Titanium Combat Hammer[-]"
-FuriousRamsayRepairKitHammer002_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]The Two-Headed Eagle[-]"
-FuriousRamsayRepairKitSpear001_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Tai Chi Spear[-]"
-FuriousRamsayRepairKitSpear002_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Roman Spear[-]"
-FuriousRamsayRepairKitClub002_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Heavy Morningstar Mace[-]"
-FuriousRamsayRepairKitClub009_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Steel Spike Mace[-]"
-FuriousRamsayRepairKitClub010_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Steel Flanged Mace[-]"
-FuriousRamsayRepairKitKnuckles002_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Blade Knuckles[-]"
-FuriousRamsayRepairKitSpear004_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Alliance Spear[-]"
-FuriousRamsayRepairKitSpear005_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Dragon Spear[-]"
-FuriousRamsayRepairKitClub004_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Titanium Spike Mace[-]"
-FuriousRamsayRepairKitClub006_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Goth Titanium Mace[-]"
-FuriousRamsayRepairKitClub008_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Heavy Titanium Flanged Mace[-]"
-FuriousRamsayRepairKitKnuckles001_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Spike Knuckles[-]"
-FuriousRamsayRepairKitBaton001_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Plasma Baton[-]"
-FuriousRamsayRepairKitBurningKnifeDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]The Jackal[-]"
-FuriousRamsayRepairKitKatana003_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Powered Shinji Katana[-]"
-FuriousRamsayRepairKitAxe004_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Stormbreaker[-]"
-FuriousRamsayRepairKitSledgeHammer003_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Doomsday[-]"
-FuriousRamsayRepairKitSpear006_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Leonidas' Spear[-]"
-FuriousRamsayRepairKitClub003_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]The Savage[-]"
-FuriousRamsayRepairKitKnuckles003_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]The Gusher[-]"
-FuriousRamsayRepairKitBaton002_FRDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]The Shocker[-]"
-
-FuriousRamsayRepairKitWoodenBow,items,Items,"Wooden Bow Repair Kit"
-FuriousRamsayRepairKitIronCrossbow,items,Items,"Iron Crossbow Repair Kit"
-FuriousRamsayRepairKitCompoundBow,items,Items,"Compound Bow Repair Kit"
-FuriousRamsayRepairKitCompoundCrossbow,items,Items,"Compound Crossbow Repair Kit"
-FuriousRamsayRepairKitPistol,items,Items,"Pistol Repair Kit"
-FuriousRamsayRepairKitMagnum44,items,Items,".44 Magnum Repair Kit"
-FuriousRamsayRepairKitDesertVulture,items,Items,"Desert Vulture Repair Kit"
-FuriousRamsayRepairKitDoubleBarrelShotgun,items,Items,"Double Barrel Shotgun Repair Kit"
-FuriousRamsayRepairKitPumpShotgun,items,Items,"Pump Shotgun Repair Kit"
-FuriousRamsayRepairKitAutoShotgun,items,Items,"Auto Shotgun Repair Kit"
-FuriousRamsayRepairKitSMG5,items,Items,"SMG-5 Repair Kit"
-FuriousRamsayRepairKitAK47,items,Items,"AK-47 Repair Kit"
-FuriousRamsayRepairKitTacticalAR,items,Items,"Tactical Assault Rifle Repair Kit"
-FuriousRamsayRepairKitM60,items,Items,"M60 Repair Kit"
-FuriousRamsayRepairKitHuntingRifle,items,Items,"Hunting Rifle Repair Kit"
-FuriousRamsayRepairKitMarksmanRifle,items,Items,"Lever Action Rifle Repair Kit"
-FuriousRamsayRepairKitSniperRifle,items,Items,"Sniper Rifle Repair Kit"
-FuriousRamsayRepairKitRocketLauncher,items,Items,"Rocket Launcher Repair Kit"
-FuriousRamsayRepairKitJunkSledge,items,Items,"Junk Sledge Repair Kit"
-FuriousRamsayRepairKitJunkTurret,items,Items,"Junk Turret Repair Kit"
-
-FuriousRamsayRepairKitarmorCloth,items,Items,"Padded Armor Repair Kit"
-FuriousRamsayRepairKitarmorLeather,items,Items,"Leather Armor Repair Kit"
-FuriousRamsayRepairKitarmorScrap,items,Items,"Scrap Armor Repair Kit"
-FuriousRamsayRepairKitarmorIron,items,Items,"Iron Armor Repair Kit"
-FuriousRamsayRepairKitarmorSteel,items,Items,"Steel Armor Repair Kit"
-FuriousRamsayRepairKitarmorMilitary,items,Items,"Military Armor Repair Kit"
-
-FuriousRamsayRepairKitWoodenBowDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Wooden Bow[-]"
-FuriousRamsayRepairKitIronCrossbowDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Iron Crossbow[-]"
-FuriousRamsayRepairKitCompoundBowDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Compound Bow[-]"
-FuriousRamsayRepairKitCompoundCrossbowDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Compound Crossbow[-]"
-FuriousRamsayRepairKitPistolDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Pistol[-]"
-FuriousRamsayRepairKitMagnum44Desc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3].44 Magnum[-]"
-FuriousRamsayRepairKitDesertVultureDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Desert Vulture[-]"
-FuriousRamsayRepairKitDoubleBarrelShotgunDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Double Barrel Shotgun[-]"
-FuriousRamsayRepairKitPumpShotgunDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Pump Shotgun[-]"
-FuriousRamsayRepairKitAutoShotgunDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Auto Shotgun[-]"
-FuriousRamsayRepairKitSMG5Desc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]SMG-5[-]"
-FuriousRamsayRepairKitAK47Desc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]AK-47[-]"
-FuriousRamsayRepairKitTacticalARDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Tactical Assault Rifle[-]"
-FuriousRamsayRepairKitM60Desc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]M60 Machine Gun[-]"
-FuriousRamsayRepairKitHuntingRifleDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Hunting Rifle[-]"
-FuriousRamsayRepairKitMarksmanRifleDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Lever Action Rifle[-]"
-FuriousRamsayRepairKitSniperRifleDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Sniper Rifle[-]"
-FuriousRamsayRepairKitRocketLauncherDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Rocket Launcher[-]"
-FuriousRamsayRepairKitJunkSledgeDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Junk Sledge[-]"
-FuriousRamsayRepairKitJunkTurretDesc,items,Items,"This is a repair kit for the following weapon:\n\n • [a9d9d3]Junk turret[-]"
-
-FuriousRamsayRepairKitarmorClothBoots,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Padded Boots[-]"
-FuriousRamsayRepairKitarmorClothGloves,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Padded Gloves[-]"
-FuriousRamsayRepairKitarmorClothHat,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Padded Hood[-]"
-FuriousRamsayRepairKitarmorClothJacket,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Padded Chest Armor[-]"
-FuriousRamsayRepairKitarmorClothPants,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Padded Leg Armor[-]"
-FuriousRamsayRepairKitarmorLeatherBoots,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Leather Boots[-]"
-FuriousRamsayRepairKitarmorLeatherChest,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Leather Chest[-]"
-FuriousRamsayRepairKitarmorLeatherGloves,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Leather Gloves[-]"
-FuriousRamsayRepairKitarmorLeatherHood,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Leather Hood[-]"
-FuriousRamsayRepairKitarmorLeatherPants,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Leather Pants[-]"
-FuriousRamsayRepairKitarmorScrapBoots,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Scrap Boots[-]"
-FuriousRamsayRepairKitarmorScrapChest,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Scrap Chest Armor[-]"
-FuriousRamsayRepairKitarmorScrapGloves,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Scrap Gloves[-]"
-FuriousRamsayRepairKitarmorScrapHelmet,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Scrap Helmet[-]"
-FuriousRamsayRepairKitarmorScrapLegs,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Scrap Leg Armor[-]"
-FuriousRamsayRepairKitarmorIronBoots,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Iron Boots[-]"
-FuriousRamsayRepairKitarmorIronChest,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Iron Chest Armor[-]"
-FuriousRamsayRepairKitarmorIronGloves,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Iron Gloves[-]"
-FuriousRamsayRepairKitarmorIronHelmet,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Iron Helmet[-]"
-FuriousRamsayRepairKitarmorIronLegs,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Iron Leg Armor[-]"
-FuriousRamsayRepairKitarmorSteelBoots,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Steel Boots[-]"
-FuriousRamsayRepairKitarmorSteelChest,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Steel Chest Armor[-]"
-FuriousRamsayRepairKitarmorSteelGloves,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Steel Gloves[-]"
-FuriousRamsayRepairKitarmorSteelHelmet,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Steel Helmet[-]"
-FuriousRamsayRepairKitarmorSteelLegs,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Steel Leg Armor[-]"
-FuriousRamsayRepairKitarmorMilitaryBoots,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Military Boots[-]"
-FuriousRamsayRepairKitarmorMilitaryGloves,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Military Gloves[-]"
-FuriousRamsayRepairKitarmorMilitaryHelmet,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Military Helmet[-]"
-FuriousRamsayRepairKitarmorMilitaryLegs,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Military Leg Armor[-]"
-FuriousRamsayRepairKitarmorMilitaryVest,items,Items,"This is a repair kit for the following armor:\n\n • [a9d9d3]Military Vest[-]"
 
 FuriousRamsayCircularSawBlade,items,Items,"Circular Saw Blade"
 FuriousRamsayCircularSawBladeDesc,items,Items,"This Circular Saw Blade would be useful in building a functional Table Saw"
@@ -474,91 +280,91 @@ FuriousRamsayImportantGlobalAura,items,Items,Important Note
 FuriousRamsayImportantGlobalAuraDesc,items,Items,"[569c59]You have unlocked the ability to get two additional auras[-]:\n\nTake a look at the Good Vibrations section of Global Achievements in your Skill window and see which ones you wish to craft\n\nNote: This is for information only and can be thrown away."
 
 FuriousRamsayImportantSniperRifle,items,Items,Important Note
-FuriousRamsayImportantSniperRifleDesc,items,Items,"[569c59]You have unlocked your Sniper Rifle Expertise[-]:\n\nYou have been given:\n • [57ada6]A Sniper Rifle and repair kit[-]\n • [57ada6]The ability to craft Hunting and Sniper Rifle Repair Kits[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantSniperRifleDesc,items,Items,"[569c59]You have unlocked your Sniper Rifle Expertise[-]:\n\nYou have been given:\n • [57ada6]A Sniper Rifle\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantShotgun,items,Items,Important Note
-FuriousRamsayImportantShotgunDesc,items,Items,"[569c59]You have unlocked your Shotgun Expertise[-]:\n\nYou have been given:\n • [57ada6]A Pump Shotgun and repair kit[-]\n • [57ada6]The ability to craft Shotgun Repair Kits[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantShotgunDesc,items,Items,"[569c59]You have unlocked your Shotgun Expertise[-]:\n\nYou have been given:\n • [57ada6]A Pump Shotgun\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantAssaultRifle,items,Items,Important Note
-FuriousRamsayImportantAssaultRifleDesc,items,Items,"[569c59]You have unlocked your Assault Rifle Expertise[-]:\n\nYou have been given:\n • [57ada6]An AK-47 Assault Rifle and repair kit[-]\n • [57ada6]The ability to craft AK-47 and Tactical Assault Rifle Repair Kits[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantAssaultRifleDesc,items,Items,"[569c59]You have unlocked your Assault Rifle Expertise[-]:\n\nYou have been given:\n • [57ada6]An AK-47 Assault Rifle\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantMarksmanRifle,items,Items,Important Note
-FuriousRamsayImportantMarksmanRifleDesc,items,Items,"[569c59]You have unlocked your Lever Action Rifle Expertise[-]:\n\nYou have been given:\n • [57ada6]A Lever Action Rifle and repair kit[-]\n • [57ada6]The ability to craft Lever Action Rifle Repair Kits[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantMarksmanRifleDesc,items,Items,"[569c59]You have unlocked your Lever Action Rifle Expertise[-]:\n\nYou have been given:\n • [57ada6]A Lever Action Rifle\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantMachineGun,items,Items,Important Note
-FuriousRamsayImportantMachineGunDesc,items,Items,"[569c59]You have unlocked your Machine Gun Expertise[-]:\n\nYou have been given:\n • [57ada6]An M60 Machine Gun and repair kit[-]\n • [57ada6]The ability to craft Machine Gun Repair Kits[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantMachineGunDesc,items,Items,"[569c59]You have unlocked your Machine Gun Expertise[-]:\n\nYou have been given:\n • [57ada6]An M60 Machine Gun\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantMagnum,items,Items,Important Note
-FuriousRamsayImportantMagnumDesc,items,Items,"[569c59]You have unlocked your Magnum Expertise[-]:\n\nYou have been given:\n • [57ada6]A .44 Magnum and repair kit[-]\n • [57ada6]The ability to craft Magnum Repair Kits[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantMagnumDesc,items,Items,"[569c59]You have unlocked your Magnum Expertise[-]:\n\nYou have been given:\n • [57ada6]A .44 Magnum\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantDeployableTurret,items,Items,Important Note
-FuriousRamsayImportantDeployableTurretDesc,items,Items,"[569c59]You have unlocked your Deployable Turret Expertise[-]:\n\nYou have been given:\n • [57ada6]A Junk Turret and repair kit[-]\n • [57ada6]The ability to craft Deployable Turret Repair Kits[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantDeployableTurretDesc,items,Items,"[569c59]You have unlocked your Deployable Turret Expertise[-]:\n\nYou have been given:\n • [57ada6]A Junk Turret\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantSubmachineGun,items,Items,Important Note
-FuriousRamsayImportantSubmachineGunDesc,items,Items,"[569c59]You have unlocked your Submachine Gun Expertise[-]:\n\nYou have been given:\n • [57ada6]A SMG-5 Submachine Gun and repair kit[-]\n • [57ada6]The ability to craft Submachine Gun Repair Kits[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantSubmachineGunDesc,items,Items,"[569c59]You have unlocked your Submachine Gun Expertise[-]:\n\nYou have been given:\n • [57ada6]A SMG-5 Submachine Gun\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantPistol,items,Items,Important Note
-FuriousRamsayImportantPistolDesc,items,Items,"[569c59]You have unlocked your Pistol Expertise[-]:\n\nYou have been given:\n • [57ada6]A Pistol and repair kit[-]\n • [57ada6]The ability to craft Pistol Repair Kits[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantPistolDesc,items,Items,"[569c59]You have unlocked your Pistol Expertise[-]:\n\nYou have been given:\n • [57ada6]A Pistol\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantPoweredTurret,items,Items,Important Note
 FuriousRamsayImportantPoweredTurretDesc,items,Items,"[569c59]You have unlocked your POwered Turret Expertise[-]:\n\nYou have been given:\n • [57ada6]A SMG Turret[-]\n • [57ada6]A Shotgun Turret[-]\n • [57ada6]The ability to craft Powered Turrets[-]\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantDesertVulture,items,Items,Important Note
-FuriousRamsayImportantDesertVultureDesc,items,Items,"[569c59]You have unlocked your Desert Vulture Expertise[-]:\n\nYou have been given:\n • [57ada6]A Desert Vulture and repair kit[-]\n • [57ada6]The ability to craft Desert Vulture Repair Kits[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantDesertVultureDesc,items,Items,"[569c59]You have unlocked your Desert Vulture Expertise[-]:\n\nYou have been given:\n • [57ada6]A Desert Vulture\n\nNote: This is for information only and can be thrown away."
 
 FuriousRamsayImportantHunterSpearsWeapon1,items,Items,Important Note
-FuriousRamsayImportantHunterSpearsWeapon1Desc,items,Items,"[569c59]You have reached Spears Level 4[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Steel Spear[-]\n • [57ada6]Yanyue Dao Spear[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantHunterSpearsWeapon1Desc,items,Items,"[569c59]You have reached Spears Level 4[-]:\n\nYou can now craft the following weapons in your toolbox:\n • [57ada6]Steel Spear[-]\n • [57ada6]Yanyue Dao Spear[-]\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantHunterSpearsWeapon2,items,Items,Important Note
-FuriousRamsayImportantHunterSpearsWeapon2Desc,items,Items,"[569c59]You have reached Spears Level 6[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Tai Chi Spear[-]\n • [57ada6]Roman Spear[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantHunterSpearsWeapon2Desc,items,Items,"[569c59]You have reached Spears Level 6[-]:\n\nYou can now craft the following weapons in your toolbox:\n • [57ada6]Tai Chi Spear[-]\n • [57ada6]Roman Spear[-]\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantHunterSpearsWeapon3,items,Items,Important Note
-FuriousRamsayImportantHunterSpearsWeapon3Desc,items,Items,"[569c59]You have reached Spears Level 7[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Alliance Spear[-]\n • [57ada6]Dragon Spear[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantHunterSpearsWeapon3Desc,items,Items,"[569c59]You have reached Spears Level 7[-]:\n\nYou can now craft the following weapons in your toolbox:\n • [57ada6]Alliance Spear[-]\n • [57ada6]Dragon Spear[-]\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantHunterSpearsWeapon4,items,Items,Important Note
-FuriousRamsayImportantHunterSpearsWeapon4Desc,items,Items,"[569c59]You have reached Spears Level 8[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]Leonidas' Spear[-]]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantHunterSpearsWeapon4Desc,items,Items,"[569c59]You have reached Spears Level 8[-]:\n\nYou can now craft the following weapon in your toolbox:\n • [57ada6]Leonidas' Spear[-]]\n\nNote: This is for information only and can be thrown away."
 
 FuriousRamsayImportantThugClubsWeapon1,items,Items,Important Note
-FuriousRamsayImportantThugClubsWeapon1Desc,items,Items,"[569c59]You have reached Clubs Level 4[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Steel Club[-]\n • [57ada6]Samurai Club[-]\n • [57ada6]Heavy Iron Flanged Mace[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantThugClubsWeapon1Desc,items,Items,"[569c59]You have reached Clubs Level 4[-]:\n\nYou can now craft the following weapons in your toolbox:\n • [57ada6]Steel Club[-]\n • [57ada6]Samurai Club[-]\n • [57ada6]Heavy Iron Flanged Mace[-]\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantThugClubsWeapon2,items,Items,Important Note
-FuriousRamsayImportantThugClubsWeapon2Desc,items,Items,"[569c59]You have reached Clubs Level 6[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Heavy Morningstar Mace[-]\n • [57ada6]Steel Spike Mace[-]\n • [57ada6]Steel Flanged Mace[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantThugClubsWeapon2Desc,items,Items,"[569c59]You have reached Clubs Level 6[-]:\n\nYou can now craft the following weapons in your toolbox:\n • [57ada6]Heavy Morningstar Mace[-]\n • [57ada6]Steel Spike Mace[-]\n • [57ada6]Steel Flanged Mace[-]\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantThugClubsWeapon3,items,Items,Important Note
-FuriousRamsayImportantThugClubsWeapon3Desc,items,Items,"[569c59]You have reached Clubs Level 7[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Titanium Spike Mace[-]\n • [57ada6]Goth Titanium Mace[-]\n • [57ada6]Heavy Titanium Flanged Mace[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantThugClubsWeapon3Desc,items,Items,"[569c59]You have reached Clubs Level 7[-]:\n\nYou can now craft the following weapons in your toolbox:\n • [57ada6]Titanium Spike Mace[-]\n • [57ada6]Goth Titanium Mace[-]\n • [57ada6]Heavy Titanium Flanged Mace[-]\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantThugClubsWeapon4,items,Items,Important Note
-FuriousRamsayImportantThugClubsWeapon4Desc,items,Items,"[569c59]You have reached Clubs Level 8[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]The Savage[-]]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantThugClubsWeapon4Desc,items,Items,"[569c59]You have reached Clubs Level 8[-]:\n\nYou can now craft the following weapon in your toolbox:\n • [57ada6]The Savage[-]]\n\nNote: This is for information only and can be thrown away."
 
 FuriousRamsayImportantButcherSwordsWeapon1,items,Items,Important Note
-FuriousRamsayImportantButcherSwordsWeapon1Desc,items,Items,"[569c59]You have reached Swords Level 4[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Shinji Katana[-]\n • [57ada6]Modern Wakisashi[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantButcherSwordsWeapon1Desc,items,Items,"[569c59]You have reached Swords Level 4[-]:\n\nYou can now craft the following weapons in your toolbox:\n • [57ada6]Shinji Katana[-]\n • [57ada6]Modern Wakisashi[-]\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantButcherSwordsWeapon2,items,Items,Important Note
-FuriousRamsayImportantButcherSwordsWeapon2Desc,items,Items,"[569c59]You have reached Swords Level 6[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Titanium Long Dark Blade[-]\n • [57ada6]Titanium Frost Blade[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantButcherSwordsWeapon2Desc,items,Items,"[569c59]You have reached Swords Level 6[-]:\n\nYou can now craft the following weapons in your toolbox:\n • [57ada6]Titanium Long Dark Blade[-]\n • [57ada6]Titanium Frost Blade[-]\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantButcherSwordsWeapon3,items,Items,Important Note
-FuriousRamsayImportantButcherSwordsWeapon3Desc,items,Items,"[569c59]You have reached Swords Level 8[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]Powered Shinji Katana[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantButcherSwordsWeapon3Desc,items,Items,"[569c59]You have reached Swords Level 8[-]:\n\nYou can now craft the following weapon in your toolbox:\n • [57ada6]Powered Shinji Katana[-]\n\nNote: This is for information only and can be thrown away."
 
 FuriousRamsayImportantSoldierAxesWeapon1,items,Items,Important Note
-FuriousRamsayImportantSoldierAxesWeapon1Desc,items,Items,"[569c59]You have reached Axes Level 4[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Steel Axe[-]\n • [57ada6]Viking Axe[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantSoldierAxesWeapon1Desc,items,Items,"[569c59]You have reached Axes Level 4[-]:\n\nYou can now craft the following weapons in your toolbox:\n • [57ada6]Steel Axe[-]\n • [57ada6]Viking Axe[-]\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantSoldierAxesWeapon2,items,Items,Important Note
-FuriousRamsayImportantSoldierAxesWeapon2Desc,items,Items,"[569c59]You have reached Axes Level 6[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Titanium Tactical Axe[-]\n • [57ada6]Titanium Bearded Battle Axe[-]\n • [57ada6]Titanium War Axe[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantSoldierAxesWeapon2Desc,items,Items,"[569c59]You have reached Axes Level 6[-]:\n\nYou can now craft the following weapons in your toolbox:\n • [57ada6]Titanium Tactical Axe[-]\n • [57ada6]Titanium Bearded Battle Axe[-]\n • [57ada6]Titanium War Axe[-]\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantSoldierAxesWeapon3,items,Items,Important Note
-FuriousRamsayImportantSoldierAxesWeapon3Desc,items,Items,"[569c59]You have reached Axes Level 8[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]Stormbreaker[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantSoldierAxesWeapon3Desc,items,Items,"[569c59]You have reached Axes Level 8[-]:\n\nYou can now craft the following weapon in your toolbox:\n • [57ada6]Stormbreaker[-]\n\nNote: This is for information only and can be thrown away."
 
 FuriousRamsayImportantTechnogeekBatonsWeapon1,items,Items,Important Note
-FuriousRamsayImportantTechnogeekBatonsWeapon1Desc,items,Items,"[569c59]You have reached Batons Level 4[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]Blade Baton[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantTechnogeekBatonsWeapon1Desc,items,Items,"[569c59]You have reached Batons Level 4[-]:\n\nYou can now craft the following weapon in your toolbox:\n • [57ada6]Blade Baton[-]\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantTechnogeekBatonsWeapon2,items,Items,Important Note
-FuriousRamsayImportantTechnogeekBatonsWeapon2Desc,items,Items,"[569c59]You have reached Batons Level 6[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]Stun Baton[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantTechnogeekBatonsWeapon2Desc,items,Items,"[569c59]You have reached Batons Level 6[-]:\n\nYou can now craft the following weapon in your toolbox:\n • [57ada6]Stun Baton[-]\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantTechnogeekBatonsWeapon3,items,Items,Important Note
-FuriousRamsayImportantTechnogeekBatonsWeapon3Desc,items,Items,"[569c59]You have reached Batons Level 7[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]Plasma Baton[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantTechnogeekBatonsWeapon3Desc,items,Items,"[569c59]You have reached Batons Level 7[-]:\n\nYou can now craft the following weapon in your toolbox:\n • [57ada6]Plasma Baton[-]\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantTechnogeekBatonsWeapon4,items,Items,Important Note
-FuriousRamsayImportantTechnogeekBatonsWeapon4Desc,items,Items,"[569c59]You have reached Batons Level 8[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]The Shocker[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantTechnogeekBatonsWeapon4Desc,items,Items,"[569c59]You have reached Batons Level 8[-]:\n\nYou can now craft the following weapon in your toolbox:\n • [57ada6]The Shocker[-]\n\nNote: This is for information only and can be thrown away."
 
 FuriousRamsayImportantMadmanKnucklesWeapon1,items,Items,Important Note
-FuriousRamsayImportantMadmanKnucklesWeapon1Desc,items,Items,"[569c59]You have reached Knuckles Level 4[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]Steel Knuckles[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantMadmanKnucklesWeapon1Desc,items,Items,"[569c59]You have reached Knuckles Level 4[-]:\n\nYou can now craft the following weapon in your toolbox:\n • [57ada6]Steel Knuckles[-]\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantMadmanKnucklesWeapon2,items,Items,Important Note
-FuriousRamsayImportantMadmanKnucklesWeapon2Desc,items,Items,"[569c59]You have reached Knuckles Level 6[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]Blade Knuckles[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantMadmanKnucklesWeapon2Desc,items,Items,"[569c59]You have reached Knuckles Level 6[-]:\n\nYou can now craft the following weapon in your toolbox:\n • [57ada6]Blade Knuckles[-]\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantMadmanKnucklesWeapon3,items,Items,Important Note
-FuriousRamsayImportantMadmanKnucklesWeapon3Desc,items,Items,"[569c59]You have reached Knuckles Level 7[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]Spike Knuckles[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantMadmanKnucklesWeapon3Desc,items,Items,"[569c59]You have reached Knuckles Level 7[-]:\n\nYou can now craft the following weapon in your toolbox:\n • [57ada6]Spike Knuckles[-]\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantMadmanKnucklesWeapon4,items,Items,Important Note
-FuriousRamsayImportantMadmanKnucklesWeapon4Desc,items,Items,"[569c59]You have reached Knuckles Level 8[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]The Gusher[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantMadmanKnucklesWeapon4Desc,items,Items,"[569c59]You have reached Knuckles Level 8[-]:\n\nYou can now craft the following weapon in your toolbox:\n • [57ada6]The Gusher[-]\n\nNote: This is for information only and can be thrown away."
 
 FuriousRamsayImportantBuilderHammersWeapon1,items,Items,Important Note
-FuriousRamsayImportantBuilderHammersWeapon1Desc,items,Items,"[569c59]You have reached Hammers Level 4[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Steel Sledgehammer[-]\n • [57ada6]Crippling Sledgehammer[-]\n • [57ada6]Spike Hammer[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantBuilderHammersWeapon1Desc,items,Items,"[569c59]You have reached Hammers Level 4[-]:\n\nYou can now craft the following weapons in your toolbox:\n • [57ada6]Steel Sledgehammer[-]\n • [57ada6]Crippling Sledgehammer[-]\n • [57ada6]Spike Hammer[-]\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantBuilderHammersWeapon2,items,Items,Important Note
-FuriousRamsayImportantBuilderHammersWeapon2Desc,items,Items,"[569c59]You have reached Hammers Level 6[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Battle Sledgehammer[-]\n • [57ada6]Titanium Combat Hammer[-]\n • [57ada6]The Two-Headed Eagle[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantBuilderHammersWeapon2Desc,items,Items,"[569c59]You have reached Hammers Level 6[-]:\n\nYou can now craft the following weapons in your toolbox:\n • [57ada6]Battle Sledgehammer[-]\n • [57ada6]Titanium Combat Hammer[-]\n • [57ada6]The Two-Headed Eagle[-]\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantBuilderHammersWeapon3,items,Items,Important Note
-FuriousRamsayImportantBuilderHammersWeapon3Desc,items,Items,"[569c59]You have reached Hammers Level 8[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]Doomsday[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantBuilderHammersWeapon3Desc,items,Items,"[569c59]You have reached Hammers Level 8[-]:\n\nYou can now craft the following weapon in your toolbox:\n • [57ada6]Doomsday[-]\n\nNote: This is for information only and can be thrown away."
 
 FuriousRamsayImportantChefKnivesWeapon1,items,Items,Important Note
-FuriousRamsayImportantChefKnivesWeapon1Desc,items,Items,"[569c59]You have reached Knives Level 4[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Marine Force Sawback Bowie[-]\n • [57ada6]Cleaver[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantChefKnivesWeapon1Desc,items,Items,"[569c59]You have reached Knives Level 4[-]:\n\nYou can now craft the following weapons in your toolbox:\n • [57ada6]Marine Force Sawback Bowie[-]\n • [57ada6]Cleaver[-]\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantChefKnivesWeapon2,items,Items,Important Note
-FuriousRamsayImportantChefKnivesWeapon2Desc,items,Items,"[569c59]You have reached Knives Level 6[-]:\n\nYou can now craft the following weapons and associated repair kits in your toolbox:\n • [57ada6]Military Kukri[-]\n • [57ada6]Honshu Boshin Combat Kukri[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantChefKnivesWeapon2Desc,items,Items,"[569c59]You have reached Knives Level 6[-]:\n\nYou can now craft the following weapons in your toolbox:\n • [57ada6]Military Kukri[-]\n • [57ada6]Honshu Boshin Combat Kukri[-]\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantChefKnivesWeapon3,items,Items,Important Note
-FuriousRamsayImportantChefKnivesWeapon3Desc,items,Items,"[569c59]You have reached Knives Level 8[-]:\n\nYou can now craft the following weapon and associated repair kit in your toolbox:\n • [57ada6]The Jackal, Assassin Knife[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantChefKnivesWeapon3Desc,items,Items,"[569c59]You have reached Knives Level 8[-]:\n\nYou can now craft the following weapon in your toolbox:\n • [57ada6]The Jackal, Assassin Knife[-]\n\nNote: This is for information only and can be thrown away."
 
 FuriousRamsayLargeRock,items,Items,Large Rock
 FuriousRamsayLargeRockDesc,items,Items,"Description"
@@ -1297,3 +1103,15 @@ foodHoney,items,Item,Honeycomb
 
 FuriousRamsayCornFlour,items,Item,"Corn Flour"
 FuriousRamsayCornFlourDesc,items,Item,"Corn Flour isn't your first choice, but will be useful when alternatives aren't available."
+
+resourceRepairKit,items,Items,Vehicle Repair Kit
+resourceRepairKitDesc,items,Items,"This kit will repair owned vehicles"
+FuriousRamsayGunRepairKit,items,Items,Firearm Repair Kit
+FuriousRamsayGunRepairKitDesc,items,Items,"this kit will repair firearms"
+FuriousRamsayElectricalRepairKit,items,Items,Electrical Repair Kit
+FuriousRamsayElectricalRepairKitDesc,items,Items,"This kit will repair electronics, such as drones and deployable turrets"
+FuriousRamsayRepairKit,items,Items,Repair Kit
+FuriousRamsayRepairKitDesc,items,Items,"This kit will repair advanced melee weapons and tools"
+
+
+

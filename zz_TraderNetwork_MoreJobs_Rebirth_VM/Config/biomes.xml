@@ -1,0 +1,7 @@
+<Config>
+
+	<setattribute xpath="/worldgeneration/pois/poi[@name='City Asphalt']/blockontop[@blockname='spawnVehicleBlock']" name="prob">0.000015</setattribute>
+	<setattribute xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']/blockontop[@blockname='spawnVehicleBlock']" name="prob">0.000012</setattribute>
+	<setattribute xpath="/worldgeneration/pois/poi[@name='Road Gravel']/blockontop[@blockname='spawnVehicleBlock']" name="prob">0.00001</setattribute>
+
+</Config>

@@ -280,7 +280,7 @@
 	<remove xpath="/recipes/recipe[@name='treePlant02']"/>
 	<remove xpath="/recipes/recipe[@name='decoPumpkinJackOLantern']"/>
 	<remove xpath="/recipes/recipe[@name='sandbagBlockVariantHelper']"/>
-	<remove xpath="/recipes/recipe[@name='resourceMilitaryFiber']"/>
+	<!--<remove xpath="/recipes/recipe[@name='resourceMilitaryFiber']"/>-->
 	<remove xpath="/recipes/recipe[@name='armorClothBoots']"/>
 	<remove xpath="/recipes/recipe[@name='armorClothGloves']"/>
 	<remove xpath="/recipes/recipe[@name='armorClothHat']"/>

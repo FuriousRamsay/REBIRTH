@@ -1,8 +1,8 @@
 <Config>
 
 	<!-- SET REPAIR KITS -->
-	<setattribute xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@name='RepairTools']" name="value">resourceDuctTape</setattribute>
-	<setattribute xpath="/items/item[@name='meleeToolSalvageT2Ratchet']/property[@name='RepairTools']" name="value">resourceDuctTape</setattribute>
+	<setattribute xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKit</setattribute>
+	<setattribute xpath="/items/item[@name='meleeToolSalvageT2Ratchet']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKit</setattribute>
 	<setattribute xpath="/items/item[@name='armorMiningHelmet']/property[@name='RepairTools']" name="value">resourceDuctTape</setattribute>
 	<setattribute xpath="/items/item[@name='armorFirefightersHelmet']/property[@name='RepairTools']" name="value">resourceDuctTape</setattribute>
 	<setattribute xpath="/items/item[@name='armorSwatHelmet']/property[@name='RepairTools']" name="value">resourceDuctTape</setattribute>
@@ -276,9 +276,9 @@
 
 	<!-- CHANGE REPAIR KIT TO VEHICLE REPAIR KIT -->
 	<append xpath="/items/item[@name='resourceRepairKit']">
-		<property name="CustomIcon" value="cntToolBoxOpen"/>
+		<property name="CustomIcon" value="FuriousRamsayVehicleRepairKit"/>
 	</append>
-	<setattribute xpath="/items/item[@name='resourceRepairKit']/property[@name='EconomicValue']" name="value">100</setattribute>
+	<setattribute xpath="/items/item[@name='resourceRepairKit']/property[@name='EconomicValue']" name="value">400</setattribute>
 	<setattribute xpath="/items/item[@name='resourceRepairKit']/property[@name='RepairAmount']" name="value">10000</setattribute>
 
 	<!-- ADD CUSTOM ITEMS TO REPAIR -->
@@ -928,28 +928,6 @@
 		<property name="UnlockedBy" value="FuriousRamsaySchematicArmorMilitaryStealthBoots"/>
 	</append>-->
 
-	<!-- RANGED WEAPONS REPAIR TOOLS -->
-	<!--<setattribute xpath="/items/item[@name='gunBotT1JunkSledge']/property[@name='RepairTools']" name="value">FuriousRamsayPartsJunkSledge</setattribute>
-	<setattribute xpath="/items/item[@name='gunHandgunT1Pistol']/property[@name='RepairTools']" name="value">FuriousRamsayPartsPistol</setattribute>
-	<setattribute xpath="/items/item[@name='gunHandgunT3SMG5']/property[@name='RepairTools']" name="value">FuriousRamsayPartsSMG</setattribute>
-	<setattribute xpath="/items/item[@name='gunHandgunT2Magnum44']/property[@name='RepairTools']" name="value">FuriousRamsayPartsMagnum</setattribute>
-	<setattribute xpath="/items/item[@name='gunHandgunT3DesertVulture']/property[@name='RepairTools']" name="value">FuriousRamsayPartsDesertVulture</setattribute>
-	<setattribute xpath="/items/item[@name='gunShotgunT1DoubleBarrel']/property[@name='RepairTools']" name="value">FuriousRamsayPartsShotgunDoubleBarrel</setattribute>
-	<setattribute xpath="/items/item[@name='gunShotgunT2PumpShotgun']/property[@name='RepairTools']" name="value">FuriousRamsayPartsShotgunPump</setattribute>
-	<setattribute xpath="/items/item[@name='gunShotgunT3AutoShotgun']/property[@name='RepairTools']" name="value">FuriousRamsayPartsShotgunAuto</setattribute>
-	<setattribute xpath="/items/item[@name='gunRifleT1HuntingRifle']/property[@name='RepairTools']" name="value">FuriousRamsayPartsRifleHunting</setattribute>
-	<setattribute xpath="/items/item[@name='gunRifleT2LeverActionRifle']/property[@name='RepairTools']" name="value">FuriousRamsayPartsRifleMarksman</setattribute>
-	<setattribute xpath="/items/item[@name='gunRifleT3SniperRifle']/property[@name='RepairTools']" name="value">FuriousRamsayPartsRifleSniper</setattribute>
-	<setattribute xpath="/items/item[@name='gunMGT1AK47']/property[@name='RepairTools']" name="value">FuriousRamsayPartsAK47</setattribute>
-	<setattribute xpath="/items/item[@name='gunMGT2TacticalAR']/property[@name='RepairTools']" name="value">FuriousRamsayPartsTacticalAR</setattribute>
-	<setattribute xpath="/items/item[@name='gunMGT3M60']/property[@name='RepairTools']" name="value">FuriousRamsayPartsM60</setattribute>
-	<setattribute xpath="/items/item[@name='gunExplosivesT3RocketLauncher']/property[@name='RepairTools']" name="value">FuriousRamsayPartsRocketLauncher</setattribute>
-	<setattribute xpath="/items/item[@name='gunBowT1WoodenBow']/property[@name='RepairTools']" name="value">FuriousRamsayPartsBowWooden</setattribute>
-	<setattribute xpath="/items/item[@name='gunBowT3CompoundBow']/property[@name='RepairTools']" name="value">FuriousRamsayPartsBowCompound</setattribute>
-	<setattribute xpath="/items/item[@name='gunBowT1IronCrossbow']/property[@name='RepairTools']" name="value">FuriousRamsayPartsCrossbowIron</setattribute>
-	<setattribute xpath="/items/item[@name='gunBowT3CompoundCrossbow']/property[@name='RepairTools']" name="value">FuriousRamsayPartsCrossbowCompound</setattribute>
-	<setattribute xpath="/items/item[@name='gunBotT2JunkTurret']/property[@name='RepairTools']" name="value">FuriousRamsayPartsJunkTurret</setattribute>-->
-
 <!-- REMOVE ACCESS TO HOE -->
 	<setattribute xpath="/items/item[@name='meleeToolFarmT1IronHoe']/property[@name='CreativeMode']" name="value">None</setattribute>
 
@@ -1320,512 +1298,21 @@
 			<property name="Group" value="Repair" />
 		</item>
 
-		<!-- DRONE -->
-		<item name="FuriousRamsayRepairKitJunkDrone">
+		<!-- REPAIR KITS -->
+		<item name="FuriousRamsayRepairKit">
 			<property name="CustomIcon" value="resourceRepairKit"/>
 			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="gunBotT3JunkDrone"/>
-			<property name="EconomicValue" value="500" />
+			<property name="EconomicValue" value="75" />
 		</item>
-		<!-- TOOLS -->
-		<item name="FuriousRamsayRepairKitImpactNailgun">
-			<property name="CustomIcon" value="resourceRepairKit"/>
+		<item name="FuriousRamsayGunRepairKit">
+			<property name="CustomIcon" value="FuriousRamsayGunRepairKit"/>
 			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="meleeToolRepairT3Nailgun"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<item name="FuriousRamsayRepairKitImpactDriver">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="meleeToolSalvageT3ImpactDriver"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<item name="FuriousRamsayRepairKitSteelPickAxe">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="meleeToolPickT2SteelPickaxe"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitSteelShovel">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="meleeToolShovelT2SteelShovel"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitChainsaw">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="meleeToolAxeT3Chainsaw"/>
-			<property name="EconomicValue" value="400" />
-		</item>
-		<item name="FuriousRamsayRepairKitAuger">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="meleeToolPickT3Auger"/>
-			<property name="EconomicValue" value="500" />
-		</item>
-		<!-- MELEE WEAPONS -->
-		<!-- TIER 2 -->
-		<item name="FuriousRamsayRepairKitSteelClub">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="meleeWpnClubT3SteelClub"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitSteelSpear">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="meleeWpnSpearT3SteelSpear"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitSteelKnuckles">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="meleeWpnKnucklesT3SteelKnuckles"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitSteelSledgehammer">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="meleeWpnSledgeT3SteelSledgehammer"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitSteelAxe">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="meleeToolAxeT2SteelAxe"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitKnife002_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="FuriousRamsayKnife002_FR"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitCleaver001_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsCleaver001_FR"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitKatana001_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsKatana001_FR"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitKatana002_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsKatana002_FR"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitAxe005_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsAxe005_FR"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitSledgeHammer001_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsSledgeHammer001_FR"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitHammer003_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsHammer003_FR"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitSpear003_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsSpear003_FR"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitClub005_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsClub005_FR"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitClub001_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsClub001_FR"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitJunkBaton001_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsJunkBaton001_FR"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-
-		<!-- TIER 3 -->
-		<item name="FuriousRamsayRepairKitStunBaton">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="meleeWpnBatonT2StunBaton"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<item name="FuriousRamsayRepairKitKnife001_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="FuriousRamsayKnife001_FR"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<item name="FuriousRamsayRepairKitKnife003_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="FuriousRamsayKnife003_FR"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<item name="FuriousRamsayRepairKitSciFiSword001_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsSciFiSword001_FR"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<item name="FuriousRamsayRepairKitSciFiSword003_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsSciFiSword003_FR"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<item name="FuriousRamsayRepairKitAxe001_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsAxe001_FR"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<item name="FuriousRamsayRepairKitAxe002_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsAxe002_FR"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<item name="FuriousRamsayRepairKitAxe003_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsAxe003_FR"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<item name="FuriousRamsayRepairKitSledgeHammer002_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsSledgeHammer002_FR"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<item name="FuriousRamsayRepairKitHammer001_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsHammer001_FR"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<item name="FuriousRamsayRepairKitHammer002_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsHammer002_FR"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<item name="FuriousRamsayRepairKitSpear001_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsSpear001_FR"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<item name="FuriousRamsayRepairKitSpear002_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsSpear002_FR"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<item name="FuriousRamsayRepairKitClub002_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsClub002_FR"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<item name="FuriousRamsayRepairKitClub009_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsClub009_FR"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<item name="FuriousRamsayRepairKitClub010_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsClub010_FR"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<item name="FuriousRamsayRepairKitKnuckles002_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsKnuckles002_FR"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<!-- TIER 4 -->
-		<item name="FuriousRamsayRepairKitSpear004_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsSpear004_FR"/>
-			<property name="EconomicValue" value="600" />
-		</item>
-		<item name="FuriousRamsayRepairKitSpear005_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsSpear005_FR"/>
-			<property name="EconomicValue" value="600" />
-		</item>
-		<item name="FuriousRamsayRepairKitClub004_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsClub004_FR"/>
-			<property name="EconomicValue" value="600" />
-		</item>
-		<item name="FuriousRamsayRepairKitClub006_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsClub006_FR"/>
-			<property name="EconomicValue" value="600" />
-		</item>
-		<item name="FuriousRamsayRepairKitClub008_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsClub008_FR"/>
-			<property name="EconomicValue" value="600" />
-		</item>
-		<item name="FuriousRamsayRepairKitKnuckles001_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsKnuckles001_FR"/>
-			<property name="EconomicValue" value="600" />
-		</item>
-		<item name="FuriousRamsayRepairKitBaton001_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsBaton001_FR"/>
-			<property name="EconomicValue" value="600" />
-		</item>
-
-		<!-- TIER 5 -->
-		<item name="FuriousRamsayRepairKitBurningKnife">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="FuriousRamsayBurningKnife"/>
-			<property name="EconomicValue" value="1000" />
-			<property name="Group" value="Hide" />
-		</item>
-		<item name="FuriousRamsayRepairKitKatana003_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsKatana003_FR"/>
-			<property name="EconomicValue" value="1000" />
-			<property name="Group" value="Hide" />
-		</item>
-		<item name="FuriousRamsayRepairKitAxe004_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsAxe004_FR"/>
-			<property name="EconomicValue" value="1000" />
-			<property name="Group" value="Hide" />
-		</item>
-		<item name="FuriousRamsayRepairKitSledgeHammer003_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsSledgeHammer003_FR"/>
-			<property name="EconomicValue" value="1000" />
-			<property name="Group" value="Hide" />
-		</item>
-		<item name="FuriousRamsayRepairKitSpear006_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsSpear006_FR"/>
-			<property name="EconomicValue" value="1000" />
-			<property name="Group" value="Hide" />
-		</item>
-		<item name="FuriousRamsayRepairKitClub003_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsClub003_FR"/>
-			<property name="EconomicValue" value="1000" />
-			<property name="Group" value="Hide" />
-		</item>
-		<item name="FuriousRamsayRepairKitKnuckles003_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsKnuckles003_FR"/>
-			<property name="EconomicValue" value="1000" />
-			<property name="Group" value="Hide" />
-		</item>
-		<item name="FuriousRamsayRepairKitBaton002_FR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="ItemsWeaponsBaton002_FR"/>
-			<property name="EconomicValue" value="1000" />
-			<property name="Group" value="Hide" />
-		</item>
-
-		<!-- RANGED WEAPONS -->
-		<item name="FuriousRamsayRepairKitWoodenBow">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="gunBowT1WoodenBow"/>
 			<property name="EconomicValue" value="150" />
 		</item>
-		<item name="FuriousRamsayRepairKitIronCrossbow">
-			<property name="CustomIcon" value="resourceRepairKit"/>
+		<item name="FuriousRamsayElectricalRepairKit">
+			<property name="CustomIcon" value="FuriousRamsayElectricalRepairKit"/>
 			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="gunBowT1IronCrossbow"/>
-			<property name="EconomicValue" value="150" />
-		</item>
-		<item name="FuriousRamsayRepairKitCompoundBow">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="gunBowT3CompoundBow"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitCompoundCrossbow">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="gunBowT3CompoundCrossbow"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitPistol">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="gunHandgunT1Pistol"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitMagnum44">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="gunHandgunT2Magnum44"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitDesertVulture">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="gunHandgunT3DesertVulture"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<item name="FuriousRamsayRepairKitDoubleBarrelShotgun">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="gunShotgunT1DoubleBarrel"/>
-			<property name="EconomicValue" value="150" />
-		</item>
-		<item name="FuriousRamsayRepairKitPumpShotgun">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="gunShotgunT2PumpShotgun"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitAutoShotgun">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="gunShotgunT3AutoShotgun"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<item name="FuriousRamsayRepairKitSMG5">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="gunHandgunT3SMG5"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<item name="FuriousRamsayRepairKitAK47">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="gunMGT1AK47"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitTacticalAR">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="gunMGT2TacticalAR"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<item name="FuriousRamsayRepairKitM60">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="gunMGT3M60"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<item name="FuriousRamsayRepairKitHuntingRifle">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="gunRifleT1HuntingRifle"/>
-			<property name="EconomicValue" value="150" />
-		</item>
-		<item name="FuriousRamsayRepairKitMarksmanRifle">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="gunRifleT2LeverActionRifle"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitSniperRifle">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="gunRifleT3SniperRifle"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<item name="FuriousRamsayRepairKitRocketLauncher">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="gunExplosivesT3RocketLauncher"/>
-			<property name="EconomicValue" value="500" />
-		</item>
-		<item name="FuriousRamsayRepairKitJunkSledge">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="gunBotT1JunkSledge"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitJunkTurret">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="gunBotT2JunkTurret"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-
-		<!-- ARMOR -->
-		<item name="FuriousRamsayRepairKitarmorCloth">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="armorClothJacket"/>
-			<property name="EconomicValue" value="50" />
-		</item>
-		<item name="FuriousRamsayRepairKitarmorLeather">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="armorLeatherChest"/>
-			<property name="EconomicValue" value="100" />
-		</item>
-		<item name="FuriousRamsayRepairKitarmorScrap">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="armorScrapChest"/>
-			<property name="EconomicValue" value="150" />
-		</item>
-		<item name="FuriousRamsayRepairKitarmorIron">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="armorIronChest"/>
-			<property name="EconomicValue" value="250" />
-		</item>
-		<item name="FuriousRamsayRepairKitarmorSteel">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="armorSteelChest"/>
-			<property name="EconomicValue" value="350" />
-		</item>
-		<item name="FuriousRamsayRepairKitarmorMilitary">
-			<property name="CustomIcon" value="resourceRepairKit"/>
-			<property name="Extends" value="FuriousRamsayRepairKitMaster"/>
-			<property name="ItemTypeIcon" value="armorMilitaryVest"/>
-			<property name="EconomicValue" value="350" />
+			<property name="EconomicValue" value="175" />
 		</item>
 
 		<item name="FuriousRamsayDiapers">
@@ -5473,7 +4960,7 @@
 			<property name="SellableToTrader" value="true"/>
 			<property name="FuelValue" value="50"/>
 			<property name="ShowQuality" value="true"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitJunkBaton001_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 
 			<property class="Action0">
 				<property name="Class" value="DynamicMelee" />
@@ -5562,7 +5049,7 @@
 			<property name="SellableToTrader" value="true"/>
 			<property name="FuelValue" value="50"/>
 			<property name="ShowQuality" value="true"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitBaton001_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 
 			<property class="Action0">
 				<property name="Class" value="DynamicMelee" />
@@ -5659,7 +5146,7 @@
 			<property name="SellableToTrader" value="true"/>
 			<property name="FuelValue" value="50"/>
 			<property name="ShowQuality" value="true"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitBaton002_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 
 			<property class="Action0">
 				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeTechnogeekClass" operation="Equals" value="1"/>
@@ -5763,7 +5250,7 @@
 			<property name="Meshfile" value="#@modfolder:Resources/FR_Knuckles.unity3d?ItemsWeaponsKnuckles001_FR"/>
 			<property name="CustomIcon" value="ItemsWeaponsKnuckles001_FR"/>
 			<property name="HoldType" value="61"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitKnuckles001_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="SoundJammed" value="ItemNeedsRepair"/>
 			<property name="SoundDestroy" value="wooddestroy1"/>
@@ -5851,7 +5338,7 @@
 			<property name="Meshfile" value="#@modfolder:Resources/FR_Knuckles.unity3d?ItemsWeaponsKnuckles002_FR"/>
 			<property name="CustomIcon" value="ItemsWeaponsKnuckles002_FR"/>
 			<property name="HoldType" value="61"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitKnuckles002_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="SoundJammed" value="ItemNeedsRepair"/>
 			<property name="SoundDestroy" value="wooddestroy1"/>
@@ -5939,7 +5426,7 @@
 			<property name="Meshfile" value="#@modfolder:Resources/FR_Knuckles.unity3d?ItemsWeaponsKnuckles003_FR"/>
 			<property name="CustomIcon" value="ItemsWeaponsKnuckles003_FR"/>
 			<property name="HoldType" value="61"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitKnuckles003_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="SoundJammed" value="ItemNeedsRepair"/>
 			<property name="SoundDestroy" value="wooddestroy1"/>
@@ -6057,7 +5544,7 @@
 			<property name="ShowQuality" value="true"/>
 			<property name="Group" value="Ammo/Weapons"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitHammer001_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 			<property class="Action0">
 				<property name="Class" value="DynamicMelee"/>
 				<property name="Sound_start" value="club_swinglight"/>
@@ -6140,7 +5627,7 @@
 			<property name="ShowQuality" value="true"/>
 			<property name="Group" value="Ammo/Weapons"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitHammer002_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 			<property class="Action0">
 				<property name="Class" value="DynamicMelee"/>
 				<property name="Sound_start" value="club_swinglight"/>
@@ -6222,7 +5709,7 @@
 			<property name="ShowQuality" value="true"/>
 			<property name="Group" value="Ammo/Weapons"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitHammer003_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 			<property class="Action0">
 				<property name="Class" value="DynamicMelee"/>
 				<property name="Sound_start" value="club_swinglight"/>
@@ -6304,7 +5791,7 @@
 			<property name="Group" value="Ammo/Weapons"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
 			<property name="ShowQuality" value="true"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitSciFiSword001_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 
 			<property class="Action0">
 				<property name="Class" value="DynamicMelee"/>
@@ -6397,7 +5884,7 @@
 			<property name="Group" value="Ammo/Weapons"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
 			<property name="ShowQuality" value="true"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitSciFiSword003_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 
 			<property class="Action0">
 				<property name="Class" value="DynamicMelee"/>
@@ -6490,7 +5977,7 @@
 			<property name="Group" value="Ammo/Weapons"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
 			<property name="ShowQuality" value="true"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitKatana001_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 
 			<property class="Action0">
 				<property name="Class" value="DynamicMelee"/>
@@ -6584,7 +6071,7 @@
 			<property name="Group" value="Ammo/Weapons"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
 			<property name="ShowQuality" value="true"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitKatana002_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 
 			<property class="Action0">
 				<property name="Class" value="DynamicMelee"/>
@@ -6677,7 +6164,7 @@
 			<property name="Group" value="Ammo/Weapons"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
 			<property name="ShowQuality" value="false"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitKatana003_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 
 			<property class="Action0">
 				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeButcherClass" operation="Equals" value="1"/>
@@ -6781,7 +6268,7 @@
 			<property name="SoundJammed" value="ItemNeedsRepair" />
 			<property name="SoundDestroy" value="FuriousRamsayMetalBreak"/>
 			<property name="ShowQuality" value="true" />
-			<property name="RepairTools" value="FuriousRamsayRepairKitKnife001_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 
 			<property class="Action0">
 				<property name="Class" value="DynamicMelee" />
@@ -6889,7 +6376,7 @@
 			<property name="SoundJammed" value="ItemNeedsRepair" />
 			<property name="SoundDestroy" value="FuriousRamsayMetalBreak"/>
 			<property name="ShowQuality" value="true" />
-			<property name="RepairTools" value="FuriousRamsayRepairKitKnife002_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 
 			<property class="Action0">
 				<property name="Class" value="DynamicMelee" />
@@ -6988,7 +6475,7 @@
 			<property name="SoundJammed" value="ItemNeedsRepair" />
 			<property name="SoundDestroy" value="FuriousRamsayMetalBreak"/>
 			<property name="ShowQuality" value="true" />
-			<property name="RepairTools" value="FuriousRamsayRepairKitKnife003_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 
 			<property class="Action0">
 				<property name="Class" value="DynamicMelee" />
@@ -7099,7 +6586,7 @@
 			<property name="Group" value="Ammo/Weapons"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
 			<property name="NavObject" value="FuriousRamsayBurningKnife"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitKnife004_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 
 			<property class="Action0">
 				<property name="Class" value="ThrownWeapon"/>
@@ -7222,7 +6709,7 @@
 			<property name="Group" value="Ammo/Weapons"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
 			<property name="ShowQuality" value="true"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitCleaver001_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 
 			<property class="Action0">
 				<property name="Class" value="DynamicMelee" />
@@ -7316,7 +6803,7 @@
 			<property name="CustomIcon" value="ItemsWeaponsSpear001_FR"/>
 			<property name="Material" value="Mmetal"/>
 			<property name="StickyMaterial" value="#Other/Items?Weapons/Melee/Spear/Materials/spear_sticky.mat"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitSpear001_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="SoundJammed" value="ItemNeedsRepair"/>
 			<property name="SoundDestroy" value="wooddestroy1"/>
@@ -7427,7 +6914,7 @@
 			<property name="CustomIcon" value="ItemsWeaponsSpear002_FR"/>
 			<property name="Material" value="Mmetal"/>
 			<property name="StickyMaterial" value="#Other/Items?Weapons/Melee/Spear/Materials/spear_sticky.mat"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitSpear002_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="SoundJammed" value="ItemNeedsRepair"/>
 			<property name="SoundDestroy" value="wooddestroy1"/>
@@ -7525,7 +7012,7 @@
 			<property name="CustomIcon" value="ItemsWeaponsSpear003_FR"/>
 			<property name="Material" value="Mmetal"/>
 			<property name="StickyMaterial" value="#Other/Items?Weapons/Melee/Spear/Materials/spear_sticky.mat"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitSpear003_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="SoundJammed" value="ItemNeedsRepair"/>
 			<property name="SoundDestroy" value="wooddestroy1"/>
@@ -7623,7 +7110,7 @@
 			<property name="CustomIcon" value="ItemsWeaponsSpear004_FR"/>
 			<property name="Material" value="Mmetal"/>
 			<property name="StickyMaterial" value="#Other/Items?Weapons/Melee/Spear/Materials/spear_sticky.mat"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitSpear004_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="SoundJammed" value="ItemNeedsRepair"/>
 			<property name="SoundDestroy" value="wooddestroy1"/>
@@ -7721,7 +7208,7 @@
 			<property name="CustomIcon" value="ItemsWeaponsSpear005_FR"/>
 			<property name="Material" value="Mmetal"/>
 			<property name="StickyMaterial" value="#Other/Items?Weapons/Melee/Spear/Materials/spear_sticky.mat"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitSpear005_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="SoundJammed" value="ItemNeedsRepair"/>
 			<property name="SoundDestroy" value="wooddestroy1"/>
@@ -7819,7 +7306,7 @@
 			<property name="CustomIcon" value="ItemsWeaponsSpear006_FR"/>
 			<property name="Material" value="Mmetal"/>
 			<property name="StickyMaterial" value="#Other/Items?Weapons/Melee/Spear/Materials/spear_sticky.mat"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitSpear006_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="SoundJammed" value="ItemNeedsRepair"/>
 			<property name="SoundDestroy" value="wooddestroy1"/>
@@ -7922,7 +7409,7 @@
 			<property name="HoldType" value="2"/>
 			<property name="Material" value="MmeleeWpnClubParts"/> 
 			<property name="Weight" value="6"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitClub001_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 			<property name="SoundDestroy" value="wooddestroy1"/>
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
@@ -8013,7 +7500,7 @@
 			<property name="HoldType" value="33"/>
 			<property name="Material" value="MmeleeWpnClubParts"/> 
 			<property name="Weight" value="6"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitClub002_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 			<property name="SoundDestroy" value="wooddestroy1"/>
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
@@ -8104,7 +7591,7 @@
 			<property name="HoldType" value="33"/>
 			<property name="Material" value="MmeleeWpnClubParts"/> 
 			<property name="Weight" value="6"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitClub003_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 			<property name="SoundDestroy" value="wooddestroy1"/>
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
@@ -8204,7 +7691,7 @@
 			<property name="HoldType" value="2"/>
 			<property name="Material" value="MmeleeWpnClubParts"/> 
 			<property name="Weight" value="6"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitClub004_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 			<property name="SoundDestroy" value="wooddestroy1"/>
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
@@ -8295,7 +7782,7 @@
 			<property name="HoldType" value="33"/>
 			<property name="Material" value="MmeleeWpnClubParts"/> 
 			<property name="Weight" value="6"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitClub005_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 			<property name="SoundDestroy" value="wooddestroy1"/>
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
@@ -8386,7 +7873,7 @@
 			<property name="HoldType" value="2"/>
 			<property name="Material" value="MmeleeWpnClubParts"/> 
 			<property name="Weight" value="6"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitClub006_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 			<property name="SoundDestroy" value="wooddestroy1"/>
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
@@ -8477,7 +7964,7 @@
 			<property name="HoldType" value="33"/>
 			<property name="Material" value="MmeleeWpnClubParts"/> 
 			<property name="Weight" value="6"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitClub008_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 			<property name="SoundDestroy" value="wooddestroy1"/>
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
@@ -8568,7 +8055,7 @@
 			<property name="HoldType" value="2"/>
 			<property name="Material" value="MmeleeWpnClubParts"/> 
 			<property name="Weight" value="6"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitClub009_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 			<property name="SoundDestroy" value="wooddestroy1"/>
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
@@ -8659,7 +8146,7 @@
 			<property name="HoldType" value="2"/>
 			<property name="Material" value="MmeleeWpnClubParts"/> 
 			<property name="Weight" value="6"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitClub010_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 			<property name="SoundDestroy" value="wooddestroy1"/>
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
@@ -8756,7 +8243,7 @@
 			<property name="EconomicValue" value="700"/>
 			<property name="Group" value="Ammo/Weapons"/>
 			<property name="ShowQuality" value="true"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitSledgeHammer001_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 
 			<property class="Action0">
 				<property name="Class" value="DynamicMelee"/>
@@ -8840,7 +8327,7 @@
 			<property name="EconomicValue" value="3000"/>
 			<property name="Group" value="Ammo/Weapons"/>
 			<property name="ShowQuality" value="true"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitSledgeHammer002_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 
 			<property class="Action0">
 				<property name="Class" value="DynamicMelee"/>
@@ -8924,7 +8411,7 @@
 			<property name="EconomicValue" value="10000"/>
 			<property name="Group" value="Ammo/Weapons"/>
 			<property name="ShowQuality" value="true"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitSledgeHammer003_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 
 			<property class="Action0">
 				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeBuilderClass" operation="Equals" value="1"/>
@@ -9041,7 +8528,7 @@
 			<property name="Group" value="Ammo/Weapons"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
 			<property name="ShowQuality" value="true"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitAxe001_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 			<property class="Action0">
 				<property name="Class" value="DynamicMelee"/>
 				<property name="Damage_type" value="Slashing"/>
@@ -9124,7 +8611,7 @@
 			<property name="FuelValue" value="150"/>
 			<property name="EconomicValue" value="3000"/>
 			<property name="ShowQuality" value="true"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitAxe002_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 			<property class="Action0">
 				<property name="Class" value="DynamicMelee"/>
 				<property name="Sphere" value=".15"/>
@@ -9207,7 +8694,7 @@
 			<property name="FuelValue" value="150"/>
 			<property name="EconomicValue" value="3000"/>
 			<property name="ShowQuality" value="true"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitAxe003_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 			<property class="Action0">
 				<property name="Class" value="DynamicMelee"/>
 				<property name="Sphere" value=".15"/>
@@ -9292,7 +8779,7 @@
 			<property name="Group" value="Ammo/Weapons"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
 			<property name="ShowQuality" value="false"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitAxe004_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 
 			<property name="StickyMaterial" value="#Other/Items?Weapons/Melee/SledgeHammer/steelSledgeHammer/Materials/steelSledgeHammer.mat"/>
 			<property name="IsSticky" value="True"/>
@@ -9399,7 +8886,7 @@
 			<property name="Group" value="Ammo/Weapons"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
 			<property name="ShowQuality" value="true"/>
-			<property name="RepairTools" value="FuriousRamsayRepairKitAxe005_FR"/>
+			<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 			<property class="Action0">
 				<property name="Class" value="DynamicMelee"/>
 				<property name="Damage_type" value="Slashing"/>
@@ -11750,11 +11237,11 @@
 
 <!-- ASSOCIATE REPAIR KITS -->
 	<!-- TOOLS -->
-	<setattribute xpath="/items/item[@name='meleeToolSalvageT3ImpactDriver']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitImpactDriver</setattribute>
-	<setattribute xpath="/items/item[@name='meleeToolPickT2SteelPickaxe']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitSteelPickAxe</setattribute>
-	<setattribute xpath="/items/item[@name='meleeToolShovelT2SteelShovel']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitSteelShovel</setattribute>
-	<setattribute xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitChainsaw</setattribute>
-	<setattribute xpath="/items/item[@name='meleeToolPickT3Auger']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitAuger</setattribute>
+	<setattribute xpath="/items/item[@name='meleeToolSalvageT3ImpactDriver']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKit</setattribute>
+	<setattribute xpath="/items/item[@name='meleeToolPickT2SteelPickaxe']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKit</setattribute>
+	<setattribute xpath="/items/item[@name='meleeToolShovelT2SteelShovel']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKit</setattribute>
+	<setattribute xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKit</setattribute>
+	<setattribute xpath="/items/item[@name='meleeToolPickT3Auger']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKit</setattribute>
 	<setattribute xpath="/items/item[@name='meleeToolShovelT1IronShovel']/property[@name='RepairTools']" name="value">resourceDuctTape</setattribute>
 	<setattribute xpath="/items/item[@name='meleeToolPickT1IronPickaxe']/property[@name='RepairTools']" name="value">resourceDuctTape</setattribute>
 	<setattribute xpath="/items/item[@name='meleeToolSalvageT1Wrench']/property[@name='RepairTools']" name="value">resourceDuctTape</setattribute>
@@ -11769,173 +11256,173 @@
 	<setattribute xpath="/items/item[@name='meleeWpnKnucklesT1IronKnuckles']/property[@name='RepairTools']" name="value">resourceDuctTape</setattribute>
 	<setattribute xpath="/items/item[@name='meleeWpnSledgeT1IronSledgehammer']/property[@name='RepairTools']" name="value">resourceDuctTape</setattribute>
 	<setattribute xpath="/items/item[@name='meleeWpnBladeT3Machete']/property[@name='RepairTools']" name="value">resourceDuctTape</setattribute>
-	<setattribute xpath="/items/item[@name='meleeWpnClubT3SteelClub']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitSteelClub</setattribute>
+	<setattribute xpath="/items/item[@name='meleeWpnClubT3SteelClub']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKit</setattribute>
 	
 	<!--<setattribute xpath="/items/item[@name='meleeWpnSpearT3SteelSpear']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitSteelSpear</setattribute>-->
 	<append xpath="/items/item[@name='meleeWpnSpearT3SteelSpear']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitSteelSpear"/>
+		<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 	</append>
 
 	<!--<setattribute xpath="/items/item[@name='meleeWpnKnucklesT3SteelKnuckles']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitSteelKnuckles</setattribute>-->
 	<append xpath="/items/item[@name='meleeWpnKnucklesT3SteelKnuckles']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitSteelKnuckles"/>
+		<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 	</append>
 
-	<setattribute xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammer']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitSteelSledgehammer</setattribute>
+	<setattribute xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammer']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKit</setattribute>
 
 	<!--<setattribute xpath="/items/item[@name='meleeToolAxeT2SteelAxe']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitSteelAxe</setattribute>-->
 	<append xpath="/items/item[@name='meleeToolAxeT2SteelAxe']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitSteelAxe"/>
+		<property name="RepairTools" value="FuriousRamsayRepairKit"/>
 	</append>
 
-	<setattribute xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitStunBaton</setattribute>
+	<setattribute xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKit</setattribute>
 
 	<!-- RANGED WEAPONS -->
-	<setattribute xpath="/items/item[@name='gunBowT1WoodenBow']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitWoodenBow</setattribute>
-	<setattribute xpath="/items/item[@name='gunBowT1IronCrossbow']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitIronCrossbow</setattribute>
-	<setattribute xpath="/items/item[@name='gunBowT3CompoundBow']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitCompoundBow</setattribute>
-	<setattribute xpath="/items/item[@name='gunBowT3CompoundCrossbow']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitCompoundCrossbow</setattribute>
-	<setattribute xpath="/items/item[@name='gunHandgunT1Pistol']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitPistol</setattribute>
-	<setattribute xpath="/items/item[@name='gunHandgunT2Magnum44']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitMagnum44</setattribute>
-	<setattribute xpath="/items/item[@name='gunHandgunT3DesertVulture']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitDesertVulture</setattribute>
-	<setattribute xpath="/items/item[@name='gunShotgunT1DoubleBarrel']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitDoubleBarrelShotgun</setattribute>
-	<setattribute xpath="/items/item[@name='gunShotgunT2PumpShotgun']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitPumpShotgun</setattribute>
-	<setattribute xpath="/items/item[@name='gunShotgunT3AutoShotgun']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitAutoShotgun</setattribute>
-	<setattribute xpath="/items/item[@name='gunHandgunT3SMG5']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitSMG5</setattribute>
-	<setattribute xpath="/items/item[@name='gunMGT1AK47']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitAK47</setattribute>
-	<setattribute xpath="/items/item[@name='gunMGT2TacticalAR']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitTacticalAR</setattribute>
-	<setattribute xpath="/items/item[@name='gunMGT3M60']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitM60</setattribute>
-	<setattribute xpath="/items/item[@name='gunRifleT1HuntingRifle']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitHuntingRifle</setattribute>
-	<setattribute xpath="/items/item[@name='gunRifleT2LeverActionRifle']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitMarksmanRifle</setattribute>
-	<setattribute xpath="/items/item[@name='gunRifleT3SniperRifle']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitSniperRifle</setattribute>
-	<setattribute xpath="/items/item[@name='gunExplosivesT3RocketLauncher']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitRocketLauncher</setattribute>
-	<setattribute xpath="/items/item[@name='gunBotT1JunkSledge']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitJunkSledge</setattribute>
-	<setattribute xpath="/items/item[@name='gunBotT2JunkTurret']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitJunkTurret</setattribute>
+	<setattribute xpath="/items/item[@name='gunBowT1WoodenBow']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKit</setattribute>
+	<setattribute xpath="/items/item[@name='gunBowT1IronCrossbow']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKit</setattribute>
+	<setattribute xpath="/items/item[@name='gunBowT3CompoundBow']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKit</setattribute>
+	<setattribute xpath="/items/item[@name='gunBowT3CompoundCrossbow']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKit</setattribute>
+	<setattribute xpath="/items/item[@name='gunHandgunT1Pistol']/property[@name='RepairTools']" name="value">FuriousRamsayGunRepairKit</setattribute>
+	<setattribute xpath="/items/item[@name='gunHandgunT2Magnum44']/property[@name='RepairTools']" name="value">FuriousRamsayGunRepairKit</setattribute>
+	<setattribute xpath="/items/item[@name='gunHandgunT3DesertVulture']/property[@name='RepairTools']" name="value">FuriousRamsayGunRepairKit</setattribute>
+	<setattribute xpath="/items/item[@name='gunShotgunT1DoubleBarrel']/property[@name='RepairTools']" name="value">FuriousRamsayGunRepairKit</setattribute>
+	<setattribute xpath="/items/item[@name='gunShotgunT2PumpShotgun']/property[@name='RepairTools']" name="value">FuriousRamsayGunRepairKit</setattribute>
+	<setattribute xpath="/items/item[@name='gunShotgunT3AutoShotgun']/property[@name='RepairTools']" name="value">FuriousRamsayGunRepairKit</setattribute>
+	<setattribute xpath="/items/item[@name='gunHandgunT3SMG5']/property[@name='RepairTools']" name="value">FuriousRamsayGunRepairKit</setattribute>
+	<setattribute xpath="/items/item[@name='gunMGT1AK47']/property[@name='RepairTools']" name="value">FuriousRamsayGunRepairKit</setattribute>
+	<setattribute xpath="/items/item[@name='gunMGT2TacticalAR']/property[@name='RepairTools']" name="value">FuriousRamsayGunRepairKit</setattribute>
+	<setattribute xpath="/items/item[@name='gunMGT3M60']/property[@name='RepairTools']" name="value">FuriousRamsayGunRepairKit</setattribute>
+	<setattribute xpath="/items/item[@name='gunRifleT1HuntingRifle']/property[@name='RepairTools']" name="value">FuriousRamsayGunRepairKit</setattribute>
+	<setattribute xpath="/items/item[@name='gunRifleT2LeverActionRifle']/property[@name='RepairTools']" name="value">FuriousRamsayGunRepairKit</setattribute>
+	<setattribute xpath="/items/item[@name='gunRifleT3SniperRifle']/property[@name='RepairTools']" name="value">FuriousRamsayGunRepairKit</setattribute>
+	<setattribute xpath="/items/item[@name='gunExplosivesT3RocketLauncher']/property[@name='RepairTools']" name="value">FuriousRamsayGunRepairKit</setattribute>
+	<setattribute xpath="/items/item[@name='gunBotT1JunkSledge']/property[@name='RepairTools']" name="value">FuriousRamsayElectricalRepairKit</setattribute>
+	<setattribute xpath="/items/item[@name='gunBotT2JunkTurret']/property[@name='RepairTools']" name="value">FuriousRamsayElectricalRepairKit</setattribute>
 
 	<!-- ARMOR -->
-	<!--<setattribute xpath="/items/item[@name='armorClothBoots']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorCloth</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorClothBoots']/property[@name='RepairTools']" name="value">resourceCloth</setattribute>-->
 	<append xpath="/items/item[@name='armorClothBoots']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorCloth"/>
+		<property name="RepairTools" value="resourceCloth"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorClothGloves']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorCloth</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorClothGloves']/property[@name='RepairTools']" name="value">resourceCloth</setattribute>-->
 	<append xpath="/items/item[@name='armorClothGloves']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorCloth"/>
+		<property name="RepairTools" value="resourceCloth"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorClothHat']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorCloth</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorClothHat']/property[@name='RepairTools']" name="value">resourceCloth</setattribute>-->
 	<append xpath="/items/item[@name='armorClothHat']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorCloth"/>
+		<property name="RepairTools" value="resourceCloth"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorClothJacket']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorCloth</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorClothJacket']/property[@name='RepairTools']" name="value">resourceCloth</setattribute>-->
 	<append xpath="/items/item[@name='armorClothJacket']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorCloth"/>
+		<property name="RepairTools" value="resourceCloth"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorClothPants']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorCloth</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorClothPants']/property[@name='RepairTools']" name="value">resourceCloth</setattribute>-->
 	<append xpath="/items/item[@name='armorClothPants']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorCloth"/>
+		<property name="RepairTools" value="resourceCloth"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorLeatherBoots']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorLeather</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorLeatherBoots']/property[@name='RepairTools']" name="value">resourceLeather</setattribute>-->
 	<append xpath="/items/item[@name='armorLeatherBoots']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorLeather"/>
+		<property name="RepairTools" value="resourceLeather"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorLeatherChest']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorLeather</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorLeatherChest']/property[@name='RepairTools']" name="value">resourceLeather</setattribute>-->
 	<append xpath="/items/item[@name='armorLeatherChest']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorLeather"/>
+		<property name="RepairTools" value="resourceLeather"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorLeatherGloves']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorLeather</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorLeatherGloves']/property[@name='RepairTools']" name="value">resourceLeather</setattribute>-->
 	<append xpath="/items/item[@name='armorLeatherGloves']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorLeather"/>
+		<property name="RepairTools" value="resourceLeather"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorLeatherHood']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorLeather</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorLeatherHood']/property[@name='RepairTools']" name="value">resourceLeather</setattribute>-->
 	<append xpath="/items/item[@name='armorLeatherHood']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorLeather"/>
+		<property name="RepairTools" value="resourceLeather"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorLeatherPants']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorLeather</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorLeatherPants']/property[@name='RepairTools']" name="value">resourceLeather</setattribute>-->
 	<append xpath="/items/item[@name='armorLeatherPants']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorLeather"/>
+		<property name="RepairTools" value="resourceLeather"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorScrapBoots']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorScrap</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorScrapBoots']/property[@name='RepairTools']" name="value">resourceScrapIron</setattribute>-->
 	<append xpath="/items/item[@name='armorScrapBoots']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorScrap"/>
+		<property name="RepairTools" value="resourceScrapIron"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorScrapChest']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorScrap</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorScrapChest']/property[@name='RepairTools']" name="value">resourceScrapIron</setattribute>-->
 	<append xpath="/items/item[@name='armorScrapChest']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorScrap"/>
+		<property name="RepairTools" value="resourceScrapIron"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorScrapGloves']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorScrap</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorScrapGloves']/property[@name='RepairTools']" name="value">resourceScrapIron</setattribute>-->
 	<append xpath="/items/item[@name='armorScrapGloves']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorScrap"/>
+		<property name="RepairTools" value="resourceScrapIron"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorScrapHelmet']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorScrap</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorScrapHelmet']/property[@name='RepairTools']" name="value">resourceScrapIron</setattribute>-->
 	<append xpath="/items/item[@name='armorScrapHelmet']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorScrap"/>
+		<property name="RepairTools" value="resourceScrapIron"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorScrapLegs']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorScrap</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorScrapLegs']/property[@name='RepairTools']" name="value">resourceScrapIron</setattribute>-->
 	<append xpath="/items/item[@name='armorScrapLegs']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorScrap"/>
+		<property name="RepairTools" value="resourceScrapIron"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorIronBoots']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorIron</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorIronBoots']/property[@name='RepairTools']" name="value">resourceForgedIron</setattribute>-->
 	<append xpath="/items/item[@name='armorIronBoots']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorIron"/>
+		<property name="RepairTools" value="resourceForgedIron"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorIronChest']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorIron</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorIronChest']/property[@name='RepairTools']" name="value">resourceForgedIron</setattribute>-->
 	<append xpath="/items/item[@name='armorIronChest']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorIron"/>
+		<property name="RepairTools" value="resourceForgedIron"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorIronGloves']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorIron</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorIronGloves']/property[@name='RepairTools']" name="value">resourceForgedIron</setattribute>-->
 	<append xpath="/items/item[@name='armorIronGloves']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorIron"/>
+		<property name="RepairTools" value="resourceForgedIron"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorIronHelmet']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorIron</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorIronHelmet']/property[@name='RepairTools']" name="value">resourceForgedIron</setattribute>-->
 	<append xpath="/items/item[@name='armorIronHelmet']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorIron"/>
+		<property name="RepairTools" value="resourceForgedIron"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorIronLegs']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorIron</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorIronLegs']/property[@name='RepairTools']" name="value">resourceForgedIron</setattribute>-->
 	<append xpath="/items/item[@name='armorIronLegs']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorIron"/>
+		<property name="RepairTools" value="resourceForgedIron"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorSteelBoots']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorSteel</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorSteelBoots']/property[@name='RepairTools']" name="value">resourceForgedSteel</setattribute>-->
 	<append xpath="/items/item[@name='armorSteelBoots']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorSteel"/>
+		<property name="RepairTools" value="resourceForgedSteel"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorSteelChest']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorSteel</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorSteelChest']/property[@name='RepairTools']" name="value">resourceForgedSteel</setattribute>-->
 	<append xpath="/items/item[@name='armorSteelChest']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorSteel"/>
+		<property name="RepairTools" value="resourceForgedSteel"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorSteelGloves']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorSteel</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorSteelGloves']/property[@name='RepairTools']" name="value">resourceForgedSteel</setattribute>-->
 	<append xpath="/items/item[@name='armorSteelGloves']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorSteel"/>
+		<property name="RepairTools" value="resourceForgedSteel"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorSteelHelmet']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorSteel</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorSteelHelmet']/property[@name='RepairTools']" name="value">resourceForgedSteel</setattribute>-->
 	<append xpath="/items/item[@name='armorSteelHelmet']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorSteel"/>
+		<property name="RepairTools" value="resourceForgedSteel"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorSteelLegs']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorSteel</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorSteelLegs']/property[@name='RepairTools']" name="value">resourceForgedSteel</setattribute>-->
 	<append xpath="/items/item[@name='armorSteelLegs']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorSteel"/>
+		<property name="RepairTools" value="resourceForgedSteel"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorMilitaryBoots']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorMilitary</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorMilitaryBoots']/property[@name='RepairTools']" name="value">resourceMilitaryFiber</setattribute>-->
 	<append xpath="/items/item[@name='armorMilitaryBoots']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorMilitary"/>
+		<property name="RepairTools" value="resourceMilitaryFiber"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorMilitaryStealthBoots']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorMilitary</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorMilitaryStealthBoots']/property[@name='RepairTools']" name="value">resourceMilitaryFiber</setattribute>-->
 	<append xpath="/items/item[@name='armorMilitaryStealthBoots']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorMilitary"/>
+		<property name="RepairTools" value="resourceMilitaryFiber"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorMilitaryGloves']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorMilitary</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorMilitaryGloves']/property[@name='RepairTools']" name="value">resourceMilitaryFiber</setattribute>-->
 	<append xpath="/items/item[@name='armorMilitaryGloves']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorMilitary"/>
+		<property name="RepairTools" value="resourceMilitaryFiber"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorMilitaryHelmet']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorMilitary</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorMilitaryHelmet']/property[@name='RepairTools']" name="value">resourceMilitaryFiber</setattribute>-->
 	<append xpath="/items/item[@name='armorMilitaryHelmet']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorMilitary"/>
+		<property name="RepairTools" value="resourceMilitaryFiber"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorMilitaryLegs']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorMilitary</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorMilitaryLegs']/property[@name='RepairTools']" name="value">resourceMilitaryFiber</setattribute>-->
 	<append xpath="/items/item[@name='armorMilitaryLegs']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorMilitary"/>
+		<property name="RepairTools" value="resourceMilitaryFiber"/>
 	</append>
-	<!--<setattribute xpath="/items/item[@name='armorMilitaryVest']/property[@name='RepairTools']" name="value">FuriousRamsayRepairKitarmorMilitary</setattribute>-->
+	<!--<setattribute xpath="/items/item[@name='armorMilitaryVest']/property[@name='RepairTools']" name="value">resourceMilitaryFiber</setattribute>-->
 	<append xpath="/items/item[@name='armorMilitaryVest']">
-		<property name="RepairTools" value="FuriousRamsayRepairKitarmorMilitary"/>
+		<property name="RepairTools" value="resourceMilitaryFiber"/>
 	</append>
 
 </Config>

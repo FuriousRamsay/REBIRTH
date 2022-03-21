@@ -3,23 +3,23 @@ Key,Source,Context,English
 xuiChooseTwo,UI,XUI,"Choose Rewards:"
 
 qc_FuriousRamsayLocateShelter,items,Quest,POI Marker
-qc_FuriousRamsayLocateShelterDesc,Quests,Quests,"Read this note once you are in an area suitable for your needs and close to a set of POIs that you could clear to build yourself a shelter/base of operations."
+qc_FuriousRamsayLocateShelterDesc,Quests,Quests,"I would suggest you clear a POI, but it isn't necessary. If you are ok with the area you are in, we can set up here.\n\nI'll make myself available to you whenever you feel like you need training of any sort.\n\n - Briston"
 qc_FuriousRamsayLocateShelterHunter,items,Quest,POI Marker (Hunter)
-qc_FuriousRamsayLocateShelterDesc,Quests,Quests,"Read this note once you are in an area suitable for your needs and close to a set of POIs that you could clear to build yourself a shelter/base of operations."
+qc_FuriousRamsayLocateShelterDesc,Quests,Quests,"I would suggest you clear a POI, but it isn't necessary. If you are ok with the area you are in, we can set up here.\n\nI'll make myself available to you whenever you feel like you need training of any sort.\n\n - Briston"
 qc_FuriousRamsayLocateShelterThug,items,Quest,POI Marker (Thug)
-qc_FuriousRamsayLocateShelterDesc,Quests,Quests,"Read this note once you are in an area suitable for your needs and close to a set of POIs that you could clear to build yourself a shelter/base of operations."
+qc_FuriousRamsayLocateShelterDesc,Quests,Quests,"I would suggest you clear a POI, but it isn't necessary. If you are ok with the area you are in, we can set up here.\n\nI'll make myself available to you whenever you feel like you need training of any sort.\n\n - Briston"
 qc_FuriousRamsayLocateShelterButcher,items,Quest,POI Marker (Butcher)
-qc_FuriousRamsayLocateShelterDesc,Quests,Quests,"Read this note once you are in an area suitable for your needs and close to a set of POIs that you could clear to build yourself a shelter/base of operations."
+qc_FuriousRamsayLocateShelterDesc,Quests,Quests,"I would suggest you clear a POI, but it isn't necessary. If you are ok with the area you are in, we can set up here.\n\nI'll make myself available to you whenever you feel like you need training of any sort.\n\n - Briston"
 qc_FuriousRamsayLocateShelterSoldier,items,Quest,POI Marker (Soldier)
-qc_FuriousRamsayLocateShelterDesc,Quests,Quests,"Read this note once you are in an area suitable for your needs and close to a set of POIs that you could clear to build yourself a shelter/base of operations."
+qc_FuriousRamsayLocateShelterDesc,Quests,Quests,"I would suggest you clear a POI, but it isn't necessary. If you are ok with the area you are in, we can set up here.\n\nI'll make myself available to you whenever you feel like you need training of any sort.\n\n - Briston"
 qc_FuriousRamsayLocateShelterTechnogeek,items,Quest,POI Marker (Technogeek)
-qc_FuriousRamsayLocateShelterDesc,Quests,Quests,"Read this note once you are in an area suitable for your needs and close to a set of POIs that you could clear to build yourself a shelter/base of operations."
+qc_FuriousRamsayLocateShelterDesc,Quests,Quests,"I would suggest you clear a POI, but it isn't necessary. If you are ok with the area you are in, we can set up here.\n\nI'll make myself available to you whenever you feel like you need training of any sort.\n\n - Briston"
 qc_FuriousRamsayLocateShelterMadman,items,Quest,POI Marker (Madman)
-qc_FuriousRamsayLocateShelterDesc,Quests,Quests,"Read this note once you are in an area suitable for your needs and close to a set of POIs that you could clear to build yourself a shelter/base of operations."
+qc_FuriousRamsayLocateShelterDesc,Quests,Quests,"I would suggest you clear a POI, but it isn't necessary. If you are ok with the area you are in, we can set up here.\n\nI'll make myself available to you whenever you feel like you need training of any sort.\n\n - Briston"
 qc_FuriousRamsayLocateShelterBuilder,items,Quest,POI Marker (Builder)
-qc_FuriousRamsayLocateShelterDesc,Quests,Quests,"Read this note once you are in an area suitable for your needs and close to a set of POIs that you could clear to build yourself a shelter/base of operations."
+qc_FuriousRamsayLocateShelterDesc,Quests,Quests,"I would suggest you clear a POI, but it isn't necessary. If you are ok with the area you are in, we can set up here.\n\nI'll make myself available to you whenever you feel like you need training of any sort.\n\n - Briston"
 qc_FuriousRamsayLocateShelterChef,items,Quest,POI Marker (Chef)
-qc_FuriousRamsayLocateShelterDesc,Quests,Quests,"Read this note once you are in an area suitable for your needs and close to a set of POIs that you could clear to build yourself a shelter/base of operations."
+qc_FuriousRamsayLocateShelterDesc,Quests,Quests,"I would suggest you clear a POI, but it isn't necessary. If you are ok with the area you are in, we can set up here.\n\nI'll make myself available to you whenever you feel like you need training of any sort.\n\n - Briston"
 
 quest_FuriousRamsayFindTraderNetwork_description,Quests,Quests,"Briston gave me a flyer to locate a network of traders.\n\nHe did warn me to not trust them, that things may not be as they appear.\n\nI'll keep that in mind."
 quest_FuriousRamsayFindTraderNetwork_offer,Quests,Quests,"Here's a flyer to the closest trader.\n\nI don't personally work with them but you will need to run jobs for them if you want to equip yourself with tools and crafting stations.\n\nJust watch your back. I've heard that some have either got burned or simply weren't heard of again after having dealt with them.\n\n - Briston"
@@ -39,7 +39,7 @@ tutorialTipQuest01_title,Journal Tip,,Wake-up
 tutorialTipQuest01,Journal Tip,,"Hey, wake up, you're in danger!"
 
 quest_FuriousRamsayHunterTrainer_title,Journal Tip,,"The Hunter Trainer"
-quest_FuriousRamsayHunterTrainer,Journal Tip,,"Once you find a spot for your Hunter Trainer, you'll find that they offer a range of repair kits and missions for sale.\n\nYou have been given a Starter mission backpack to get you going on your first missions.\n\nThese missions will provide you with the necessary schematics to start assembling your crafting stations.\n\nThey do have player level requirements and most can only be started once you reach level 10.\n\n - Briston"
+quest_FuriousRamsayHunterTrainer,Journal Tip,"Once you find a spot for your Hunter Trainer, you'll find that they offer a range of repair kits and missions for sale.\n\nYou have been given a Starter mission backpack to get you going on your first missions.\n\nThese missions will provide you with the necessary schematics to start assembling your crafting stations.\n\nThey do have player level requirements and most can only be started once you reach level 10.\n\n - Briston"
 quest_FuriousRamsayThugTrainer_title,Journal Tip,,"The Thug Trainer"
 quest_FuriousRamsayThugTrainer,Journal Tip,,"Once you find a spot for your Thug Trainer, you'll find that they offer a range of repair kits and missions for sale.\n\nYou have been given a Starter mission backpack to get you going on your first missions.\n\nThese missions will provide you with the necessary schematics to start assembling your crafting stations.\n\nThey do have player level requirements and most can only be started once you reach level 10.\n\n - Briston"
 quest_FuriousRamsayButcherTrainer_title,Journal Tip,,"The Butcher Trainer"
@@ -713,9 +713,6 @@ quest_FuriousRamsayChefDisciplesTraining_Tier5_title,Quests,Quests,Crowd Control
 quest_FuriousRamsayChefDisciplesTraining_Tier5_offer,Quests,Quests,"One of the most important lessons you can be taught right now is to control a crowd.\n\nI'll get some of my students to show up and give you a run for your money.\n\nDon't worry about hurting them, they're resilient, they'll bounce back."
 quest_FuriousRamsayChefDisciplesTraining_Tier5_response,Quests,Quests,Crowd Control
 quest_FuriousRamsayChefDisciplesTraining_Tier5_statement,Quests,Quests,"Your trainer will send some of his disciples to test your abilities in controlling a crowd"
-
-FuriousRamsayScrapRepairKit,items,Items,Scrap Iron Repair Kit
-FuriousRamsayScrapRepairKitDesc,items,Items,"Primitive kit used to repair all scrap iron tools."
 
 FuriousRamsayBook,items,Items,Book
 FuriousRamsayBookDesc,items,Items,"There's nothing special about this book other than it's a good source of paper."
@@ -2076,7 +2073,7 @@ FuriousRamsayPerkHunterRangedBurnAuraRank10LongDesc,progression,perk,"At [aceefc
 FuriousRamsayPerkBowName,progression,perk,Bows
 FuriousRamsayPerkBowDesc,progression,perk,"Specialize in Bows"
 FuriousRamsayPerkBowRank1Desc,progression,perk,"[46aba1]Initiate[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkBowExpPercLvl1:0)}%[-])"
-FuriousRamsayPerkBowRank1LongDesc,progression,perk,"Being an [aceefc][U]INITIATE[/U][-], you:\n • Do [ff595f]2.5%[-] more damage\n • Penetrate [ff595f]2.5%[-] armor\n • Preserve your weapon [ff595f]10%[-] longer\n • Can craft [75d181]Bow Repair Kits[-]"
+FuriousRamsayPerkBowRank1LongDesc,progression,perk,"Being an [aceefc][U]INITIATE[/U][-], you:\n • Do [ff595f]2.5%[-] more damage\n • Penetrate [ff595f]2.5%[-] armor\n • Preserve your weapon [ff595f]10%[-] longer"
 FuriousRamsayPerkBowRank2Desc,progression,perk,"[46aba1]Novice[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkBowExpPercLvl2:0)}%[-])"
 FuriousRamsayPerkBowRank2LongDesc,progression,perk,"Being a [aceefc][U]NOVICE[/U][-], you:\n • Do [ff595f]5%[-] more damage\n • Penetrate [ff595f]5%[-] armor\n • Preserve your weapon [ff595f]20%[-] longer"
 FuriousRamsayPerkBowRank3Desc,progression,perk,"[46aba1]Competent[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkBowExpPercLvl3:0)}%[-])"
@@ -2128,7 +2125,7 @@ FuriousRamsayPerkSniperRifleRank2LongDesc,progression,perk,"Being a [aceefc][U]N
 FuriousRamsayPerkSniperRifleRank3Desc,progression,perk,"[46aba1]Competent[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkSniperRifleExpPercLvl3:0)}%[-])"
 FuriousRamsayPerkSniperRifleRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Penetrate [ff595f]7.5%[-] armor\n • Reload [ff595f]7.5%[-] faster\n • Fire [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer\n • Can craft [75d181]Bipod[-] Rifle mod"
 FuriousRamsayPerkSniperRifleRank4Desc,progression,perk,"[46aba1]Talented[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkSniperRifleExpPercLvl4:0)}%[-])"
-FuriousRamsayPerkSniperRifleRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Penetrate [ff595f]10%[-] armor\n • Reload [ff595f]10%[-] faster\n • Fire [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer\n • Can craft [75d181]Hunting and Sniper Rifle Repair Kits[-]"
+FuriousRamsayPerkSniperRifleRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Penetrate [ff595f]10%[-] armor\n • Reload [ff595f]10%[-] faster\n • Fire [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer"
 FuriousRamsayPerkSniperRifleRank5Desc,progression,perk,"[46aba1]Skilled[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkSniperRifleExpPercLvl5:0)}%[-])"
 FuriousRamsayPerkSniperRifleRank5LongDesc,progression,perk,"Being [aceefc][U]SKILLED[/U][-], you:\n • Do [ff595f]15%[-] more damage\n • Penetrate [ff595f]12.5%[-] armor\n • Reload [ff595f]12.5%[-] faster\n • Fire [ff595f]12.5%[-] faster\n • Preserve your weapon [ff595f]50%[-] longer\n • Can craft a [75d181]Scope 8x[-] mod"
 FuriousRamsayPerkSniperRifleRank6Desc,progression,perk,"[46aba1]Seasoned[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkSniperRifleExpPercLvl6:0)}%[-])"
@@ -2172,7 +2169,7 @@ FuriousRamsayPerkShotgunRank1LongDesc,progression,perk,"Being an [aceefc][U]INIT
 FuriousRamsayPerkShotgunRank2Desc,progression,perk,"[46aba1]Novice[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkShotgunExpPercLvl2:0)}%[-])"
 FuriousRamsayPerkShotgunRank2LongDesc,progression,perk,"Being a [aceefc][U]NOVICE[/U][-], you:\n • Do [ff595f]5%[-] more damage\n • Penetrate [ff595f]5%[-] armor\n • Reload [ff595f]5%[-] faster\n • Fire [ff595f]5%[-] faster\n • Preserve your weapon [ff595f]20%[-] longer"
 FuriousRamsayPerkShotgunRank3Desc,progression,perk,"[46aba1]Competent[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkShotgunExpPercLvl3:0)}%[-])"
-FuriousRamsayPerkShotgunRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Penetrate [ff595f]7.5%[-] armor\n • Reload [ff595f]7.5%[-] faster\n • Fire [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer\n • Can craft [75d181]Shotgun Repair Kits[-]"
+FuriousRamsayPerkShotgunRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Penetrate [ff595f]7.5%[-] armor\n • Reload [ff595f]7.5%[-] faster\n • Fire [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer"
 FuriousRamsayPerkShotgunRank4Desc,progression,perk,"[46aba1]Talented[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkShotgunExpPercLvl4:0)}%[-])"
 FuriousRamsayPerkShotgunRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Penetrate [ff595f]10%[-] armor\n • Reload [ff595f]10%[-] faster\n • Fire [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer\n • Can craft [75d181]Tube Extender[-] and [75d181]Sawed-Off[-] Shotgun mods"
 FuriousRamsayPerkShotgunRank5Desc,progression,perk,"[46aba1]Skilled[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkShotgunExpPercLvl5:0)}%[-])"
@@ -2256,7 +2253,7 @@ FuriousRamsayPerkAssaultRifleRank2LongDesc,progression,perk,"Being a [aceefc][U]
 FuriousRamsayPerkAssaultRifleRank3Desc,progression,perk,"[46aba1]Competent[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkAssaultRifleExpPercLvl3:0)}%[-])"
 FuriousRamsayPerkAssaultRifleRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Attack [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer"
 FuriousRamsayPerkAssaultRifleRank4Desc,progression,perk,"[46aba1]Talented[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkAssaultRifleExpPercLvl4:0)}%[-])"
-FuriousRamsayPerkAssaultRifleRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Attack [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer\n • Can craft [75d181]Retracting Stock[-] Assault Rifle mod\n • Can craft [75d181]Assault Rifle Repair Kits[-]"
+FuriousRamsayPerkAssaultRifleRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Attack [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer\n • Can craft [75d181]Retracting Stock[-] Assault Rifle mod"
 FuriousRamsayPerkAssaultRifleRank5Desc,progression,perk,"[46aba1]Skilled[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkAssaultRifleExpPercLvl5:0)}%[-])"
 FuriousRamsayPerkAssaultRifleRank5LongDesc,progression,perk,"Being [aceefc][U]SKILLED[/U][-], you:\n • Do [ff595f]15%[-] more damage\n • Attack [ff595f]12.5%[-] faster\n • Preserve your weapon [ff595f]50%[-] longer"
 FuriousRamsayPerkAssaultRifleRank6Desc,progression,perk,"[46aba1]Seasoned[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkAssaultRifleExpPercLvl6:0)}%[-])"
@@ -2346,7 +2343,7 @@ FuriousRamsayPerkMarksmanRifleRank1LongDesc,progression,perk,"Being an [aceefc][
 FuriousRamsayPerkMarksmanRifleRank2Desc,progression,perk,"[46aba1]Novice[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkMarksmanExpPercLvl2:0)}%[-])"
 FuriousRamsayPerkMarksmanRifleRank2LongDesc,progression,perk,"Being a [aceefc][U]NOVICE[/U][-], you:\n • Do [ff595f]5%[-] more damage\n • Penetrate [ff595f]5%[-] armor\n • Reload [ff595f]5%[-] faster\n • Fire [ff595f]5%[-] faster\n • Preserve your weapon [ff595f]20%[-] longer\n • Can craft [75d181]Magazine Extender[-] Lever Action mod"
 FuriousRamsayPerkMarksmanRifleRank3Desc,progression,perk,"[46aba1]Competent[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkMarksmanExpPercLvl3:0)}%[-])"
-FuriousRamsayPerkMarksmanRifleRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Penetrate [ff595f]7.5%[-] armor\n • Reload [ff595f]7.5%[-] faster\n • Fire [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer\n • Can craft [75d181]Lever Action Rifle Repair Kits[-]"
+FuriousRamsayPerkMarksmanRifleRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Penetrate [ff595f]7.5%[-] armor\n • Reload [ff595f]7.5%[-] faster\n • Fire [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer"
 FuriousRamsayPerkMarksmanRifleRank4Desc,progression,perk,"[46aba1]Talented[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkMarksmanExpPercLvl4:0)}%[-])"
 FuriousRamsayPerkMarksmanRifleRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Penetrate [ff595f]10%[-] armor\n • Reload [ff595f]10%[-] faster\n • Fire [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer"
 FuriousRamsayPerkMarksmanRifleRank5Desc,progression,perk,"[46aba1]Skilled[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkMarksmanExpPercLvl5:0)}%[-])"
@@ -2375,7 +2372,7 @@ FuriousRamsayPerkMachineGunRank4LongDesc,progression,perk,"Being [aceefc][U]TALE
 FuriousRamsayPerkMachineGunRank5Desc,progression,perk,"[46aba1]Skilled[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkMachineGunExpPercLvl5:0)}%[-])"
 FuriousRamsayPerkMachineGunRank5LongDesc,progression,perk,"Being [aceefc][U]SKILLED[/U][-], you:\n • Do [ff595f]15%[-] more damage\n • Penetrate [ff595f]12.5%[-] armor\n • Reload [ff595f]12.5%[-] faster\n • Fire [ff595f]12.5%[-] faster\n • Preserve your weapon [ff595f]50%[-] longer"
 FuriousRamsayPerkMachineGunRank6Desc,progression,perk,"[46aba1]Seasoned[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkMachineGunExpPercLvl6:0)}%[-])"
-FuriousRamsayPerkMachineGunRank6LongDesc,progression,perk,"Being [aceefc][U]SEASONED[/U][-], you:\n • Do [ff595f]20%[-] more damage\n • Penetrate [ff595f]15%[-] armor\n • Reload [ff595f]15%[-] faster\n • Fire [ff595f]15%[-] faster\n • Preserve your weapon [ff595f]60%[-] longer\n • Can craft [75d181]Muzzle Brake[-] mod\n • Can craft [75d181]Machine Gun Repair Kits[-]"
+FuriousRamsayPerkMachineGunRank6LongDesc,progression,perk,"Being [aceefc][U]SEASONED[/U][-], you:\n • Do [ff595f]20%[-] more damage\n • Penetrate [ff595f]15%[-] armor\n • Reload [ff595f]15%[-] faster\n • Fire [ff595f]15%[-] faster\n • Preserve your weapon [ff595f]60%[-] longer\n • Can craft [75d181]Muzzle Brake[-] mod"
 FuriousRamsayPerkMachineGunRank7Desc,progression,perk,"[46aba1]Proficient[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkMachineGunExpPercLvl7:0)}%[-])"
 FuriousRamsayPerkMachineGunRank7LongDesc,progression,perk,"Being [aceefc][U]PROFICIENT[/U][-], you:\n • Do [ff595f]25%[-] more damage\n • Penetrate [ff595f]20%[-] armor\n • Reload [ff595f]20%[-] faster\n • Fire [ff595f]17.5%[-] faster\n • Preserve your weapon [ff595f]70%[-] longer"
 FuriousRamsayPerkMachineGunRank8Desc,progression,perk,"[46aba1]Advanced[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkMachineGunExpPercLvl8:0)}%[-])"
@@ -2507,7 +2504,7 @@ FuriousRamsayPerkMagnumRank1LongDesc,progression,perk,"Being an [aceefc][U]INITI
 FuriousRamsayPerkMagnumRank2Desc,progression,perk,"[46aba1]Novice[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkMagnumExpPercLvl2:0)}%[-])"
 FuriousRamsayPerkMagnumRank2LongDesc,progression,perk,"Being a [aceefc][U]NOVICE[/U][-], you:\n • Do [ff595f]5%[-] more damage\n • Penetrate [ff595f]5%[-] armor\n • Reload [ff595f]5%[-] faster\n • Fire [ff595f]5%[-] faster\n • Preserve your weapon [ff595f]20%[-] longer"
 FuriousRamsayPerkMagnumRank3Desc,progression,perk,"[46aba1]Competent[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkMagnumExpPercLvl3:0)}%[-])"
-FuriousRamsayPerkMagnumRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Penetrate [ff595f]7.5%[-] armor\n • Reload [ff595f]7.5%[-] faster\n • Fire [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer\n • Can craft [75d181]Magnum Repair Kits[-]"
+FuriousRamsayPerkMagnumRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Penetrate [ff595f]7.5%[-] armor\n • Reload [ff595f]7.5%[-] faster\n • Fire [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer"
 FuriousRamsayPerkMagnumRank4Desc,progression,perk,"[46aba1]Talented[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkMagnumExpPercLvl4:0)}%[-])"
 FuriousRamsayPerkMagnumRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Penetrate [ff595f]10%[-] armor\n • Reload [ff595f]10%[-] faster\n • Fire [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer\n • Can craft [75d181]Barrel Extender[-] Magnum mod"
 FuriousRamsayPerkMagnumRank5Desc,progression,perk,"[46aba1]Skilled[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkMagnumExpPercLvl5:0)}%[-])"
@@ -2532,7 +2529,7 @@ FuriousRamsayPerkDeployableTurretRank2LongDesc,progression,perk,"Being a [aceefc
 FuriousRamsayPerkDeployableTurretRank3Desc,progression,perk,"[46aba1]Competent[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkDeployableTurretExpPercLvl3:0)}%[-])"
 FuriousRamsayPerkDeployableTurretRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Penetrate [ff595f]7.5%[-] armor\n • Reload [ff595f]7.5%[-] faster\n • Fire [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer\n • Can craft a [75d181]Robotic Sledge[-]"
 FuriousRamsayPerkDeployableTurretRank4Desc,progression,perk,"[46aba1]Talented[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkDeployableTurretExpPercLvl4:0)}%[-])"
-FuriousRamsayPerkDeployableTurretRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Penetrate [ff595f]10%[-] armor\n • Reload [ff595f]10%[-] faster\n • Fire [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer\n • Can craft [75d181]Deployable Turret Repair Kits[-]"
+FuriousRamsayPerkDeployableTurretRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Penetrate [ff595f]10%[-] armor\n • Reload [ff595f]10%[-] faster\n • Fire [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer"
 FuriousRamsayPerkDeployableTurretRank5Desc,progression,perk,"[46aba1]Skilled[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkDeployableTurretExpPercLvl5:0)}%[-])"
 FuriousRamsayPerkDeployableTurretRank5LongDesc,progression,perk,"Being [aceefc][U]SKILLED[/U][-], you:\n • Do [ff595f]15%[-] more damage\n • Penetrate [ff595f]12.5%[-] armor\n • Reload [ff595f]12.5%[-] faster\n • Fire [ff595f]12.5%[-] faster\n • Preserve your weapon [ff595f]50%[-] longer\n • Can craft a [75d181]Robotic Turret[-]"
 FuriousRamsayPerkDeployableTurretRank6Desc,progression,perk,"[46aba1]Seasoned[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkDeployableTurretExpPercLvl6:0)}%[-])"
@@ -2620,7 +2617,7 @@ FuriousRamsayPerkExplosivesRank1LongDesc,progression,perk,"Being an [aceefc][U]I
 FuriousRamsayPerkExplosivesRank2Desc,progression,perk,"[46aba1]Novice[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkExplosivesExpPercLvl2:0)}%[-])"
 FuriousRamsayPerkExplosivesRank2LongDesc,progression,perk,"Being a [aceefc][U]NOVICE[/U][-], you:\n • Do [ff595f]20%[-] more damage\n • Increase dismemberment by [ff595f]10%[-]\n • Increase your explosion radius by [ff595f]0.5m[-]\n • Preserve your weapon [ff595f]20%[-] longer"
 FuriousRamsayPerkExplosivesRank3Desc,progression,perk,"[46aba1]Competent[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkExplosivesExpPercLvl3:0)}%[-])"
-FuriousRamsayPerkExplosivesRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]30%[-] more damage\n • Increase dismemberment by [ff595f]15%[-]\n • Increase your timed charge damage to doors and safes by [ff595f]10%[-]\n • Preserve your weapon [ff595f]30%[-] longer\n • Can craft [75d181]Rocket Launcher Repair Kits[-]"
+FuriousRamsayPerkExplosivesRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]30%[-] more damage\n • Increase dismemberment by [ff595f]15%[-]\n • Increase your timed charge damage to doors and safes by [ff595f]10%[-]\n • Preserve your weapon [ff595f]30%[-] longer"
 FuriousRamsayPerkExplosivesRank4Desc,progression,perk,"[46aba1]Talented[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkExplosivesExpPercLvl4:0)}%[-])"
 FuriousRamsayPerkExplosivesRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]40%[-] more damage\n • Increase dismemberment by [ff595f]20%[-]\n • Increase your explosion radius by [ff595f]1m[-]\n • Increase your time charge damage to doors and safes by [ff595f]20%[-]\n • Preserve your weapon [ff595f]40%[-] longer\n • Can craft [75d181]Pipe Bombs[-]\n • Can craft [75d181]Tier 1 Exploding Decoys[-]"
 FuriousRamsayPerkExplosivesRank5Desc,progression,perk,"[46aba1]Skilled[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkExplosivesExpPercLvl5:0)}%[-])"
@@ -2645,7 +2642,7 @@ FuriousRamsayPerkSubmachineGunRank2LongDesc,progression,perk,"Being a [aceefc][U
 FuriousRamsayPerkSubmachineGunRank3Desc,progression,perk,"[46aba1]Competent[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkSubmachineGunExpPercLvl3:0)}%[-])"
 FuriousRamsayPerkSubmachineGunRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Penetrate [ff595f]7.5%[-] armor\n • Reload [ff595f]7.5%[-] faster\n • Fire [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer"
 FuriousRamsayPerkSubmachineGunRank4Desc,progression,perk,"[46aba1]Talented[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkSubmachineGunExpPercLvl4:0)}%[-])"
-FuriousRamsayPerkSubmachineGunRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Penetrate [ff595f]10%[-] armor\n • Reload [ff595f]10%[-] faster\n • Fire [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer\n • Can craft [75d181]Fore Grip[-] Submachine Gun mod\n • Can craft [75d181]Submachine Gun Repair Kits[-]"
+FuriousRamsayPerkSubmachineGunRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Penetrate [ff595f]10%[-] armor\n • Reload [ff595f]10%[-] faster\n • Fire [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer\n • Can craft [75d181]Fore Grip[-] Submachine Gun mod"
 FuriousRamsayPerkSubmachineGunRank5Desc,progression,perk,"[46aba1]Skilled[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkSubmachineGunExpPercLvl5:0)}%[-])"
 FuriousRamsayPerkSubmachineGunRank5LongDesc,progression,perk,"Being [aceefc][U]SKILLED[/U][-], you:\n • Do [ff595f]15%[-] more damage\n • Penetrate [ff595f]12.5%[-] armor\n • Reload [ff595f]12.5%[-] faster\n • Fire [ff595f]12.5%[-] faster\n • Preserve your weapon [ff595f]50%[-] longer"
 FuriousRamsayPerkSubmachineGunRank6Desc,progression,perk,"[46aba1]Seasoned[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkSubmachineGunExpPercLvl6:0)}%[-])"
@@ -2735,7 +2732,7 @@ FuriousRamsayPerkPistolRank1LongDesc,progression,perk,"Being an [aceefc][U]INITI
 FuriousRamsayPerkPistolRank2Desc,progression,perk,"[46aba1]Novice[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkPistolExpPercLvl2:0)}%[-])"
 FuriousRamsayPerkPistolRank2LongDesc,progression,perk,"Being a [aceefc][U]NOVICE[/U][-], you:\n • Do [ff595f]5%[-] more damage\n • Penetrate [ff595f]5%[-] armor\n • Reload [ff595f]5%[-] faster\n • Fire [ff595f]5%[-] faster\n • Preserve your weapon [ff595f]20%[-] longer"
 FuriousRamsayPerkPistolRank3Desc,progression,perk,"[46aba1]Competent[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkPistolExpPercLvl3:0)}%[-])"
-FuriousRamsayPerkPistolRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Penetrate [ff595f]7.5%[-] armor\n • Reload [ff595f]7.5%[-] faster\n • Fire [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer\n • Can craft [75d181]Pistol Repair Kits[-]"
+FuriousRamsayPerkPistolRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Penetrate [ff595f]7.5%[-] armor\n • Reload [ff595f]7.5%[-] faster\n • Fire [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer"
 FuriousRamsayPerkPistolRank4Desc,progression,perk,"[46aba1]Talented[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkPistolExpPercLvl4:0)}%[-])"
 FuriousRamsayPerkPistolRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Penetrate [ff595f]10%[-] armor\n • Reload [ff595f]10%[-] faster\n • Fire [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer\n • Can craft [75d181]Laser Sight[-] Pistol mod"
 FuriousRamsayPerkPistolRank5Desc,progression,perk,"[46aba1]Skilled[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkPistolExpPercLvl5:0)}%[-])"
@@ -2837,7 +2834,7 @@ FuriousRamsayPerkDesertVultureRank2LongDesc,progression,perk,"Being a [aceefc][U
 FuriousRamsayPerkDesertVultureRank3Desc,progression,perk,"[46aba1]Competent[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkDesertVultureExpPercLvl3:0)}%[-])"
 FuriousRamsayPerkDesertVultureRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Penetrate [ff595f]7.5%[-] armor\n • Reload [ff595f]7.5%[-] faster\n • Fire [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer"
 FuriousRamsayPerkDesertVultureRank4Desc,progression,perk,"[46aba1]Talented[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkDesertVultureExpPercLvl4:0)}%[-])"
-FuriousRamsayPerkDesertVultureRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Penetrate [ff595f]10%[-] armor\n • Reload [ff595f]10%[-] faster\n • Fire [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer\n • Can craft [75d181]Desert Vulture Repair Kits[-]"
+FuriousRamsayPerkDesertVultureRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Penetrate [ff595f]10%[-] armor\n • Reload [ff595f]10%[-] faster\n • Fire [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer"
 FuriousRamsayPerkDesertVultureRank5Desc,progression,perk,"[46aba1]Skilled[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkDesertVultureExpPercLvl5:0)}%[-])"
 FuriousRamsayPerkDesertVultureRank5LongDesc,progression,perk,"Being [aceefc][U]SKILLED[/U][-], you:\n • Do [ff595f]15%[-] more damage\n • Penetrate [ff595f]12.5%[-] armor\n • Reload [ff595f]12.5%[-] faster\n • Fire [ff595f]12.5%[-] faster\n • Preserve your weapon [ff595f]50%[-] longer\n • Can craft [75d181]Scope 2x[-] Desert Vulture mod"
 FuriousRamsayPerkDesertVultureRank6Desc,progression,perk,"[46aba1]Seasoned[-] ([I]Progress[/I]: [75d181]{cvar(varFuriousRamsayPerkDesertVultureExpPercLvl6:0)}%[-])"

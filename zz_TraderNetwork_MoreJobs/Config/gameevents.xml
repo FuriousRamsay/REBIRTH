@@ -6,7 +6,7 @@
 			<!-- PHASE 1 -->
 			<action class="AddItems">
 				<property name="added_items" value="ammo9mmBulletBall,bedroll,casinoCoin,drinkJarRedTea" />
-				<property name="added_item_counts" value="18,1,1000,1" />
+				<property name="added_item_counts" value="18,1,1250,1" />
 				<property name="phase" value="1" />
 			</action>
 			<action class="SpawnEntity">
