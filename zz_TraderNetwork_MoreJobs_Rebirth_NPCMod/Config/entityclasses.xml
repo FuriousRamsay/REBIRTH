@@ -1,11 +1,29 @@
 <Config>
 
-	<setattribute xpath="//entity_class[@name='npcMeleeTemplate']/effect_group[@name='Base Effects']/passive_effect[@name='BuffResistance' and @value='5']" name="tags">buffBurningEnvironment,buffFatiguedTrigger,buffLaceration,buffInfectionCatch,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffLegBroken,buffLegSprained,buffArmSprained,buffArmBroken,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger</setattribute>
+	<setattribute xpath="//entity_class[@name='npcMeleeTemplate']/effect_group[@name='Base Effects']/passive_effect[@name='BuffResistance' and @value='5']" name="tags">buffInfectionCatch,buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffInfectionCatch,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire,buffInjuryConcussion,buffArmBroken,buffInjuryStunned01,buffInjuryStunned02,buffInjuryStunned03,buffInjuryCrippled01,buffInjuryKnockdown01,buffInjuryKnockdown01,buffInjuryUnconscious,buffStayDownKO,buffRadiationCatch,buffRadiation03,buffRadiationNew,buffRadiationNew2,buffRadiationWeak,buffRadiationStrong,FuriousRamsayRadiatedAoEDamageTier1,FuriousRamsayRadiatedAoEDamageTier2,FuriousRamsayRadiatedAoEDamageTier3,FuriousRamsayRadiatedAoEDamageTier4,FuriousRamsayRadiatedAoEDamageTier5,buffBurningEnvironment,buffBurningElement,buffBurningEnvironmentHack,FuriousRamsayBurningTrapDamage</setattribute>
 	<setattribute xpath="//entity_class[@name='npcMeleeTemplate']/effect_group[@name='Base Effects']/passive_effect[@name='BuffResistance' and @value='1']" name="tags">buffInjuryBleeding,buffInjuryBleedingZombie,buffPlayerFallingDamage</setattribute>
+	<setattribute xpath="//entity_class[@name='npcMeleeTemplate']/effect_group[@name='Base Effects']/passive_effect[@name='BuffResistance']" name="value">200</setattribute>
 
 	<remove xpath="//entity_class[starts-with(@name, 'npc')]/property[@name='AIPackages']"/>
 	
+	<remove xpath="//entity_class[@name='npcMeleeTemplate']/effect_group[starts-with(@name, 'EntityDamageLeaderLevel')]"/>
+	<remove xpath="//entity_class[@name='npcMeleeTemplate']/effect_group[starts-with(@name, 'PhysicalResistanceLeaderLevel')]"/>
+
 	<!-- BASIC TEMPLATES -->
+	<append xpath="/entity_classes/entity_class[@name='npcMeleeTemplate']">
+		<effect_group name="PhysicalResistanceLow">
+			<requirement name="EntityTagCompare" target="self" tags="DRLow"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="10"/>
+		</effect_group> 
+		<effect_group name="PhysicalResistanceMid">
+			<requirement name="EntityTagCompare" target="self" tags="DRMid"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="20"/>
+		</effect_group> 
+		<effect_group name="PhysicalResistanceHigh">
+			<requirement name="EntityTagCompare" target="self" tags="DRHigh"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="30"/>
+		</effect_group> 
+	</append>
 	<append xpath="/entity_classes/entity_class[@name='npcEmptyHandTemplate' or
 												@name='npcBatTemplate' or
 												@name='npcAxeTemplate' or
@@ -14,7 +32,7 @@
 												@name='npcSpearTemplate' or
 												@name='npcMacheteTemplate'
 												]">
-		<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModNPCMeleeBasic"/> 
+		<property name="AIPackages" value="NPCModNPCMeleeBasic"/>
 	</append>
 
 	<append xpath="/entity_classes/entity_class[@name='npcPipeShotgunTemplate' or
@@ -55,14 +73,14 @@
 												@name='npcAdvancedSpearTemplate' or
 												@name='npcAdvancedMacheteTemplate'
 												]">
-		<property name="AIPackages" value="NPCModBasicMelee, NPCModNPCMelee, NPCHired"/> 
+		<property name="AIPackages" value="NPCModBasicMelee, NPCModNPCMelee, NPCHired"/>
 	</append>
 
 	<append xpath="/entity_classes/entity_class[@name='npcAdvancedPipeShotgunTemplate' or
 												@name='npcAdvancedPShotgunTemplate' or
 												@name='npcAdvancedAShotgunTemplate'
 												]">
-		<property name="AIPackages" value="NPCModBasicRanged, NPCModNPCShortRanged, NPCHired"/> 
+		<property name="AIPackages" value="NPCModBasicRanged, NPCModNPCShortRanged, NPCHired"/>
 	</append>
 
 	<append xpath="/entity_classes/entity_class[@name='npcAdvancedPipePistolTemplate' or
@@ -77,14 +95,14 @@
 												@name='npcAdvancedLBowTemplate' or
 												@name='npcAdvancedXBowTemplate'
 												]">
-		<property name="AIPackages" value="NPCModBasicRanged, NPCModNPCMediumRanged, NPCHired"/> 
+		<property name="AIPackages" value="NPCModBasicRanged, NPCModNPCMediumRanged, NPCHired"/>
 	</append>
 
 	<append xpath="/entity_classes/entity_class[@name='npcAdvancedHRifleTemplate' or
 												@name='npcAdvancedSRifleTemplate' or
 												@name='npcAdvancedRocketLTemplate'
 												]">
-		<property name="AIPackages" value="NPCModBasicRanged, NPCModNPCLongRanged, NPCHired"/> 
+		<property name="AIPackages" value="NPCModBasicRanged, NPCModNPCLongRanged, NPCHired"/>
 	</append>
 
 </Config>

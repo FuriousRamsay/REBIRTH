@@ -58,78 +58,78 @@
 				<!-- VERIFY HIRED NPC ACTIONS -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="selfAOE" range="60" buff="buffNPCModStopAttacking">
 					<requirement name="CVarCompare" target="other" cvar="Leader" operation="Equals" value="@EntityID" />
-					<requirement name="CVarCompare" cvar="$varNPCModStopAttacking" operation="Equals" value="0" />
+					<requirement name="CVarCompare" cvar="varNPCModStopAttacking" operation="Equals" value="0" />
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="60" buff="buffNPCModStopAttacking">
 					<requirement name="CVarCompare" target="other" cvar="Leader" operation="Equals" value="@EntityID" />
-					<requirement name="CVarCompare" cvar="$varNPCModStopAttacking" operation="Equals" value="1" />
+					<requirement name="CVarCompare" cvar="varNPCModStopAttacking" operation="Equals" value="1" />
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="selfAOE" range="60" buff="buffNPCModFullControlMode">
 					<requirement name="CVarCompare" target="other" cvar="Leader" operation="Equals" value="@EntityID" />
-					<requirement name="CVarCompare" cvar="$varNPCModMode" operation="Equals" value="0" />
+					<requirement name="CVarCompare" cvar="varNPCModMode" operation="Equals" value="0" />
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="60" buff="buffNPCModThreatControlMode">
 					<requirement name="CVarCompare" target="other" cvar="Leader" operation="Equals" value="@EntityID" />
-					<requirement name="CVarCompare" cvar="$varNPCModMode" operation="Equals" value="1" />
+					<requirement name="CVarCompare" cvar="varNPCModMode" operation="Equals" value="1" />
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="selfAOE" range="60" buff="buffNPCModThreatControlMode">
 					<requirement name="CVarCompare" target="other" cvar="Leader" operation="Equals" value="@EntityID" />
-					<requirement name="CVarCompare" cvar="$varNPCModMode" operation="Equals" value="2" />
+					<requirement name="CVarCompare" cvar="varNPCModMode" operation="Equals" value="2" />
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="60" buff="buffNPCModFullControlMode">
 					<requirement name="CVarCompare" target="other" cvar="Leader" operation="Equals" value="@EntityID" />
-					<requirement name="CVarCompare" cvar="$varNPCModMode" operation="Equals" value="2" />
+					<requirement name="CVarCompare" cvar="varNPCModMode" operation="Equals" value="2" />
 				</triggered_effect>
 				<!-- SET PLAYER ACTION DISPLAYS -->
 				<!-- HALT/RESUME -->
 					<!-- RESUME -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffNPCModHaltDisplay">
-					<requirement name="CVarCompare" cvar="$varNPCModStopAttacking" operation="Equals" value="0" />
+					<requirement name="CVarCompare" cvar="varNPCModStopAttacking" operation="Equals" value="0" />
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="buffNPCModResumeDisplay">
-					<requirement name="CVarCompare" cvar="$varNPCModStopAttacking" operation="Equals" value="0" />
+					<requirement name="CVarCompare" cvar="varNPCModStopAttacking" operation="Equals" value="0" />
 					<requirement name="CVarCompare" cvar="EntityID" operation="GT" value="0" />				
 				</triggered_effect>
 					<!-- HALT -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffNPCModResumeDisplay">
-					<requirement name="CVarCompare" cvar="$varNPCModStopAttacking" operation="Equals" value="1" />
+					<requirement name="CVarCompare" cvar="varNPCModStopAttacking" operation="Equals" value="1" />
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="buffNPCModHaltDisplay">
-					<requirement name="CVarCompare" cvar="$varNPCModStopAttacking" operation="Equals" value="1" />
+					<requirement name="CVarCompare" cvar="varNPCModStopAttacking" operation="Equals" value="1" />
 					<requirement name="CVarCompare" cvar="EntityID" operation="GT" value="0" />				
 				</triggered_effect>
 				<!-- CONTROL MODES -->
 					<!-- HUNTING -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffNPCModThreatControlModeDisplay">
-					<requirement name="CVarCompare" cvar="$varNPCModMode" operation="Equals" value="0" />
+					<requirement name="CVarCompare" cvar="varNPCModMode" operation="Equals" value="0" />
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffNPCModFullControlModeDisplay">
-					<requirement name="CVarCompare" cvar="$varNPCModMode" operation="Equals" value="0" />
+					<requirement name="CVarCompare" cvar="varNPCModMode" operation="Equals" value="0" />
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="buffNPCModHuntingModeDisplay">
-					<requirement name="CVarCompare" cvar="$varNPCModMode" operation="Equals" value="0" />
+					<requirement name="CVarCompare" cvar="varNPCModMode" operation="Equals" value="0" />
 					<requirement name="CVarCompare" cvar="EntityID" operation="GT" value="0" />				
 				</triggered_effect>
 					<!-- THREAT CONTROL -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffNPCModHuntingModeDisplay">
-					<requirement name="CVarCompare" cvar="$varNPCModMode" operation="Equals" value="1" />
+					<requirement name="CVarCompare" cvar="varNPCModMode" operation="Equals" value="1" />
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffNPCModFullControlModeDisplay">
-					<requirement name="CVarCompare" cvar="$varNPCModMode" operation="Equals" value="1" />
+					<requirement name="CVarCompare" cvar="varNPCModMode" operation="Equals" value="1" />
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="buffNPCModThreatControlModeDisplay">
-					<requirement name="CVarCompare" cvar="$varNPCModMode" operation="Equals" value="1" />
+					<requirement name="CVarCompare" cvar="varNPCModMode" operation="Equals" value="1" />
 					<requirement name="CVarCompare" cvar="EntityID" operation="GT" value="0" />				
 				</triggered_effect>
 					<!-- FULL CONTROL -->
 				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffNPCModThreatControlModeDisplay">
-					<requirement name="CVarCompare" cvar="$varNPCModMode" operation="Equals" value="2" />
+					<requirement name="CVarCompare" cvar="varNPCModMode" operation="Equals" value="2" />
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffNPCModHuntingModeDisplay">
-					<requirement name="CVarCompare" cvar="$varNPCModMode" operation="Equals" value="2" />
+					<requirement name="CVarCompare" cvar="varNPCModMode" operation="Equals" value="2" />
 				</triggered_effect>
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="buffNPCModFullControlModeDisplay">
-					<requirement name="CVarCompare" cvar="$varNPCModMode" operation="Equals" value="2" />
+					<requirement name="CVarCompare" cvar="varNPCModMode" operation="Equals" value="2" />
 					<requirement name="CVarCompare" cvar="EntityID" operation="GT" value="0" />				
 				</triggered_effect>
 			</effect_group>		
@@ -179,7 +179,7 @@
 			<duration value="3"/>
 			<effect_group name="buffNPCModStopAttackingChange">
 				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varNPCModStopAttackingChange" operation="set" value="1"/>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varNPCModStopAttacking" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varNPCModStopAttacking" operation="set" value="0"/>
 				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="NPCResume" play_in_head="true"/>
 			</effect_group>
 		</buff>
@@ -188,7 +188,7 @@
 			<duration value="3"/>
 			<effect_group name="buffNPCModStopAttackingChange">
 				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varNPCModStopAttackingChange" operation="set" value="1"/>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varNPCModStopAttacking" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varNPCModStopAttacking" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="NPCHalt" play_in_head="true"/>
 			</effect_group>
 		</buff>
@@ -197,7 +197,7 @@
 			<duration value="3"/>
 			<effect_group name="buffNPCModStopAttackingChange">
 				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varNPCModModeChange" operation="set" value="1"/>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varNPCModMode" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varNPCModMode" operation="set" value="0"/>
 				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="NPCHuntingMode" play_in_head="true"/>
 			</effect_group>
 		</buff>
@@ -206,7 +206,7 @@
 			<duration value="3"/>
 			<effect_group name="buffNPCModStopAttackingChange">
 				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varNPCModModeChange" operation="set" value="1"/>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varNPCModMode" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varNPCModMode" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="NPCTheatControlMode" play_in_head="true"/>
 			</effect_group>
 		</buff>
@@ -215,7 +215,7 @@
 			<duration value="3"/>
 			<effect_group name="buffNPCModStopAttackingChange">
 				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varNPCModModeChange" operation="set" value="1"/>
-				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varNPCModMode" operation="set" value="2"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="varNPCModMode" operation="set" value="2"/>
 				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="NPCFullControlMode" play_in_head="true"/>
 			</effect_group>
 		</buff>

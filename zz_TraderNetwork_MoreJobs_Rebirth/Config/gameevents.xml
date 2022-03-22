@@ -396,7 +396,7 @@ spideralert
 				<property name="spawn_count" value="1" />
 				<property name="phase" value="1" />
 			</action>
-			<action class="SpawnEntity">
+			<!--<action class="SpawnEntity">
 				<property name="entity_names" value="FuriousRamsaySurvivorMan010bBatTier1NoHire"/>
 				<property name="min_distance" value="10" />
 				<property name="max_distance" value="10" />
@@ -423,7 +423,7 @@ spideralert
 				<property name="max_distance" value="9" />
 				<property name="spawn_count" value="1" />
 				<property name="phase" value="1" />
-			</action>
+			</action>-->
 			<action class="SpawnEntity">
 				<property name="entity_names" value="FuriousRamsaySurvivorMan001b2PipePistolTier1NoHire"/>
 				<property name="min_distance" value="14" />
@@ -435,7 +435,7 @@ spideralert
 		<!-- BOSS -->
 		<action_sequence name="spawn_FuriousRamsay_CyborgBanditTier1" template="vote_horde_standard">
 			<variable name="alertsound" value="malehatesense06" />
-			<variable name="zombiecount" value="3" />
+			<variable name="zombiecount" value="5" />
 			<variable name="zombiename" value="FuriousRamsayBanditMan001aBatTier1NoHire,FuriousRamsayBanditMan001bAxeTier1NoHire,FuriousRamsayBanditMan002aClubTier1NoHire,FuriousRamsayBanditMan002bKnifeTier1NoHire,FuriousRamsayBanditMan003aSpearTier1NoHire,FuriousRamsayBanditMan005aMacheteTier1NoHire,FuriousRamsayBanditMan005dBatTier1NoHire,FuriousRamsayBanditWoman001dAxeTier1NoHire,FuriousRamsayBanditWoman001gMacheteTier1NoHire" />
 			<variable name="minionbuff" value="" />
 			<variable name="bossname" value="FuriousRamsayBanditCyborg001AxeBossTier1" />

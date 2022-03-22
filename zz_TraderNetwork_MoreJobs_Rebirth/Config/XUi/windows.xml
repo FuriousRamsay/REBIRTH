@@ -1,7 +1,7 @@
 <Config>
 
 	<!-- CHANGE TOOLTIP POSITION -->
-	<setattribute xpath="/windows/window[@name='toolTipPopups']" name="pos">-5,330</setattribute>
+	<setattribute xpath="/windows/window[@name='toolTipPopups']" name="pos">-5,340</setattribute>
 
 	<!-- REMOVE QUALITY LABEL -->
 	<remove xpath="/windows/window[@name='windowTrader']/panel[@name='content']/rect[@name='tableHeader']/rect/sprite[@sprite='ui_game_symbol_diamond']"/>
@@ -64,7 +64,7 @@
 	<append xpath="/windows">
 
 	<window name="FuriousRamsayWindowClassInfo" visible="{toolbeltvisible}">
-			<rect name="FuriousRamsayClassInfo" controller="HUDStatBar" pos="30,180" width="257">
+			<rect name="FuriousRamsayClassInfo" controller="HUDStatBar" pos="30,190" width="257">
 
 				<rect name="FuriousRamsayClassInfoContainer" width="257" depth="2" pos="0,45" height="120"> <!-- 140 -->
 					<filledsprite depth="3" name="FRbackground" pos="0,0" color="0,0,0,210" height="120" width="257" globalopacity="false" type="filled" fill="1" />

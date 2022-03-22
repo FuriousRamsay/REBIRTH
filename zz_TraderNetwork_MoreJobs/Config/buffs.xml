@@ -2479,7 +2479,7 @@
 
 			<buff name="FuriousRamsayVanishNPCTimer" hidden="true" remove_on_death="true">
 				<stack_type value="ignore"/>
-				<duration value="1800"/>
+				<duration value="300"/>
 				<effect_group>
 					<triggered_effect trigger="onSelfBuffFinish" action="ModifyStats" target="self" stat="Health" operation="add" value="-99999"/>
 				</effect_group>

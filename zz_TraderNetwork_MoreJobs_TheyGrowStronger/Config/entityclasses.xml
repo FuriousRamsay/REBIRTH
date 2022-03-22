@@ -11,47 +11,12 @@
 			</triggered_effect>
 		</effect_group>				
 		<effect_group name="FuriousRamsayTheyGrowStronger">
-			<requirement name="EntityTagCompare" target="other" tags="zombie"/>
-				<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="add" value="@$varFuriousRamsayTheyGrowStrongerIncrement"/>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="add" value="@$varFuriousRamsayTheyGrowStrongerIncrement">
+				<requirement name="EntityTagCompare" target="other" tags="zombie"/>
+			</triggered_effect>
 		</effect_group>
 	</append>
 
-	<append xpath="/entity_classes/entity_class[@name='zombieBoe']/property[@name='Tags']/@value">,zombieBoe</append>
-
-	<append xpath="/entity_classes">
-
-		<entity_class name="FuriousRamsayZombieBikerFireResistTest" extends="zombieBiker">
-			<property name="Tags" value="entity,zombie,walker"/>
-			<property name="WalkType" value="4"/>
-            <effect_group name="Base Effects">
-                <passive_effect name="HealthMax" operation="base_set" value="300" />
-                <passive_effect name="HealthMax" operation="perc_set" value="1" />
-                <passive_effect name="PhysicalDamageResist" operation="base_set" value="5" />
-				<passive_effect name="StaminaMax" operation="base_set" value="10000"/>
-				<passive_effect name="StaminaChangeOT" operation="base_add" value="10"/>
-            </effect_group>
-			<effect_group>
-				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayAttachFireParticles"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayResistFire"/>
-			</effect_group>
-		</entity_class>		
-
-		<entity_class name="FuriousRamsayZombieBikerShockResistTest" extends="zombieBiker">
-			<property name="Tags" value="entity,zombie,walker"/>
-			<property name="WalkType" value="4"/>
-            <effect_group name="Base Effects">
-                <passive_effect name="HealthMax" operation="base_set" value="300" />
-                <passive_effect name="HealthMax" operation="perc_set" value="1" />
-                <passive_effect name="PhysicalDamageResist" operation="base_set" value="5" />
-				<passive_effect name="StaminaMax" operation="base_set" value="10000"/>
-				<passive_effect name="StaminaChangeOT" operation="base_add" value="10"/>
-            </effect_group>
-			<effect_group>
-				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayAttachShockParticles"/>
-				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayResistShock"/>
-			</effect_group>
-		</entity_class>		
-
-	</append>
+	<!--<append xpath="/entity_classes/entity_class[@name='zombieBoe']/property[@name='Tags']/@value">,zombieBoe</append>-->
 
 </configs>
