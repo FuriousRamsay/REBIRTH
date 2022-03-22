@@ -1,0 +1,59 @@
+<Config>
+
+	<append xpath="/Sounds">
+
+		<SoundDataNode name="FuriousRamsayNaturalSelection"> 
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Environment.unity3d?FuriousRamsay_NaturalSelection_sound"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/> 
+			<CrouchNoiseScale value="1"/> 
+			<NoiseScale value="1"/> 
+			<MaxVoices value="3"/> 
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+
+		<SoundDataNode name="FuriousRamsayDownfall"> 
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Environment.unity3d?FuriousRamsay_DeathHorror_sound"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/> 
+			<CrouchNoiseScale value="1"/> 
+			<NoiseScale value="1"/> 
+			<MaxVoices value="3"/> 
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+
+		<SoundDataNode name="FuriousRamsayDeath"> 
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Environment.unity3d?FuriousRamsay_Death_sound"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/> 
+			<CrouchNoiseScale value="1"/> 
+			<NoiseScale value="1"/> 
+			<MaxVoices value="3"/> 
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+
+		<SoundDataNode name="FuriousRamsayAscension"> 
+			<AudioSource name="Sounds/AudioSource_Explosion"/>
+			<AudioClip ClipName="#@modfolder:Resources/Environment.unity3d?FuriousRamsay_Ascension_sound"/>
+			<Noise ID="5" noise="10" time="4" heat_map_strength="1" heat_map_time="1"/>
+			<LowestPitch name="1"/>
+			<HighestPitch name="1"/>
+			<LocalCrouchVolumeScale value="1"/> 
+			<CrouchNoiseScale value="1"/> 
+			<NoiseScale value="1"/> 
+			<MaxVoices value="3"/> 
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+
+	</append>
+	
+</Config>

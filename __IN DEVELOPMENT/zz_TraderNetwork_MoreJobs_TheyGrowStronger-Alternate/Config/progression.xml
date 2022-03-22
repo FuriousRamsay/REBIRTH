@@ -1,0 +1,107 @@
+<Config>
+
+	<insertAfter xpath="/progression/attributes/attribute[@name='furiousramsayattknowledge']">
+
+		<attribute name="furiousramsayattmisery" name_key="FuriousRamsayAttMiseryName" desc_key="FuriousRamsayAttMiseryDesc" icon="FR_Misery_icon" min_level="0" max_level="1" base_skill_point_cost="0" cost_multiplier_per_level="0">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqMisery01"/></level_requirements>
+
+			<effect_group>
+				<effect_description level="1" desc_key="FuriousRamsayAttMiseryRank01Desc" long_desc_key="FuriousRamsayAttMiseryRank01LongDesc"/>
+			</effect_group>
+		</attribute>
+
+	</insertAfter>
+
+	<append xpath="/progression/skills" >
+
+		<skill name="FuriousRamsaySkillDisturbance" parent="furiousramsayattmisery" name_key="FuriousRamsaySkillDisturbanceName" desc_key="FuriousRamsaySkillDisturbanceDesc" icon="FR_Disturbance_icon"><effect_group/></skill>
+	
+	</append>
+
+	<append xpath="/progression/perks" >
+
+<!-- DISTURBANCE -->
+		<!-- ASCENSION -->
+		<perk name="FuriousRamsayPerkAscension" max_level="10" parent="FuriousRamsaySkillDisturbance" name_key="FuriousRamsayPerkAscensionName" base_skill_point_cost="0" desc_key="FuriousRamsayPerkAscensionDesc" icon="FR_Ascension_icon">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqAscension01"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqAscension01"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqAscension01"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqAscension01"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqAscension01"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqAscension01"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqAscension01"/></level_requirements>
+			<level_requirements level="8"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqAscension01"/></level_requirements>
+			<level_requirements level="9"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqAscension01"/></level_requirements>
+			<level_requirements level="10"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqAscension01"/></level_requirements>
+
+			<effect_group>
+				<effect_description level="1" desc_key="FuriousRamsayPerkAscensionRank1Desc" long_desc_key="FuriousRamsayPerkAscensionRank1LongDesc"/>
+				<effect_description level="2" desc_key="FuriousRamsayPerkAscensionRank2Desc" long_desc_key="FuriousRamsayPerkAscensionRank2LongDesc"/>
+				<effect_description level="3" desc_key="FuriousRamsayPerkAscensionRank3Desc" long_desc_key="FuriousRamsayPerkAscensionRank3LongDesc"/>
+				<effect_description level="4" desc_key="FuriousRamsayPerkAscensionRank4Desc" long_desc_key="FuriousRamsayPerkAscensionRank4LongDesc"/>
+				<effect_description level="5" desc_key="FuriousRamsayPerkAscensionRank5Desc" long_desc_key="FuriousRamsayPerkAscensionRank5LongDesc"/>
+				<effect_description level="6" desc_key="FuriousRamsayPerkAscensionRank6Desc" long_desc_key="FuriousRamsayPerkAscensionRank6LongDesc"/>
+				<effect_description level="7" desc_key="FuriousRamsayPerkAscensionRank7Desc" long_desc_key="FuriousRamsayPerkAscensionRank7LongDesc"/>
+				<effect_description level="8" desc_key="FuriousRamsayPerkAscensionRank8Desc" long_desc_key="FuriousRamsayPerkAscensionRank8LongDesc"/>
+				<effect_description level="9" desc_key="FuriousRamsayPerkAscensionRank9Desc" long_desc_key="FuriousRamsayPerkAscensionRank9LongDesc"/>
+				<effect_description level="10" desc_key="FuriousRamsayPerkAscensionRank10Desc" long_desc_key="FuriousRamsayPerkAscensionRank10LongDesc"/>
+			</effect_group>
+		</perk>
+
+		<!-- DOWNFALL -->
+		<perk name="FuriousRamsayPerkDownfall" max_level="10" parent="FuriousRamsaySkillDisturbance" name_key="FuriousRamsayPerkDownfallName" base_skill_point_cost="0" desc_key="FuriousRamsayPerkDownfallDesc" icon="FR_Downfall_icon">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqDownfall01"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqDownfall01"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqDownfall01"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqDownfall01"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqDownfall01"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqDownfall01"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqDownfall01"/></level_requirements>
+			<level_requirements level="8"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqDownfall01"/></level_requirements>
+			<level_requirements level="9"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqDownfall01"/></level_requirements>
+			<level_requirements level="10"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqDownfall01"/></level_requirements>
+
+			<effect_group>
+				<effect_description level="1" desc_key="FuriousRamsayPerkDownfallRank1Desc" long_desc_key="FuriousRamsayPerkDownfallRank1LongDesc"/>
+				<effect_description level="2" desc_key="FuriousRamsayPerkDownfallRank2Desc" long_desc_key="FuriousRamsayPerkDownfallRank2LongDesc"/>
+				<effect_description level="3" desc_key="FuriousRamsayPerkDownfallRank3Desc" long_desc_key="FuriousRamsayPerkDownfallRank3LongDesc"/>
+				<effect_description level="4" desc_key="FuriousRamsayPerkDownfallRank4Desc" long_desc_key="FuriousRamsayPerkDownfallRank4LongDesc"/>
+				<effect_description level="5" desc_key="FuriousRamsayPerkDownfallRank5Desc" long_desc_key="FuriousRamsayPerkDownfallRank5LongDesc"/>
+				<effect_description level="6" desc_key="FuriousRamsayPerkDownfallRank6Desc" long_desc_key="FuriousRamsayPerkDownfallRank6LongDesc"/>
+				<effect_description level="7" desc_key="FuriousRamsayPerkDownfallRank7Desc" long_desc_key="FuriousRamsayPerkDownfallRank7LongDesc"/>
+				<effect_description level="8" desc_key="FuriousRamsayPerkDownfallRank8Desc" long_desc_key="FuriousRamsayPerkDownfallRank8LongDesc"/>
+				<effect_description level="9" desc_key="FuriousRamsayPerkDownfallRank9Desc" long_desc_key="FuriousRamsayPerkDownfallRank9LongDesc"/>
+				<effect_description level="10" desc_key="FuriousRamsayPerkDownfallRank10Desc" long_desc_key="FuriousRamsayPerkDownfallRank10LongDesc"/>
+			</effect_group>
+		</perk>
+	
+		<!-- NATURAL SELECTION -->
+		<perk name="FuriousRamsayPerkNaturalSelection" max_level="10" parent="FuriousRamsaySkillDisturbance" name_key="FuriousRamsayPerkNaturalSelectionName" base_skill_point_cost="0" desc_key="FuriousRamsayPerkNaturalSelectionDesc" icon="FR_NaturalSelection_icon">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqNaturalSelection01"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqNaturalSelection01"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqNaturalSelection01"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqNaturalSelection01"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqNaturalSelection01"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqNaturalSelection01"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqNaturalSelection01"/></level_requirements>
+			<level_requirements level="8"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqNaturalSelection01"/></level_requirements>
+			<level_requirements level="9"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqNaturalSelection01"/></level_requirements>
+			<level_requirements level="10"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="FuriousRamsayReqNaturalSelection01"/></level_requirements>
+
+			<effect_group>
+				<effect_description level="1" desc_key="FuriousRamsayPerkNaturalSelectionRank1Desc" long_desc_key="FuriousRamsayPerkNaturalSelectionRank1LongDesc"/>
+				<effect_description level="2" desc_key="FuriousRamsayPerkNaturalSelectionRank2Desc" long_desc_key="FuriousRamsayPerkNaturalSelectionRank2LongDesc"/>
+				<effect_description level="3" desc_key="FuriousRamsayPerkNaturalSelectionRank3Desc" long_desc_key="FuriousRamsayPerkNaturalSelectionRank3LongDesc"/>
+				<effect_description level="4" desc_key="FuriousRamsayPerkNaturalSelectionRank4Desc" long_desc_key="FuriousRamsayPerkNaturalSelectionRank4LongDesc"/>
+				<effect_description level="5" desc_key="FuriousRamsayPerkNaturalSelectionRank5Desc" long_desc_key="FuriousRamsayPerkNaturalSelectionRank5LongDesc"/>
+				<effect_description level="6" desc_key="FuriousRamsayPerkNaturalSelectionRank6Desc" long_desc_key="FuriousRamsayPerkNaturalSelectionRank6LongDesc"/>
+				<effect_description level="7" desc_key="FuriousRamsayPerkNaturalSelectionRank7Desc" long_desc_key="FuriousRamsayPerkNaturalSelectionRank7LongDesc"/>
+				<effect_description level="8" desc_key="FuriousRamsayPerkNaturalSelectionRank8Desc" long_desc_key="FuriousRamsayPerkNaturalSelectionRank8LongDesc"/>
+				<effect_description level="9" desc_key="FuriousRamsayPerkNaturalSelectionRank9Desc" long_desc_key="FuriousRamsayPerkNaturalSelectionRank9LongDesc"/>
+				<effect_description level="10" desc_key="FuriousRamsayPerkNaturalSelectionRank10Desc" long_desc_key="FuriousRamsayPerkNaturalSelectionRank10LongDesc"/>
+			</effect_group>
+		</perk>
+
+	</append>
+
+</Config>

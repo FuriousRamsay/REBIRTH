@@ -1,5 +1,9 @@
 <Config>
 
+	<remove xpath="/quests/quest[@id='quest_tier1complete']/reward[@id='groupQuestBicycle']"/>
+	<remove xpath="/quests/quest[@id='quest_tier2complete']/reward[@id='groupQuestMinibikeParts']"/>
+	<remove xpath="/quests/quest[@id='quest_tier3complete']/reward[@id='groupQuestMotorcycleParts']"/>
+
 	<append xpath="//quest_items">
 		<quest_item id="94" name="FuriousRamsayStarterBackpackStrengthQuestItem" description_key="FuriousRamsayStarterBackpackStrengthDesc" icon="FR_ClassBackpack_icon" icon_color="c27272"/>
 		<quest_item id="95" name="FuriousRamsayStarterBackpackDexterityQuestItem" description_key="FuriousRamsayStarterBackpackDexterityDesc" icon="FR_ClassBackpack_icon" icon_color="bdbf71"/>

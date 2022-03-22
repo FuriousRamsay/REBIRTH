@@ -435,7 +435,7 @@ spideralert
 		<!-- BOSS -->
 		<action_sequence name="spawn_FuriousRamsay_CyborgBanditTier1" template="vote_horde_standard">
 			<variable name="alertsound" value="malehatesense06" />
-			<variable name="zombiecount" value="5" />
+			<variable name="zombiecount" value="8" />
 			<variable name="zombiename" value="FuriousRamsayBanditMan001aBatTier1NoHire,FuriousRamsayBanditMan001bAxeTier1NoHire,FuriousRamsayBanditMan002aClubTier1NoHire,FuriousRamsayBanditMan002bKnifeTier1NoHire,FuriousRamsayBanditMan003aSpearTier1NoHire,FuriousRamsayBanditMan005aMacheteTier1NoHire,FuriousRamsayBanditMan005dBatTier1NoHire,FuriousRamsayBanditWoman001dAxeTier1NoHire,FuriousRamsayBanditWoman001gMacheteTier1NoHire" />
 			<variable name="minionbuff" value="" />
 			<variable name="bossname" value="FuriousRamsayBanditCyborg001AxeBossTier1" />
@@ -452,7 +452,7 @@ spideralert
 				<property name="entity_names" value="zombieBoe,zombieJoe,zombieArlene,zombieDarlene,zombieMarlene,zombieYo,zombieSteve,zombieBusinessMan"/>
 				<property name="min_distance" value="20" />
 				<property name="max_distance" value="25" />
-				<property name="spawn_count" value="10" />
+				<property name="spawn_count" value="4" />
 				<property name="phase" value="1" />
 			</action>
 		</action_sequence>
@@ -481,7 +481,7 @@ spideralert
 		<!-- BOSS -->
 		<action_sequence name="spawn_FuriousRamsay_HazmatLeaderTier1" template="vote_horde_standard">
 			<variable name="alertsound" value="malehatesense05" />
-			<variable name="zombiecount" value="5" />
+			<variable name="zombiecount" value="8" />
 			<variable name="zombiename" value="FuriousRamsayPandemicMan001aBatTier1NoHire,FuriousRamsayPandemicMan001aAxeTier1NoHire,FuriousRamsayPandemicWoman001aKnifeTier1NoHire,FuriousRamsayPandemicWoman001aSpearTier1NoHire" />
 			<variable name="minionbuff" value="" />
 			<variable name="bossname" value="FuriousRamsayPandemicMan002aMacheteBossTier1" />

@@ -1,0 +1,5 @@
+<Config>
+
+	<setattribute xpath="/items/item[@name='SedanRepairTool']/property[@name='UnlockedBy']" name="value">meleeToolSalvageT1WrenchSchematic</setattribute>
+
+</Config>

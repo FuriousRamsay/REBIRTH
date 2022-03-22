@@ -843,18 +843,22 @@
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
+				<passive_effect name="WalkSpeed" operation="base_set" value="1"/>
+				<passive_effect name="RunSpeed" operation="base_set" value="1"/> 
 			</effect_group>
 			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
 		<entity_class name="FuriousRamsayBanditManBat" extends="npcBatTemplate">
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Class" value="EntityNPC" /> 
+			<property name="Class" value="EntityNPC" />
 			<property name="Faction" value="bandits"/>
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayBanditLootBat"/>
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
+				<passive_effect name="WalkSpeed" operation="base_set" value="1"/>
+				<passive_effect name="RunSpeed" operation="base_set" value="1"/> 
 			</effect_group>
 			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
@@ -867,6 +871,8 @@
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
+				<passive_effect name="WalkSpeed" operation="base_set" value="1"/>
+				<passive_effect name="RunSpeed" operation="base_set" value="1"/> 
 			</effect_group>
 			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
@@ -879,6 +885,8 @@
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
+				<passive_effect name="WalkSpeed" operation="base_set" value="1"/>
+				<passive_effect name="RunSpeed" operation="base_set" value="1"/> 
 			</effect_group>
 			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
@@ -891,6 +899,8 @@
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
+				<passive_effect name="WalkSpeed" operation="base_set" value="1"/>
+				<passive_effect name="RunSpeed" operation="base_set" value="1"/> 
 			</effect_group>
 			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
@@ -903,6 +913,8 @@
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
+				<passive_effect name="WalkSpeed" operation="base_set" value="1"/>
+				<passive_effect name="RunSpeed" operation="base_set" value="1"/> 
 			</effect_group>
 			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
@@ -915,6 +927,8 @@
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
+				<passive_effect name="WalkSpeed" operation="base_set" value="1"/>
+				<passive_effect name="RunSpeed" operation="base_set" value="1"/> 
 			</effect_group>
 			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
@@ -1145,6 +1159,8 @@
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
+				<passive_effect name="WalkSpeed" operation="base_set" value="1"/>
+				<passive_effect name="RunSpeed" operation="base_set" value="1"/> 
 			</effect_group>
 			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
@@ -1169,6 +1185,8 @@
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
+				<passive_effect name="WalkSpeed" operation="base_set" value="1"/>
+				<passive_effect name="RunSpeed" operation="base_set" value="1"/> 
 			</effect_group>
 			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
@@ -1193,6 +1211,8 @@
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
+				<passive_effect name="WalkSpeed" operation="base_set" value="1"/>
+				<passive_effect name="RunSpeed" operation="base_set" value="1"/> 
 			</effect_group>
 			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
@@ -1217,6 +1237,8 @@
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
+				<passive_effect name="WalkSpeed" operation="base_set" value="1"/>
+				<passive_effect name="RunSpeed" operation="base_set" value="1"/> 
 			</effect_group>
 			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
@@ -1241,6 +1263,8 @@
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
+				<passive_effect name="WalkSpeed" operation="base_set" value="1"/>
+				<passive_effect name="RunSpeed" operation="base_set" value="1"/> 
 			</effect_group>
 			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
@@ -1265,6 +1289,8 @@
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="200"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
+				<passive_effect name="WalkSpeed" operation="base_set" value="1"/>
+				<passive_effect name="RunSpeed" operation="base_set" value="1"/> 
 			</effect_group>
 			<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModHostileMeleeBasic"/> 
 		</entity_class>
@@ -24184,10 +24210,9 @@
 			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="meleeNPCMachete"/>
 			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="meleeNPCMachete"/>
 
-			<property name="MoveSpeed" value="0.5"/> 
+			<property name="MoveSpeed" value="2"/> 
 			<property name="MoveSpeedAggro" value="2"/>
-			<property name="MoveSpeedPanic" value="1.5"/>
-			<property name="MoveSpeedRand" value="-.2, .25"/>
+			<property name="MoveSpeedPanic" value="2"/>
 
 			<property name="NavObject" value="FuriousRamsayDotRed"/>
 
@@ -24219,10 +24244,9 @@
 			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="meleeNPCMachete"/>
 			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="meleeNPCMachete"/>
 
-			<property name="MoveSpeed" value="1.5"/> 
+			<property name="MoveSpeed" value="2"/> 
 			<property name="MoveSpeedAggro" value="2"/>
-			<property name="MoveSpeedPanic" value="1.5"/>
-			<property name="MoveSpeedRand" value="-.2, .25"/>
+			<property name="MoveSpeedPanic" value="2"/>
 
             <effect_group name="Base Effects">
                 <passive_effect name="HealthMax" operation="base_set" value="1200" />
@@ -24244,10 +24268,9 @@
 			<property name="Mesh" value="#@modfolder:Resources/FR_Pandemic.unity3d?PandemicMan001a_FR"/>		
 			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotOrange" />
-			<property name="MoveSpeed" value="1.5"/> 
+			<property name="MoveSpeed" value="2"/> 
 			<property name="MoveSpeedAggro" value="2"/>
-			<property name="MoveSpeedPanic" value="1.5"/>
-			<property name="MoveSpeedRand" value="-.2, .25"/>
+			<property name="MoveSpeedPanic" value="2"/>
 			<property name="LootDropProb" value="0"/>
 			<effect_group name="FuriousRamsayVanishBuff">
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayVanishTimer"/>
@@ -24260,10 +24283,9 @@
 			<property name="Mesh" value="#@modfolder:Resources/FR_Pandemic.unity3d?PandemicMan001a_FR"/>		
 			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotOrange" />
-			<property name="MoveSpeed" value="1.5"/> 
+			<property name="MoveSpeed" value="2"/> 
 			<property name="MoveSpeedAggro" value="2"/>
-			<property name="MoveSpeedPanic" value="1.5"/>
-			<property name="MoveSpeedRand" value="-.2, .25"/>
+			<property name="MoveSpeedPanic" value="2"/>
 			<property name="LootDropProb" value="0"/>
 			<effect_group name="FuriousRamsayVanishBuff">
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayVanishTimer"/>
@@ -24276,10 +24298,9 @@
 			<property name="Mesh" value="#@modfolder:Resources/FR_Pandemic.unity3d?PandemicWoman001a_FR"/>		
 			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotOrange" />
-			<property name="MoveSpeed" value="1.5"/> 
+			<property name="MoveSpeed" value="2"/> 
 			<property name="MoveSpeedAggro" value="2"/>
-			<property name="MoveSpeedPanic" value="1.5"/>
-			<property name="MoveSpeedRand" value="-.2, .25"/>
+			<property name="MoveSpeedPanic" value="2"/>
 			<property name="LootDropProb" value="0"/>
 			<effect_group name="FuriousRamsayVanishBuff">
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayVanishTimer"/>
@@ -24292,10 +24313,9 @@
 			<property name="Mesh" value="#@modfolder:Resources/FR_Pandemic.unity3d?PandemicWoman001a_FR"/>		
 			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotOrange" />
-			<property name="MoveSpeed" value="1.5"/> 
+			<property name="MoveSpeed" value="2"/> 
 			<property name="MoveSpeedAggro" value="2"/>
-			<property name="MoveSpeedPanic" value="1.5"/>
-			<property name="MoveSpeedRand" value="-.2, .25"/>
+			<property name="MoveSpeedPanic" value="2"/>
 			<property name="LootDropProb" value="0"/>
 			<effect_group name="FuriousRamsayVanishBuff">
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayVanishTimer"/>
@@ -24756,6 +24776,8 @@
 			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="FuriousRamsayNPCKatana003"/>
 			<effect_group name="WeaponType"> 
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="MacheteUser"/>
+				<passive_effect name="WalkSpeed" operation="base_set" value="1"/>
+				<passive_effect name="RunSpeed" operation="base_set" value="1"/> 
 			</effect_group>
 		</entity_class>	
 
@@ -24772,6 +24794,8 @@
 			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="FuriousRamsayNPCKatana002Tier1"/>
 			<effect_group name="WeaponType"> 
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="MacheteUser"/>
+				<passive_effect name="WalkSpeed" operation="base_set" value="1"/>
+				<passive_effect name="RunSpeed" operation="base_set" value="1"/> 
 			</effect_group>
 		</entity_class>	
 
@@ -24788,6 +24812,8 @@
 			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="FuriousRamsayNPCKatana002Tier2"/>
 			<effect_group name="WeaponType"> 
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="MacheteUser"/>
+				<passive_effect name="WalkSpeed" operation="base_set" value="1"/>
+				<passive_effect name="RunSpeed" operation="base_set" value="1"/> 
 			</effect_group>
 		</entity_class>	
 
@@ -24804,6 +24830,8 @@
 			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="FuriousRamsayNPCKatana002Tier3"/>
 			<effect_group name="WeaponType"> 
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="MacheteUser"/>
+				<passive_effect name="WalkSpeed" operation="base_set" value="1"/>
+				<passive_effect name="RunSpeed" operation="base_set" value="1"/> 
 			</effect_group>
 		</entity_class>	
 
@@ -24820,6 +24848,8 @@
 			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="FuriousRamsayNPCKatana002Tier4"/>
 			<effect_group name="WeaponType"> 
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="MacheteUser"/>
+				<passive_effect name="WalkSpeed" operation="base_set" value="1"/>
+				<passive_effect name="RunSpeed" operation="base_set" value="1"/> 
 			</effect_group>
 		</entity_class>	
 
@@ -24836,6 +24866,8 @@
 			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="FuriousRamsayNPCKatana002Tier5"/>
 			<effect_group name="WeaponType"> 
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="MacheteUser"/>
+				<passive_effect name="WalkSpeed" operation="base_set" value="1"/>
+				<passive_effect name="RunSpeed" operation="base_set" value="1"/> 
 			</effect_group>
 		</entity_class>	
 

@@ -1,0 +1,5 @@
+C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\zz_TraderNetwork_MoreJobs__Utils\obj\Debug\RebirthUtils.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\zz_TraderNetwork_MoreJobs__Utils\obj\Debug\RebirthUtils.dll
+C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\zz_TraderNetwork_MoreJobs__Utils\obj\Debug\RebirthUtils.pdb
+C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\zz_TraderNetwork_MoreJobs__Utils\RebirthUtils.dll
+C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\zz_TraderNetwork_MoreJobs__Utils\RebirthUtils.pdb

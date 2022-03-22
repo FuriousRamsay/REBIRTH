@@ -29,9 +29,6 @@
 	<!-- INCREASE STACKS -->
 	<setattribute xpath="/items/item[@name='toolAnvil']/property[@name='Stacknumber']" name="value">500</setattribute>
 
-	<!-- VEHICLE MADNESS -->
-	<setattribute xpath="/items/item[@name='SedanRepairTool']/property[@name='UnlockedBy']" name="value">meleeToolSalvageT1WrenchSchematic</setattribute>
-	
 	<!-- REMOVE TIERS FROM ITEMS -->
 	<setattribute xpath="/items/item[@name='solarCell']/effect_group" name="tiered">false</setattribute>
 

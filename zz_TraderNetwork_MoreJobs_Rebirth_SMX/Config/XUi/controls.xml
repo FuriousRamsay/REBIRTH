@@ -1,0 +1,7 @@
+<Config>
+
+	<!-- CATEGORIES -->
+	<setattribute xpath="/controls/smxui_toolbelt_item_stack[@controller='ItemStack']/rect/sprite[@name='durabilityBackground']" name="height">10</setattribute>
+	<setattribute xpath="/controls/smxui_toolbelt_item_stack[@controller='ItemStack']/rect/sprite[@name='durability']" name="height">10</setattribute>
+
+</Config>

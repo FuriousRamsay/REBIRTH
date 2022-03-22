@@ -4,6 +4,8 @@
 	<setattribute xpath="//entity_class[@name='npcMeleeTemplate']/effect_group[@name='Base Effects']/passive_effect[@name='BuffResistance' and @value='1']" name="tags">buffInjuryBleeding,buffInjuryBleedingZombie,buffPlayerFallingDamage</setattribute>
 	<setattribute xpath="//entity_class[@name='npcMeleeTemplate']/effect_group[@name='Base Effects']/passive_effect[@name='BuffResistance']" name="value">200</setattribute>
 
+	<!--<setattribute xpath="//entity_class[@name='npcMeleeTemplate']/effect_group/passive_effect[@name='WalkSpeed']" name="value">1</setattribute>-->
+
 	<remove xpath="//entity_class[starts-with(@name, 'npc')]/property[@name='AIPackages']"/>
 	
 	<remove xpath="//entity_class[@name='npcMeleeTemplate']/effect_group[starts-with(@name, 'EntityDamageLeaderLevel')]"/>
@@ -32,7 +34,7 @@
 												@name='npcSpearTemplate' or
 												@name='npcMacheteTemplate'
 												]">
-		<property name="AIPackages" value="NPCModNPCMeleeBasic"/>
+		<property name="AIPackages" value="NPCModBasicMeleeNoChat, NPCModNPCMeleeBasic"/>
 	</append>
 
 	<append xpath="/entity_classes/entity_class[@name='npcPipeShotgunTemplate' or

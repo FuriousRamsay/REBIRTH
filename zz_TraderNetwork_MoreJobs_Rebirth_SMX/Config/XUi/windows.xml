@@ -1,0 +1,8 @@
+<Config>
+
+	<setattribute xpath="/windows/window[@name='FuriousRamsayWindowClassInfo']/rect[@name='FuriousRamsayClassInfo']" name="pos">30,190</setattribute>
+
+	<setattribute xpath="/windows/window[@name='FuriousRamsayWindowClassInfo']/rect[@name='FuriousRamsayClassInfo']/rect[@name='FuriousRamsayClassInfoContainer']" name="height">120</setattribute>
+	<setattribute xpath="/windows/window[@name='FuriousRamsayWindowClassInfo']/rect[@name='FuriousRamsayClassInfo']/rect[@name='FuriousRamsayClassInfoContainer']/filledsprite[@name='FRbackground']" name="height">120</setattribute>
+
+</Config>

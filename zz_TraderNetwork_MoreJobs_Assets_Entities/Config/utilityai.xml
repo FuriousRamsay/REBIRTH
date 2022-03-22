@@ -19,7 +19,6 @@
 				<action name="Wander" weight="1" entity_filter="IsSelf"><!-- Lowest weight, so wander doesnt win against any other action, yet will score true so the NPC does something if not busy in dialog. -->
 					<task class="WanderSDX, SCore"/>
 					<task class="IdleSDX, SCore" OnStartAddBuffs="RandomWanderIdle" OnStopRemoveBuffs="RandomWanderIdle" timeout="50" /><!-- fires an Idle buff on start, removes same on exit  -->
-					<consideration class="HasOrder, SCore" order="None, Wander"/> <!-- blocks the action when it has an order not listed  -->
 				</action>
 				<action name="Chat" weight="2" entity_filter="IsPlayer">
                     <task class="IdleSDX, SCore" OnStartAddBuffs="RandomIdle" OnStopRemoveBuffs="RandomIdle" /> 
@@ -37,7 +36,6 @@
 				<action name="Wander" weight="1" entity_filter="IsSelf"><!-- Lowest weight, so wander doesnt win against any other action, yet will score true so the NPC does something if not busy in dialog. -->
 					<task class="WanderSDX, SCore"/>
 					<task class="IdleSDX, SCore" OnStartAddBuffs="RandomWanderIdle" OnStopRemoveBuffs="RandomWanderIdle" timeout="50" /><!-- fires an Idle buff on start, removes same on exit  -->
-					<consideration class="HasOrder, SCore" order="None, Wander"/> <!-- blocks the action when it has an order not listed  -->
 				</action>
 			</ai_package>
 
@@ -129,17 +127,14 @@
 				<action name="Wander" weight="1" entity_filter="IsSelf">
 					<task class="WanderSDX, SCore"/>
 					<task class="IdleSDX, SCore" OnStartAddBuffs="RandomWanderIdle" OnStopRemoveBuffs="RandomWanderIdle" timeout="50" />
-					<consideration class="HasOrder, SCore" order="None, Wander"/>
 				</action>
 				<action name="MoveToEnemyRunMeleeControlAttacked" weight="4">
 					<task class="MoveToTargetSDX, SCore" run="true" action_index="1" />
-					<consideration class="NotInWeaponRange, SCore" action_index="0" /> 
-					<consideration class="CanSeeTarget, SCore"/>
+					<consideration class="NotInWeaponRange, SCore" action_index="0" />
 				</action>
 				<action name="MeleeAttackEntityControlAttacked" weight="5">
 					<task class="AttackTargetEntitySDX, SCore" action_index="0"/>
 					<consideration class="InWeaponRange, SCore" action_index="0" />
-					<consideration class="CanSeeTarget, SCore"/>
 				</action>
 			</ai_package>	
 		</append>

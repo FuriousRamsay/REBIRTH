@@ -77,9 +77,7 @@
 	<!--<setattribute xpath="/buffs/buff[@name='buffNPCModModeChange1']/effect_group/triggered_effect[@action='PlaySound']" name="sound">NPCFullControlMode</setattribute>-->
 
 	<remove xpath="//buff[@name='buffNPCModVerifyCurrentActions']/effect_group/triggered_effect[@buff='buffNPCModHuntingModeDisplay']"/>
-	<remove xpath="//buff[@name='buffNPCModVerifyCurrentActions']/effect_group/triggered_effect[@buff='buffNPCModThreatControlMode']"/>
 	<remove xpath="//buff[@name='buffNPCModVerifyCurrentActions']/effect_group/triggered_effect[@buff='buffNPCModThreatControlModeDisplay']"/>
-	<remove xpath="//buff[@name='buffNPCModVerifyCurrentActions']/effect_group/triggered_effect[@buff='buffNPCModFullControlMode']"/>
 	<remove xpath="//buff[@name='buffNPCModVerifyCurrentActions']/effect_group/triggered_effect[@buff='buffNPCModFullControlModeDisplay']"/>
 
 	<append xpath="/buffs/buff[@name='buffNPCModVerifyCurrentActions']/effect_group[@name='buffNPCModVerifyCurrentActions']">

@@ -1,0 +1,85 @@
+Key,Source,Context,English
+
+furiousramsayattmisery,progression,Attribute,Misery
+FuriousRamsayAttMiseryDesc,progression,Attribute,"Your environment appears to become increasingly challenging.\n\nMarked enemies get stronger as you [b658c4]kill[-] them, [c45858]die[-] or [bec257]progress[-]."
+FuriousRamsayAttMiseryName,progression,Attribute,Misery
+
+FuriousRamsaySkillDisturbanceName,progression,Skill,Disturbance
+FuriousRamsaySkillDisturbanceDesc,progression,Skill,[416eb8]DISTURBANCE[-] Description
+
+FuriousRamsayPerkAscensionName,progression,perk,[bec257]Ascension[-]
+FuriousRamsayPerkAscensionDesc,progression,perk,"Marked enemies [bec257]Ascend[-] as you level up. Don't think you're the only one who gets to become stronger."
+FuriousRamsayPerkDownfallName,progression,perk,[c45858]Downfall[-]
+FuriousRamsayPerkDownfallDesc,progression,perk,"Marked enemies benefit from your [c45858]Downfalls[-].\n\nEvery death beyond [56ba60]LEVEL {cvar(varFuriousRamsayTheyGrowStrongerTierPlayerLevel01:0)}[-] will make them tougher"
+FuriousRamsayPerkNaturalSelectionName,progression,perk,[b658c4]Natural Selection[-]
+FuriousRamsayPerkNaturalSelectionDesc,progression,perk,"Zombies evolve through [b658c4]Natural Selection[-] as you weed out the weaker ones."
+
+FuriousRamsayAttMiseryRank01Desc,progression,Attribute,"Misery [46aba1]Level 1[-]"
+FuriousRamsayAttMiseryRank01LongDesc,progression,Attribute,"You have this sinking feeling that your environment is constantly evolving.\n\nYou'll have to adjust to whatever comes next."
+
+FuriousRamsayPerkAscensionRank1Desc,progression,perk,"Ascension Level 1"
+FuriousRamsayPerkAscensionRank1LongDesc,progression,perk,"Marked enemies [bec257]Ascend[-] when you reach [56ba60]LEVEL {cvar(varFuriousRamsayTheyGrowStrongerTierPlayerLevel01:0)}[-]\n\nThey will have a [56ba60]1.25%[-] chance to have the following:\n • Have periodic [cdd15c]Speed Bursts[-]"
+FuriousRamsayPerkAscensionRank2Desc,progression,perk,"Ascension Level 2"
+FuriousRamsayPerkAscensionRank2LongDesc,progression,perk,"Marked enemies [bec257]Ascend[-] when you reach [56ba60]LEVEL {cvar(varFuriousRamsayTheyGrowStrongerTierPlayerLevel02:0)}[-]\n\nThey will have a [56ba60]2.5%[-] chance to have the following:\n • Have periodic [cdd15c]Speed Bursts[-]"
+FuriousRamsayPerkAscensionRank3Desc,progression,perk,"Ascension Level 3"
+FuriousRamsayPerkAscensionRank3LongDesc,progression,perk,"Marked enemies [bec257]Ascend[-] when you reach [56ba60]LEVEL {cvar(varFuriousRamsayTheyGrowStrongerTierPlayerLevel03:0)}[-]\n\nThey will have a [56ba60]3.75%[-] chance to have a combination of the following:\n • Be [bf303c]Fire Immune[-]\n • Have periodic [cdd15c]Speed Bursts[-]"
+FuriousRamsayPerkAscensionRank4Desc,progression,perk,"Ascension Level 4"
+FuriousRamsayPerkAscensionRank4LongDesc,progression,perk,"Marked enemies [bec257]Ascend[-] when you reach [56ba60]LEVEL {cvar(varFuriousRamsayTheyGrowStrongerTierPlayerLevel04:0)}[-]\n\nThey will have a [56ba60]5%[-] chance to have a combination of the following:\n • Be [bf303c]Fire Immune[-]\n • Have periodic [cdd15c]Speed Bursts[-]"
+FuriousRamsayPerkAscensionRank5Desc,progression,perk,"Ascension Level 5"
+FuriousRamsayPerkAscensionRank5LongDesc,progression,perk,"Marked enemies [bec257]Ascend[-] when you reach [56ba60]LEVEL {cvar(varFuriousRamsayTheyGrowStrongerTierPlayerLevel05:0)}[-]\n\nThey will have a [56ba60]6.25%[-] chance to have a combination of the following:\n • Be [bf303c]Fire Immune[-]\n • Have periodic [cdd15c]Speed Bursts[-]"
+FuriousRamsayPerkAscensionRank6Desc,progression,perk,"Ascension Level 6"
+FuriousRamsayPerkAscensionRank6LongDesc,progression,perk,"Marked enemies [bec257]Ascend[-] when you reach [56ba60]LEVEL {cvar(varFuriousRamsayTheyGrowStrongerTierPlayerLevel06:0)}[-]\n\nThey will have a [56ba60]7.5%[-] chance to have a combination of the following:\n • Be [bf303c]Fire Immune[-]\n • Be [2ea3b8]Shock Immune[-]\n • Have periodic [cdd15c]Speed Bursts[-]"
+FuriousRamsayPerkAscensionRank7Desc,progression,perk,"Ascension Level 7"
+FuriousRamsayPerkAscensionRank7LongDesc,progression,perk,"Marked enemies [bec257]Ascend[-] when you reach [56ba60]LEVEL {cvar(varFuriousRamsayTheyGrowStrongerTierPlayerLevel07:0)}[-]\n\nThey will have a [56ba60]8.75%[-] chance to have a combination of the following:\n • Be [bf303c]Fire Immune[-]\n • Be [2ea3b8]Shock Immune[-]\n • Have periodic [cdd15c]Speed Bursts[-]"
+FuriousRamsayPerkAscensionRank8Desc,progression,perk,"Ascension Level 8"
+FuriousRamsayPerkAscensionRank8LongDesc,progression,perk,"Marked enemies [bec257]Ascend[-] when you reach [56ba60]LEVEL {cvar(varFuriousRamsayTheyGrowStrongerTierPlayerLevel08:0)}[-]\n\nThey will have a [56ba60]10%[-] chance to have a combination of the following:\n • Be [bf303c]Fire Immune[-]\n • Be [2ea3b8]Shock Immune[-]\n • Have periodic [cdd15c]Speed Bursts[-]"
+FuriousRamsayPerkAscensionRank9Desc,progression,perk,"Ascension Level 9"
+FuriousRamsayPerkAscensionRank9LongDesc,progression,perk,"Marked enemies [bec257]Ascend[-] when you reach [56ba60]LEVEL {cvar(varFuriousRamsayTheyGrowStrongerTierPlayerLevel09:0)}[-]\n\nThey will have a [56ba60]11.25%[-] chance to have a combination of the following:\n • Be [bf303c]Fire Immune[-]\n • Be [2ea3b8]Shock Immune[-]\n • Have periodic [cdd15c]Speed Bursts[-]"
+FuriousRamsayPerkAscensionRank10Desc,progression,perk,"Ascension Level 10"
+FuriousRamsayPerkAscensionRank10LongDesc,progression,perk,"Marked enemies [bec257]Ascend[-] when you reach [56ba60]LEVEL {cvar(varFuriousRamsayTheyGrowStrongerTierPlayerLevel10:0)}[-]\n\nThey will have a [56ba60]12.5%[-] chance to have a combination of the following:\n • Be [bf303c]Fire Immune[-]\n • Be [2ea3b8]Shock Immune[-]\n • Have periodic [cdd15c]Speed Bursts[-]"
+
+FuriousRamsayPerkDownfallRank1Desc,progression,perk,"Downfall Level 1"
+FuriousRamsayPerkDownfallRank1LongDesc,progression,perk,"Marked enemies will become resistant to physical damage:\n • [56ba60]3%[-] after [c45858]{cvar(varFuriousRamsayTheyGrowStrongerTierDeaths01:0)}[-] deaths"
+FuriousRamsayPerkDownfallRank2Desc,progression,perk,"Downfall Level 2"
+FuriousRamsayPerkDownfallRank2LongDesc,progression,perk,"Marked enemies will become resistant to physical damage:\n • [56ba60]6%[-] after [c45858]{cvar(varFuriousRamsayTheyGrowStrongerTierDeaths02:0)}[-] deaths"
+FuriousRamsayPerkDownfallRank3Desc,progression,perk,"Downfall Level 3"
+FuriousRamsayPerkDownfallRank3LongDesc,progression,perk,"Marked enemies will become resistant to physical damage:\n • [56ba60]9%[-] after [c45858]{cvar(varFuriousRamsayTheyGrowStrongerTierDeaths03:0)}[-] deaths"
+FuriousRamsayPerkDownfallRank4Desc,progression,perk,"Downfall Level 4"
+FuriousRamsayPerkDownfallRank4LongDesc,progression,perk,"Marked enemies will become resistant to physical damage:\n • [56ba60]12%[-] after [c45858]{cvar(varFuriousRamsayTheyGrowStrongerTierDeaths04:0)}[-] deaths"
+FuriousRamsayPerkDownfallRank5Desc,progression,perk,"Downfall Level 5"
+FuriousRamsayPerkDownfallRank5LongDesc,progression,perk,"Marked enemies will become resistant to physical damage:\n • [56ba60]15%[-] after [c45858]{cvar(varFuriousRamsayTheyGrowStrongerTierDeaths05:0)}[-] deaths"
+FuriousRamsayPerkDownfallRank6Desc,progression,perk,"Downfall Level 6"
+FuriousRamsayPerkDownfallRank6LongDesc,progression,perk,"Marked enemies will become resistant to physical damage:\n • [56ba60]18%[-] after [c45858]{cvar(varFuriousRamsayTheyGrowStrongerTierDeaths06:0)}[-] deaths"
+FuriousRamsayPerkDownfallRank7Desc,progression,perk,"Downfall Level 7"
+FuriousRamsayPerkDownfallRank7LongDesc,progression,perk,"Marked enemies will become resistant to physical damage:\n • [56ba60]21%[-] after [c45858]{cvar(varFuriousRamsayTheyGrowStrongerTierDeaths07:0)}[-] deaths"
+FuriousRamsayPerkDownfallRank8Desc,progression,perk,"Downfall Level 8"
+FuriousRamsayPerkDownfallRank8LongDesc,progression,perk,"Marked enemies will become resistant to physical damage:\n • [56ba60]24%[-] after [c45858]{cvar(varFuriousRamsayTheyGrowStrongerTierDeaths08:0)}[-] deaths"
+FuriousRamsayPerkDownfallRank9Desc,progression,perk,"Downfall Level 9"
+FuriousRamsayPerkDownfallRank9LongDesc,progression,perk,"Marked enemies will become resistant to physical damage:\n • [56ba60]27%[-] after [c45858]{cvar(varFuriousRamsayTheyGrowStrongerTierDeaths09:0)}[-] deaths"
+FuriousRamsayPerkDownfallRank10Desc,progression,perk,"Downfall Level 10"
+FuriousRamsayPerkDownfallRank10LongDesc,progression,perk,"Marked enemies will become resistant to physical damage:\n • [56ba60]30%[-] after [c45858]{cvar(varFuriousRamsayTheyGrowStrongerTierDeaths10:0)}[-] deaths"
+
+FuriousRamsayPerkNaturalSelectionRank1Desc,progression,perk,"Natural Selection Level 1"
+FuriousRamsayPerkNaturalSelectionRank1LongDesc,progression,perk,"After [56ba60]{cvar(varFuriousRamsayTheyGrowStrongerTierKills01:0)}[-] Zombie kills, they will have a [56ba60]2.5%[-] chance to have a combination of the following:\n • Get [c45858]5%[-] more health\n • Regenerate [c45858]0.5[-] health per second\n • Walk/Run [cdd15c]5%[-] faster\n • Do [c45858]5%[-] more damage\n • Attack [c45858]5%[-] faster"
+FuriousRamsayPerkNaturalSelectionRank2Desc,progression,perk,"Natural Selection Level 2"
+FuriousRamsayPerkNaturalSelectionRank2LongDesc,progression,perk,"After [56ba60]{cvar(varFuriousRamsayTheyGrowStrongerTierKills02:0)}[-] Zombie kills, they will have a [56ba60]5%[-] chance to have a combination of the following:\n • Get [c45858]10%[-] more health\n • Regenerate [c45858]1[-] health per second\n • Walk/Run [cdd15c]10%[-] faster\n • Do [c45858]10%[-] more damage\n • Attack [c45858]10%[-] faster"
+FuriousRamsayPerkNaturalSelectionRank3Desc,progression,perk,"Natural Selection Level 3"
+FuriousRamsayPerkNaturalSelectionRank3LongDesc,progression,perk,"After [56ba60]{cvar(varFuriousRamsayTheyGrowStrongerTierKills03:0)}[-] Zombie kills, they will have a [56ba60]7.5%[-] chance to have a combination of the following:\n • Get [c45858]25%[-] more health\n • Regenerate [c45858]1.5[-] health per second\n • Walk/Run [cdd15c]15%[-] faster\n • Do [c45858]15%[-] more damage\n • Attack [c45858]15%[-] faster"
+FuriousRamsayPerkNaturalSelectionRank4Desc,progression,perk,"Natural Selection Level 4"
+FuriousRamsayPerkNaturalSelectionRank4LongDesc,progression,perk,"After [56ba60]{cvar(varFuriousRamsayTheyGrowStrongerTierKills04:0)}[-] Zombie kills, they will have a [56ba60]10%[-] chance to have a combination of the following:\n • Get [c45858]20%[-] more health\n • Regenerate [c45858]2[-] health per second\n • Walk/Run [cdd15c]20%[-] faster\n • Do [c45858]20%[-] more damage\n • Attack [c45858]20%[-] faster"
+FuriousRamsayPerkNaturalSelectionRank5Desc,progression,perk,"Natural Selection Level 5"
+FuriousRamsayPerkNaturalSelectionRank5LongDesc,progression,perk,"After [56ba60]{cvar(varFuriousRamsayTheyGrowStrongerTierKills05:0)}[-] Zombie kills, they will have a [56ba60]12.5%[-] chance to have a combination of the following:\n • Get [c45858]25%[-] more health\n • Regenerate [c45858]2.5[-] health per second\n • Walk/Run [cdd15c]25%[-] faster\n • Do [c45858]25%[-] more damage\n • Attack [c45858]25%[-] faster"
+FuriousRamsayPerkNaturalSelectionRank6Desc,progression,perk,"Natural Selection Level 6"
+FuriousRamsayPerkNaturalSelectionRank6LongDesc,progression,perk,"After [56ba60]{cvar(varFuriousRamsayTheyGrowStrongerTierKills06:0)}[-] Zombie kills, they will have a [56ba60]15%[-] chance to have a combination of the following:\n • Get [c45858]30%[-] more health\n • Regenerate [c45858]3.25[-] health per second\n • Walk/Run [cdd15c]30%[-] faster\n • Do [c45858]30%[-] more damage\n • Attack [c45858]30%[-] faster"
+FuriousRamsayPerkNaturalSelectionRank7Desc,progression,perk,"Natural Selection Level 7"
+FuriousRamsayPerkNaturalSelectionRank7LongDesc,progression,perk,"After [56ba60]{cvar(varFuriousRamsayTheyGrowStrongerTierKills07:0)}[-] Zombie kills, they will have a [56ba60]17.5%[-] chance to have a combination of the following:\n • Get [c45858]35%[-] more health\n • Regenerate [c45858]4[-] health per second\n • Walk/Run [cdd15c]35%[-] faster\n • Do [c45858]35%[-] more damage\n • Attack [c45858]35%[-] faster"
+FuriousRamsayPerkNaturalSelectionRank8Desc,progression,perk,"Natural Selection Level 8"
+FuriousRamsayPerkNaturalSelectionRank8LongDesc,progression,perk,"After [56ba60]{cvar(varFuriousRamsayTheyGrowStrongerTierKills08:0)}[-] Zombie kills, they will have a [56ba60]20%[-] chance to have a combination of the following:\n • Get [c45858]40%[-] more health\n • Regenerate [c45858]4.75[-] health per second\n • Walk/Run [cdd15c]40%[-] faster\n • Do [c45858]40%[-] more damage\n • Attack [c45858]40%[-] faster"
+FuriousRamsayPerkNaturalSelectionRank9Desc,progression,perk,"Natural Selection Level 9"
+FuriousRamsayPerkNaturalSelectionRank9LongDesc,progression,perk,"After [56ba60]{cvar(varFuriousRamsayTheyGrowStrongerTierKills09:0)}[-] Zombie kills, they will have a [56ba60]22.5%[-] chance to have a combination of the following:\n • Get [c45858]45%[-] more health\n • Regenerate [c45858]6[-] health per second\n • Walk/Run [cdd15c]45%[-] faster\n • Do [c45858]45%[-] more damage\n • Attack [c45858]45%[-] faster"
+FuriousRamsayPerkNaturalSelectionRank10Desc,progression,perk,"Natural Selection Level 10"
+FuriousRamsayPerkNaturalSelectionRank10LongDesc,progression,perk,"After [56ba60]{cvar(varFuriousRamsayTheyGrowStrongerTierKills10:0)}[-] Zombie kills, they will have a [56ba60]25%[-] chance to have a combination of the following:\n • Get [c45858]50%[-] more health\n • Regenerate [c45858]8[-] health per second\n • Walk/Run [cdd15c]50%[-] faster\n • Do [c45858]50%[-] more damage\n • Attack [c45858]50%[-] faster"
+
+FuriousRamsayReqAscension01,progression,Attribute,"Level your Player"
+FuriousRamsayReqDownfall01,progression,Attribute,"Die!"
+FuriousRamsayReqNaturalSelection01,progression,Attribute,"Kill Stuff"
