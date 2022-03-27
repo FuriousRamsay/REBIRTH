@@ -46,33 +46,76 @@ Add PartyGirlRadiated
 Add zombieTomClark(s)
 
 REBIRTH:
-(FOR TESTING ONLY) Rebirth Version A20.3Exp-2022-03-22-0100 (FOR TESTING ONLY)
-(WILL LIKELY REQUIRE A NEW PLAYTHROUGH)
-Reworked NPC control to improve performance
-NPCs will be under Full Control by default
-Adjusted Logos on Menu Screen
-Various tweaks to NPC AI
-Reworked NPC resistances (elemental and physical)
-NPC Physical Resistance will be based on their weapon types:
-	- Low (Armor Class 10): all Pipe weapons, Wooden bows
-	- Mid (Armor Class 20): all Melee weapons, Crossbow, Hunting Rifle, Pistol, Pump Shotgun, AK-47
-	- High (Armor Class 30): all other Ranged weapons
-(Will do another pass to align to specific models at a later stage)
-Adjusted custom zombie life
-Fixed missing Hunter localization
-Added Trader Network HUD to optional Mods folder
-Remove Tier completion rewards (Bicycle, Minibike and Motorcycle parts)
-Adjusted Hazard and Faction War quest difficulty
-http://38.17.55.139/Rebirth-2022-03-22-0100.zip
+(TESTING SERVER ONLY) Rebirth Version A20.3Exp-2022-03-25-1935 (TESTING SERVER ONLY)
+(ALL CHANGES ARE SERVER-SIDE, NO CLIENT UPDATE REQUIRED)
+Disabled Trader Network legacy visual buffs to improve performance
+Removed All Terrain, Fire and Shock Motorcycles
+Removed UMA Bandits
+Fixed NPCs not always granting their leaders experience for kills
+NPCs will now grant you kills towards your Natural Selection thresholds
+Added Natural Selection kill counter in Class window when using the SMX HUD
+Experience and Kills gained from NPC require them to be at a minimum of 20m from you
+Hired Ranged NPCs will benefit from your Class Aura at a rate of 5% chance to trigger
+Zombies now use faction targeting
+Created custom Melee NPC controller to improve on performance
+http://38.17.55.139/Rebirth-2022-03-25-1935.zip
+
+PENDING:
+NPCs you decided to "store away" will no longer show a death animation
+Hired NPCs following you will no longer destabilize your vehicle while driving
 
 TODO:
-Make removal of melee for ranged entities occur at end of UAI file
-Adjust range of weapons
-Adjust backing up of entities (8,12,16?)
+Heavy attack anim does not synch with damage dealt (too slow)
+Add Survivor melee hire and no hire (right now xml points to hire, models to no hire
+Bandits and survivors flee when health below a certain amount
+New Melee classes are lootable, no bag drops
+Patch Entityzombie to candamage, maybe through a new class
+Make zombies fight each other if they hurt each other
+Natural Selection font gets small after 100
+Weigthed mod doesn't work on the baton
+Ranged NPCs were shooting at the junk turret
+Have explsive immune zombies show up in forest biome
+Have event occur less often
+Reduce chance to loot propane tank
+My traders did not contribute to me getting fire zombie kills
+Switch zombies to use faction targeting?
+Check why thirst isn't going down as fast as food
+Check heal rate of honey
+Missing localization for mercenary quests
+No prompt from mercery trader when he shows up on dedi
+Hired ranged NPC do not attack in hunting mode
+001b2pipepistolnohire no name
+Remove high-end ammo
+weigthed mod and blade mods should go in bladed baton
+Does robotic turret have random entity damage stats?
 
-Move Custom Traders to Global Achievements (player level?)
-Remove custom traders from tier completion quests
-Bring back mercenary trader, pop up a quest dialog?
+Dog anim stops on dedi after a while
+Ability to hire some NPCs from a Trader
+
+Black Shield Androids don't attack on dedi?
+
+Optional modlet for old life bar
+
+Add the spider pack as an event?
+
+Integrate SMX UI
+
+NullReferenceException: Object reference not set to an instance of an object
+  at XUiC_QuestTurnInWindowGroup.OnClose () [0x00090] in <39cf8b713b17414c9e5ddfff01d6df19>:0 
+  at XUiC_QuestTurnInWindowGroup.TryNextComplete () [0x00039] in <39cf8b713b17414c9e5ddfff01d6df19>:0 
+  at XUiC_QuestTurnInRewardsWindow.BtnAccept_OnPress (XUiController _sender, System.Int32 _mouseButton) [0x000f0] in <39cf8b713b17414c9e5ddfff01d6df19>:0 
+  at XUiController.OnPressed (System.Int32 _mouseButton) [0x0000e] in <39cf8b713b17414c9e5ddfff01d6df19>:0 
+  at XUiController.Pressed (System.Int32 _mouseButton) [0x00000] in <39cf8b713b17414c9e5ddfff01d6df19>:0 
+  at XUiView.OnClick (UnityEngine.GameObject _go) [0x0003f] in <39cf8b713b17414c9e5ddfff01d6df19>:0 
+  at UIEventListener.OnClick () [0x0001c] in <39cf8b713b17414c9e5ddfff01d6df19>:0 
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+UICamera:Notify(GameObject, String, Object)
+UICamera:ProcessRelease(Boolean, Single)
+UICamera:ProcessTouch(Boolean, Boolean)
+UICamera:ProcessMouse()
+UICamera:ProcessEvents()
+UICamera:Update()
+
 Gate events by player level (choose random numbers based on levels)
 
 Why are Hazard entities so slow?
@@ -101,22 +144,6 @@ Upgrade iron bars (corner) to steel
 Rusty steel axe description
 Add localization for Mercenary buffs
 Just noticed a small UI Bug. My Hunter had Bow Level 0 with 95%Progress. I killed some Zs with my spear and leveled Hunter to Level 4. The progressbar of Bows resetted. I killed some Zs with Bow and got Level 1 BowL
-
-NullReferenceException: Object reference not set to an instance of an object
-  at XUiC_QuestTurnInWindowGroup.OnClose () [0x00090] in <39cf8b713b17414c9e5ddfff01d6df19>:0 
-  at XUiC_QuestTurnInWindowGroup.TryNextComplete () [0x00039] in <39cf8b713b17414c9e5ddfff01d6df19>:0 
-  at XUiC_QuestTurnInRewardsWindow.BtnAccept_OnPress (XUiController _sender, System.Int32 _mouseButton) [0x000f0] in <39cf8b713b17414c9e5ddfff01d6df19>:0 
-  at XUiController.OnPressed (System.Int32 _mouseButton) [0x0000e] in <39cf8b713b17414c9e5ddfff01d6df19>:0 
-  at XUiController.Pressed (System.Int32 _mouseButton) [0x00000] in <39cf8b713b17414c9e5ddfff01d6df19>:0 
-  at XUiView.OnClick (UnityEngine.GameObject _go) [0x0003f] in <39cf8b713b17414c9e5ddfff01d6df19>:0 
-  at UIEventListener.OnClick () [0x0001c] in <39cf8b713b17414c9e5ddfff01d6df19>:0 
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UICamera:Notify(GameObject, String, Object)
-UICamera:ProcessRelease(Boolean, Single)
-UICamera:ProcessTouch(Boolean, Boolean)
-UICamera:ProcessMouse()
-UICamera:ProcessEvents()
-UICamera:Update()
 
 Completion of some knowledge give you a special reward?
 Make a quest for VM workstation in optional modlet

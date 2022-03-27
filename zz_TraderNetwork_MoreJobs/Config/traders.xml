@@ -701,7 +701,7 @@
 		<trader_item_group name="FuriousRamsayVehicles3">
 			<item name="vehicleMotorcyclePlaceable" count="1" prob="1"/>
 			<item name="vehicle4x4TruckPlaceable" count="1" prob="0.3"/>
-			<item name="FuriousRamsayAllTerrainPlaceable" count="1" prob="0.15"/>
+			<!--<item name="FuriousRamsayAllTerrainPlaceable" count="1" prob="0.15"/>-->
 			<item name="vehicleGyrocopterPlaceable" count="1" prob="0.05"/>
 		</trader_item_group>
 
@@ -754,7 +754,7 @@
 				<item group="FuriousRamsayTraderArmorFire" count="1"/>
 				<item group="FuriousRamsayTraderArmorShock" count="1"/>
 				<item group="FuriousRamsayTraderArmorFireShock" count="1"/>
-				<item group="FuriousRamsayTraderLaterVehicles" count="1" prob="0.5"/>
+				<!--<item group="FuriousRamsayTraderLaterVehicles" count="1" prob="0.5"/>-->
 			</tier_items>
 
 			<tier_items level="4000,4999" count="all"> <!-- requires Perk 4 -->
@@ -772,7 +772,7 @@
 				<item group="FuriousRamsayTraderArmorShock" count="1"/>
 				<item group="FuriousRamsayTraderArmorFireShock" count="1"/>
 				<item group="FuriousRamsayTraderArmorSmoke" count="1"/>
-				<item group="FuriousRamsayTraderLaterVehicles" count="1" prob="0.6"/>
+				<!--<item group="FuriousRamsayTraderLaterVehicles" count="1" prob="0.6"/>-->
 			</tier_items>
 
 			<tier_items level="5000,-1" count="all"> <!-- requires Perk 5 -->
@@ -792,7 +792,7 @@
 				<item group="FuriousRamsayTraderArmorFireShock" count="1"/>
 				<item group="FuriousRamsayTraderArmorSmoke" count="1"/>
 				<item group="FuriousRamsayTraderArmorFireShockSmoke" count="1"/>
-				<item group="FuriousRamsayTraderLaterVehicles" count="1" prob="0.7"/>
+				<!--<item group="FuriousRamsayTraderLaterVehicles" count="1" prob="0.7"/>-->
 			</tier_items>
 		</trader_info>
 	

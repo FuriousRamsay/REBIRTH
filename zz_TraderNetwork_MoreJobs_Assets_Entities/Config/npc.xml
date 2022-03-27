@@ -31,7 +31,7 @@
 			portrait="npc_briston"
 			greeting_type="nearby"
 			stance="Like" voice_set="trader_briston"
-			trader_id="70" dialog_id="FuriousRamsayPersonalTraders"/>
+			trader_id="70" dialog_id="FuriousRamsayPersonalTradersBriston"/>
 			<!--quest_list="trader_quests_survivalspecialist" />-->
 
 		<npc_info
@@ -42,7 +42,7 @@
 			portrait="npc_hunter"
 			greeting_type="nearby"
 			stance="Like" voice_set=""
-			trader_id="71" dialog_id="FuriousRamsayPersonalTraders"
+			trader_id="71" dialog_id="FuriousRamsayPersonalTrainerHunter"
 			/>
 			<!--quest_list="trader_quests_huntertrainer" />-->
 
@@ -54,7 +54,7 @@
 			portrait="npc_thug"
 			greeting_type="nearby"
 			stance="Like" voice_set=""
-			trader_id="72" dialog_id="FuriousRamsayPersonalTraders"
+			trader_id="72" dialog_id="FuriousRamsayPersonalTrainerThug"
 			/>
 			<!--quest_list="trader_quests_thugtrainer" />-->
 
@@ -66,7 +66,7 @@
 			portrait="npc_butcher"
 			greeting_type="nearby"
 			stance="Like" voice_set=""
-			trader_id="73" dialog_id="FuriousRamsayPersonalTraders"
+			trader_id="73" dialog_id="FuriousRamsayPersonalTrainerButcher"
 			/>
 			<!--quest_list="trader_quests_butchertrainer" />-->
 
@@ -78,7 +78,7 @@
 			portrait="npc_soldier"
 			greeting_type="nearby"
 			stance="Like" voice_set=""
-			trader_id="74" dialog_id="FuriousRamsayPersonalTraders"
+			trader_id="74" dialog_id="FuriousRamsayPersonalTrainerSoldier"
 			/>
 			<!--quest_list="trader_quests_soldiertrainer" />-->
 
@@ -90,7 +90,7 @@
 			portrait="npc_technogeek"
 			greeting_type="nearby"
 			stance="Like" voice_set=""
-			trader_id="75" dialog_id="FuriousRamsayPersonalTraders"
+			trader_id="75" dialog_id="FuriousRamsayPersonalTrainerTechnogeek"
 			/>
 			<!--quest_list="trader_quests_technogeektrainer" />-->
 
@@ -102,7 +102,7 @@
 			portrait="npc_madman"
 			greeting_type="nearby"
 			stance="Like" voice_set=""
-			trader_id="76" dialog_id="FuriousRamsayPersonalTraders"
+			trader_id="76" dialog_id="FuriousRamsayPersonalTrainerMadman"
 			/>
 			<!--quest_list="trader_quests_madmantrainer" />-->
 
@@ -114,7 +114,7 @@
 			portrait="npc_builder"
 			greeting_type="nearby"
 			stance="Like" voice_set=""
-			trader_id="77" dialog_id="FuriousRamsayPersonalTraders"
+			trader_id="77" dialog_id="FuriousRamsayPersonalTrainerBuilder"
 			/>
 			<!--quest_list="trader_quests_buildertrainer" />-->
 
@@ -126,7 +126,7 @@
 			portrait="npc_chef"
 			greeting_type="nearby"
 			stance="Like" voice_set=""
-			trader_id="78" dialog_id="FuriousRamsayPersonalTraders"
+			trader_id="78" dialog_id="FuriousRamsayPersonalTrainerChef"
 			/>
 
 		<npc_info
@@ -137,7 +137,7 @@
 			portrait="npc_farmer"
 			greeting_type="nearby"
 			stance="Like" voice_set=""
-			trader_id="91" dialog_id="FuriousRamsayPersonalTraders"
+			trader_id="91" dialog_id="FuriousRamsayPersonalTrainerFarmer"
 			/>
 
 		<npc_info
@@ -148,7 +148,7 @@
 			portrait="npc_handyman"
 			greeting_type="nearby"
 			stance="Like" voice_set=""
-			trader_id="92" dialog_id="FuriousRamsayPersonalTraders"
+			trader_id="92" dialog_id="FuriousRamsayPersonalTrainerHandyman"
 			/>
 
 		<npc_info
@@ -159,7 +159,7 @@
 			portrait="npc_blackshield"
 			greeting_type="nearby"
 			stance="Like" voice_set=""
-			trader_id="90" dialog_id="FuriousRamsayPersonalTraders"
+			trader_id="90" dialog_id="FuriousRamsayPersonalTrainerBlackShield"
 			/>
 
 

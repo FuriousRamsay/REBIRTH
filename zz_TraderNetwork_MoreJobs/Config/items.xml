@@ -8243,7 +8243,7 @@
 			<property name="SoundJammed" value="ItemNeedsRepair"/>
 			<property name="SoundDestroy" value="metaldestroy"/>
 
-			<property name="Tags" value="axe,melee,grunting,medium,tool,longShaft,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic,FuriourRamsayIronFireAxe,FuriousRamsayAxes"/>
+			<property name="Tags" value="axe,melee,grunting,medium,tool,longShaft,perkDeepCuts,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic,FuriourRamsayIronFireAxe,FuriousRamsayAxes"/>
 			<property name="DisplayType" value="melee" />
 			<property name="HoldType" value="17" />
 			<property name="Meshfile" value="#Other/Items?Weapons/Melee/Axe/fireaxe_ironPrefab.prefab" />

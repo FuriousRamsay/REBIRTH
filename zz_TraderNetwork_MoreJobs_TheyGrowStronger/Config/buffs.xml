@@ -11,7 +11,7 @@
 			<update_rate value="10"/>
 			<effect_group name="FuriousRamsayVerifyTheyGrowStrongerDeaths">
 				<!-- PLAYER DEATHS TIER 1 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierDeaths01" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierDeaths01" target_tags="zombie">
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths01"/>
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths02"/>
 				</triggered_effect>				
@@ -21,7 +21,7 @@
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths02"/>
 				</triggered_effect>
 				<!-- PLAYER DEATHS TIER 2 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierDeaths02" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierDeaths02" target_tags="zombie">
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths02"/>
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths03"/>
 				</triggered_effect>				
@@ -31,7 +31,7 @@
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths03"/>
 				</triggered_effect>
 				<!-- PLAYER DEATHS TIER 3 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierDeaths03" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierDeaths03" target_tags="zombie">
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths03"/>
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths04"/>
 				</triggered_effect>				
@@ -41,7 +41,7 @@
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths04"/>
 				</triggered_effect>
 				<!-- PLAYER DEATHS TIER 4 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierDeaths04" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierDeaths04" target_tags="zombie">
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths04"/>
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths05"/>
 				</triggered_effect>				
@@ -51,7 +51,7 @@
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths05"/>
 				</triggered_effect>
 				<!-- PLAYER DEATHS TIER 5 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierDeaths05" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierDeaths05" target_tags="zombie">
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths05"/>
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths06"/>
 				</triggered_effect>				
@@ -61,7 +61,7 @@
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths06"/>
 				</triggered_effect>
 				<!-- PLAYER DEATHS TIER 6 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierDeaths06" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierDeaths06" target_tags="zombie">
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths06"/>
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths07"/>
 				</triggered_effect>				
@@ -71,7 +71,7 @@
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths07"/>
 				</triggered_effect>
 				<!-- PLAYER DEATHS TIER 7 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierDeaths07" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierDeaths07" target_tags="zombie">
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths07"/>
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths08"/>
 				</triggered_effect>				
@@ -81,7 +81,7 @@
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths08"/>
 				</triggered_effect>
 				<!-- PLAYER DEATHS TIER 8 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierDeaths08" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierDeaths08" target_tags="zombie">
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths08"/>
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths09"/>
 				</triggered_effect>				
@@ -91,7 +91,7 @@
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths09"/>
 				</triggered_effect>
 				<!-- PLAYER DEATHS TIER 9 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierDeaths09" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierDeaths09" target_tags="zombie">
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths09"/>
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths10"/>
 				</triggered_effect>				
@@ -101,7 +101,7 @@
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths10"/>
 				</triggered_effect>
 				<!-- PLAYER DEATHS TIER 10 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierDeaths10" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierDeaths10" target_tags="zombie">
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerTierDeaths" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierDeaths10"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierDeaths10Player">
@@ -116,7 +116,7 @@
 			<update_rate value="10"/>
 			<effect_group name="FuriousRamsayVerifyTheyGrowStrongerKills">
 				<!-- PLAYER KILLS TIER 1 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierKills01" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierKills01" target_tags="zombie">
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills01"/>
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills02"/>
 				</triggered_effect>				
@@ -126,7 +126,7 @@
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills02"/>
 				</triggered_effect>				
 				<!-- PLAYER KILLS TIER 2 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierKills02" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierKills02" target_tags="zombie">
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills02"/>
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills03"/>
 				</triggered_effect>				
@@ -136,7 +136,7 @@
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills03"/>
 				</triggered_effect>				
 				<!-- PLAYER KILLS TIER 3 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierKills03" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierKills03" target_tags="zombie">
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills03"/>
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills04"/>
 				</triggered_effect>				
@@ -146,7 +146,7 @@
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills04"/>
 				</triggered_effect>				
 				<!-- PLAYER KILLS TIER 4 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierKills04" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierKills04" target_tags="zombie">
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills04"/>
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills05"/>
 				</triggered_effect>				
@@ -156,7 +156,7 @@
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills05"/>
 				</triggered_effect>				
 				<!-- PLAYER KILLS TIER 5 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierKills05" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierKills05" target_tags="zombie">
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills05"/>
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills06"/>
 				</triggered_effect>				
@@ -166,7 +166,7 @@
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills06"/>
 				</triggered_effect>				
 				<!-- PLAYER KILLS TIER 6 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierKills06" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierKills06" target_tags="zombie">
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills06"/>
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills07"/>
 				</triggered_effect>				
@@ -176,7 +176,7 @@
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills07"/>
 				</triggered_effect>				
 				<!-- PLAYER KILLS TIER 7 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierKills07" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierKills07" target_tags="zombie">
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills07"/>
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills08"/>
 				</triggered_effect>				
@@ -186,7 +186,7 @@
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills08"/>
 				</triggered_effect>				
 				<!-- PLAYER KILLS TIER 8 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierKills08" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierKills08" target_tags="zombie">
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills08"/>
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills09"/>
 				</triggered_effect>				
@@ -196,7 +196,7 @@
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills09"/>
 				</triggered_effect>				
 				<!-- PLAYER KILLS TIER 9 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierKills09" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierKills09" target_tags="zombie">
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills09"/>
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills10"/>
 				</triggered_effect>				
@@ -206,7 +206,7 @@
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierKills10"/>
 				</triggered_effect>				
 				<!-- PLAYER KILLS TIER 10 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierKills10" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierKills10" target_tags="zombie">
 					<requirement name="CVarCompare" cvar="$varFuriousRamsayTheyGrowStrongerKills" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierKills10"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierKills10Player">
@@ -221,7 +221,7 @@
 			<update_rate value="5"/>
 			<effect_group name="FuriousRamsayVerifyTheyGrowStrongerLevels">
 				<!-- PLAYER LEVELS TIER 1 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel01" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel01" target_tags="zombie">
 					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel01"/>
 					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel02"/>
 				</triggered_effect>				
@@ -231,7 +231,7 @@
 					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel02"/>
 				</triggered_effect>						
 				<!-- PLAYER LEVELS TIER 2 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel02" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel02" target_tags="zombie">
 					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel02"/>
 					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel03"/>
 				</triggered_effect>				
@@ -241,7 +241,7 @@
 					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel03"/>
 				</triggered_effect>						
 				<!-- PLAYER LEVELS TIER 3 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel03" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel03" target_tags="zombie">
 					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel03"/>
 					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel04"/>
 				</triggered_effect>				
@@ -251,7 +251,7 @@
 					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel04"/>
 				</triggered_effect>						
 				<!-- PLAYER LEVELS TIER 4 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel04" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel04" target_tags="zombie">
 					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel04"/>
 					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel05"/>
 				</triggered_effect>				
@@ -261,7 +261,7 @@
 					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel05"/>
 				</triggered_effect>						
 				<!-- PLAYER LEVELS TIER 5 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel05" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel05" target_tags="zombie">
 					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel05"/>
 					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel06"/>
 				</triggered_effect>
@@ -271,7 +271,7 @@
 					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel06"/>
 				</triggered_effect>						
 				<!-- PLAYER LEVELS TIER 6 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel06" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel06" target_tags="zombie">
 					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel06"/>
 					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel07"/>
 				</triggered_effect>				
@@ -281,7 +281,7 @@
 					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel07"/>
 				</triggered_effect>						
 				<!-- PLAYER LEVELS TIER 7 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel07" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel07" target_tags="zombie">
 					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel07"/>
 					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel08"/>
 				</triggered_effect>				
@@ -291,7 +291,7 @@
 					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel08"/>
 				</triggered_effect>						
 				<!-- PLAYER LEVELS TIER 8 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel08" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel08" target_tags="zombie">
 					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel08"/>
 					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel09"/>
 				</triggered_effect>				
@@ -301,7 +301,7 @@
 					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel09"/>
 				</triggered_effect>						
 				<!-- PLAYER LEVELS TIER 9 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel09" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel09" target_tags="zombie">
 					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel09"/>
 					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel10"/>
 				</triggered_effect>				
@@ -311,7 +311,7 @@
 					<requirement name="PlayerLevel" operation="LT" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel10"/>
 				</triggered_effect>						
 				<!-- PLAYER LEVELS TIER 10 -->
-				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel10" target_tags="zombie">
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="25" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel10" target_tags="zombie">
 					<requirement name="PlayerLevel" operation="GTE" value="@$varFuriousRamsayTheyGrowStrongerTierPlayerLevel10"/>
 				</triggered_effect>				
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="FuriousRamsayTheyGrowStrongerTierPlayerLevel10Player">

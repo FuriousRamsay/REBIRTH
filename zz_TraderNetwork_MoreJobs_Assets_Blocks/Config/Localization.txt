@@ -274,7 +274,7 @@ FuriousRamsayImportantClassBook,items,Items,Important Note
 FuriousRamsayImportantClassBookDesc,items,Items,"You got your hands on the Starter Pack. It contains a Class Reference Book and some concoction that will apparently improve on your current physical condition.\n\nYou should use this book to determine which path to follow.\n\nThe Class Reference Book lists the recipes you'll need to retrieve the Training Instructions for the Class you wish to specialize in."
 
 FuriousRamsayImportantComponents,items,Items,Important Note
-FuriousRamsayImportantComponentsDesc,items,Items,"[569c59]You will need a number of components for crafting. Here are a few tips on where to find some of them[-]:\n • [57ada6]Small Motors[-] from salvaging Refrigerators, Ice Machines,Washers and Dryers, Air Conditioners, etc\n • [57ada6]Anvils, Pliers, Screwdrivers, Saw Blades[-] from looting toolboxes\n • [57ada6]Propane Tanks[-] from looting BBQs\n • [57ada6]Fountain Pens[-] from looting Metal Desks\n • Picking up [57ada6]Water Coler Bottles, Gas Barrels, Plastic Barrels[-] from POIs\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantComponentsDesc,items,Items,"[569c59]You will need a number of components for crafting. Here are a few tips on where to find some of them[-]:\n • [57ada6]Small Motors[-] from salvaging Refrigerators, Ice Machines,Washers and Dryers, Air Conditioners, etc\n • [57ada6]Burners[-] from salvaging Stoves\n • [57ada6]Anvils, Pliers, Screwdrivers, Saw Blades[-] from looting toolboxes\n • [57ada6]Propane Tanks[-] from looting BBQs\n • [57ada6]Fountain Pens[-] from looting Metal Desks\n • Picking up [57ada6]Water Coler Bottles, Gas Barrels, Plastic Barrels[-] from POIs\n\nNote: This is for information only and can be thrown away."
 
 FuriousRamsayImportantGlobalAura,items,Items,Important Note
 FuriousRamsayImportantGlobalAuraDesc,items,Items,"[569c59]You have unlocked the ability to get two additional auras[-]:\n\nTake a look at the Good Vibrations section of Global Achievements in your Skill window and see which ones you wish to craft\n\nNote: This is for information only and can be thrown away."
@@ -1107,7 +1107,7 @@ FuriousRamsayCornFlourDesc,items,Item,"Corn Flour isn't your first choice, but w
 resourceRepairKit,items,Items,Vehicle Repair Kit
 resourceRepairKitDesc,items,Items,"This kit will repair owned vehicles"
 FuriousRamsayGunRepairKit,items,Items,Firearm Repair Kit
-FuriousRamsayGunRepairKitDesc,items,Items,"this kit will repair firearms"
+FuriousRamsayGunRepairKitDesc,items,Items,"This kit will repair firearms"
 FuriousRamsayElectricalRepairKit,items,Items,Electrical Repair Kit
 FuriousRamsayElectricalRepairKitDesc,items,Items,"This kit will repair electronics, such as drones and deployable turrets"
 FuriousRamsayRepairKit,items,Items,Repair Kit

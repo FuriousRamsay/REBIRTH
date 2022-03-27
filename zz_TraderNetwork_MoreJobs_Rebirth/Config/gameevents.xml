@@ -154,7 +154,6 @@ spideralert
 			</action>
 		</action_sequence>
 
-
 <!-- EVENT SPAWNS -->
 	<!-- EVENT SPAWN TEMPLATE -->
 		<action_sequence name="spawn_FuriousRamsay_Event_Horde">
@@ -1540,14 +1539,6 @@ spideralert
 				<property name="min_distance" value="1" />
 				<property name="max_distance" value="1" />
 				<property name="spawn_count" value="1" />
-			</action>
-		</action_sequence>
-		<action_sequence name="spawn_FuriousRamsay_Start_LetsGo">
-			<!-- PHASE 1 -->
-			<action class="AddItems">
-				<property name="added_items" value="ammo9mmBulletBall,bedroll,casinoCoin,drinkJarRedTea" />
-				<property name="added_item_counts" value="18,1,2000,1" />
-				<property name="phase" value="1" />
 			</action>
 		</action_sequence>
 		<action_sequence name="spawn_FuriousRamsay_Briston">

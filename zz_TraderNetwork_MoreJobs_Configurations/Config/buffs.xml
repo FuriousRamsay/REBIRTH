@@ -167,7 +167,7 @@
 
 				<!-- GENETICS LBD -->
 					<!-- TIER 1 -->
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseFightingTier1" operation="set" value="0.0006"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseFightingTier1" operation="set" value="0.0012"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseStrengthBreakingOreTier1" operation="set" value="0.001"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseIntelligenceBreakingOreTier1" operation="set" value="0.00025"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseStrengthDiggingTier1" operation="set" value="0.001"/>
@@ -199,7 +199,7 @@
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseUseDrugsHighTier1" operation="multiply" value="@$varFuriousRamsayGeneticsMultiplierConfig"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseMobilityTier1" operation="multiply" value="@$varFuriousRamsayGeneticsMultiplierConfig"/>
 					<!-- TIER 2 -->
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseFightingTier2" operation="set" value="0.00055"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseFightingTier2" operation="set" value="0.0011"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseStrengthBreakingOreTier2" operation="set" value="0.0008"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseIntelligenceBreakingOreTier2" operation="set" value="0.0002"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseStrengthDiggingTier2" operation="set" value="0.0004"/>
@@ -231,7 +231,7 @@
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseUseDrugsHighTier2" operation="multiply" value="@$varFuriousRamsayGeneticsMultiplierConfig"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseMobilityTier2" operation="multiply" value="@$varFuriousRamsayGeneticsMultiplierConfig"/>
 					<!-- TIER 3 -->
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseFightingTier3" operation="set" value="0.0005"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseFightingTier3" operation="set" value="0.001"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseStrengthBreakingOreTier3" operation="set" value="0.0006"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseIntelligenceBreakingOreTier3" operation="set" value="0.00015"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseStrengthDiggingTier3" operation="set" value="0.0003"/>
@@ -263,7 +263,7 @@
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseUseDrugsHighTier3" operation="multiply" value="@$varFuriousRamsayGeneticsMultiplierConfig"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseMobilityTier3" operation="multiply" value="@$varFuriousRamsayGeneticsMultiplierConfig"/>
 					<!-- TIER 4 -->
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseFightingTier4" operation="set" value="0.00045"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseFightingTier4" operation="set" value="0.0009"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseStrengthBreakingOreTier4" operation="set" value="0.0004"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseIntelligenceBreakingOreTier4" operation="set" value="0.0001"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseStrengthDiggingTier4" operation="set" value="0.0002"/>
@@ -295,7 +295,7 @@
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseUseDrugsHighTier4" operation="multiply" value="@$varFuriousRamsayGeneticsMultiplierConfig"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseMobilityTier4" operation="multiply" value="@$varFuriousRamsayGeneticsMultiplierConfig"/>
 					<!-- TIER 5 -->
-					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseFightingTier5" operation="set" value="0.0004"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseFightingTier5" operation="set" value="0.0008"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseStrengthBreakingOreTier5" operation="set" value="0.0002"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseIntelligenceBreakingOreTier5" operation="set" value="0.00005"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseStrengthDiggingTier5" operation="set" value="0.0001"/>

@@ -316,7 +316,7 @@
 			<!-- SET UP EXPERTISE LEVELING -->
 			<triggered_effect trigger="onSelfEnteredGame" action="AddBuff" target="self" buff="FuriousRamsaySetUpExpertiseLevels"/>
 		</effect_group>
-		<effect_group name="VerifyFuriousRamsayCrops">
+		<effect_group name="VerifyFuriousRamsayAchievementCrops">
 			<triggered_effect trigger="onSelfDestroyedBlock" action="ModifyCVar" cvar="$varFuriousRamsayAchievementCropsExp" operation="add" value="1"> 
 				<requirement name="TriggerHasTags" tags="FuriousRamsayFarmedCrops"/>
 			</triggered_effect>
@@ -324,6 +324,32 @@
 				<requirement name="TriggerHasTags" tags="FuriousRamsayFarmedCrops"/>
 			</triggered_effect>
 		</effect_group>
+
+		<effect_group name="VerifyFuriousRamsayAchievementFarmerTrader">
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="$varFuriousRamsayAchievementFarmerTraderExp" operation="add" value="1"> 
+				<requirement name="EntityTagCompare" target="other" tags="smokeimmunezombie"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="VerifyFuriousRamsayAchievementsFarmerTrader">
+				<requirement name="EntityTagCompare" target="other" tags="smokeimmunezombie"/>
+			</triggered_effect>
+		</effect_group>
+		<effect_group name="VerifyFuriousRamsayAchievementHandymanTrader">
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="$varFuriousRamsayAchievementHandymanTraderExp" operation="add" value="1"> 
+				<requirement name="EntityTagCompare" target="other" tags="fireimmunezombie"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="VerifyFuriousRamsayAchievementsHandymanTrader">
+				<requirement name="EntityTagCompare" target="other" tags="fireimmunezombie"/>
+			</triggered_effect>
+		</effect_group>
+		<effect_group name="VerifyFuriousRamsayAchievementBlackShieldTrader">
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyCVar" cvar="$varFuriousRamsayAchievementBlackShieldTraderExp" operation="add" value="1"> 
+				<requirement name="EntityTagCompare" target="other" tags="shockimmunezombie"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="VerifyFuriousRamsayAchievementsBlackShieldTrader">
+				<requirement name="EntityTagCompare" target="other" tags="shockimmunezombie"/>
+			</triggered_effect>
+		</effect_group>
+
 		<!-- DEXTERITY -->
 		<effect_group name="VerifyFuriousRamsayMobilityTier1">
 			<requirement name="PlayerLevel" operation="GT" value="0"/>

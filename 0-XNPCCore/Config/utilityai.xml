@@ -73,7 +73,7 @@
 			<ai_package name="NPCBasicNoChat" >
 				<action name="Wander" weight="1" entity_filter="IsSelf">
 					<task class="WanderSDX, SCore"/>
-					<consideration class="HasNotOrder, SCore" order="Stay, Guard"/>
+					<consideration class="NotHasOrder, SCore" order="Stay, Guard"/>
 					<task class="IdleSDX, SCore" OnStartAddBuffs="RandomWanderIdle" OnStopRemoveBuffs="RandomWanderIdle" timeout="50" />
 				</action>
 				<action name="NoChatIdle" weight="1" entity_filter="IsPlayer">

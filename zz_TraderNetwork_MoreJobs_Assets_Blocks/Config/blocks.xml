@@ -1,5 +1,8 @@
 <Config>
 
+	<!-- DESTROYING BASKETS GIVES POLYMERS -->
+	<setattribute xpath="/blocks/block[@name='cntLaundryBasketVer1Empty']/drop[@tag='salvageHarvest']" name="tag">allHarvest</setattribute>
+
 	<!-- HARVEST TIRES -->
 	<remove xpath="/blocks/block[@name='decoCarTireFlat']/drop[@event='Destroy']"/>
 	<remove xpath="/blocks/block[@name='decoCarTirePile']/drop[@event='Destroy']"/>
@@ -481,15 +484,22 @@
 	
 <!-- CAN PICK UP -->
 	<!-- TREE SEEDS -->
+	<!--<setattribute xpath="/blocks/block[@name='treeMaster']/property[@name='Class']" name="value">PlantGrowing</setattribute>
+	<setattribute xpath="/blocks/block[@name='treePlantedWinterPine1m']/property[@name='Collide']" name="value">sight,melee</setattribute>
+	<setattribute xpath="/blocks/block[@name='treePlantedMountainPine1m']/property[@name='Collide']" name="value">sight,melee</setattribute>
+	<setattribute xpath="/blocks/block[@name='treePlantedOak1m']/property[@name='Collide']" name="value">sight,melee</setattribute>
 	<append xpath="/blocks/block[@name='treePlantedWinterPine1m']">
+		<property name="Material" value="Mplants" />
 		<property name="CanPickup" value="true"/>
 	</append>
 	<append xpath="/blocks/block[@name='treePlantedMountainPine1m']">
+		<property name="Material" value="Mplants" />
 		<property name="CanPickup" value="true"/>
 	</append>
 	<append xpath="/blocks/block[@name='treePlantedOak1m']">
+		<property name="Material" value="Mplants" />
 		<property name="CanPickup" value="true"/>
-	</append>
+	</append>-->
 	<!-- COOLER -->
 	<remove xpath="/blocks/block[@name='cntCoolerRandomLootHelper']/drop[@event='Destroy']"/>
 	<append xpath="/blocks/block[@name='cntCoolerRandomLootHelper']">
@@ -837,6 +847,18 @@
 		<drop event="Harvest" name="resourceWood" count="3,6" tag="oreWoodHarvest"/>
 		<drop event="Harvest" name="FuriousRamsayScrews" count="2,4" tag="oreWoodHarvest"/>
 		<drop event="Harvest" name="resourceNail" count="2,4" tag="oreWoodHarvest"/>
+	</append>
+
+	<remove xpath="/blocks/block[@name='restaurantBooth']/drop[@name='resourceWood']"/>
+	<remove xpath="/blocks/block[@name='restaurantBooth']/drop[@name='resourceLeather']"/>
+	<remove xpath="/blocks/block[@name='restaurantBooth']/drop[@name='terrStone']"/>
+	<remove xpath="/blocks/block[@name='restaurantBooth']/drop[@event='Destroy']"/>
+	<append xpath="/blocks/block[@name='restaurantBooth']">
+		<drop event="Harvest" name="resourceWood" count="2,4" tag="oreWoodHarvest"/>
+		<drop event="Harvest" name="FuriousRamsayScrews" count="2,6" tag="oreWoodHarvest"/>
+		<drop event="Harvest" name="resourceNail" count="2,4" tag="oreWoodHarvest"/>
+		<drop event="Harvest" name="resourceCloth" count="2,4" tag="allHarvest"/>
+		<drop event="Destroy" count="0" />
 	</append>
 
 	<remove xpath="/blocks/block[@name='couchModernArm']/drop[@name='resourceWood']"/>

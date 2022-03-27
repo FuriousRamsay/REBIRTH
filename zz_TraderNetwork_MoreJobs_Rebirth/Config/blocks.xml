@@ -1,5 +1,40 @@
 <Config>
 
+	<!-- ABILITY TO PICK UP PLANTED SEEDS -->
+	<append xpath="/blocks/block[@name='plantedMushroom1' or
+								@name='plantedYucca1' or
+								@name='plantedCotton1' or
+								@name='plantedCoffee1' or
+								@name='plantedGoldenrod1' or
+								@name='plantedAloe1' or
+								@name='plantedBlueberry1' or
+								@name='plantedPotato1' or
+								@name='plantedChrysanthemum1' or
+								@name='plantedCorn1' or
+								@name='plantedGraceCorn1' or
+								@name='plantedHop1' or
+								@name='plantedPumpkin1'
+								]">
+		<property name="CanPickup" value="true"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='plantedMushroom2' or
+								@name='plantedYucca2' or
+								@name='plantedCotton2' or
+								@name='plantedCoffee2' or
+								@name='plantedGoldenrod2' or
+								@name='plantedAloe2' or
+								@name='plantedBlueberry2' or
+								@name='plantedPotato2' or
+								@name='plantedChrysanthemum2' or
+								@name='plantedCorn2' or
+								@name='plantedGraceCorn2' or
+								@name='plantedHop2' or
+								@name='plantedPumpkin2'
+								]">
+		<property name="CanPickup" value="false"/>
+	</append>
+
 	<!-- SET SOME BLOCK ECONOMIC VALUES -->
 	<setattribute xpath="/blocks/block[@name='cntNightstandRandomLootHelper']/property[@name='EconomicValue']" name="value">25</setattribute>
 
@@ -1476,6 +1511,9 @@
 		<property name="Tags" value="Mplants"/>
 	</append>
 	<append xpath="/blocks/block[@name='treePlantedMountainPine1m']">
+		<property name="Tags" value="Mplants"/>
+	</append>
+	<append xpath="/blocks/block[@name='treePlantedWinterPine1m']">
 		<property name="Tags" value="Mplants"/>
 	</append>
 	<append xpath="/blocks/block[@name='decoPumpkinJackOLantern']">

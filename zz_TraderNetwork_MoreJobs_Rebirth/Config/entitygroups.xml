@@ -424,21 +424,6 @@
 
 	<remove xpath="/entitygroups/entitygroup[@name='WildGameForest']/entity[@name='animalWolf']"/>
 
-	<append xpath="/entitygroups/entitygroup[@name='ZombiesAll']">
-		<entity name="FuriousRamsayUMAAidenEnemyBiome" prob="0.25"/>
-		<entity name="FuriousRamsayUMAHodorEnemyBiome" prob="0.25"/>
-		<entity name="FuriousRamsayUMARichieEnemyBiome" prob="0.25"/>
-		<entity name="FuriousRamsayUMAWillieEnemyBiome" prob="0.25"/>
-		<entity name="FuriousRamsayUMAKimEnemyBiome" prob="0.25"/>
-		<entity name="FuriousRamsayUMACharlotteEnemyBiome" prob="0.15"/>
-		<entity name="FuriousRamsayUMARoxyEnemyBiome" prob="0.25"/>
-		<entity name="FuriousRamsayUMAGabrielleEnemyBiome" prob="0.15"/>
-		<entity name="FuriousRamsayUMAClintEnemyBiome" prob="0.25"/>
-		<!--<entity name="FuriousRamsaySkullsClubTier2Biome" prob="0.15"/>
-		<entity name="FuriousRamsaySkullsHammerTier2Biome" prob="0.15"/>
-		<entity name="FuriousRamsaySkullsAxeTier2Biome" prob="0.15"/>-->
-	</append>
-
 	<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']">
 		<entity name="FuriousRamsayBlackDecoyFireZombieBoe"/>
 		<entity name="FuriousRamsayBlackDecoyFireZombieJoe"/>
@@ -477,6 +462,20 @@
 	</append>
 
 	<append xpath="/entitygroups">
+
+		<!--<entitygroup name="ForestZombies">
+			<entity name="FuriousRamsayUMAAidenEnemyBiome" prob="0.20"/>
+			<entity name="FuriousRamsayUMAHodorEnemyBiome" prob="0.20"/>
+			<entity name="FuriousRamsayUMARichieEnemyBiome" prob="0.20"/>
+			<entity name="FuriousRamsayUMAWillieEnemyBiome" prob="0.20"/>
+			<entity name="FuriousRamsayUMAKimEnemyBiome" prob="0.20"/>
+			<entity name="FuriousRamsayUMACharlotteEnemyBiome" prob="0.10"/>
+			<entity name="FuriousRamsayUMARoxyEnemyBiome" prob="0.20"/>
+			<entity name="FuriousRamsayUMAGabrielleEnemyBiome" prob="0.10"/>
+			<entity name="FuriousRamsayUMAClintEnemyBiome" prob="0.20"/>
+			<entity name="none" prob="5"/>
+		</entitygroup>-->
+
 		<entitygroup name="DesertZombies">
 			<entity name="zombieSpider" prob="1" />
 			<entity name="zombieSpiderFeral" prob=".05" />
@@ -546,36 +545,54 @@
 	</append>
 
 	<insertBefore xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']/entity[@name='none']">
-		<entity name="FuriousRamsayEnemyAndroid1Biome" prob="20"/>
-		<entity name="FuriousRamsayEnemyAndroid2Biome" prob="20"/>
-		<entity name="FuriousRamsayEnemyAndroid3Biome" prob="20"/>
-		<entity name="FuriousRamsayEnemyAndroid4Biome" prob="20"/>
-		<entity name="FuriousRamsayEnemyAndroid5Biome" prob="20"/>
-		<entity name="FuriousRamsayEnemyAndroid6Biome" prob="20"/>
-		<entity name="FuriousRamsayEnemyAndroid7Biome" prob="20"/>
-		<entity name="FuriousRamsayCloakedSnakeBiome" prob="10"/>
-		<entity name="FuriousRamsayCloakedVultureBiome" prob="0.25"/>
-		<entity name="FuriousRamsayBurningRabbitTier4Biome" prob="0.15"/>
+		<entity name="FuriousRamsayEnemyAndroid1Biome" prob="10"/>
+		<entity name="FuriousRamsayEnemyAndroid2Biome" prob="10"/>
+		<entity name="FuriousRamsayEnemyAndroid3Biome" prob="10"/>
+		<entity name="FuriousRamsayEnemyAndroid4Biome" prob="10"/>
+		<entity name="FuriousRamsayEnemyAndroid5Biome" prob="10"/>
+		<entity name="FuriousRamsayEnemyAndroid6Biome" prob="10"/>
+		<entity name="FuriousRamsayEnemyAndroid7Biome" prob="10"/>
+		<entity name="FuriousRamsayCloakedSnakeBiome" prob="5"/>
+		<entity name="FuriousRamsayCloakedVultureBiome" prob="1"/>
+		<entity name="FuriousRamsayBurningRabbitTier4Biome" prob="1"/>
 	</insertBefore>
 	
 	<append xpath="/entitygroups">
+
+		<entitygroup name="WildGameBurntForest">
+			<entity name="animalBoar" prob="4"/>
+			<entity name="animalWolf" prob="8"/>
+			<entity name="none" prob="200"/>
+		</entitygroup>
+
 		<entitygroup name="WildGameDesert">
-			<entity name="animalChicken" prob="48"/>
-			<entity name="animalBoar" prob="1"/>
-			<entity name="none" prob="50"/>
+			<entity name="animalChicken" prob="100"/>
+			<entity name="animalAlcatraz" prob="50"/>
+			<entity name="animalBoar" prob="15"/>
+			<entity name="none" prob="200"/>
 		</entitygroup>
 
 		<entitygroup name="WildGameSnow">
-			<entity name="animalRabbit" prob="48"/>
-			<entity name="animalBoar" prob="1"/>
-			<entity name="animalStag" prob="1"/>
-			<entity name="animalDoe" prob="1"/>
-			<entity name="none" prob="50"/>
+			<entity name="animalRabbit" prob="75"/>
+			<entity name="animalEagle" prob="50"/>
+			<entity name="animalBoar" prob="5"/>
+			<entity name="animalStag" prob="4"/>
+			<entity name="animalDoe" prob="4"/>
+			<entity name="none" prob="200"/>
 		</entitygroup>
 
 		<entitygroup name="WildGameWasteland">
-			<entity name="none" prob="50"/>
+			<entity name="animalCrow" prob="50"/>
+			<entity name="none" prob="200"/>
 		</entitygroup>
+	</append>
+
+	<setattribute xpath="/entitygroups/entitygroup[@name='WildGameForest']/entity[@name='animalRabbit']" name="prob">75</setattribute>
+	<setattribute xpath="/entitygroups/entitygroup[@name='WildGameForest']/entity[@name='animalChicken']" name="prob">75</setattribute>
+	<setattribute xpath="/entitygroups/entitygroup[@name='WildGameForest']/entity[@name='none']" name="prob">200</setattribute>
+
+	<append xpath="/entitygroups/entitygroup[@name='WildGameForest']">
+		<entity name="animalRobin" prob="50"/>
 	</append>
 
 </Config>	

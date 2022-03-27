@@ -5,15 +5,15 @@
 		<action_sequence name="spawn_FuriousRamsay_Start">
 			<!-- PHASE 1 -->
 			<action class="AddItems">
-				<property name="added_items" value="ammo9mmBulletBall,bedroll,casinoCoin,drinkJarRedTea" />
-				<property name="added_item_counts" value="18,1,1250,1" />
+				<property name="added_items" value="ammo9mmBulletBall,bedroll,drinkJarCoffee,drinkJarRedTea" />
+				<property name="added_item_counts" value="40,1,1,1" />
 				<property name="phase" value="1" />
 			</action>
 			<action class="SpawnEntity">
 				<property name="entity_names" value="zombieBoe,zombieJoe,zombieArlene,zombieDarlene,zombieMarlene,zombieYo,zombieSteve,zombieBusinessMan"/>
 				<property name="min_distance" value="30" />
 				<property name="max_distance" value="35" />
-				<property name="spawn_count" value="16" />
+				<property name="spawn_count" value="7" />
 				<property name="phase" value="1" />
 			</action>
 		</action_sequence>

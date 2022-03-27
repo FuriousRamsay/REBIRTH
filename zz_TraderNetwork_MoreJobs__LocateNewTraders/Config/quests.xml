@@ -1,6 +1,6 @@
 <Config>
 
-	<insertAfter xpath="/quests/quest[@id='quest_tier1complete']/reward[@id='casinoCoin']">
+	<!--<insertAfter xpath="/quests/quest[@id='quest_tier1complete']/reward[@id='casinoCoin']">
 		<reward type="LootItem" id="FuriousRamsayTier1Complete" ischosen="true" isfixed="true" value="2"/>
 	</insertAfter>
 	
@@ -10,9 +10,9 @@
 
 	<insertAfter xpath="/quests/quest[@id='quest_tier3complete']/reward[@id='casinoCoin']">
 		<reward type="LootItem" id="FuriousRamsayTier3Complete" ischosen="true" isfixed="true" value="4"/>
-	</insertAfter>
+	</insertAfter>-->
 	
-	<insertAfter xpath="/quests/quest[@id='tier2_buried_supplies']">
+	<!--<insertAfter xpath="/quests/quest[@id='tier2_buried_supplies']">
 
 		<quest id="quest_FuriousRamsayPlaceFarmerTrader">
 			<property name="name_key" value="quest_FuriousRamsayPlaceFarmerTrader_subtitle"/>
@@ -111,6 +111,6 @@
 			<objective type="Time" value="0" phase="2"/>
 		</quest>
 
-	</insertAfter>
+	</insertAfter>-->
 
 </Config>

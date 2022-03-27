@@ -67,7 +67,7 @@
 			<rect name="FuriousRamsayClassInfo" controller="HUDStatBar" pos="268,110" width="257">
 
 				<rect name="FuriousRamsayClassInfoContainer" width="257" depth="2" pos="0,45" height="140"> <!-- 140 -->
-					<filledsprite depth="3" name="FRbackground" pos="0,0" color="0,0,0,210" height="140" width="257" globalopacity="false" type="filled" fill="1" />
+					<filledsprite depth="3" name="FRbackground" pos="0,0" color="10,10,10" height="140" width="257" globalopacity="false" type="filled" fill="1" />
 					<sprite depth="4" sprite="menu_empty" name="border" color="255,255,255" globalopacity="false" type="sliced" fillcenter="false"/>
 
 					<rect name="FuriousRamsayClassNotSelected" width="237" depth="2" pos="10,15" height="25" globalopacity="false">
@@ -304,6 +304,7 @@
 						<sprite depth="6" sprite="menu_empty" name="border" height="{cvar($varFuriousRamsayPerk5Height)}" width="{cvar($varFuriousRamsayPerk5Width)}" color="{cvar($varFuriousRamsayPerk5Color)},{cvar($varFuriousRamsayPerk5Color)},{cvar($varFuriousRamsayPerk5Color)}" globalopacity="true" type="sliced" fillcenter="false"/>
 						<filledsprite depth="7" name="backgroundFilled" pos="1,-1" color="30, 61, 43" height="13" width="132" globalopacity="false" type="filled" fill="{cvar($varFuriousRamsayPerk5UnitPerc)}" />
 					</rect>
+									
 				</rect>
 			</rect>
 		</window>

@@ -16,6 +16,9 @@
 <!-- ONE-BLOCK CROUCHING FOR PLAYERS -->
 	<setattribute xpath="/blocks/block[@name='ConfigFeatureBlock']/property[@class='AdvancedPlayerFeatures']/property[@name='OneBlockCrouch']" name="value">false</setattribute>
 
+<!-- SET FACTION TARGET TAGS -->
+	<setattribute xpath="/blocks/block[@name='ConfigFeatureBlock']/property[@class='AdvancedNPCFeatures']/property[@name='UseFactionsTags']" name="value">human,bandit,survivor,npc,trader,zombie</setattribute>
+
 <!-- ZOMBIE FEATURES -->
 	<!-- RANDOM WALKS -->
 	<setattribute xpath="/blocks/block[@name='ConfigFeatureBlock']/property[@class='AdvancedZombieFeatures']/property[@name='RandomWalk']" name="value">false</setattribute>

@@ -3,33 +3,33 @@
 	<append xpath="/gameevents/action_sequence[@name='spawn_FuriousRamsay_Start']">
 
 		<action class="SpawnEntity">
-			<property name="entity_names" value="FuriousRamsaySurvivorMan008aBat,FuriousRamsaySurvivorMan001aBat,FuriousRamsaySurvivorMan001bBat,FuriousRamsaySurvivorMan001cBat,FuriousRamsaySurvivorMan001dBat,FuriousRamsaySurvivorMan001eBat,FuriousRamsaySurvivorMan001fBat,FuriousRamsaySurvivorMan001gBat,FuriousRamsaySurvivorMan001aAxe,FuriousRamsaySurvivorMan001bAxe,FuriousRamsaySurvivorMan001cAxe,FuriousRamsaySurvivorMan001dAxe,FuriousRamsaySurvivorMan001eAxe,FuriousRamsaySurvivorMan001fAxe,FuriousRamsaySurvivorMan001gAxe,FuriousRamsaySurvivorMan001aMachete,FuriousRamsaySurvivorMan001bMachete,FuriousRamsaySurvivorMan001cMachete,FuriousRamsaySurvivorMan001dMachete,FuriousRamsaySurvivorMan001eMachete,FuriousRamsaySurvivorMan001fMachete,FuriousRamsaySurvivorMan001gMachete"/>
+			<property name="entity_names" value="FuriousRamsayBobBatNoHire,FuriousRamsayHughAxeNoHire,FuriousRamsayJoelMacheteNoHire"/>
 			<property name="min_distance" value="5" />
 			<property name="max_distance" value="5" />
 			<property name="spawn_count" value="1" />
 			<property name="phase" value="1" />
 		</action>
 		<action class="SpawnEntity">
-			<property name="entity_names" value="FuriousRamsaySurvivorMan001aPipeRifle,FuriousRamsaySurvivorMan001bPipeRifle,FuriousRamsaySurvivorMan001cPipeRifle,FuriousRamsaySurvivorMan001dPipeRifle,FuriousRamsaySurvivorMan001ePipeRifle,FuriousRamsaySurvivorMan001fPipeRifle,FuriousRamsaySurvivorMan001gPipeRifle,FuriousRamsaySurvivorWoman001aPipeRifle,FuriousRamsaySurvivorWoman001bPipeRifle,FuriousRamsaySurvivorWoman001cPipeRifle,FuriousRamsaySurvivorWoman001dPipeRifle,FuriousRamsaySurvivorWoman001ePipeRifle,FuriousRamsaySurvivorWoman001fPipeRifle,FuriousRamsaySurvivorWoman001gPipeRifle"/>
+			<property name="entity_names" value="FuriousRamsayJenPipeRifleNoHire"/>
 			<property name="min_distance" value="5" />
 			<property name="max_distance" value="5" />
 			<property name="spawn_count" value="1" />
 			<property name="phase" value="1" />
 		</action>
 		<action class="SpawnEntity">
-			<property name="entity_names" value="FuriousRamsaySurvivorMan001aPipeShotgun,FuriousRamsaySurvivorMan001bPipeShotgun,FuriousRamsaySurvivorMan001cPipeShotgun,FuriousRamsaySurvivorMan001dPipeShotgun,FuriousRamsaySurvivorMan001ePipeShotgun,FuriousRamsaySurvivorMan001fPipeShotgun,FuriousRamsaySurvivorMan001gPipeShotgun,FuriousRamsaySurvivorWoman001aPipeShotgun,FuriousRamsaySurvivorWoman001bPipeShotgun,FuriousRamsaySurvivorWoman001cPipeShotgun,FuriousRamsaySurvivorWoman001dPipeShotgun,FuriousRamsaySurvivorWoman001ePipeShotgun,FuriousRamsaySurvivorWoman001fPipeShotgun,FuriousRamsaySurvivorWoman001gPipeShotgun"/>
+			<property name="entity_names" value="FuriousRamsayRektPipeShotgunNoHire"/>
 			<property name="min_distance" value="5" />
 			<property name="max_distance" value="5" />
 			<property name="spawn_count" value="1" />
 			<property name="phase" value="1" />
 		</action>
-		<!--<action class="SpawnEntity">
-			<property name="entity_names" value="FuriousRamsaySurvivorWoman001aPipePistol,FuriousRamsaySurvivorWoman001bPipePistol,FuriousRamsaySurvivorWoman001cPipePistol,FuriousRamsaySurvivorWoman001dPipePistol,FuriousRamsaySurvivorWoman001ePipePistol,FuriousRamsaySurvivorWoman001fPipePistol,FuriousRamsaySurvivorWoman001gPipePistol"/>
-			<property name="min_distance" value="5" />
-			<property name="max_distance" value="5" />
-			<property name="spawn_count" value="1" />
-			<property name="phase" value="2" />
-		</action>-->
+		<action class="SpawnEntity">
+			<property name="entity_names" value="FuriousRamsayZombie001,FuriousRamsayZombie002,FuriousRamsayZombie003,FuriousRamsayZombie004,FuriousRamsayZombie005,FuriousRamsayZombie006,FuriousRamsayZombie007,FuriousRamsayZombie008,FuriousRamsayZombie009,FuriousRamsayZombie010,FuriousRamsayZombie011,FuriousRamsayZombie012,FuriousRamsayZombie013"/>
+			<property name="min_distance" value="30" />
+			<property name="max_distance" value="35" />
+			<property name="spawn_count" value="9" />
+			<property name="phase" value="1" />
+		</action>
 
 	</append>
 
@@ -44,7 +44,75 @@
 			</action>
 		</action_sequence>	
 
+		<action_sequence name="FuriousRamsayFarmerTraderQuest">
+			<action class="AddQuest">
+				<property name="quest" value="FuriousRamsayQuest_FarmerTrader" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="FuriousRamsayHandymanTraderQuest">
+			<action class="AddQuest">
+				<property name="quest" value="FuriousRamsayQuest_HandymanTrader" />
+			</action>
+		</action_sequence>	
+		<action_sequence name="FuriousRamsayBlackShieldTraderQuest">
+			<action class="AddQuest">
+				<property name="quest" value="FuriousRamsayQuest_BlackShieldTrader" />
+			</action>
+		</action_sequence>	
+
+		<action_sequence name="FuriousRamsayMercenaryTraderQuest">
+			<action class="AddQuest">
+				<property name="quest" value="FuriousRamsayQuest_MercenaryTrader" />
+			</action>
+		</action_sequence>	
+
+		<action_sequence name="FuriousRamsayFarmerTrader">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsaySpawnFarmerTrader_FR" />
+				<property name="added_item_counts" value="1" />
+			</action>
+			<action class="PlaySound">
+				<property name="sound" value="FuriousRamsayPerkLevelUp" />
+			</action>
+			<action class="AddJournalTip">
+				<property name="tip_name" value="FuriousRamsayFarmerTraderTip" />
+				<property name="show_window" value="true" />
+			</action>
+		</action_sequence>	
+
+		<action_sequence name="FuriousRamsayHandymanTrader">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsaySpawnHandyManTrader_FR" />
+				<property name="added_item_counts" value="1" />
+			</action>
+			<action class="PlaySound">
+				<property name="sound" value="FuriousRamsayPerkLevelUp" />
+			</action>
+			<action class="AddJournalTip">
+				<property name="tip_name" value="FuriousRamsayHandymanTraderTip" />
+				<property name="show_window" value="true" />
+			</action>
+		</action_sequence>	
+
+		<action_sequence name="FuriousRamsayBlackShieldTrader">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsaySpawnBlackShieldTrader_FR" />
+				<property name="added_item_counts" value="1" />
+			</action>
+			<action class="PlaySound">
+				<property name="sound" value="FuriousRamsayPerkLevelUp" />
+			</action>
+			<action class="AddJournalTip">
+				<property name="tip_name" value="FuriousRamsayBlackShieldTraderTip" />
+				<property name="show_window" value="true" />
+			</action>
+		</action_sequence>	
+
 		<action_sequence name="FuriousRamsaySpawnTempMercenaryTrader">
+			<action class="AddBuff">
+				<property name="buff_name" value="FuriousRamsayTempMercenaryTraderDisplay" />
+				<property name="target_is_owner" value="true" />
+			</action>
 			<action class="SpawnEntity">
 				<property name="entity_names" value="FuriousRamsayTempMercenaryTrader_FR"/>
 				<property name="min_distance" value="2" />
@@ -53,6 +121,10 @@
 			</action>
 			<action class="PlaySound">
 				<property name="sound" value="NPCHelp" />
+			</action>
+			<action class="AddJournalTip">
+				<property name="tip_name" value="FuriousRamsayMercenaryTraderTip" />
+				<property name="show_window" value="true" />
 			</action>
 		</action_sequence>	
 

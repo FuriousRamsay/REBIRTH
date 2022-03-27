@@ -19,9 +19,9 @@
 
 			<buff name="FuriousRamsayHealZombiesTimer" hidden="true" remove_on_death="true">
 				<stack_type value="replace"/>
-				<update_rate value="3"/>
+				<update_rate value="5"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="FuriousRamsayHealZombies" target_tags="zombie">
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="FuriousRamsayHealZombies" target_tags="zombie">
 						<requirement name="!IsSleeping" target="other"/>
 					</triggered_effect>
 				</effect_group>
@@ -36,9 +36,9 @@
 			</buff>
 			<buff name="FuriousRamsayFeralHealZombiesTimer" hidden="true" remove_on_death="true">
 				<stack_type value="replace"/>
-				<update_rate value="3"/>
+				<update_rate value="5"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="FuriousRamsayFeralHealZombies" target_tags="zombie">
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="FuriousRamsayFeralHealZombies" target_tags="zombie">
 						<requirement name="!IsSleeping" target="other"/>
 					</triggered_effect>
 				</effect_group>
@@ -53,9 +53,9 @@
 			</buff>
 			<buff name="FuriousRamsayRadiatedHealZombiesTimer" hidden="true" remove_on_death="true">
 				<stack_type value="replace"/>
-				<update_rate value="3"/>
+				<update_rate value="5"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="FuriousRamsayRadiatedHealZombies" target_tags="zombie">
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="FuriousRamsayRadiatedHealZombies" target_tags="zombie">
 						<requirement name="!IsSleeping" target="other"/>
 					</triggered_effect>
 				</effect_group>
@@ -71,9 +71,9 @@
 			<!-- PHYSICAL RESISTANCE -->
 			<buff name="FuriousRamsayPhysicalResistanceZombiesTimer" hidden="true" remove_on_death="true">
 				<stack_type value="replace"/>
-				<update_rate value="3"/>
+				<update_rate value="5"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="FuriousRamsayPhysicalResistanceZombies" target_tags="zombie">
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="FuriousRamsayPhysicalResistanceZombies" target_tags="zombie">
 						<requirement name="!IsSleeping" target="other"/>
 					</triggered_effect>
 				</effect_group>
@@ -88,9 +88,9 @@
 			</buff>
 			<buff name="FuriousRamsayFeralPhysicalResistanceZombiesTimer" hidden="true" remove_on_death="true">
 				<stack_type value="replace"/>
-				<update_rate value="3"/>
+				<update_rate value="5"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="FuriousRamsayFeralPhysicalResistanceZombies" target_tags="zombie">
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="FuriousRamsayFeralPhysicalResistanceZombies" target_tags="zombie">
 						<requirement name="!IsSleeping" target="other"/>
 					</triggered_effect>
 				</effect_group>
@@ -105,9 +105,9 @@
 			</buff>
 			<buff name="FuriousRamsayRadiatedPhysicalResistanceZombiesTimer" hidden="true" remove_on_death="true">
 				<stack_type value="replace"/>
-				<update_rate value="3"/>
+				<update_rate value="5"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="FuriousRamsayRadiatedPhysicalResistanceZombies" target_tags="zombie">
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="FuriousRamsayRadiatedPhysicalResistanceZombies" target_tags="zombie">
 						<requirement name="!IsSleeping" target="other"/>
 					</triggered_effect>
 				</effect_group>
@@ -123,9 +123,9 @@
 			<!-- JUMP -->
 			<buff name="FuriousRamsayJumpZombiesTimer" hidden="true" remove_on_death="true">
 				<stack_type value="replace"/>
-				<update_rate value="3"/>
+				<update_rate value="5"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="FuriousRamsayJumpZombies" target_tags="zombie">
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="FuriousRamsayJumpZombies" target_tags="zombie">
 						<requirement name="!IsSleeping" target="other"/>
 					</triggered_effect>
 				</effect_group>
@@ -140,9 +140,9 @@
 			</buff>
 			<buff name="FuriousRamsayFeralJumpZombiesTimer" hidden="true" remove_on_death="true">
 				<stack_type value="replace"/>
-				<update_rate value="3"/>
+				<update_rate value="5"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="FuriousRamsayFeralJumpZombies" target_tags="zombie">
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="FuriousRamsayFeralJumpZombies" target_tags="zombie">
 						<requirement name="!IsSleeping" target="other"/>
 					</triggered_effect>
 				</effect_group>
@@ -157,9 +157,9 @@
 			</buff>
 			<buff name="FuriousRamsayRadiatedJumpZombiesTimer" hidden="true" remove_on_death="true">
 				<stack_type value="replace"/>
-				<update_rate value="3"/>
+				<update_rate value="5"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="FuriousRamsayRadiatedJumpZombies" target_tags="zombie">
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="FuriousRamsayRadiatedJumpZombies" target_tags="zombie">
 						<requirement name="!IsSleeping" target="other"/>
 					</triggered_effect>
 				</effect_group>
@@ -175,9 +175,9 @@
 			<!-- BLOCK DAMAGE -->
 			<buff name="FuriousRamsayBlockDamageZombiesTimer" hidden="true" remove_on_death="true">
 				<stack_type value="replace"/>
-				<update_rate value="3"/>
+				<update_rate value="5"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="FuriousRamsayBlockDamageZombies" target_tags="zombie">
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="FuriousRamsayBlockDamageZombies" target_tags="zombie">
 						<requirement name="!IsSleeping" target="other"/>
 					</triggered_effect>
 				</effect_group>
@@ -192,9 +192,9 @@
 			</buff>
 			<buff name="FuriousRamsayFeralBlockDamageZombiesTimer" hidden="true" remove_on_death="true">
 				<stack_type value="replace"/>
-				<update_rate value="3"/>
+				<update_rate value="5"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="FuriousRamsayFeralBlockDamageZombies" target_tags="zombie">
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="FuriousRamsayFeralBlockDamageZombies" target_tags="zombie">
 						<requirement name="!IsSleeping" target="other"/>
 					</triggered_effect>
 				</effect_group>
@@ -210,9 +210,9 @@
 			<!-- ENTITY DAMAGE -->
 			<buff name="FuriousRamsayEntityDamageZombiesTimer" hidden="true" remove_on_death="true">
 				<stack_type value="replace"/>
-				<update_rate value="3"/>
+				<update_rate value="5"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="FuriousRamsayEntityDamageZombies" target_tags="zombie">
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="FuriousRamsayEntityDamageZombies" target_tags="zombie">
 						<requirement name="!IsSleeping" target="other"/>
 					</triggered_effect>
 				</effect_group>
@@ -227,9 +227,9 @@
 			</buff>
 			<buff name="FuriousRamsayFeralEntityDamageZombiesTimer" hidden="true" remove_on_death="true">
 				<stack_type value="replace"/>
-				<update_rate value="3"/>
+				<update_rate value="5"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="FuriousRamsayFeralEntityDamageZombies" target_tags="zombie">
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="FuriousRamsayFeralEntityDamageZombies" target_tags="zombie">
 						<requirement name="!IsSleeping" target="other"/>
 					</triggered_effect>
 				</effect_group>
@@ -244,9 +244,9 @@
 			</buff>
 			<buff name="FuriousRamsayRadiatedEntityDamageZombiesTimer" hidden="true" remove_on_death="true">
 				<stack_type value="replace"/>
-				<update_rate value="3"/>
+				<update_rate value="5"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="FuriousRamsayRadiatedEntityDamageZombies" target_tags="zombie">
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="FuriousRamsayRadiatedEntityDamageZombies" target_tags="zombie">
 						<requirement name="!IsSleeping" target="other"/>
 					</triggered_effect>
 				</effect_group>
@@ -262,9 +262,9 @@
 			<!-- WALK SPEED -->
 			<buff name="FuriousRamsayWalkSpeedZombiesTimer" hidden="true" remove_on_death="true">
 				<stack_type value="replace"/>
-				<update_rate value="3"/>
+				<update_rate value="5"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="FuriousRamsayWalkSpeedZombies" target_tags="zombie">
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="FuriousRamsayWalkSpeedZombies" target_tags="zombie">
 						<requirement name="!IsSleeping" target="other"/>
 					</triggered_effect>
 				</effect_group>
@@ -279,9 +279,9 @@
 			</buff>
 			<buff name="FuriousRamsayFeralWalkSpeedZombiesTimer" hidden="true" remove_on_death="true">
 				<stack_type value="replace"/>
-				<update_rate value="3"/>
+				<update_rate value="5"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="FuriousRamsayFeralWalkSpeedZombies" target_tags="zombie">
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="FuriousRamsayFeralWalkSpeedZombies" target_tags="zombie">
 						<requirement name="!IsSleeping" target="other"/>
 					</triggered_effect>
 				</effect_group>
@@ -296,9 +296,9 @@
 			</buff>
 			<buff name="FuriousRamsayRadiatedWalkSpeedZombiesTimer" hidden="true" remove_on_death="true">
 				<stack_type value="replace"/>
-				<update_rate value="3"/>
+				<update_rate value="5"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="FuriousRamsayRadiatedWalkSpeedZombies" target_tags="zombie">
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="FuriousRamsayRadiatedWalkSpeedZombies" target_tags="zombie">
 						<requirement name="!IsSleeping" target="other"/>
 					</triggered_effect>
 				</effect_group>
@@ -313,9 +313,9 @@
 			</buff>
 			<buff name="FuriousRamsayLegendaryWalkSpeedZombiesTimer" hidden="true" remove_on_death="true">
 				<stack_type value="replace"/>
-				<update_rate value="3"/>
+				<update_rate value="5"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="FuriousRamsayLegendaryWalkSpeedZombies" target_tags="zombie">
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="FuriousRamsayLegendaryWalkSpeedZombies" target_tags="zombie">
 						<requirement name="!IsSleeping" target="other"/>
 					</triggered_effect>
 				</effect_group>
@@ -331,9 +331,9 @@
 			<!-- ELEMENTAL RESISTANCE -->
 			<buff name="FuriousRamsayElementalResistanceZombiesTimer" hidden="true" remove_on_death="true">
 				<stack_type value="replace"/>
-				<update_rate value="3"/>
+				<update_rate value="5"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="FuriousRamsayElementalResistanceZombies" target_tags="zombie">
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="FuriousRamsayElementalResistanceZombies" target_tags="zombie">
 						<requirement name="!IsSleeping" target="other"/>
 					</triggered_effect>
 				</effect_group>
@@ -352,9 +352,9 @@
 			</buff>
 			<buff name="FuriousRamsayFeralElementalResistanceZombiesTimer" hidden="true" remove_on_death="true">
 				<stack_type value="replace"/>
-				<update_rate value="3"/>
+				<update_rate value="5"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="FuriousRamsayFeralElementalResistanceZombies" target_tags="zombie">
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="FuriousRamsayFeralElementalResistanceZombies" target_tags="zombie">
 						<requirement name="!IsSleeping" target="other"/>
 					</triggered_effect>
 				</effect_group>
@@ -374,9 +374,9 @@
 			<!-- ATTACK SPEED -->
 			<buff name="FuriousRamsayAttackSpeedZombiesTimer" hidden="true" remove_on_death="true">
 				<stack_type value="replace"/>
-				<update_rate value="3"/>
+				<update_rate value="5"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="FuriousRamsayAttackSpeedZombies" target_tags="zombie">
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="FuriousRamsayAttackSpeedZombies" target_tags="zombie">
 						<requirement name="!IsSleeping" target="other"/>
 					</triggered_effect>
 				</effect_group>
@@ -391,9 +391,9 @@
 			</buff>
 			<buff name="FuriousRamsayFeralAttackSpeedZombiesTimer" hidden="true" remove_on_death="true">
 				<stack_type value="replace"/>
-				<update_rate value="3"/>
+				<update_rate value="5"/>
 				<effect_group>
-					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" buff="FuriousRamsayFeralAttackSpeedZombies" target_tags="zombie">
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="5" buff="FuriousRamsayFeralAttackSpeedZombies" target_tags="zombie">
 						<requirement name="!IsSleeping" target="other"/>
 					</triggered_effect>
 				</effect_group>
@@ -409,7 +409,7 @@
 
 		</append>
 
-		<append xpath="/buffs/buff[@name='god']" >		
+		<append xpath="/buffs/buff[@name='god']" >
 			<effect_group name="FuriousRamsayMainDebuffs">
 				<passive_effect name="BuffResistance" operation="base_add" value="2" tags="
 							FuriousRamsayVisionGrayscale,
@@ -2479,7 +2479,7 @@
 
 			<buff name="FuriousRamsayVanishNPCTimer" hidden="true" remove_on_death="true">
 				<stack_type value="ignore"/>
-				<duration value="300"/>
+				<duration value="600"/>
 				<effect_group>
 					<triggered_effect trigger="onSelfBuffFinish" action="ModifyStats" target="self" stat="Health" operation="add" value="-99999"/>
 				</effect_group>
@@ -5993,10 +5993,10 @@
 				<requirement name="NotHasBuff" target="self" buff="VerifyFuriousRamsayPetTimer"/>
 			</triggered_effect>-->
 
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayAllTerrain">
+			<!--<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayAllTerrain">
 				<requirement name="EntityTagCompare" target="other" tags="FuriousRamsayAllTerrain"/>
 				<requirement name="NotHasBuff" target="other" buff="VerifyFuriousRamsayAllTerrain"/>
-			</triggered_effect>
+			</triggered_effect>-->
 
 			<!--<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="100" buff="VerifyFuriousRamsayBlackShieldWhiteCar">
 				<requirement name="EntityTagCompare" target="other" tags="FuriousRamsayBlackShieldWhiteCar"/>
@@ -6043,7 +6043,7 @@
 				<requirement name="NotHasBuff" target="other" buff="VerifyFuriousRamsayBlackShieldBicycle"/>
 			</triggered_effect>-->
 
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayBlackShieldShockMotorcycle">
+			<!--<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayBlackShieldShockMotorcycle">
 				<requirement name="EntityTagCompare" target="other" tags="FuriousRamsayBlackShieldShockMotorcycle"/>
 				<requirement name="NotHasBuff" target="other" buff="VerifyFuriousRamsayBlackShieldShockMotorcycle"/>
 			</triggered_effect>
@@ -6066,71 +6066,71 @@
 				<requirement name="EntityHasMovementTag" tags="driving"/>
 				<requirement name="EntityTagCompare" target="other" tags="FuriousRamsayBlackShieldFireMotorcycle"/>
 				<requirement name="NotHasBuff" target="other" buff="VerifyFuriousRamsayBlackShieldFireMotorcycleEffects"/>
-			</triggered_effect>
+			</triggered_effect>-->
 
 			<!-- Ally Visuals -->
 			<!-- Briston Visuals -->
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayBristonVisuals">
+			<!--<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayBristonVisuals">
 				<requirement name="EntityTagCompare" target="other" tags="Briston"/>
 				<requirement name="NotHasBuff" target="other" buff="VerifyFuriousRamsayBristonVisuals"/>
-			</triggered_effect>
+			</triggered_effect>-->
 
 			<!-- Wandering Trader Visuals -->
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsaySurvivalSpecialistVisuals">
+			<!--<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsaySurvivalSpecialistVisuals">
 				<requirement name="EntityTagCompare" target="other" tags="SurvivalSpecialist"/>
 				<requirement name="NotHasBuff" target="other" buff="VerifyFuriousRamsaySurvivalSpecialistVisuals"/>
-			</triggered_effect>
+			</triggered_effect>-->
 	
 			<!-- Hunter Visuals -->
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayHunterVisuals">
+			<!--<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayHunterVisuals">
 				<requirement name="EntityTagCompare" target="other" tags="TrainerHunter"/>
 				<requirement name="NotHasBuff" target="other" buff="VerifyFuriousRamsayHunterVisuals"/>
-			</triggered_effect>
+			</triggered_effect>-->
 
 			<!-- Thug Visuals -->
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayThugVisuals">
+			<!--<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayThugVisuals">
 				<requirement name="EntityTagCompare" target="other" tags="TrainerThug"/>
 				<requirement name="NotHasBuff" target="other" buff="VerifyFuriousRamsayThugVisuals"/>
-			</triggered_effect>
+			</triggered_effect>-->
 
 			<!-- Butcher Visuals -->
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayButcherVisuals">
+			<!--<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayButcherVisuals">
 				<requirement name="EntityTagCompare" target="other" tags="TrainerButcher"/>
 				<requirement name="NotHasBuff" target="other" buff="VerifyFuriousRamsayButcherVisuals"/>
-			</triggered_effect>
+			</triggered_effect>-->
 
 			<!-- Soldier Visuals -->
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsaySoldierVisuals">
+			<!--<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsaySoldierVisuals">
 				<requirement name="EntityTagCompare" target="other" tags="TrainerSoldier"/>
 				<requirement name="NotHasBuff" target="other" buff="VerifyFuriousRamsaySoldierVisuals"/>
-			</triggered_effect>
+			</triggered_effect>-->
 
 			<!-- Technogeek Visuals -->
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayTechnogeekVisuals">
+			<!--<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayTechnogeekVisuals">
 				<requirement name="EntityTagCompare" target="other" tags="TrainerTechnogeek"/>
 				<requirement name="NotHasBuff" target="other" buff="VerifyFuriousRamsayTechnogeekVisuals"/>
-			</triggered_effect>
+			</triggered_effect>-->
 
 			<!-- Madman Visuals -->
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayMadmanVisuals">
+			<!--<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayMadmanVisuals">
 				<requirement name="EntityTagCompare" target="other" tags="TrainerMadman"/>
 				<requirement name="NotHasBuff" target="other" buff="VerifyFuriousRamsayMadmanVisuals"/>
-			</triggered_effect>
+			</triggered_effect>-->
 
 			<!-- Builder Visuals -->
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayBuilderVisuals">
+			<!--<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayBuilderVisuals">
 				<requirement name="EntityTagCompare" target="other" tags="TrainerBuilder"/>
 				<requirement name="NotHasBuff" target="other" buff="VerifyFuriousRamsayBuilderVisuals"/>
-			</triggered_effect>
+			</triggered_effect>-->
 
 			<!-- Chef Visuals -->
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayChefVisuals">
+			<!--<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayChefVisuals">
 				<requirement name="EntityTagCompare" target="other" tags="TrainerChef"/>
 				<requirement name="NotHasBuff" target="other" buff="VerifyFuriousRamsayChefVisuals"/>
-			</triggered_effect>
+			</triggered_effect>-->
 			
 			<!-- Skulls Visuals -->
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsaySkullsClubVisuals">
+			<!--<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsaySkullsClubVisuals">
 				<requirement name="EntityTagCompare" target="other" tags="FuriousRamsaySkullsClub"/>
 				<requirement name="NotHasBuff" target="other" buff="VerifyFuriousRamsaySkullsClubVisuals"/>
 			</triggered_effect>
@@ -6141,10 +6141,10 @@
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsaySkullsAxeVisuals">
 				<requirement name="EntityTagCompare" target="other" tags="FuriousRamsaySkullsAxe"/>
 				<requirement name="NotHasBuff" target="other" buff="VerifyFuriousRamsaySkullsAxeVisuals"/>
-			</triggered_effect>
+			</triggered_effect>-->
 
 			<!-- Trader Visuals -->
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayBlackShieldTrader1Visuals">
+			<!--<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayBlackShieldTrader1Visuals">
 				<requirement name="EntityTagCompare" target="other" tags="BlackShieldTrader1"/>
 				<requirement name="NotHasBuff" target="other" buff="VerifyFuriousRamsayBlackShieldTrader1Visuals"/>
 			</triggered_effect>
@@ -6155,10 +6155,10 @@
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayHandymanLukeVisuals">
 				<requirement name="EntityTagCompare" target="other" tags="HandymanLuke"/>
 				<requirement name="NotHasBuff" target="other" buff="VerifyFuriousRamsayHandymanLukeVisuals"/>
-			</triggered_effect>
+			</triggered_effect>-->
 
 			<!-- Commander Visuals -->
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayUMAJackVisuals">
+			<!--<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayUMAJackVisuals">
 				<requirement name="EntityTagCompare" target="other" tags="FuriousRamsayUMAJack"/>
 				<requirement name="NotHasBuff" target="other" buff="VerifyFuriousRamsayUMAJackVisuals"/>
 			</triggered_effect>
@@ -6169,7 +6169,7 @@
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayUMALeeVisuals">
 				<requirement name="EntityTagCompare" target="other" tags="FuriousRamsayUMALee"/>
 				<requirement name="NotHasBuff" target="other" buff="VerifyFuriousRamsayUMALeeVisuals"/>
-			</triggered_effect>
+			</triggered_effect>-->
 
 			<!-- Starter Quest Linda Visuals -->
 			<!--<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayUMALindaStarterVisuals">
@@ -6178,7 +6178,7 @@
 			</triggered_effect>-->
 
 			<!-- Bandit Visuals -->
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayUMAAidenEnemyVisuals">
+			<!--<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayUMAAidenEnemyVisuals">
 				<requirement name="EntityTagCompare" target="other" tags="FuriousRamsayUMAAidenEnemy"/>
 				<requirement name="NotHasBuff" target="other" buff="VerifyFuriousRamsayUMAAidenEnemyVisuals"/>
 			</triggered_effect>
@@ -6213,7 +6213,7 @@
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="50" buff="VerifyFuriousRamsayUMAClintEnemyVisuals">
 				<requirement name="EntityTagCompare" target="other" tags="FuriousRamsayUMAClintEnemy"/>
 				<requirement name="NotHasBuff" target="other" buff="VerifyFuriousRamsayUMAClintEnemyVisuals"/>
-			</triggered_effect>
+			</triggered_effect>-->
 			
 			<!--<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="1" buff="VerifyFuriousRamsayBlackShieldMotorcycleSmokeStart">
 				<requirement name="EntityHasMovementTag" tags="driving"/>

@@ -5,52 +5,79 @@
 
 	<append xpath="/utility_ai/ai_packages">
 
+			<ai_package name="NPCModHired" entity_filter="IsLeader" >
+                <action name="TooCloseInside" weight="3">
+                    <task class="BackupFromTargetSDX, SCore" max_distance="4.5"/>
+                    <!--<consideration class="EnemyNotNear, SCore" />-->
+                    <consideration class="IsInside, SCore" />
+                    <consideration class="TargetDistance" flip_y="true" min="0" max="3"  />
+                    <consideration class="NotHasOrder, SCore" order="Stay"/>
+                </action> 
+                <action name="TooCloseOutside" weight="3">
+                    <task class="BackupFromTargetSDX, SCore" max_distance="4.5"/>
+                    <!--<consideration class="EnemyNotNear, SCore" />-->
+                    <consideration class="IsNotInside, SCore" />
+                    <consideration class="TargetDistance" flip_y="true" min="0" max="1"  />
+                    <consideration class="NotHasOrder, SCore" order="Stay"/>
+                </action> 
+				<action name="LeaderFollow" weight="2" >
+					<task class="FollowSDX, SCore" OnStartAddBuffs="NPCpegasus" OnStopRemoveBuffs="NPCpegasus"/>
+					<consideration class="HasOrder, SCore" order="Follow"/>
+					<!--<consideration class="TargetDistance"  min="10" max="50" curve="threshold" />-->
+				</action>
+				<!--<action name="LeaderFollowSlow" weight="2" >
+					<task class="FollowSDX, SCore"/>
+					<consideration class="HasOrder, SCore" order="Follow"/>
+					<consideration class="TargetDistance"  min="4.5" max="10" curve="threshold"/>
+				</action>	-->
+			</ai_package>
+
 			<ai_package name="NPCModBasicMelee" >
 				<action name="Wander" weight="1" entity_filter="IsSelf"><!-- Lowest weight, so wander doesnt win against any other action, yet will score true so the NPC does something if not busy in dialog. -->
 					<task class="WanderSDX, SCore"/>
-					<consideration class="HasNotOrder, SCore" order="Stay, Guard"/>
-					<task class="IdleSDX, SCore" OnStartAddBuffs="RandomWanderIdle" OnStopRemoveBuffs="RandomWanderIdle" timeout="50" /><!-- fires an Idle buff on start, removes same on exit  -->
+					<consideration class="NotHasOrder, SCore" order="Stay"/>
+					<!--<task class="IdleSDX, SCore" OnStartAddBuffs="RandomWanderIdle" OnStopRemoveBuffs="RandomWanderIdle" timeout="50" />-->
 				</action>
 				<action name="Chat" weight="2" entity_filter="IsPlayer">
                     <task class="IdleSDX, SCore" OnStartAddBuffs="RandomIdle" OnStopRemoveBuffs="RandomIdle" /> 
-                        <consideration class="EnemyNotNear, SCore" distance="15" /><!-- Default distance is 15, True if no enemies are near, so safe to chat  -->
-                        <consideration class="TargetDistance" flip_x="true" min="1" max="4.5" curve="threshold" /><!-- Forces a fixed true range between 1 and 4 blocks -->
+                        <consideration class="EnemyNotNear, SCore" distance="15" />
+                        <consideration class="TargetDistance" flip_x="true" min="1" max="4.5" curve="threshold" />
 				</action> 
 				<action name="ExitChat" weight="2" entity_filter="IsPlayer">
                     <task class="IdleSDX, SCore" OnStartRemoveBuffs="RandomIdle" /> 
-                        <consideration class="EnemyNear, SCore" distance="15" /><!-- True if no enemies are near, so safe to chat  -->
-                        <consideration class="TargetDistance" flip_x="true" min="1" max="4.5" curve="threshold" /><!-- Forces a fixed true range between 1 and 4 blocks -->
+                        <consideration class="EnemyNear, SCore" distance="15" />
+                        <consideration class="TargetDistance" flip_x="true" min="1" max="4.5" curve="threshold" />
 				</action> 				
                 <action name="Stay" weight="2" entity_filter="IsSelf">
                     <task class="Guard, SCore"  /> 
-                    <consideration class="EnemyNotNear, SCore" />
+                    <!--<consideration class="EnemyNotNear, SCore" />-->
                     <consideration class="HasOrder, SCore" order="Stay"/>
                 </action> 
 			</ai_package>
 
 			<ai_package name="NPCModBasicRanged" >
-				<action name="Wander" weight="1" entity_filter="IsSelf"><!-- Lowest weight, so wander doesnt win against any other action, yet will score true so the NPC does something if not busy in dialog. -->
+				<action name="Wander" weight="1" entity_filter="IsSelf">
 					<task class="WanderSDX, SCore"/>
-					<consideration class="HasNotOrder, SCore" order="Stay, Guard"/>
-					<task class="IdleSDX, SCore" OnStartAddBuffs="RandomWanderIdle" OnStopRemoveBuffs="RandomWanderIdle" timeout="50" /><!-- fires an Idle buff on start, removes same on exit  -->
+					<consideration class="NotHasOrder, SCore" order="Stay"/>
+					<!--<task class="IdleSDX, SCore" OnStartAddBuffs="RandomWanderIdle" OnStopRemoveBuffs="RandomWanderIdle" timeout="50" />-->
 				</action>
-				<action name="OnReload" weight="3" entity_filter="IsSelf" >
+				<!--<action name="OnReload" weight="3" entity_filter="IsSelf" >
                     <task class="IdleSDX, SCore"  /> 
-                    <consideration class="SelfHasBuff, SCore" buffs="buffReload2,buffReloadDelay,buffReload3"/> <!-- Outscores Wander when buff is active  -->
-                </action>  
+                    <consideration class="SelfHasBuff, SCore" buffs="buffReload2,buffReloadDelay,buffReload3"/>
+                </action>  -->
 				<action name="Chat" weight="2" entity_filter="IsPlayer">
                     <task class="IdleSDX, SCore" OnStartAddBuffs="RandomIdle" OnStopRemoveBuffs="RandomIdle" /> 
-                        <consideration class="EnemyNotNear, SCore" distance="15" /><!-- Default distance is 15, True if no enemies are near, so safe to chat  -->
-                        <consideration class="TargetDistance" flip_x="true" min="1" max="4.5" curve="threshold" /><!-- Forces a fixed true range between 1 and 4 blocks -->
+                        <consideration class="EnemyNotNear, SCore" distance="15" />
+                        <consideration class="TargetDistance" flip_x="true" min="1" max="4.5" curve="threshold" />
 				</action> 
 				<action name="ExitChat" weight="2" entity_filter="IsPlayer">
                     <task class="IdleSDX, SCore" OnStartRemoveBuffs="RandomIdle" /> 
-                        <consideration class="EnemyNear, SCore" distance="15" /><!-- True if no enemies are near, so safe to chat  -->
-                        <consideration class="TargetDistance" flip_x="true" min="1" max="4.5" curve="threshold" /><!-- Forces a fixed true range between 1 and 4 blocks -->
+                        <consideration class="EnemyNear, SCore" distance="15" />
+                        <consideration class="TargetDistance" flip_x="true" min="1" max="4.5" curve="threshold" />
 				</action> 				
                 <action name="Stay" weight="2" entity_filter="IsSelf">
                     <task class="Guard, SCore"  /> 
-                    <consideration class="EnemyNotNear, SCore" />
+                    <!--<consideration class="EnemyNotNear, SCore" />-->
                     <consideration class="HasOrder, SCore" order="Stay"/>
                 </action> 
 			</ai_package>
@@ -58,19 +85,19 @@
 			<ai_package name="NPCModBasicMeleeNoChat" >
 				<action name="Wander" weight="1" entity_filter="IsSelf">
 					<task class="WanderSDX, SCore"/>
-					<task class="IdleSDX, SCore" OnStartAddBuffs="RandomWanderIdle" OnStopRemoveBuffs="RandomWanderIdle" timeout="50" />
+					<!--<task class="IdleSDX, SCore" OnStartAddBuffs="RandomWanderIdle" OnStopRemoveBuffs="RandomWanderIdle" timeout="50" />-->
 				</action>
 			</ai_package>	
 				
 			<ai_package name="NPCModBasicRangedNoChat" >
-				<action name="Wander" weight="1" entity_filter="IsSelf"><!-- Lowest weight, so wander doesnt win against any other action, yet will score true so the NPC does something if not busy in dialog. -->
+				<action name="Wander" weight="1" entity_filter="IsSelf">
 					<task class="WanderSDX, SCore"/>
-					<task class="IdleSDX, SCore" OnStartAddBuffs="RandomWanderIdle" OnStopRemoveBuffs="RandomWanderIdle" timeout="50" />
+					<!--<task class="IdleSDX, SCore" OnStartAddBuffs="RandomWanderIdle" OnStopRemoveBuffs="RandomWanderIdle" timeout="50" />-->
 				</action>
-				<action name="OnReload" weight="3" entity_filter="IsSelf" >
+				<!--<action name="OnReload" weight="3" entity_filter="IsSelf" >
                     <task class="IdleSDX, SCore"  /> 
-                    <consideration class="SelfHasBuff, SCore" buffs="buffReload2,buffReloadDelay,buffReload3"/> <!-- Outscores Wander when buff is active  -->
-                </action>  
+                    <consideration class="SelfHasBuff, SCore" buffs="buffReload2,buffReloadDelay,buffReload3"/>
+                </action>  -->
 			</ai_package>
 			
 			<!-- BASIC NPC AI PACKAGES -->
@@ -78,7 +105,6 @@
 				<!-- DEFAULT ACTIONS -->
 				<action name="MoveToEnemyRunMelee" weight="4">
 					<task class="MoveToAttackTargetSDX, SCore" run="true" />
-					<!--<consideration class="NotInWeaponRange, SCore" action_index="0" /> -->
 					<consideration class="CanSeeTarget, SCore"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffHitStun"/>	
 				</action>
@@ -90,18 +116,18 @@
 				</action>
 			</ai_package>	
 
-			<ai_package name="NPCModNPCShortRangedBasic" entity_filter="IsEnemy" > <!-- props to the team, especially Ramsey, for this upgraded code  -->
+			<ai_package name="NPCModNPCShortRangedBasic" entity_filter="IsEnemy" >
 				<action name="MoveToEnemyShortRanged" weight="4">
 					<task class="MoveToAttackTargetSDX, SCore" run="true" action_index="1" />
-					<consideration class="TargetDistance" flip_x="true" min="7" curve="threshold" />
+					<consideration class="TargetDistance" flip_x="true" min="9" curve="threshold" />
 					<consideration class="CanSeeTarget, SCore" />
 				</action>
-				<!--<action name="MeleeRangedAttack" weight="6">
+				<action name="MeleeRangedAttack" weight="6">
 					<task class="AttackTargetEntitySDX, SCore" action_index="0"/>
 					<consideration class="InWeaponRange, SCore"  action_index="0"  /> 
 					<consideration class="CanSeeTarget, SCore"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="IsHealing,buffHitStun"/>	
-				</action>-->
+				</action>
 				<action name="RangedAttack" weight="5">
 					<task class="AttackTargetEntitySDX, SCore" action_index="1" />
 					<consideration class="CanSeeTarget, SCore" />
@@ -109,24 +135,23 @@
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffBurstDelay,IsHealing,buffReload2,buffReloadDelay,buffReload3,RandomIdle,buffHitStun" />
 				</action>
 				<action name="BackupShortRanged" weight="3">
-					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="8"/> 
-					<!--<consideration class="TargetDistance" flip_x="true" max="6"  curve="threshold" /> -->
+					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="9"/> 
 					<consideration class="CanSeeTarget, SCore"/>
 				</action>
 			</ai_package>	
 			
-			<ai_package name="NPCModNPCMediumRangedBasic" entity_filter="IsEnemy" > <!-- props to the team, especially Ramsey, for this upgraded code  -->
+			<ai_package name="NPCModNPCMediumRangedBasic" entity_filter="IsEnemy" >
 				<action name="MoveToEnemyMediumRanged" weight="4">
 					<task class="MoveToAttackTargetSDX, SCore" run="true" action_index="1" />
 					<consideration class="TargetDistance" flip_x="true" min="11" curve="threshold" />
 					<consideration class="CanSeeTarget, SCore" />
 				</action>
-				<!--<action name="MeleeRangedAttack" weight="6">
+				<action name="MeleeRangedAttack" weight="6">
 					<task class="AttackTargetEntitySDX, SCore" action_index="0"/>
 					<consideration class="InWeaponRange, SCore"  action_index="0"  /> 
 					<consideration class="CanSeeTarget, SCore"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="IsHealing,buffHitStun"/>	
-				</action>-->
+				</action>
 				<action name="RangedAttack" weight="5">
 					<task class="AttackTargetEntitySDX, SCore" action_index="1" />
 					<consideration class="CanSeeTarget, SCore" />
@@ -134,24 +159,23 @@
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffBurstDelay,IsHealing,buffReload2,buffReloadDelay,buffReload3,RandomIdle,buffHitStun" />
 				</action>
 				<action name="BackupMediumRanged" weight="3">
-					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="12"/>
-					<!--<consideration class="TargetDistance" flip_x="true" max="12"  curve="threshold" />-->
+					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="11"/>
 					<consideration class="CanSeeTarget, SCore"/>
 				</action>
 			</ai_package>	
 			
-			<ai_package name="NPCModNPCLongRangedBasic" entity_filter="IsEnemy" > <!-- props to the team, especially Ramsey, for this upgraded code  -->
+			<ai_package name="NPCModNPCLongRangedBasic" entity_filter="IsEnemy" >
 				<action name="MoveToEnemyLongRanged" weight="4">
 					<task class="MoveToAttackTargetSDX, SCore" run="true" action_index="1" />
-					<consideration class="TargetDistance" flip_x="true" min="15" curve="threshold" />
+					<consideration class="TargetDistance" flip_x="true" min="13" curve="threshold" />
 					<consideration class="CanSeeTarget, SCore" />
 				</action>
-				<!--<action name="MeleeRangedAttack" weight="6">
+				<action name="MeleeRangedAttack" weight="6">
 					<task class="AttackTargetEntitySDX, SCore" action_index="0"/>
 					<consideration class="InWeaponRange, SCore"  action_index="0"  /> 
 					<consideration class="CanSeeTarget, SCore"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="IsHealing,buffHitStun"/>	
-				</action>-->
+				</action>
 				<action name="RangedAttack" weight="5">
 					<task class="AttackTargetEntitySDX, SCore" action_index="1" />
 					<consideration class="CanSeeTarget, SCore" />
@@ -159,8 +183,7 @@
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffBurstDelay,IsHealing,buffReload2,buffReloadDelay,buffReload3,RandomIdle,buffHitStun" />
 				</action>
 				<action name="BackupLongRanged" weight="3">
-					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="16"/>
-					<!--<consideration class="TargetDistance" flip_x="true" max="16"  curve="threshold" />-->
+					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="13"/>
 					<consideration class="CanSeeTarget, SCore"/>
 				</action>
 			</ai_package>	
@@ -170,23 +193,21 @@
 				<!-- DEFAULT ACTIONS -->
 				<action name="MoveToEnemyRunMelee" weight="6">
 					<task class="MoveToAttackTargetSDX, SCore" run="true" />
-					<!--<consideration class="NotInWeaponRange, SCore" action_index="0" /> -->
 					<consideration class="CanSeeTarget, SCore"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffHitStun"/>
 				</action>
 				 <action name="MoveToRandomTarget" weight="3" entity_filter="IsPlayer" >
                     <task class="MoveToInvestigate, SCore" run="true" />
-                    <!--<consideration class="NotInWeaponRange, SCore" action_index="0" /> -->
                     <consideration class="CanNotSeeTarget, SCore"/>
 					<consideration class="CanHearTarget, SCore" />
 					<consideration class="NotPathBlockedSDX, SCore"  />
                  </action>    					
-				<!--<action name="MeleeAttackEntity" weight="4">
+				<action name="MeleeAttackEntity" weight="4">
 					<task class="AttackTargetEntitySDX, SCore" action_index="0"/>
 					<consideration class="InWeaponRange, SCore" action_index="0" /> 
 					<consideration class="CanSeeTarget, SCore"/> 
 					<consideration class="SelfNotHasBuff, SCore" buffs="IsHealing,buffHitStun"/>	
-				</action>-->
+				</action>
 				<action name="MeleeAttackBlock" weight="3">
                     <task class="AttackTargetEntitySDX, SCore" action_index="0"/>
                     <consideration class="PathBlockedSDX, SCore"  />
@@ -194,25 +215,24 @@
                 </action> 
 			</ai_package>	
 
-			<ai_package name="NPCModHostileShortRangedBasic" entity_filter="IsEnemy" > <!-- props to the team, especially Ramsey, for this upgraded code  -->
+			<ai_package name="NPCModHostileShortRangedBasic" entity_filter="IsEnemy" >
 				<action name="MoveToEnemyShortRanged" weight="4">
 					<task class="MoveToAttackTargetSDX, SCore" run="true" action_index="1" />
-					<consideration class="TargetDistance" flip_x="true" min="7" curve="threshold" />
+					<consideration class="TargetDistance" flip_x="true" min="9" curve="threshold" />
 					<consideration class="CanSeeTarget, SCore" />
 				</action>
 				 <action name="MoveToRandomTarget" weight="3" entity_filter="IsPlayer" >
                     <task class="MoveToInvestigate, SCore" run="true" />
-                    <!--<consideration class="NotInWeaponRange, SCore" action_index="0" /> -->
                     <consideration class="CanNotSeeTarget, SCore"/>
 					<consideration class="CanHearTarget, SCore" />
 					<consideration class="NotPathBlockedSDX, SCore"  />
                  </action>    					
-				<!--<action name="MeleeRangedAttack" weight="6">
+				<action name="MeleeRangedAttack" weight="6">
 					<task class="AttackTargetEntitySDX, SCore" action_index="0"/>
 					<consideration class="InWeaponRange, SCore"  action_index="0"  /> 
 					<consideration class="CanSeeTarget, SCore"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="IsHealing,buffHitStun"/>	
-				</action>-->
+				</action>
 				<action name="RangedAttack" weight="5">
 					<task class="AttackTargetEntitySDX, SCore" action_index="1" />
 					<consideration class="CanSeeTarget, SCore" />
@@ -220,8 +240,7 @@
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffBurstDelay,IsHealing,buffReload2,buffReloadDelay,buffReload3,RandomIdle,buffHitStun" />
 				</action>
 				<action name="BackupShortRanged" weight="3">
-					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="8"/> 
-					<!--<consideration class="TargetDistance" flip_x="true" max="6"  curve="threshold" /> -->
+					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="9"/> 
 					<consideration class="CanSeeTarget, SCore"/>
 				</action>
 				<action name="MeleeAttackBlock" weight="3">
@@ -231,7 +250,7 @@
                 </action> 
 			</ai_package>	
 			
-			<ai_package name="NPCModHostileMediumRangedBasic" entity_filter="IsEnemy" > <!-- props to the team, especially Ramsey, for this upgraded code  -->
+			<ai_package name="NPCModHostileMediumRangedBasic" entity_filter="IsEnemy" >
 				<action name="MoveToEnemyMediumRanged" weight="4">
 					<task class="MoveToAttackTargetSDX, SCore" run="true" action_index="1" />
 					<consideration class="TargetDistance" flip_x="true" min="11" curve="threshold" />
@@ -239,17 +258,16 @@
 				</action>
 				 <action name="MoveToRandomTarget" weight="3" entity_filter="IsPlayer" >
                     <task class="MoveToInvestigate, SCore" run="true" />
-                    <!--<consideration class="NotInWeaponRange, SCore" action_index="0" /> -->
                     <consideration class="CanNotSeeTarget, SCore"/>
 					<consideration class="CanHearTarget, SCore" />
 					<consideration class="NotPathBlockedSDX, SCore"  />
                  </action>    					
-				<!--<action name="MeleeRangedAttack" weight="6">
+				<action name="MeleeRangedAttack" weight="6">
 					<task class="AttackTargetEntitySDX, SCore" action_index="0"/>
 					<consideration class="InWeaponRange, SCore"  action_index="0"  /> 
 					<consideration class="CanSeeTarget, SCore"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="IsHealing,buffHitStun"/>	
-				</action>-->
+				</action>
 				<action name="RangedAttack" weight="5">
 					<task class="AttackTargetEntitySDX, SCore" action_index="1" />
 					<consideration class="CanSeeTarget, SCore" />
@@ -257,8 +275,7 @@
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffBurstDelay,IsHealing,buffReload2,buffReloadDelay,buffReload3,RandomIdle,buffHitStun" />
 				</action>
 				<action name="BackupMediumRanged" weight="3">
-					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="12"/>
-					<!--<consideration class="TargetDistance" flip_x="true" max="12" curve="threshold" />-->
+					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="11"/>
 					<consideration class="CanSeeTarget, SCore"/>
 				</action>
 				<action name="MeleeAttackBlock" weight="3">
@@ -268,25 +285,24 @@
                 </action> 
 			</ai_package>	
 			
-			<ai_package name="NPCModHostileLongRangedBasic" entity_filter="IsEnemy" > <!-- props to the team, especially Ramsey, for this upgraded code  -->
+			<ai_package name="NPCModHostileLongRangedBasic" entity_filter="IsEnemy" >
 				<action name="MoveToEnemyLongRanged" weight="4">
 					<task class="MoveToAttackTargetSDX, SCore" run="true" action_index="1" />
-					<consideration class="TargetDistance" flip_x="true" min="15" curve="threshold" />
+					<consideration class="TargetDistance" flip_x="true" min="13" curve="threshold" />
 					<consideration class="CanSeeTarget, SCore" />
 				</action>
 				 <action name="MoveToRandomTarget" weight="3" entity_filter="IsPlayer" >
                     <task class="MoveToInvestigate, SCore" run="true" />
-                    <!--<consideration class="NotInWeaponRange, SCore" action_index="0" /> -->
                     <consideration class="CanNotSeeTarget, SCore"/>
 					<consideration class="CanHearTarget, SCore" />
 					<consideration class="NotPathBlockedSDX, SCore"  />
                  </action>    					
-				<!--<action name="MeleeRangedAttack" weight="6">
+				<action name="MeleeRangedAttack" weight="6">
 					<task class="AttackTargetEntitySDX, SCore" action_index="0"/>
 					<consideration class="InWeaponRange, SCore"  action_index="0"  />
 					<consideration class="CanSeeTarget, SCore"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="IsHealing,buffHitStun"/>
-				</action>-->
+				</action>
 				<action name="RangedAttack" weight="5">
 					<task class="AttackTargetEntitySDX, SCore" action_index="1" />
 					<consideration class="CanSeeTarget, SCore" />
@@ -294,8 +310,7 @@
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffBurstDelay,IsHealing,buffReload2,buffReloadDelay,buffReload3,RandomIdle,buffHitStun" />
 				</action>
 				<action name="BackupLongRanged" weight="3">
-					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="16"/>
-					<!--<consideration class="TargetDistance" flip_x="true" max="16" curve="threshold" />-->
+					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="13"/>
 					<consideration class="CanSeeTarget, SCore"/>
 				</action>
 				<action name="MeleeAttackBlock" weight="3">
@@ -311,7 +326,6 @@
 				<action name="MoveToEnemyRunMelee" weight="4">
 					<task class="MoveToAttackTargetSDX, SCore" run="true" />
 					<consideration class="FailOnDistanceToLeader, Score" max_distance="50"/>
-					<!--<consideration class="NotInWeaponRange, SCore" action_index="0" /> -->
 					<consideration class="CanSeeTarget, SCore"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModFullControlMode,buffHitStun"/>	
 					<consideration class="NotHasOrder, SCore" order="Stay"/>
@@ -322,6 +336,14 @@
 					<consideration class="InWeaponRange, SCore" action_index="0" /> 
 					<consideration class="CanSeeTarget, SCore"/> 
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModFullControlMode,IsHealing,buffHitStun"/>	
+				</action>
+				<action name="MoveToEnemyRunMeleeStay" weight="4">
+					<task class="MoveToAttackTargetSDX, SCore" run="true" />
+					<consideration class="CanSeeTarget, SCore"/>
+					<consideration class="TargetHasBuff, SCore" buffs="buffNPCModAttacked"/>
+					<!--<consideration class="TargetDistance" max="5"/>-->
+					<consideration class="SelfNotHasBuff, SCore" buffs="buffHitStun"/>	
+					<consideration class="HasOrder, SCore" order="Stay"/>
 				</action>
 				<!-- FULL CONTROL ACTIONS - NO PLAYER COMMANDS -->
 				<action name="LeaderFollowControl" weight="10" >
@@ -336,7 +358,6 @@
 					<consideration class="TargetHasBuff, SCore" buffs="buffNPCModAttacking"/>
 					<task class="MoveToAttackTargetSDX, SCore" run="true" />
 					<consideration class="FailOnDistanceToLeader, Score" max_distance="50"/>
-					<!--<consideration class="NotInWeaponRange, SCore" action_index="0" /> -->
 					<consideration class="CanSeeTarget, SCore"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModStopAttacking,buffHitStun"/>	
 					<consideration class="NotHasOrder, SCore" order="Stay"/>
@@ -357,19 +378,19 @@
 				<action name="MoveToEnemyShortRanged" weight="4">
 					<task class="MoveToAttackTargetSDX, SCore" run="true" action_index="1" />
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModFullControlMode"/>
-					<consideration class="TargetDistance" flip_x="true" min="7" curve="threshold" />
+					<consideration class="TargetDistance" flip_x="true" min="9" curve="threshold" />
 					<consideration class="FailOnDistanceToLeader, Score" max_distance="50" />
 					<consideration class="CanSeeTarget, SCore" />
 					<consideration class="NotHasOrder, SCore" order="Stay" />
 				</action>
-				<!--<action name="MeleeRangedAttack" weight="6">
+				<action name="MeleeRangedAttack" weight="6">
 					<task class="AttackTargetEntitySDX, SCore" action_index="0"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModFullControlMode"/>
 					<consideration class="FailOnDistanceToLeader, Score" max_distance="50"/>
 					<consideration class="InWeaponRange, SCore"  action_index="0"  /> 
 					<consideration class="CanSeeTarget, SCore"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="IsHealing,buffHitStun"/>	
-				</action>-->
+				</action>
 				<action name="RangedAttack" weight="5">
 					<task class="AttackTargetEntitySDX, SCore" action_index="1" />
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModFullControlMode"/>
@@ -378,8 +399,15 @@
 					<consideration class="InWeaponRange, SCore" action_index="1" />
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffBurstDelay,IsHealing,buffReload2,buffReloadDelay,buffReload3,RandomIdle,buffHitStun" />
 				</action>
+				<action name="RangedAttackStay" weight="5">
+					<task class="AttackTargetEntitySDX, SCore" action_index="1" />
+					<consideration class="HasOrder, SCore" order="Stay" />
+					<consideration class="CanSeeTarget, SCore" />
+					<consideration class="InWeaponRange, SCore" action_index="1" />
+					<consideration class="SelfNotHasBuff, SCore" buffs="buffBurstDelay,IsHealing,buffReload2,buffReloadDelay,buffReload3,RandomIdle,buffHitStun" />
+				</action>
 				<action name="BackupShortRanged" weight="3">
-					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="8"/>
+					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="9"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModFullControlMode"/>
 					<consideration class="InWeaponRange, SCore" action_index="1" />
 					<consideration class="FailOnDistanceToLeader, Score" max_distance="50"/>
@@ -399,12 +427,12 @@
 					<consideration class="SelfHasBuff, SCore" buffs="buffNPCModFullControlMode"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModStopAttacking"/>
 					<consideration class="TargetHasBuff, SCore" buffs="buffNPCModAttacking"/>
-					<consideration class="TargetDistance" flip_x="true" min="7" curve="threshold" />
+					<consideration class="TargetDistance" flip_x="true" min="9" curve="threshold" />
 					<consideration class="FailOnDistanceToLeader, Score" max_distance="50" />
 					<consideration class="CanSeeTarget, SCore" />
 					<consideration class="NotHasOrder, SCore" order="Stay" />
 				</action>
-				<!--<action name="MeleeRangedAttackControlAttacked" weight="6">
+				<action name="MeleeRangedAttackControlAttacked" weight="6">
 					<task class="AttackTargetEntitySDX, SCore" action_index="0"/>
 					<consideration class="SelfHasBuff, SCore" buffs="buffNPCModFullControlMode"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModStopAttacking"/>
@@ -413,7 +441,7 @@
 					<consideration class="InWeaponRange, SCore"  action_index="0"  /> 
 					<consideration class="CanSeeTarget, SCore"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="IsHealing,buffHitStun"/>	
-				</action>-->
+				</action>
 				<action name="RangedAttackControlAttacked" weight="5">
 					<task class="AttackTargetEntitySDX, SCore" action_index="1" />
 					<consideration class="SelfHasBuff, SCore" buffs="buffNPCModFullControlMode"/>
@@ -425,7 +453,7 @@
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffBurstDelay,IsHealing,buffReload2,buffReloadDelay,buffReload3,RandomIdle,buffHitStun" />
 				</action>
 				<action name="BackupShortRangedControlAttacked" weight="3">
-					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="8"/>
+					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="9"/>
 					<consideration class="SelfHasBuff, SCore" buffs="buffNPCModFullControlMode"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModStopAttacking"/>
 					<consideration class="TargetHasBuff, SCore" buffs="buffNPCModAttacking"/>
@@ -446,14 +474,14 @@
 					<consideration class="CanSeeTarget, SCore" />
 					<consideration class="NotHasOrder, SCore" order="Stay" />
 				</action>
-				<!--<action name="MeleeRangedAttack" weight="6">
+				<action name="MeleeRangedAttack" weight="6">
 					<task class="AttackTargetEntitySDX, SCore" action_index="0"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModFullControlMode"/>
 					<consideration class="FailOnDistanceToLeader, Score" max_distance="50"/>
 					<consideration class="InWeaponRange, SCore"  action_index="0"  /> 
 					<consideration class="CanSeeTarget, SCore"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="IsHealing,buffHitStun"/>	
-				</action>-->
+				</action>
 				<action name="RangedAttack" weight="5">
 					<task class="AttackTargetEntitySDX, SCore" action_index="1" />
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModFullControlMode"/>
@@ -462,8 +490,15 @@
 					<consideration class="InWeaponRange, SCore" action_index="1" />
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffBurstDelay,IsHealing,buffReload2,buffReloadDelay,buffReload3,RandomIdle,buffHitStun" />
 				</action>
+				<action name="RangedAttackStay" weight="5">
+					<task class="AttackTargetEntitySDX, SCore" action_index="1" />
+					<consideration class="HasOrder, SCore" order="Stay" />
+					<consideration class="CanSeeTarget, SCore" />
+					<consideration class="InWeaponRange, SCore" action_index="1" />
+					<consideration class="SelfNotHasBuff, SCore" buffs="buffBurstDelay,IsHealing,buffReload2,buffReloadDelay,buffReload3,RandomIdle,buffHitStun" />
+				</action>
 				<action name="BackupMediumRanged" weight="3">
-					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="12"/>
+					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="11"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModFullControlMode"/>
 					<consideration class="InWeaponRange, SCore" action_index="1" />
 					<consideration class="FailOnDistanceToLeader, Score" max_distance="50"/>
@@ -488,7 +523,7 @@
 					<consideration class="CanSeeTarget, SCore" />
 					<consideration class="NotHasOrder, SCore" order="Stay" />
 				</action>
-				<!--<action name="MeleeRangedAttackControlAttacked" weight="6">
+				<action name="MeleeRangedAttackControlAttacked" weight="6">
 					<task class="AttackTargetEntitySDX, SCore" action_index="0"/>
 					<consideration class="SelfHasBuff, SCore" buffs="buffNPCModFullControlMode"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModStopAttacking"/>
@@ -497,7 +532,7 @@
 					<consideration class="InWeaponRange, SCore"  action_index="0"  /> 
 					<consideration class="CanSeeTarget, SCore"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="IsHealing,buffHitStun"/>	
-				</action>-->
+				</action>
 				<action name="RangedAttackControlAttacked" weight="5">
 					<task class="AttackTargetEntitySDX, SCore" action_index="1" />
 					<consideration class="SelfHasBuff, SCore" buffs="buffNPCModFullControlMode"/>
@@ -509,7 +544,7 @@
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffBurstDelay,IsHealing,buffReload2,buffReloadDelay,buffReload3,RandomIdle,buffHitStun" />
 				</action>
 				<action name="BackupMediumRangedControlAttacked" weight="3">
-					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="12"/>
+					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="11"/>
 					<consideration class="SelfHasBuff, SCore" buffs="buffNPCModFullControlMode"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModStopAttacking"/>
 					<consideration class="TargetHasBuff, SCore" buffs="buffNPCModAttacking"/>
@@ -525,19 +560,19 @@
 				<action name="MoveToEnemyLongRanged" weight="4">
 					<task class="MoveToAttackTargetSDX, SCore" run="true" action_index="1" />
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModFullControlMode"/>
-					<consideration class="TargetDistance" flip_x="true" min="15" curve="threshold" />
+					<consideration class="TargetDistance" flip_x="true" min="13" curve="threshold" />
 					<consideration class="FailOnDistanceToLeader, Score" max_distance="50" />
 					<consideration class="CanSeeTarget, SCore" />
 					<consideration class="NotHasOrder, SCore" order="Stay" />
 				</action>
-				<!--<action name="MeleeRangedAttack" weight="6">
+				<action name="MeleeRangedAttack" weight="6">
 					<task class="AttackTargetEntitySDX, SCore" action_index="0"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModFullControlMode"/>
 					<consideration class="FailOnDistanceToLeader, Score" max_distance="50"/>
 					<consideration class="InWeaponRange, SCore"  action_index="0"  /> 
 					<consideration class="CanSeeTarget, SCore"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="IsHealing,buffHitStun"/>	
-				</action>-->
+				</action>
 				<action name="RangedAttack" weight="5">
 					<task class="AttackTargetEntitySDX, SCore" action_index="1" />
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModFullControlMode"/>
@@ -545,9 +580,17 @@
 					<consideration class="CanSeeTarget, SCore" />
 					<consideration class="InWeaponRange, SCore" action_index="1" />
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffBurstDelay,IsHealing,buffReload2,buffReloadDelay,buffReload3,RandomIdle,buffHitStun" />
+					<consideration class="NotHasOrder, SCore" order="Stay" />
+				</action>
+				<action name="RangedAttackStay" weight="5">
+					<task class="AttackTargetEntitySDX, SCore" action_index="1" />
+					<consideration class="HasOrder, SCore" order="Stay" />
+					<consideration class="CanSeeTarget, SCore" />
+					<consideration class="InWeaponRange, SCore" action_index="1" />
+					<consideration class="SelfNotHasBuff, SCore" buffs="buffBurstDelay,IsHealing,buffReload2,buffReloadDelay,buffReload3,RandomIdle,buffHitStun" />
 				</action>
 				<action name="BackupLongRanged" weight="3">
-					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="16"/>
+					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="13"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModFullControlMode"/>
 					<consideration class="InWeaponRange, SCore" action_index="1" />
 					<consideration class="FailOnDistanceToLeader, Score" max_distance="50"/>
@@ -567,12 +610,12 @@
 					<consideration class="SelfHasBuff, SCore" buffs="buffNPCModFullControlMode"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModStopAttacking"/>
 					<consideration class="TargetHasBuff, SCore" buffs="buffNPCModAttacking"/>
-					<consideration class="TargetDistance" flip_x="true" min="15" curve="threshold" />
+					<consideration class="TargetDistance" flip_x="true" min="13" curve="threshold" />
 					<consideration class="FailOnDistanceToLeader, Score" max_distance="50" />
 					<consideration class="CanSeeTarget, SCore" />
 					<consideration class="NotHasOrder, SCore" order="Stay" />
 				</action>
-				<!--<action name="MeleeRangedAttackControlAttacked" weight="6">
+				<action name="MeleeRangedAttackControlAttacked" weight="6">
 					<task class="AttackTargetEntitySDX, SCore" action_index="0"/>
 					<consideration class="SelfHasBuff, SCore" buffs="buffNPCModFullControlMode"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModStopAttacking"/>
@@ -581,7 +624,7 @@
 					<consideration class="InWeaponRange, SCore"  action_index="0"  /> 
 					<consideration class="CanSeeTarget, SCore"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="IsHealing,buffHitStun"/>	
-				</action>-->
+				</action>
 				<action name="RangedAttackControlAttacked" weight="5">
 					<task class="AttackTargetEntitySDX, SCore" action_index="1" />
 					<consideration class="SelfHasBuff, SCore" buffs="buffNPCModFullControlMode"/>
@@ -591,9 +634,10 @@
 					<consideration class="CanSeeTarget, SCore" />
 					<consideration class="InWeaponRange, SCore" action_index="1" />
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffBurstDelay,IsHealing,buffReload2,buffReloadDelay,buffReload3,RandomIdle,buffHitStun" />
+					<consideration class="NotHasOrder, SCore" order="Stay" />
 				</action>
 				<action name="BackupLongRangedControlAttacked" weight="3">
-					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="16"/>
+					<task class="BackupFromTargetSDX, SCore" run="true" max_distance="13"/>
 					<consideration class="SelfHasBuff, SCore" buffs="buffNPCModFullControlMode"/>
 					<consideration class="SelfNotHasBuff, SCore" buffs="buffNPCModStopAttacking"/>
 					<consideration class="TargetHasBuff, SCore" buffs="buffNPCModAttacking"/>
@@ -605,4 +649,7 @@
 			</ai_package>	
 						
 	</append>
+	
+	<remove xpath="/utility_ai/ai_packages/ai_package/action[starts-with(@name, 'MeleeRangedAttack')]"/>
+	
 </Config>

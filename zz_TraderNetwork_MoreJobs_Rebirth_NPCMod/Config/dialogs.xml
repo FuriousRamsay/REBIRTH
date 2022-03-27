@@ -1,0 +1,7 @@
+<Config>
+
+	<append xpath="/dialogs/dialog/response[@id='Hire']">
+        <action type="AddBuffSDX, SCore" id="NPCModVerifyLeaderControl" />
+	</append>
+  
+</Config>
