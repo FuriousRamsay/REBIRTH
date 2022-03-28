@@ -51,14 +51,14 @@
 	<setattribute xpath="/entity_classes/entity_class[@name='animalTemplateHostile']/property[@name='AITask-2']" name="data">class=EntityPlayer,20,EntityNPC,20,EntitySurvivor,25,EntityZombie,20,EntityBandit,20,EntityAnimalStag,25</setattribute>-->
 
 	<setattribute xpath="/entity_classes/entity_class[@name='animalTemplateHostile']/property[@name='AITask-2']" name="data">class=EntityAlive,0,EntityZombie,0</setattribute>
-	<setattribute xpath="/entity_classes/entity_class[@name='animalTemplateHostile']/property[@name='AITarget-4']" name="data">class=EntityAlive,0,EntityZombie,0</setattribute>
+	<setattribute xpath="/entity_classes/entity_class[@name='animalTemplateHostile']/property[@name='AITarget-4']" name="data">class=EntityAlive,0,0,EntityZombie,0,0</setattribute>
 
 	<setattribute xpath="/entity_classes/entity_class[@name='animalTemplateHostile']/property[@name='MaxViewAngle']" name="value">180</setattribute>
 
 	<!--<setattribute xpath="/entity_classes/entity_class[@name='animalSnake']/property[@name='AITask-3']" name="data">class=EntityPlayer,15,EntityNPC,15,EntitySurvivor,15,EntityBandit,15,EntityAnimalStag,15</setattribute>
 	<setattribute xpath="/entity_classes/entity_class[@name='animalSnake']/property[@name='AITarget-4']" name="data">class=EntityPlayer,14,0,EntityNPC,14,0,EntityZombie,14,0,EntitySurvivor,14,0,EntityBandit,14,0,EntityAnimalStag,14,0</setattribute>-->
 	<setattribute xpath="/entity_classes/entity_class[@name='animalSnake']/property[@name='AITask-3']" name="data">class=EntityAlive,0,EntityZombie,0</setattribute>
-	<setattribute xpath="/entity_classes/entity_class[@name='animalSnake']/property[@name='AITarget-4']" name="data">class=EntityAlive,0,EntityZombie,0</setattribute>
+	<setattribute xpath="/entity_classes/entity_class[@name='animalSnake']/property[@name='AITarget-4']" name="data">class=EntityAlive,0,0,EntityZombie,0,0</setattribute>
 	<remove xpath="/entity_classes/entity_class[@name='animalSnake']/property[@name='AITarget-1']"/>
 	<append xpath="/entity_classes/entity_class[@name='animalSnake']">
 		<property name="AITarget-1" value="SetAsTargetIfHurt" />
@@ -67,33 +67,33 @@
 	<!--<setattribute xpath="/entity_classes/entity_class[@name='animalCoyote']/property[@name='AITask-4']" name="data">class=EntityPlayer,10,EntityNPC,10,EntitySurvivor,10,EntityBandit,10,EntityAnimalStag,10</setattribute>
 	<setattribute xpath="/entity_classes/entity_class[@name='animalCoyote']/property[@name='AITarget-3']" name="data">class=EntityPlayer,15,10,EntityNPC,15,10,EntityZombie,15,10,EntitySurvivor,15,10,EntityBandit,15,10,EntityAnimalStag,15,10</setattribute>-->
 	<setattribute xpath="/entity_classes/entity_class[@name='animalCoyote']/property[@name='AITask-4']" name="data">class=EntityAlive,0,EntityZombie,0</setattribute>
-	<setattribute xpath="/entity_classes/entity_class[@name='animalCoyote']/property[@name='AITarget-3']" name="data">class=EntityAlive,0,EntityZombie,0</setattribute>
+	<setattribute xpath="/entity_classes/entity_class[@name='animalCoyote']/property[@name='AITarget-3']" name="data">class=EntityAlive,0,0,EntityZombie,0,0</setattribute>
 
 	<!--<setattribute xpath="/entity_classes/entity_class[@name='animalWolf']/property[@name='AITask-4']" name="data">class=EntityPlayer,10,EntityAnimalStag,20,EntityNPC,10,EntityZombie,20,EntitySurvivor,10,EntityBandit,10</setattribute>
 	<setattribute xpath="/entity_classes/entity_class[@name='animalWolf']/property[@name='AITarget-3']" name="data">class=EntityPlayer,16,8,EntityNPC,16,8,EntityAnimalStag,16,0,EntityZombie,16,8,EntitySurvivor,16,8,EntityBandit,16,8</setattribute>-->
 	<setattribute xpath="/entity_classes/entity_class[@name='animalWolf']/property[@name='AITask-4']" name="data">class=EntityAlive,0,EntityZombie,0</setattribute>
-	<setattribute xpath="/entity_classes/entity_class[@name='animalWolf']/property[@name='AITarget-3']" name="data">class=EntityAlive,0,EntityZombie,0</setattribute>
+	<setattribute xpath="/entity_classes/entity_class[@name='animalWolf']/property[@name='AITarget-3']" name="data">class=EntityAlive,0,0,EntityZombie,0,0</setattribute>
 
 	<!--<setattribute xpath="/entity_classes/entity_class[@name='animalDireWolf']/property[@name='AITask-3']" name="data">class=EntityPlayer,15,EntityAnimalStag,30,EntityNPC,15,EntityZombie,30,EntitySurvivor,15,EntityBandit,15</setattribute>
 	<setattribute xpath="/entity_classes/entity_class[@name='animalDireWolf']/property[@name='AITarget-3']" name="data">class=EntityPlayer,29,24,EntityNPC,29,24,EntityAnimalStag,29,0,EntityZombie,29,24,EntitySurvivor,29,24,EntityBandit,29,24</setattribute>-->
 	<setattribute xpath="/entity_classes/entity_class[@name='animalDireWolf']/property[@name='AITask-3']" name="data">class=EntityAlive,0,EntityZombie,0</setattribute>
-	<setattribute xpath="/entity_classes/entity_class[@name='animalDireWolf']/property[@name='AITarget-3']" name="data">class=EntityAlive,0,EntityZombie,0</setattribute>
+	<setattribute xpath="/entity_classes/entity_class[@name='animalDireWolf']/property[@name='AITarget-3']" name="data">class=EntityAlive,0,0,EntityZombie,0,0</setattribute>
 
 	<!--<setattribute xpath="/entity_classes/entity_class[@name='animalMountainLion']/property[@name='AITask-5']" name="data">class=EntityPlayer,15,EntityAnimalStag,30,EntityNPC,15,EntityZombie,20,EntitySurvivor,15,EntityBandit,15</setattribute>
 	<setattribute xpath="/entity_classes/entity_class[@name='animalMountainLion']/property[@name='AITarget-3']" name="data">class=EntityPlayer,16,9,EntityNPC,16,9,EntityAnimalStag,16,0,EntityZombie,16,9,EntitySurvivor,16,9,EntityBandit,16,9</setattribute>-->
 	<setattribute xpath="/entity_classes/entity_class[@name='animalMountainLion']/property[@name='AITask-5']" name="data">class=EntityAlive,0,EntityZombie,0</setattribute>
-	<setattribute xpath="/entity_classes/entity_class[@name='animalMountainLion']/property[@name='AITarget-3']" name="data">class=EntityAlive,0,EntityZombie,0</setattribute>
+	<setattribute xpath="/entity_classes/entity_class[@name='animalMountainLion']/property[@name='AITarget-3']" name="data">class=EntityAlive,0,0,EntityZombie,0,0</setattribute>
 
 	<!--<setattribute xpath="/entity_classes/entity_class[@name='animalBear']/property[@name='AITask-4']" name="data">class=EntityPlayer,20,EntityAnimalStag,40,EntityNPC,20,EntityZombie,30,EntitySurvivor,20,EntityBandit,15</setattribute>
 	<setattribute xpath="/entity_classes/entity_class[@name='animalBear']/property[@name='AITarget-3']" name="data">class=EntityPlayer,20,8,EntityNPC,20,8,EntityAnimalStag,20,0,EntityZombie,20,8,EntitySurvivor,20,8,EntityBandit,20,8</setattribute>-->
 	<setattribute xpath="/entity_classes/entity_class[@name='animalBear']/property[@name='AITask-4']" name="data">class=EntityAlive,0,EntityZombie,0</setattribute>
-	<setattribute xpath="/entity_classes/entity_class[@name='animalBear']/property[@name='AITarget-3']" name="data">class=EntityAlive,0,EntityZombie,0</setattribute>
+	<setattribute xpath="/entity_classes/entity_class[@name='animalBear']/property[@name='AITarget-3']" name="data">class=EntityAlive,0,0,EntityZombie,0,0</setattribute>
 
 	<!--<setattribute xpath="/entity_classes/entity_class[@name='animalZombieDog']/property[@name='AITask-3']" name="data">class=EntityPlayer,15,EntityNPC,15,EntitySurvivor,15,EntityBandit,15,EntityAnimalStag,15,EntityZombie,15</setattribute>
 	<setattribute xpath="/entity_classes/entity_class[@name='animalZombieDog']/property[@name='AITarget-1']" name="data">class=EntityPlayer,EntityNPC,EntitySurvivor,EntityBandit,EntityAnimalStag,EntityZombie</setattribute>
 	<setattribute xpath="/entity_classes/entity_class[@name='animalZombieDog']/property[@name='AITarget-4']" name="data">class=EntityPlayer,20,0,EntityNPC,20,0,EntityAnimalStag,20,0,EntitySurvivor,20,0,EntityBandit,20,0</setattribute>-->
 	<setattribute xpath="/entity_classes/entity_class[@name='animalZombieDog']/property[@name='AITask-3']" name="data">class=EntityAlive,0,EntityZombie,0</setattribute>
-	<setattribute xpath="/entity_classes/entity_class[@name='animalZombieDog']/property[@name='AITarget-4']" name="data">class=EntityAlive,0,EntityZombie,0</setattribute>
+	<setattribute xpath="/entity_classes/entity_class[@name='animalZombieDog']/property[@name='AITarget-4']" name="data">class=EntityAlive,0,0,EntityZombie,0,0</setattribute>
 	<remove xpath="/entity_classes/entity_class[@name='animalZombieDog']/property[@name='AITarget-1']"/>
 	<append xpath="/entity_classes/entity_class[@name='animalZombieDog']">
 		<property name="AITarget-1" value="SetAsTargetIfHurt" />
@@ -102,12 +102,12 @@
 	<!--<setattribute xpath="/entity_classes/entity_class[@name='animalZombieBear']/property[@name='AITask-5']" name="data">class=EntityPlayer,0,EntityAnimalStag,40,EntityNPC,0,EntitySurvivor,0,EntityBandit,0</setattribute>
 	<setattribute xpath="/entity_classes/entity_class[@name='animalZombieBear']/property[@name='AITarget-3']" name="data">class=EntityPlayer,20,13,EntityNPC,20,13,EntityAnimalStag,20,0,EntityZombie,20,13,EntitySurvivor,20,13,EntityBandit,18,13</setattribute>-->
 	<setattribute xpath="/entity_classes/entity_class[@name='animalZombieBear']/property[@name='AITask-5']" name="data">class=EntityAlive,0,EntityZombie,0</setattribute>
-	<setattribute xpath="/entity_classes/entity_class[@name='animalZombieBear']/property[@name='AITarget-3']" name="data">class=EntityAlive,0,EntityZombie,0</setattribute>
+	<setattribute xpath="/entity_classes/entity_class[@name='animalZombieBear']/property[@name='AITarget-3']" name="data">class=EntityAlive,0,0,EntityZombie,0,0</setattribute>
 
 	<!--<setattribute xpath="/entity_classes/entity_class[@name='animalBossGrace']/property[@name='AITask-4']" name="data">class=EntityPlayer,0,EntityNPC,0,EntityZombie,0,EntitySurvivor,0,EntityBandit,0,EntityAnimalStag,0</setattribute>
 	<setattribute xpath="/entity_classes/entity_class[@name='animalBossGrace']/property[@name='AITarget-4']" name="data">class=EntityPlayer,20,13,EntityNPC,20,13,EntityAnimalStag,20,0,EntityZombie,20,13,EntitySurvivor,20,13,EntityBandit,20,13</setattribute>-->
 	<setattribute xpath="/entity_classes/entity_class[@name='animalBossGrace']/property[@name='AITask-4']" name="data">class=EntityAlive,0,EntityZombie,0</setattribute>
-	<setattribute xpath="/entity_classes/entity_class[@name='animalBossGrace']/property[@name='AITarget-4']" name="data">class=EntityAlive,0,EntityZombie,0</setattribute>
+	<setattribute xpath="/entity_classes/entity_class[@name='animalBossGrace']/property[@name='AITarget-4']" name="data">class=EntityAlive,0,0,EntityZombie,0,0</setattribute>
 
 	<append xpath="/entity_classes/entity_class[@name='npcTraderTemplate']">
 		<effect_group name="Backaway or Die bandit">

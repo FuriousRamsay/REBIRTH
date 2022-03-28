@@ -447,12 +447,11 @@
 			<item name="ammo762mmBulletBall" count="2,4" prob="20"/>
 			<item name="ammoShotgunShell" count="3,5" prob="20"/>
 			<item name="ammo44MagnumBulletBall" count="2,4" prob="20"/>
-			<item name="ammo44MagnumBulletBall" count="2,4" prob="20"/>
-			<item name="ammoArrowStone" count="5,10" prob="20"/>
-			<item name="ammoCrossbowBoltStone" count="5,10" prob="20"/>
+			<!--<item name="ammoArrowStone" count="5,10" prob="20"/>
+			<item name="ammoCrossbowBoltStone" count="5,10" prob="20"/>-->
 			<item name="ammoArrowIron" count="5,10" prob="15"/>
 			<item name="ammoCrossbowBoltIron" count="5,10" prob="15"/>
-			<item name="ammoArrowSteelAP" count="4,8" prob="10"/>
+			<!--<item name="ammoArrowSteelAP" count="4,8" prob="10"/>
 			<item name="ammoCrossbowBoltSteelAP" count="4,8" prob="10"/>
 			<item name="ammoArrowFlaming" count="3,5" prob="8"/>
 			<item name="ammoCrossbowBoltFlaming" count="3,5" prob="8"/>
@@ -472,12 +471,12 @@
 			<item name="medicalFirstAidBandage" prob="8"/>
 			<item name="medicalAloeCream" count="1,2" prob="12"/>
 			<item name="medicalBandage" count="1,2" prob="14"/>
-			<item name="drugPainkillers" prob="5"/>
-			<item name="apparelCoatJacketLetterZU" prob="5"/>
-			<item name="apparelRunningShoesHP" prob="5"/>
-			<item name="resourceSilverNugget" prob="0.2"/>
-			<item name="resourceGoldNugget" prob="0.08"/>
-			<item name="resourceRawDiamond" prob="0.03"/>
+			<item name="drugPainkillers" prob="5"/>-->
+			<item name="apparelCoatJacketLetterZU" prob="3"/>
+			<item name="apparelRunningShoesHP" prob="3"/>
+			<item name="resourceSilverNugget" prob="0.09"/>
+			<item name="resourceGoldNugget" prob="0.05"/>
+			<item name="resourceRawDiamond" prob="0.02"/>
 			<item name="qt_taylor" prob="0.01" />
 			<item name="qt_nickole" prob="0.01" />
 			<item name="qt_stephan" prob="0.01" />
@@ -485,22 +484,22 @@
 			<item name="qt_claude" prob="0.01" />
 			<item name="qt_sarah" prob="0.01" />
 			<item name="qt_raphael" prob="0.01" />
-			<item name="FuriousRamsayHeadShadesStrengthTRex" prob="0.1"/>
-			<item name="FuriousRamsayHeadShadesStrengthMiner69er" prob="0.1"/>
-			<item name="FuriousRamsayHeadShadesStrengthMotherLode" prob="0.1"/>
-			<item name="FuriousRamsayHeadShadesDexterityRuleOneCardio" prob="0.1"/>
-			<item name="FuriousRamsayHeadShadesDexterityParkour" prob="0.1"/>
-			<item name="FuriousRamsayHeadShadesDexterityRunAndGun" prob="0.1"/>
-			<item name="FuriousRamsayHeadShadesConstitutionPackMule" prob="0.1"/>
-			<item name="FuriousRamsayHeadShadesConstitutionHealingFactor" prob="0.1"/>
-			<item name="FuriousRamsayHeadShadesConstitutionSlowMetabolism" prob="0.1"/>
-			<item name="FuriousRamsayHeadShadesIntelligenceDeepCuts" prob="0.1"/>
-			<item name="FuriousRamsayHeadShadesIntelligenceLuckyLooter" prob="0.1"/>
-			<item name="FuriousRamsayHeadShadesIntelligenceLockPicking" prob="0.1"/>
-			<item name="FuriousRamsayHeadShadesIntelligenceTreasureHunter" prob="0.1"/>
-			<item name="FuriousRamsayHeadShadesCharismaDaringAdventurer" prob="0.1"/>
-			<item name="FuriousRamsayHeadShadesCharismaBetterBarter" prob="0.1"/>
-			<item name="FuriousRamsayHeadShadesCharismaCharismaticNature" prob="0.1"/>
+			<item name="FuriousRamsayHeadShadesStrengthTRex" prob="0.08"/>
+			<item name="FuriousRamsayHeadShadesStrengthMiner69er" prob="0.08"/>
+			<item name="FuriousRamsayHeadShadesStrengthMotherLode" prob="0.08"/>
+			<item name="FuriousRamsayHeadShadesDexterityRuleOneCardio" prob="0.08"/>
+			<item name="FuriousRamsayHeadShadesDexterityParkour" prob="0.08"/>
+			<item name="FuriousRamsayHeadShadesDexterityRunAndGun" prob="0.08"/>
+			<item name="FuriousRamsayHeadShadesConstitutionPackMule" prob="0.08"/>
+			<item name="FuriousRamsayHeadShadesConstitutionHealingFactor" prob="0.08"/>
+			<item name="FuriousRamsayHeadShadesConstitutionSlowMetabolism" prob="0.08"/>
+			<item name="FuriousRamsayHeadShadesIntelligenceDeepCuts" prob="0.08"/>
+			<item name="FuriousRamsayHeadShadesIntelligenceLuckyLooter" prob="0.08"/>
+			<item name="FuriousRamsayHeadShadesIntelligenceLockPicking" prob="0.08"/>
+			<item name="FuriousRamsayHeadShadesIntelligenceTreasureHunter" prob="0.08"/>
+			<item name="FuriousRamsayHeadShadesCharismaDaringAdventurer" prob="0.08"/>
+			<item name="FuriousRamsayHeadShadesCharismaBetterBarter" prob="0.08"/>
+			<item name="FuriousRamsayHeadShadesCharismaCharismaticNature" prob="0.08"/>
 		</lootgroup>
 
 		<lootgroup name="FuriousRamsayZombieLootFat">

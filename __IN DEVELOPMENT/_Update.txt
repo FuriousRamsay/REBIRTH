@@ -57,7 +57,8 @@ Added Natural Selection kill counter in Class window when using the SMX HUD
 Experience and Kills gained from NPC require them to be at a minimum of 20m from you
 Hired Ranged NPCs will benefit from your Class Aura at a rate of 5% chance to trigger
 Zombies now use faction targeting
-Created custom Melee NPC controller to improve on performance
+Created custom Melee NPC controller to improve performance
+Removed high end ammo from zombie loot
 http://38.17.55.139/Rebirth-2022-03-25-1935.zip
 
 PENDING:
@@ -65,14 +66,13 @@ NPCs you decided to "store away" will no longer show a death animation
 Hired NPCs following you will no longer destabilize your vehicle while driving
 
 TODO:
-Heavy attack anim does not synch with damage dealt (too slow)
-Add Survivor melee hire and no hire (right now xml points to hire, models to no hire
+Investigate Culling
+Update descriptions to indicate level 40 requirement on end tier weapons
 Bandits and survivors flee when health below a certain amount
 New Melee classes are lootable, no bag drops
 Patch Entityzombie to candamage, maybe through a new class
 Make zombies fight each other if they hurt each other
 Natural Selection font gets small after 100
-Weigthed mod doesn't work on the baton
 Ranged NPCs were shooting at the junk turret
 Have explsive immune zombies show up in forest biome
 Have event occur less often
@@ -83,9 +83,7 @@ Check why thirst isn't going down as fast as food
 Check heal rate of honey
 Missing localization for mercenary quests
 No prompt from mercery trader when he shows up on dedi
-Hired ranged NPC do not attack in hunting mode
 001b2pipepistolnohire no name
-Remove high-end ammo
 weigthed mod and blade mods should go in bladed baton
 Does robotic turret have random entity damage stats?
 
