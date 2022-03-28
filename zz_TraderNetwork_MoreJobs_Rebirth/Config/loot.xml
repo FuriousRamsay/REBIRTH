@@ -1031,9 +1031,9 @@
 			<item name="FuriousRamsayStarterBackpackCharisma" count="1"/>
 		</lootgroup>
 
-		<lootgroup name="FuriousRamsayGasGrills" count="all">
+		<lootgroup name="FuriousRamsayGasGrills" count="1">
 			<item name="FuriousRamsayCharcoal" count="5" prob="1"/>
-			<item name="FuriousRamsayPropaneTank" count="1"/>
+			<item name="FuriousRamsayPropaneTank" prob="0.6"/>
 		</lootgroup>
 
 		<lootgroup name="FuriousRamsayTableSaw" count="all">

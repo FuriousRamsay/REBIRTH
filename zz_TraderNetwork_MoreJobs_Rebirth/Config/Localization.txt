@@ -55,6 +55,9 @@ quest_FuriousRamsayBuilderTrainer,Journal Tip,,"Once you find a spot for your Bu
 quest_FuriousRamsayChefTrainer_title,Journal Tip,,"The Chef Trainer"
 quest_FuriousRamsayChefTrainer,Journal Tip,,"Once you find a spot for your Chef Trainer, you'll find that they offer a range of repair kits and missions for sale.\n\nYou have been given a Starter mission backpack to get you going on your first missions.\n\nThese missions will provide you with the necessary schematics to start assembling your crafting stations.\n\nThey do have player level requirements and most can only be started once you reach level 10.\n\n - Briston"
 
+FuriousRamsayQuest_MercenaryTrader_subtitle,Quests,Quests,The Mercenary Trader
+FuriousRamsayQuest_MercenaryTrader_description,Quests,Quests,"The stealthy Mercenary Trader just showed up. He sell contracts for protection from the Mercenary Guild."
+
 FuriousRamsayQuest_BasicSurvival1_subtitle,Quests,Quests,Wake Up!
 FuriousRamsayQuest_BasicSurvival1_description,Quests,Quests,"You just woke up and have to defend yourself."
 FuriousRamsayQuest_BasicSurvival1_title,Quests,Quests,Wake Up!

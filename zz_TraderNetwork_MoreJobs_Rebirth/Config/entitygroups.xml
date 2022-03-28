@@ -463,18 +463,29 @@
 
 	<append xpath="/entitygroups">
 
-		<!--<entitygroup name="ForestZombies">
-			<entity name="FuriousRamsayUMAAidenEnemyBiome" prob="0.20"/>
-			<entity name="FuriousRamsayUMAHodorEnemyBiome" prob="0.20"/>
-			<entity name="FuriousRamsayUMARichieEnemyBiome" prob="0.20"/>
-			<entity name="FuriousRamsayUMAWillieEnemyBiome" prob="0.20"/>
-			<entity name="FuriousRamsayUMAKimEnemyBiome" prob="0.20"/>
-			<entity name="FuriousRamsayUMACharlotteEnemyBiome" prob="0.10"/>
-			<entity name="FuriousRamsayUMARoxyEnemyBiome" prob="0.20"/>
-			<entity name="FuriousRamsayUMAGabrielleEnemyBiome" prob="0.10"/>
-			<entity name="FuriousRamsayUMAClintEnemyBiome" prob="0.20"/>
+		<entitygroup name="ForestZombies">
+			<entity name="FuriousRamsayBlackDecoySmokeZombieArlene" prob=".3"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieMarlene" prob=".3"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombiePartyGirl" prob=".3"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieNurse" prob=".3"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieJoe" prob=".3"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieSteve" prob=".3"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieBusinessMan" prob=".3"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieSpider" prob=".3"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieBoe" prob=".3"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieJanitor" prob=".3"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieMoe" prob=".3"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieDarlene" prob=".3"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieYo" prob=".3"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieUtilityWorker" prob=".3"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieBiker" prob=".25"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieFemaleFat" prob=".25"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieFatHawaiian" prob=".25"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieMaleHazmat" prob=".25"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieSkateboarder" prob=".25"/>
+			<entity name="FuriousRamsayBlackDecoySmokeZombieSoldier" prob=".2"/>
 			<entity name="none" prob="5"/>
-		</entitygroup>-->
+		</entitygroup>
 
 		<entitygroup name="DesertZombies">
 			<entity name="zombieSpider" prob="1" />
@@ -545,13 +556,6 @@
 	</append>
 
 	<insertBefore xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']/entity[@name='none']">
-		<entity name="FuriousRamsayEnemyAndroid1Biome" prob="10"/>
-		<entity name="FuriousRamsayEnemyAndroid2Biome" prob="10"/>
-		<entity name="FuriousRamsayEnemyAndroid3Biome" prob="10"/>
-		<entity name="FuriousRamsayEnemyAndroid4Biome" prob="10"/>
-		<entity name="FuriousRamsayEnemyAndroid5Biome" prob="10"/>
-		<entity name="FuriousRamsayEnemyAndroid6Biome" prob="10"/>
-		<entity name="FuriousRamsayEnemyAndroid7Biome" prob="10"/>
 		<entity name="FuriousRamsayCloakedSnakeBiome" prob="5"/>
 		<entity name="FuriousRamsayCloakedVultureBiome" prob="1"/>
 		<entity name="FuriousRamsayBurningRabbitTier4Biome" prob="1"/>

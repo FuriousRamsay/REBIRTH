@@ -3,7 +3,21 @@
 	<append xpath="/gameevents/action_sequence[@name='spawn_FuriousRamsay_Start']">
 
 		<action class="SpawnEntity">
-			<property name="entity_names" value="FuriousRamsayBobBatNoHire,FuriousRamsayHughAxeNoHire,FuriousRamsayJoelMacheteNoHire"/>
+			<property name="entity_names" value="FuriousRamsayBobBatNoHire"/>
+			<property name="min_distance" value="5" />
+			<property name="max_distance" value="5" />
+			<property name="spawn_count" value="1" />
+			<property name="phase" value="1" />
+		</action>
+		<action class="SpawnEntity">
+			<property name="entity_names" value="FuriousRamsayHughAxeNoHire"/>
+			<property name="min_distance" value="5" />
+			<property name="max_distance" value="5" />
+			<property name="spawn_count" value="1" />
+			<property name="phase" value="1" />
+		</action>
+		<action class="SpawnEntity">
+			<property name="entity_names" value="FuriousRamsayJoelMacheteNoHire"/>
 			<property name="min_distance" value="5" />
 			<property name="max_distance" value="5" />
 			<property name="spawn_count" value="1" />
@@ -25,9 +39,9 @@
 		</action>
 		<action class="SpawnEntity">
 			<property name="entity_names" value="FuriousRamsayZombie001,FuriousRamsayZombie002,FuriousRamsayZombie003,FuriousRamsayZombie004,FuriousRamsayZombie005,FuriousRamsayZombie006,FuriousRamsayZombie007,FuriousRamsayZombie008,FuriousRamsayZombie009,FuriousRamsayZombie010,FuriousRamsayZombie011,FuriousRamsayZombie012,FuriousRamsayZombie013"/>
-			<property name="min_distance" value="30" />
-			<property name="max_distance" value="35" />
-			<property name="spawn_count" value="9" />
+			<property name="min_distance" value="25" />
+			<property name="max_distance" value="25" />
+			<property name="spawn_count" value="10" />
 			<property name="phase" value="1" />
 		</action>
 
@@ -122,6 +136,9 @@
 			<action class="PlaySound">
 				<property name="sound" value="NPCHelp" />
 			</action>
+			<action class="Delay">
+				<property name="time" value="2" />
+			</action>	
 			<action class="AddJournalTip">
 				<property name="tip_name" value="FuriousRamsayMercenaryTraderTip" />
 				<property name="show_window" value="true" />

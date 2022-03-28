@@ -24,9 +24,9 @@
 			<entity name="FuriousRamsayNoahPumpShotgunNoHire" prob=".005" />-->
 			<entity name="FuriousRamsayMercenaryTrader_FR" prob=".06" />
 			<!-- FEMALE NPCs -->
-			<!--<entity name="FuriousRamsaySurvivorWoman001aClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001aBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001aAxe" prob=".06" />
+			<!--<entity name="FuriousRamsaySurvivorWoman001aClub" prob=".06" />-->
+			<entity name="FuriousRamsaySurvivorWoman001aBatNoHire" prob=".12" />
+			<!--<entity name="FuriousRamsaySurvivorWoman001aAxe" prob=".06" />
 			<entity name="FuriousRamsaySurvivorWoman001aKnife" prob=".06" />
 			<entity name="FuriousRamsaySurvivorWoman001aSpear" prob=".06" />
 			<entity name="FuriousRamsaySurvivorWoman001aMachete" prob=".06" />-->
@@ -36,9 +36,9 @@
 			<entity name="FuriousRamsaySurvivorWoman001aPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorWoman001aWoodenBow" prob=".04" />
 			<entity name="FuriousRamsaySurvivorWoman001bClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001bBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001bAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001bKnife" prob=".06" />
+			<entity name="FuriousRamsaySurvivorWoman001bBat" prob=".06" />-->
+			<entity name="FuriousRamsaySurvivorWoman001bAxeNoHire" prob=".12" />
+			<!--<entity name="FuriousRamsaySurvivorWoman001bKnife" prob=".06" />
 			<entity name="FuriousRamsaySurvivorWoman001bSpear" prob=".06" />
 			<entity name="FuriousRamsaySurvivorWoman001bMachete" prob=".06" />
 			<entity name="FuriousRamsaySurvivorWoman001bPipePistol" prob=".04" />-->
@@ -48,9 +48,9 @@
 			<entity name="FuriousRamsaySurvivorWoman001bWoodenBow" prob=".04" />
 			<entity name="FuriousRamsaySurvivorWoman001cClub" prob=".06" />
 			<entity name="FuriousRamsaySurvivorWoman001cBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001cAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001cKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001cSpear" prob=".06" />
+			<entity name="FuriousRamsaySurvivorWoman001cAxe" prob=".06" />-->
+			<entity name="FuriousRamsaySurvivorWoman001cKnifeNoHire" prob=".12" />
+			<!--<entity name="FuriousRamsaySurvivorWoman001cSpear" prob=".06" />
 			<entity name="FuriousRamsaySurvivorWoman001cMachete" prob=".06" />
 			<entity name="FuriousRamsaySurvivorWoman001cPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorWoman001cPipeMachineGun" prob=".02" />-->
@@ -60,274 +60,274 @@
 			<entity name="FuriousRamsaySurvivorWoman001dClub" prob=".06" />
 			<entity name="FuriousRamsaySurvivorWoman001dBat" prob=".06" />
 			<entity name="FuriousRamsaySurvivorWoman001dAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001dKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001dSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001dMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorWoman001dKnife" prob=".06" />-->
+			<entity name="FuriousRamsaySurvivorWoman001dSpearNoHire" prob=".12" />
+			<!--<entity name="FuriousRamsaySurvivorWoman001dMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorWoman001dPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorWoman001dPipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorWoman001dPipeShotgun" prob=".04" />-->
 			<entity name="FuriousRamsaySurvivorWoman001dPipeRifle" prob=".04" />
 			<!--<entity name="FuriousRamsaySurvivorWoman001dWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorWoman001eClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001eBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001eAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001eKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001eSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001eMachete" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001ePipePistol" prob=".04" />
+			<entity name="FuriousRamsaySurvivorWoman001eClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorWoman001eBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorWoman001eAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorWoman001eKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorWoman001eSpear" prob=".12" />-->
+			<entity name="FuriousRamsaySurvivorWoman001eMacheteNoHire" prob=".12" />
+			<!--<entity name="FuriousRamsaySurvivorWoman001ePipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorWoman001ePipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorWoman001ePipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorWoman001ePipeRifle" prob=".04" />-->
 			<entity name="FuriousRamsaySurvivorWoman001eWoodenBow" prob=".04" />
-			<!--<entity name="FuriousRamsaySurvivorWoman001fClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001fBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001fAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001fKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001fSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001fMachete" prob=".06" />
+			<!--<entity name="FuriousRamsaySurvivorWoman001fClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorWoman001fBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorWoman001fAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorWoman001fKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorWoman001fSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorWoman001fMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorWoman001fPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorWoman001fPipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorWoman001fPipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorWoman001fPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorWoman001fWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorWoman001gClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001gBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001gAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001gKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001gSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorWoman001gMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorWoman001gClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorWoman001gBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorWoman001gAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorWoman001gKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorWoman001gSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorWoman001gMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorWoman001gPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorWoman001gPipeMachineGun" prob=".02" />-->
 			<entity name="FuriousRamsaySurvivorWoman001gPipeShotgun" prob=".04" />
 			<!--<entity name="FuriousRamsaySurvivorWoman001gPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorWoman001gWoodenBow" prob=".04" />-->
 			<!-- MALE NPCs -->
-			<entity name="FuriousRamsaySurvivorMan000aClub" prob=".06" />
-			<!--<entity name="FuriousRamsaySurvivorMan000aBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan000aAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan000aKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan000aSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan000aMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan000aClubNoHire" prob=".12" />
+			<!--<entity name="FuriousRamsaySurvivorMan000aBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan000aAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan000aKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan000aSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan000aMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan000aPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan000aPipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan000aPipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan000aPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan000aWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan000bClub" prob=".06" />-->
-			<entity name="FuriousRamsaySurvivorMan000bBat" prob=".06" />
-			<!--<entity name="FuriousRamsaySurvivorMan000bAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan000bKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan000bSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan000bMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan000bClub" prob=".12" />-->
+			<entity name="FuriousRamsaySurvivorMan000bBatNoHire" prob=".12" />
+			<!--<entity name="FuriousRamsaySurvivorMan000bAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan000bKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan000bSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan000bMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan000bPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan000bPipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan000bPipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan000bPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan000bWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan000cClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan000cBat" prob=".06" />-->
-			<entity name="FuriousRamsaySurvivorMan000cAxe" prob=".06" />
-			<!--<entity name="FuriousRamsaySurvivorMan000cKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan000cSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan000cMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan000cClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan000cBat" prob=".12" />-->
+			<entity name="FuriousRamsaySurvivorMan000cAxeNoHire" prob=".12" />
+			<!--<entity name="FuriousRamsaySurvivorMan000cKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan000cSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan000cMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan000cPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan000cPipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan000cPipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan000cPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan000cWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan000dClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan000dBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan000dAxe" prob=".06" />-->
-			<entity name="FuriousRamsaySurvivorMan000dKnife" prob=".06" />
-			<!--<entity name="FuriousRamsaySurvivorMan000dSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan000dMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan000dClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan000dBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan000dAxe" prob=".12" />-->
+			<entity name="FuriousRamsaySurvivorMan000dKnifeNoHire" prob=".12" />
+			<!--<entity name="FuriousRamsaySurvivorMan000dSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan000dMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan000dPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan000dPipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan000dPipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan000dPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan000dWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan000eClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan000eBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan000eAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan000eKnife" prob=".06" />-->
-			<entity name="FuriousRamsaySurvivorMan000eSpear" prob=".06" />
-			<!--<entity name="FuriousRamsaySurvivorMan000eMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan000eClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan000eBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan000eAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan000eKnife" prob=".12" />-->
+			<entity name="FuriousRamsaySurvivorMan000eSpearNoHire" prob=".12" />
+			<!--<entity name="FuriousRamsaySurvivorMan000eMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan000ePipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan000ePipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan000ePipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan000ePipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan000eWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan000fClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan000fBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan000fAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan000fKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan000fSpear" prob=".06" />-->
-			<entity name="FuriousRamsaySurvivorMan000fMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan000fClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan000fBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan000fAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan000fKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan000fSpear" prob=".12" />-->
+			<entity name="FuriousRamsaySurvivorMan000fMacheteNoHire" prob=".12" />
 			<!--<entity name="FuriousRamsaySurvivorMan000fPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan000fPipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan000fPipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan000fPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan000fWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan000gClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan000gBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan000gAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan000gKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan000gSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan000gMachete" prob=".06" />-->
+			<entity name="FuriousRamsaySurvivorMan000gClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan000gBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan000gAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan000gKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan000gSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan000gMachete" prob=".12" />-->
 			<entity name="FuriousRamsaySurvivorMan000gPipePistol" prob=".04" />
 			<!--<entity name="FuriousRamsaySurvivorMan000gPipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan000gPipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan000gPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan000gWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan001aClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001aBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001aAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001aKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001aSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001aMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan001aClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001aBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001aAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001aKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001aSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001aMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan001aPipePistol" prob=".04" />-->
 			<entity name="FuriousRamsaySurvivorMan001aPipeMachineGun" prob=".02" />
 			<!--<entity name="FuriousRamsaySurvivorMan001aPipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan001aPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan001aWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan001bClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001bBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001bAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001bKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001bSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001bMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan001bClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001bBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001bAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001bKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001bSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001bMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan001bPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan001bPipeMachineGun" prob=".02" />-->
 			<entity name="FuriousRamsaySurvivorMan001bPipeShotgun" prob=".04" />
 			<!--<entity name="FuriousRamsaySurvivorMan001bPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan001bWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan001cClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001cBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001cAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001cKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001cSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001cMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan001cClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001cBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001cAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001cKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001cSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001cMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan001cPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan001cPipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan001cPipeShotgun" prob=".04" />-->
 			<entity name="FuriousRamsaySurvivorMan001cPipeRifle" prob=".04" />
 			<!--<entity name="FuriousRamsaySurvivorMan001cWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan001dClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001dBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001dAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001dKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001dSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001dMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan001dClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001dBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001dAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001dKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001dSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001dMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan001dPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan001dPipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan001dPipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan001dPipeRifle" prob=".04" />-->
 			<entity name="FuriousRamsaySurvivorMan001dWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan001eClub" prob=".06" />
-			<!--<entity name="FuriousRamsaySurvivorMan001eBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001eAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001eKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001eSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001eMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan001eClubNoHire" prob=".12" />
+			<!--<entity name="FuriousRamsaySurvivorMan001eBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001eAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001eKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001eSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001eMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan001ePipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan001ePipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan001ePipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan001ePipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan001eWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan001fClub" prob=".06" />-->
-			<entity name="FuriousRamsaySurvivorMan001fBat" prob=".06" />
-			<!--<entity name="FuriousRamsaySurvivorMan001fAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001fKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001fSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001fMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan001fClub" prob=".12" />-->
+			<entity name="FuriousRamsaySurvivorMan001fBatNoHire" prob=".12" />
+			<!--<entity name="FuriousRamsaySurvivorMan001fAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001fKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001fSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001fMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan001fPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan001fPipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan001fPipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan001fPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan001fWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan001gClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001gBat" prob=".06" />-->
-			<entity name="FuriousRamsaySurvivorMan001gAxe" prob=".06" />
-			<!--<entity name="FuriousRamsaySurvivorMan001gKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001gSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan001gMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan001gClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001gBat" prob=".12" />-->
+			<entity name="FuriousRamsaySurvivorMan001gAxeNoHire" prob=".12" />
+			<!--<entity name="FuriousRamsaySurvivorMan001gKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001gSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan001gMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan001gPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan001gPipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan001gPipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan001gPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan001gWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan002aClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002aBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002aAxe" prob=".06" />-->
-			<entity name="FuriousRamsaySurvivorMan002aKnife" prob=".06" />
-			<!--<entity name="FuriousRamsaySurvivorMan002aSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002aMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan002aClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002aBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002aAxe" prob=".12" />-->
+			<entity name="FuriousRamsaySurvivorMan002aKnifeNoHire" prob=".12" />
+			<!--<entity name="FuriousRamsaySurvivorMan002aSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002aMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan002aPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan002aPipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan002aPipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan002aPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan002aWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan002bClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002bBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002bAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002bKnife" prob=".06" />-->
-			<entity name="FuriousRamsaySurvivorMan002bSpear" prob=".06" />
-			<!--<entity name="FuriousRamsaySurvivorMan002bMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan002bClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002bBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002bAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002bKnife" prob=".12" />-->
+			<entity name="FuriousRamsaySurvivorMan002bSpearNoHire" prob=".12" />
+			<!--<entity name="FuriousRamsaySurvivorMan002bMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan002bPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan002bPipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan002bPipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan002bPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan002bWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan002cClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002cBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002cAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002cKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002cSpear" prob=".06" />-->
-			<entity name="FuriousRamsaySurvivorMan002cMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan002cClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002cBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002cAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002cKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002cSpear" prob=".12" />-->
+			<entity name="FuriousRamsaySurvivorMan002cMacheteNoHire" prob=".12" />
 			<!--<entity name="FuriousRamsaySurvivorMan002cPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan002cPipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan002cPipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan002cPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan002cWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan002dClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002dBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002dAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002dKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002dSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002dMachete" prob=".06" />-->
+			<entity name="FuriousRamsaySurvivorMan002dClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002dBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002dAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002dKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002dSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002dMachete" prob=".12" />-->
 			<entity name="FuriousRamsaySurvivorMan002dPipePistol" prob=".04" />
 			<!--<entity name="FuriousRamsaySurvivorMan002dPipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan002dPipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan002dPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan002dWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan002eClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002eBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002eAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002eKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002eSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002eMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan002eClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002eBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002eAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002eKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002eSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002eMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan002ePipePistol" prob=".04" />-->
 			<entity name="FuriousRamsaySurvivorMan002ePipeMachineGun" prob=".02" />
 			<!--<entity name="FuriousRamsaySurvivorMan002ePipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan002ePipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan002eWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan002fClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002fBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002fAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002fKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002fSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002fMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan002fClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002fBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002fAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002fKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002fSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002fMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan002fPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan002fPipeMachineGun" prob=".02" />-->
 			<entity name="FuriousRamsaySurvivorMan002fPipeShotgun" prob=".04" />
 			<!--<entity name="FuriousRamsaySurvivorMan002fPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan002fWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan002gClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002gBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002gAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002gKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002gSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan002gMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan002gClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002gBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002gAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002gKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002gSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan002gMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan002gPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan002gPipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan002gPipeShotgun" prob=".04" />-->
@@ -340,93 +340,93 @@
 			<entity name="FuriousRamsaySurvivorMan002a3Spear" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan002a3Machete" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan002a3PipePistol" prob=".12" />
-			<entity name="FuriousRamsaySurvivorMan002a3PipeMachineGun" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan002a3PipeMachineGun" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan002a3PipeShotgun" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan002a3PipeRifle" prob=".12" />-->
 			<entity name="FuriousRamsaySurvivorMan002a3WoodenBow" prob=".12" />
-			<entity name="FuriousRamsaySurvivorMan003aClub" prob=".02" />
+			<entity name="FuriousRamsaySurvivorMan003aClubNoHire" prob=".02" />
 			<!--<entity name="FuriousRamsaySurvivorMan003aBat" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan003aAxe" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan003aKnife" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan003aSpear" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan003aMachete" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan003aPipePistol" prob=".12" />
-			<entity name="FuriousRamsaySurvivorMan003aPipeMachineGun" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan003aPipeMachineGun" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan003aPipeShotgun" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan003aPipeRifle" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan003aWoodenBow" prob=".12" />
-			<entity name="FuriousRamsaySurvivorMan004aClub" prob=".06" />-->
-			<entity name="FuriousRamsaySurvivorMan004aBat" prob=".06" />
-			<!--<entity name="FuriousRamsaySurvivorMan004aAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004aKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004aSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004aMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan004aClub" prob=".12" />-->
+			<entity name="FuriousRamsaySurvivorMan004aBatNoHire" prob=".12" />
+			<!--<entity name="FuriousRamsaySurvivorMan004aAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004aKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004aSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004aMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan004aPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan004aPipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan004aPipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan004aPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan004aWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan004bClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004bBat" prob=".06" />-->
-			<entity name="FuriousRamsaySurvivorMan004bAxe" prob=".06" />
-			<!--<entity name="FuriousRamsaySurvivorMan004bKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004bSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004bMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan004bClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004bBat" prob=".12" />-->
+			<entity name="FuriousRamsaySurvivorMan004bAxeNoHire" prob=".12" />
+			<!--<entity name="FuriousRamsaySurvivorMan004bKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004bSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004bMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan004bPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan004bPipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan004bPipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan004bPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan004bWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan004cClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004cBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004cAxe" prob=".06" />-->
-			<entity name="FuriousRamsaySurvivorMan004cKnife" prob=".06" />
-			<!--<entity name="FuriousRamsaySurvivorMan004cSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004cMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan004cClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004cBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004cAxe" prob=".12" />-->
+			<entity name="FuriousRamsaySurvivorMan004cKnifeNoHire" prob=".12" />
+			<!--<entity name="FuriousRamsaySurvivorMan004cSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004cMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan004cPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan004cPipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan004cPipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan004cPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan004cWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan004dClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004dBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004dAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004dKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004dSpear" prob=".06" />-->
-			<entity name="FuriousRamsaySurvivorMan004dMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan004dClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004dBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004dAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004dKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004dSpear" prob=".12" />-->
+			<entity name="FuriousRamsaySurvivorMan004dMacheteNoHire" prob=".12" />
 			<!--<entity name="FuriousRamsaySurvivorMan004dPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan004dPipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan004dPipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan004dPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan004dWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan004eClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004eBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004eAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004eKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004eSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004eMachete" prob=".06" />-->
+			<entity name="FuriousRamsaySurvivorMan004eClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004eBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004eAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004eKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004eSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004eMachete" prob=".12" />-->
 			<entity name="FuriousRamsaySurvivorMan004ePipePistol" prob=".04" />
 			<!--<entity name="FuriousRamsaySurvivorMan004ePipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan004ePipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan004ePipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan004eWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan004fClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004fBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004fAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004fKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004fSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004fMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan004fClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004fBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004fAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004fKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004fSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004fMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan004fPipePistol" prob=".04" />-->
 			<entity name="FuriousRamsaySurvivorMan004fPipeMachineGun" prob=".02" />
 			<!--<entity name="FuriousRamsaySurvivorMan004fPipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan004fPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan004fWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan004gClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004gBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004gAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004gKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004gSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan004gMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan004gClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004gBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004gAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004gKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004gSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan004gMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan004gPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan004gPipeMachineGun" prob=".02" />-->
 			<entity name="FuriousRamsaySurvivorMan004gPipeShotgun" prob=".04" />
@@ -439,93 +439,93 @@
 			<entity name="FuriousRamsaySurvivorMan008aSpear" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan008aMachete" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan008aPipePistol" prob=".12" />
-			<entity name="FuriousRamsaySurvivorMan008aPipeMachineGun" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan008aPipeMachineGun" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan008aPipeShotgun" prob=".12" />-->
 			<entity name="FuriousRamsaySurvivorMan008aPipeRifle" prob=".12" />
 			<!--<entity name="FuriousRamsaySurvivorMan008aWoodenBow" prob=".12" />
-			<entity name="FuriousRamsaySurvivorMan009a1Club" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan009a1Bat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan009a1Axe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan009a1Knife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan009a1Spear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan009a1Machete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan009a1Club" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan009a1Bat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan009a1Axe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan009a1Knife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan009a1Spear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan009a1Machete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan009a1PipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan009a1PipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan009a1PipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan009a1PipeRifle" prob=".04" />-->
 			<entity name="FuriousRamsaySurvivorMan009a1WoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan009b1Club" prob=".06" />
-			<!--<entity name="FuriousRamsaySurvivorMan009b1Bat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan009b1Axe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan009b1Knife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan009b1Spear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan009b1Machete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan009b1ClubNoHire" prob=".12" />
+			<!--<entity name="FuriousRamsaySurvivorMan009b1Bat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan009b1Axe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan009b1Knife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan009b1Spear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan009b1Machete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan009b1PipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan009b1PipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan009b1PipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan009b1PipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan009b1WoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan009c1Club" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan009c1Bat" prob=".06" />-->
-			<entity name="FuriousRamsaySurvivorMan009c1Axe" prob=".06" />
-			<!--<entity name="FuriousRamsaySurvivorMan009c1Knife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan009c1Spear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan009c1Machete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan009c1Club" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan009c1Bat" prob=".12" />-->
+			<entity name="FuriousRamsaySurvivorMan009c1AxeNoHire" prob=".12" />
+			<!--<entity name="FuriousRamsaySurvivorMan009c1Knife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan009c1Spear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan009c1Machete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan009c1PipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan009c1PipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan009c1PipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan009c1PipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan009c1WoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan009d1Club" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan009d1Bat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan009d1Axe" prob=".06" />-->
-			<entity name="FuriousRamsaySurvivorMan009d1Knife" prob=".06" />
-			<!--<entity name="FuriousRamsaySurvivorMan009d1Spear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan009d1Machete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan009d1Club" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan009d1Bat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan009d1Axe" prob=".12" />-->
+			<entity name="FuriousRamsaySurvivorMan009d1KnifeNoHire" prob=".12" />
+			<!--<entity name="FuriousRamsaySurvivorMan009d1Spear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan009d1Machete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan009d1PipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan009d1PipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan009d1PipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan009d1PipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan009d1WoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan010aClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan010aBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan010aAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan010aKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan010aSpear" prob=".06" />-->
-			<entity name="FuriousRamsaySurvivorMan010aMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan010aClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan010aBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan010aAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan010aKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan010aSpear" prob=".12" />-->
+			<entity name="FuriousRamsaySurvivorMan010aMacheteNoHire" prob=".12" />
 			<!--<entity name="FuriousRamsaySurvivorMan010aPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan010aPipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan010aPipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan010aPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan010aWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan010bClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan010bBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan010bAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan010bKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan010bSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan010bMachete" prob=".06" />-->
+			<entity name="FuriousRamsaySurvivorMan010bClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan010bBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan010bAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan010bKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan010bSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan010bMachete" prob=".12" />-->
 			<entity name="FuriousRamsaySurvivorMan010bPipePistol" prob=".04" />
 			<!--<entity name="FuriousRamsaySurvivorMan010bPipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan010bPipeShotgun" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan010bPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan010bWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan010cClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan010cBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan010cAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan010cKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan010cSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan010cMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan010cClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan010cBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan010cAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan010cKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan010cSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan010cMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan010cPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan010cPipeMachineGun" prob=".02" />-->
 			<entity name="FuriousRamsaySurvivorMan010cPipeShotgun" prob=".04" />
 			<!--<entity name="FuriousRamsaySurvivorMan010cPipeRifle" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan010cWoodenBow" prob=".04" />
-			<entity name="FuriousRamsaySurvivorMan010dClub" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan010dBat" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan010dAxe" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan010dKnife" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan010dSpear" prob=".06" />
-			<entity name="FuriousRamsaySurvivorMan010dMachete" prob=".06" />
+			<entity name="FuriousRamsaySurvivorMan010dClub" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan010dBat" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan010dAxe" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan010dKnife" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan010dSpear" prob=".12" />
+			<entity name="FuriousRamsaySurvivorMan010dMachete" prob=".12" />
 			<entity name="FuriousRamsaySurvivorMan010dPipePistol" prob=".04" />
 			<entity name="FuriousRamsaySurvivorMan010dPipeMachineGun" prob=".02" />
 			<entity name="FuriousRamsaySurvivorMan010dPipeShotgun" prob=".04" />-->

@@ -818,6 +818,7 @@
 			<property name="HireCurrency" value="casinoCoin" />
 			<property name="HireCost" value="1" />
 			<property name="TimeStayAfterDeath" value="0"/>
+			<property name="MaxViewAngle" value="360" /> 
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="2000"/>
 			</effect_group>
@@ -851,6 +852,7 @@
 			<property name="SoundRandom" value="trader_bristonidle"/>
 			<property name="HireCurrency" value="casinoCoin" />
 			<property name="HireCost" value="1" />
+			<property name="MaxViewAngle" value="360" /> 
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="2000"/>
 			</effect_group>
@@ -885,6 +887,7 @@
 			<property name="AIPackages" value="FuriousRamsayPersonalTraderBasic, FuriousRamsayPersonalTraderRanged, NPCHired"/> 
 			<property name="HireCurrency" value="casinoCoin" />
 			<property name="HireCost" value="1" />
+			<property name="MaxViewAngle" value="360" /> 
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="2000"/>
 			</effect_group>
@@ -909,6 +912,7 @@
 			<property name="AIPackages" value="FuriousRamsayPersonalTraderBasic, FuriousRamsayPersonalTraderRanged, NPCHired"/> 
 			<property name="HireCurrency" value="casinoCoin" />
 			<property name="HireCost" value="1" />
+			<property name="MaxViewAngle" value="360" /> 
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="2000"/>
 			</effect_group>
@@ -933,6 +937,7 @@
 			<property name="AIPackages" value="FuriousRamsayPersonalTraderBasic, FuriousRamsayPersonalTraderRanged, NPCHired"/> 
 			<property name="HireCurrency" value="casinoCoin" />
 			<property name="HireCost" value="1" />
+			<property name="MaxViewAngle" value="360" /> 
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="2000"/>
 			</effect_group>
@@ -957,6 +962,7 @@
 			<property name="AIPackages" value="FuriousRamsayPersonalTraderBasic, FuriousRamsayPersonalTraderRanged, NPCHired"/> 
 			<property name="HireCurrency" value="casinoCoin" />
 			<property name="HireCost" value="1" />
+			<property name="MaxViewAngle" value="360" /> 
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="2000"/>
 			</effect_group>
@@ -981,6 +987,7 @@
 			<property name="AIPackages" value="FuriousRamsayPersonalTraderBasic, FuriousRamsayPersonalTraderRanged, NPCHired"/> 
 			<property name="HireCurrency" value="casinoCoin" />
 			<property name="HireCost" value="1" />
+			<property name="MaxViewAngle" value="360" /> 
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="2000"/>
 			</effect_group>
@@ -1005,6 +1012,7 @@
 			<property name="AIPackages" value="FuriousRamsayPersonalTraderBasic, FuriousRamsayPersonalTraderRanged, NPCHired"/> 
 			<property name="HireCurrency" value="casinoCoin" />
 			<property name="HireCost" value="1" />
+			<property name="MaxViewAngle" value="360" /> 
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="2000"/>
 			</effect_group>
@@ -1029,6 +1037,7 @@
 			<property name="AIPackages" value="FuriousRamsayPersonalTraderBasic, FuriousRamsayPersonalTraderRanged, NPCHired"/> 
 			<property name="HireCurrency" value="casinoCoin" />
 			<property name="HireCost" value="1" />
+			<property name="MaxViewAngle" value="360" /> 
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="2000"/>
 			</effect_group>
@@ -1053,6 +1062,7 @@
 			<property name="AIPackages" value="FuriousRamsayPersonalTraderBasic, FuriousRamsayPersonalTraderRanged, NPCHired"/> 
 			<property name="HireCurrency" value="casinoCoin" />
 			<property name="HireCost" value="1" />
+			<property name="MaxViewAngle" value="360" /> 
 			<effect_group name="Base Effects">
 				<passive_effect name="HealthMax" operation="base_set" value="2000"/>
 			</effect_group>
@@ -28344,74 +28354,6 @@
 			<property name="Mesh" value="#@modfolder:Resources/FR_Monsters.unity3d?Scarecrow005_FR"/>
 		</entity_class>-->
 
-		<!-- WEREWOLVES -->
-		<entity_class name="FuriousRamsayWerewolf001_FR" extends="zombieMoe"> 
-			<property name="SizeScale" value="1.2"/>
-			<property name="Tags" value="entity,npc,male,melee,bandit,Werewolf001_FR"/>
-			<property name="Mesh" value="#@modfolder:Resources/FR_Monsters.unity3d?Werewolf001_Melee_FR"/>
-			<property name="PhysicsBody" value="FuriousRamsayBody"/>
-			<property name="LookAtAngle" value="0"/>
-			<property name="Faction" value="bandits"/>
-			<property name="WalkType" value="7"/>
-			<property name="MoveSpeed" value="0.9"/> 
-			<property name="MoveSpeedAggro" value="0.9, 1.1"/> 
-			<property name="MoveSpeedPanic" value="1.1"/>
-
-			<property name="SoundHurtSmall" value=""/>
-			<property name="SoundStamina" value=""/>
-			<property name="SoundDrownPain" value=""/>
-			<property name="SoundWaterSurface" value=""/>
-			<property name="SoundDrownDeath" value=""/>
-			<property name="SoundJump" value=""/>
-			<property name="SoundLandSoft" value=""/>
-			<property name="SoundLandHard" value=""/>
-			<property name="SoundPlayerLandThump" value=""/>
-			<property name="SoundSleeperSense" value=""/>
-			<property name="SoundSleeperBackToSleep" value=""/>
-			<property name="SoundAlertTime" value="25.0"/>
-			<property name="SoundRandomTime" value="200.0"/>
-			<property name="SoundRandom" value=""/>
-			<property name="SoundAlert" value=""/>
-			<property name="SoundSense" value="FuriousRamsayScarecrowAlert"/>
-			<property name="SoundHurt" value="FuriousRamsayScarecrowHurt"/>
-			<property name="SoundDeath" value="FuriousRamsayScarecrowDeath"/>
-			<property name="SoundAttack" value="FuriousRamsayScarecrowAttack"/>
-
-			<property name="TimeStayAfterDeath" value="600"/>
-			<property name="DeadBodyHitPoints" value="10000"/>
-
-			<effect_group name="Base Effects">
-				<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
-				<passive_effect name="HealthMax" operation="base_set" value="200"/>
-				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
-				<passive_effect name="StaminaMax" operation="base_set" value="200"/>
-				<passive_effect name="PhysicalDamageResist" operation="base_set" value="10" />
-				<passive_effect name="BuffResistance" operation="base_set" value="5" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffInfectionCatch,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="2" tags="buffInjuryBleeding,buffInjuryBleedingZombie,buffInfectionCatch"/>
-				<passive_effect name="BuffResistance" operation="base_add" value="2" tags="buffLegSprained,buffLegBroken,buffArmSprained,buffPlayerFallingDamage"/>
-			</effect_group>
-		</entity_class>
-		
-		<entity_class name="FuriousRamsayWerewolf002a_FR" extends="FuriousRamsayWerewolf001_FR"> 
-			<property name="Tags" value="entity,npc,male,melee,bandit,Werewolf002a_FR"/>
-			<property name="Mesh" value="#@modfolder:Resources/FR_Monsters.unity3d?Werewolf002a_Melee_FR"/>
-		</entity_class>
-
-		<entity_class name="FuriousRamsayWerewolf002b_FR" extends="FuriousRamsayWerewolf001_FR"> 
-			<property name="Tags" value="entity,npc,male,melee,bandit,Werewolf002b_FR"/>
-			<property name="Mesh" value="#@modfolder:Resources/FR_Monsters.unity3d?Werewolf002b_Melee_FR"/>
-		</entity_class>
-
-		<entity_class name="FuriousRamsayWerewolf002c_FR" extends="FuriousRamsayWerewolf001_FR"> 
-			<property name="Tags" value="entity,npc,male,melee,bandit,Werewolf002c_FR"/>
-			<property name="Mesh" value="#@modfolder:Resources/FR_Monsters.unity3d?Werewolf002c_Melee_FR"/>
-		</entity_class>
-
-		<entity_class name="FuriousRamsayWerewolf003_FR" extends="FuriousRamsayWerewolf001_FR"> 
-			<property name="Tags" value="entity,npc,male,melee,bandit,Werewolf003_FR"/>
-			<property name="Mesh" value="#@modfolder:Resources/FR_Monsters.unity3d?Werewolf003_Melee_FR"/>
-		</entity_class>
-
 		<entity_class name="FuriousRamsaySurvivorDroidMedic" extends="npcPShotgunTemplate"> 
 			<property name="SizeScale" value="1.1"/>
 			<property name="Tags" value="entity,female,npc,ranged,fireresist,allyrobot,FuriousRamsaySurvivorDroidMedic,DRMid"/>
@@ -28490,20 +28432,22 @@
 			<property name="Faction" value="none"/>	
 		</entity_class>
 		<!-- BOSS -->
-		<entity_class name="FuriousRamsayWerewolfBossTier1" extends="npcEmptyHandTemplate"> 
+		<entity_class name="FuriousRamsayWerewolfBossTier1" extends="zombieBoe"> 
 			<property name="SizeScale" value="1.2"/>
 			<property name="Class" value="EntityEnemyAnimal" /> 
-			<property name="Tags" value="entity,male,npc,melee,enemyrobot,FuriousRamsayWerewolfBossTier1,bandit"/>
+			<property name="Tags" value="entity,male,npc,melee,animal,FuriousRamsayWerewolfBossTier1"/>
 			<property name="Names" value="Werewolf Alpha" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_Monsters.unity3d?Werewolf001_Melee_FR"/>
 			<property name="PhysicsBody" value="FuriousRamsayBody"/>
 			<property name="LookAtAngle" value="0"/>
 			<property name="Faction" value="aggressiveanimalslarge"/>
+            <property name="RootMotion" value="false"/>
+			<property name="MaxViewAngle" value="360"/>
 
 			<property name="MoveSpeed" value="0.5"/> 
-			<property name="MoveSpeedAggro" value="1.2, 1.2"/>
-			<property name="MoveSpeedPanic" value="1.25"/>
-			<property name="MoveSpeedRand" value="-.2, .25"/>
+			<property name="MoveSpeedAggro" value="1.1, 1.1"/>
+			<property name="MoveSpeedPanic" value="1.11"/>
+			<property name="MoveSpeedRand" value="0"/>
 
 			<property name="NavObject" value="FuriousRamsayDotRed"/>
 
@@ -28518,10 +28462,10 @@
 			<property name="SoundPlayerLandThump" value=""/>
 			<property name="SoundSleeperSense" value=""/>
 			<property name="SoundSleeperBackToSleep" value=""/>
-			<property name="SoundAlertTime" value="25.0"/>
+			<property name="SoundAlertTime" value="20.0"/>
 			<property name="SoundRandomTime" value="200.0"/>
 			<property name="SoundRandom" value=""/>
-			<property name="SoundAlert" value=""/>
+			<property name="SoundAlert" value="FuriousRamsayScarecrowAlert"/>
 			<property name="SoundSense" value="FuriousRamsayScarecrowAlert"/>
 			<property name="SoundHurt" value="FuriousRamsayScarecrowHurt"/>
 			<property name="SoundDeath" value="FuriousRamsayScarecrowDeath"/>
@@ -28530,6 +28474,64 @@
 			<property name="LootDropProb" value="1"/>
 			<property name="LootDropEntityClass" value="FuriousRamsayWerewolfBossTier1Loot"/>
 			<property name="TimeStayAfterDeath" value="5"/>
+
+			<property name="ItemsOnEnterGame.GameModeSurvival" value="meleeHandAnimalBear"/>
+			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="meleeHandAnimalBear"/>
+			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="meleeHandAnimalBear"/> 
+
+			<property name="HandItem" value="meleeHandAnimalBear"/>
+
+            <effect_group name="Base Effects">
+                <passive_effect name="HealthMax" operation="base_set" value="400" />
+                <passive_effect name="HealthMax" operation="perc_set" value="1" />
+                <passive_effect name="PhysicalDamageResist" operation="base_set" value="10" />
+				<passive_effect name="StaminaMax" operation="base_set" value="10000"/>
+				<passive_effect name="StaminaChangeOT" operation="base_add" value="10"/>
+            </effect_group>
+            <effect_group name="Boss Effects">
+				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="HealthRegenAmount" operation="set" value="1"/>
+				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="FuriousRamsayRegenHealth"/>
+            </effect_group>
+		</entity_class>
+
+		<entity_class name="FuriousRamsayWerewolfBossTier1Event" extends="zombieBoe"> 
+			<property name="SizeScale" value="1.2"/>
+			<property name="Class" value="EntityEnemyAnimal" /> 
+			<property name="Tags" value="entity,male,npc,melee,animal,FuriousRamsayWerewolfBossTier1Event"/>
+			<property name="Names" value="Werewolf Alpha" />
+			<property name="Mesh" value="#@modfolder:Resources/FR_Monsters.unity3d?Werewolf001_Melee_FR"/>
+			<property name="PhysicsBody" value="FuriousRamsayBody"/>
+			<property name="LookAtAngle" value="0"/>
+			<property name="Faction" value="aggressiveanimalslarge"/>
+            <property name="RootMotion" value="false"/>
+			<property name="MaxViewAngle" value="360"/>
+
+			<property name="MoveSpeed" value="0.5"/> 
+			<property name="MoveSpeedAggro" value="1.1, 1.1"/>
+			<property name="MoveSpeedPanic" value="1.11"/>
+			<property name="MoveSpeedRand" value="0"/>
+
+			<property name="NavObject" value="FuriousRamsayDotRed"/>
+
+			<property name="SoundHurtSmall" value=""/>
+			<property name="SoundStamina" value=""/>
+			<property name="SoundDrownPain" value=""/>
+			<property name="SoundWaterSurface" value=""/>
+			<property name="SoundDrownDeath" value=""/>
+			<property name="SoundJump" value=""/>
+			<property name="SoundLandSoft" value=""/>
+			<property name="SoundLandHard" value=""/>
+			<property name="SoundPlayerLandThump" value=""/>
+			<property name="SoundSleeperSense" value=""/>
+			<property name="SoundSleeperBackToSleep" value=""/>
+			<property name="SoundAlertTime" value="20.0"/>
+			<property name="SoundRandomTime" value="200.0"/>
+			<property name="SoundRandom" value=""/>
+			<property name="SoundAlert" value="FuriousRamsayScarecrowAlert"/>
+			<property name="SoundSense" value="FuriousRamsayScarecrowAlert"/>
+			<property name="SoundHurt" value="FuriousRamsayScarecrowHurt"/>
+			<property name="SoundDeath" value="FuriousRamsayScarecrowDeath"/>
+			<property name="SoundAttack" value="FuriousRamsayScarecrowAttack"/>
 
 			<property name="ItemsOnEnterGame.GameModeSurvival" value="meleeHandAnimalBear"/>
 			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="meleeHandAnimalBear"/>
@@ -28549,58 +28551,31 @@
 				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="FuriousRamsayRegenHealth"/>
             </effect_group>
 		</entity_class>
-		<entity_class name="FuriousRamsayWerewolfBossTier1Event" extends="npcEmptyHandTemplate"> 
-			<property name="SizeScale" value="1.2"/>
-			<property name="Class" value="EntityEnemyAnimal" /> 
-			<property name="Tags" value="entity,male,npc,melee,enemyrobot,FuriousRamsayWerewolfBossTier1Event,bandit"/>
-			<property name="Names" value="Werewolf Alpha" />
+
+		<!-- WEREWOLVES -->
+		<entity_class name="FuriousRamsayWerewolf001_FR" extends="FuriousRamsayWerewolfBossTier1Event"> 
+			<property name="Tags" value="entity,npc,male,melee,bandit,Werewolf001_FR"/>
 			<property name="Mesh" value="#@modfolder:Resources/FR_Monsters.unity3d?Werewolf001_Melee_FR"/>
-			<property name="PhysicsBody" value="FuriousRamsayBody"/>
-			<property name="LookAtAngle" value="0"/>
-			<property name="Faction" value="aggressiveanimalslarge"/>
+		</entity_class>
+		
+		<entity_class name="FuriousRamsayWerewolf002a_FR" extends="FuriousRamsayWerewolfBossTier1Event"> 
+			<property name="Tags" value="entity,npc,male,melee,bandit,Werewolf002a_FR"/>
+			<property name="Mesh" value="#@modfolder:Resources/FR_Monsters.unity3d?Werewolf002a_Melee_FR"/>
+		</entity_class>
 
-			<property name="MoveSpeed" value="0.5"/> 
-			<property name="MoveSpeedAggro" value="1.2, 1.2"/>
-			<property name="MoveSpeedPanic" value="1.25"/>
-			<property name="MoveSpeedRand" value="-.2, .25"/>
+		<entity_class name="FuriousRamsayWerewolf002b_FR" extends="FuriousRamsayWerewolfBossTier1Event"> 
+			<property name="Tags" value="entity,npc,male,melee,bandit,Werewolf002b_FR"/>
+			<property name="Mesh" value="#@modfolder:Resources/FR_Monsters.unity3d?Werewolf002b_Melee_FR"/>
+		</entity_class>
 
-			<property name="SoundHurtSmall" value=""/>
-			<property name="SoundStamina" value=""/>
-			<property name="SoundDrownPain" value=""/>
-			<property name="SoundWaterSurface" value=""/>
-			<property name="SoundDrownDeath" value=""/>
-			<property name="SoundJump" value=""/>
-			<property name="SoundLandSoft" value=""/>
-			<property name="SoundLandHard" value=""/>
-			<property name="SoundPlayerLandThump" value=""/>
-			<property name="SoundSleeperSense" value=""/>
-			<property name="SoundSleeperBackToSleep" value=""/>
-			<property name="SoundAlertTime" value="25.0"/>
-			<property name="SoundRandomTime" value="200.0"/>
-			<property name="SoundRandom" value=""/>
-			<property name="SoundAlert" value=""/>
-			<property name="SoundSense" value="FuriousRamsayScarecrowAlert"/>
-			<property name="SoundHurt" value="FuriousRamsayScarecrowHurt"/>
-			<property name="SoundDeath" value="FuriousRamsayScarecrowDeath"/>
-			<property name="SoundAttack" value="FuriousRamsayScarecrowAttack"/>
+		<entity_class name="FuriousRamsayWerewolf002c_FR" extends="FuriousRamsayWerewolfBossTier1Event"> 
+			<property name="Tags" value="entity,npc,male,melee,bandit,Werewolf002c_FR"/>
+			<property name="Mesh" value="#@modfolder:Resources/FR_Monsters.unity3d?Werewolf002c_Melee_FR"/>
+		</entity_class>
 
-			<property name="ItemsOnEnterGame.GameModeSurvival" value="meleeHandAnimalBear"/>
-			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="meleeHandAnimalBear"/>
-			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="meleeHandAnimalBear"/> 
-
-			<property name="HandItem" value="meleeHandAnimalBear"/>
-
-            <effect_group name="Base Effects">
-                <passive_effect name="HealthMax" operation="base_set" value="1200" />
-                <passive_effect name="HealthMax" operation="perc_set" value="1" />
-                <passive_effect name="PhysicalDamageResist" operation="base_set" value="10" />
-				<passive_effect name="StaminaMax" operation="base_set" value="10000"/>
-				<passive_effect name="StaminaChangeOT" operation="base_add" value="10"/>
-            </effect_group>
-            <effect_group name="Boss Effects">
-				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="HealthRegenAmount" operation="set" value="1"/>
-				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="FuriousRamsayRegenHealth"/>
-            </effect_group>
+		<entity_class name="FuriousRamsayWerewolf003_FR" extends="FuriousRamsayWerewolfBossTier1Event"> 
+			<property name="Tags" value="entity,npc,male,melee,bandit,Werewolf003_FR"/>
+			<property name="Mesh" value="#@modfolder:Resources/FR_Monsters.unity3d?Werewolf003_Melee_FR"/>
 		</entity_class>
 
 	<!-- TOXIC ENTITIES -->
@@ -28658,7 +28633,7 @@
 			<property name="TimeStayAfterDeath" value="5"/>
 
             <effect_group name="Base Effects">
-                <passive_effect name="HealthMax" operation="base_set" value="1200" />
+                <passive_effect name="HealthMax" operation="base_set" value="400" />
                 <passive_effect name="HealthMax" operation="perc_set" value="1" />
                 <passive_effect name="PhysicalDamageResist" operation="base_set" value="10" />
 				<passive_effect name="StaminaMax" operation="base_set" value="10000"/>

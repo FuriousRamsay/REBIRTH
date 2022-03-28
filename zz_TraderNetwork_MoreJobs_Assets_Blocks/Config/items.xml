@@ -4945,7 +4945,7 @@
 		</item>
 
 		<item name="ItemsWeaponsJunkBaton001_FR">
-			<property name="Tags" value="melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,perkDeepCuts,canHaveCosmetic,FuriousRamsayTagJunkBaton,FuriousRamsayStunBatons"/>
+			<property name="Tags" value="melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,perkDeepCuts,machete,canHaveCosmetic,FuriousRamsayTagJunkBaton,FuriousRamsayStunBatons"/>
 			<property name="DisplayType" value="melee"/>
 			<property name="Group" value="Ammo/Weapons"/>
 			<property name="Meshfile" value="#@modfolder:Resources/FR_Batons.unity3d?ItemsWeaponsJunkBaton001_FR"/>

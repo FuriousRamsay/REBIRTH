@@ -1,5 +1,8 @@
 <configs>
 
+	<setattribute xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='LookAtAngle']" name="value">360</setattribute>
+	<setattribute xpath="/entity_classes/entity_class[@name='animalTemplateHostile']/property[@name='LookAtAngle']" name="value">360</setattribute>
+
 	<!-- ON ENTER GAME OR RESPAWN -->
 	<append xpath="/entity_classes/entity_class[@name='playerMale']">
 		<effect_group name="FuriousRamsayWakeUp">	
@@ -2665,11 +2668,11 @@
 	<!--<append xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='Buffs']/@value">,buffPerkAbilityUpdate,buffDeathFoodDrinkAdjust,FuriousRamsayPlayerBuffs,FuriousRamsayVerifyVariables</append>-->
 
 	<!-- SLOW DOWN METABOLISM -->
-	<setattribute xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='WaterLossPerHealthPointGained']" name="value">0.02</setattribute>
+	<!--<setattribute xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='WaterLossPerHealthPointGained']" name="value">0.02</setattribute>
 	<setattribute xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='WaterChangeOT' and @value='.0111']" name="value">.005</setattribute>
 	<setattribute xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='WaterLossPerStaminaPointGained']" name="value">0.002</setattribute>
 	<setattribute xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='FoodChangeOT' and @value='.00833']" name="value">.004</setattribute>
-	<setattribute xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='FoodLossPerStaminaPointGained']" name="value">0.002</setattribute>
+	<setattribute xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='FoodLossPerStaminaPointGained']" name="value">0.002</setattribute>-->
 
 	<!-- SPEED UP ZOMBIES -->
 	<append xpath="/entity_classes/entity_class[@name='zombieBurnt']">

@@ -46,57 +46,39 @@ Add PartyGirlRadiated
 Add zombieTomClark(s)
 
 REBIRTH:
-(TESTING SERVER ONLY) Rebirth Version A20.3Exp-2022-03-25-1935 (TESTING SERVER ONLY)
-(ALL CHANGES ARE SERVER-SIDE, NO CLIENT UPDATE REQUIRED)
-Disabled Trader Network legacy visual buffs to improve performance
-Removed All Terrain, Fire and Shock Motorcycles
-Removed UMA Bandits
-Fixed NPCs not always granting their leaders experience for kills
-NPCs will now grant you kills towards your Natural Selection thresholds
-Added Natural Selection kill counter in Class window when using the SMX HUD
-Experience and Kills gained from NPC require them to be at a minimum of 20m from you
-Hired Ranged NPCs will benefit from your Class Aura at a rate of 5% chance to trigger
-Zombies now use faction targeting
-Created custom Melee NPC controller to improve performance
-Removed high end ammo from zombie loot
-http://38.17.55.139/Rebirth-2022-03-25-1935.zip
+(TESTING ONLY) Rebirth Version A20.3Exp-2022-03-28-1900 (TESTING ONLY)
+(NEW PLAYTHROUGH REQUIRED)
 
-PENDING:
-NPCs you decided to "store away" will no longer show a death animation
-Hired NPCs following you will no longer destabilize your vehicle while driving
+
+http://38.17.55.139/Rebirth-2022-03-28-1900.zip
 
 TODO:
-Investigate Culling
+mercenary cooldown not localized
+
+Can you remove large collider and go through NPCs?
+
 Update descriptions to indicate level 40 requirement on end tier weapons
-Bandits and survivors flee when health below a certain amount
-New Melee classes are lootable, no bag drops
-Patch Entityzombie to candamage, maybe through a new class
-Make zombies fight each other if they hurt each other
-Natural Selection font gets small after 100
-Ranged NPCs were shooting at the junk turret
-Have explsive immune zombies show up in forest biome
-Have event occur less often
-Reduce chance to loot propane tank
-My traders did not contribute to me getting fire zombie kills
-Switch zombies to use faction targeting?
-Check why thirst isn't going down as fast as food
-Check heal rate of honey
-Missing localization for mercenary quests
+
 No prompt from mercery trader when he shows up on dedi
-001b2pipepistolnohire no name
-weigthed mod and blade mods should go in bladed baton
-Does robotic turret have random entity damage stats?
 
 Dog anim stops on dedi after a while
-Ability to hire some NPCs from a Trader
 
-Black Shield Androids don't attack on dedi?
-
-Optional modlet for old life bar
+Patch Entityzombie to candamage, maybe through a new class
+Make zombies fight each other if they hurt each other
 
 Add the spider pack as an event?
 
-Integrate SMX UI
+Investigate Culling
+
+My traders did not contribute to me getting fire zombie kills (known issue)
+New Melee classes are lootable, no bag drops
+Ranged NPCs were shooting at the junk turret
+
+Does robotic turret have random entity damage stats?
+
+Ability to hire some NPCs from a Trader
+
+Optional modlet for old life bar
 
 NullReferenceException: Object reference not set to an instance of an object
   at XUiC_QuestTurnInWindowGroup.OnClose () [0x00090] in <39cf8b713b17414c9e5ddfff01d6df19>:0 
@@ -116,19 +98,12 @@ UICamera:Update()
 
 Gate events by player level (choose random numbers based on levels)
 
-Why are Hazard entities so slow?
-Why do hostile entities slow down when they get close to you?
-Look at why some NPCs (melee only?) get stuck in faction wars/hazard quest
-
-Speed up NPCs when they follow you, more in vehicles
-
 Add Music to Menu
 Zombies have more life at night?
 Update descriptions
 
 Update Sorcery modlet
 
-Add birds and bird noises
 How does wow does looting exp
 Add special missions to unlock??? Like kill x zombies
 

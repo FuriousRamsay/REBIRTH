@@ -5950,11 +5950,11 @@
 	<setattribute xpath="/items/item[@name='medicalFirstAidKit']/effect_group/display_value[@name='foodHealthAmount']" name="value">50</setattribute>
 	<!--<setattribute xpath="/items/item[@name='drugPainkillers']/effect_group/display_value[@name='dInstantHealth']" name="value">40</setattribute>
 	<setattribute xpath="/items/item[@name='drugPainkillers']/effect_group/display_value[@name='$waterAmountAdd']" name="value">-40</setattribute>-->
-	<setattribute xpath="/items/item[@name='foodHoney']/effect_group/triggered_effect[@cvar='$buffInfectionAddCurePerc']" name="value">3</setattribute>
+	<setattribute xpath="/items/item[@name='foodHoney']/effect_group/triggered_effect[@cvar='$buffInfectionAddCurePerc']" name="value">5</setattribute>
 	<setattribute xpath="/items/item[@name='foodHoney']/effect_group/triggered_effect[@cvar='$foodAmountAdd']" name="value">1</setattribute>
 	<setattribute xpath="/items/item[@name='foodHoney']/effect_group/triggered_effect[@cvar='foodHealthAmount']" name="value">1</setattribute>
-	<setattribute xpath="/items/item[@name='drugHerbalAntibiotics']/effect_group/triggered_effect[@cvar='$buffInfectionAddCurePerc']" name="value">5</setattribute>
-	<setattribute xpath="/items/item[@name='drugAntibiotics']/effect_group/triggered_effect[@cvar='$buffInfectionAddCurePerc']" name="value">15</setattribute>
+	<setattribute xpath="/items/item[@name='drugHerbalAntibiotics']/effect_group/triggered_effect[@cvar='$buffInfectionAddCurePerc']" name="value">10</setattribute>
+	<setattribute xpath="/items/item[@name='drugAntibiotics']/effect_group/triggered_effect[@cvar='$buffInfectionAddCurePerc']" name="value">25</setattribute>
 	<setattribute xpath="/items/item[@name='foodCanBeef']/effect_group/triggered_effect[@cvar='$foodAmountAdd']" name="value">10</setattribute>
 	<setattribute xpath="/items/item[@name='foodCanBeef']/effect_group/triggered_effect[@cvar='foodHealthAmount']" name="value">2</setattribute>
 	<setattribute xpath="/items/item[@name='foodCanChicken']/effect_group/triggered_effect[@cvar='$foodAmountAdd']" name="value">10</setattribute>

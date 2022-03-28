@@ -1,7 +1,7 @@
 <Config>
 
 	<set xpath="/spawning/biome[@name='pine_forest']">
-		<!--<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="ForestZombies" notags="commercial,industrial,downtown"/>-->
+		<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="ForestZombies" notags="commercial,industrial,downtown"/>
 		<spawn maxcount="3" respawndelay="1" time="Day" entitygroup="ZombiesAll" notags="commercial,industrial,downtown" />
 		<spawn maxcount="4" respawndelay="0.4" time="Night" entitygroup="ZombiesNight" notags="commercial,industrial,downtown" />
 
