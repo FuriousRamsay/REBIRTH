@@ -29249,7 +29249,7 @@
 		
 		<entity_class name="FuriousRamsayMercenaryTier1_FR" extends="FuriousRamsayKatana002TemplateTier1"> 
 			<property name="HideInSpawnMenu" value="false"/>
-			<property name="Tags" value="entity,male,npc,survivor,ranged,DRMid,FuriousRamsayMercenaryTier1_FR"/>
+			<property name="Tags" value="entity,male,npc,survivor,ranged,DRMid,FuriousRamsayMercenaryTier1_Melee_FR"/>
 			<property name="Names" value="Mercenary" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_Assassins.unity3d?MercenaryTier1_FR"/>		
 			<property name="MaxViewAngle" value="360"/>
@@ -29271,7 +29271,7 @@
 			<property name="HideInSpawnMenu" value="false"/>
 			<property name="Tags" value="entity,male,npc,survivor,ranged,DRMid,FuriousRamsayMercenaryTier2_FR"/>
 			<property name="Names" value="Mercenary" />
-			<property name="Mesh" value="#@modfolder:Resources/FR_Assassins.unity3d?MercenaryTier2_FR"/>		
+			<property name="Mesh" value="#@modfolder:Resources/FR_Assassins.unity3d?MercenaryTier2_Melee_FR"/>		
 			<property name="MaxViewAngle" value="360"/>
 			<property name="AIPackages" value="FuriousRamsayMercenary, NPCMeleeBasic"/> 
 			<property name="TimeStayAfterDeath" value="0"/>
@@ -29291,7 +29291,7 @@
 			<property name="HideInSpawnMenu" value="false"/>
 			<property name="Tags" value="entity,male,npc,survivor,ranged,DRMid,FuriousRamsayMercenaryTier3_FR"/>
 			<property name="Names" value="Mercenary" />
-			<property name="Mesh" value="#@modfolder:Resources/FR_Assassins.unity3d?MercenaryTier3_FR"/>		
+			<property name="Mesh" value="#@modfolder:Resources/FR_Assassins.unity3d?MercenaryTier3_Melee_FR"/>		
 			<property name="MaxViewAngle" value="360"/>
 			<property name="AIPackages" value="FuriousRamsayMercenary, NPCMeleeBasic"/> 
 			<property name="TimeStayAfterDeath" value="0"/>
@@ -29311,7 +29311,7 @@
 			<property name="HideInSpawnMenu" value="false"/>
 			<property name="Tags" value="entity,male,npc,survivor,ranged,DRMid,FuriousRamsayMercenaryTier4_FR"/>
 			<property name="Names" value="Mercenary" />
-			<property name="Mesh" value="#@modfolder:Resources/FR_Assassins.unity3d?MercenaryTier4_FR"/>		
+			<property name="Mesh" value="#@modfolder:Resources/FR_Assassins.unity3d?MercenaryTier4_Melee_FR"/>		
 			<property name="MaxViewAngle" value="360"/>
 			<property name="AIPackages" value="FuriousRamsayMercenary, NPCMeleeBasic"/> 
 			<property name="TimeStayAfterDeath" value="0"/>
@@ -29331,7 +29331,7 @@
 			<property name="HideInSpawnMenu" value="false"/>
 			<property name="Tags" value="entity,male,npc,survivor,ranged,DRMid,FuriousRamsayMercenaryTier5_FR"/>
 			<property name="Names" value="Mercenary" />
-			<property name="Mesh" value="#@modfolder:Resources/FR_Assassins.unity3d?MercenaryTier5_FR"/>		
+			<property name="Mesh" value="#@modfolder:Resources/FR_Assassins.unity3d?MercenaryTier5_Melee_FR"/>		
 			<property name="MaxViewAngle" value="360"/>
 			<property name="AIPackages" value="FuriousRamsayMercenary, NPCMeleeBasic"/> 
 			<property name="TimeStayAfterDeath" value="0"/>

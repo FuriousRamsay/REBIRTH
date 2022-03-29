@@ -48,14 +48,15 @@ Add zombieTomClark(s)
 REBIRTH:
 (TESTING ONLY) Rebirth Version A20.3Exp-2022-03-28-1900 (TESTING ONLY)
 (NEW PLAYTHROUGH REQUIRED)
-
+Adjusted AI Targetting for all entities
 
 http://38.17.55.139/Rebirth-2022-03-28-1900.zip
 
 TODO:
-mercenary cooldown not localized
-
-Can you remove large collider and go through NPCs?
+Horde of wolves and zombie dogs
+Your stamina has been boosted for 10 minutes (maybe remove tips for drinks
+Dog doesn't react to stay and attack
+Clean up Entities and quests
 
 Update descriptions to indicate level 40 requirement on end tier weapons
 

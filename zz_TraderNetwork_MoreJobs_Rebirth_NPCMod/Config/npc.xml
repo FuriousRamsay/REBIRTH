@@ -1,0 +1,15 @@
+<Config>
+
+	<append xpath="/npc/factions/faction[@name='undead']" >		
+		<relationship name="passiveanimalssmall" value="neutral"/>
+		<relationship name="passiveanimalsmedium" value="neutral"/>
+		<relationship name="passiveanimalslarge" value="neutral"/>
+	</append>
+	
+	<append xpath="/npc/factions/faction[@name='zombieanimals']" >		
+		<relationship name="passiveanimalssmall" value="neutral"/>
+		<relationship name="passiveanimalsmedium" value="neutral"/>
+		<relationship name="passiveanimalslarge" value="neutral"/>
+	</append>
+
+</Config>
