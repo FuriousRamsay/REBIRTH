@@ -1,22 +1,21 @@
 ﻿/*
- * Class: EntityBanditSDX
+ * Class: EntityMeleeBanditSDX
  * Author:  FuriousRamsay 
  * Category: Entity
  * Description:
- *      This mod is an extension of the base entityAlive. This is meant to be a base class, where other classes can extend
- *      from, giving them the ability to accept quests and buffs.
+ *      This mod is an extension of the base entityAlive.
  * 
  * Usage:
- *      Add the following class to entities that are meant to use these features. 
+ *      Add the following class to entities. 
  *
- *      <property name="Class" value="EntityBanditSDX, SCore" />
+ *      <property name="Class" value="EntityMeleeBanditSDX, SCore" />
  */
 
 using Random = System.Random;
 using System;
 using UnityEngine;
 
-public class EntityMeleeBanditSDX : EntityAlive
+public class EntityMeleeBanditSDX : EntityNPC
 {
     public float flEyeHeight = -1f;
     public Random random = new Random();

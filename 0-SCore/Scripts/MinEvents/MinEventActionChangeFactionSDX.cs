@@ -53,6 +53,9 @@ public class MinEventActionChangeFactionSDX : MinEventActionRemoveBuff
                     entity.factionId = newFaction.ID;
                     Debug.Log("\nNew Faction: " + entity.factionId);
                 }
+
+                entity.SetAttackTarget(null, 0);
+                entity.SetRevengeTarget(null);
             }
         }
     }

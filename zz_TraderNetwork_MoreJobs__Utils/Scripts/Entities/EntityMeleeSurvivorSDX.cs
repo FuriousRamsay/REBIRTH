@@ -1,26 +1,38 @@
 ﻿/*
- * Class: EntitySurvivorSDX
+ * Class: EntityMeleeSurvivorSDX
  * Author:  FuriousRamsay 
  * Category: Entity
  * Description:
- *      This mod is an extension of the base entityAlive. This is meant to be a base class, where other classes can extend
- *      from, giving them the ability to accept quests and buffs.
+ *      This mod is an extension of the base entityAlive.
  * 
  * Usage:
- *      Add the following class to entities that are meant to use these features. 
+ *      Add the following class to entities. 
  *
- *      <property name="Class" value="EntitySurvivorSDX, SCore" />
+ *      <property name="Class" value="EntityMeleeSurvivorSDX, SCore" />
  */
 
 using Random = System.Random;
-using System;
+using System.IO;
 using UnityEngine;
 
-public class EntityMeleeSurvivorSDX : EntityAlive
+public class EntityMeleeSurvivorSDX : EntityNPC
 {
     public float flEyeHeight = -1f;
     public Random random = new Random();
     public ulong timeToDie;
+
+	public override void Read(byte _version, BinaryReader _br)
+	{
+		base.Read(_version, _br);
+		this.bag.SetSlots(GameUtils.ReadItemStack(_br));
+	}
+
+	// Token: 0x06002179 RID: 8569 RVA: 0x000E2ED5 File Offset: 0x000E10D5
+	public override void Write(BinaryWriter _bw)
+	{
+		base.Write(_bw);
+		GameUtils.WriteItemStack(_bw, this.bag.GetSlots());
+	}
 
 	public override void OnUpdateLive()
     {
@@ -89,9 +101,14 @@ public class EntityMeleeSurvivorSDX : EntityAlive
 	}
 
 	// Token: 0x060020F3 RID: 8435 RVA: 0x000DED68 File Offset: 0x000DCF68
-	public override void VisiblityCheck(float _distanceSqr, bool _masterIsZooming)
+	/*public override void VisiblityCheck(float _distanceSqr, bool _masterIsZooming)
 	{
 		bool bVisible = this.ticksUntilVisible <= 0 && _distanceSqr < (float)(_masterIsZooming ? 14400 : 8100);
+		this.emodel.SetVisible(bVisible, false);
+	}*/
+	public override void VisiblityCheck(float _distanceSqr, bool _masterIsZooming)
+	{
+		bool bVisible = _distanceSqr < (float)(_masterIsZooming ? 14400 : 8100);
 		this.emodel.SetVisible(bVisible, false);
 	}
 
@@ -99,6 +116,7 @@ public class EntityMeleeSurvivorSDX : EntityAlive
 	public override void PostInit()
 	{
 		base.PostInit();
+		this.inventory.SetHoldingItemIdx(0);
 		if (!this.isEntityRemote)
 		{
 			this.IsBloodMoon = this.world.aiDirector.BloodMoonComponent.BloodMoonActive;

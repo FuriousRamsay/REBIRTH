@@ -49,7 +49,10 @@
       <DependentUpon>AssemblyInfo.tt</DependentUpon>
     </Compile>
     <Compile Include="Scripts\Entities\EntityMeleeBanditSDX.cs" />
+    <Compile Include="Scripts\Entities\EntityGoodSDX.cs" />
+    <Compile Include="Scripts\Entities\EntityMeleeSDX.cs" />
     <Compile Include="Scripts\Entities\EntityMeleeSurvivorSDX.cs" />
+    <Compile Include="Scripts\Entities\EntityZombieSDX.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ModInfo.xml" />

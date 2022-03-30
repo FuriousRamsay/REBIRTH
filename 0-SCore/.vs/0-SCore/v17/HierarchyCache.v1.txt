@@ -1,0 +1,1148 @@
+﻿++Solution '0-SCore' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:0-SCore.sln
+++0-SCore
+i:{00000000-0000-0000-0000-000000000000}:0-SCore
+++Properties
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\properties\
+++References
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:
+++Config
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\config\
+++Documentation
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\documentation\
+++Harmony
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\
+++Licenses
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\licenses\
+++obj
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\obj\
+++Prefabs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\
+++Resources
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\resources\
+++Scripts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\
+++Animation
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\animation\
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\animation\
+++Blocks
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\blocks\
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\blocks\
+++Buffs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\buffs\
+++Cache
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\cache\
+++ConsoleCmd
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\consolecmd\
+++Dialogs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\
+++EAI
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\eai\
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\eai\
+++Entities
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\entities\
+++EntityAliveEventSpawnerSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\entities\entityaliveeventspawnersdx.cs
+++EntityAliveFarmingAnimalSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\entities\entityalivefarminganimalsdx.cs
+++EntityAliveSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\entities\entityalivesdx.cs
+++EntityBackpackNPC.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\entities\entitybackpacknpc.cs
+++EntityEnemySDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\entities\entityenemysdx.cs
+++EntityMeleeBanditSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\entities\entitymeleebanditsdx.cs
+++EntityMeleeSurvivorSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\entities\entitymeleesurvivorsdx.cs
+++EntitySDXShared.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\entities\entitysdxshared.cs
+++EntitySwimingSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\entities\entityswimingsdx.cs
+++EntityTargetingUtilities.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\entities\entitytargetingutilities.cs
+++EntityUtilities.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\entities\entityutilities.cs
+++EntityZombieFlockSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\entities\entityzombieflocksdx.cs
+++EntityZombieFlyingSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\entities\entityzombieflyingsdx.cs
+++LegacyEntityClasses.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\entities\legacyentityclasses.cs
+++ModGeneralUtilities.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\entities\modgeneralutilities.cs
+++Features
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\features\
+++ItemAction
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\itemaction\
+++Items
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\items\
+++Lockpicking
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\lockpicking\
+++MinEvents
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\
+++MonoBehaviour
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\monobehaviour\
+++MusicBoxes
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\musicboxes\
+++NetPackage
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\netpackage\
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\netpackage\
+++ProgrammableLogic
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\programmablelogic\
+++Quests
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\quests\
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\quests\
+++Signs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\signs\
+++SoundData
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\sounddata\
+++Temp_Dialogs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\temp_dialogs\
+++TileEntities
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\tileentities\
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\tileentities\
+++UnitTests
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\unittests\
+++UtilityAI
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\utilityai\
+++WorldGen
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\worldgen\
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\worldgen\
+++XUiC
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\xuic\
+++Mods.dll.config
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\mods.dll.config
+++ModInfo.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\modinfo.xml
+++ReadMe.md
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\readme.md
+++SCore.dll
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\score.dll
+++SCore.pdb
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\score.pdb
+++AssemblyInfo.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\properties\assemblyinfo.cs
+++AssemblyInfo.tt
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\properties\assemblyinfo.tt
+++0Harmony
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:
+++Assembly-CSharp
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:
+++Assembly-CSharp-firstpass
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:
+++AstarPathfindingProject
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:
+++InControl
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:
+++LogLibrary
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:
+++System
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:
+++System.Xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:
+++System.Xml.Linq
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:
+++UnityEngine
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:
+++UnityEngine.AnimationModule
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:
+++UnityEngine.AudioModule
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:
+++UnityEngine.CoreModule
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:
+++UnityEngine.InputLegacyModule
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:
+++UnityEngine.Physics2DModule
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:
+++UnityEngine.PhysicsModule
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:
+++UnityEngine.UI
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:
+++UnityEngine.UnityWebRequestModule
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:
+++UnityEngine.UnityWebRequestTextureModule
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:
+++UnityEngine.UnityWebRequestWWWModule
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:
+++UnityEngine.VideoModule
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:
+++XUi
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\config\xui\
+++blockplaceholders.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\config\blockplaceholders.xml
+++blocks.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\config\blocks.xml
+++buffs.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\config\buffs.xml
+++dialogs.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\config\dialogs.xml
+++items.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\config\items.xml
+++loadingscreen.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\config\loadingscreen.xml
+++Localization.txt
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\config\localization.txt
+++quests.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\config\quests.xml
+++spawning.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\config\spawning.xml
+++utilityai.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\config\utilityai.xml
+++Notes
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\documentation\notes\
+++AIDirectorBloodMoon
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\aidirectorbloodmoon\
+++Atmosphere
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\atmosphere\
+++Dialog
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\dialog\
+++DMS
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\dms\
+++EntityAlive
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\entityalive\
+++EntityMoveHelper
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\entitymovehelper\
+++ErrorHandling
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\errorhandling\
+++Faction
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\faction\
+++FoodSpoilage
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\foodspoilage\
+++GamePath
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\gamepath\
+++ItemActions
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\itemactions\
+++MiniTurret
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\miniturret\
+++NPCFeatures
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\npcfeatures\
+++PlayerFeatures
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\playerfeatures\
+++PrefabFeatures
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\prefabfeatures\
+++Progression
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\progression\
+++QuickContinue
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\quickcontinue\
+++SoundFeatures
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\soundfeatures\
+++Standard
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\standard\
+++UI
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\ui\
+++Vehicles
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\vehicles\
+++XML
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\xml\
+++XUIC
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\xuic\
+++ZombieFeatures
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\zombiefeatures\
+++Menu_ClearCache.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\menu_clearcache.cs
+++SphereIICore_Init.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\sphereiicore_init.cs
+++CaveGeneration.md
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\licenses\cavegeneration.md
+++Debug
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\obj\debug\
+++caveOpening02.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\caveopening02.blocks.nim
+++caveOpening02.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\caveopening02.ins
+++caveOpening02.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\caveopening02.tts
+++caveOpening02.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\caveopening02.xml
+++Chiko_SCcave_01.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_01.blocks.nim
+++Chiko_SCcave_01.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_01.ins
+++Chiko_SCcave_01.jpg
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_01.jpg
+++Chiko_SCcave_01.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_01.tts
+++Chiko_SCcave_01.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_01.xml
+++Chiko_SCcave_02.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_02.blocks.nim
+++Chiko_SCcave_02.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_02.ins
+++Chiko_SCcave_02.jpg
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_02.jpg
+++Chiko_SCcave_02.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_02.tts
+++Chiko_SCcave_02.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_02.xml
+++Chiko_SCcave_03.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_03.blocks.nim
+++Chiko_SCcave_03.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_03.ins
+++Chiko_SCcave_03.jpg
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_03.jpg
+++Chiko_SCcave_03.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_03.tts
+++Chiko_SCcave_03.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_03.xml
+++Chiko_SCcave_04.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_04.blocks.nim
+++Chiko_SCcave_04.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_04.ins
+++Chiko_SCcave_04.jpg
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_04.jpg
+++Chiko_SCcave_04.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_04.tts
+++Chiko_SCcave_04.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_04.xml
+++Chiko_SCcave_05.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_05.blocks.nim
+++Chiko_SCcave_05.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_05.ins
+++Chiko_SCcave_05.jpg
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_05.jpg
+++Chiko_SCcave_05.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_05.tts
+++Chiko_SCcave_05.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_05.xml
+++Chiko_SCcave_06.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_06.blocks.nim
+++Chiko_SCcave_06.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_06.ins
+++Chiko_SCcave_06.jpg
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_06.jpg
+++Chiko_SCcave_06.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_06.tts
+++Chiko_SCcave_06.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_06.xml
+++Chiko_SCcave_07.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_07.blocks.nim
+++Chiko_SCcave_07.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_07.ins
+++Chiko_SCcave_07.jpg
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_07.jpg
+++Chiko_SCcave_07.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_07.tts
+++Chiko_SCcave_07.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_07.xml
+++Chiko_SCcave_08.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_08.blocks.nim
+++Chiko_SCcave_08.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_08.ins
+++Chiko_SCcave_08.jpg
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_08.jpg
+++Chiko_SCcave_08.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_08.tts
+++Chiko_SCcave_08.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_08.xml
+++Chiko_SCcave_09.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_09.blocks.nim
+++Chiko_SCcave_09.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_09.ins
+++Chiko_SCcave_09.jpg
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_09.jpg
+++Chiko_SCcave_09.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_09.tts
+++Chiko_SCcave_09.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_09.xml
+++Chiko_SCcave_10.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_10.blocks.nim
+++Chiko_SCcave_10.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_10.ins
+++Chiko_SCcave_10.jpg
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_10.jpg
+++Chiko_SCcave_10.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_10.tts
+++Chiko_SCcave_10.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_10.xml
+++Chiko_SCcave_11.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_11.blocks.nim
+++Chiko_SCcave_11.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_11.ins
+++Chiko_SCcave_11.jpg
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_11.jpg
+++Chiko_SCcave_11.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_11.tts
+++Chiko_SCcave_11.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_11.xml
+++Chiko_SCcave_12.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_12.blocks.nim
+++Chiko_SCcave_12.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_12.ins
+++Chiko_SCcave_12.jpg
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_12.jpg
+++Chiko_SCcave_12.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_12.tts
+++Chiko_SCcave_12.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_12.xml
+++Chiko_SCcave_13.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_13.blocks.nim
+++Chiko_SCcave_13.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_13.ins
+++Chiko_SCcave_13.jpg
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_13.jpg
+++Chiko_SCcave_13.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_13.tts
+++Chiko_SCcave_13.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_13.xml
+++Chiko_SCcave_14.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_14.blocks.nim
+++Chiko_SCcave_14.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_14.ins
+++Chiko_SCcave_14.jpg
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_14.jpg
+++Chiko_SCcave_14.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_14.tts
+++Chiko_SCcave_14.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\chiko_sccave_14.xml
+++sphereii_cave_01.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_01.blocks.nim
+++sphereii_cave_01.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_01.ins
+++sphereii_cave_01.jpg
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_01.jpg
+++sphereii_cave_01.mesh
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_01.mesh
+++sphereii_cave_01.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_01.tts
+++sphereii_cave_01.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_01.xml
+++sphereii_cave_02.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_02.blocks.nim
+++sphereii_cave_02.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_02.ins
+++sphereii_cave_02.jpg
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_02.jpg
+++sphereii_cave_02.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_02.tts
+++sphereii_cave_02.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_02.xml
+++sphereii_cave_03.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_03.blocks.nim
+++sphereii_cave_03.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_03.ins
+++sphereii_cave_03.jpg
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_03.jpg
+++sphereii_cave_03.mesh
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_03.mesh
+++sphereii_cave_03.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_03.tts
+++sphereii_cave_03.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_03.xml
+++sphereii_cave_04.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_04.blocks.nim
+++sphereii_cave_04.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_04.ins
+++sphereii_cave_04.jpg
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_04.jpg
+++sphereii_cave_04.mesh
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_04.mesh
+++sphereii_cave_04.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_04.tts
+++sphereii_cave_04.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_04.xml
+++sphereii_cave_05.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_05.blocks.nim
+++sphereii_cave_05.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_05.ins
+++sphereii_cave_05.jpg
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_05.jpg
+++sphereii_cave_05.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_05.tts
+++sphereii_cave_05.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_05.xml
+++sphereii_cave_06.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_06.blocks.nim
+++sphereii_cave_06.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_06.ins
+++sphereii_cave_06.jpg
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_06.jpg
+++sphereii_cave_06.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_06.tts
+++sphereii_cave_06.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_06.xml
+++sphereii_cave_07.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_07.blocks.nim
+++sphereii_cave_07.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_07.ins
+++sphereii_cave_07.jpg
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_07.jpg
+++sphereii_cave_07.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_07.tts
+++sphereii_cave_07.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_07.xml
+++sphereii_cave_08.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_08.blocks.nim
+++sphereii_cave_08.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_08.ins
+++sphereii_cave_08.jpg
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_08.jpg
+++sphereii_cave_08.mesh
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_08.mesh
+++sphereii_cave_08.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_08.tts
+++sphereii_cave_08.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_08.xml
+++sphereii_cave_09.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_09.blocks.nim
+++sphereii_cave_09.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_09.ins
+++sphereii_cave_09.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_09.tts
+++sphereii_cave_09.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_09.xml
+++sphereii_cave_10.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_10.blocks.nim
+++sphereii_cave_10.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_10.ins
+++sphereii_cave_10.mesh
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_10.mesh
+++sphereii_cave_10.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_10.tts
+++sphereii_cave_10.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_10.xml
+++sphereii_cave_11.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_11.blocks.nim
+++sphereii_cave_11.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_11.ins
+++sphereii_cave_11.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_11.tts
+++sphereii_cave_11.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_cave_11.xml
+++sphereii_deepcaves_01.blocks.nim
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_deepcaves_01.blocks.nim
+++sphereii_deepcaves_01.ins
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_deepcaves_01.ins
+++sphereii_deepcaves_01.tts
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_deepcaves_01.tts
+++sphereii_deepcaves_01.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\prefabs\sphereii_deepcaves_01.xml
+++PathingCube.unity3d
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\resources\pathingcube.unity3d
+++PathSmoke.unity3d
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\resources\pathsmoke.unity3d
+++PathSmokeParticle.unity3d
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\resources\pathsmokeparticle.unity3d
+++PathSmokeParticle_X.prefab
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\resources\pathsmokeparticle_x.prefab
+++AvatarAnimalControllerSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\animation\avataranimalcontrollersdx.cs
+++MecanimSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\animation\mecanimsdx.cs
+++BlockMortSpawner.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\blocks\blockmortspawner.cs
+++BlockPathFinding.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\blocks\blockpathfinding.cs
+++BlockPickUpAndReplace.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\blocks\blockpickupandreplace.cs
+++BlockPoweredWorkstation.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\blocks\blockpoweredworkstation.cs
+++BlockSpawnCube2SDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\blocks\blockspawncube2sdx.cs
+++BlockSpawnCubeSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\blocks\blockspawncubesdx.cs
+++BlockSpawnerSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\blocks\blockspawnersdx.cs
+++BlockTriggeredSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\blocks\blocktriggeredsdx.cs
+++BlockUtilitiesSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\blocks\blockutilitiessdx.cs
+++RequirementEveryDawn.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\buffs\requirementeverydawn.cs
+++RequirementEveryXDaySDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\buffs\requirementeveryxdaysdx.cs
+++RequirementEveryXHourSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\buffs\requirementeveryxhoursdx.cs
+++RequirementIsBloodMoon.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\buffs\requirementisbloodmoon.cs
+++RequirementIsUnderground.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\buffs\requirementisunderground.cs
+++RequirementLookingAt.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\buffs\requirementlookingat.cs
+++RequirementOnSpecificBiomeSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\buffs\requirementonspecificbiomesdx.cs
+++RequirementSameFactionSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\buffs\requirementsamefactionsdx.cs
+++SphereCache.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\cache\spherecache.cs
+++ConsoleCmdActionDelaySDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\consolecmd\consolecmdactiondelaysdx.cs
+++ConsoleCmdlock.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\consolecmd\consolecmdlock.cs
+++ConsoleCmdUnitTestSCore.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\consolecmd\consolecmdunittestscore.cs
+++ConsoleCmdUtilityAI.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\consolecmd\consolecmdutilityai.cs
+++DialogActionAddBuffSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\dialogactionaddbuffsdx.cs
+++DialogActionAddCVar.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\dialogactionaddcvar.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\temp_dialogs\dialogactionaddcvar.cs
+++DialogActionAddCVarSelf.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\dialogactionaddcvarself.cs
+++DialogActionAddItemSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\dialogactionadditemsdx.cs
+++DialogActionExecuteCommandSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\dialogactionexecutecommandsdx.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\temp_dialogs\dialogactionexecutecommandsdx.cs
+++DialogActionGiveQuestSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\dialogactiongivequestsdx.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\temp_dialogs\dialogactiongivequestsdx.cs
+++DialogActionGiveToNPC.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\dialogactiongivetonpc.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\temp_dialogs\dialogactiongivetonpc.cs
+++DialogActionOpenDialogSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\dialogactionopendialogsdx.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\temp_dialogs\dialogactionopendialogsdx.cs
+++DialogActionRemoveBuffSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\dialogactionremovebuffsdx.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\temp_dialogs\dialogactionremovebuffsdx.cs
+++DialogActionRewardSkillPoint.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\dialogactionrewardskillpoint.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\temp_dialogs\dialogactionrewardskillpoint.cs
+++DialogActionShowToolTipSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\dialogactionshowtooltipsdx.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\temp_dialogs\dialogactionshowtooltipsdx.cs
+++DialogRequirementFaction.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\dialogrequirementfaction.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\temp_dialogs\dialogrequirementfaction.cs
+++DialogRequirementFactionValue.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\dialogrequirementfactionvalue.cs
+++DialogRequirementHasBuffSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\dialogrequirementhasbuffsdx.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\temp_dialogs\dialogrequirementhasbuffsdx.cs
+++DialogRequirementHasCompletedQuestSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\dialogrequirementhascompletedquestsdx.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\temp_dialogs\dialogrequirementhascompletedquestsdx.cs
+++DialogRequirementHasCVar.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\dialogrequirementhascvar.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\temp_dialogs\dialogrequirementhascvar.cs
+++DialogRequirementHasFailedQuestSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\dialogrequirementhasfailedquestsdx.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\temp_dialogs\dialogrequirementhasfailedquestsdx.cs
+++DialogRequirementHasItemSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\dialogrequirementhasitemsdx.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\temp_dialogs\dialogrequirementhasitemsdx.cs
+++DialogRequirementHasPackage.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\dialogrequirementhaspackage.cs
+++DialogRequirementHasPlayerLevelSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\dialogrequirementhasplayerlevelsdx.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\temp_dialogs\dialogrequirementhasplayerlevelsdx.cs
+++DialogRequirementHasQuestSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\dialogrequirementhasquestsdx.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\temp_dialogs\dialogrequirementhasquestsdx.cs
+++DialogRequirementHasTask.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\dialogrequirementhastask.cs
+++DialogRequirementHiredSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\dialogrequirementhiredsdx.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\temp_dialogs\dialogrequirementhiredsdx.cs
+++DialogRequirementLeader.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\dialogrequirementleader.cs
+++DialogRequirementRandomRoll.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\dialogs\dialogrequirementrandomroll.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\temp_dialogs\dialogrequirementrandomroll.cs
+++DMTEAIUtilities.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\eai\dmteaiutilities.cs
+++EAIApproachAndAttackSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\eai\eaiapproachandattacksdx.cs
+++EAIApproachAndFollowTargetSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\eai\eaiapproachandfollowtargetsdx.cs
+++EAIBreakBlockSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\eai\eaibreakblocksdx.cs
+++EAIGuardSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\eai\eaiguardsdx.cs
+++EAILootLocationSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\eai\eailootlocationsdx.cs
+++EAIMaslowLevel1SDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\eai\eaimaslowlevel1sdx.cs
+++EAIPatrolSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\eai\eaipatrolsdx.cs
+++EAIRangedAttackTargetSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\eai\eairangedattacktargetsdx.cs
+++EAIRunawayFromEntitySDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\eai\eairunawayfromentitysdx.cs
+++EAISetAsTargetIfHurtSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\eai\eaisetastargetifhurtsdx.cs
+++EAISetAsTargetIfLeaderAttackedSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\eai\eaisetastargetifleaderattackedsdx.cs
+++EAISwimSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\eai\eaiswimsdx.cs
+++EAIWanderSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\eai\eaiwandersdx.cs
+++AdvLogging.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\features\advlogging.cs
+++Configuration.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\features\configuration.cs
+++ItemActionLauncherSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\itemaction\itemactionlaunchersdx.cs
+++ItemActionMeleeSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\itemaction\itemactionmeleesdx.cs
+++SimulateActionsLibrary.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\itemaction\simulateactionslibrary.cs
+++ItemActionEntryResharpenSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\items\itemactionentryresharpensdx.cs
+++ItemsUtilities.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\items\itemsutilities.cs
+++Cipher.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\lockpicking\cipher.cs
+++CipherControls.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\lockpicking\ciphercontrols.cs
+++CipherDemoUI.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\lockpicking\cipherdemoui.cs
+++Keyhole.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\lockpicking\keyhole.cs
+++KeyholeDemoUI.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\lockpicking\keyholedemoui.cs
+++LockButton.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\lockpicking\lockbutton.cs
+++LockControls.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\lockpicking\lockcontrols.cs
+++LockDemoCommonControls.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\lockpicking\lockdemocommoncontrols.cs
+++LockEmissive.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\lockpicking\lockemissive.cs
+++LockEmissiveControls.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\lockpicking\lockemissivecontrols.cs
+++LockObjectRotation.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\lockpicking\lockobjectrotation.cs
+++LocksetAudio.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\lockpicking\locksetaudio.cs
+++README.txt.txt
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\lockpicking\readme.txt.txt
+++SphereII_Locks.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\lockpicking\sphereii_locks.cs
+++MinEventActionAddBuffByFactionSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactionaddbuffbyfactionsdx.cs
+++MinEventActionAnimatorSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactionanimatorsdx.cs
+++MinEventActionChangeFactionSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactionchangefactionsdx.cs
+++MinEventActionClearStaleHires.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactionclearstalehires.cs
+++MinEventActionCreateItemSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactioncreateitemsdx.cs
+++MinEventActionExecuteConsoleCommand.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactionexecuteconsolecommand.cs
+++MinEventActionGiveQuestSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactiongivequestsdx.cs
+++MinEventActionGuardClear.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactionguardclear.cs
+++MinEventActionGuardHere.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactionguardhere.cs
+++MinEventActionGuardThere.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactionguardthere.cs
+++MinEventActionHideNPCSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactionhidenpcsdx.cs
+++MinEventActionModifyFactionSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactionmodifyfactionsdx.cs
+++MinEventActionModifyRelatedFactionsSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactionmodifyrelatedfactionssdx.cs
+++MinEventActionModifySkillSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactionmodifyskillsdx.cs
+++MinEventActionNotifyTeam.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactionnotifyteam.cs
+++MinEventActionNotifyTeamTeleport.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactionnotifyteamteleport.cs
+++MinEventActionPlayerLevelSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactionplayerlevelsdx.cs
+++MinEventActionPumpQuestSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactionpumpquestsdx.cs
+++MinEventActionRandomLootSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactionrandomlootsdx.cs
+++MinEventActionSetCVar.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactionsetcvar.cs
+++MinEventActionSetFactionRelationship.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactionsetfactionrelationship.cs
+++MinEventActionSetOrder.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactionsetorder.cs
+++MinEventActionShowToolTipSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactionshowtooltipsdx.cs
+++MinEventActionSkillPointSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactionskillpointsdx.cs
+++MinEventActionSpawnBabySDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactionspawnbabysdx.cs
+++MinEventActionToggleCamera.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\minevents\mineventactiontogglecamera.cs
+++LeaderCollision.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\monobehaviour\leadercollision.cs
+++MusicBox.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\musicboxes\musicbox.cs
+++MusicBoxScript.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\musicboxes\musicboxscript.cs
+++NetPackageGotoPOISDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\netpackage\netpackagegotopoisdx.cs
+++PathingCubeParser.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\programmablelogic\pathingcubeparser.cs
+++ObjectiveBuffSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\quests\objectivebuffsdx.cs
+++ObjectiveGotoPOISDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\quests\objectivegotopoisdx.cs
+++QuestActionGiveBuffSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\quests\questactiongivebuffsdx.cs
+++QuestActionGiveCVarBuffSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\quests\questactiongivecvarbuffsdx.cs
+++QuestActionPlaySound.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\quests\questactionplaysound.cs
+++QuestActionReplaceEntitySDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\quests\questactionreplaceentitysdx.cs
+++QuestActionSpawnEntitySDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\quests\questactionspawnentitysdx.cs
+++QuestUtils.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\quests\questutils.cs
+++RewardGiveCvarDMT.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\quests\rewardgivecvardmt.cs
+++RewardGiveNPCSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\quests\rewardgivenpcsdx.cs
+++RewardItemSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\quests\rewarditemsdx.cs
+++RewardQuestSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\quests\rewardquestsdx.cs
+++RewardReassignNPCSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\quests\rewardreassignnpcsdx.cs
+++AnimatedGifDecoder.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\signs\animatedgifdecoder.cs
+++AnimatedGifPlayer.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\signs\animatedgifplayer.cs
+++ImageWrapper.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\signs\imagewrapper.cs
+++SoundDataNodeClass.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\sounddata\sounddatanodeclass.cs
+++DialogActionGetItemSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\temp_dialogs\dialogactiongetitemsdx.cs
+++DialogRequirementNotHaveItemSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\temp_dialogs\dialogrequirementnothaveitemsdx.cs
+++TileEntityPoweredWorkstation.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\tileentities\tileentitypoweredworkstation.cs
+++CanDamageChecks.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\unittests\candamagechecks.cs
+++Filters
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\filters\
+++UAIConsiderationCanHear.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationcanhear.cs
+++UAIConsiderationCanSeeTarget.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationcanseetarget.cs
+++UAIConsiderationCooldown.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationcooldown.cs
+++UAIConsiderationEnemyNear.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationenemynear.cs
+++UAIConsiderationFailOnDistanceToLeader.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationfailondistancetoleader.cs
+++UAIConsiderationHasHomePositioncs.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationhashomepositioncs.cs
+++UAIConsiderationHasOrder.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationhasorder.cs
+++UAIConsiderationHasPath.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationhaspath.cs
+++UAIConsiderationHasTarget.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationhastarget.cs
+++UAIConsiderationIsAlerted.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationisalerted.cs
+++UAIConsiderationIsBusy.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationisbusy.cs
+++UAIConsiderationIsInside.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationisinside.cs
+++UAIConsiderationIsSleeping.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationissleeping.cs
+++UAIConsiderationIsTargeted.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationistargeted.cs
+++UAIConsiderationPathBlocked.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationpathblocked.cs
+++UAIConsiderationPathTarget.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationpathtarget.cs
+++UAIConsiderationRandom.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationrandom.cs
+++UAIConsiderationSelfAttackTarget.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationselfattacktarget.cs
+++UAIConsiderationSelfHasBuff.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationselfhasbuff.cs
+++UAIConsiderationSelfHasCVar.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationselfhascvar.cs
+++UAIConsiderationSelfHasItem.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationselfhasitem.cs
+++UAIConsiderationSelfHealthSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationselfhealthsdx.cs
+++UAIConsiderationTargetDistanceSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationtargetdistancesdx.cs
+++UAIConsiderationTargetFactionStandingSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationtargetfactionstandingsdx.cs
+++UAIConsiderationTargetHasBuff.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationtargethasbuff.cs
+++UAIConsiderationTargetHasCVar.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationtargethascvar.cs
+++UAIConsiderationTargetHasTags.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationtargethastags.cs
+++UAIConsiderationTargetHealthSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationtargethealthsdx.cs
+++UAIConsiderationTargetIsAlive.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationtargetisalive.cs
+++UAIConsiderationTargetLeader.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationtargetleader.cs
+++UAIConsiderationTargetSameClass.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationtargetsameclass.cs
+++UAIConsiderationTargetTileEntity.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationtargettileentity.cs
+++UAIConsiderationTargetWeaponRange.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationtargetweaponrange.cs
+++UAIConsiderationTrapped.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiconsiderationtrapped.cs
+++UAISCoreUtils.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaiscoreutils.cs
+++UAITaskAttackTargetEntitySDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaitaskattacktargetentitysdx.cs
+++UAITaskBackupFromTargetSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaitaskbackupfromtargetsdx.cs
+++UAITaskBreakBlocks.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaitaskbreakblocks.cs
+++UAITaskFireBuff.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaitaskfirebuff.cs
+++UAITaskFollowSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaitaskfollowsdx.cs
+++UAITaskGuard.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaitaskguard.cs
+++UAITaskHealSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaitaskhealsdx.cs
+++UAITaskHealSelf.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaitaskhealself.cs
+++UAITaskIdle.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaitaskidle.cs
+++UAITaskLearn.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaitasklearn.cs
+++UAITaskLoot.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaitaskloot.cs
+++UAITaskMoveToAttackTargetSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaitaskmovetoattacktargetsdx.cs
+++UAITaskMoveToExplore.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaitaskmovetoexplore.cs
+++UAITaskMoveToHealTarget.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaitaskmovetohealtarget.cs
+++UAITaskMoveToHealTargetSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaitaskmovetohealtargetsdx.cs
+++UAITaskMoveToInvestigate.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaitaskmovetoinvestigate.cs
+++UAITaskMoveToTargetSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaitaskmovetotargetsdx.cs
+++UAITaskWanderSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\uaitaskwandersdx.cs
+++Utilities
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\worldgen\utilities\
+++LegacyCaveTunneler.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\worldgen\legacycavetunneler.cs
+++SebastianCaveTunneler.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\worldgen\sebastiancavetunneler.cs
+++WinterProjectPrefab.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\worldgen\winterprojectprefab.cs
+++XUiC_CharacterFrameWindowSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\xuic\xuic_characterframewindowsdx.cs
+++XUiC_DialogHireInformationSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\xuic\xuic_dialoghireinformationsdx.cs
+++XUiC_DialogRespondentNameSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\xuic\xuic_dialogrespondentnamesdx.cs
+++XUiC_DialogStatementWindowSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\xuic\xuic_dialogstatementwindowsdx.cs
+++XUiC_EntityInformationPanelSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\xuic\xuic_entityinformationpanelsdx.cs
+++XUiC_HireInformationPopupSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\xuic\xuic_hireinformationpopupsdx.cs
+++XUiC_JoinInformationPopupSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\xuic\xuic_joininformationpopupsdx.cs
+++XUiC_NPCStatWindow.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\xuic\xuic_npcstatwindow.cs
+++XUiC_PathFindingKeypadWindow.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\xuic\xuic_pathfindingkeypadwindow.cs
+++XUiC_PickLocking.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\xuic\xuic_picklocking.cs
+++XUiC_PlayerStatWindowSDX.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\xuic\xuic_playerstatwindowsdx.cs
+++windows.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\config\xui\windows.xml
+++xui.xml
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\config\xui\xui.xml
+++AutomaticVersioning.txt
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\documentation\notes\automaticversioning.txt
+++AiDirectorBloodMoonParty.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\aidirectorbloodmoon\aidirectorbloodmoonparty.cs
+++AnimalAvatarController.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\animation\animalavatarcontroller.cs
+++AnimatorMapper.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\animation\animatormapper.cs
+++AvatarController.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\animation\avatarcontroller.cs
+++AvatarControllerLateUpdate.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\animation\avatarcontrollerlateupdate.cs
+++EmodelBaseLookAtUpdate.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\animation\emodelbaselookatupdate.cs
+++ModelBaseInitCommon.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\animation\modelbaseinitcommon.cs
+++Spook.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\atmosphere\spook.cs
+++BlockSecureLoot.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\blocks\blocksecureloot.cs
+++BlockWorkarounds.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\blocks\blockworkarounds.cs
+++OnEntityCollidedWithBlock.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\blocks\onentitycollidedwithblock.cs
+++Particles.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\blocks\particles.cs
+++DialogClose.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\dialog\dialogclose.cs
+++DialogFromXML.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\dialog\dialogfromxml.cs
+++DynamicMusicPlayerTracker.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\dms\dynamicmusicplayertracker.cs
+++EAIManager.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\eai\eaimanager.cs
+++EAITarget.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\eai\eaitarget.cs
+++AddScriptToTransform.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\entityalive\addscripttotransform.cs
+++EntityAlivePatches.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\entityalive\entityalivepatches.cs
+++DigStart.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\entitymovehelper\digstart.cs
+++StartJump.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\entitymovehelper\startjump.cs
+++Stop.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\entitymovehelper\stop.cs
+++UpdateMoveHelper.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\entitymovehelper\updatemovehelper.cs
+++NoExceptionHijack.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\errorhandling\noexceptionhijack.cs
+++FactionRelationshipCVars.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\faction\factionrelationshipcvars.cs
+++FactionTweaks.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\faction\factiontweaks.cs
+++FoodSpoilage.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\foodspoilage\foodspoilage.cs
+++TraversalProvider.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\gamepath\traversalprovider.cs
+++UtilsDrawLine.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\gamepath\utilsdrawline.cs
+++AdvancedItems.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\itemactions\advanceditems.cs
+++DurabilityAffectsDamage.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\itemactions\durabilityaffectsdamage.cs
+++ItemActionMelee.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\itemactions\itemactionmelee.cs
+++ItemClass.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\itemactions\itemclass.cs
+++shouldIgnoreTarget.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\miniturret\shouldignoretarget.cs
+++QuestGotoPoint.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\netpackage\questgotopoint.cs
+++DynamicPrefabGetTraderArea.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\npcfeatures\dynamicprefabgettraderarea.cs
+++EntityAliveGroundDetection.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\npcfeatures\entityalivegrounddetection.cs
+++EntityAlivePatcher.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\npcfeatures\entityalivepatcher.cs
+++EntityAlivePatcherAwardKill.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\npcfeatures\entityalivepatcherawardkill.cs
+++EntityAliveStartingEquipment.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\npcfeatures\entityalivestartingequipment.cs
+++EntityNPCJumpHeight.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\npcfeatures\entitynpcjumpheight.cs
+++EntityNPCMakeVulnerable.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\npcfeatures\entitynpcmakevulnerable.cs
+++EntityNPCSpeedFix.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\npcfeatures\entitynpcspeedfix.cs
+++EntityTraderEModalSetLookAt.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\npcfeatures\entitytraderemodalsetlookat.cs
+++NerdPoll.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\playerfeatures\nerdpoll.cs
+++OneBlockCrouch.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\playerfeatures\oneblockcrouch.cs
+++PlayerMoveControllerUpdate.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\playerfeatures\playermovecontrollerupdate.cs
+++SoftHands.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\playerfeatures\softhands.cs
+++TeleportNPCs.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\playerfeatures\teleportnpcs.cs
+++DynamicPrefabDecorator.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\prefabfeatures\dynamicprefabdecorator.cs
+++RemoveTraderProtection.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\prefabfeatures\removetraderprotection.cs
+++EntityAliveSDXProgressionHooks.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\progression\entityalivesdxprogressionhooks.cs
+++Progression.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\progression\progression.cs
+++QuickContinue.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\quickcontinue\quickcontinue.cs
+++AudioClientPlay.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\soundfeatures\audioclientplay.cs
+++AudioManagerPlay.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\soundfeatures\audiomanagerplay.cs
+++AudioServerPlay.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\soundfeatures\audioserverplay.cs
+++GiveBuffOrQuestBySound.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\soundfeatures\givebufforquestbysound.cs
+++SoundsFromXML.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\soundfeatures\soundsfromxml.cs
+++ModInitModCode.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\standard\modinitmodcode.cs
+++XMLDebugging.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\standard\xmldebugging.cs
+++PoweredWorkstations.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\tileentities\poweredworkstations.cs
+++TileEntityAlwaysActive.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\tileentities\tileentityalwaysactive.cs
+++TileEntitySignGif.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\tileentities\tileentitysigngif.cs
+++FilterGameWorld.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\ui\filtergameworld.cs
+++TargetBar.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\ui\targetbar.cs
+++XPIconRemover.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\ui\xpiconremover.cs
+++UAIBase.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\utilityai\uaibase.cs
+++UAIPackage.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\utilityai\uaipackage.cs
+++UAITaskBase.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\utilityai\uaitaskbase.cs
+++UtilityAIPatches.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\utilityai\utilityaipatches.cs
+++NoVechileTake.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\vehicles\novechiletake.cs
+++CaveProject.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\worldgen\caveproject.cs
+++ModInfoPatches.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\xml\modinfopatches.cs
+++SirillionThings.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\xuic\sirillionthings.cs
+++XUiC_TargetBar.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\xuic\xuic_targetbar.cs
+++XUiController.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\xuic\xuicontroller.cs
+++EntityFlyingEAITasks.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\zombiefeatures\entityflyingeaitasks.cs
+++HeadshotOnly.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\zombiefeatures\headshotonly.cs
+++InertEntity.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\zombiefeatures\inertentity.cs
+++RandomDeathSpawn.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\zombiefeatures\randomdeathspawn.cs
+++RandomSize.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\zombiefeatures\randomsize.cs
+++Transmogrifier.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\harmony\zombiefeatures\transmogrifier.cs
+++.NETFramework,Version=v4.8.AssemblyAttributes.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\obj\debug\.netframework,version=v4.8.assemblyattributes.cs
+++IUAITargetFilter.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\filters\iuaitargetfilter.cs
+++UAIFilterIsAlly.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\filters\uaifilterisally.cs
+++UAIFilterIsEnemy.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\filters\uaifilterisenemy.cs
+++UAIFilterIsLeader.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\filters\uaifilterisleader.cs
+++UAIFilterIsPlayer.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\filters\uaifilterisplayer.cs
+++UAIFilterIsSelf.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\utilityai\filters\uaifilterisself.cs
+++FastNoise.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\worldgen\utilities\fastnoise.cs
+++FastNoiseSIMD.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\worldgen\utilities\fastnoisesimd.cs
+++MapGenerator.cs
+i:{5717e58e-d52d-46b1-af8d-ea06bf410286}:c:\program files (x86)\steam\steamapps\common\7 days to die\mods\0-score\scripts\worldgen\utilities\mapgenerator.cs
