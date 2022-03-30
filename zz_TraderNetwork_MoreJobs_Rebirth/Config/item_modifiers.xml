@@ -595,6 +595,78 @@
 			</effect_group>
 		</item_modifier>
 
+		<item_modifier name="FuriousRamsayAuraModWitchDoctor" installable_tags="armor" modifier_tags="FireAura" blocked_tags="noMods" type="attachment">
+			<property name="CustomIcon" value="MindControlAuraMod_icon"/>
+			<property name="DisplayType" value="FuriousRamsayAura"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Group" value="Aura"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<effect_group name="FuriousRamsayAura" tiered="false">
+				<display_value name="dAuraRange" value="10"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl1"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl2"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl3"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl4"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl5"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl6"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl7"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl8"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl9"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl10"/>
+			</effect_group>
+			<effect_group name="FuriousRamsayAuraLevel1" tiered="false">
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeWitchDoctorClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkWitchDoctorRangedMindControlAura" operation="Equals" value="1"/>
+					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl1"/>
+			</effect_group>
+			<effect_group name="FuriousRamsayAuraLevel2" tiered="false">
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeWitchDoctorClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkWitchDoctorRangedMindControlAura" operation="Equals" value="2"/>
+					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl2"/>
+			</effect_group>
+			<effect_group name="FuriousRamsayAuraLevel3" tiered="false">
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeWitchDoctorClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkWitchDoctorRangedMindControlAura" operation="Equals" value="3"/>
+					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl3"/>
+			</effect_group>
+			<effect_group name="FuriousRamsayAuraLevel4" tiered="false">
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeWitchDoctorClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkWitchDoctorRangedMindControlAura" operation="Equals" value="4"/>
+					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl4"/>
+			</effect_group>
+			<effect_group name="FuriousRamsayAuraLevel5" tiered="false">
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeWitchDoctorClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkWitchDoctorRangedMindControlAura" operation="Equals" value="5"/>
+					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl5"/>
+			</effect_group>
+			<effect_group name="FuriousRamsayAuraLevel6" tiered="false">
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeWitchDoctorClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkWitchDoctorRangedMindControlAura" operation="Equals" value="6"/>
+					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl6"/>
+			</effect_group>
+			<effect_group name="FuriousRamsayAuraLevel7" tiered="false">
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeWitchDoctorClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkWitchDoctorRangedMindControlAura" operation="Equals" value="7"/>
+					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl7"/>
+			</effect_group>
+			<effect_group name="FuriousRamsayAuraLevel8" tiered="false">
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeWitchDoctorClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkWitchDoctorRangedMindControlAura" operation="Equals" value="8"/>
+					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl8"/>
+			</effect_group>
+			<effect_group name="FuriousRamsayAuraLevel9" tiered="false">
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeWitchDoctorClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkWitchDoctorRangedMindControlAura" operation="Equals" value="9"/>
+					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl9"/>
+			</effect_group>
+			<effect_group name="FuriousRamsayAuraLevel10" tiered="false">
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeWitchDoctorClass" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayPerkWitchDoctorRangedMindControlAura" operation="Equals" value="10"/>
+					<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl10"/>
+			</effect_group>
+		</item_modifier>
+
 	</append>
 
 </Config>

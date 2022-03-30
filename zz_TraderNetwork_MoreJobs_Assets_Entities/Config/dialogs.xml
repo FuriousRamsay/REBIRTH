@@ -378,6 +378,42 @@
 			</response>
 		</dialog>
 
+		<dialog id="FuriousRamsayPersonalTrainerWitchDoctor" startstatementid="start">
+			<statement id="start" text="dialog_trader_statement_start">
+				<response_entry id="FollowMe" />
+				<response_entry id="shopResponse" />
+				<response_entry id="StayHere" />
+				<response_entry id="GuardHere" />
+				<response_entry id="PickUp" />
+			</statement>
+
+			<response id="FollowMe" text="Follow me" >
+				<requirement type="Leader, SCore" requirementtype="Hide"/>
+				<action type="AddBuffSDX, SCore" value="Self" id="buffOrderFollow" />
+			</response>
+
+			<response id="shopResponse" text="dialog_trader_response_shop">
+				<action type="AddBuffSDX, SCore" id="FuriousRamsayProcessBaseEvents" />
+				<action type="Trader" id="trade" />
+			</response>
+
+			<response id="StayHere" text="Stay where you are" >
+				<requirement type="Leader, SCore" requirementtype="Hide" />
+				<action type="AddBuffSDX, SCore" value="Self" id="buffOrderStay" />
+			</response>
+	  
+			<response id="GuardHere" text="Stay where I am" >
+				<requirement type="Leader, SCore" requirementtype="Hide" />
+				<requirement type="HasTask, SCore" requirementtype="Hide" value="Stay" />
+				<action type="AddBuffSDX, SCore" value="Self" id="buffOrderGuardHere" />
+			</response>
+ 
+			<response id="PickUp" text="Let me store you">
+				<action type="AddItemSDX, SCore" id="FuriousRamsaySpawnTrainerWitchDoctor_FR" />
+				<action type="AddBuffSDX, SCore" value="Self" id="buffKillNPC" />
+			</response>
+		</dialog>
+
 		<dialog id="FuriousRamsayPersonalTrainerFarmer" startstatementid="start">
 			<statement id="start" text="dialog_trader_statement_start">
 				<response_entry id="FollowMe" />

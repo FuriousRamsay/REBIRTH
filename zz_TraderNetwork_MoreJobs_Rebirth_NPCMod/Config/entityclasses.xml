@@ -34,6 +34,10 @@
 			<requirement name="EntityTagCompare" target="self" tags="DRHigh"/>
 				<passive_effect name="PhysicalDamageResist" operation="base_add" value="30"/>
 		</effect_group> 
+		<effect_group name="PreventFallDamage">
+			<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="$parkourBonus" operation="set" value="10"/>
+			<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="$parkourBonus" operation="set" value="10"/>
+		</effect_group> 
 	</append>
 
 	<setattribute xpath="//entity_class[@name='npcMeleeTemplate']/effect_group[@name='Base Effects']/passive_effect[@name='BuffResistance']" name="value">200</setattribute>

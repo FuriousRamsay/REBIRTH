@@ -15,11 +15,11 @@ using Random = System.Random;
 using System;
 using UnityEngine;
 
-public class EntityMeleeBanditSDX : EntityNPC
+public class EntityMeleeBanditSDX : EntityZombieSDX
 {
     public float flEyeHeight = -1f;
     public Random random = new Random();
-    public ulong timeToDie;
+    /*public ulong timeToDie;*/
 
 	public override void OnUpdateLive()
     {
@@ -36,12 +36,72 @@ public class EntityMeleeBanditSDX : EntityNPC
             }
         }
     }
-    public override bool CanDamageEntity(int _sourceEntityId)
+    /*public override bool CanDamageEntity(int _sourceEntityId)
     {
         return true;
-    }
+    }*/
 
-    public override void OnAddedToWorld()
+	public override int DamageEntity(DamageSource _damageSource, int _strength, bool _criticalHit, float _impulseScale = 1f)
+	{
+		EnumDamageSource source = _damageSource.GetSource();
+		if (_damageSource.IsIgnoreConsecutiveDamages() && source != EnumDamageSource.Internal)
+		{
+			if (this.damageSourceTimeouts.ContainsKey(source) && GameTimer.Instance.ticks - this.damageSourceTimeouts[source] < 30UL)
+			{
+				return 0;
+			}
+			this.damageSourceTimeouts[source] = GameTimer.Instance.ticks;
+		}
+		EntityAlive entityAlive = this.world.GetEntity(_damageSource.getEntityId()) as EntityAlive;
+		if (!this.FriendlyFireCheck(entityAlive))
+		{
+			return 0;
+		}
+		bool flag = _damageSource.GetDamageType() == EnumDamageTypes.Heat;
+		if (!flag && entityAlive is EntityZombie && this is EntityZombie)
+		{
+			return 0;
+		}
+		if (this.IsGodMode.Value)
+		{
+			return 0;
+		}
+		if (!this.IsDead() && entityAlive)
+		{
+			float value = EffectManager.GetValue(PassiveEffects.DamageBonus, null, 0f, entityAlive, null, default(FastTags), true, true, true, true, 1, true);
+			if (value > 0f)
+			{
+				_damageSource.DamageMultiplier = value;
+				_damageSource.BonusDamageType = EnumDamageBonusType.Sneak;
+			}
+		}
+		DamageResponse damageResponse = this.damageEntityLocal(_damageSource, _strength, _criticalHit, _impulseScale);
+		NetPackage package = NetPackageManager.GetPackage<NetPackageDamageEntity>().Setup(this.entityId, damageResponse);
+		if (this.world.IsRemote())
+		{
+			SingletonMonoBehaviour<ConnectionManager>.Instance.SendToServer(package, false);
+		}
+		else
+		{
+			int excludePlayer = -1;
+			if (!flag && _damageSource.CreatorEntityId != -2)
+			{
+				excludePlayer = _damageSource.getEntityId();
+				if (_damageSource.CreatorEntityId != -1)
+				{
+					Entity entity = this.world.GetEntity(_damageSource.CreatorEntityId);
+					if (entity && !entity.isEntityRemote)
+					{
+						excludePlayer = -1;
+					}
+				}
+			}
+			this.world.entityDistributer.SendPacketToTrackedPlayersAndTrackedEntity(this.entityId, excludePlayer, package);
+		}
+		return damageResponse.ModStrength;
+	}
+
+	public override void OnAddedToWorld()
     {
         base.OnAddedToWorld();
         this.timeToDie = this.world.worldTime + 1800UL + (ulong)(22000f * this.rand.RandomFloat);
@@ -132,12 +192,6 @@ public class EntityMeleeBanditSDX : EntityNPC
 		}
 	}
 
-	// Token: 0x060020FD RID: 8445 RVA: 0x000DEE83 File Offset: 0x000DD083
-	public override int DamageEntity(DamageSource _damageSource, int _strength, bool _criticalHit, float _impulseScale)
-	{
-		return base.DamageEntity(_damageSource, _strength, _criticalHit, _impulseScale);
-	}
-
 	// Token: 0x060020FE RID: 8446 RVA: 0x000DEE90 File Offset: 0x000DD090
 	protected override bool isGameMessageOnDeath()
 	{
@@ -203,23 +257,23 @@ public class EntityMeleeBanditSDX : EntityNPC
 	}*/
 
 	// Token: 0x0600238B RID: 9099 RVA: 0x000F581C File Offset: 0x000F3A1C
-	/*public override Ray GetLookRay()
+	public override Ray GetLookRay()
 	{
 		Ray result;
 		if (base.IsBreakingBlocks)
 		{
-			result..ctor(this.position + new Vector3(0f, this.GetEyeHeight(), 0f), this.GetLookVector());
+			result = new Ray(this.position + new Vector3(0f, this.GetEyeHeight(), 0f), this.GetLookVector());
 		}
 		else if (base.GetWalkType() == 8)
 		{
-			result..ctor(this.getHeadPosition(), this.GetLookVector());
+			result = new Ray(this.getHeadPosition(), this.GetLookVector());
 		}
 		else
 		{
-			result..ctor(this.getHeadPosition(), this.GetLookVector());
+			result = new Ray(this.getHeadPosition(), this.GetLookVector());
 		}
 		return result;
-	}*/
+	}
 
 	// Token: 0x0600238C RID: 9100 RVA: 0x000F5892 File Offset: 0x000F3A92
 	public override Vector3 GetLookVector()
@@ -493,7 +547,7 @@ public class EntityMeleeBanditSDX : EntityNPC
 	}
 
 	// Token: 0x06002398 RID: 9112 RVA: 0x000F5F81 File Offset: 0x000F4181
-	public bool StartRage(float speedPercent, float time)
+	/*public bool StartRage(float speedPercent, float time)
 	{
 		if (speedPercent >= this.moveSpeedRagePer)
 		{
@@ -502,14 +556,14 @@ public class EntityMeleeBanditSDX : EntityNPC
 			return true;
 		}
 		return false;
-	}
+	}*/
 
 	// Token: 0x06002399 RID: 9113 RVA: 0x000F5F9D File Offset: 0x000F419D
-	public void StopRage()
+	/*public void StopRage()
 	{
 		this.moveSpeedRagePer = 0f;
 		this.moveSpeedScaleTime = 0f;
-	}
+	}*/
 
 	// Token: 0x0600239A RID: 9114 RVA: 0x000F5FB5 File Offset: 0x000F41B5
 	public override void OnEntityDeath()

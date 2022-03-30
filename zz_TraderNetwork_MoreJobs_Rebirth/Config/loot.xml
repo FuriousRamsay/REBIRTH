@@ -1011,6 +1011,22 @@
 			<!--<item name="FuriousRamsayStarterMissionsBackPack"/>-->
 		</lootgroup>
 
+		<lootgroup name="FuriousRamsayGroupContainerTrainerWitchDoctor" count="all">
+			<!--<item name="FuriousRamsaySpawnWitchDoctorTrainer"  count="1"/>-->
+			<!--<item name="SCYTHE" quality="2" count="1"/>-->
+			<item name="FuriousRamsayAttributeWitchDoctorClass" count="1"/>
+			<item name="FuriousRamsayStarterArmorHeadWitchDoctor"/>
+			<item name="FuriousRamsayStarterArmorChestWitchDoctor"/>
+			<item name="FuriousRamsayStarterArmorPonchoWitchDoctor"/>
+			<item name="FuriousRamsayStarterArmorGlovesWitchDoctor"/>
+			<item name="FuriousRamsayStarterArmorLegsWitchDoctor"/>
+			<item name="FuriousRamsayStarterArmorBootsWitchDoctor"/>
+			<item name="meleeToolShovelT1IronShovel"/>
+			<item name="meleeToolPickT1IronPickaxe"/>
+			<item name="qc_FuriousRamsayLocateShelterWitchDoctor"/>
+			<!--<item name="FuriousRamsayStarterMissionsBackPack"/>-->
+		</lootgroup>
+
 		<lootgroup name="FuriousRamsayStarterBackpackStrengthLootGroup">
 			<item name="FuriousRamsayStarterBackpackStrength" count="1"/>
 		</lootgroup>
@@ -1089,6 +1105,10 @@
 
 		<lootcontainer name="FuriousRamsay833" id="833" size="5,3" destroy_on_close="true" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" open_time="1">
 			<item group="FuriousRamsayGroupContainerTrainerChef" />
+		</lootcontainer>
+
+		<lootcontainer name="FuriousRamsayLootContainerTrainerWitchDoctor" id="833" size="5,3" destroy_on_close="true" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" open_time="1">
+			<item group="FuriousRamsayGroupContainerTrainerWitchDoctor" />
 		</lootcontainer>
 
 		<lootcontainer name="FuriousRamsay863" id="863" size="8,9" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">

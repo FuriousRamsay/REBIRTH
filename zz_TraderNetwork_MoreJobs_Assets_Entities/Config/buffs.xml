@@ -75,6 +75,14 @@
 				</effect_group>
 			</buff>
 
+			<buff name="FuriousRamsayNPCRangedMindControl" hidden="true">
+				<stack_type value="replace" />
+				<duration value="1"/>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayRangedMindControl" operation="set" value="1"/>
+				</effect_group>
+			</buff>
+
 			<buff name="buffKillNPC" hidden="true">
 				<stack_type value="replace" />
 				<duration value="5"/>

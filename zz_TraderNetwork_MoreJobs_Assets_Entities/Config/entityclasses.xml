@@ -103,9 +103,10 @@
 			<property name="PushFactor" value="1"/>	
 			<property name="TimeStayAfterDeath" value="5"/>
 
-			<effect_group name="IsNPC"> 
+			<!-- CONTAINS HEALING -->
+			<!--<effect_group name="IsNPC"> 
 				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
-			</effect_group>	
+			</effect_group>	-->
 
 			<effect_group>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="0"/>
@@ -269,7 +270,7 @@
 
 		<entity_class name="FuriousRamsaySurvivorMeleeTemplate" extends="zombieTemplateMale"> 
 			<property name="HideInSpawnMenu" value="true"/>
-			<property name="Class" value="EntityMeleeBanditSDX, RebirthUtils" />
+			<property name="Class" value="EntityMeleeSurvivorSDX, RebirthUtils" />
 
 			<property name="PainResistPerHit" value="3"/>
 			<property name="PushFactor" value="1"/>	
@@ -286,9 +287,10 @@
 				<passive_effect name="LandMineImmunity" operation="base_set" value="1"/>
 			</effect_group>	
 
-			<effect_group name="IsNPC"> 
-				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/> 
-			</effect_group>	
+			<!-- CONTAINS HEALING -->
+			<!--<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>	-->
 
 			<effect_group>
 				<passive_effect name="HealthChangeOT" operation="base_set" value="0.1"/>
@@ -411,14 +413,14 @@
 
 			<property name="AITask-1" value="Territorial"/>
 			<property name="AITask-2" value="ApproachDistraction"/>
-			<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityAlive,0,EntityZombie,0"/>
+			<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityNPC,0,EntityZombie,0"/>
 			<property name="AITask-4" value="ApproachSpot"/>
 			<property name="AITask-5" value="Look"/>
 			<property name="AITask-6" value="Wander"/>
 			<property name="AITask-7" value=""/>
 			<property name="AITarget-1" value="SetAsTargetIfHurt"/>
 			<property name="AITarget-2" value="BlockingTargetTask"/>
-			<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityAlive,0,0,EntityZombie,0,0"/> 
+			<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityNPC,0,0,EntityZombie,0,0"/> 
 			<property name="AITarget-4" value=""/>
 
 		</entity_class>	
@@ -1085,6 +1087,32 @@
 				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="NPCInteractedFlag" operation="set" value="1"/>
 			</effect_group>
 		</entity_class>
+
+		<!--<entity_class name="FuriousRamsayTrainerWitchDoctor_FR" extends="npcAdvancedDPistolTemplate"> 
+			<property name="HideInSpawnMenu" value="true"/>
+			<property name="NavObject" value="FuriousRamsayTrainerWitchDoctor" />
+			<property name="Tags" value="entity,female,npc,survivor,ranged,DRMid,FuriousRamsayTrainerWitchDoctor_FR"/>
+			<property name="Names" value="Helen" />
+			<property name="Mesh" value="#@modfolder:Resources/FR_WomenSurvivors.unity3d?TrainerWitchDoctor_FR"/>		
+			<property name="NPCID" value="FuriousRamsayWitchDoctorTrainerNPC"/> 
+			<property name="AIPackages" value="FuriousRamsayPersonalTraderBasic, FuriousRamsayPersonalTraderRanged, NPCHired"/> 
+			<property name="HireCurrency" value="casinoCoin" />
+			<property name="HireCost" value="1" />
+			<property name="MaxViewAngle" value="360" /> 
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="2000"/>
+			</effect_group>
+			<effect_group name="Signal Hired NPCs to Support">-->
+				<!--<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" target="other" buff="buffNPCModAttacked"/>-->
+				<!--<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" target="other" buff="buffNPCModAttacking"/>
+			</effect_group>
+			<effect_group name="NPCOrder">
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="FuriousRamsayGiveSpawnOrders"/>
+			</effect_group>
+			<effect_group name="Quests">
+				<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="NPCInteractedFlag" operation="set" value="1"/>
+			</effect_group>
+		</entity_class>-->
 
 		<!-- LOOT -->
 		<entity_class name="FuriousRamsayBanditLootBat">
@@ -12373,31 +12401,49 @@
 			<property name="Tags" value="entity,male,npc,survivor,melee,FuriousRamsayRektBat,DRMid"/>
 			<property name="Names" value="Rekt" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayRekt_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayRektAxeNoHire" extends="FuriousRamsaySurvivorManAxeNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayRektAxe,DRMid"/>
 			<property name="Names" value="Rekt" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayRekt_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayRektClubNoHire" extends="FuriousRamsaySurvivorManClubNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayRektClub,DRMid"/>
 			<property name="Names" value="Rekt" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayRekt_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayRektKnifeNoHire" extends="FuriousRamsaySurvivorManKnifeNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayRektKnife,DRMid"/>
 			<property name="Names" value="Rekt" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayRekt_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayRektSpearNoHire" extends="FuriousRamsaySurvivorManSpearNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayRektSpear,DRMid"/>
 			<property name="Names" value="Rekt" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayRekt_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayRektMacheteNoHire" extends="FuriousRamsaySurvivorManMacheteNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayRektMachete,DRMid"/>
 			<property name="Names" value="Rekt" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayRekt_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<!-- RANGED -->
 		<entity_class name="FuriousRamsayRektPipePistolNoHire" extends="FuriousRamsaySurvivorManPipePistolNoHire"> 
@@ -12490,34 +12536,49 @@
 			<property name="Tags" value="entity,male,npc,survivor,melee,FuriousRamsayBobBat,DRMid"/>
 			<property name="Names" value="Bob" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayBob_FR"/>		
-			<effect_group name="FuriousRamsayVanish">
-				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayVanishNPCTimer"/>
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayBobAxeNoHire" extends="FuriousRamsaySurvivorManAxeNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayBobAxe,DRMid"/>
 			<property name="Names" value="Bob" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayBob_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayBobClubNoHire" extends="FuriousRamsaySurvivorManClubNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayBobClub,DRMid"/>
 			<property name="Names" value="Bob" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayBob_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayBobKnifeNoHire" extends="FuriousRamsaySurvivorManKnifeNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayBobKnife,DRMid"/>
 			<property name="Names" value="Bob" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayBob_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayBobSpearNoHire" extends="FuriousRamsaySurvivorManSpearNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayBobSpear,DRMid"/>
 			<property name="Names" value="Bob" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayBob_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayBobMacheteNoHire" extends="FuriousRamsaySurvivorManMacheteNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayBobMachete,DRMid"/>
 			<property name="Names" value="Bob" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayBob_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<!-- RANGED -->
 		<entity_class name="FuriousRamsayBobPipePistolNoHire" extends="FuriousRamsaySurvivorManPipePistolNoHire"> 
@@ -12607,34 +12668,49 @@
 			<property name="Tags" value="entity,male,npc,survivor,melee,FuriousRamsayHughBat,DRMid"/>
 			<property name="Names" value="Hugh" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayHugh_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayHughAxeNoHire" extends="FuriousRamsaySurvivorManAxeNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayHughAxe,DRMid"/>
 			<property name="Names" value="Hugh" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayHugh_FR"/>		
-			<effect_group name="FuriousRamsayVanish">
-				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayVanishNPCTimer"/>
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
 			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayHughClubNoHire" extends="FuriousRamsaySurvivorManClubNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayHughClub,DRMid"/>
 			<property name="Names" value="Hugh" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayHugh_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayHughKnifeNoHire" extends="FuriousRamsaySurvivorManKnifeNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayHughKnife,DRMid"/>
 			<property name="Names" value="Hugh" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayHugh_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayHughSpearNoHire" extends="FuriousRamsaySurvivorManSpearNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayHughSpear,DRMid"/>
 			<property name="Names" value="Hugh" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayHugh_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayHughMacheteNoHire" extends="FuriousRamsaySurvivorManMacheteNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayHughMachete,DRMid"/>
 			<property name="Names" value="Hugh" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayHugh_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<!-- RANGED -->
 		<entity_class name="FuriousRamsayHughPipePistolNoHire" extends="FuriousRamsaySurvivorManPipePistolNoHire"> 
@@ -12724,31 +12800,49 @@
 			<property name="Tags" value="entity,male,npc,survivor,melee,FuriousRamsayJen,DRMid"/>
 			<property name="Names" value="Jen" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayJen_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayJenAxeNoHire" extends="FuriousRamsaySurvivorWomanAxeNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayJenAxe,DRMid"/>
 			<property name="Names" value="Jen" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayJen_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayJenClubNoHire" extends="FuriousRamsaySurvivorWomanClubNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayJenClub,DRMid"/>
 			<property name="Names" value="Jen" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayJen_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayJenKnifeNoHire" extends="FuriousRamsaySurvivorWomanKnifeNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayJenKnife,DRMid"/>
 			<property name="Names" value="Jen" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayJen_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayJenSpearNoHire" extends="FuriousRamsaySurvivorWomanSpearNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayJenSpear,DRMid"/>
 			<property name="Names" value="Jen" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayJen_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayJenMacheteNoHire" extends="FuriousRamsaySurvivorWomanMacheteNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayJenMachete,DRMid"/>
 			<property name="Names" value="Jen" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayJen_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<!-- RANGED -->
 		<entity_class name="FuriousRamsayJenPipePistolNoHire" extends="FuriousRamsaySurvivorWomanPipePistolNoHire"> 
@@ -12841,33 +12935,48 @@
 			<property name="Tags" value="entity,male,npc,survivor,melee,FuriousRamsayJoelBat,DRMid"/>
 			<property name="Names" value="Joel" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayJoel_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayJoelAxeNoHire" extends="FuriousRamsaySurvivorManAxeNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayJoelAxe,DRMid"/>
 			<property name="Names" value="Joel" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayJoel_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayJoelClubNoHire" extends="FuriousRamsaySurvivorManClubNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayJoelClub,DRMid"/>
 			<property name="Names" value="Joel" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayJoel_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayJoelKnifeNoHire" extends="FuriousRamsaySurvivorManKnifeNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayJoelKnife,DRMid"/>
 			<property name="Names" value="Joel" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayJoel_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayJoelSpearNoHire" extends="FuriousRamsaySurvivorManSpearNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayJoelSpear,DRMid"/>
 			<property name="Names" value="Joel" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayJoel_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayJoelMacheteNoHire" extends="FuriousRamsaySurvivorManMacheteNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayJoelMachete,DRMid"/>
 			<property name="Names" value="Joel" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayJoel_FR"/>		
-			<effect_group name="FuriousRamsayVanish">
-				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" buff="FuriousRamsayVanishNPCTimer"/>
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
 			</effect_group>
 		</entity_class>
 		<!-- RANGED -->
@@ -12958,31 +13067,49 @@
 			<property name="Tags" value="entity,male,npc,survivor,melee,FuriousRamsayNoahBat,DRMid"/>
 			<property name="Names" value="Noah" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayNoah_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayNoahAxeNoHire" extends="FuriousRamsaySurvivorManAxeNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayNoahAxe,DRMid"/>
 			<property name="Names" value="Noah" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayNoah_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayNoahClubNoHire" extends="FuriousRamsaySurvivorManClubNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayNoahClub,DRMid"/>
 			<property name="Names" value="Noah" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayNoah_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayNoahKnifeNoHire" extends="FuriousRamsaySurvivorManKnifeNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayNoahKnife,DRMid"/>
 			<property name="Names" value="Noah" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayNoah_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayNoahSpearNoHire" extends="FuriousRamsaySurvivorManSpearNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayNoahSpear,DRMid"/>
 			<property name="Names" value="Noah" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayNoah_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<entity_class name="FuriousRamsayNoahMacheteNoHire" extends="FuriousRamsaySurvivorManMacheteNoHire"> 
 			<property name="Tags" value="entity,female,npc,survivor,melee,FuriousRamsayNoahMachete,DRMid"/>
 			<property name="Names" value="Noah" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_VanillaEntities.unity3d?FuriousRamsayNoah_FR"/>		
+			<effect_group name="IsNPC"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffNPCStatusCheck"/>
+			</effect_group>
 		</entity_class>
 		<!-- RANGED -->
 		<entity_class name="FuriousRamsayNoahPipePistolNoHire" extends="FuriousRamsaySurvivorManPipePistolNoHire"> 
@@ -28468,11 +28595,11 @@
 			<property name="LootDropEntityClass" value="FuriousRamsayWerewolfBossTier1Loot"/>
 			<property name="TimeStayAfterDeath" value="5"/>
 
-			<property name="ItemsOnEnterGame.GameModeSurvival" value="meleeHandAnimalBear"/>
-			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="meleeHandAnimalBear"/>
-			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="meleeHandAnimalBear"/> 
+			<property name="ItemsOnEnterGame.GameModeSurvival" value="FuriousRamsayMeleeHandWerewolfTier1"/>
+			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="FuriousRamsayMeleeHandWerewolfTier1"/>
+			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="FuriousRamsayMeleeHandWerewolfTier1"/> 
 
-			<property name="HandItem" value="meleeHandAnimalBear"/>
+			<property name="HandItem" value="FuriousRamsayMeleeHandWerewolfTier1"/>
 
             <effect_group name="Base Effects">
                 <passive_effect name="HealthMax" operation="base_set" value="400" />
@@ -28524,11 +28651,11 @@
 			<property name="SoundDeath" value="FuriousRamsayScarecrowDeath"/>
 			<property name="SoundAttack" value="FuriousRamsayScarecrowAttack"/>
 
-			<property name="ItemsOnEnterGame.GameModeSurvival" value="meleeHandAnimalBear"/>
-			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="meleeHandAnimalBear"/>
-			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="meleeHandAnimalBear"/> 
+			<property name="ItemsOnEnterGame.GameModeSurvival" value="FuriousRamsayMeleeHandWerewolfTier1"/>
+			<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="FuriousRamsayMeleeHandWerewolfTier1"/>
+			<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="FuriousRamsayMeleeHandWerewolfTier1"/> 
 
-			<property name="HandItem" value="meleeHandAnimalBear"/>
+			<property name="HandItem" value="FuriousRamsayMeleeHandWerewolfTier1"/>
 
             <effect_group name="Base Effects">
                 <passive_effect name="HealthMax" operation="base_set" value="1200" />
@@ -28883,8 +29010,8 @@
 			<property name="MaxViewAngle" value="360"/>
 			<property name="NavObject" value="FuriousRamsayDotGreen"/>
 		</entity_class>
-		<entity_class name="FuriousRamsaySurvivorMan006aBatTier1NoHire" extends="FuriousRamsaySurvivorManBatNoHire"> 
-			<property name="Tags" value="entity,male,npc,melee,FuriousRamsaySurvivorMan006aBat,DRMid"/>
+		<entity_class name="FuriousRamsaySurvivorMan006aAxeTier1NoHire" extends="FuriousRamsaySurvivorManAxeNoHire"> 
+			<property name="Tags" value="entity,male,npc,melee,FuriousRamsaySurvivorMan006aAxe,DRMid"/>
 			<property name="Names" value="Landon" />
 			<property name="Mesh" value="#@modfolder:Resources/FR_MenSurvivors3.unity3d?SurvivorMan006a_FR"/>		
 			<property name="MaxViewAngle" value="360"/>

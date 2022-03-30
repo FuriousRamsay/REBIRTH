@@ -131,6 +131,18 @@
 			<!--quest_list="trader_quests_cheftrainer" />-->
 
 		<npc_info
+			id="FuriousRamsayWitchDoctorTrainer"
+			name="Witch Doctor Trader"
+			name_key="npc_witchdoctortrainer"
+			faction="trader"
+			portrait="npc_witchdoctor"
+			greeting_type="nearby"
+			stance="Like" voice_set=""
+			trader_id="80" dialog_id="FuriousRamsayWitchDoctorTrainer"
+			/>
+			<!--quest_list="trader_quests_witchdoctortrainer" />-->
+
+		<npc_info
 			id="FuriousRamsayMedicalAndroid"
 			name="Chef MedicalAndroid"
 			name_key="npc_medicalandroid"

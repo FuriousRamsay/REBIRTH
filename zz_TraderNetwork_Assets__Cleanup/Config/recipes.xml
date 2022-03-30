@@ -314,7 +314,7 @@
 	<remove xpath="/recipes/recipe[@name='armorSteelGloves']"/>
 	<remove xpath="/recipes/recipe[@name='armorSteelHelmet']"/>
 	<remove xpath="/recipes/recipe[@name='armorSteelLegs']"/>
-	<remove xpath="/recipes/recipe[@name='gunHandgunT1Pistol']"/>
+	<!--<remove xpath="/recipes/recipe[@name='gunHandgunT1Pistol']"/>
 	<remove xpath="/recipes/recipe[@name='gunHandgunT2Magnum44']"/>
 	<remove xpath="/recipes/recipe[@name='gunHandgunT3DesertVulture']"/>
 	<remove xpath="/recipes/recipe[@name='gunMGT1AK47']"/>
@@ -327,6 +327,21 @@
 	<remove xpath="/recipes/recipe[@name='gunShotgunT2PumpShotgun']"/>
 	<remove xpath="/recipes/recipe[@name='gunShotgunT3AutoShotgun']"/>
 	<remove xpath="/recipes/recipe[@name='gunExplosivesT3RocketLauncher']"/>
-	<remove xpath="/recipes/recipe[@name='gunHandgunT3SMG5']"/>
+	<remove xpath="/recipes/recipe[@name='gunHandgunT3SMG5']"/>-->
+
+	<remove xpath="/recipes/recipe[@name='gunHandgunT1Pistol']/ingredient[@name='gunHandgunT1PistolParts']"/>
+	<remove xpath="/recipes/recipe[@name='gunHandgunT2Magnum44']/ingredient[@name='gunHandgunT1PistolParts']"/>
+	<remove xpath="/recipes/recipe[@name='gunHandgunT3DesertVulture']/ingredient[@name='gunHandgunT1PistolParts']"/>
+	<remove xpath="/recipes/recipe[@name='gunMGT1AK47']/ingredient[@name='gunMGT1AK47Parts']"/>
+	<remove xpath="/recipes/recipe[@name='gunMGT2TacticalAR']/ingredient[@name='gunMGT1AK47Parts']"/>
+	<remove xpath="/recipes/recipe[@name='gunMGT3M60']/ingredient[@name='gunMGT1AK47Parts']"/>
+	<remove xpath="/recipes/recipe[@name='gunRifleT1HuntingRifle']/ingredient[@name='gunRifleT1HuntingRifleParts']"/>
+	<remove xpath="/recipes/recipe[@name='gunRifleT2LeverActionRifle']/ingredient[@name='gunRifleT1HuntingRifleParts']"/>
+	<remove xpath="/recipes/recipe[@name='gunRifleT3SniperRifle']/ingredient[@name='gunRifleT1HuntingRifleParts']"/>
+	<remove xpath="/recipes/recipe[@name='gunShotgunT1DoubleBarrel']/ingredient[@name='gunShotgunT1DoubleBarrelParts']"/>
+	<remove xpath="/recipes/recipe[@name='gunShotgunT2PumpShotgun']/ingredient[@name='gunShotgunT1DoubleBarrelParts']"/>
+	<remove xpath="/recipes/recipe[@name='gunShotgunT3AutoShotgun']/ingredient[@name='gunShotgunT1DoubleBarrelParts']"/>
+	<remove xpath="/recipes/recipe[@name='gunExplosivesT3RocketLauncher']/ingredient[@name='gunExplosivesT3RocketLauncherParts']"/>
+	<remove xpath="/recipes/recipe[@name='gunHandgunT3SMG5']/ingredient[@name='gunHandgunT1PistolParts']"/>
 	
 </Config>

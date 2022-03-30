@@ -3,4 +3,3 @@ C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\zz_TraderNetwor
 C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\zz_TraderNetwork_MoreJobs__Utils\obj\Debug\RebirthUtils.pdb
 C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\zz_TraderNetwork_MoreJobs__Utils\RebirthUtils.dll
 C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\zz_TraderNetwork_MoreJobs__Utils\RebirthUtils.pdb
-C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Mods\zz_TraderNetwork_MoreJobs__Utils\obj\Debug\RebirthUtils.csproj.AssemblyReference.cache

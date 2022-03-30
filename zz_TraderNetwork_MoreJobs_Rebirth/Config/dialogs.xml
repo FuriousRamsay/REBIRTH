@@ -112,7 +112,7 @@
 				<response_entry id="nevermind" />
 			</statement>
 		
-			<statement id="placeholder" text="dialog_FuriousRamsayHunterTrainder_statement_placeholder" nextstatementid="background" />
+			<statement id="placeholder" text="dialog_FuriousRamsayHunterTrainer_statement_placeholder" nextstatementid="background" />
 		
 			<statement id="currentjobs" text="dialog_trader_statement_currentjobs" nextstatementid="start" >
 				<quest_entry listindex="0" />
@@ -150,7 +150,7 @@
 		
 			<response id="background" text="dialog_trader_response_background" nextstatementid="background"/>
 		
-			<response id="placeholder" text="dialog_FuriousRamsayHunterTrainder_response_placeholder" nextstatementid="placeholder"/>
+			<response id="placeholder" text="dialog_FuriousRamsayHunterTrainer_response_placeholder" nextstatementid="placeholder"/>
 
 			<response id="nevermind" text="dialog_trader_response_nevermind" nextstatementid="start" />
 				
@@ -173,7 +173,7 @@
 				<response_entry id="nevermind" />
 			</statement>
 		
-			<statement id="placeholder" text="dialog_FuriousRamsayThugTrainder_statement_placeholder" nextstatementid="background" />
+			<statement id="placeholder" text="dialog_FuriousRamsayThugTrainer_statement_placeholder" nextstatementid="background" />
 		
 			<statement id="currentjobs" text="dialog_trader_statement_currentjobs" nextstatementid="start" >
 				<quest_entry listindex="0" />
@@ -211,7 +211,7 @@
 		
 			<response id="background" text="dialog_trader_response_background" nextstatementid="background"/>
 		
-			<response id="placeholder" text="dialog_FuriousRamsayThugTrainder_response_placeholder" nextstatementid="placeholder"/>
+			<response id="placeholder" text="dialog_FuriousRamsayThugTrainer_response_placeholder" nextstatementid="placeholder"/>
 
 			<response id="nevermind" text="dialog_trader_response_nevermind" nextstatementid="start" />
 				
@@ -234,7 +234,7 @@
 				<response_entry id="nevermind" />
 			</statement>
 		
-			<statement id="placeholder" text="dialog_FuriousRamsayButcherTrainder_statement_placeholder" nextstatementid="background" />
+			<statement id="placeholder" text="dialog_FuriousRamsayButcherTrainer_statement_placeholder" nextstatementid="background" />
 		
 			<statement id="currentjobs" text="dialog_trader_statement_currentjobs" nextstatementid="start" >
 				<quest_entry listindex="0" />
@@ -272,7 +272,7 @@
 		
 			<response id="background" text="dialog_trader_response_background" nextstatementid="background"/>
 		
-			<response id="placeholder" text="dialog_FuriousRamsayButcherTrainder_response_placeholder" nextstatementid="placeholder"/>
+			<response id="placeholder" text="dialog_FuriousRamsayButcherTrainer_response_placeholder" nextstatementid="placeholder"/>
 
 			<response id="nevermind" text="dialog_trader_response_nevermind" nextstatementid="start" />
 				
@@ -295,7 +295,7 @@
 				<response_entry id="nevermind" />
 			</statement>
 		
-			<statement id="placeholder" text="dialog_FuriousRamsaySoldierTrainder_statement_placeholder" nextstatementid="background" />
+			<statement id="placeholder" text="dialog_FuriousRamsaySoldierTrainer_statement_placeholder" nextstatementid="background" />
 		
 			<statement id="currentjobs" text="dialog_trader_statement_currentjobs" nextstatementid="start" >
 				<quest_entry listindex="0" />
@@ -333,7 +333,7 @@
 		
 			<response id="background" text="dialog_trader_response_background" nextstatementid="background"/>
 		
-			<response id="placeholder" text="dialog_FuriousRamsaySoldierTrainder_response_placeholder" nextstatementid="placeholder"/>
+			<response id="placeholder" text="dialog_FuriousRamsaySoldierTrainer_response_placeholder" nextstatementid="placeholder"/>
 
 			<response id="nevermind" text="dialog_trader_response_nevermind" nextstatementid="start" />
 				
@@ -356,7 +356,7 @@
 				<response_entry id="nevermind" />
 			</statement>
 		
-			<statement id="placeholder" text="dialog_FuriousRamsayTechnogeekTrainder_statement_placeholder" nextstatementid="background" />
+			<statement id="placeholder" text="dialog_FuriousRamsayTechnogeekTrainer_statement_placeholder" nextstatementid="background" />
 		
 			<statement id="currentjobs" text="dialog_trader_statement_currentjobs" nextstatementid="start" >
 				<quest_entry listindex="0" />
@@ -394,7 +394,7 @@
 		
 			<response id="background" text="dialog_trader_response_background" nextstatementid="background"/>
 		
-			<response id="placeholder" text="dialog_FuriousRamsayTechnogeekTrainder_response_placeholder" nextstatementid="placeholder"/>
+			<response id="placeholder" text="dialog_FuriousRamsayTechnogeekTrainer_response_placeholder" nextstatementid="placeholder"/>
 
 			<response id="nevermind" text="dialog_trader_response_nevermind" nextstatementid="start" />
 				
@@ -417,7 +417,7 @@
 				<response_entry id="nevermind" />
 			</statement>
 		
-			<statement id="placeholder" text="dialog_FuriousRamsayMadmanTrainder_statement_placeholder" nextstatementid="background" />
+			<statement id="placeholder" text="dialog_FuriousRamsayMadmanTrainer_statement_placeholder" nextstatementid="background" />
 		
 			<statement id="currentjobs" text="dialog_trader_statement_currentjobs" nextstatementid="start" >
 				<quest_entry listindex="0" />
@@ -455,7 +455,7 @@
 		
 			<response id="background" text="dialog_trader_response_background" nextstatementid="background"/>
 		
-			<response id="placeholder" text="dialog_FuriousRamsayMadmanTrainder_response_placeholder" nextstatementid="placeholder"/>
+			<response id="placeholder" text="dialog_FuriousRamsayMadmanTrainer_response_placeholder" nextstatementid="placeholder"/>
 
 			<response id="nevermind" text="dialog_trader_response_nevermind" nextstatementid="start" />
 				
@@ -478,7 +478,7 @@
 				<response_entry id="nevermind" />
 			</statement>
 		
-			<statement id="placeholder" text="dialog_FuriousRamsayBuilderTrainder_statement_placeholder" nextstatementid="background" />
+			<statement id="placeholder" text="dialog_FuriousRamsayBuilderTrainer_statement_placeholder" nextstatementid="background" />
 		
 			<statement id="currentjobs" text="dialog_trader_statement_currentjobs" nextstatementid="start" >
 				<quest_entry listindex="0" />
@@ -516,7 +516,7 @@
 		
 			<response id="background" text="dialog_trader_response_background" nextstatementid="background"/>
 		
-			<response id="placeholder" text="dialog_FuriousRamsayBuilderTrainder_response_placeholder" nextstatementid="placeholder"/>
+			<response id="placeholder" text="dialog_FuriousRamsayBuilderTrainer_response_placeholder" nextstatementid="placeholder"/>
 
 			<response id="nevermind" text="dialog_trader_response_nevermind" nextstatementid="start" />
 				
@@ -539,7 +539,7 @@
 				<response_entry id="nevermind" />
 			</statement>
 		
-			<statement id="placeholder" text="dialog_FuriousRamsayChefTrainder_statement_placeholder" nextstatementid="background" />
+			<statement id="placeholder" text="dialog_FuriousRamsayChefTrainer_statement_placeholder" nextstatementid="background" />
 		
 			<statement id="currentjobs" text="dialog_trader_statement_currentjobs" nextstatementid="start" >
 				<quest_entry listindex="0" />
@@ -577,7 +577,68 @@
 		
 			<response id="background" text="dialog_trader_response_background" nextstatementid="background"/>
 		
-			<response id="placeholder" text="dialog_FuriousRamsayChefTrainder_response_placeholder" nextstatementid="placeholder"/>
+			<response id="placeholder" text="dialog_FuriousRamsayChefTrainer_response_placeholder" nextstatementid="placeholder"/>
+
+			<response id="nevermind" text="dialog_trader_response_nevermind" nextstatementid="start" />
+				
+			<response id="done" text="dialog_trader_response_nevermind" />
+		
+		</dialog>
+	
+		<dialog id="FuriousRamsayWitchDoctorTrainer" startstatementid="start">
+			<!-- Statements -->
+			<statement id="start" text="dialog_FuriousRamsayBlackShieldTrader_statement_start">
+				<response_entry id="shop" />
+				<!--<response_entry id="jobsnone" />
+				<response_entry id="jobshave" />-->
+				<!--<response_entry id="background" />-->
+				<response_entry id="done" />
+			</statement>
+		
+			<statement id="background" text="dialog_FuriousRamsayBlackShieldTrader_statement_background">
+				<response_entry id="placeholder" />
+				<response_entry id="nevermind" />
+			</statement>
+		
+			<statement id="placeholder" text="dialog_FuriousRamsayWitchDoctorTrainer_statement_placeholder" nextstatementid="background" />
+		
+			<statement id="currentjobs" text="dialog_trader_statement_currentjobs" nextstatementid="start" >
+				<quest_entry listindex="0" />
+				<quest_entry listindex="1" />
+				<quest_entry listindex="2" />
+				<quest_entry listindex="3" />
+				<quest_entry listindex="4" />
+				<response_entry id="FuriousRamsayOtherTraining" />
+			</statement>
+		
+			<response id="FuriousRamsayOtherTraining" text="dialog_FuriousRamsayTrainers_response_OtherTraining">
+				<action type="Trader" id="reset_quests" />
+			</response>
+		
+			<statement id="nojobs" text="dialog_trader_statement_nojobs" nextstatementid="start" />
+				
+			<!-- Responses -->
+			<response id="shop" text="dialog_trader_response_shop">
+				<action type="Trader" id="trade" />
+			</response>
+		
+			<response id="jobsnone" text="dialog_trader_response_jobsnone" nextstatementid="nojobs" >
+				<requirement type="QuestStatus" value="InProgress" requirementtype="Hide" />
+			</response>
+			<response id="jobshave" text="dialog_trader_response_jobshave" nextstatementid="currentjobs" >
+				<requirement type="QuestStatus" value="NotStarted" requirementtype="Hide" />
+				<action type="AddJournalEntry" id="questTip" />
+			</response>
+		
+			<response id="specialjobshave" text="dialog_trader_response_specialjobshave" nextstatementid="currentjobsspecial" >
+				<requirement type="QuestStatus" value="NotStarted" requirementtype="Hide" tag="special" />
+				<requirement type="QuestsAvailable" value="special" requirementtype="Hide" />
+				<action type="AddJournalEntry" id="questTip" />
+			</response>
+		
+			<response id="background" text="dialog_trader_response_background" nextstatementid="background"/>
+		
+			<response id="placeholder" text="dialog_FuriousRamsayWitchDoctorTrainer_response_placeholder" nextstatementid="placeholder"/>
 
 			<response id="nevermind" text="dialog_trader_response_nevermind" nextstatementid="start" />
 				

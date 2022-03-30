@@ -17,6 +17,7 @@ FuriousRamsaySpawnTrainerTechnogeek_FR,blocks,Block,"Scarlett, 'The Technogeek'"
 FuriousRamsaySpawnTrainerMadman_FR,blocks,Block,"Liam, 'The Madman'"
 FuriousRamsaySpawnTrainerBuilder_FR,blocks,Block,"Vince, 'The Builder'"
 FuriousRamsaySpawnTrainerChef_FR,blocks,Block,"Helen, 'The Sous-Chef'"
+FuriousRamsaySpawnTrainerWitchDoctor_FR,blocks,Block,"Bruce, 'The Witch Doctor'"
 
 FuriousRamsayFarmerTrader_FR,entityclasses,Entity,"Billy Bob, 'The Farmer'"
 FuriousRamsayTraderHandyman_FR,entityclasses,Entity,"Gretta, 'The Handywoman'"
@@ -41,6 +42,7 @@ FuriousRamsayTrainerTechnogeek_FR,entityclasses,Entity,"Scarlett, 'The Technogee
 FuriousRamsayTrainerMadman_FR,entityclasses,Entity,"Liam, 'The Madman'"
 FuriousRamsayTrainerBuilder_FR,entityclasses,Entity,"Vince, 'The Builder'"
 FuriousRamsayTrainerChef_FR,entityclasses,Entity,"Helen, 'The Sous-Chef'"
+FuriousRamsayTrainerWitchDoctor_FR,entityclasses,Entity,"Bruce, 'The Witch Doctor'"
 
 FuriousRamsaySurvivorDroidMedic,entityclasses,Entity,Medic Droid
 FuriousRamsaySurvivorDroidMedic,entityclasses,Entity,Police Droid

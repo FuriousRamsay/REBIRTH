@@ -1,5 +1,7 @@
 <Config>
 
+	<!-- REMOVE FALL DAMAGE -->
+	<remove xpath="//buff[@name='buffNPCStatusCheck']/effect_group/triggered_effect[@trigger='onSelfFallImpact']"/>
 	<!-- REMOVE BUFF WITH NETWORKED VARIABLES AND AOE TARGETS -->
 	<remove xpath="//buff[@name='buffStatusCheck01']/effect_group[@name='LeaderLevelUpdate']"/>
 	<!--<remove xpath="//buff[@name='buffNPCStatusCheck']/effect_group[starts-with(@name, 'EntityDamageLeaderLevel')]"/>-->

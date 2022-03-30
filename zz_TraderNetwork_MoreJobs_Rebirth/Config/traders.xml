@@ -399,6 +399,15 @@
 			<item name="FuriousRamsayStarterArmorBootsChef"/>
 		</trader_item_group>
 
+		<trader_item_group name="FuriousRamsayGroupGearTrainerWitchDoctor">
+			<item name="FuriousRamsayStarterArmorHeadWitchDoctor"/>
+			<item name="FuriousRamsayStarterArmorChestWitchDoctor"/>
+			<item name="FuriousRamsayStarterArmorPonchoWitchDoctor"/>
+			<item name="FuriousRamsayStarterArmorGlovesWitchDoctor"/>
+			<item name="FuriousRamsayStarterArmorLegsWitchDoctor"/>
+			<item name="FuriousRamsayStarterArmorBootsWitchDoctor"/>
+		</trader_item_group>
+
 		<trader_item_group name="FuriousRamsayEquipmentEssentials">
 			<item name="FuriousRamsayPliers" prob="1"/>
 			<item name="FuriousRamsayScrewdriver" prob="1"/>
@@ -497,6 +506,10 @@
 			<!--<item name="FuriousRamsayTrainerKnife" count="1" prob="1"/>-->
 		</trader_item_group>
 
+		<trader_item_group name="FuriousRamsayWitchDoctorTrainerItems">
+			<!--<item name="FuriousRamsayTrainerKnife" count="1" prob="1"/>-->
+		</trader_item_group>
+
 		<trader_item_group name="FuriousRamsayChefKnives" count="all">
 			<item name="FuriousRamsayKnife004_FR" count="10"/>
 		</trader_item_group>
@@ -531,6 +544,10 @@
 		</trader_item_group>
 
 		<trader_item_group name="FuriousRamsayChefSecretStash" count="all">
+			<!--<item name="FuriousRamsayBurningKnife" count="1"/>-->
+		</trader_item_group>
+
+		<trader_item_group name="FuriousRamsayWitchDoctorSecretStash" count="all">
 			<!--<item name="FuriousRamsayBurningKnife" count="1"/>-->
 		</trader_item_group>
 
@@ -956,6 +973,32 @@
 
 			<tier_items level="5000,-1" count="all"> <!-- requires Perk 5 -->
 				<item group="FuriousRamsayChefSecretStash" count="1" prob="1"/>
+			</tier_items>
+		</trader_info>
+
+		<!-- CHEF TRAINER -->
+		<trader_info id="80" full_reset="true" min_inventory="40" max_inventory="40" min_items_swapped="40" max_items_swapped="40" reset_interval="1" open_time="0:00" close_time="0:00">
+			<trader_items count="all">
+				<item name="woodBlock" count="10,100" prob="1.5"/>
+				<item name="FuriousRamsayWoodPlank" count="10,80" prob="1.5"/>
+				<item group="FuriousRamsayRepairKitsBasics" count="6" prob="2"/>
+				<item name="FuriousRamsayAuraBookGeneric" count="1" prob="0.5"/>
+				<item group="FuriousRamsayGroupGearTrainerChef" count="2" prob="0.45"/>
+				<item group="FuriousRamsayTrainerMissions" count="1"/>
+				<!--<item group="FuriousRamsayChefTrainerItems" count="1,2"/>-->
+				<item group="FuriousRamsayWitchDoctorKnives" prob="2" count="1"/>
+			</trader_items>
+
+			<tier_items level="3000,3999" count="all"> <!-- requires Perk 3 -->
+				<item group="FuriousRamsayWitchDoctorSecretStash" count="1" prob="1"/>
+			</tier_items>
+
+			<tier_items level="4000,4999" count="all"> <!-- requires Perk 4 -->
+				<item group="FuriousRamsayWitchDoctorSecretStash" count="1" prob="1"/>
+			</tier_items>
+
+			<tier_items level="5000,-1" count="all"> <!-- requires Perk 5 -->
+				<item group="FuriousRamsayWitchDoctorSecretStash" count="1" prob="1"/>
 			</tier_items>
 		</trader_info>
 

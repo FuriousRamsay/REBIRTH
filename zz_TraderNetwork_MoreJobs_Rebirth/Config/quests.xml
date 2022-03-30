@@ -4267,6 +4267,29 @@
 			<reward type="Quest" id="quest_FuriousRamsayTraderNetwork"/>-->
 		</quest>
 		
+		<quest id="quest_FuriousRamsayWitchDoctorTraining">
+			<property name="name_key" value="quest_FuriousRamsayWitchDoctorTraining_subtitle"/>
+			<property name="subtitle_key" value="quest_FuriousRamsayWitchDoctorTraining_subtitle"/>
+			<property name="description_key" value="quest_FuriousRamsayWitchDoctorTraining_description"/>
+			<property name="icon" value="ui_game_symbol_quest"/>
+			<property name="repeatable" value="false"/>
+			<property name="shareable" value="false"/>
+			<property name="category_key" value="challenge"/>
+			<property name="difficulty" value="veryeasy"/>
+			<property name="offer_key" value="quest_FuriousRamsayWitchDoctorTraining_offer"/>
+			<property name="completiontype" value="AutoComplete"/>
+
+			<action type="TrackQuest"/>
+
+			<reward type="Item" id="FuriousRamsayContainerTrainerWitchDoctor" value="1" stage="start"/>
+
+			<action type="ShowTip" value="quest_FuriousRamsayContainerTrainerWitchDoctor" phase="1">
+				<property name="delay" value="0.25"/>
+			</action>
+
+			<objective type="BlockPlace" id="FuriousRamsayContainerTrainerWitchDoctor" value="1" phase="1"/>
+		</quest>
+
 		<quest id="quest_FuriousRamsayLocateShelter">
 			<property name="name_key" value="quest_FuriousRamsayLocateShelter_subtitle"/>
 			<property name="subtitle_key" value="quest_FuriousRamsayLocateShelter_subtitle"/>
@@ -4610,6 +4633,43 @@
 			<reward type="Item" id="FuriousRamsaySpawnBriston_FR"/>
 			<reward type="Item" id="lanternLight_player"/>
 			<reward type="Quest" id="quest_FuriousRamsayPlaceSurvivalSpecialistChef"/>
+		</quest>
+
+		<quest id="quest_FuriousRamsayLocateShelterWitchDoctor">
+			<property name="name_key" value="quest_FuriousRamsayLocateShelter_subtitle"/>
+			<property name="subtitle_key" value="quest_FuriousRamsayLocateShelter_subtitle"/>
+			<property name="description_key" value="quest_FuriousRamsayLocateShelter_description"/>
+			<property name="icon" value="ui_game_symbol_quest"/>
+			<property name="repeatable" value="false"/>
+			<property name="shareable" value="false"/>
+			<property name="category_key" value="challenge"/>
+			<property name="difficulty" value="veryeasy"/>
+			<property name="difficulty_tier" value="1"/>
+			<property name="offer_key" value="quest_FuriousRamsayLocateShelter_offer"/>
+			<property name="statement_key" value="quest_FuriousRamsayLocateShelter_statement"/>
+			<property name="response_key" value="quest_FuriousRamsayLocateShelter_response"/>
+			<property name="completiontype" value="AutoComplete"/>
+
+			<property name="login_rally_reset" value="true"/>
+
+			<action type="TrackQuest"/>
+
+			<!--<objective type="ClosestPOIGoto">
+				<property name="phase" value="1"/>
+				<property name="nav_object" value="quest" />
+			</objective>
+
+			<objective type="RallyPoint">
+				<property name="phase" value="2"/>
+				<property name="nav_object" value="rally" />
+			</objective>
+
+			<objective type="Time" value="0" phase="3"/>
+			<action type="GameEvent" id="spawn_QuestCompletionGeneticsXPTier1" phase="3"/>-->
+
+			<reward type="Item" id="FuriousRamsaySpawnBriston_FR"/>
+			<reward type="Item" id="lanternLight_player"/>
+			<reward type="Quest" id="quest_FuriousRamsayPlaceSurvivalSpecialistWitchDoctor"/>
 		</quest>
 
 		<quest id="quest_FuriousRamsayPlaceSurvivalSpecialist">
@@ -5024,6 +5084,51 @@
 			</objective>
 			
 			<reward type="Quest" id="quest_FuriousRamsayChefTrainer"/>		
+			<reward type="Item" id="FuriousRamsayStarterMissionsBackPack"/>		
+			<reward type="LootItem" id="FuriousRamsayGroupQuestMedicalLow" ischosen="true" isfixed="true" value="1"/>
+			<reward type="LootItem" id="FuriousRamsayGroupQuestCookedFoodsTier1" ischosen="true" isfixed="true" value="1"/>
+			<reward type="LootItem" id="groupQuestTools" ischosen="true" isfixed="true" value="1"/>
+			<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="1"/>
+			<reward type="LootItem" id="groupQuestArmor" ischosen="true" value="1"/>
+		</quest>
+
+		<quest id="quest_FuriousRamsayPlaceSurvivalSpecialistWitchDoctor">
+			<property name="name_key" value="quest_FuriousRamsayPlaceSurvivalSpecialist_subtitle"/>
+			<property name="subtitle_key" value="quest_FuriousRamsayPlaceSurvivalSpecialist_subtitle"/>
+			<property name="description_key" value="quest_FuriousRamsayPlaceSurvivalSpecialist_description"/>
+			<property name="icon" value="ui_game_symbol_quest"/>
+			<property name="repeatable" value="false"/>
+			<property name="shareable" value="false"/>
+			<property name="category_key" value="challenge"/>
+			<property name="difficulty" value="veryeasy"/>
+			<property name="offer_key" value="quest_FuriousRamsayPlaceSurvivalSpecialist_offer"/>
+			<property name="statement_key" value="quest_FuriousRamsayPlaceSurvivalSpecialist_statement"/>
+			<property name="response_key" value="quest_FuriousRamsayPlaceSurvivalSpecialist_response"/>
+			<property name="completion_key" value="quest_FuriousRamsayPlaceSurvivalSpecialist_completion"/>
+			<property name="completiontype" value="TurnIn"/>
+
+			<action type="TrackQuest"/>
+
+			<action type="ShowTip" value="quest_FuriousRamsayLocateShelter" phase="1">
+				<property name="delay" value="1"/>
+			</action>
+
+			<objective type="BlockPlace" id="FuriousRamsaySpawnBriston_FR" value="1" phase="1"/>
+
+			<action type="ShowTip" value="quest_FuriousRamsayPillsInfo" phase="2">
+				<property name="delay" value="0.25"/>
+			</action>
+
+			<objective type="Time" value="5" phase="2"/>
+
+			<action type="SpawnEnemy" id="FuriousRamsayZombieArlene,FuriousRamsayZombieBoe,FuriousRamsayZombieJoe,FuriousRamsayZombieDarlene,FuriousRamsayZombieMarlene,FuriousRamsayZombieYo,FuriousRamsayZombieSteve" value="7" phase="3"/>
+
+			<objective type="InteractWithNPC">
+				<property name="phase" value="3"/>
+				<property name="nav_object" value="return_to_trader" />
+			</objective>
+			
+			<reward type="Quest" id="quest_FuriousRamsayWitchDoctorTrainer"/>		
 			<reward type="Item" id="FuriousRamsayStarterMissionsBackPack"/>		
 			<reward type="LootItem" id="FuriousRamsayGroupQuestMedicalLow" ischosen="true" isfixed="true" value="1"/>
 			<reward type="LootItem" id="FuriousRamsayGroupQuestCookedFoodsTier1" ischosen="true" isfixed="true" value="1"/>
@@ -5484,6 +5589,63 @@
 			<objective type="BlockPlace" id="FuriousRamsaySpawnTrainerChef_FR" value="1" phase="4"/>
 
 			<action type="ShowTip" value="quest_FuriousRamsayChefTrainer" phase="4">
+				<property name="delay" value="0.25"/>
+			</action>
+		
+			<reward type="Quest" id="quest_FuriousRamsayBoilWater"/>		
+		</quest>
+
+		<quest id="quest_FuriousRamsayWitchDoctorTrainer">
+			<property name="name_key" value="quest_FuriousRamsayWitchDoctorTrainer_subtitle"/>
+			<property name="subtitle_key" value="quest_FuriousRamsayWitchDoctorTrainer_subtitle"/>
+			<property name="description_key" value="quest_FuriousRamsayWitchDoctorTrainer_description"/>
+			<property name="icon" value="ui_game_symbol_quest"/>
+			<property name="repeatable" value="false"/>
+			<property name="shareable" value="false"/>
+			<property name="category_key" value="challenge"/>
+			<property name="difficulty" value="veryeasy"/>
+			<property name="completiontype" value="AutoComplete"/>
+
+			<action type="TrackQuest"/>
+
+			<action type="GameEvent" id="spawn_FuriousRamsay_ClawHammer" phase="1"/>
+
+			<objective type="Craft">
+				<property name="phase" value="1"/>
+				<property name="item" value="frameShapes:VariantHelper"/>
+				<property name="count" value="5"/>
+			</objective>
+
+			<action type="ShowTip" value="quest_FuriousRamsayClawHammer" phase="1">
+				<property name="delay" value="0.25"/>
+			</action>
+
+			<action type="GameEvent" id="spawn_FuriousRamsay_Toolbox" phase="2"/>
+
+			<objective type="BlockPlace" id="WorkbenchToolbox001_FR" value="1" phase="2"/>
+
+			<action type="ShowTip" value="quest_FuriousRamsayToolbox" phase="2">
+				<property name="delay" value="0.25"/>
+			</action>
+
+			<action type="GameEvent" id="spawn_FuriousRamsay_HammerPliers" phase="3"/>
+
+			<objective type="Craft">
+				<property name="phase" value="3"/>
+				<property name="item" value="FuriousRamsayHammerPliers"/>
+				<property name="count" value="1"/>
+			</objective>
+			<objective type="FetchKeep" id="secureDoorWooden" value="1" phase="3"/>
+
+			<action type="ShowTip" value="quest_FuriousRamsayHammerPliers" phase="3">
+				<property name="delay" value="0.25"/>
+			</action>
+
+			<action type="GameEvent" id="spawn_FuriousRamsay_TrainerWitchDoctor" phase="4"/>
+
+			<objective type="BlockPlace" id="FuriousRamsaySpawnTrainerWitchDoctor_FR" value="1" phase="4"/>
+
+			<action type="ShowTip" value="quest_FuriousRamsayWitchDoctorTrainer" phase="4">
 				<property name="delay" value="0.25"/>
 			</action>
 		

@@ -952,6 +952,14 @@
 			<ingredient name="resourceDuctTape" count="2"/>
 		</recipe>
 
+		<!-- STARTER SCYTHE -->
+		<!--<recipe name="meleeWpnBladeT1HuntingKnife" count="1" craft_area="WorkbenchToolbox001_FR" tags="learnable,FuriousRamsayPerkKnife">
+			<ingredient name="resourceScrapIron" count="50"/>
+			<ingredient name="resourceWood" count="4"/>
+			<ingredient name="resourceLeather" count="2"/>
+			<ingredient name="resourceDuctTape" count="2"/>
+		</recipe>-->
+
 		<!-- SHREDDER RECIPES -->
 		<recipe name="resourceWood" count="12" craft_area="WorkbenchShredder001_FR" craft_tool="FuriousRamsayPropaneTank">
 			<ingredient name="FuriousRamsayWoodLog" count="1"/>

@@ -49,6 +49,9 @@
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayActiveLevelPerkKnifeUnlock" operation="set" value="0"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayActiveLevelPerkDesertVultureUnlock" operation="set" value="4"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayActiveLevelPerkRoboticsUnlock" operation="set" value="3"/>
+					<!-- WITCH DOCTOR CLASS -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayActiveLevelPerkScytheUnlock" operation="set" value="0"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayActiveLevelPerkTacticalAssaultRifleUnlock" operation="set" value="4"/>
 
 				<!-- SPECIFIC EXPERTISE MULTIPLIER -->
 					<!-- SPEARS -->
@@ -63,7 +66,7 @@
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPerkShotgunExpMultiplier" operation="set" value="3"/>
 					<!-- MACHETES -->
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPerkMacheteExpMultiplier" operation="set" value="3"/>
-					<!-- ASSAULT RIFLES -->
+					<!-- AK47s -->
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPerkAssaultRifleExpMultiplier" operation="set" value="3"/>
 					<!-- AXES -->
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPerkAxeExpMultiplier" operation="set" value="3"/>
@@ -95,6 +98,11 @@
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPerkDesertVultureExpMultiplier" operation="set" value="3"/>
 					<!-- ROBOTICS -->
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPerkRoboticsExpMultiplier" operation="set" value="3"/>
+
+					<!-- SCYTHES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPerkKnifeExpMultiplier" operation="set" value="3"/>
+					<!-- TACTICAL ASSAULT RIFLES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPerkTacticalAssaultRifleExpMultiplier" operation="set" value="3"/>
 
 				<!-- STRENGTH TIER INCREASES -->
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayIncreaseStrengthTier1" operation="set" value="0.02"/>
@@ -498,6 +506,9 @@
 					<!-- CHEF -->
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayAttributeChefExpLvlIncrementConfig" operation="set" value="100"/>		
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayAttributeChefExpLvlIncrementConfig" operation="divide" value="@$varFuriousRamsayAttributeMultiplierConfig"/>
+					<!-- WITCH DOCTOR -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayAttributeWitchDoctorExpLvlIncrementConfig" operation="set" value="100"/>		
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayAttributeWitchDoctorExpLvlIncrementConfig" operation="divide" value="@$varFuriousRamsayAttributeMultiplierConfig"/>
 				</effect_group>
 			</buff>
 
@@ -529,7 +540,7 @@
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPerkMacheteExpLvlIncrementConfig" operation="set" value="375"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPerkMacheteExpLvlIncrementConfig" operation="divide" value="@$varFuriousRamsayExpertiseMultiplierConfig"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPerkMacheteExpLvlIncrementConfig" operation="divide" value="@$varFuriousRamsayPerkMacheteExpMultiplier"/>
-					<!-- ASSAULT RIFLES -->
+					<!-- AK-47s -->
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPerkAssaultRifleExpLvlIncrementConfig" operation="set" value="500"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPerkAssaultRifleExpLvlIncrementConfig" operation="divide" value="@$varFuriousRamsayExpertiseMultiplierConfig"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPerkAssaultRifleExpLvlIncrementConfig" operation="divide" value="@$varFuriousRamsayPerkAssaultRifleExpMultiplier"/>
@@ -593,6 +604,15 @@
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPerkRoboticsExpLvlIncrementConfig" operation="set" value="999"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPerkRoboticsExpLvlIncrementConfig" operation="divide" value="@$varFuriousRamsayExpertiseMultiplierConfig"/>
 					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPerkRoboticsExpLvlIncrementConfig" operation="divide" value="@$varFuriousRamsayPerkRoboticsExpMultiplier"/>
+
+					<!-- SCYTHES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPerkScytheExpLvlIncrementConfig" operation="set" value="500"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPerkScytheExpLvlIncrementConfig" operation="divide" value="@$varFuriousRamsayExpertiseMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPerkScytheExpLvlIncrementConfig" operation="divide" value="@$varFuriousRamsayPerkScytheExpMultiplier"/>
+					<!-- ASSAULT RIFLES -->
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPerkTacticalAssaultRifleExpLvlIncrementConfig" operation="set" value="500"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPerkTacticalAssaultRifleExpLvlIncrementConfig" operation="divide" value="@$varFuriousRamsayExpertiseMultiplierConfig"/>
+					<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$varFuriousRamsayPerkTacticalAssaultRifleExpLvlIncrementConfig" operation="divide" value="@$varFuriousRamsayPerkTacticalAssaultRifleExpMultiplier"/>
 				</effect_group>
 			</buff>
 

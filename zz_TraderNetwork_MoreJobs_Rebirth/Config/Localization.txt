@@ -18,7 +18,9 @@ qc_FuriousRamsayLocateShelterMadman,items,Quest,POI Marker (Madman)
 qc_FuriousRamsayLocateShelterDesc,Quests,Quests,"I would suggest you clear a POI, but it isn't necessary. If you are ok with the area you are in, we can set up here.\n\nI'll make myself available to you whenever you feel like you need training of any sort.\n\n - Briston"
 qc_FuriousRamsayLocateShelterBuilder,items,Quest,POI Marker (Builder)
 qc_FuriousRamsayLocateShelterDesc,Quests,Quests,"I would suggest you clear a POI, but it isn't necessary. If you are ok with the area you are in, we can set up here.\n\nI'll make myself available to you whenever you feel like you need training of any sort.\n\n - Briston"
-qc_FuriousRamsayLocateShelterChef,items,Quest,POI Marker (Chef)
+qc_FuriousRamsayLocateShelterChef,items,Quest,POI Marker (Sous-Chef)
+qc_FuriousRamsayLocateShelterDesc,Quests,Quests,"I would suggest you clear a POI, but it isn't necessary. If you are ok with the area you are in, we can set up here.\n\nI'll make myself available to you whenever you feel like you need training of any sort.\n\n - Briston"
+qc_FuriousRamsayLocateShelterWitchDoctor,items,Quest,POI Marker (Witch Doctor)
 qc_FuriousRamsayLocateShelterDesc,Quests,Quests,"I would suggest you clear a POI, but it isn't necessary. If you are ok with the area you are in, we can set up here.\n\nI'll make myself available to you whenever you feel like you need training of any sort.\n\n - Briston"
 
 quest_FuriousRamsayFindTraderNetwork_description,Quests,Quests,"Briston gave me a flyer to locate a network of traders.\n\nHe did warn me to not trust them, that things may not be as they appear.\n\nI'll keep that in mind."
@@ -52,8 +54,10 @@ quest_FuriousRamsayMadmanTrainer_title,Journal Tip,,"The Madman Trainer"
 quest_FuriousRamsayMadmanTrainer,Journal Tip,,"Once you find a spot for your Madman Trainer, you'll find that they offer a range of repair kits and missions for sale.\n\nYou have been given a Starter mission backpack to get you going on your first missions.\n\nThese missions will provide you with the necessary schematics to start assembling your crafting stations.\n\nThey do have player level requirements and most can only be started once you reach level 10.\n\n - Briston"
 quest_FuriousRamsayBuilderTrainer_title,Journal Tip,,"The Builder Trainer"
 quest_FuriousRamsayBuilderTrainer,Journal Tip,,"Once you find a spot for your Builder Trainer, you'll find that they offer a range of repair kits and missions for sale.\n\nYou have been given a Starter mission backpack to get you going on your first missions.\n\nThese missions will provide you with the necessary schematics to start assembling your crafting stations.\n\nThey do have player level requirements and most can only be started once you reach level 10.\n\n - Briston"
-quest_FuriousRamsayChefTrainer_title,Journal Tip,,"The Chef Trainer"
+quest_FuriousRamsayChefTrainer_title,Journal Tip,,"The Sous-Chef Trainer"
 quest_FuriousRamsayChefTrainer,Journal Tip,,"Once you find a spot for your Chef Trainer, you'll find that they offer a range of repair kits and missions for sale.\n\nYou have been given a Starter mission backpack to get you going on your first missions.\n\nThese missions will provide you with the necessary schematics to start assembling your crafting stations.\n\nThey do have player level requirements and most can only be started once you reach level 10.\n\n - Briston"
+quest_FuriousRamsayWitchDoctorTrainer_title,Journal Tip,,"The Witch Doctor Trainer"
+quest_FuriousRamsayWitchDoctorTrainer,Journal Tip,,"Once you find a spot for your Witch Doctor Trainer, you'll find that they offer a range of repair kits and missions for sale.\n\nYou have been given a Starter mission backpack to get you going on your first missions.\n\nThese missions will provide you with the necessary schematics to start assembling your crafting stations.\n\nThey do have player level requirements and most can only be started once you reach level 10.\n\n - Briston"
 
 FuriousRamsayQuest_MercenaryTrader_subtitle,Quests,Quests,The Mercenary Trader
 FuriousRamsayQuest_MercenaryTrader_description,Quests,Quests,"The stealthy Mercenary Trader just showed up. He sell contracts for protection from the Mercenary Guild."
@@ -854,7 +858,7 @@ FuriousRamsayStarterArmorGlovesThugDesc,items,Items,"[e0e036]Thug Training Glove
 FuriousRamsayStarterArmorLegsThug,items,Clothes,Thug Training Pants
 FuriousRamsayStarterArmorLegsThugDesc,items,Items,"[e0e036]Thug Training Pants[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
 FuriousRamsayStarterArmorSkirtThug,items,Clothes,Thug Training Skirt
-FuriousRamsayStarterArmorSkirtThugDesc,items,Items,"[53adbd]Thug Training Skirt[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
+FuriousRamsayStarterArmorSkirtThugDesc,items,Items,"[e0e036]Thug Training Skirt[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
 FuriousRamsayStarterArmorBootsThug,items,Clothes,Thug Training Boots
 FuriousRamsayStarterArmorBootsThugDesc,items,Items,"[e0e036]Thug Training Boots[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
 FuriousRamsayStarterArmorHeadButcher,items,Clothes,Butcher Training Hood
@@ -868,7 +872,7 @@ FuriousRamsayStarterArmorGlovesButcherDesc,items,Items,"[ff5b69]Butcher Training
 FuriousRamsayStarterArmorLegsButcher,items,Clothes,Butcher Training Pants
 FuriousRamsayStarterArmorLegsButcherDesc,items,Items,"[ff5b69]Butcher Training Pants[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
 FuriousRamsayStarterArmorSkirtButcher,items,Clothes,Butcher Training Skirt
-FuriousRamsayStarterArmorSkirtButcherDesc,items,Items,"[53adbd]Butcher Training Skirt[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
+FuriousRamsayStarterArmorSkirtButcherDesc,items,Items,"[ff5b69]Butcher Training Skirt[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
 FuriousRamsayStarterArmorBootsButcher,items,Clothes,Butcher Training Boots
 FuriousRamsayStarterArmorBootsButcherDesc,items,Items,"[ff5b69]Butcher Training Boots[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
 FuriousRamsayStarterArmorHeadSoldier,items,Clothes,Soldier Training Hood
@@ -882,7 +886,7 @@ FuriousRamsayStarterArmorGlovesSoldierDesc,items,Items,"[76e381]Soldier Training
 FuriousRamsayStarterArmorLegsSoldier,items,Clothes,Soldier Training Pants
 FuriousRamsayStarterArmorLegsSoldierDesc,items,Items,"[76e381]Soldier Training Pants[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
 FuriousRamsayStarterArmorSkirtSoldier,items,Clothes,Soldier Training Skirt
-FuriousRamsayStarterArmorSkirtSoldierDesc,items,Items,"[53adbd]Soldier Training Skirt[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
+FuriousRamsayStarterArmorSkirtSoldierDesc,items,Items,"[76e381]Soldier Training Skirt[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
 FuriousRamsayStarterArmorBootsSoldier,items,Clothes,Soldier Training Boots
 FuriousRamsayStarterArmorBootsSoldierDesc,items,Items,"[76e381]Soldier Training Boots[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
 FuriousRamsayStarterArmorHeadTechnogeek,items,Clothes,Technogeek Training Hood
@@ -896,7 +900,7 @@ FuriousRamsayStarterArmorGlovesTechnogeekDesc,items,Items,"[736fe3]Technogeek Tr
 FuriousRamsayStarterArmorLegsTechnogeek,items,Clothes,Technogeek Training Pants
 FuriousRamsayStarterArmorLegsTechnogeekDesc,items,Items,"[736fe3]Technogeek Training Pants[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
 FuriousRamsayStarterArmorSkirtTechnogeek,items,Clothes,Technogeek Training Skirt
-FuriousRamsayStarterArmorSkirtTechnogeekDesc,items,Items,"[53adbd]Technogeek Training Skirt[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
+FuriousRamsayStarterArmorSkirtTechnogeekDesc,items,Items,"[736fe3]Technogeek Training Skirt[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
 FuriousRamsayStarterArmorBootsTechnogeek,items,Clothes,Technogeek Training Boots
 FuriousRamsayStarterArmorBootsTechnogeekDesc,items,Items,"[736fe3]Technogeek Training Boots[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
 FuriousRamsayStarterArmorHeadMadman,items,Clothes,Madman Training Hood
@@ -910,7 +914,7 @@ FuriousRamsayStarterArmorGlovesMadmanDesc,items,Items,"[e8a276]Madman Training G
 FuriousRamsayStarterArmorLegsMadman,items,Clothes,Madman Training Pants
 FuriousRamsayStarterArmorLegsMadmanDesc,items,Items,"[e8a276]Madman Training Pants[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
 FuriousRamsayStarterArmorSkirtMadman,items,Clothes,Madman Training Skirt
-FuriousRamsayStarterArmorSkirtMadmanDesc,items,Items,"[53adbd]Madman Training Skirt[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
+FuriousRamsayStarterArmorSkirtMadmanDesc,items,Items,"[e8a276]Madman Training Skirt[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
 FuriousRamsayStarterArmorBootsMadman,items,Clothes,Madman Training Boots
 FuriousRamsayStarterArmorBootsMadmanDesc,items,Items,"[e8a276]Madman Training Boots[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
 FuriousRamsayStarterArmorHeadBuilder,items,Clothes,Builder Training Hood
@@ -924,7 +928,7 @@ FuriousRamsayStarterArmorGlovesBuilderDesc,items,Items,"[c256fc]Builder Training
 FuriousRamsayStarterArmorLegsBuilder,items,Clothes,Builder Training Pants
 FuriousRamsayStarterArmorLegsBuilderDesc,items,Items,"[c256fc]Builder Training Pants[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
 FuriousRamsayStarterArmorSkirtBuilder,items,Clothes,Builder Training Skirt
-FuriousRamsayStarterArmorSkirtBuilderDesc,items,Items,"[53adbd]Builder Training Skirt[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
+FuriousRamsayStarterArmorSkirtBuilderDesc,items,Items,"[c256fc]Builder Training Skirt[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
 FuriousRamsayStarterArmorBootsBuilder,items,Clothes,Builder Training Boots
 FuriousRamsayStarterArmorBootsBuilderDesc,items,Items,"[c256fc]Builder Training Boots[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
 FuriousRamsayStarterArmorHeadChef,items,Clothes,Sous-Chef Training Hood
@@ -938,9 +942,23 @@ FuriousRamsayStarterArmorGlovesChefDesc,items,Items,"[878787]Sous-Chef Training 
 FuriousRamsayStarterArmorLegsChef,items,Clothes,Sous-Chef Training Pants
 FuriousRamsayStarterArmorLegsChefDesc,items,Items,"[878787]Sous-Chef Training Pants[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
 FuriousRamsayStarterArmorSkirtChef,items,Clothes,Chef Training Skirt
-FuriousRamsayStarterArmorSkirtChefDesc,items,Items,"[53adbd]Chef Training Skirt[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
+FuriousRamsayStarterArmorSkirtChefDesc,items,Items,"[878787]Chef Training Skirt[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
 FuriousRamsayStarterArmorBootsChef,items,Clothes,Sous-Chef Training Boots
 FuriousRamsayStarterArmorBootsChefDesc,items,Items,"[878787]Sous-Chef Training Boots[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
+FuriousRamsayStarterArmorHeadWitchDoctor,items,Clothes,Witch Doctor Training Hood
+FuriousRamsayStarterArmorHeadWitchDoctorDesc,items,Items,"[FFFFFF]Witch Doctor Training Hood[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
+FuriousRamsayStarterArmorChestWitchDoctor,items,Clothes,Witch Doctor Training Shirt
+FuriousRamsayStarterArmorChestWitchDoctorDesc,items,Items,"[FFFFFF]Witch Doctor Training Shirt[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
+FuriousRamsayStarterArmorPonchoWitchDoctor,items,Clothes,Witch Doctor Training Chest Protection
+FuriousRamsayStarterArmorPonchoWitchDoctorDesc,items,Items,"[FFFFFF]Witch Doctor Training Chest Protection[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
+FuriousRamsayStarterArmorGlovesWitchDoctor,items,Clothes,Witch Doctor Training Gloves
+FuriousRamsayStarterArmorGlovesWitchDoctorDesc,items,Items,"[FFFFFF]Witch Doctor Training Gloves[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
+FuriousRamsayStarterArmorLegsWitchDoctor,items,Clothes,Witch Doctor Training Pants
+FuriousRamsayStarterArmorLegsWitchDoctorDesc,items,Items,"[FFFFFF]Witch Doctor Training Pants[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
+FuriousRamsayStarterArmorSkirtWitchDoctor,items,Clothes,Chef Training Skirt
+FuriousRamsayStarterArmorSkirtWitchDoctorDesc,items,Items,"[FFFFFF]Chef Training Skirt[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
+FuriousRamsayStarterArmorBootsWitchDoctor,items,Clothes,Witch Doctor Training Boots
+FuriousRamsayStarterArmorBootsWitchDoctorDesc,items,Items,"[FFFFFF]Witch Doctor Training Boots[-]\n\nThis class armor is made from special material that does not degrade and that will evolve as you level your class.\n\nYou must wear your full set in order for your Class Aura to be active.\n\nAlso note that you will have to un-equip and re-equip after each Class level increase in order for the new stats to be applied."
 
 reqGenericPoints01,progression,Attribute,Genetics XP
 
@@ -1124,6 +1142,16 @@ FuriousRamsayReqChef07,progression,Attribute,"[I]Progress to[/I] [aceefc]Level 7
 FuriousRamsayReqChef08,progression,Attribute,"[I]Progress to[/I] [aceefc]Level 8[-]: [75d181]{cvar($varFuriousRamsayAttributeChefExpPercLvl8:0)}%[-]\n[f6f792]XP[-]: ({cvar($varFuriousRamsayAttributeChefExp:0)}/{cvar($varFuriousRamsayAttributeChefExpLvl8Max:0)})"
 FuriousRamsayReqChef09,progression,Attribute,"[I]Progress to[/I] [aceefc]Level 9[-]: [75d181]{cvar($varFuriousRamsayAttributeChefExpPercLvl9:0)}%[-]\n[f6f792]XP[-]: ({cvar($varFuriousRamsayAttributeChefExp:0)}/{cvar($varFuriousRamsayAttributeChefExpLvl9Max:0)})"
 FuriousRamsayReqChef10,progression,Attribute,"[I]Progress to[/I] [aceefc]Level 10[-]: [75d181]{cvar($varFuriousRamsayAttributeChefExpPercLvl10:0)}%[-]\n[f6f792]XP[-]: ({cvar($varFuriousRamsayAttributeChefExp:0)}/{cvar($varFuriousRamsayAttributeChefExpLvl10Max:0)})"
+FuriousRamsayReqWitchDoctor01,progression,Attribute,"[I]Progress to[/I] [aceefc]Level 1[-]: [75d181]{cvar($varFuriousRamsayAttributeWitchDoctorExpPercLvl1:0)}%[-]\n[f6f792]XP[-]: ({cvar($varFuriousRamsayAttributeWitchDoctorExp:0)}/{cvar($varFuriousRamsayAttributeWitchDoctorExpLvl1Max:0)})"
+FuriousRamsayReqWitchDoctor02,progression,Attribute,"[I]Progress to[/I] [aceefc]Level 2[-]: [75d181]{cvar($varFuriousRamsayAttributeWitchDoctorExpPercLvl2:0)}%[-]\n[f6f792]XP[-]: ({cvar($varFuriousRamsayAttributeWitchDoctorExp:0)}/{cvar($varFuriousRamsayAttributeWitchDoctorExpLvl2Max:0)})"
+FuriousRamsayReqWitchDoctor03,progression,Attribute,"[I]Progress to[/I] [aceefc]Level 3[-]: [75d181]{cvar($varFuriousRamsayAttributeWitchDoctorExpPercLvl3:0)}%[-]\n[f6f792]XP[-]: ({cvar($varFuriousRamsayAttributeWitchDoctorExp:0)}/{cvar($varFuriousRamsayAttributeWitchDoctorExpLvl3Max:0)})"
+FuriousRamsayReqWitchDoctor04,progression,Attribute,"[I]Progress to[/I] [aceefc]Level 4[-]: [75d181]{cvar($varFuriousRamsayAttributeWitchDoctorExpPercLvl4:0)}%[-]\n[f6f792]XP[-]: ({cvar($varFuriousRamsayAttributeWitchDoctorExp:0)}/{cvar($varFuriousRamsayAttributeWitchDoctorExpLvl4Max:0)})"
+FuriousRamsayReqWitchDoctor05,progression,Attribute,"[I]Progress to[/I] [aceefc]Level 5[-]: [75d181]{cvar($varFuriousRamsayAttributeWitchDoctorExpPercLvl5:0)}%[-]\n[f6f792]XP[-]: ({cvar($varFuriousRamsayAttributeWitchDoctorExp:0)}/{cvar($varFuriousRamsayAttributeWitchDoctorExpLvl5Max:0)})"
+FuriousRamsayReqWitchDoctor06,progression,Attribute,"[I]Progress to[/I] [aceefc]Level 6[-]: [75d181]{cvar($varFuriousRamsayAttributeWitchDoctorExpPercLvl6:0)}%[-]\n[f6f792]XP[-]: ({cvar($varFuriousRamsayAttributeWitchDoctorExp:0)}/{cvar($varFuriousRamsayAttributeWitchDoctorExpLvl6Max:0)})"
+FuriousRamsayReqWitchDoctor07,progression,Attribute,"[I]Progress to[/I] [aceefc]Level 7[-]: [75d181]{cvar($varFuriousRamsayAttributeWitchDoctorExpPercLvl7:0)}%[-]\n[f6f792]XP[-]: ({cvar($varFuriousRamsayAttributeWitchDoctorExp:0)}/{cvar($varFuriousRamsayAttributeWitchDoctorExpLvl7Max:0)})"
+FuriousRamsayReqWitchDoctor08,progression,Attribute,"[I]Progress to[/I] [aceefc]Level 8[-]: [75d181]{cvar($varFuriousRamsayAttributeWitchDoctorExpPercLvl8:0)}%[-]\n[f6f792]XP[-]: ({cvar($varFuriousRamsayAttributeWitchDoctorExp:0)}/{cvar($varFuriousRamsayAttributeWitchDoctorExpLvl8Max:0)})"
+FuriousRamsayReqWitchDoctor09,progression,Attribute,"[I]Progress to[/I] [aceefc]Level 9[-]: [75d181]{cvar($varFuriousRamsayAttributeWitchDoctorExpPercLvl9:0)}%[-]\n[f6f792]XP[-]: ({cvar($varFuriousRamsayAttributeWitchDoctorExp:0)}/{cvar($varFuriousRamsayAttributeWitchDoctorExpLvl9Max:0)})"
+FuriousRamsayReqWitchDoctor10,progression,Attribute,"[I]Progress to[/I] [aceefc]Level 10[-]: [75d181]{cvar($varFuriousRamsayAttributeWitchDoctorExpPercLvl10:0)}%[-]\n[f6f792]XP[-]: ({cvar($varFuriousRamsayAttributeWitchDoctorExp:0)}/{cvar($varFuriousRamsayAttributeWitchDoctorExpLvl10Max:0)})"
 
 FuriousRamsayReqGeneticsLevel01,progression,Attribute,Genetics Level 1
 FuriousRamsayReqGeneticsLevel02,progression,Attribute,Genetics Level 2
@@ -1270,6 +1298,17 @@ FuriousRamsayReqChefLevel08,progression,Attribute,Sous-Chef Level 8
 FuriousRamsayReqChefLevel09,progression,Attribute,Sous-Chef Level 9
 FuriousRamsayReqChefLevel10,progression,Attribute,Sous-Chef Level 10
 
+FuriousRamsayReqWitchDoctorLevel01,progression,Attribute,Witch Doctor Level 1
+FuriousRamsayReqWitchDoctorLevel02,progression,Attribute,Witch Doctor Level 2
+FuriousRamsayReqWitchDoctorLevel03,progression,Attribute,Witch Doctor Level 3
+FuriousRamsayReqWitchDoctorLevel04,progression,Attribute,Witch Doctor Level 4
+FuriousRamsayReqWitchDoctorLevel05,progression,Attribute,Witch Doctor Level 5
+FuriousRamsayReqWitchDoctorLevel06,progression,Attribute,Witch Doctor Level 6
+FuriousRamsayReqWitchDoctorLevel07,progression,Attribute,Witch Doctor Level 7
+FuriousRamsayReqWitchDoctorLevel08,progression,Attribute,Witch Doctor Level 8
+FuriousRamsayReqWitchDoctorLevel09,progression,Attribute,Witch Doctor Level 9
+FuriousRamsayReqWitchDoctorLevel10,progression,Attribute,Witch Doctor Level 10
+
 FuriousRamsayPerkChoiceIsMine,progression,Attribute,"Quest: Locate Shelter"
 
 FuriousRamsayActionsLootingLindaBackpack,buffs,Buff,"Content of Linda's Backpack"
@@ -1296,19 +1335,19 @@ drinkJarGoldenRodTeaDesc,items,Food,"Greatly speeds up recovering from dysentery
 
 FuriousRamsayStaminaBoostCoffeeName,buffs,Buff,"Stamina Boost (Coffee)"
 FuriousRamsayStaminaBoostCoffeeDesc,buffs,Buff,"A bit of coffee gives you a good amount of stamina regeneration for 10 minutes"
-FuriousRamsayStaminaBoostCoffeeTooltip,buffs,Buff,"Your Stamina has been boosted for 10 minutes"
+FuriousRamsayStaminaBoostCoffeeTooltip,buffs,Buff,"Your Stamina has been boosted"
 
 FuriousRamsayMobilityBoostRedTeaName,buffs,Buff,"Walk/Run Boost (Red Tea)"
 FuriousRamsayMobilityBoostRedTeaDesc,buffs,Buff,"A bit of Red Tea makes you walk/run much faster and be less encumbered for 5 minutes"
-FuriousRamsayMobilityBoostRedTeaTooltip,buffs,Buff,"Your Walk/Run speed and carrying capacity has been boosted for 5 minutes"
+FuriousRamsayMobilityBoostRedTeaTooltip,buffs,Buff,"Your Walk/Run speed and carrying capacity has been boosted"
 
 FuriousRamsayBlockDamageBoostGoldenRodTeaName,buffs,Buff,"Mining Boost (Goldenrod Tea)"
 FuriousRamsayBlockDamageBoostGoldenRodTeaDesc,buffs,Buff,"A bit of Goldenrod Tea increases your ability to mine for 10 minutes"
-FuriousRamsayBlockDamageBoostGoldenRodTeaTooltip,buffs,Buff,"Your damage to rock and metal with tools has been boosted for 10 minutes"
+FuriousRamsayBlockDamageBoostGoldenRodTeaTooltip,buffs,Buff,"Your damage to rock and metal with tools has been boosted"
 
 FuriousRamsayEarthDamageBoostYuccaJuiceName,buffs,Buff,"Digging Boost (Yucca Juice)"
 FuriousRamsayEarthDamageBoostYuccaJuiceDesc,buffs,Buff,"A bit of Yucca Juice increases your ability to dig for 10 minutes"
-FuriousRamsayEarthDamageBoostYuccaJuiceTooltip,buffs,Buff,"Your damage to earth with tools has been boosted for 10 minutes"
+FuriousRamsayEarthDamageBoostYuccaJuiceTooltip,buffs,Buff,"Your damage to earth with tools has been boosted"
 
 FuriousRamsayProcessRespawnDebuffsName,buffs,Buff,"Feel No Pain"
 FuriousRamsayProcessRespawnDebuffsDesc,buffs,Buff,"Your central nervous system has temporarily shut off all pain receptors.\n\nDon't be fooled, you're no super hero, this is just a momentary manipulation of your DNA, it will only last one minute."
@@ -1603,16 +1642,40 @@ FuriousRamsayChefRangedKnockdownAuraTimerLvl9Desc,buffs,Buff,"You have the abili
 FuriousRamsayChefRangedKnockdownAuraTimerLvl10Desc,buffs,Buff,"You have the ability to grant extra Knockdown Abilities to Allies and yourself within 10 meters of you\n\nAt your current level:\n • Nearby allies have a [f6f792]40%[-] chance to knock enemies down with ranged weapons\n • You have a [f6f792]20%[-] chance to knock enemies down with ranged weapons"
 
 FuriousRamsayChefRangedKnockdownAuraName,buffs,Buff,"Ranged Knockdown Aura"
-FuriousRamsayChefRangedKnockdownAuraLvl1Desc,buffs,Buff,"You have been granted extra Explosion Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]4%[-] chance to knock enemies down with ranged weapons"
-FuriousRamsayChefRangedKnockdownAuraLvl2Desc,buffs,Buff,"You have been granted extra Explosion Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]8%[-] chance to knock enemies down with ranged weapons"
-FuriousRamsayChefRangedKnockdownAuraLvl3Desc,buffs,Buff,"You have been granted extra Explosion Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]12%[-] chance to knock enemies down with ranged weapons"
-FuriousRamsayChefRangedKnockdownAuraLvl4Desc,buffs,Buff,"You have been granted extra Explosion Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]16%[-] chance to knock enemies down with ranged weapons"
-FuriousRamsayChefRangedKnockdownAuraLvl5Desc,buffs,Buff,"You have been granted extra Explosion Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]20%[-] chance to knock enemies down with ranged weapons"
-FuriousRamsayChefRangedKnockdownAuraLvl6Desc,buffs,Buff,"You have been granted extra Explosion Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]24%[-] chance to knock enemies down with ranged weapons"
-FuriousRamsayChefRangedKnockdownAuraLvl7Desc,buffs,Buff,"You have been granted extra Explosion Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]28%[-] chance to knock enemies down with ranged weapons"
-FuriousRamsayChefRangedKnockdownAuraLvl8Desc,buffs,Buff,"You have been granted extra Explosion Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]32%[-] chance to knock enemies down with ranged weapons"
-FuriousRamsayChefRangedKnockdownAuraLvl9Desc,buffs,Buff,"You have been granted extra Explosion Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]36%[-] chance to knock enemies down with ranged weapons"
-FuriousRamsayChefRangedKnockdownAuraLvl10Desc,buffs,Buff,"You have been granted extra Explosion Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]40%[-] chance to knock enemies down with ranged weapons"
+FuriousRamsayChefRangedKnockdownAuraLvl1Desc,buffs,Buff,"You have been granted extra Knockdown Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]4%[-] chance to knock enemies down with ranged weapons"
+FuriousRamsayChefRangedKnockdownAuraLvl2Desc,buffs,Buff,"You have been granted extra Knockdown Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]8%[-] chance to knock enemies down with ranged weapons"
+FuriousRamsayChefRangedKnockdownAuraLvl3Desc,buffs,Buff,"You have been granted extra Knockdown Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]12%[-] chance to knock enemies down with ranged weapons"
+FuriousRamsayChefRangedKnockdownAuraLvl4Desc,buffs,Buff,"You have been granted extra Knockdown Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]16%[-] chance to knock enemies down with ranged weapons"
+FuriousRamsayChefRangedKnockdownAuraLvl5Desc,buffs,Buff,"You have been granted extra Knockdown Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]20%[-] chance to knock enemies down with ranged weapons"
+FuriousRamsayChefRangedKnockdownAuraLvl6Desc,buffs,Buff,"You have been granted extra Knockdown Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]24%[-] chance to knock enemies down with ranged weapons"
+FuriousRamsayChefRangedKnockdownAuraLvl7Desc,buffs,Buff,"You have been granted extra Knockdown Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]28%[-] chance to knock enemies down with ranged weapons"
+FuriousRamsayChefRangedKnockdownAuraLvl8Desc,buffs,Buff,"You have been granted extra Knockdown Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]32%[-] chance to knock enemies down with ranged weapons"
+FuriousRamsayChefRangedKnockdownAuraLvl9Desc,buffs,Buff,"You have been granted extra Knockdown Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]36%[-] chance to knock enemies down with ranged weapons"
+FuriousRamsayChefRangedKnockdownAuraLvl10Desc,buffs,Buff,"You have been granted extra Knockdown Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]40%[-] chance to knock enemies down with ranged weapons"
+
+FuriousRamsayWitchDoctorRangedMindControlAuraTimerName,buffs,Buff,"Ranged Mind Control Aura"
+FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl1Desc,buffs,Buff,"You have the ability to grant extra Mind Control Abilities to Allies and yourself within 10 meters of you\n\nAt your current level:\n • Nearby allies have a [f6f792]4%[-] chance to TBD\n • You have a [f6f792]2%[-] chance to TBD"
+FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl2Desc,buffs,Buff,"You have the ability to grant extra Mind Control Abilities to Allies and yourself within 10 meters of you\n\nAt your current level:\n • Nearby allies have a [f6f792]8%[-] chance to TBD\n • You have a [f6f792]4%[-] chance to TBD"
+FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl3Desc,buffs,Buff,"You have the ability to grant extra Mind Control Abilities to Allies and yourself within 10 meters of you\n\nAt your current level:\n • Nearby allies have a [f6f792]12%[-] chance to TBD\n • You have a [f6f792]6%[-] chance to TBD"
+FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl4Desc,buffs,Buff,"You have the ability to grant extra Mind Control Abilities to Allies and yourself within 10 meters of you\n\nAt your current level:\n • Nearby allies have a [f6f792]16%[-] chance to TBD\n • You have a [f6f792]8%[-] chance to TBD"
+FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl5Desc,buffs,Buff,"You have the ability to grant extra Mind Control Abilities to Allies and yourself within 10 meters of you\n\nAt your current level:\n • Nearby allies have a [f6f792]20%[-] chance to TBD\n • You have a [f6f792]10%[-] chance to TBD"
+FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl6Desc,buffs,Buff,"You have the ability to grant extra Mind Control Abilities to Allies and yourself within 10 meters of you\n\nAt your current level:\n • Nearby allies have a [f6f792]24%[-] chance to TBD\n • You have a [f6f792]12%[-] chance to TBD"
+FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl7Desc,buffs,Buff,"You have the ability to grant extra Mind Control Abilities to Allies and yourself within 10 meters of you\n\nAt your current level:\n • Nearby allies have a [f6f792]28%[-] chance to TBD\n • You have a [f6f792]14%[-] chance to TBD"
+FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl8Desc,buffs,Buff,"You have the ability to grant extra Mind Control Abilities to Allies and yourself within 10 meters of you\n\nAt your current level:\n • Nearby allies have a [f6f792]32%[-] chance to TBD\n • You have a [f6f792]16%[-] chance to TBD"
+FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl9Desc,buffs,Buff,"You have the ability to grant extra Mind Control Abilities to Allies and yourself within 10 meters of you\n\nAt your current level:\n • Nearby allies have a [f6f792]36%[-] chance to TBD\n • You have a [f6f792]18%[-] chance to TBD"
+FuriousRamsayWitchDoctorRangedMindControlAuraTimerLvl10Desc,buffs,Buff,"You have the ability to grant extra Mind Control Abilities to Allies and yourself within 10 meters of you\n\nAt your current level:\n • Nearby allies have a [f6f792]40%[-] chance to TBD\n • You have a [f6f792]20%[-] chance to TBD"
+
+FuriousRamsayWitchDoctorRangedMindControlAuraName,buffs,Buff,"Ranged Mind Control Aura"
+FuriousRamsayWitchDoctorRangedMindControlAuraLvl1Desc,buffs,Buff,"You have been granted extra Mind Control Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]4%[-] chance to TBD"
+FuriousRamsayWitchDoctorRangedMindControlAuraLvl2Desc,buffs,Buff,"You have been granted extra Mind Control Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]8%[-] chance to TBD"
+FuriousRamsayWitchDoctorRangedMindControlAuraLvl3Desc,buffs,Buff,"You have been granted extra Mind Control Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]12%[-] chance to TBD"
+FuriousRamsayWitchDoctorRangedMindControlAuraLvl4Desc,buffs,Buff,"You have been granted extra Mind Control Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]16%[-] chance to TBD"
+FuriousRamsayWitchDoctorRangedMindControlAuraLvl5Desc,buffs,Buff,"You have been granted extra Mind Control Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]20%[-] chance to TBD"
+FuriousRamsayWitchDoctorRangedMindControlAuraLvl6Desc,buffs,Buff,"You have been granted extra Mind Control Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]24%[-] chance to TBD"
+FuriousRamsayWitchDoctorRangedMindControlAuraLvl7Desc,buffs,Buff,"You have been granted extra Mind Control Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]28%[-] chance to TBD"
+FuriousRamsayWitchDoctorRangedMindControlAuraLvl8Desc,buffs,Buff,"You have been granted extra Mind Control Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]32%[-] chance to TBD"
+FuriousRamsayWitchDoctorRangedMindControlAuraLvl9Desc,buffs,Buff,"You have been granted extra Mind Control Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]36%[-] chance to TBD"
+FuriousRamsayWitchDoctorRangedMindControlAuraLvl10Desc,buffs,Buff,"You have been granted extra Mind Control Abilities from one of your Allies\n\nAt the current level, you:\n • You have a [f6f792]40%[-] chance to TBD"
 
 attFortitudeRank01Desc,progression,Attribute,Fragile
 attFortitudeRank01LongDesc,progression,Attribute,"You aren't very durable or healthy but at least you are alive"
@@ -1809,6 +1872,27 @@ FuriousRamsayAttChefRank09LongDesc,progression,Attribute,"At [aceefc][U]LEVEL 9[
 FuriousRamsayAttChefRank10Desc,progression,Attribute,"Sous-Chef Level [46aba1]Level 10[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayAttributeChefExpPercLvl10:0)}%[-])"
 FuriousRamsayAttChefRank10LongDesc,progression,Attribute,"At [aceefc][U]LEVEL 10[/U][-], you:\n • Reduce Hunger/Thirst by [f6f792]50%[-]"
 
+FuriousRamsayAttWitchDoctorRank01Desc,progression,Attribute,"Witch Doctor Level [46aba1]Level 1[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayAttributeWitchDoctorExpPercLvl1:0)}%[-])"
+FuriousRamsayAttWitchDoctorRank01LongDesc,progression,Attribute,"At [aceefc][U]LEVEL 1[/U][-], you:\n • TBD [f6f792]5%[-]\n • Can craft a [75d181]TBD[-]"
+FuriousRamsayAttWitchDoctorRank02Desc,progression,Attribute,"Witch Doctor Level [46aba1]Level 2[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayAttributeWitchDoctorExpPercLvl2:0)}%[-])"
+FuriousRamsayAttWitchDoctorRank02LongDesc,progression,Attribute,"At [aceefc][U]LEVEL 2[/U][-], you:\n • TBD [f6f792]10%[-]"
+FuriousRamsayAttWitchDoctorRank03Desc,progression,Attribute,"Witch Doctor Level [46aba1]Level 3[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayAttributeWitchDoctorExpPercLvl3:0)}%[-])"
+FuriousRamsayAttWitchDoctorRank03LongDesc,progression,Attribute,"At [aceefc][U]LEVEL 3[/U][-], you:\n • TBD [f6f792]15%[-]"
+FuriousRamsayAttWitchDoctorRank04Desc,progression,Attribute,"Witch Doctor Level [46aba1]Level 4[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayAttributeWitchDoctorExpPercLvl4:0)}%[-])"
+FuriousRamsayAttWitchDoctorRank04LongDesc,progression,Attribute,"At [aceefc][U]LEVEL 4[/U][-], you:\n • TBD [f6f792]20%[-]\n • Can train in [75d181]Tactical Assault Rifles[-]"
+FuriousRamsayAttWitchDoctorRank05Desc,progression,Attribute,"Witch Doctor Level [46aba1]Level 5[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayAttributeWitchDoctorExpPercLvl5:0)}%[-])"
+FuriousRamsayAttWitchDoctorRank05LongDesc,progression,Attribute,"At [aceefc][U]LEVEL 5[/U][-], you:\n • TBD [f6f792]25%[-]"
+FuriousRamsayAttWitchDoctorRank06Desc,progression,Attribute,"Witch Doctor Level [46aba1]Level 6[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayAttributeWitchDoctorExpPercLvl6:0)}%[-])"
+FuriousRamsayAttWitchDoctorRank06LongDesc,progression,Attribute,"At [aceefc][U]LEVEL 6[/U][-], you:\n • TBD [f6f792]30%[-]"
+FuriousRamsayAttWitchDoctorRank07Desc,progression,Attribute,"Witch Doctor Level [46aba1]Level 7[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayAttributeWitchDoctorExpPercLvl7:0)}%[-])"
+FuriousRamsayAttWitchDoctorRank07LongDesc,progression,Attribute,"At [aceefc][U]LEVEL 7[/U][-], you:\n • TBD [f6f792]35%[-]"
+FuriousRamsayAttWitchDoctorRank08Desc,progression,Attribute,"Witch Doctor Level [46aba1]Level 8[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayAttributeWitchDoctorExpPercLvl8:0)}%[-])"
+FuriousRamsayAttWitchDoctorRank08LongDesc,progression,Attribute,"At [aceefc][U]LEVEL 8[/U][-], you:\n • TBD [f6f792]40%[-]"
+FuriousRamsayAttWitchDoctorRank09Desc,progression,Attribute,"Witch Doctor Level [46aba1]Level 9[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayAttributeWitchDoctorExpPercLvl9:0)}%[-])"
+FuriousRamsayAttWitchDoctorRank09LongDesc,progression,Attribute,"At [aceefc][U]LEVEL 9[/U][-], you:\n • TBD [f6f792]45%[-]"
+FuriousRamsayAttWitchDoctorRank10Desc,progression,Attribute,"Witch Doctor Level [46aba1]Level 10[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayAttributeWitchDoctorExpPercLvl10:0)}%[-])"
+FuriousRamsayAttWitchDoctorRank10LongDesc,progression,Attribute,"At [aceefc][U]LEVEL 10[/U][-], you:\n • TBD [f6f792]50%[-]"
+
 FuriousRamsaySkillHunterExpertiseName,progression,Skill,[46aba1]Expertise[-]
 FuriousRamsaySkillHunterExpertiseDesc,progression,Skill,Expertise Description
 FuriousRamsaySkillThugExpertiseName,progression,Skill,[46aba1]Expertise[-]
@@ -1825,6 +1909,8 @@ FuriousRamsaySkillBuilderExpertiseName,progression,Skill,[46aba1]Expertise[-]
 FuriousRamsaySkillBuilderExpertiseDesc,progression,Skill,Expertise Description
 FuriousRamsaySkillChefExpertiseName,progression,Skill,[46aba1]Expertise[-]
 FuriousRamsaySkillChefExpertiseDesc,progression,Skill,Expertise Description
+FuriousRamsaySkillWitchDoctorExpertiseName,progression,Skill,[46aba1]Expertise[-]
+FuriousRamsaySkillWitchDoctorExpertiseDesc,progression,Skill,Expertise Description
 
 FuriousRamsaySkillHunterAbilitiesName,progression,Skill,[46aba1]Abilities[-]
 FuriousRamsaySkillHunterAbilitiesDesc,progression,Skill,Abilities Description
@@ -1842,6 +1928,8 @@ FuriousRamsaySkillBuilderAbilitiesName,progression,Skill,[46aba1]Abilities[-]
 FuriousRamsaySkillBuilderAbilitiesDesc,progression,Skill,Abilities Description
 FuriousRamsaySkillChefAbilitiesName,progression,Skill,[46aba1]Abilities[-]
 FuriousRamsaySkillChefAbilitiesDesc,progression,Skill,Abilities Description
+FuriousRamsaySkillWitchDoctorAbilitiesName,progression,Skill,[46aba1]Abilities[-]
+FuriousRamsaySkillWitchDoctorAbilitiesDesc,progression,Skill,Abilities Description
 
 FuriousRamsaySkillHunterAchievementsName,progression,Skill,[549455]Achievements[-]
 FuriousRamsaySkillHunterAchievementsDesc,progression,Skill,Achievements Description
@@ -1859,6 +1947,8 @@ FuriousRamsaySkillBuilderAchievementsName,progression,Skill,[549455]Achievements
 FuriousRamsaySkillBuilderAchievementsDesc,progression,Skill,Achievements Description
 FuriousRamsaySkillChefAchievementsName,progression,Skill,[549455]Achievements[-]
 FuriousRamsaySkillChefAchievementsDesc,progression,Skill,Achievements Description
+FuriousRamsaySkillWitchDoctorAchievementsName,progression,Skill,[549455]Achievements[-]
+FuriousRamsaySkillWitchDoctorAchievementsDesc,progression,Skill,Achievements Description
 
 perkMiner69rRank1Desc,progression,perk,Miner 69er Level 1
 perkMiner69rRank1LongDesc,progression,perk,"At [aceefc][U]LEVEL 1[/U][-]:\n • Increase Tool Entity damage by [ff595f]5%[-]\n • Increase Tool Block damage by [ff595f]2.5%[-]"
@@ -2146,7 +2236,7 @@ FuriousRamsayPerkSniperRifleRank2LongDesc,progression,perk,"Being a [aceefc][U]N
 FuriousRamsayPerkSniperRifleRank3Desc,progression,perk,"[46aba1]Competent[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkSniperRifleExpPercLvl3:0)}%[-])"
 FuriousRamsayPerkSniperRifleRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Penetrate [ff595f]7.5%[-] armor\n • Reload [ff595f]7.5%[-] faster\n • Fire [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer\n • Can craft [75d181]Bipod[-] Rifle mod"
 FuriousRamsayPerkSniperRifleRank4Desc,progression,perk,"[46aba1]Talented[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkSniperRifleExpPercLvl4:0)}%[-])"
-FuriousRamsayPerkSniperRifleRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Penetrate [ff595f]10%[-] armor\n • Reload [ff595f]10%[-] faster\n • Fire [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer"
+FuriousRamsayPerkSniperRifleRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Penetrate [ff595f]10%[-] armor\n • Reload [ff595f]10%[-] faster\n • Fire [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer\n • Can craft [75d181]Sniper Rifles[-]"
 FuriousRamsayPerkSniperRifleRank5Desc,progression,perk,"[46aba1]Skilled[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkSniperRifleExpPercLvl5:0)}%[-])"
 FuriousRamsayPerkSniperRifleRank5LongDesc,progression,perk,"Being [aceefc][U]SKILLED[/U][-], you:\n • Do [ff595f]15%[-] more damage\n • Penetrate [ff595f]12.5%[-] armor\n • Reload [ff595f]12.5%[-] faster\n • Fire [ff595f]12.5%[-] faster\n • Preserve your weapon [ff595f]50%[-] longer\n • Can craft a [75d181]Scope 8x[-] mod"
 FuriousRamsayPerkSniperRifleRank6Desc,progression,perk,"[46aba1]Seasoned[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkSniperRifleExpPercLvl6:0)}%[-])"
@@ -2190,15 +2280,15 @@ FuriousRamsayPerkShotgunRank1LongDesc,progression,perk,"Being an [aceefc][U]INIT
 FuriousRamsayPerkShotgunRank2Desc,progression,perk,"[46aba1]Novice[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkShotgunExpPercLvl2:0)}%[-])"
 FuriousRamsayPerkShotgunRank2LongDesc,progression,perk,"Being a [aceefc][U]NOVICE[/U][-], you:\n • Do [ff595f]5%[-] more damage\n • Penetrate [ff595f]5%[-] armor\n • Reload [ff595f]5%[-] faster\n • Fire [ff595f]5%[-] faster\n • Preserve your weapon [ff595f]20%[-] longer"
 FuriousRamsayPerkShotgunRank3Desc,progression,perk,"[46aba1]Competent[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkShotgunExpPercLvl3:0)}%[-])"
-FuriousRamsayPerkShotgunRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Penetrate [ff595f]7.5%[-] armor\n • Reload [ff595f]7.5%[-] faster\n • Fire [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer"
+FuriousRamsayPerkShotgunRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Penetrate [ff595f]7.5%[-] armor\n • Reload [ff595f]7.5%[-] faster\n • Fire [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer\n • Can craft [75d181]Double Barrel Shotguns[-]"
 FuriousRamsayPerkShotgunRank4Desc,progression,perk,"[46aba1]Talented[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkShotgunExpPercLvl4:0)}%[-])"
 FuriousRamsayPerkShotgunRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Penetrate [ff595f]10%[-] armor\n • Reload [ff595f]10%[-] faster\n • Fire [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer\n • Can craft [75d181]Tube Extender[-] and [75d181]Sawed-Off[-] Shotgun mods"
 FuriousRamsayPerkShotgunRank5Desc,progression,perk,"[46aba1]Skilled[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkShotgunExpPercLvl5:0)}%[-])"
-FuriousRamsayPerkShotgunRank5LongDesc,progression,perk,"Being [aceefc][U]SKILLED[/U][-], you:\n • Do [ff595f]15%[-] more damage\n • Penetrate [ff595f]12.5%[-] armor\n • Reload [ff595f]12.5%[-] faster\n • Fire [ff595f]12.5%[-] faster\n • Preserve your weapon [ff595f]50%[-] longer"
+FuriousRamsayPerkShotgunRank5LongDesc,progression,perk,"Being [aceefc][U]SKILLED[/U][-], you:\n • Do [ff595f]15%[-] more damage\n • Penetrate [ff595f]12.5%[-] armor\n • Reload [ff595f]12.5%[-] faster\n • Fire [ff595f]12.5%[-] faster\n • Preserve your weapon [ff595f]50%[-] longer\n • Can craft [75d181]Pump Shotguns[-]"
 FuriousRamsayPerkShotgunRank6Desc,progression,perk,"[46aba1]Seasoned[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkShotgunExpPercLvl6:0)}%[-])"
 FuriousRamsayPerkShotgunRank6LongDesc,progression,perk,"Being [aceefc][U]SEASONED[/U][-], you:\n • Do [ff595f]20%[-] more damage\n • Penetrate [ff595f]15%[-] armor\n • Reload [ff595f]15%[-] faster\n • Fire [ff595f]15%[-] faster\n • Preserve your weapon [ff595f]60%[-] longer\n • Can craft [75d181]Choke[-] and [75d181]Duckbill[-] mods"
 FuriousRamsayPerkShotgunRank7Desc,progression,perk,"[46aba1]Proficient[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkShotgunExpPercLvl7:0)}%[-])"
-FuriousRamsayPerkShotgunRank7LongDesc,progression,perk,"Being [aceefc][U]PROFICIENT[/U][-], you:\n • Do [ff595f]25%[-] more damage\n • Penetrate [ff595f]20%[-] armor\n • Reload [ff595f]20%[-] faster\n • Fire [ff595f]17.5%[-] faster\n • Preserve your weapon [ff595f]70%[-] longer"
+FuriousRamsayPerkShotgunRank7LongDesc,progression,perk,"Being [aceefc][U]PROFICIENT[/U][-], you:\n • Do [ff595f]25%[-] more damage\n • Penetrate [ff595f]20%[-] armor\n • Reload [ff595f]20%[-] faster\n • Fire [ff595f]17.5%[-] faster\n • Preserve your weapon [ff595f]70%[-] longer\n • Can craft [75d181]Auto Shotguns[-]"
 FuriousRamsayPerkShotgunRank8Desc,progression,perk,"[46aba1]Advanced[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkShotgunExpPercLvl8:0)}%[-])"
 FuriousRamsayPerkShotgunRank8LongDesc,progression,perk,"Being [aceefc][U]ADVANCED[/U][-], you:\n • Do [ff595f]30%[-] more damage\n • Penetrate [ff595f]25%[-] armor\n • Reload [ff595f]25%[-] faster\n • Fire [ff595f]20%[-] faster\n • Preserve your weapon [ff595f]80%[-] longer"
 FuriousRamsayPerkShotgunRank9Desc,progression,perk,"[46aba1]Expert[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkShotgunExpPercLvl9:0)}%[-])"
@@ -2265,8 +2355,8 @@ FuriousRamsayPerkMacheteRank9LongDesc,progression,perk,"Being an [aceefc][U]EXPE
 FuriousRamsayPerkMacheteRank10Desc,progression,perk,"[46aba1]Master[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkMacheteExpPercLvl10:0)}%[-])"
 FuriousRamsayPerkMacheteRank10LongDesc,progression,perk,"Being a [aceefc][U]MASTER[/U][-], you:\n • Do [ff595f]50%[-] more damage\n • Attack [ff595f]25%[-] faster\n • Preserve your weapon [ff595f]120%[-] longer"
 
-FuriousRamsayPerkAssaultRifleName,progression,perk,Assault Rifles
-FuriousRamsayPerkAssaultRifleDesc,progression,perk,"Specialize in Assault Rifles"
+FuriousRamsayPerkAssaultRifleName,progression,perk,AK-47s
+FuriousRamsayPerkAssaultRifleDesc,progression,perk,"Specialize in AK-47s"
 FuriousRamsayPerkAssaultRifleRank1Desc,progression,perk,"[46aba1]Initiate[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkAssaultRifleExpPercLvl1:0)}%[-])"
 FuriousRamsayPerkAssaultRifleRank1LongDesc,progression,perk,"Being an [aceefc][U]INITIATE[/U][-], you:\n • Do [ff595f]2.5%[-] more damage\n • Attack [ff595f]2.5%[-] faster\n • Preserve your weapon [ff595f]10%[-] longer"
 FuriousRamsayPerkAssaultRifleRank2Desc,progression,perk,"[46aba1]Novice[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkAssaultRifleExpPercLvl2:0)}%[-])"
@@ -2274,13 +2364,13 @@ FuriousRamsayPerkAssaultRifleRank2LongDesc,progression,perk,"Being a [aceefc][U]
 FuriousRamsayPerkAssaultRifleRank3Desc,progression,perk,"[46aba1]Competent[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkAssaultRifleExpPercLvl3:0)}%[-])"
 FuriousRamsayPerkAssaultRifleRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Attack [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer"
 FuriousRamsayPerkAssaultRifleRank4Desc,progression,perk,"[46aba1]Talented[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkAssaultRifleExpPercLvl4:0)}%[-])"
-FuriousRamsayPerkAssaultRifleRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Attack [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer\n • Can craft [75d181]Retracting Stock[-] Assault Rifle mod"
+FuriousRamsayPerkAssaultRifleRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Attack [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer\n • Can craft [75d181]Retracting Stock[-] AK-47 mod\n • Can craft [75d181]AK-47s[-]"
 FuriousRamsayPerkAssaultRifleRank5Desc,progression,perk,"[46aba1]Skilled[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkAssaultRifleExpPercLvl5:0)}%[-])"
 FuriousRamsayPerkAssaultRifleRank5LongDesc,progression,perk,"Being [aceefc][U]SKILLED[/U][-], you:\n • Do [ff595f]15%[-] more damage\n • Attack [ff595f]12.5%[-] faster\n • Preserve your weapon [ff595f]50%[-] longer"
 FuriousRamsayPerkAssaultRifleRank6Desc,progression,perk,"[46aba1]Seasoned[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkAssaultRifleExpPercLvl6:0)}%[-])"
-FuriousRamsayPerkAssaultRifleRank6LongDesc,progression,perk,"Being [aceefc][U]SEASONED[/U][-], you:\n • Do [ff595f]20%[-] more damage\n • Attack [ff595f]15%[-] faster\n • Preserve your weapon [ff595f]60%[-] longer\n • Can craft [75d181]Muzzle Brake[-] Assault Rifle mod"
+FuriousRamsayPerkAssaultRifleRank6LongDesc,progression,perk,"Being [aceefc][U]SEASONED[/U][-], you:\n • Do [ff595f]20%[-] more damage\n • Attack [ff595f]15%[-] faster\n • Preserve your weapon [ff595f]60%[-] longer\n • Can craft [75d181]Muzzle Brake[-] AK-47 mod"
 FuriousRamsayPerkAssaultRifleRank7Desc,progression,perk,"[46aba1]Proficient[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkAssaultRifleExpPercLvl7:0)}%[-])"
-FuriousRamsayPerkAssaultRifleRank7LongDesc,progression,perk,"Being [aceefc][U]PROFICIENT[/U][-], you:\n • Do [ff595f]25%[-] more damage\n • Attack [ff595f]17.5%[-] faster\n • Preserve your weapon [ff595f]70%[-] longer\n • Can craft [75d181]Drum Magazine[-] Assault Rifle mod"
+FuriousRamsayPerkAssaultRifleRank7LongDesc,progression,perk,"Being [aceefc][U]PROFICIENT[/U][-], you:\n • Do [ff595f]25%[-] more damage\n • Attack [ff595f]17.5%[-] faster\n • Preserve your weapon [ff595f]70%[-] longer\n • Can craft [75d181]Drum Magazine[-] AK-47 mod"
 FuriousRamsayPerkAssaultRifleRank8Desc,progression,perk,"[46aba1]Advanced[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkAssaultRifleExpPercLvl8:0)}%[-])"
 FuriousRamsayPerkAssaultRifleRank8LongDesc,progression,perk,"Being [aceefc][U]ADVANCED[/U][-], you:\n • Do [ff595f]30%[-] more damage\n • Attack [ff595f]20%[-] faster\n • Preserve your weapon [ff595f]80%[-] longer"
 FuriousRamsayPerkAssaultRifleRank9Desc,progression,perk,"[46aba1]Expert[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkAssaultRifleExpPercLvl9:0)}%[-])"
@@ -2364,13 +2454,13 @@ FuriousRamsayPerkMarksmanRifleRank1LongDesc,progression,perk,"Being an [aceefc][
 FuriousRamsayPerkMarksmanRifleRank2Desc,progression,perk,"[46aba1]Novice[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkMarksmanExpPercLvl2:0)}%[-])"
 FuriousRamsayPerkMarksmanRifleRank2LongDesc,progression,perk,"Being a [aceefc][U]NOVICE[/U][-], you:\n • Do [ff595f]5%[-] more damage\n • Penetrate [ff595f]5%[-] armor\n • Reload [ff595f]5%[-] faster\n • Fire [ff595f]5%[-] faster\n • Preserve your weapon [ff595f]20%[-] longer\n • Can craft [75d181]Magazine Extender[-] Lever Action mod"
 FuriousRamsayPerkMarksmanRifleRank3Desc,progression,perk,"[46aba1]Competent[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkMarksmanExpPercLvl3:0)}%[-])"
-FuriousRamsayPerkMarksmanRifleRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Penetrate [ff595f]7.5%[-] armor\n • Reload [ff595f]7.5%[-] faster\n • Fire [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer"
+FuriousRamsayPerkMarksmanRifleRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Penetrate [ff595f]7.5%[-] armor\n • Reload [ff595f]7.5%[-] faster\n • Fire [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer\n • Can craft [75d181]Lever Action Rifles[-]"
 FuriousRamsayPerkMarksmanRifleRank4Desc,progression,perk,"[46aba1]Talented[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkMarksmanExpPercLvl4:0)}%[-])"
 FuriousRamsayPerkMarksmanRifleRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Penetrate [ff595f]10%[-] armor\n • Reload [ff595f]10%[-] faster\n • Fire [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer"
 FuriousRamsayPerkMarksmanRifleRank5Desc,progression,perk,"[46aba1]Skilled[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkMarksmanExpPercLvl5:0)}%[-])"
 FuriousRamsayPerkMarksmanRifleRank5LongDesc,progression,perk,"Being [aceefc][U]SKILLED[/U][-], you:\n • Do [ff595f]15%[-] more damage\n • Penetrate [ff595f]12.5%[-] armor\n • Reload [ff595f]12.5%[-] faster\n • Fire [ff595f]12.5%[-] faster\n • Preserve your weapon [ff595f]50%[-] longer\n • Can craft [75d181]Scope 4x[-] Lever Action mod"
 FuriousRamsayPerkMarksmanRifleRank6Desc,progression,perk,"[46aba1]Seasoned[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkMarksmanExpPercLvl6:0)}%[-])"
-FuriousRamsayPerkMarksmanRifleRank6LongDesc,progression,perk,"Being [aceefc][U]SEASONED[/U][-], you:\n • Do [ff595f]20%[-] more damage\n • Penetrate [ff595f]15%[-] armor\n • Reload [ff595f]15%[-] faster\n • Fire [ff595f]15%[-] faster\n • Preserve your weapon [ff595f]60%[-] longer\n • Can craft [75d181]Barrel Extender[-] Lever Action mod"
+FuriousRamsayPerkMarksmanRifleRank6LongDesc,progression,perk,"Being [aceefc][U]SEASONED[/U][-], you:\n • Do [ff595f]20%[-] more damage\n • Penetrate [ff595f]15%[-] armor\n • Reload [ff595f]15%[-] faster\n • Fire [ff595f]15%[-] faster\n • Preserve your weapon [ff595f]60%[-] longer\n • Can craft [75d181]Barrel Extender[-] Lever Action mod\n • Can craft [75d181]Machine Guns[-]"
 FuriousRamsayPerkMarksmanRifleRank7Desc,progression,perk,"[46aba1]Proficient[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkMarksmanExpPercLvl7:0)}%[-])"
 FuriousRamsayPerkMarksmanRifleRank7LongDesc,progression,perk,"Being [aceefc][U]PROFICIENT[/U][-], you:\n • Do [ff595f]25%[-] more damage\n • Penetrate [ff595f]20%[-] armor\n • Reload [ff595f]20%[-] faster\n • Fire [ff595f]17.5%[-] faster\n • Preserve your weapon [ff595f]70%[-] longer"
 FuriousRamsayPerkMarksmanRifleRank8Desc,progression,perk,"[46aba1]Advanced[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkMarksmanExpPercLvl8:0)}%[-])"
@@ -2525,7 +2615,7 @@ FuriousRamsayPerkMagnumRank1LongDesc,progression,perk,"Being an [aceefc][U]INITI
 FuriousRamsayPerkMagnumRank2Desc,progression,perk,"[46aba1]Novice[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkMagnumExpPercLvl2:0)}%[-])"
 FuriousRamsayPerkMagnumRank2LongDesc,progression,perk,"Being a [aceefc][U]NOVICE[/U][-], you:\n • Do [ff595f]5%[-] more damage\n • Penetrate [ff595f]5%[-] armor\n • Reload [ff595f]5%[-] faster\n • Fire [ff595f]5%[-] faster\n • Preserve your weapon [ff595f]20%[-] longer"
 FuriousRamsayPerkMagnumRank3Desc,progression,perk,"[46aba1]Competent[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkMagnumExpPercLvl3:0)}%[-])"
-FuriousRamsayPerkMagnumRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Penetrate [ff595f]7.5%[-] armor\n • Reload [ff595f]7.5%[-] faster\n • Fire [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer"
+FuriousRamsayPerkMagnumRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Penetrate [ff595f]7.5%[-] armor\n • Reload [ff595f]7.5%[-] faster\n • Fire [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer\n • Can craft [75d181].44 Magnum[-]"
 FuriousRamsayPerkMagnumRank4Desc,progression,perk,"[46aba1]Talented[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkMagnumExpPercLvl4:0)}%[-])"
 FuriousRamsayPerkMagnumRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Penetrate [ff595f]10%[-] armor\n • Reload [ff595f]10%[-] faster\n • Fire [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer\n • Can craft [75d181]Barrel Extender[-] Magnum mod"
 FuriousRamsayPerkMagnumRank5Desc,progression,perk,"[46aba1]Skilled[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkMagnumExpPercLvl5:0)}%[-])"
@@ -2663,7 +2753,7 @@ FuriousRamsayPerkSubmachineGunRank2LongDesc,progression,perk,"Being a [aceefc][U
 FuriousRamsayPerkSubmachineGunRank3Desc,progression,perk,"[46aba1]Competent[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkSubmachineGunExpPercLvl3:0)}%[-])"
 FuriousRamsayPerkSubmachineGunRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Penetrate [ff595f]7.5%[-] armor\n • Reload [ff595f]7.5%[-] faster\n • Fire [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer"
 FuriousRamsayPerkSubmachineGunRank4Desc,progression,perk,"[46aba1]Talented[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkSubmachineGunExpPercLvl4:0)}%[-])"
-FuriousRamsayPerkSubmachineGunRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Penetrate [ff595f]10%[-] armor\n • Reload [ff595f]10%[-] faster\n • Fire [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer\n • Can craft [75d181]Fore Grip[-] Submachine Gun mod"
+FuriousRamsayPerkSubmachineGunRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Penetrate [ff595f]10%[-] armor\n • Reload [ff595f]10%[-] faster\n • Fire [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer\n • Can craft [75d181]Fore Grip[-] Submachine Gun mod\n • Can craft [75d181]Submachine Guns[-]"
 FuriousRamsayPerkSubmachineGunRank5Desc,progression,perk,"[46aba1]Skilled[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkSubmachineGunExpPercLvl5:0)}%[-])"
 FuriousRamsayPerkSubmachineGunRank5LongDesc,progression,perk,"Being [aceefc][U]SKILLED[/U][-], you:\n • Do [ff595f]15%[-] more damage\n • Penetrate [ff595f]12.5%[-] armor\n • Reload [ff595f]12.5%[-] faster\n • Fire [ff595f]12.5%[-] faster\n • Preserve your weapon [ff595f]50%[-] longer"
 FuriousRamsayPerkSubmachineGunRank6Desc,progression,perk,"[46aba1]Seasoned[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkSubmachineGunExpPercLvl6:0)}%[-])"
@@ -2753,7 +2843,7 @@ FuriousRamsayPerkPistolRank1LongDesc,progression,perk,"Being an [aceefc][U]INITI
 FuriousRamsayPerkPistolRank2Desc,progression,perk,"[46aba1]Novice[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkPistolExpPercLvl2:0)}%[-])"
 FuriousRamsayPerkPistolRank2LongDesc,progression,perk,"Being a [aceefc][U]NOVICE[/U][-], you:\n • Do [ff595f]5%[-] more damage\n • Penetrate [ff595f]5%[-] armor\n • Reload [ff595f]5%[-] faster\n • Fire [ff595f]5%[-] faster\n • Preserve your weapon [ff595f]20%[-] longer"
 FuriousRamsayPerkPistolRank3Desc,progression,perk,"[46aba1]Competent[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkPistolExpPercLvl3:0)}%[-])"
-FuriousRamsayPerkPistolRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Penetrate [ff595f]7.5%[-] armor\n • Reload [ff595f]7.5%[-] faster\n • Fire [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer"
+FuriousRamsayPerkPistolRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Penetrate [ff595f]7.5%[-] armor\n • Reload [ff595f]7.5%[-] faster\n • Fire [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer\n • Can craft [75d181]Pistols[-]"
 FuriousRamsayPerkPistolRank4Desc,progression,perk,"[46aba1]Talented[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkPistolExpPercLvl4:0)}%[-])"
 FuriousRamsayPerkPistolRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Penetrate [ff595f]10%[-] armor\n • Reload [ff595f]10%[-] faster\n • Fire [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer\n • Can craft [75d181]Laser Sight[-] Pistol mod"
 FuriousRamsayPerkPistolRank5Desc,progression,perk,"[46aba1]Skilled[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkPistolExpPercLvl5:0)}%[-])"
@@ -2855,7 +2945,7 @@ FuriousRamsayPerkDesertVultureRank2LongDesc,progression,perk,"Being a [aceefc][U
 FuriousRamsayPerkDesertVultureRank3Desc,progression,perk,"[46aba1]Competent[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkDesertVultureExpPercLvl3:0)}%[-])"
 FuriousRamsayPerkDesertVultureRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Penetrate [ff595f]7.5%[-] armor\n • Reload [ff595f]7.5%[-] faster\n • Fire [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer"
 FuriousRamsayPerkDesertVultureRank4Desc,progression,perk,"[46aba1]Talented[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkDesertVultureExpPercLvl4:0)}%[-])"
-FuriousRamsayPerkDesertVultureRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Penetrate [ff595f]10%[-] armor\n • Reload [ff595f]10%[-] faster\n • Fire [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer"
+FuriousRamsayPerkDesertVultureRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Penetrate [ff595f]10%[-] armor\n • Reload [ff595f]10%[-] faster\n • Fire [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer\n • Can craft [75d181]Desert Vultures[-]"
 FuriousRamsayPerkDesertVultureRank5Desc,progression,perk,"[46aba1]Skilled[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkDesertVultureExpPercLvl5:0)}%[-])"
 FuriousRamsayPerkDesertVultureRank5LongDesc,progression,perk,"Being [aceefc][U]SKILLED[/U][-], you:\n • Do [ff595f]15%[-] more damage\n • Penetrate [ff595f]12.5%[-] armor\n • Reload [ff595f]12.5%[-] faster\n • Fire [ff595f]12.5%[-] faster\n • Preserve your weapon [ff595f]50%[-] longer\n • Can craft [75d181]Scope 2x[-] Desert Vulture mod"
 FuriousRamsayPerkDesertVultureRank6Desc,progression,perk,"[46aba1]Seasoned[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkDesertVultureExpPercLvl6:0)}%[-])"
@@ -2938,6 +3028,52 @@ FuriousRamsayPerkChefRangedKnockdownAuraRank9LongDesc,progression,perk,"At [acee
 FuriousRamsayPerkChefRangedKnockdownAuraRank10Desc,progression,perk,"Aura Level 10 ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayAttributeChefExpPercLvl10:0)}%[-])"
 FuriousRamsayPerkChefRangedKnockdownAuraRank10LongDesc,progression,perk,"At [aceefc][U]LEVEL 1[/U][-]:\n • Nearby allies have a [f6f792]40%[-] chance to knock ennemies down with ranged weapons\n • You have a [f6f792]20%[-] chance to knock ennemies down with ranged weapons"
 
+FuriousRamsayPerkScytheName,progression,perk,Scythes
+FuriousRamsayPerkScytheDesc,progression,perk,"Specialize in Scythes"
+FuriousRamsayPerkScytheRank1Desc,progression,perk,"[46aba1]Initiate[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkScytheExpPercLvl1:0)}%[-])"
+FuriousRamsayPerkScytheRank1LongDesc,progression,perk,"Being an [aceefc][U]INITIATE[/U][-], you:\n • Do [ff595f]2.5%[-] more damage\n • Attack [ff595f]2.5%[-] faster\n • Preserve your weapon [ff595f]10%[-] longer"
+FuriousRamsayPerkScytheRank2Desc,progression,perk,"[46aba1]Novice[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkScytheExpPercLvl2:0)}%[-])"
+FuriousRamsayPerkScytheRank2LongDesc,progression,perk,"Being a [aceefc][U]NOVICE[/U][-], you:\n • Do [ff595f]5%[-] more damage\n • Attack [ff595f]5%[-] faster\n • Preserve your weapon [ff595f]20%[-] longer\n • Can craft a [75d181]Ergonomic Grip[-] Scythe mod"
+FuriousRamsayPerkScytheRank3Desc,progression,perk,"[46aba1]Competent[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkScytheExpPercLvl3:0)}%[-])"
+FuriousRamsayPerkScytheRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Attack [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer"
+FuriousRamsayPerkScytheRank4Desc,progression,perk,"[46aba1]Talented[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkScytheExpPercLvl4:0)}%[-])"
+FuriousRamsayPerkScytheRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Attack [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer\n • Can craft a [75d181]Serrated Blade[-] Scythe mod\n • Can craft a [75d181]Marine Force Sawback Bowie[-]\n • Can craft a [75d181]TBD[-]"
+FuriousRamsayPerkScytheRank5Desc,progression,perk,"[46aba1]Skilled[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkScytheExpPercLvl5:0)}%[-])"
+FuriousRamsayPerkScytheRank5LongDesc,progression,perk,"Being [aceefc][U]SKILLED[/U][-], you:\n • Do [ff595f]15%[-] more damage\n • Attack [ff595f]12.5%[-] faster\n • Preserve your weapon [ff595f]50%[-] longer\n • Can craft a [75d181]Burning Shaft[-] Scythe mod"
+FuriousRamsayPerkScytheRank6Desc,progression,perk,"[46aba1]Seasoned[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkScytheExpPercLvl6:0)}%[-])"
+FuriousRamsayPerkScytheRank6LongDesc,progression,perk,"Being [aceefc][U]SEASONED[/U][-], you:\n • Do [ff595f]20%[-] more damage\n • Attack [ff595f]15%[-] faster\n • Preserve your weapon [ff595f]60%[-] longer\n • Can craft a [75d181]TBD[-]\n • Can craft a [75d181]TBD[-]"
+FuriousRamsayPerkScytheRank7Desc,progression,perk,"[46aba1]Proficient[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkScytheExpPercLvl7:0)}%[-])"
+FuriousRamsayPerkScytheRank7LongDesc,progression,perk,"Being [aceefc][U]PROFICIENT[/U][-], you:\n • Do [ff595f]25%[-] more damage\n • Attack [ff595f]17.5%[-] faster\n • Preserve your weapon [ff595f]70%[-] longer"
+FuriousRamsayPerkScytheRank8Desc,progression,perk,"[46aba1]Advanced[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkScytheExpPercLvl8:0)}%[-])"
+FuriousRamsayPerkScytheRank8LongDesc,progression,perk,"Being [aceefc][U]ADVANCED[/U][-], you:\n • Do [ff595f]30%[-] more damage\n • Attack [ff595f]20%[-] faster\n • Preserve your weapon [ff595f]80%[-] longer\n • Can craft [75d181]TBD[-]"
+FuriousRamsayPerkScytheRank9Desc,progression,perk,"[46aba1]Expert[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkScytheExpPercLvl9:0)}%[-])"
+FuriousRamsayPerkScytheRank9LongDesc,progression,perk,"Being an [aceefc][U]EXPERT[/U][-], you:\n • Do [ff595f]40%[-] more damage\n • Attack [ff595f]22.5%[-] faster\n • Preserve your weapon [ff595f]100%[-] longer"
+FuriousRamsayPerkScytheRank10Desc,progression,perk,"[46aba1]Master[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkScytheExpPercLvl10:0)}%[-])"
+FuriousRamsayPerkScytheRank10LongDesc,progression,perk,"Being a [aceefc][U]MASTER[/U][-], you:\n • Do [ff595f]50%[-] more damage\n • Attack [ff595f]25%[-] faster\n • Preserve your weapon [ff595f]120%[-] longer"
+
+FuriousRamsayPerkTacticalAssaultRifleName,progression,perk,Tactical Assault Rifles
+FuriousRamsayPerkTacticalAssaultRifleDesc,progression,perk,"Specialize in Tactical Assault Rifles"
+FuriousRamsayPerkTacticalAssaultRifleRank1Desc,progression,perk,"[46aba1]Initiate[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkTacticalAssaultRifleExpPercLvl1:0)}%[-])"
+FuriousRamsayPerkTacticalAssaultRifleRank1LongDesc,progression,perk,"Being an [aceefc][U]INITIATE[/U][-], you:\n • Do [ff595f]2.5%[-] more damage\n • Attack [ff595f]2.5%[-] faster\n • Preserve your weapon [ff595f]10%[-] longer"
+FuriousRamsayPerkTacticalAssaultRifleRank2Desc,progression,perk,"[46aba1]Novice[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkTacticalAssaultRifleExpPercLvl2:0)}%[-])"
+FuriousRamsayPerkTacticalAssaultRifleRank2LongDesc,progression,perk,"Being a [aceefc][U]NOVICE[/U][-], you:\n • Do [ff595f]5%[-] more damage\n • Attack [ff595f]5%[-] faster\n • Preserve your weapon [ff595f]20%[-] longer"
+FuriousRamsayPerkTacticalAssaultRifleRank3Desc,progression,perk,"[46aba1]Competent[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkTacticalAssaultRifleExpPercLvl3:0)}%[-])"
+FuriousRamsayPerkTacticalAssaultRifleRank3LongDesc,progression,perk,"Being [aceefc][U]COMPETENT[/U][-], you:\n • Do [ff595f]7.5%[-] more damage\n • Attack [ff595f]7.5%[-] faster\n • Preserve your weapon [ff595f]30%[-] longer"
+FuriousRamsayPerkTacticalAssaultRifleRank4Desc,progression,perk,"[46aba1]Talented[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkTacticalAssaultRifleExpPercLvl4:0)}%[-])"
+FuriousRamsayPerkTacticalAssaultRifleRank4LongDesc,progression,perk,"Being [aceefc][U]TALENTED[/U][-], you:\n • Do [ff595f]10%[-] more damage\n • Attack [ff595f]10%[-] faster\n • Preserve your weapon [ff595f]40%[-] longer\n • Can craft [75d181]Retracting Stock[-] Tactical Assault Rifle mod\n • Can craft a [75d181]Tactical Assault Rifle[-]"
+FuriousRamsayPerkTacticalAssaultRifleRank5Desc,progression,perk,"[46aba1]Skilled[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkTacticalAssaultRifleExpPercLvl5:0)}%[-])"
+FuriousRamsayPerkTacticalAssaultRifleRank5LongDesc,progression,perk,"Being [aceefc][U]SKILLED[/U][-], you:\n • Do [ff595f]15%[-] more damage\n • Attack [ff595f]12.5%[-] faster\n • Preserve your weapon [ff595f]50%[-] longer"
+FuriousRamsayPerkTacticalAssaultRifleRank6Desc,progression,perk,"[46aba1]Seasoned[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkTacticalAssaultRifleExpPercLvl6:0)}%[-])"
+FuriousRamsayPerkTacticalAssaultRifleRank6LongDesc,progression,perk,"Being [aceefc][U]SEASONED[/U][-], you:\n • Do [ff595f]20%[-] more damage\n • Attack [ff595f]15%[-] faster\n • Preserve your weapon [ff595f]60%[-] longer\n • Can craft [75d181]Muzzle Brake[-] Tactical Assault Rifle mod"
+FuriousRamsayPerkTacticalAssaultRifleRank7Desc,progression,perk,"[46aba1]Proficient[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkTacticalAssaultRifleExpPercLvl7:0)}%[-])"
+FuriousRamsayPerkTacticalAssaultRifleRank7LongDesc,progression,perk,"Being [aceefc][U]PROFICIENT[/U][-], you:\n • Do [ff595f]25%[-] more damage\n • Attack [ff595f]17.5%[-] faster\n • Preserve your weapon [ff595f]70%[-] longer\n • Can craft [75d181]Drum Magazine[-] Tactical Assault Rifle mod"
+FuriousRamsayPerkTacticalAssaultRifleRank8Desc,progression,perk,"[46aba1]Advanced[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkTacticalAssaultRifleExpPercLvl8:0)}%[-])"
+FuriousRamsayPerkTacticalAssaultRifleRank8LongDesc,progression,perk,"Being [aceefc][U]ADVANCED[/U][-], you:\n • Do [ff595f]30%[-] more damage\n • Attack [ff595f]20%[-] faster\n • Preserve your weapon [ff595f]80%[-] longer"
+FuriousRamsayPerkTacticalAssaultRifleRank9Desc,progression,perk,"[46aba1]Expert[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkTacticalAssaultRifleExpPercLvl9:0)}%[-])"
+FuriousRamsayPerkTacticalAssaultRifleRank9LongDesc,progression,perk,"Being an [aceefc][U]EXPERT[/U][-], you:\n • Do [ff595f]40%[-] more damage\n • Attack [ff595f]22.5%[-] faster\n • Preserve your weapon [ff595f]100%[-] longer"
+FuriousRamsayPerkTacticalAssaultRifleRank10Desc,progression,perk,"[46aba1]Master[-] ([I]Progress[/I]: [75d181]{cvar($varFuriousRamsayPerkTacticalAssaultRifleExpPercLvl10:0)}%[-])"
+FuriousRamsayPerkTacticalAssaultRifleRank10LongDesc,progression,perk,"Being a [aceefc][U]MASTER[/U][-], you:\n • Do [ff595f]50%[-] more damage\n • Attack [ff595f]25%[-] faster\n • Preserve your weapon [ff595f]120%[-] longer"
+
 dialog_FuriousRamsayMedicalAndroid_statement_start,Quest,Dialogs,"I carry medecine of all kinds"
 
 dialog_FuriousRamsaySurvivalSpecialist_statement_start,Quest,Dialogs,"Is it time for some training?"
@@ -3007,6 +3143,8 @@ FuriousRamsayContainerTrainerBuilderDesc,blocks,Block,"Training Supplies to get 
 FuriousRamsayContainerTrainerChef,blocks,Block,Sous-Chef Training Supplies
 FuriousRamsayContainerContentTrainerChef,blocks,Block,Sous-Chef Training Supplies
 FuriousRamsayContainerTrainerChefDesc,blocks,Block,"Training Supplies to get you started with your training as a Sous-Chef"
+FuriousRamsayContainerContentTrainerWitchDoctor,blocks,Block,Witch Doctor Training Supplies
+FuriousRamsayContainerTrainerWitchDoctorDesc,blocks,Block,"Training Supplies to get you started with your training as a Witch Doctor"
 
 FuriousRamsayZombieArlene,entityclasses,Entity,Zombie Arlene
 FuriousRamsayZombieBoe,entityclasses,Entity,Zombie Boe
@@ -4011,6 +4149,10 @@ FuriousRamsayAttBuilderName,progression,Attribute,The Builder
 furiousramsayattchef,progression,Attribute,The Sous-Chef
 FuriousRamsayAttChefDesc,progression,Attribute,"The [878787]SOUS-CHEF[-] specializes in better digestion.\n\n[a588a6]Strengths[-]: Knives, the Desert Vulture and Robotics"
 FuriousRamsayAttChefName,progression,Attribute,The Sous-Chef
+
+furiousramsayattwitchdoctor,progression,Attribute,The Witch Doctor
+FuriousRamsayAttWitchDoctorDesc,progression,Attribute,"The [878787]WITCH DOCTOR[-] specializes in mind control.\n\n[a588a6]Strengths[-]: TBD"
+FuriousRamsayAttWitchDoctorName,progression,Attribute,The Witch Doctor
 
 quest_FuriousRamsayHunterTraining_subtitle,Quests,Quests,The Path of the Hunter
 quest_FuriousRamsayHunterTraining_description,Quests,Quests,"Start down the path of the Hunter"

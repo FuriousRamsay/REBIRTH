@@ -45,23 +45,53 @@ Add PartyGirlRadiated
 Add zombieTomClark(s)
 
 REBIRTH:
-(TESTING ONLY) Rebirth Version A20.3Exp-2022-03-29-0000 (TESTING ONLY)
-(QUICK FIX)
-Fixed missing head collider tag for some male bandits
-Fixed some hostile entities spawning as invisible on dedicated servers
-Reduced Survivor Physical Resistance
-http://38.17.55.139/Rebirth-2022-03-29-0000.zip
+(TESTING ONLY) Rebirth Version A20.3Exp-2022-03-30-1215 (TESTING ONLY)
+(WILL REQUIRE A NEW PLAYTHROUGH)
+Butcher class expertise is now AK-47s
+Classes can now craft ranged weapons aligned to their expertise once they reach a level where they can train in them
+Added Witch Doctor class:
+	- Expertise: Scythes, Tactical Assault Rifles
+Added weapon crafting for each class' expertise
+http://38.17.55.139/Rebirth-2022-03-30-1215.zip
 
 TODO:
-Test faction wars (no survivors?) and the hunt quests
-Reduce reach of werewolve (bear hands atm)
-fall damage to 0 for npcs
-Give starter briston a compass icon
-Your stamina has been boosted for 10 minutes (maybe remove tips for drinks?)
-Dog doesn't react to stay and attack
+Check Repulsor mod
 
-Patch Entityzombie to candamage, maybe through a new class
-Make zombies fight each other if they hurt each other
+REBIRTH DIR:
+Update Witch Doctor Buff localization when ready
+Update gamevents for witch doctor when trainer and weapons are ready
+Update items.xml when Scythes are ready:
+<append xpath="/items/item[@name='meleeWpnBladeT0BoneKnife' or 
+								@name='FuriousRamsayKnife003_FR'
+								]">
+
+Add these to new Scythes:
+All:
+		<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeChefClass" operation="Equals" value="1"/>
+End tier:
+		<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeButcherClass" operation="Equals" value="1"/>
+		<requirement name="PlayerLevel" operation="GTE" value="40" />
+
+Update Loot.xml when starter Scythe is ready:
+<!--<item name="SCYTHE" quality="2" count="1"/>-->
+
+BLOCKS DIR:
+Update Localization :
+FuriousRamsayImportantChefScythesWeapon1Desc
+items.xml:
+Update FuriousRamsayClassXPScythe icon
+recipes.xml:
+update recipe <!-- STARTER SCYTHE -->
+
+ENTITIES DIR:
+update blocks.xml: FuriousRamsaySpawnTrainerWitchDoctor_FR
+Update Entityclasses.xml: FuriousRamsayTrainerWitchDoctor_FR
+
+Graphics:
+FR_ClassInfoBookWitchDoctor_icon
+MindControlAuraMod_icon
+npc_witchdoctor
+
 Update descriptions to indicate level 40 requirement on end tier weapons
 
 Dog anim stops on dedi after a while

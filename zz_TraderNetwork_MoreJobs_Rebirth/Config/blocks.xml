@@ -746,6 +746,54 @@
 			<drop event="Fall" name="FuriousRamsayContainerContentTrainerChef" count="1" prob="1" stick_chance="1"/>
 		</block>
 
+		<!-- WITCH DOCTOR -->
+		<block name="FuriousRamsayContainerTrainerWitchDoctor">
+			<property name="DescriptionKey" value="FuriousRamsayContainerTrainerWitchDoctorDesc"/>
+			<property name="CustomIcon" value="cntGarageStorage"/>
+			<property name="CustomIconTint" value="80, 80, 80"/>
+
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="FuriousRamsayContainerContentTrainerWitchDoctor"/>
+			<property name="PlantGrowing.GrowthRate" value="0"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="Shape" value="New"/>
+			<property name="Material" value="MCardboardLoot"/>
+			<property name="Path" value="solid"/>
+			<property name="Texture" value="276,276,270,270,270,270"/>
+			<property name="Model" value="cube_no_cull"/>
+			<property name="MaxDamage" value="10000"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="OnlySimpleRotations" value="true"/>			
+			<drop event="Destroy" count="0"/>
+			<property name="Stacknumber" value="1"/>
+			<drop event="Fall" name="FuriousRamsayContainerTrainerWitchDoctor" count="1" prob="1" stick_chance="1"/>
+		</block>
+		<block name="FuriousRamsayContainerContentTrainerWitchDoctor">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="FuriousRamsayContainerTrainerWitchDoctorDesc"/>
+			<property name="CustomIcon" value="cntGarageStorage"/>
+			<property name="CustomIconTint" value="80, 80, 80"/>
+
+			<property name="Class" value="Loot"/>
+			<property name="Shape" value="New"/>
+			<property name="Material" value="MCardboardLoot"/>
+			<property name="Path" value="solid"/>
+			<property name="Texture" value="276,276,270,270,270,270"/>
+			<property name="Model" value="cube_no_cull"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Candrop" value="false"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="MaxDamage" value="1000"/>
+			<drop event="Destroy" count="0"/>
+			<property name="LootList" value="FuriousRamsayLootContainerTrainerWitchDoctor"/>
+			<drop event="Fall" name="FuriousRamsayContainerContentTrainerWitchDoctor" count="1" prob="1" stick_chance="1"/>
+		</block>
+
 		<block name="FuriousRamsaySpawnSurvivalSpecialist">
 			<property name="CreativeMode" value="None"/>
 			<property name="Extends" value="air"/>

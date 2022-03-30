@@ -130,6 +130,17 @@
 			/>
 
 		<npc_info
+			id="FuriousRamsayWitchDoctorTrainerNPC"
+			name="Witch Doctor Trader"
+			name_key="npc_witchdoctortrainer"
+			faction="trader"
+			portrait="npc_witchdoctor"
+			greeting_type="nearby"
+			stance="Like" voice_set=""
+			trader_id="80" dialog_id="FuriousRamsayPersonalTrainerWitchDoctor"
+			/>
+
+		<npc_info
 			id="FuriousRamsayFarmerTraderNPC"
 			name="Farmer Trader"
 			name_key="npc_farmer"

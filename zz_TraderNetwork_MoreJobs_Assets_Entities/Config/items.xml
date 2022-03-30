@@ -1,6 +1,26 @@
 <configs>
 	<append xpath="/items">
 	
+		<item name="FuriousRamsayMeleeHandWerewolfTier1">
+			<property name="Extends" value="meleeHandMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="HoldType" value="46"/>
+			<property class="Action0">
+				<property name="Delay" value="1.5"/>
+				<property name="Range" value="2.5"/>
+				<property name="Sphere" value=".3"/>
+				<property name="DamageEntity" value="25"/>
+				<property name="DamageBlock" value="50"/>
+			</property>
+			<effect_group name="FuriousRamsayMeleeHandWerewolfTier1" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+				<!--<passive_effect name="AttacksPerMinute" operation="base_set" value="40"/>  A16 1.5 -->
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+					buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+					weights=".11,.07,.07,.05,.29,.36,.11"/>
+			</effect_group>
+		</item>
+
 		<item name="FuriousRamsayNPCKatana003"> 
 			<property name="Extends" value="meleeNPCMachete"/>
 			<property name="Meshfile" value="#@modfolder(zz_TraderNetwork_MoreJobs_Assets_Blocks):Resources/FR_Swords.unity3d?ItemsWeaponsKatana003_FR"/>

@@ -541,6 +541,9 @@
 			<triggered_effect trigger="onSelfEnteredGame" action="AddBuff" target="self" buff="FuriousRamsayReloadConstantsChefKnife"/>
 			<triggered_effect trigger="onSelfEnteredGame" action="AddBuff" target="self" buff="FuriousRamsayReloadConstantsChefDesertVulture"/>
 			<triggered_effect trigger="onSelfEnteredGame" action="AddBuff" target="self" buff="FuriousRamsayReloadConstantsChefRobotics"/>
+			<triggered_effect trigger="onSelfEnteredGame" action="AddBuff" target="self" buff="FuriousRamsayReloadConstantsWitchDoctor"/>
+			<triggered_effect trigger="onSelfEnteredGame" action="AddBuff" target="self" buff="FuriousRamsayReloadConstantsWitchDoctorScythe"/>
+			<triggered_effect trigger="onSelfEnteredGame" action="AddBuff" target="self" buff="FuriousRamsayReloadConstantsWitchDoctorTacticalAssaultRifle"/>
 			<triggered_effect trigger="onSelfEnteredGame" action="AddBuff" target="self" buff="FuriousRamsayVerifyBuffs"/>
 
 		<!-- VERIFY LEARN BY DOING -->
@@ -575,6 +578,10 @@
 			<triggered_effect trigger="onSelfEnteredGame" action="AddBuff" buff="VerifyFuriousRamsayLearnByDoingChef">
 				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeChefClass" operation="Equals" value="1"/>
 				<requirement name="NotHasBuff" target="self" buff="VerifyFuriousRamsayLearnByDoingChef"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfEnteredGame" action="AddBuff" buff="VerifyFuriousRamsayLearnByDoingWitchDoctor">
+				<requirement name="CVarCompare" cvar="$varFuriousRamsayAttributeWitchDoctorClass" operation="Equals" value="1"/>
+				<requirement name="NotHasBuff" target="self" buff="VerifyFuriousRamsayLearnByDoingWitchDoctor"/>
 			</triggered_effect>
 		</effect_group>
 

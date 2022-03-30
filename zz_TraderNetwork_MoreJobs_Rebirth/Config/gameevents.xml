@@ -388,13 +388,6 @@ spideralert
 		</action_sequence>
 		<!-- SURVIVORS -->
 		<action_sequence name="spawn_FuriousRamsay_FactionWarWave1Survivors_Tier1">
-			<!--<action class="SpawnEntity">
-				<property name="entity_names" value="FuriousRamsaySurvivorMan012aPipeShotgunTier1NoHire"/>
-				<property name="min_distance" value="5" />
-				<property name="max_distance" value="5" />
-				<property name="spawn_count" value="1" />
-				<property name="phase" value="1" />
-			</action>-->
 			<action class="SpawnEntity">
 				<property name="entity_names" value="FuriousRamsaySurvivorMan010bBatTier1NoHire"/>
 				<property name="min_distance" value="10" />
@@ -427,6 +420,13 @@ spideralert
 				<property name="entity_names" value="FuriousRamsaySurvivorMan001b2PipePistolTier1NoHire"/>
 				<property name="min_distance" value="14" />
 				<property name="max_distance" value="14" />
+				<property name="spawn_count" value="1" />
+				<property name="phase" value="1" />
+			</action>-->
+			<!--<action class="SpawnEntity">
+				<property name="entity_names" value="FuriousRamsaySurvivorMan012aPipeShotgunTier1NoHire"/>
+				<property name="min_distance" value="5" />
+				<property name="max_distance" value="5" />
 				<property name="spawn_count" value="1" />
 				<property name="phase" value="1" />
 			</action>-->
@@ -585,6 +585,13 @@ spideralert
 				<property name="phase" value="1" />
 			</action>
 		</action_sequence>
+		<action_sequence name="spawn_FuriousRamsay_RangedAuraWitchDoctor">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantAuraDoctor" />
+				<property name="added_item_counts" value="1" />
+				<property name="phase" value="1" />
+			</action>
+		</action_sequence>
 
 		<!-- ADD COMPANION NOTE -->
 		<action_sequence name="spawn_FuriousRamsay_Decoys">
@@ -633,7 +640,7 @@ spideralert
 			</action>
 		</action_sequence>
 	<!-- BUTCHER -->
-		<!-- ASSAULT RIFLE -->
+		<!-- AK-47 -->
 		<action_sequence name="FuriousRamsayAddItemAssaultRifle">
 			<action class="AddItems">
 				<property name="added_items" value="gunMGT1AK47,FuriousRamsayImportantAssaultRifle" />
@@ -702,6 +709,15 @@ spideralert
 			<action class="AddItems">
 				<property name="added_items" value="gunHandgunT3DesertVulture,FuriousRamsayImportantDesertVulture" />
 				<property name="added_item_counts" value="1,1" />
+			</action>
+		</action_sequence>
+	<!-- WITCH DOCTOR -->
+		<!-- TACTICAL ASSAULT RIFLE -->
+		<action_sequence name="FuriousRamsayAddItemTacticalAssaultRifle">
+			<action class="AddItems">
+				<property name="added_items" value="gunMGT2TacticalAR,FuriousRamsayImportantTacticalAssaultRifle" />
+				<property name="added_item_counts" value="1,1" />
+				<property name="phase" value="1" />
 			</action>
 		</action_sequence>
 
@@ -882,6 +898,13 @@ spideralert
 				<property name="added_item_counts" value="1,1" />
 			</action>
 		</action_sequence>
+		<!-- SCYTHES -->
+		<!--<action_sequence name="FuriousRamsayImportantWitchDoctorScythesWeapon1">
+			<action class="AddItems">
+				<property name="added_items" value="FuriousRamsayImportantChefKnivesWeapon1,FuriousRamsayKnife002_FR,ItemsWeaponsCleaver001_FR" />
+				<property name="added_item_counts" value="1,1,1" />
+			</action>
+		</action_sequence>-->
 
 		<action_sequence name="FuriousRamsayAddItemGeneticsPerkBook">
 			<action class="AddItems">
@@ -983,6 +1006,12 @@ spideralert
 				<property name="added_items" value="FuriousRamsaySpawnTrainerChef_FR,FuriousRamsayImportantComponents" />
 				<property name="added_item_counts" value="1,1" />
 			</action>
+		</action_sequence>	
+		<action_sequence name="spawn_FuriousRamsay_TrainerWitchDoctor">
+			<!--<action class="AddItems">
+				<property name="added_items" value="FuriousRamsaySpawnTrainerWitchDoctor_FR,FuriousRamsayImportantComponents" />
+				<property name="added_item_counts" value="1,1" />
+			</action>-->
 		</action_sequence>	
 		<!-- challenge_FuriousRamsayStarterGhosts -->
 		<action_sequence name="spawn_QuestStarterGhostsStart">

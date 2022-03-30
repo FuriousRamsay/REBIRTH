@@ -31,9 +31,9 @@
 	</append>
 
 	<!-- SKILLS LIST -->
-	<set xpath="/windows/window[@name='windowSkillList']/panel[@name='content']/rect[@name='categoryHeader']/panel/grid[@name='categories' and @cols='8']/@cell_width">30</set>
-	<set xpath="/windows/window[@name='windowSkillList']/panel[@name='content']/rect[@name='categoryHeader']/panel/grid[@name='categories' and @cols='8']/@cell_height">30</set>
-	<set xpath="/windows/window[@name='windowSkillList']/panel[@name='content']/rect[@name='categoryHeader']/panel/grid[@name='categories' and @cols='8']/@cols">12</set>
+	<set xpath="/windows/window[@name='windowSkillList']/panel[@name='content']/rect[@name='categoryHeader']/panel/grid[@name='categories' and @cols='8']/@cell_width">29</set>
+	<set xpath="/windows/window[@name='windowSkillList']/panel[@name='content']/rect[@name='categoryHeader']/panel/grid[@name='categories' and @cols='8']/@cell_height">29</set>
+	<set xpath="/windows/window[@name='windowSkillList']/panel[@name='content']/rect[@name='categoryHeader']/panel/grid[@name='categories' and @cols='8']/@cols">13</set>
 	<set xpath="/windows/window[@name='windowSkillList']/panel[@name='content']/rect[@name='categoryHeader']/panel[@width='200']/@pos">404,0</set>
 	<!--<set xpath="/windows/window[@name='windowSkillList']/panel[@name='content']/rect[@name='categoryHeader']/panel[@controller='Paging']/@pos">542,0</set>-->
 	<!--<set xpath="/windows/window[@name='windowSkillList']/panel[@name='content']/rect[@name='categoryHeader']/panel[@controller='Paging']/button[@name='pageDown']/@pos">22,-22</set>
@@ -124,6 +124,12 @@
 						<label depth="8" name="FuriousRamsayClassLevelCaptionLabel" pos="-23,-3" width="{cvar($varFuriousRamsayClassChefWidth)}" height="{cvar($varFuriousRamsayClassChefHeight)}" justify="right" color="{cvar($varFuriousRamsayClassChefColor)},{cvar($varFuriousRamsayClassChefColor)},{cvar($varFuriousRamsayClassChefColor)}" text="LVL" font_size="18"/>
 						<label depth="8" name="FuriousRamsayClassLevelNumberLabel" pos="217,-3" width="{cvar($varFuriousRamsayClassChefWidth)}" height="{cvar($varFuriousRamsayClassChefHeight)}" justify="left" color="{cvar($varFuriousRamsayClassChefColor)},{cvar($varFuriousRamsayClassChefColor)},{cvar($varFuriousRamsayClassChefColor)}" text="{cvar($varFuriousRamsayClassLevel)}" font_size="18"/>
 					</rect>
+					<rect name="FuriousRamsayClassWitchDoctor" width="237" depth="2" pos="10,15" height="25" globalopacity="false">
+						<label depth="8" name="FuriousRamsayClassPercentageLabel" pos="5,-5" width="{cvar($varFuriousRamsayClassWitchDoctorWidth)}" height="{cvar($varFuriousRamsayClassWitchDoctorHeight)}" justify="center" color="220,220,220" text="{cvar($varFuriousRamsayClassPerc):0.00}%" font_size="14"/>
+						<label depth="8" name="FuriousRamsayClassNameLabel" pos="5,-3" width="{cvar($varFuriousRamsayClassWitchDoctorWidth)}" height="{cvar($varFuriousRamsayClassWitchDoctorHeight)}" justify="left" color="{cvar($varFuriousRamsayClassWitchDoctorColor)},{cvar($varFuriousRamsayClassWitchDoctorColor)},{cvar($varFuriousRamsayClassWitchDoctorColor)}" text="WitchDoctor" font_size="18"/>
+						<label depth="8" name="FuriousRamsayClassLevelCaptionLabel" pos="-23,-3" width="{cvar($varFuriousRamsayClassWitchDoctorWidth)}" height="{cvar($varFuriousRamsayClassWitchDoctorHeight)}" justify="right" color="{cvar($varFuriousRamsayClassWitchDoctorColor)},{cvar($varFuriousRamsayClassWitchDoctorColor)},{cvar($varFuriousRamsayClassWitchDoctorColor)}" text="LVL" font_size="18"/>
+						<label depth="8" name="FuriousRamsayClassLevelNumberLabel" pos="217,-3" width="{cvar($varFuriousRamsayClassWitchDoctorWidth)}" height="{cvar($varFuriousRamsayClassWitchDoctorHeight)}" justify="left" color="{cvar($varFuriousRamsayClassWitchDoctorColor)},{cvar($varFuriousRamsayClassWitchDoctorColor)},{cvar($varFuriousRamsayClassWitchDoctorColor)}" text="{cvar($varFuriousRamsayClassLevel)}" font_size="18"/>
+					</rect>
 
 					<rect name="FuriousRamsayAttributeStrength" width="100" depth="2" pos="8,-15" height="15">
 						<filledsprite depth="5" name="background" pos="0,0" color="0,0,0,255" height="15" width="100" globalopacity="false" type="filled" fill="1" />
@@ -178,6 +184,11 @@
 						<label depth="8" name="FuriousRamsayPerk1LevelCaptionLabel" pos="73,-1" width="{cvar($varFuriousRamsayPerk1LevelCaptionWidthKnives)}" height="{cvar($varFuriousRamsayPerk1HeightKnives)}" justify="right" color="{cvar($varFuriousRamsayPerk1ColorKnives)},{cvar($varFuriousRamsayPerk1ColorKnives)},{cvar($varFuriousRamsayPerk1ColorKnives)}" text="LVL" font_size="12"/>
 						<label depth="8" name="FuriousRamsayPerk1LevelNumberLabel" pos="120,-1" width="{cvar($varFuriousRamsayPerk1LevelNumberWidthKnives)}" height="{cvar($varFuriousRamsayPerk1HeightKnives)}" justify="left" color="{cvar($varFuriousRamsayPerk1ColorKnives)},{cvar($varFuriousRamsayPerk1ColorKnives)},{cvar($varFuriousRamsayPerk1ColorKnives)}" text="{cvar($varFuriousRamsayPerk1Level)}" font_size="12"/>
 					</rect>
+					<rect name="FuriousRamsayPerkScythes" width="134" depth="2" pos="115,-15" height="15">
+						<label depth="8" name="FuriousRamsayPerk1NameLabel" pos="3,-1" width="{cvar($varFuriousRamsayPerk1NameWidthScythes)}" height="{cvar($varFuriousRamsayPerk1HeightScythes)}" justify="left" color="[white]" text="Scythes" font_size="12"/>
+						<label depth="8" name="FuriousRamsayPerk1LevelCaptionLabel" pos="73,-1" width="{cvar($varFuriousRamsayPerk1LevelCaptionWidthScythes)}" height="{cvar($varFuriousRamsayPerk1HeightScythes)}" justify="right" color="{cvar($varFuriousRamsayPerk1ColorScythes)},{cvar($varFuriousRamsayPerk1ColorScythes)},{cvar($varFuriousRamsayPerk1ColorScythes)}" text="LVL" font_size="12"/>
+						<label depth="8" name="FuriousRamsayPerk1LevelNumberLabel" pos="120,-1" width="{cvar($varFuriousRamsayPerk1LevelNumberWidthScythes)}" height="{cvar($varFuriousRamsayPerk1HeightScythes)}" justify="left" color="{cvar($varFuriousRamsayPerk1ColorScythes)},{cvar($varFuriousRamsayPerk1ColorScythes)},{cvar($varFuriousRamsayPerk1ColorScythes)}" text="{cvar($varFuriousRamsayPerk1Level)}" font_size="12"/>
+					</rect>
 
 					<rect name="FuriousRamsayAttributeDexterity" width="100" depth="2" pos="8,-35" height="15">
 						<filledsprite depth="5" name="background" pos="0,0" color="0,0,0,255" height="15" width="100" globalopacity="false" type="filled" fill="1" />
@@ -231,6 +242,11 @@
 						<label depth="8" name="FuriousRamsayPerk2NameLabel" pos="3,-1" width="{cvar($varFuriousRamsayPerk2NameWidthDesertVulture)}" height="{cvar($varFuriousRamsayPerk2HeightDesertVulture)}" justify="left" color="[white]" text="DESERT VULTURE" font_size="12"/>
 						<label depth="8" name="FuriousRamsayPerk2LevelCaptionLabel" pos="73,-1" width="{cvar($varFuriousRamsayPerk2LevelCaptionWidthDesertVulture)}" height="{cvar($varFuriousRamsayPerk2HeightDesertVulture)}" justify="right" color="{cvar($varFuriousRamsayPerk2ColorDesertVulture)},{cvar($varFuriousRamsayPerk2ColorDesertVulture)},{cvar($varFuriousRamsayPerk2ColorDesertVulture)}" text="LVL" font_size="12"/>
 						<label depth="8" name="FuriousRamsayPerk2LevelNumberLabel" pos="120,-1" width="{cvar($varFuriousRamsayPerk2LevelNumberWidthDesertVulture)}" height="{cvar($varFuriousRamsayPerk2HeightDesertVulture)}" justify="left" color="{cvar($varFuriousRamsayPerk2ColorDesertVulture)},{cvar($varFuriousRamsayPerk2ColorDesertVulture)},{cvar($varFuriousRamsayPerk2ColorDesertVulture)}" text="{cvar($varFuriousRamsayPerk2Level)}" font_size="12"/>
+					</rect>
+					<rect name="FuriousRamsayPerkTacticalAssaultRifles" width="134" depth="2" pos="115,-35" height="15">
+						<label depth="8" name="FuriousRamsayPerk2NameLabel" pos="3,-1" width="{cvar($varFuriousRamsayPerk2NameWidthTacticalAssaultRifles)}" height="{cvar($varFuriousRamsayPerk2HeightTacticalAssaultRifles)}" justify="left" color="[white]" text="ASSAULT RIFLES" font_size="12"/>
+						<label depth="8" name="FuriousRamsayPerk2LevelCaptionLabel" pos="73,-1" width="{cvar($varFuriousRamsayPerk2LevelCaptionWidthTacticalAssaultRifles)}" height="{cvar($varFuriousRamsayPerk2HeightTacticalAssaultRifles)}" justify="right" color="{cvar($varFuriousRamsayPerk2ColorTacticalAssaultRifles)},{cvar($varFuriousRamsayPerk2ColorTacticalAssaultRifles)},{cvar($varFuriousRamsayPerk2ColorTacticalAssaultRifles)}" text="LVL" font_size="12"/>
+						<label depth="8" name="FuriousRamsayPerk2LevelNumberLabel" pos="120,-1" width="{cvar($varFuriousRamsayPerk2LevelNumberWidthTacticalAssaultRifles)}" height="{cvar($varFuriousRamsayPerk2HeightTacticalAssaultRifles)}" justify="left" color="{cvar($varFuriousRamsayPerk2ColorTacticalAssaultRifles)},{cvar($varFuriousRamsayPerk2ColorTacticalAssaultRifles)},{cvar($varFuriousRamsayPerk2ColorTacticalAssaultRifles)}" text="{cvar($varFuriousRamsayPerk2Level)}" font_size="12"/>
 					</rect>
 
 					<rect name="FuriousRamsayAttributeConstitution" width="100" depth="2" pos="8,-55" height="15">

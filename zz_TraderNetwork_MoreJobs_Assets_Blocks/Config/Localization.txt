@@ -111,6 +111,8 @@ FuriousRamsayClassXPBuilder,items,Items,Builder Class XP Boost - DEV
 FuriousRamsayClassXPBuilderDesc,items,Items,"Use this to boost your Builder Class XP."
 FuriousRamsayClassXPChef,items,Items,Sous-Chef Class XP Boost - DEV
 FuriousRamsayClassXPChefDesc,items,Items,"Use this to boost your Sous-Chef Class XP."
+FuriousRamsayClassXPWitchDoctor,items,Items,Witch Doctor Class XP Boost - DEV
+FuriousRamsayClassXPWitchDoctorDesc,items,Items,"Use this to boost your Witch Doctor Class XP."
 
 FuriousRamsayClassXPSpear,items,Items,"Spear Expertise XP Boost - DEV"
 FuriousRamsayClassXPBow,items,Items,"Bow Expertise XP Boost - DEV"
@@ -257,6 +259,8 @@ FuriousRamsayImportantAuraBuilder,items,Items,Important Note
 FuriousRamsayImportantAuraBuilderDesc,items,Items,"You have been granted the [c256fc]Ranged Dismemberment Aura[-] ability.\n\nIt will become active when you wear your full set of class gear. You will also be able to craft this gear into a mod that can be worn in any head armor should you wish to use other armor.\n\nPlease note that you cannot both use this mod and use your class gear.\n\nOne important note about this aura. If it triggers, you will hear a sound and have very limited time to dismember any target with a ranged weapon.\n\n - Briston"
 FuriousRamsayImportantAuraChef,items,Items,Important Note
 FuriousRamsayImportantAuraChefDesc,items,Items,"You have been granted the [878787]Ranged Knockdown Aura[-] ability.\n\nIt will become active when you wear your full set of class gear. You will also be able to craft this gear into a mod that can be worn in any head armor should you wish to use other armor.\n\nPlease note that you cannot both use this mod and use your class gear.\n\n - Briston"
+FuriousRamsayImportantAuraWitchDoctor,items,Items,Important Note
+FuriousRamsayImportantAuraWitchDoctorDesc,items,Items,"You have been granted the [878787]Ranged Mind Control Aura[-] ability.\n\nIt will become active when you wear your full set of class gear. You will also be able to craft this gear into a mod that can be worn in any head armor should you wish to use other armor.\n\nPlease note that you cannot both use this mod and use your class gear.\n\n - Briston"
 
 FuriousRamsayImportantDecoys,items,Items,Important Note
 FuriousRamsayImportantDecoysDesc,items,Items,"You've reached a high enough level to start crafting some explosive Decoys. Here's one you can use as a test.\n\n - Briston"
@@ -365,6 +369,13 @@ FuriousRamsayImportantChefKnivesWeapon2,items,Items,Important Note
 FuriousRamsayImportantChefKnivesWeapon2Desc,items,Items,"[569c59]You have reached Knives Level 6[-]:\n\nYou can now craft the following weapons in your toolbox:\n • [57ada6]Military Kukri[-]\n • [57ada6]Honshu Boshin Combat Kukri[-]\n\nNote: This is for information only and can be thrown away."
 FuriousRamsayImportantChefKnivesWeapon3,items,Items,Important Note
 FuriousRamsayImportantChefKnivesWeapon3Desc,items,Items,"[569c59]You have reached Knives Level 8[-]:\n\nYou can now craft the following weapon in your toolbox:\n • [57ada6]The Jackal, Assassin Knife[-]\n\nNote: This is for information only and can be thrown away."
+
+FuriousRamsayImportantChefScythesWeapon1,items,Items,Important Note
+FuriousRamsayImportantChefScythesWeapon1Desc,items,Items,"[569c59]You have reached Scythes Level 4[-]:\n\nYou can now craft the following weapons in your toolbox:\n • [57ada6]TBD[-]\n • [57ada6]TBD[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantChefScythesWeapon2,items,Items,Important Note
+FuriousRamsayImportantChefScythesWeapon2Desc,items,Items,"[569c59]You have reached Scythes Level 6[-]:\n\nYou can now craft the following weapons in your toolbox:\n • [57ada6]TBD[-]\n • [57ada6]TBD[-]\n\nNote: This is for information only and can be thrown away."
+FuriousRamsayImportantChefScythesWeapon3,items,Items,Important Note
+FuriousRamsayImportantChefScythesWeapon3Desc,items,Items,"[569c59]You have reached Scythes Level 8[-]:\n\nYou can now craft the following weapon in your toolbox:\n • [57ada6]TBD[-]\n\nNote: This is for information only and can be thrown away."
 
 FuriousRamsayLargeRock,items,Items,Large Rock
 FuriousRamsayLargeRockDesc,items,Items,"Description"

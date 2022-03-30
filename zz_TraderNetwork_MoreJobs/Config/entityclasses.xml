@@ -39,7 +39,7 @@
 	</append>
 
 	<setattribute xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='AITask-5']" name="data">class=EntityPlayer,60,EntityNPC,60,EntityZombie,60,EntityEnemyAnimal,30</setattribute>
-	<setattribute xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='AITarget-4']" name="data">class=EntityPlayer,0,0,EntityNPC,0,0,EntityNPC,0,0,EntityEnemyAnimal,0,0</setattribute>
+	<setattribute xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='AITarget-4']" name="data">class=EntityPlayer,0,0,EntityNPC,0,0,EntityZombie,0,0,EntityEnemyAnimal,0,0</setattribute>
 
 	<setattribute xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='SightRange']" name="value">60</setattribute>
 	<setattribute xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='AINoiseSeekDist']" name="value">10</setattribute>

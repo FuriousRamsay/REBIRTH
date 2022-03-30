@@ -96,6 +96,14 @@
 			<ingredient name="FuriousRamsayStarterArmorBootsChef" count="1" />
 		</recipe>
 
+		<recipe name="FuriousRamsayAuraModWitchDoctor" count="1" craft_area="FuriousRamsayForge" craft_time="20" always_unlocked="true">
+			<ingredient name="FuriousRamsayMoltenSteel" count="15"/>
+			<ingredient name="FuriousRamsayStarterArmorHeadWitchDoctor" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorChestWitchDoctor" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorGlovesWitchDoctor" count="1" />
+			<ingredient name="FuriousRamsayStarterArmorBootsWitchDoctor" count="1" />
+		</recipe>
+
 		<!--<recipe name="resourceRepairKit" count="1" craft_area="workbench" craft_time="60" craft_tool="FuriousRamsayScrewdriver" always_unlocked="true">
 			<ingredient name="resourceForgedIron" count="10" />
 			<ingredient name="resourceForgedSteel" count="5" />
@@ -249,6 +257,13 @@
 		</recipe>
 		<recipe name="FuriousRamsayStarterArmorSkirtChef" craft_time="5" always_unlocked="true">
 			<ingredient name="FuriousRamsayStarterArmorLegsChef" count="1"/>
+		</recipe>
+
+		<recipe name="FuriousRamsayStarterArmorLegsWitchDoctor" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayStarterArmorSkirtWitchDoctor" count="1"/>
+		</recipe>
+		<recipe name="FuriousRamsayStarterArmorSkirtWitchDoctor" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayStarterArmorLegsWitchDoctor" count="1"/>
 		</recipe>
 	</append>
 
@@ -681,6 +696,10 @@
 			<ingredient name="FuriousRamsayClassBookGeneric" count="1"/>
 		</recipe>
 
+		<recipe name="qc_FuriousRamsayWitchDoctorTraining" craft_time="5" always_unlocked="true">
+			<ingredient name="FuriousRamsayClassBookGeneric" count="1"/>
+		</recipe>
+
 		<!-- AURA PERK BOOKS -->
 		<recipe name="FuriousRamsayHealingAuraBook" craft_time="5" always_unlocked="true">
 			<ingredient name="FuriousRamsayAuraBookGeneric" count="1"/>
@@ -752,5 +771,31 @@
 		</recipe>
 
 	</append>
-    
+	
+	<setattribute xpath="/recipes/recipe[@name='gunHandgunT2Magnum44']/ingredient[@name='resourceForgedSteel']" name="count">20</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='gunHandgunT3DesertVulture']/ingredient[@name='resourceForgedSteel']" name="count">30</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='gunHandgunT3SMG5']/ingredient[@name='resourceForgedSteel']" name="count">30</setattribute>
+
+	<setattribute xpath="/recipes/recipe[@name='gunShotgunT2PumpShotgun']/ingredient[@name='resourceForgedSteel']" name="count">25</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='gunShotgunT3AutoShotgun']/ingredient[@name='resourceForgedSteel']" name="count">40</setattribute>
+
+	<setattribute xpath="/recipes/recipe[@name='gunRifleT2LeverActionRifle']/ingredient[@name='resourceForgedSteel']" name="count">25</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='gunRifleT3SniperRifle']/ingredient[@name='resourceForgedSteel']" name="count">40</setattribute>
+
+	<setattribute xpath="/recipes/recipe[@name='gunMGT2TacticalAR']/ingredient[@name='resourceForgedSteel']" name="count">40</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='gunMGT3M60']/ingredient[@name='resourceForgedSteel']" name="count">50</setattribute>
+
+	<append xpath="/recipes/recipe[@name='gunHandgunT1Pistol']">
+		<ingredient name="resourceForgedSteel" count="10" />
+	</append>
+	<append xpath="/recipes/recipe[@name='gunShotgunT1DoubleBarrel']">
+		<ingredient name="resourceForgedSteel" count="10" />
+	</append>
+	<append xpath="/recipes/recipe[@name='gunRifleT1HuntingRifle']">
+		<ingredient name="resourceForgedSteel" count="10" />
+	</append>
+	<append xpath="/recipes/recipe[@name='gunMGT1AK47']">
+		<ingredient name="resourceForgedSteel" count="30" />
+	</append>
+
 </Config>
